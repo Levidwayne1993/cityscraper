@@ -1,0 +1,446 @@
+╔══════════════════════════════════════════════════════════════════╗
+║           CITYSCRAPER.ORG — COMPLETE SETUP GUIDE               ║
+║       Advanced Multi-Site Aggregator Engine v1.0.0              ║
+║  Powering: YardShoppers | CheapHouseHub | CryptoToolbox        ║
+╚══════════════════════════════════════════════════════════════════╝
+
+================================================================
+  TABLE OF CONTENTS
+================================================================
+  1. Architecture Overview
+  2. Prerequisites
+  3. File Structure & Where Each File Goes
+  4. Supabase Setup (SQL Commands)
+  5. VS Code / PowerShell Terminal Commands
+  6. Environment Variables Setup
+  7. GitHub Setup & Push
+  8. Vercel Deployment
+  9. Hostinger Domain Setup
+  10. Testing Your Endpoints
+  11. Adding More Scrape Sources
+  12. Troubleshooting
+================================================================
+
+
+================================================================
+  1. ARCHITECTURE OVERVIEW
+================================================================
+
+  CityScraper.org is a Next.js 14 app that:
+
+  ┌─────────────────────────────────────────────────────────────┐
+  │                    CITYSCRAPER.ORG                          │
+  │  ┌──────────┐  ┌──────────────┐  ┌────────────────────┐    │
+  │  │ SCRAPERS │→ │ SUPABASE DB  │→ │  PUSH MODULES      │    │
+  │  │          │  │              │  │                    │    │
+  │  │ • Yards  │  │ • yard_sales │  │ → yardshoppers.com │    │
+  │  │ • Homes  │  │ • cheap_homes│  │ → cheaphousehub.com│    │
+  │  │ • Crypto │  │ • crypto_*   │  │ → cryptotoolbox.org│    │
+  │  └──────────┘  └──────────────┘  └────────────────────┘    │
+  │                                                             │
+  │  ┌──────────────────────────────────────────────────────┐   │
+  │  │ FRONTEND: Matrix Theme Dashboard + Data Viewers      │   │
+  │  │ Vercel Cron: Runs every 4 hours automatically        │   │
+  │  └──────────────────────────────────────────────────────┘   │
+  └─────────────────────────────────────────────────────────────┘
+
+  Data Flow:
+  1. Scrapers pull data from Craigslist, GSALR, EstateSales,
+     HUD HomeStore, RealtyMole, RentCast, Auction.com,
+     CoinGecko, CoinMarketCap, DeFiLlama, CryptoCompare
+  2. Data is normalized and stored in CityScraper's Supabase DB
+  3. Push modules forward data to each target website's DB
+  4. Vercel Cron automates the cycle every 4 hours
+
+
+================================================================
+  2. PREREQUISITES
+================================================================
+
+  Install these before starting:
+
+  • Node.js 18+ (download from https://nodejs.org)
+  • Git (download from https://git-scm.com)
+  • VS Code (download from https://code.visualstudio.com)
+  • A Supabase account (free tier: https://supabase.com)
+  • A Vercel account (free tier: https://vercel.com)
+  • A GitHub account (https://github.com)
+  • Hostinger account (for cityscraper.org domain)
+
+  Optional API keys (free tiers available):
+  • CoinGecko API key (https://www.coingecko.com/en/api)
+  • CoinMarketCap API key (https://coinmarketcap.com/api/)
+  • RealtyMole API key (https://rapidapi.com/realtymole)
+  • RentCast API key (https://rentcast.io)
+
+
+================================================================
+  3. FILE STRUCTURE & WHERE EACH FILE GOES
+================================================================
+
+  IMPORTANT: All files are delivered as .txt files.
+  Remove the .txt extension when placing them in your project.
+  Example: "package.json.txt" → save as "package.json"
+
+  cityscraper/
+  ├── package.json              ← from package.json.txt
+  ├── next.config.js            ← from next.config.js.txt
+  ├── tailwind.config.ts        ← from tailwind.config.ts.txt
+  ├── tsconfig.json             ← from tsconfig.json.txt
+  ├── postcss.config.js         ← from postcss.config.js.txt
+  ├── vercel.json               ← from vercel.json.txt
+  ├── .gitignore                ← from dot-gitignore.txt
+  ├── .env.local                ← from dot-env-local.txt
+  │
+  ├── supabase/
+  │   └── SUPABASE-SCHEMA.sql   ← from SUPABASE-SCHEMA.sql.txt
+  │
+  ├── src/
+  │   ├── app/
+  │   │   ├── globals.css       ← from src/app/globals.css.txt
+  │   │   ├── layout.tsx        ← from src/app/layout.tsx.txt
+  │   │   ├── page.tsx          ← from src/app/page.tsx.txt
+  │   │   │
+  │   │   ├── dashboard/
+  │   │   │   └── page.tsx      ← from src/app/dashboard/page.tsx.txt
+  │   │   │
+  │   │   ├── yard-sales/
+  │   │   │   └── page.tsx      ← from src/app/yard-sales/page.tsx.txt
+  │   │   │
+  │   │   ├── cheap-homes/
+  │   │   │   └── page.tsx      ← from src/app/cheap-homes/page.tsx.txt
+  │   │   │
+  │   │   ├── crypto/
+  │   │   │   └── page.tsx      ← from src/app/crypto/page.tsx.txt
+  │   │   │
+  │   │   └── api/
+  │   │       ├── cron/
+  │   │       │   └── route.ts  ← from src/app/api/cron/route.ts.txt
+  │   │       ├── health/
+  │   │       │   └── route.ts  ← from src/app/api/health/route.ts.txt
+  │   │       ├── scrape/
+  │   │       │   ├── yard-sales/
+  │   │       │   │   └── route.ts
+  │   │       │   ├── cheap-homes/
+  │   │       │   │   └── route.ts
+  │   │       │   └── crypto/
+  │   │       │       └── route.ts
+  │   │       └── data/
+  │   │           ├── yard-sales/
+  │   │           │   └── route.ts
+  │   │           ├── cheap-homes/
+  │   │           │   └── route.ts
+  │   │           └── crypto/
+  │   │               └── route.ts
+  │   │
+  │   ├── components/
+  │   │   ├── MatrixRain.tsx    ← from src/components/MatrixRain.tsx.txt
+  │   │   ├── CityScape.tsx     ← from src/components/CityScape.tsx.txt
+  │   │   └── Navbar.tsx        ← from src/components/Navbar.tsx.txt
+  │   │
+  │   └── lib/
+  │       ├── supabase.ts       ← from src/lib/supabase.ts.txt
+  │       ├── utils/
+  │       │   └── auth.ts       ← from src/lib/utils/auth.ts.txt
+  │       ├── scrapers/
+  │       │   ├── yard-sale-scraper.ts
+  │       │   ├── home-scraper.ts
+  │       │   └── crypto-scraper.ts
+  │       └── pushers/
+  │           ├── yard-shoppers-push.ts
+  │           ├── cheap-house-push.ts
+  │           └── crypto-toolbox-push.ts
+
+
+================================================================
+  4. SUPABASE SETUP
+================================================================
+
+  STEP 1: Create a new Supabase project
+  - Go to https://supabase.com → New Project
+  - Name it "cityscraper"
+  - Choose a region close to you (US West for Pacific time)
+  - Save your database password!
+
+  STEP 2: Run the SQL schema
+  - In Supabase Dashboard → SQL Editor → New Query
+  - Open SUPABASE-SCHEMA.sql.txt
+  - Copy the ENTIRE contents
+  - Paste into the SQL Editor
+  - Click "Run"
+  - You should see: "Success. No rows returned"
+
+  STEP 3: Get your keys
+  - Supabase Dashboard → Settings → API
+  - Copy "Project URL" → NEXT_PUBLIC_SUPABASE_URL
+  - Copy "anon/public key" → NEXT_PUBLIC_SUPABASE_ANON_KEY
+  - Copy "service_role key" → SUPABASE_SERVICE_ROLE_KEY
+  - Put these in your .env.local file
+
+  STEP 4 (Optional): Create separate Supabase projects for
+  each target website (yardshoppers, cheaphousehub, cryptotoolbox)
+  and add their keys to .env.local as well.
+
+
+================================================================
+  5. VS CODE / POWERSHELL TERMINAL COMMANDS
+================================================================
+
+  Open VS Code, then open a new PowerShell terminal (Ctrl+`)
+
+  # --- STEP 1: Create project folder ---
+  cd C:\Users\YourName\Projects
+  mkdir cityscraper
+  cd cityscraper
+
+  # --- STEP 2: Initialize the project ---
+  # Copy all your .txt files into the correct locations
+  # (remove .txt extensions as shown in Section 3)
+  # Then run:
+
+  npm install
+
+  # --- STEP 3: Verify installation ---
+  npm run dev
+
+  # Open browser to http://localhost:3000
+  # You should see the Matrix-themed homepage!
+  # Press Ctrl+C to stop the dev server.
+
+  # --- STEP 4: Test a scrape (after Supabase is set up) ---
+  # In a new terminal:
+  curl -X POST http://localhost:3000/api/scrape/crypto ^
+    -H "x-api-key: YOUR_API_KEY_FROM_ENV"
+
+  # --- STEP 5: Build for production ---
+  npm run build
+
+  # --- STEP 6: Quick commands reference ---
+  npm run dev              # Start development server
+  npm run build            # Production build
+  npm run start            # Start production server
+  npm run lint             # Check for code issues
+
+
+================================================================
+  6. ENVIRONMENT VARIABLES SETUP
+================================================================
+
+  1. Copy dot-env-local.txt to your project root
+  2. Rename it to .env.local
+  3. Fill in ALL the values:
+
+  Required (minimum to run):
+  ✅ NEXT_PUBLIC_SUPABASE_URL
+  ✅ NEXT_PUBLIC_SUPABASE_ANON_KEY
+  ✅ SUPABASE_SERVICE_ROLE_KEY
+  ✅ CITYSCRAPER_API_KEY (make one up: use a password generator)
+  ✅ CRON_SECRET (make one up: another random string)
+
+  Optional (scrapers work without these but get more data with them):
+  ⬜ COINGECKO_API_KEY (free, gets higher rate limits)
+  ⬜ COINMARKETCAP_API_KEY (free tier: 333 calls/day)
+  ⬜ REALTY_MOLE_API_KEY (via RapidAPI, free tier available)
+  ⬜ RENTCAST_API_KEY (free tier: 50 calls/month)
+
+  Target site keys (fill in when those sites are set up):
+  ⬜ YARDSHOPPERS_SUPABASE_URL + KEY
+  ⬜ CHEAPHOUSEHUB_SUPABASE_URL + KEY
+  ⬜ CRYPTOTOOLBOX_SUPABASE_URL + KEY
+
+
+================================================================
+  7. GITHUB SETUP & PUSH
+================================================================
+
+  # --- In VS Code PowerShell terminal ---
+
+  # Initialize git repo
+  git init
+
+  # Add all files
+  git add .
+
+  # First commit
+  git commit -m "CityScraper v1.0.0 - Initial commit"
+
+  # Create repo on GitHub:
+  # Go to https://github.com/new
+  # Name: cityscraper
+  # Private repo (recommended)
+  # Do NOT add README or .gitignore (we already have them)
+
+  # Connect to GitHub (replace with your URL)
+  git remote add origin https://github.com/YOUR_USERNAME/cityscraper.git
+
+  # Push to GitHub
+  git branch -M main
+  git push -u origin main
+
+
+================================================================
+  8. VERCEL DEPLOYMENT
+================================================================
+
+  STEP 1: Connect to Vercel
+  - Go to https://vercel.com → Add New Project
+  - Import your GitHub repo "cityscraper"
+  - Framework: Next.js (auto-detected)
+  - Root Directory: ./ (default)
+
+  STEP 2: Add Environment Variables in Vercel
+  - In the Vercel project settings → Environment Variables
+  - Add EVERY variable from your .env.local file
+  - Make sure to add them for Production, Preview, and Development
+
+  STEP 3: Deploy
+  - Click "Deploy"
+  - Wait for build to complete
+  - Your site will be at: https://cityscraper-xxx.vercel.app
+
+  STEP 4: Verify Cron Job
+  - Vercel Dashboard → your project → Settings → Cron Jobs
+  - You should see: /api/cron running every 4 hours
+  - NOTE: Cron jobs require Vercel Pro plan ($20/mo)
+  - Free plan alternative: use a free cron service like
+    cron-job.org to hit your /api/cron endpoint every 4 hours
+
+  STEP 5: Custom Domain (after Hostinger DNS setup)
+  - Vercel Dashboard → Domains → Add "cityscraper.org"
+  - Follow the DNS instructions Vercel gives you
+
+
+================================================================
+  9. HOSTINGER DOMAIN SETUP
+================================================================
+
+  STEP 1: In Hostinger Dashboard
+  - Go to DNS / Nameservers settings for cityscraper.org
+
+  STEP 2: Point DNS to Vercel
+  - Option A (Nameservers): Change nameservers to Vercel's
+  - Option B (DNS Records — recommended):
+
+  Add these DNS records:
+
+  Type    Name    Value                           TTL
+  ──────────────────────────────────────────────────────
+  A       @       76.76.21.21                     3600
+  CNAME   www     cname.vercel-dns.com            3600
+
+  STEP 3: In Vercel
+  - Add cityscraper.org as custom domain
+  - Add www.cityscraper.org as redirect → cityscraper.org
+  - Vercel will auto-provision SSL certificate
+
+  STEP 4: Wait 10-30 minutes for DNS propagation
+  - Test: visit https://cityscraper.org
+
+
+================================================================
+  10. TESTING YOUR ENDPOINTS
+================================================================
+
+  # Test health endpoint (no auth needed)
+  curl https://cityscraper.org/api/health
+
+  # Test yard sales scraper
+  curl -X POST https://cityscraper.org/api/scrape/yard-sales ^
+    -H "x-api-key: YOUR_CITYSCRAPER_API_KEY"
+
+  # Test cheap homes scraper
+  curl -X POST https://cityscraper.org/api/scrape/cheap-homes ^
+    -H "x-api-key: YOUR_CITYSCRAPER_API_KEY"
+
+  # Test crypto scraper
+  curl -X POST https://cityscraper.org/api/scrape/crypto ^
+    -H "x-api-key: YOUR_CITYSCRAPER_API_KEY"
+
+  # Fetch scraped data
+  curl https://cityscraper.org/api/data/yard-sales?page=1&limit=10
+  curl https://cityscraper.org/api/data/cheap-homes?state=WA&max_price=100000
+  curl https://cityscraper.org/api/data/crypto?type=prices&limit=50
+  curl https://cityscraper.org/api/data/crypto?type=news
+  curl https://cityscraper.org/api/data/crypto?type=defi
+
+
+================================================================
+  11. ADDING MORE SCRAPE SOURCES
+================================================================
+
+  To add a new yard sale source:
+  1. Open src/lib/scrapers/yard-sale-scraper.ts
+  2. Add a new async function like scrapeNewSource()
+  3. Add cheerio selectors for the new site's HTML
+  4. Call it from the main scrapeYardSales() function
+  5. Push to GitHub → auto-deploys to Vercel
+
+  To add a new crypto data source:
+  1. Open src/lib/scrapers/crypto-scraper.ts
+  2. Add a new fetch function for the API
+  3. Map the response to your table schema
+  4. Add to the main scrapeCrypto() function
+
+  To adjust scrape frequency:
+  1. Edit vercel.json → change cron schedule
+  2. "0 */4 * * *" = every 4 hours
+  3. "0 */2 * * *" = every 2 hours
+  4. "0 */1 * * *" = every hour
+
+
+================================================================
+  12. TROUBLESHOOTING
+================================================================
+
+  ERROR: "Module not found"
+  → Run: npm install
+  → Check file paths match the structure in Section 3
+
+  ERROR: "Supabase connection failed"
+  → Verify NEXT_PUBLIC_SUPABASE_URL is correct
+  → Check that your Supabase project is active
+  → Verify the SQL schema was run successfully
+
+  ERROR: "401 Unauthorized" on API calls
+  → Make sure x-api-key header matches CITYSCRAPER_API_KEY
+  → For cron: verify CRON_SECRET matches in Vercel settings
+
+  ERROR: "Rate limited" from scrapers
+  → The queue system limits to 2 requests/second
+  → If still rate-limited, increase the interval in PQueue config
+  → Some sites may block automated requests — this is normal
+
+  ERROR: Vercel build fails
+  → Check: npm run build works locally first
+  → Verify all environment variables are set in Vercel
+  → Check Vercel build logs for specific error
+
+  ERROR: DNS not working
+  → DNS can take up to 48 hours (usually 10-30 min)
+  → Verify A record points to 76.76.21.21
+  → Verify CNAME www points to cname.vercel-dns.com
+
+  NEED HELP?
+  → Check Supabase logs: Dashboard → Logs
+  → Check Vercel logs: Dashboard → Deployments → View Logs
+  → Check browser console: F12 → Console tab
+
+
+================================================================
+  QUICK-START CHECKLIST
+================================================================
+
+  [ ] 1. Create Supabase project & run SQL schema
+  [ ] 2. Create project folder and place all files
+  [ ] 3. Fill in .env.local with Supabase keys
+  [ ] 4. Run: npm install
+  [ ] 5. Run: npm run dev (test locally)
+  [ ] 6. Create GitHub repo & push code
+  [ ] 7. Deploy to Vercel & add env variables
+  [ ] 8. Set up Hostinger DNS → Vercel
+  [ ] 9. Test API endpoints
+  [ ] 10. Watch the Matrix rain and data flow 🟢
+
+================================================================
+  Built by Levi | CityScraper.org | 2026
+================================================================

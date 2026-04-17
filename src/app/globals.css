@@ -1,0 +1,261 @@
+/* SAVE AS: src/app/globals.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   CITYSCRAPER.ORG — MATRIX CITYSCAPE THEME
+   ============================================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;600;700&family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --matrix-green: #00ff41;
+  --matrix-green-dim: #00cc33;
+  --matrix-cyan: #00d4ff;
+  --matrix-black: #0a0a0a;
+  --matrix-dark: #0d1117;
+  --matrix-panel: #0d1b0e;
+  --matrix-amber: #ffb000;
+  --matrix-red: #ff3333;
+  --glow-green: 0 0 10px #00ff4140, 0 0 20px #00ff4120;
+  --glow-cyan: 0 0 10px #00d4ff40, 0 0 20px #00d4ff20;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #00ff4140 #0a0a0a;
+}
+
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #00ff4140;
+  border-radius: 3px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #00ff4180;
+}
+
+body {
+  background-color: var(--matrix-black);
+  color: var(--matrix-green);
+  font-family: 'JetBrains Mono', monospace;
+  overflow-x: hidden;
+}
+
+/* === MATRIX RAIN CANVAS === */
+.matrix-rain-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* === CITYSCAPE SILHOUETTE === */
+.cityscape {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 35vh;
+  z-index: 1;
+  pointer-events: none;
+  opacity: 0.3;
+}
+
+.cityscape svg {
+  width: 100%;
+  height: 100%;
+}
+
+/* === SCAN LINE OVERLAY === */
+.scan-line {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #00ff4130, transparent);
+  z-index: 2;
+  pointer-events: none;
+  animation: scanLine 4s linear infinite;
+}
+
+/* === MAIN CONTENT === */
+.main-content {
+  position: relative;
+  z-index: 10;
+  min-height: 100vh;
+}
+
+/* === GLASS PANEL === */
+.glass-panel {
+  background: rgba(13, 27, 14, 0.85);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(0, 255, 65, 0.15);
+  border-radius: 8px;
+  box-shadow: var(--glow-green);
+}
+
+.glass-panel:hover {
+  border-color: rgba(0, 255, 65, 0.3);
+  box-shadow: 0 0 15px #00ff4130, 0 0 30px #00ff4110;
+}
+
+/* === MATRIX TEXT GLOW === */
+.text-glow {
+  text-shadow: 0 0 10px #00ff4180, 0 0 20px #00ff4140, 0 0 40px #00ff4120;
+}
+
+.text-glow-cyan {
+  text-shadow: 0 0 10px #00d4ff80, 0 0 20px #00d4ff40, 0 0 40px #00d4ff20;
+}
+
+.text-glow-amber {
+  text-shadow: 0 0 10px #ffb00080, 0 0 20px #ffb00040;
+}
+
+/* === NEON BUTTON === */
+.neon-btn {
+  position: relative;
+  padding: 10px 24px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: var(--matrix-green);
+  background: transparent;
+  border: 1px solid var(--matrix-green);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.neon-btn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, #00ff4120, transparent);
+  transition: left 0.5s ease;
+}
+
+.neon-btn:hover {
+  background: #00ff4115;
+  box-shadow: 0 0 15px #00ff4140, 0 0 30px #00ff4120, inset 0 0 15px #00ff4110;
+}
+
+.neon-btn:hover::before {
+  left: 100%;
+}
+
+.neon-btn-cyan {
+  color: var(--matrix-cyan);
+  border-color: var(--matrix-cyan);
+}
+
+.neon-btn-cyan:hover {
+  background: #00d4ff15;
+  box-shadow: 0 0 15px #00d4ff40, 0 0 30px #00d4ff20, inset 0 0 15px #00d4ff10;
+}
+
+.neon-btn-amber {
+  color: var(--matrix-amber);
+  border-color: var(--matrix-amber);
+}
+
+.neon-btn-amber:hover {
+  background: #ffb00015;
+  box-shadow: 0 0 15px #ffb00040, 0 0 30px #ffb00020;
+}
+
+/* === STATUS INDICATORS === */
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  animation: glowPulse 2s ease-in-out infinite;
+}
+
+.status-dot-green {
+  background: var(--matrix-green);
+  box-shadow: 0 0 6px var(--matrix-green);
+}
+
+.status-dot-amber {
+  background: var(--matrix-amber);
+  box-shadow: 0 0 6px var(--matrix-amber);
+}
+
+.status-dot-red {
+  background: var(--matrix-red);
+  box-shadow: 0 0 6px var(--matrix-red);
+}
+
+/* === DATA GRID === */
+.data-grid {
+  display: grid;
+  gap: 1px;
+  background: #00ff4110;
+  border: 1px solid #00ff4120;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.data-grid > * {
+  background: var(--matrix-dark);
+  padding: 8px 12px;
+}
+
+/* === TERMINAL FONT SIZES === */
+.terminal-xs { font-size: 0.65rem; }
+.terminal-sm { font-size: 0.75rem; }
+.terminal-md { font-size: 0.85rem; }
+.terminal-lg { font-size: 1rem; }
+
+/* === LOADING ANIMATION === */
+@keyframes matrixLoad {
+  0% { content: '[     ]'; }
+  20% { content: '[=    ]'; }
+  40% { content: '[==   ]'; }
+  60% { content: '[===  ]'; }
+  80% { content: '[==== ]'; }
+  100% { content: '[=====]'; }
+}
+
+.loading-bar::after {
+  content: '[=====]';
+  animation: matrixLoad 1.5s steps(6) infinite;
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--matrix-green);
+}
+
+/* === RESPONSIVE === */
+@media (max-width: 768px) {
+  .cityscape {
+    height: 20vh;
+    opacity: 0.2;
+  }
+}
+
+/* === GRID BACKGROUND OVERLAY === */
+.grid-overlay {
+  background-image: 
+    linear-gradient(rgba(0,255,65,0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0,255,65,0.03) 1px, transparent 1px);
+  background-size: 50px 50px;
+}
