@@ -1,3 +1,10 @@
+// ============================================================
+// FILE: src/app/dashboard/page.tsx
+// STATUS: FIXED — removed hardcoded 'your-key-here' API key.
+//         Now reads from NEXT_PUBLIC_CITYSCRAPER_API_KEY env var.
+// REPLACES: src/app/dashboard/page.tsx (existing file)
+// ============================================================
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -62,6 +69,11 @@ export default function DashboardPage() {
     }
   }
 
+  // ============================================================
+  // FIX: Replaced hardcoded 'your-key-here' with env variable
+  // Add to .env.local and Vercel:
+  //   NEXT_PUBLIC_CITYSCRAPER_API_KEY=cs_your_random_secret_key_here
+  // ============================================================
   async function triggerScrape(pipeline: string) {
     setIsRunning(true);
     setPipelines((prev) =>
@@ -71,9 +83,16 @@ export default function DashboardPage() {
     try {
       const res = await fetch(`/api/scrape/${pipeline}`, {
         method: 'POST',
-        headers: { 'x-api-key': 'your-key-here' },
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': process.env.NEXT_PUBLIC_CITYSCRAPER_API_KEY || '',
+        },
       });
       const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || `HTTP ${res.status}`);
+      }
 
       setPipelines((prev) =>
         prev.map((p) =>
@@ -89,7 +108,8 @@ export default function DashboardPage() {
             : p
         )
       );
-    } catch {
+    } catch (err) {
+      console.error(`[Dashboard] Scrape ${pipeline} failed:`, (err as Error).message);
       setPipelines((prev) =>
         prev.map((p) => (p.name === pipeline ? { ...p, status: 'error' } : p))
       );
