@@ -347,7 +347,7 @@ export function parseTimeRange(
   text: string
 ): { start: string | null; end: string | null } {
   const rangeMatch = text.match(
-    /(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)?)\s*[-\u2013\u2014to]+\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.))/i
+    /(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)?)[\s]*[-\u2013\u2014to]+[\s]*(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.))/i
   );
   if (rangeMatch) {
     let startStr = rangeMatch[1];
@@ -381,7 +381,7 @@ export function extractDates(text: string): string[] {
     const matches = text.match(new RegExp(pattern.source, 'gi'));
     if (matches) dates.push(...matches);
   }
-  return [...new Set(dates)];
+  return Array.from(new Set(dates));
 }
 
 export function extractTimes(text: string): string[] {
@@ -390,7 +390,7 @@ export function extractTimes(text: string): string[] {
     const matches = text.match(new RegExp(pattern.source, 'gi'));
     if (matches) times.push(...matches);
   }
-  return [...new Set(times)];
+  return Array.from(new Set(times));
 }
 
 export function extractCity(address: string): string | null {
