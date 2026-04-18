@@ -1,85 +1,61 @@
-// ============================================================
-// FILE: src/app/api/push/route.ts
-// STATUS: MISSING — no API endpoint existed to trigger pushes
-// PURPOSE: Manual push trigger endpoint (POST to push all sites)
-// ============================================================
-
 import { NextRequest, NextResponse } from 'next/server';
-import { validateApiKey } from '@/lib/utils/auth';
 import { pushToYardShoppers } from '@/lib/pushers/yard-shoppers-push';
 import { pushToCheapHouseHub } from '@/lib/pushers/cheap-house-push';
 import { pushToCryptoToolbox } from '@/lib/pushers/crypto-toolbox-push';
 
-export const maxDuration = 120;
+export const maxDuration = 60;
 
-export async function POST(req: NextRequest) {
-  const authError = validateApiKey(req);
-  if (authError) return authError;
+export async function GET(req: NextRequest) {
+  const secret =
+    req.headers.get('authorization')?.replace('Bearer ', '') ||
+    req.headers.get('x-api-key') ||
+    '';
+  const validSecret = process.env.CRON_SECRET || '';
+  if (!validSecret || secret !== validSecret) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
 
+  console.log('[PUSH] ========== Starting push phase ==========');
   const startTime = Date.now();
-  const results: any = {};
+  const results: Record<string, any> = {};
 
   try {
-    // Determine which pipelines to push (default: all)
-    const body = await req.json().catch(() => ({}));
-    const pipelines: string[] = body.pipelines || ['yard-sales', 'cheap-homes', 'crypto'];
-
-    if (pipelines.includes('yard-sales')) {
-      try {
-        results.yardShoppers = await pushToYardShoppers();
-      } catch (err: any) {
-        results.yardShoppers = { success: false, error: err.message, itemsPushed: 0, errors: 1 };
-      }
-    }
-
-    if (pipelines.includes('cheap-homes')) {
-      try {
-        results.cheapHouseHub = await pushToCheapHouseHub();
-      } catch (err: any) {
-        results.cheapHouseHub = { success: false, error: err.message, itemsPushed: 0, errors: 1 };
-      }
-    }
-
-    if (pipelines.includes('crypto')) {
-      try {
-        results.cryptoToolbox = await pushToCryptoToolbox();
-      } catch (err: any) {
-        results.cryptoToolbox = { success: false, error: err.message, itemsPushed: 0, errors: 1 };
-      }
-    }
-
-    const totalPushed =
-      (results.yardShoppers?.itemsPushed || 0) +
-      (results.cheapHouseHub?.itemsPushed || 0) +
-      (results.cryptoToolbox?.itemsPushed || 0);
-
-    const totalErrors =
-      (results.yardShoppers?.errors || 0) +
-      (results.cheapHouseHub?.errors || 0) +
-      (results.cryptoToolbox?.errors || 0);
-
-    const duration = Date.now() - startTime;
-
-    return NextResponse.json({
-      success: totalErrors === 0,
-      totalPushed,
-      totalErrors,
-      duration: `${(duration / 1000).toFixed(1)}s`,
-      results,
-    });
+    results.yard_shoppers = await pushToYardShoppers();
+    console.log(`[PUSH] YardShoppers: ${results.yard_shoppers.itemsPushed} items pushed`);
   } catch (err: any) {
-    return NextResponse.json(
-      { success: false, error: err.message, results },
-      { status: 500 }
-    );
+    results.yard_shoppers = { success: false, itemsPushed: 0, error: err.message };
+    console.error('[PUSH] YardShoppers failed:', err.message);
   }
-}
 
-export async function GET() {
+  try {
+    results.cheap_house_hub = await pushToCheapHouseHub();
+    console.log(`[PUSH] CheapHouseHub: ${results.cheap_house_hub.itemsPushed} items pushed`);
+  } catch (err: any) {
+    results.cheap_house_hub = { success: false, itemsPushed: 0, error: err.message };
+    console.error('[PUSH] CheapHouseHub failed:', err.message);
+  }
+
+  try {
+    results.crypto_toolbox = await pushToCryptoToolbox();
+    console.log(`[PUSH] CryptoToolbox: ${results.crypto_toolbox.itemsPushed} items pushed`);
+  } catch (err: any) {
+    results.crypto_toolbox = { success: false, itemsPushed: 0, error: err.message };
+    console.error('[PUSH] CryptoToolbox failed:', err.message);
+  }
+
+  const duration = Date.now() - startTime;
+  const totalPushed =
+    (results.yard_shoppers?.itemsPushed || 0) +
+    (results.cheap_house_hub?.itemsPushed || 0) +
+    (results.crypto_toolbox?.itemsPushed || 0);
+
+  console.log(`[PUSH] Complete: ${totalPushed} pushed in ${(duration / 1000).toFixed(1)}s`);
+
   return NextResponse.json({
-    endpoint: 'push',
-    status: 'ready',
-    method: 'POST to trigger',
-    usage: 'POST with optional body { "pipelines": ["yard-sales", "cheap-homes", "crypto"] }',
+    success: true,
+    timestamp: new Date().toISOString(),
+    duration: `${(duration / 1000).toFixed(1)}s`,
+    totalPushed,
+    results,
   });
 }
