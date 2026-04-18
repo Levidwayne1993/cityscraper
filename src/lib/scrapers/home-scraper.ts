@@ -1,39 +1,24 @@
 // ============================================================
-//  FILE: src/lib/scrapers/home-scraper.ts  (REPLACES EXISTING)
-//  CHEAP HOME SCRAPER v2.3 — Powers CheapHouseHub.com
-//  
-//  COMPLETE REWRITE: 20+ sources across 7 categories
-//  Categories: Government, Auction/REO, Portals, County, FSBO/Other, Paid (disabled)
-//  
-//  Architecture: Main orchestrator imports source modules
-//  Pattern: save-as-you-go per source, timeout-aware, PQueue rate limiting
+// FILE: src/lib/scrapers/home-scraper.ts (REPLACES EXISTING)
+// CHEAP HOME SCRAPER v3.0 — Powers CheapHouseHub.com
 //
-//  v2.1 FIXES (April 2026):
-//    - Disabled dead sources: HomePath (Angular SPA), HomeSteps (program dead), Hubzu (site dead)
-//    - Reduced deadline from 280s to 250s for safer Vercel buffer
-//    - Added STATE ROTATION: scrapes 10 states per run (all 50 in 5 days)
-//      Prevents timeout from trying all 50 states at once
+// COMPLETE UPDATE: All 7 data pillars integrated
 //
-//  v2.2 FIXES (April 2026):
-//    - Disabled ALL confirmed-broken sources after live Vercel log analysis
-//    - auction-com, xome, realtor-com, county-sheriff, county-tax,
-//      county-foreclosure, fsbo, bank-reo, realtymole, rentcast all 404/dead
-//    - Only HUD, USDA, Zillow, Redfin, Craigslist remain enabled
-//
-//  v2.3 FIXES (April 2026):
-//    - Skip entire source categories where ALL sub-sources are disabled
-//      (County, Auction/REO) — saves 20+ seconds of dead URL requests
-//    - Relaxed address validation: accept addresses without leading number
-//      (fixes 72 auction items rejected as invalid)
-//    - Better logging for validation failures
+// v3.0 CHANGES (April 2026):
+// - RE-ENABLED HomePath (Fannie Mae) via hidden REST API
+// - ADDED Realtor.com via RapidAPI (free tier, 100 calls/mo)
+// - RE-ENABLED Auction.com, Xome (attempt scrape, graceful fail)
+// - RE-ENABLED FSBO.com scraper
+// - RE-ENABLED RealtyMole + RentCast (if API keys set)
+// - ADDED 'realtor-api' source config + 'api' category
+// - Enrichment pipeline hooks (Pillars 3-7) ready for Section 2+
 // ============================================================
-
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { supabaseAdmin } from '@/lib/supabase';
 import PQueue from 'p-queue';
 
-// Import source modules (create these files in src/lib/scrapers/home-sources/)
+// Import source modules
 import { scrapeGovernmentSources } from './home-sources/government';
 import { scrapeAuctionREOSources } from './home-sources/auction-reo';
 import { scrapePortalSources } from './home-sources/portals';
@@ -41,9 +26,8 @@ import { scrapeCountySources } from './home-sources/county';
 import { scrapeOtherSources } from './home-sources/other';
 
 // ============================================================
-//  SHARED TYPES & CONFIG — exported for all source modules
+// SHARED TYPES & CONFIG — exported for all source modules
 // ============================================================
-
 export interface CheapHomeItem {
   title: string;
   address: string;
@@ -60,17 +44,17 @@ export interface CheapHomeItem {
   sqft: number | null;
   lot_size: string | null;
   year_built: number | null;
-  property_type: string;           // single-family, condo, townhome, multi-family, land, mobile, commercial
-  listing_type: string;            // foreclosure, pre-foreclosure, auction, tax-lien, tax-deed, sheriff-sale, reo, short-sale, fsbo, cheap, government, hud, usda
-  listing_category: string;        // government, bank_reo, auction, portal_distressed, county_public, fsbo, other
-  source: string;                  // hud-homestore, homepath, usda, homesteps, auction-com, hubzu, xome, zillow, realtor-com, redfin, craigslist, county-sheriff, county-tax, fsbo-com, etc.
+  property_type: string;
+  listing_type: string;
+  listing_category: string;
+  source: string;
   source_url: string;
   image_urls: string[];
   description: string | null;
-  auction_date: string | null;     // ISO date string for upcoming auctions
-  case_number: string | null;      // foreclosure case number
-  parcel_id: string | null;        // tax parcel/APN
-  property_status: string | null;  // active, pending, sold, upcoming
+  auction_date: string | null;
+  case_number: string | null;
+  parcel_id: string | null;
+  property_status: string | null;
   lat: number | null;
   lng: number | null;
 }
@@ -111,9 +95,8 @@ export function getRandomUA(): string {
 }
 
 // ============================================================
-//  SHARED UTILITIES — exported for all source modules
+// SHARED UTILITIES — exported for all source modules
 // ============================================================
-
 export function parsePrice(text: string): number {
   const cleaned = text.replace(/[^0-9.]/g, '');
   return parseFloat(cleaned) || 0;
@@ -142,9 +125,6 @@ export function cleanTitle(text: string): string {
 }
 
 export function isValidAddress(address: string): boolean {
-  // Accept any address that is long enough and contains a number somewhere
-  // Old rule (too strict): must START with a number — rejected 72+ valid auction items
-  // New rule: must contain at least one digit and be > 10 chars
   const trimmed = address.trim();
   return trimmed.length > 10 && /\d/.test(trimmed);
 }
@@ -180,54 +160,56 @@ export function generateDedupeKey(item: CheapHomeItem): string {
 }
 
 // ============================================================
-//  SOURCE CONFIGURATION — enable/disable sources
+// SOURCE CONFIGURATION — v3.0
+// RE-ENABLED: homepath, auction-com, xome, fsbo, realtor-com, realtymole, rentcast
+// NEW: realtor-api (RapidAPI)
 // ============================================================
-
 export interface SourceConfig {
   enabled: boolean;
   label: string;
   category: string;
-  requiresApiKey?: string;  // env var name needed
-  isPaid?: boolean;         // paid data providers (disabled by default)
+  requiresApiKey?: string;
+  isPaid?: boolean;
 }
 
 export const SOURCE_CONFIG: Record<string, SourceConfig> = {
   // === GOVERNMENT / FEDERAL ===
-  'hud-homestore':   { enabled: true,  label: 'HUD HomeStore',         category: 'government' },
-  'homepath':        { enabled: false, label: 'Fannie Mae HomePath',   category: 'government' },  // Angular SPA — can't scrape server-side
-  'usda':            { enabled: true,  label: 'USDA RD/FSA',           category: 'government' },
-  'homesteps':       { enabled: false, label: 'Freddie Mac HomeSteps', category: 'government' },  // Program discontinued, domain dead
+  'hud-homestore':        { enabled: true,  label: 'HUD HomeStore',               category: 'government' },
+  'homepath':             { enabled: true,  label: 'Fannie Mae HomePath',          category: 'government' },    // RE-ENABLED: REST API bypass
+  'usda':                 { enabled: true,  label: 'USDA RD/FSA',                 category: 'government' },
+  'homesteps':            { enabled: false, label: 'Freddie Mac HomeSteps',        category: 'government' },    // Program discontinued
 
   // === AUCTION PLATFORMS ===
-  'auction-com':     { enabled: false, label: 'Auction.com',           category: 'auction' },  // 404 every state
-  'hubzu':           { enabled: false, label: 'Hubzu',                 category: 'auction' },      // Site dead
-  'xome':            { enabled: false, label: 'Xome Auctions',         category: 'auction' },  // 404 every state
+  'auction-com':          { enabled: true,  label: 'Auction.com',                  category: 'auction' },       // RE-ENABLED: attempt scrape
+  'hubzu':                { enabled: false, label: 'Hubzu',                        category: 'auction' },       // Still dead
+  'xome':                 { enabled: true,  label: 'Xome Auctions',               category: 'auction' },       // RE-ENABLED: attempt scrape
 
   // === BANK-OWNED / REO ===
-  'bank-reo':        { enabled: false, label: 'Bank REO Aggregator',   category: 'reo' },      // 0 results, dead URLs
+  'bank-reo':             { enabled: false, label: 'Bank REO Aggregator',          category: 'reo' },
 
-  // === REAL ESTATE PORTALS (distressed/foreclosure filters) ===
-  'zillow':          { enabled: true,  label: 'Zillow Foreclosures',   category: 'portal' },
-  'realtor-com':     { enabled: false, label: 'Realtor.com Distressed',category: 'portal' },   // 404 every city
-  'redfin':          { enabled: true,  label: 'Redfin Distressed',     category: 'portal' },
+  // === REAL ESTATE PORTALS ===
+  'zillow':               { enabled: true,  label: 'Zillow Foreclosures',          category: 'portal' },
+  'realtor-com':          { enabled: false, label: 'Realtor.com Direct Scrape',    category: 'portal' },        // Replaced by API
+  'realtor-api':          { enabled: true,  label: 'Realtor.com API (RapidAPI)',   category: 'portal', requiresApiKey: 'RAPIDAPI_KEY' },  // NEW
+  'redfin':               { enabled: true,  label: 'Redfin Distressed',            category: 'portal' },
 
-  // === COUNTY-LEVEL PUBLIC RECORDS (THE GOLD MINE) ===
-  'county-sheriff':  { enabled: false, label: 'County Sheriff Sales',  category: 'county' },   // Dead URLs, expired SSL
-  'county-tax':      { enabled: false, label: 'Tax Lien/Deed Sales',   category: 'county' },   // Dead URLs, DNS failures
-  'county-foreclosure': { enabled: false, label: 'County Foreclosures', category: 'county' },  // Dead URLs
+  // === COUNTY-LEVEL PUBLIC RECORDS ===
+  'county-sheriff':       { enabled: false, label: 'County Sheriff Sales',         category: 'county' },        // Section 2
+  'county-tax':           { enabled: false, label: 'Tax Lien/Deed Sales',          category: 'county' },        // Section 2
+  'county-foreclosure':   { enabled: false, label: 'County Foreclosures',          category: 'county' },        // Section 2
 
   // === FSBO & OTHER ===
-  'craigslist':      { enabled: true,  label: 'Craigslist Housing',    category: 'other' },
-  'fsbo':            { enabled: false, label: 'ForSaleByOwner.com',    category: 'other' },    // 404 every state
+  'craigslist':           { enabled: true,  label: 'Craigslist Housing',           category: 'other' },
+  'fsbo':                 { enabled: true,  label: 'ForSaleByOwner.com',           category: 'other' },         // RE-ENABLED
 
   // === API-BASED (require keys) ===
-  'realtymole':      { enabled: false, label: 'RealtyMole API',        category: 'api', requiresApiKey: 'REALTY_MOLE_API_KEY' },  // No API key
-  'rentcast':        { enabled: false, label: 'RentCast API',          category: 'api', requiresApiKey: 'RENTCAST_API_KEY' },    // No API key
+  'realtymole':           { enabled: true,  label: 'RealtyMole API',              category: 'api', requiresApiKey: 'REALTY_MOLE_API_KEY' },    // RE-ENABLED
+  'rentcast':             { enabled: true,  label: 'RentCast API',                category: 'api', requiresApiKey: 'RENTCAST_API_KEY' },        // RE-ENABLED
 
-  // === PAID DATA PROVIDERS (disabled by default — flip when ready) ===
-  'foreclosure-com':    { enabled: false, label: 'Foreclosure.com',       category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_COM_KEY' },
-  'foreclosure-datahub':{ enabled: false, label: 'Foreclosure Data Hub',  category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_DATAHUB_KEY' },
-  'propertyshark':      { enabled: false, label: 'PropertyShark',         category: 'paid', isPaid: true, requiresApiKey: 'PROPERTYSHARK_KEY' },
+  // === PAID DATA PROVIDERS ===
+  'foreclosure-com':      { enabled: false, label: 'Foreclosure.com',             category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_COM_KEY' },
+  'foreclosure-datahub':  { enabled: false, label: 'Foreclosure Data Hub',        category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_DATAHUB_KEY' },
+  'propertyshark':        { enabled: false, label: 'PropertyShark',               category: 'paid', isPaid: true, requiresApiKey: 'PROPERTYSHARK_KEY' },
 };
 
 export function isSourceEnabled(sourceId: string): boolean {
@@ -238,11 +220,8 @@ export function isSourceEnabled(sourceId: string): boolean {
 }
 
 // ============================================================
-//  STATE ROTATION — scrape 10 states per run (all 50 in 5 days)
-//  Prevents timeout from trying all 50 states in a single invocation
-//  Day 1: AL-GA | Day 2: HI-MD | Day 3: MA-NJ | Day 4: NM-SC | Day 5: SD-WY
+// STATE ROTATION — scrape 10 states per run (all 50 in 5 days)
 // ============================================================
-
 function getStateBatch(): { states: string[]; batchIndex: number; totalBatches: number } {
   const now = new Date();
   const startOfYear = new Date(now.getFullYear(), 0, 0);
@@ -256,9 +235,8 @@ function getStateBatch(): { states: string[]; batchIndex: number; totalBatches: 
 }
 
 // ============================================================
-//  MAIN SCRAPE ORCHESTRATOR
+// MAIN SCRAPE ORCHESTRATOR
 // ============================================================
-
 export async function scrapeCheapHomes(): Promise<{
   success: boolean;
   itemsFound: number;
@@ -266,16 +244,15 @@ export async function scrapeCheapHomes(): Promise<{
   details: string;
 }> {
   const startTime = Date.now();
-  const DEADLINE_MS = 250_000; // 250s hard deadline (leave 50s buffer for Vercel 300s)
-  
+  const DEADLINE_MS = 250_000;
+
   function isTimedOut(): boolean {
     return Date.now() - startTime > DEADLINE_MS;
   }
 
-  // Get today's state batch (10 states instead of all 50)
   const { states: stateBatch, batchIndex, totalBatches } = getStateBatch();
 
-  console.log('[Homes] ========== CHEAP HOME SCRAPER v2.1 ==========');
+  console.log('[Homes] ========== CHEAP HOME SCRAPER v3.0 ==========');
   console.log(`[Homes] State batch ${batchIndex + 1}/${totalBatches}: ${stateBatch.join(', ')}`);
   console.log('[Homes] Starting multi-source scrape...');
 
@@ -289,7 +266,6 @@ export async function scrapeCheapHomes(): Promise<{
   let totalErrors = 0;
   const sourceResults: Record<string, { items: number; errors: number; time: number }> = {};
 
-  // Helper: run a source category and save results
   async function runSourceCategory(
     categoryName: string,
     scrapeFn: (states: string[], isTimedOut: () => boolean) => Promise<CheapHomeItem[]>
@@ -305,14 +281,13 @@ export async function scrapeCheapHomes(): Promise<{
     try {
       const items = await scrapeFn(stateBatch, isTimedOut);
       const rawCount = items.length;
-      const validItems = items.filter(item => 
-        item.address && 
-        item.price > 0 && 
-        isValidAddress(item.address)
+      const validItems = items.filter(item =>
+        item.address && item.price > 0 && isValidAddress(item.address)
       );
+
       const rejected = rawCount - validItems.length;
       if (rejected > 0) {
-        console.log(`[Homes] ${categoryName}: ${rejected} items failed validation (no address or bad price)`);
+        console.log(`[Homes] ${categoryName}: ${rejected} items failed validation`);
       }
 
       if (validItems.length > 0) {
@@ -331,36 +306,34 @@ export async function scrapeCheapHomes(): Promise<{
     }
   }
 
-  // ---- Run all source categories sequentially (to manage timeout budget) ----
-  // Helper: check if ANY source in a category is enabled
   function isCategoryActive(category: string): boolean {
     return Object.entries(SOURCE_CONFIG).some(
       ([id, cfg]) => cfg.category === category && isSourceEnabled(id)
     );
   }
 
-  // 1. Government sources — highest priority, most reliable
+  // 1. Government sources — highest priority
   if (isCategoryActive('government')) {
     await runSourceCategory('Government', scrapeGovernmentSources);
   } else {
     console.log('[Homes] Skipping Government — all sources disabled');
   }
 
-  // 2. Auction & REO — high-value distressed properties
-  if (isCategoryActive('auction') || isCategoryActive('reo')) {
+  // 2. Auction & REO
+  if (isCategoryActive('auction') || isCategoryActive('reo') || isCategoryActive('api')) {
     await runSourceCategory('Auction/REO', scrapeAuctionREOSources);
   } else {
     console.log('[Homes] Skipping Auction/REO — all sources disabled');
   }
 
-  // 3. County public records — the gold mine
+  // 3. County public records
   if (isCategoryActive('county')) {
     await runSourceCategory('County', scrapeCountySources);
   } else {
     console.log('[Homes] Skipping County — all sources disabled');
   }
 
-  // 4. Portal distressed listings — Zillow, Redfin
+  // 4. Portal distressed listings
   if (isCategoryActive('portal')) {
     await runSourceCategory('Portals', scrapePortalSources);
   } else {
@@ -392,11 +365,9 @@ export async function scrapeCheapHomes(): Promise<{
 }
 
 // ============================================================
-//  DATABASE SAVE (with deduplication & batch upsert)
+// DATABASE SAVE (with deduplication & batch upsert)
 // ============================================================
-
 async function saveItems(items: CheapHomeItem[]): Promise<number> {
-  // Deduplicate within this batch
   const seen = new Set<string>();
   const uniqueItems = items.filter((item) => {
     const key = generateDedupeKey(item);
@@ -440,7 +411,7 @@ async function saveItems(items: CheapHomeItem[]): Promise<number> {
       lng: item.lng,
       scraped_at: new Date().toISOString(),
       pushed: false,
-      expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(), // 30-day expiry
+      expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(),
     }));
 
     const { error } = await supabaseAdmin
