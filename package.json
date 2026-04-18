@@ -16,24 +16,23 @@
     "db:migrate": "npx tsx supabase/migrate.ts"
   },
   "dependencies": {
-    "next": "14.2.5",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
+    "@sparticuz/chromium": "^126.0.0",
     "@supabase/supabase-js": "^2.45.0",
     "axios": "^1.7.3",
     "cheerio": "^1.0.0-rc.12",
-    "puppeteer-core": "^23.0.0",
-    "@sparticuz/chromium": "^126.0.0",
     "cron": "^3.1.7",
     "date-fns": "^3.6.0",
     "framer-motion": "^11.3.24",
     "lucide-react": "^0.427.0",
+    "next": "14.2.5",
+    "p-queue": "^8.1.1",
+    "puppeteer-core": "^23.0.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "recharts": "^2.12.7",
-    "zustand": "^4.5.4",
+    "user-agents": "^1.1.245",
     "zod": "^3.23.8",
-    "p-queue": "^8.0.1",
-    
-    "user-agents": "^1.1.245"
+    "zustand": "^4.5.4"
   },
   "devDependencies": {
     "@types/node": "^22.1.0",

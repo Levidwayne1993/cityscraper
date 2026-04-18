@@ -1,13 +1,28 @@
+// ============================================================
+//  FILE: src/lib/scrapers/home-scraper.ts  (REPLACES EXISTING)
+//  CHEAP HOME SCRAPER v2.0 — Powers CheapHouseHub.com
+//  
+//  COMPLETE REWRITE: 20+ sources across 7 categories
+//  Categories: Government, Auction/REO, Portals, County, FSBO/Other, Paid (disabled)
+//  
+//  Architecture: Main orchestrator imports source modules
+//  Pattern: save-as-you-go per source, timeout-aware, PQueue rate limiting
+// ============================================================
+
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { supabaseAdmin } from '@/lib/supabase';
 import PQueue from 'p-queue';
 
+// Import source modules (create these files in src/lib/scrapers/home-sources/)
+import { scrapeGovernmentSources } from './home-sources/government';
+import { scrapeAuctionREOSources } from './home-sources/auction-reo';
+import { scrapePortalSources } from './home-sources/portals';
+import { scrapeCountySources } from './home-sources/county';
+import { scrapeOtherSources } from './home-sources/other';
+
 // ============================================================
-//  CHEAP HOME SCRAPER — Powers CheapHouseHub.com
-//  Sources: HUD HomeStore, Foreclosure.com listings, RealtyMole API,
-//           RentCast API, public auction listings
-//  Collects: address, price, beds/baths/sqft, listing type, images
+//  SHARED TYPES & CONFIG — exported for all source modules
 // ============================================================
 
 export interface CheapHomeItem {
@@ -16,277 +31,193 @@ export interface CheapHomeItem {
   city: string;
   state: string;
   zip: string;
+  county: string | null;
   price: number;
   original_price: number | null;
+  starting_bid: number | null;
+  assessed_value: number | null;
   bedrooms: number | null;
   bathrooms: number | null;
   sqft: number | null;
   lot_size: string | null;
-  property_type: string;
-  listing_type: string;
-  source: string;
+  year_built: number | null;
+  property_type: string;           // single-family, condo, townhome, multi-family, land, mobile, commercial
+  listing_type: string;            // foreclosure, pre-foreclosure, auction, tax-lien, tax-deed, sheriff-sale, reo, short-sale, fsbo, cheap, government, hud, usda
+  listing_category: string;        // government, bank_reo, auction, portal_distressed, county_public, fsbo, other
+  source: string;                  // hud-homestore, homepath, usda, homesteps, auction-com, hubzu, xome, zillow, realtor-com, redfin, craigslist, county-sheriff, county-tax, fsbo-com, etc.
   source_url: string;
   image_urls: string[];
+  description: string | null;
+  auction_date: string | null;     // ISO date string for upcoming auctions
+  case_number: string | null;      // foreclosure case number
+  parcel_id: string | null;        // tax parcel/APN
+  property_status: string | null;  // active, pending, sold, upcoming
   lat: number | null;
   lng: number | null;
 }
 
-const queue = new PQueue({ concurrency: 2, interval: 1500, intervalCap: 2 });
-
-const USER_AGENTS = [
-  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
-  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+export const ALL_STATES = [
+  'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA',
+  'HI','ID','IL','IN','IA','KS','KY','LA','ME','MD',
+  'MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ',
+  'NM','NY','NC','ND','OH','OK','OR','PA','RI','SC',
+  'SD','TN','TX','UT','VT','VA','WA','WV','WI','WY',
 ];
 
-function getRandomUA() {
+export const STATE_NAMES: Record<string, string> = {
+  AL:'Alabama',AK:'Alaska',AZ:'Arizona',AR:'Arkansas',CA:'California',
+  CO:'Colorado',CT:'Connecticut',DE:'Delaware',FL:'Florida',GA:'Georgia',
+  HI:'Hawaii',ID:'Idaho',IL:'Illinois',IN:'Indiana',IA:'Iowa',
+  KS:'Kansas',KY:'Kentucky',LA:'Louisiana',ME:'Maine',MD:'Maryland',
+  MA:'Massachusetts',MI:'Michigan',MN:'Minnesota',MS:'Mississippi',MO:'Missouri',
+  MT:'Montana',NE:'Nebraska',NV:'Nevada',NH:'New Hampshire',NJ:'New Jersey',
+  NM:'New Mexico',NY:'New York',NC:'North Carolina',ND:'North Dakota',OH:'Ohio',
+  OK:'Oklahoma',OR:'Oregon',PA:'Pennsylvania',RI:'Rhode Island',SC:'South Carolina',
+  SD:'South Dakota',TN:'Tennessee',TX:'Texas',UT:'Utah',VT:'Vermont',
+  VA:'Virginia',WA:'Washington',WV:'West Virginia',WI:'Wisconsin',WY:'Wyoming',
+};
+
+// Shared rate-limited queue for all HTTP requests
+export const httpQueue = new PQueue({ concurrency: 3, interval: 1200, intervalCap: 3 });
+
+export const USER_AGENTS = [
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+  'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0',
+  'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
+];
+
+export function getRandomUA(): string {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
-// Target states for scraping
-const TARGET_STATES = [
-  'WA', 'OR', 'CA', 'TX', 'FL', 'NY', 'IL', 'PA', 'OH', 'GA',
-  'NC', 'MI', 'AZ', 'CO', 'TN', 'IN', 'MO', 'WI', 'MN', 'AL',
-  'SC', 'LA', 'KY', 'OK', 'NV', 'NM', 'MS', 'AR', 'KS', 'NE',
-  'WV', 'ID', 'HI', 'ME', 'MT', 'ND', 'SD', 'VT', 'WY', 'DE',
-  'NH', 'RI', 'CT', 'NJ', 'MD', 'VA', 'MA', 'IA', 'UT',
-];
+// ============================================================
+//  SHARED UTILITIES — exported for all source modules
+// ============================================================
 
-// ---------- HUD HOMESTORE SCRAPER (Government foreclosures) ----------
-
-async function scrapeHUDHomes(state: string): Promise<CheapHomeItem[]> {
-  const items: CheapHomeItem[] = [];
-
-  try {
-    // HUD HomeStore API endpoint
-    const url = `https://www.hudhomestore.gov/Listing/PropertySearchResult`;
-    const response = await axios.get(url, {
-      params: {
-        sState: state,
-        iPageSize: 50,
-        sOrderBy: 'DLISTPRICE',
-        sOrderByDirection: 'ASC',
-      },
-      headers: { 'User-Agent': getRandomUA() },
-      timeout: 20000,
-    });
-
-    const $ = cheerio.load(response.data);
-
-    $('.resultsPropertyRow, .property-card, .listing-result').each((_, el) => {
-      const address = $(el).find('.address, .prop-address').text().trim();
-      const priceText = $(el).find('.price, .list-price').text().trim();
-      const bedsText = $(el).find('.beds, .bedrooms').text().trim();
-      const bathsText = $(el).find('.baths, .bathrooms').text().trim();
-      const sqftText = $(el).find('.sqft, .square-feet').text().trim();
-      const link = $(el).find('a').attr('href') || '';
-      const imgSrc = $(el).find('img').attr('src') || '';
-      const propType = $(el).find('.property-type, .type').text().trim();
-
-      const price = parsePrice(priceText);
-      if (price > 0 && address) {
-        items.push({
-          title: `HUD Home: ${address}`,
-          address,
-          city: extractCity(address),
-          state,
-          zip: extractZip(address),
-          price,
-          original_price: null,
-          bedrooms: parseInt(bedsText) || null,
-          bathrooms: parseFloat(bathsText) || null,
-          sqft: parseInt(sqftText.replace(/[^0-9]/g, '')) || null,
-          lot_size: null,
-          property_type: propType || 'single-family',
-          listing_type: 'foreclosure',
-          source: 'hud-homestore',
-          source_url: link.startsWith('http') ? link : `https://www.hudhomestore.gov${link}`,
-          image_urls: imgSrc ? [imgSrc] : [],
-          lat: null,
-          lng: null,
-        });
-      }
-    });
-  } catch (err: any) {
-    console.error(`[Homes] HUD ${state} error: ${err.message}`);
-  }
-
-  return items;
+export function parsePrice(text: string): number {
+  const cleaned = text.replace(/[^0-9.]/g, '');
+  return parseFloat(cleaned) || 0;
 }
 
-// ---------- REALTYMOLE API SCRAPER ----------
-
-async function scrapeRealtyMole(state: string): Promise<CheapHomeItem[]> {
-  const items: CheapHomeItem[] = [];
-  const apiKey = process.env.REALTY_MOLE_API_KEY;
-
-  if (!apiKey) {
-    console.warn('[Homes] REALTY_MOLE_API_KEY not set, skipping');
-    return items;
-  }
-
-  try {
-    // RealtyMole property search
-    const response = await axios.get('https://realty-mole-property-api.p.rapidapi.com/saleListings', {
-      params: {
-        state,
-        limit: 50,
-        status: 'Active',
-        sort: 'price',
-      },
-      headers: {
-        'X-RapidAPI-Key': apiKey,
-        'X-RapidAPI-Host': 'realty-mole-property-api.p.rapidapi.com',
-      },
-      timeout: 15000,
-    });
-
-    if (Array.isArray(response.data)) {
-      for (const prop of response.data) {
-        if (prop.price && prop.price < 150000) { // Only cheap homes
-          items.push({
-            title: `${prop.propertyType || 'Property'}: ${prop.addressLine1 || prop.formattedAddress}`,
-            address: prop.formattedAddress || prop.addressLine1 || '',
-            city: prop.city || '',
-            state: prop.state || state,
-            zip: prop.zipCode || '',
-            price: prop.price,
-            original_price: null,
-            bedrooms: prop.bedrooms || null,
-            bathrooms: prop.bathrooms || null,
-            sqft: prop.squareFootage || null,
-            lot_size: prop.lotSize ? `${prop.lotSize} sqft` : null,
-            property_type: (prop.propertyType || 'single-family').toLowerCase(),
-            listing_type: 'cheap',
-            source: 'realtymole',
-            source_url: prop.listingUrl || '',
-            image_urls: prop.imageUrl ? [prop.imageUrl] : [],
-            lat: prop.latitude || null,
-            lng: prop.longitude || null,
-          });
-        }
-      }
-    }
-  } catch (err: any) {
-    console.error(`[Homes] RealtyMole ${state} error: ${err.message}`);
-  }
-
-  return items;
+export function extractCity(address: string): string {
+  const parts = address.split(',').map((p) => p.trim());
+  if (parts.length >= 3) return parts[parts.length - 3] || parts[0] || 'Unknown';
+  if (parts.length >= 2) return parts[parts.length - 2] || parts[0] || 'Unknown';
+  return parts[0] || 'Unknown';
 }
 
-// ---------- RENTCAST API SCRAPER ----------
-
-async function scrapeRentCast(state: string): Promise<CheapHomeItem[]> {
-  const items: CheapHomeItem[] = [];
-  const apiKey = process.env.RENTCAST_API_KEY;
-
-  if (!apiKey) {
-    console.warn('[Homes] RENTCAST_API_KEY not set, skipping');
-    return items;
-  }
-
-  try {
-    const response = await axios.get('https://api.rentcast.io/v1/listings/sale', {
-      params: {
-        state,
-        limit: 50,
-        status: 'Active',
-        maxPrice: 150000,
-        orderBy: 'price',
-      },
-      headers: {
-        'X-Api-Key': apiKey,
-        Accept: 'application/json',
-      },
-      timeout: 15000,
-    });
-
-    if (Array.isArray(response.data)) {
-      for (const prop of response.data) {
-        items.push({
-          title: `${prop.propertyType || 'Property'}: ${prop.formattedAddress || prop.addressLine1}`,
-          address: prop.formattedAddress || `${prop.addressLine1}, ${prop.city}, ${prop.state}`,
-          city: prop.city || '',
-          state: prop.state || state,
-          zip: prop.zipCode || '',
-          price: prop.price || 0,
-          original_price: prop.previousPrice || null,
-          bedrooms: prop.bedrooms || null,
-          bathrooms: prop.bathrooms || null,
-          sqft: prop.squareFootage || null,
-          lot_size: prop.lotSize ? `${prop.lotSize} sqft` : null,
-          property_type: (prop.propertyType || 'single-family').toLowerCase(),
-          listing_type: detectListingType(prop),
-          source: 'rentcast',
-          source_url: prop.listingUrl || '',
-          image_urls: prop.imageUrl ? [prop.imageUrl] : [],
-          lat: prop.latitude || null,
-          lng: prop.longitude || null,
-        });
-      }
-    }
-  } catch (err: any) {
-    console.error(`[Homes] RentCast ${state} error: ${err.message}`);
-  }
-
-  return items;
+export function extractZip(address: string): string {
+  const match = address.match(/\b(\d{5})(-\d{4})?\b/);
+  return match ? match[1] : '';
 }
 
-// ---------- PUBLIC AUCTION SCRAPER ----------
-
-async function scrapeAuctions(state: string): Promise<CheapHomeItem[]> {
-  const items: CheapHomeItem[] = [];
-
-  try {
-    const url = `https://www.auction.com/residential/${state.toLowerCase()}/`;
-    const response = await axios.get(url, {
-      headers: { 'User-Agent': getRandomUA() },
-      timeout: 20000,
-    });
-
-    const $ = cheerio.load(response.data);
-
-    $('.property-card, .auction-listing, .result-card').each((_, el) => {
-      const address = $(el).find('.address, .property-address').text().trim();
-      const priceText = $(el).find('.price, .current-bid, .starting-bid').text().trim();
-      const bedsText = $(el).find('.beds').text().trim();
-      const bathsText = $(el).find('.baths').text().trim();
-      const sqftText = $(el).find('.sqft').text().trim();
-      const link = $(el).find('a').attr('href') || '';
-      const imgSrc = $(el).find('img').attr('src') || $(el).find('img').attr('data-src') || '';
-      const auctionType = $(el).find('.auction-type, .sale-type').text().trim();
-
-      const price = parsePrice(priceText);
-      if (price > 0 && address) {
-        items.push({
-          title: `Auction: ${address}`,
-          address,
-          city: extractCity(address),
-          state,
-          zip: extractZip(address),
-          price,
-          original_price: null,
-          bedrooms: parseInt(bedsText) || null,
-          bathrooms: parseFloat(bathsText) || null,
-          sqft: parseInt(sqftText.replace(/[^0-9]/g, '')) || null,
-          lot_size: null,
-          property_type: 'single-family',
-          listing_type: auctionType.toLowerCase().includes('foreclosure') ? 'foreclosure' : 'auction',
-          source: 'auction.com',
-          source_url: link.startsWith('http') ? link : `https://www.auction.com${link}`,
-          image_urls: imgSrc ? [imgSrc] : [],
-          lat: null,
-          lng: null,
-        });
-      }
-    });
-  } catch (err: any) {
-    console.error(`[Homes] Auction.com ${state} error: ${err.message}`);
-  }
-
-  return items;
+export function extractStateFromAddress(address: string): string {
+  const statePattern = /\b([A-Z]{2})\s+\d{5}\b/;
+  const match = address.match(statePattern);
+  return match ? match[1] : '';
 }
 
-// ---------- MAIN SCRAPE FUNCTION ----------
+export function cleanTitle(text: string): string {
+  return text.replace(/\s+/g, ' ').trim().substring(0, 200);
+}
+
+export function isValidAddress(address: string): boolean {
+  // Must start with a number (street address)
+  return /^\d+\s+\S+/.test(address.trim()) && address.length > 10;
+}
+
+export function detectPropertyType(text: string): string {
+  const lower = (text || '').toLowerCase();
+  if (lower.includes('condo')) return 'condo';
+  if (lower.includes('townho') || lower.includes('town ho')) return 'townhome';
+  if (lower.includes('multi') || lower.includes('duplex') || lower.includes('triplex') || lower.includes('fourplex')) return 'multi-family';
+  if (lower.includes('mobile') || lower.includes('manufactured')) return 'mobile';
+  if (lower.includes('land') || lower.includes('lot') || lower.includes('vacant')) return 'land';
+  if (lower.includes('commercial')) return 'commercial';
+  return 'single-family';
+}
+
+export function detectListingType(text: string): string {
+  const lower = (text || '').toLowerCase();
+  if (lower.includes('foreclos')) return 'foreclosure';
+  if (lower.includes('pre-foreclos') || lower.includes('preforeclos')) return 'pre-foreclosure';
+  if (lower.includes('auction')) return 'auction';
+  if (lower.includes('short sale') || lower.includes('short-sale')) return 'short-sale';
+  if (lower.includes('tax lien')) return 'tax-lien';
+  if (lower.includes('tax deed')) return 'tax-deed';
+  if (lower.includes('sheriff')) return 'sheriff-sale';
+  if (lower.includes('reo') || lower.includes('bank own') || lower.includes('bank-own')) return 'reo';
+  if (lower.includes('hud')) return 'hud';
+  if (lower.includes('fsbo') || lower.includes('by owner')) return 'fsbo';
+  return 'cheap';
+}
+
+export function generateDedupeKey(item: CheapHomeItem): string {
+  return `${item.address.toLowerCase().replace(/[^a-z0-9]/g, '')}-${item.zip}-${item.source}`;
+}
+
+// ============================================================
+//  SOURCE CONFIGURATION — enable/disable sources
+// ============================================================
+
+export interface SourceConfig {
+  enabled: boolean;
+  label: string;
+  category: string;
+  requiresApiKey?: string;  // env var name needed
+  isPaid?: boolean;         // paid data providers (disabled by default)
+}
+
+export const SOURCE_CONFIG: Record<string, SourceConfig> = {
+  // === GOVERNMENT / FEDERAL ===
+  'hud-homestore':   { enabled: true,  label: 'HUD HomeStore',         category: 'government' },
+  'homepath':        { enabled: true,  label: 'Fannie Mae HomePath',   category: 'government' },
+  'usda':            { enabled: true,  label: 'USDA RD/FSA',           category: 'government' },
+  'homesteps':       { enabled: true,  label: 'Freddie Mac HomeSteps', category: 'government' },
+
+  // === AUCTION PLATFORMS ===
+  'auction-com':     { enabled: true,  label: 'Auction.com',           category: 'auction' },
+  'hubzu':           { enabled: true,  label: 'Hubzu',                 category: 'auction' },
+  'xome':            { enabled: true,  label: 'Xome Auctions',         category: 'auction' },
+
+  // === BANK-OWNED / REO ===
+  'bank-reo':        { enabled: true,  label: 'Bank REO Aggregator',   category: 'reo' },
+
+  // === REAL ESTATE PORTALS (distressed/foreclosure filters) ===
+  'zillow':          { enabled: true,  label: 'Zillow Foreclosures',   category: 'portal' },
+  'realtor-com':     { enabled: true,  label: 'Realtor.com Distressed',category: 'portal' },
+  'redfin':          { enabled: true,  label: 'Redfin Distressed',     category: 'portal' },
+
+  // === COUNTY-LEVEL PUBLIC RECORDS (THE GOLD MINE) ===
+  'county-sheriff':  { enabled: true,  label: 'County Sheriff Sales',  category: 'county' },
+  'county-tax':      { enabled: true,  label: 'Tax Lien/Deed Sales',   category: 'county' },
+  'county-foreclosure': { enabled: true, label: 'County Foreclosures', category: 'county' },
+
+  // === FSBO & OTHER ===
+  'craigslist':      { enabled: true,  label: 'Craigslist Housing',    category: 'other' },
+  'fsbo':            { enabled: true,  label: 'ForSaleByOwner.com',    category: 'other' },
+
+  // === API-BASED (require keys) ===
+  'realtymole':      { enabled: true,  label: 'RealtyMole API',        category: 'api', requiresApiKey: 'REALTY_MOLE_API_KEY' },
+  'rentcast':        { enabled: true,  label: 'RentCast API',          category: 'api', requiresApiKey: 'RENTCAST_API_KEY' },
+
+  // === PAID DATA PROVIDERS (disabled by default — flip when ready) ===
+  'foreclosure-com':    { enabled: false, label: 'Foreclosure.com',       category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_COM_KEY' },
+  'foreclosure-datahub':{ enabled: false, label: 'Foreclosure Data Hub',  category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_DATAHUB_KEY' },
+  'propertyshark':      { enabled: false, label: 'PropertyShark',         category: 'paid', isPaid: true, requiresApiKey: 'PROPERTYSHARK_KEY' },
+};
+
+export function isSourceEnabled(sourceId: string): boolean {
+  const config = SOURCE_CONFIG[sourceId];
+  if (!config || !config.enabled) return false;
+  if (config.requiresApiKey && !process.env[config.requiresApiKey]) return false;
+  return true;
+}
+
+// ============================================================
+//  MAIN SCRAPE ORCHESTRATOR
+// ============================================================
 
 export async function scrapeCheapHomes(): Promise<{
   success: boolean;
@@ -294,95 +225,159 @@ export async function scrapeCheapHomes(): Promise<{
   errors: number;
   details: string;
 }> {
-  console.log('[Homes] Starting full scrape...');
   const startTime = Date.now();
-  let totalItems = 0;
-  let totalErrors = 0;
-  const allItems: CheapHomeItem[] = [];
-
-  for (const state of TARGET_STATES) {
-    // HUD Homes (always free, government data)
-    const hudItems = await queue.add(() => scrapeHUDHomes(state));
-    if (hudItems) allItems.push(...hudItems);
-
-    // API-based scrapers (if keys configured)
-    const rmItems = await queue.add(() => scrapeRealtyMole(state));
-    if (rmItems) allItems.push(...rmItems);
-
-    const rcItems = await queue.add(() => scrapeRentCast(state));
-    if (rcItems) allItems.push(...rcItems);
-
-    // Auction scraper
-    const auctionItems = await queue.add(() => scrapeAuctions(state));
-    if (auctionItems) allItems.push(...auctionItems);
+  const DEADLINE_MS = 280_000; // 280s hard deadline (leave 20s buffer for Vercel 300s)
+  
+  function isTimedOut(): boolean {
+    return Date.now() - startTime > DEADLINE_MS;
   }
 
-  // Deduplicate by address
-  const seen = new Set<string>();
-  const uniqueItems = allItems.filter((item) => {
-    const key = `${item.address.toLowerCase().replace(/\s+/g, '')}-${item.zip}`;
-    if (seen.has(key)) return false;
-    seen.add(key);
-    return true;
-  });
+  console.log('[Homes] ========== CHEAP HOME SCRAPER v2.0 ==========');
+  console.log('[Homes] Starting full multi-source scrape...');
 
-  // Upsert to Supabase
-  if (uniqueItems.length > 0) {
-    const batchSize = 100;
-    for (let i = 0; i < uniqueItems.length; i += batchSize) {
-      const batch = uniqueItems.slice(i, i + batchSize).map((item) => ({
-        ...item,
-        scraped_at: new Date().toISOString(),
-        pushed: false,
-      }));
+  const enabledSources = Object.entries(SOURCE_CONFIG)
+    .filter(([id]) => isSourceEnabled(id))
+    .map(([id, cfg]) => `${cfg.label}`)
+    .join(', ');
+  console.log(`[Homes] Active sources: ${enabledSources}`);
 
-      const { error } = await supabaseAdmin
-        .from('cheap_homes')
-        .upsert(batch, { onConflict: 'source_url' });
+  let totalItems = 0;
+  let totalErrors = 0;
+  const sourceResults: Record<string, { items: number; errors: number; time: number }> = {};
 
-      if (error) {
-        console.error(`[Homes] Upsert batch error:`, error);
-        totalErrors++;
+  // Helper: run a source category and save results
+  async function runSourceCategory(
+    categoryName: string,
+    scrapeFn: (states: string[], isTimedOut: () => boolean) => Promise<CheapHomeItem[]>
+  ): Promise<void> {
+    if (isTimedOut()) {
+      console.log(`[Homes] TIMEOUT — skipping ${categoryName}`);
+      return;
+    }
+
+    const catStart = Date.now();
+    console.log(`[Homes] --- Starting ${categoryName} ---`);
+
+    try {
+      const items = await scrapeFn(ALL_STATES, isTimedOut);
+      const validItems = items.filter(item => 
+        item.address && 
+        item.price > 0 && 
+        isValidAddress(item.address)
+      );
+
+      if (validItems.length > 0) {
+        const saved = await saveItems(validItems);
+        totalItems += saved;
+        sourceResults[categoryName] = { items: saved, errors: 0, time: Date.now() - catStart };
+        console.log(`[Homes] ${categoryName}: saved ${saved}/${validItems.length} valid items (${((Date.now() - catStart)/1000).toFixed(1)}s)`);
       } else {
-        totalItems += batch.length;
+        sourceResults[categoryName] = { items: 0, errors: 0, time: Date.now() - catStart };
+        console.log(`[Homes] ${categoryName}: 0 valid items (${((Date.now() - catStart)/1000).toFixed(1)}s)`);
       }
+    } catch (err: any) {
+      totalErrors++;
+      sourceResults[categoryName] = { items: 0, errors: 1, time: Date.now() - catStart };
+      console.error(`[Homes] ${categoryName} FAILED: ${err.message}`);
     }
   }
 
+  // ---- Run all source categories sequentially (to manage timeout budget) ----
+
+  // 1. Government sources — highest priority, most reliable
+  await runSourceCategory('Government', scrapeGovernmentSources);
+
+  // 2. Auction & REO — high-value distressed properties
+  await runSourceCategory('Auction/REO', scrapeAuctionREOSources);
+
+  // 3. County public records — the gold mine
+  await runSourceCategory('County', scrapeCountySources);
+
+  // 4. Portal distressed listings — Zillow, Realtor.com, Redfin
+  await runSourceCategory('Portals', scrapePortalSources);
+
+  // 5. FSBO, Craigslist, other
+  await runSourceCategory('Other', scrapeOtherSources);
+
   const duration = Date.now() - startTime;
-  console.log(`[Homes] Scrape complete: ${totalItems} items, ${totalErrors} errors, ${duration}ms`);
+  const details = Object.entries(sourceResults)
+    .map(([cat, r]) => `${cat}:${r.items}`)
+    .join(' | ');
+
+  console.log(`[Homes] ========== SCRAPE COMPLETE ==========`);
+  console.log(`[Homes] Total: ${totalItems} items, ${totalErrors} errors, ${(duration/1000).toFixed(1)}s`);
+  console.log(`[Homes] Breakdown: ${details}`);
 
   return {
     success: totalErrors === 0,
     itemsFound: totalItems,
     errors: totalErrors,
-    details: `Scraped ${TARGET_STATES.length} states, ${totalItems} cheap homes in ${(duration / 1000).toFixed(1)}s`,
+    details: `Scraped ${ALL_STATES.length} states, ${totalItems} cheap homes in ${(duration / 1000).toFixed(1)}s | ${details}`,
   };
 }
 
-// ---------- UTILITIES ----------
+// ============================================================
+//  DATABASE SAVE (with deduplication & batch upsert)
+// ============================================================
 
-function parsePrice(text: string): number {
-  const cleaned = text.replace(/[^0-9.]/g, '');
-  return parseFloat(cleaned) || 0;
-}
+async function saveItems(items: CheapHomeItem[]): Promise<number> {
+  // Deduplicate within this batch
+  const seen = new Set<string>();
+  const uniqueItems = items.filter((item) => {
+    const key = generateDedupeKey(item);
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 
-function extractCity(address: string): string {
-  const parts = address.split(',').map((p) => p.trim());
-  return parts.length >= 2 ? parts[parts.length - 2] : parts[0] || 'Unknown';
-}
+  let savedCount = 0;
+  const batchSize = 100;
 
-function extractZip(address: string): string {
-  const match = address.match(/\b\d{5}(-\d{4})?\b/);
-  return match ? match[0] : '';
-}
+  for (let i = 0; i < uniqueItems.length; i += batchSize) {
+    const batch = uniqueItems.slice(i, i + batchSize).map((item) => ({
+      title: cleanTitle(item.title),
+      address: item.address,
+      city: item.city,
+      state: item.state,
+      zip: item.zip,
+      county: item.county,
+      price: item.price,
+      original_price: item.original_price,
+      starting_bid: item.starting_bid,
+      assessed_value: item.assessed_value,
+      bedrooms: item.bedrooms,
+      bathrooms: item.bathrooms,
+      sqft: item.sqft,
+      lot_size: item.lot_size,
+      year_built: item.year_built,
+      property_type: item.property_type,
+      listing_type: item.listing_type,
+      listing_category: item.listing_category,
+      source: item.source,
+      source_url: item.source_url,
+      image_urls: item.image_urls,
+      description: item.description?.substring(0, 2000) || null,
+      auction_date: item.auction_date,
+      case_number: item.case_number,
+      parcel_id: item.parcel_id,
+      property_status: item.property_status || 'active',
+      lat: item.lat,
+      lng: item.lng,
+      scraped_at: new Date().toISOString(),
+      pushed: false,
+      expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(), // 30-day expiry
+    }));
 
-function detectListingType(prop: any): string {
-  const status = (prop.status || '').toLowerCase();
-  const desc = (prop.description || '').toLowerCase();
-  if (status.includes('foreclos') || desc.includes('foreclos')) return 'foreclosure';
-  if (status.includes('auction') || desc.includes('auction')) return 'auction';
-  if (status.includes('short') || desc.includes('short sale')) return 'short-sale';
-  if (desc.includes('tax lien') || desc.includes('tax deed')) return 'tax-lien';
-  return 'cheap';
+    const { error } = await supabaseAdmin
+      .from('cheap_homes')
+      .upsert(batch, { onConflict: 'source_url' });
+
+    if (error) {
+      console.error(`[Homes] Upsert batch error:`, error.message);
+    } else {
+      savedCount += batch.length;
+    }
+  }
+
+  return savedCount;
 }
