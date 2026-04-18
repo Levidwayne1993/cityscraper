@@ -1,30 +1,33 @@
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { supabaseAdmin } from '@/lib/supabase';
-import PQueue from 'p-queue';
 import {
   type RawListing,
   type NormalizedSale,
   normalizeListing,
-  normalizeAll,
   extractAddress,
   extractCity,
-  scorePage,
-  hasPrimaryKeyword,
+  generateSourceId,
 } from './yard-sale-normalizer';
 
 // ================================================================
-//  YARD SALE SCRAPER v3 — ULTIMATE EDITION
-//  Powered by merged YardShoppers + CityScraper normalizer
+//  YARD SALE SCRAPER v4 — SAVE-AS-YOU-GO EDITION
 //
-//  Sources: Craigslist (175+ cities), GSALR (50 states),
-//           EstateSales.net (50 states)
+//  CRITICAL FIX: v3 collected ALL 275+ sources then saved at end.
+//  Vercel's 60s timeout killed it before it ever saved anything.
+//
+//  v4 saves after EVERY state — if timeout hits at state 20,
+//  you still have 20 states of data in Supabase.
+//
+//  Sources: Craigslist (175+ cities), EstateSales.net (50 states)
+//  GSALR removed — returns 403 Forbidden (blocks all scrapers)
 //
 //  HARD GATE: Every listing MUST have a real street address
 //  starting with a number. No address = rejected.
 // ================================================================
 
-const queue = new PQueue({ concurrency: 2, interval: 1000, intervalCap: 2 });
+const DEADLINE_MS = 55000; // Stop collecting at 55s, save what we have
+const startTime = Date.now();
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -38,6 +41,10 @@ function getRandomUA(): string {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
+function isTimedOut(): boolean {
+  return Date.now() - startTime > DEADLINE_MS;
+}
+
 const ALL_STATES = [
   'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA',
   'HI','ID','IL','IN','IA','KS','KY','LA','ME','MD',
@@ -46,83 +53,77 @@ const ALL_STATES = [
   'SD','TN','TX','UT','VT','VA','WA','WV','WI','WY',
 ];
 
+// Top 3-5 Craigslist cities per state (trimmed for speed)
 const CRAIGSLIST_CITIES: Record<string, string[]> = {
-  AL: ['birmingham','huntsville','mobile','montgomery','tuscaloosa'],
-  AK: ['anchorage','fairbanks','kenai'],
-  AZ: ['phoenix','tucson','flagstaff','prescott','yuma','mohave'],
-  AR: ['littlerock','fayar','fortsmith','jonesboro','texarkana'],
-  CA: ['losangeles','sfbay','sandiego','sacramento','fresno','bakersfield','inlandempire','orangecounty','ventura','stockton','modesto','santabarbara','redding','humboldt','merced'],
-  CO: ['denver','coloradosprings','boulder','fortcollins','pueblo','westslope'],
-  CT: ['hartford','newhaven','newlondon','easternct'],
+  AL: ['birmingham','huntsville','mobile','montgomery'],
+  AK: ['anchorage','fairbanks'],
+  AZ: ['phoenix','tucson','flagstaff'],
+  AR: ['littlerock','fayar','fortsmith'],
+  CA: ['losangeles','sfbay','sandiego','sacramento','fresno','inlandempire','orangecounty'],
+  CO: ['denver','coloradosprings','boulder','fortcollins'],
+  CT: ['hartford','newhaven'],
   DE: ['delaware'],
-  FL: ['miami','tampa','orlando','jacksonville','fortlauderdale','pensacola','sarasota','lakeland','daytona','gainesville','fortmyers','tallahassee','treasure','spacecoast','ocala','panamacity'],
-  GA: ['atlanta','savannah','augusta','macon','athens','valdosta','statesboro','brunswick'],
+  FL: ['miami','tampa','orlando','jacksonville','fortlauderdale','sarasota'],
+  GA: ['atlanta','savannah','augusta','macon'],
   HI: ['honolulu'],
-  ID: ['boise','eastidaho','twinfalls','lewiston','pullman'],
-  IL: ['chicago','springfieldil','peoria','chambana','rockford','carbondale','decatur'],
-  IN: ['indianapolis','fortwayne','southbend','evansville','bloomington','muncie','lafayette'],
-  IA: ['desmoines','cedarrapids','waterloo','iowacity','dubuque','siouxcity','ames'],
-  KS: ['kansascity','wichita','topeka','lawrence','manhattan','salina'],
-  KY: ['louisville','lexington','bgky','eastky','owensboro'],
-  LA: ['neworleans','batonrouge','shreveport','lafayette','lakecharles','monroe','alexandria'],
+  ID: ['boise','eastidaho'],
+  IL: ['chicago','springfieldil','peoria','chambana'],
+  IN: ['indianapolis','fortwayne','southbend'],
+  IA: ['desmoines','cedarrapids','quadcities'],
+  KS: ['kansascity','wichita','topeka'],
+  KY: ['louisville','lexington'],
+  LA: ['neworleans','batonrouge','shreveport','lafayette'],
   ME: ['maine'],
-  MD: ['baltimore','frederick','easternshore','annapolis','smd','westmd'],
-  MA: ['boston','worcester','capecod','westernmass','southcoast'],
-  MI: ['detroit','grandrapids','annarbor','lansing','flint','kalamazoo','muskegon','saginaw','battlecreek','upperpeninsula'],
-  MN: ['minneapolis','duluth','stcloud','mankato','rochestermn','bemidji','brainerd'],
-  MS: ['jackson','gulfport','hattiesburg','meridian','northmiss'],
-  MO: ['stlouis','kansascity','springfield','columbiamo','joplin','semo','stjoseph'],
-  MT: ['billings','missoula','greatfalls','helena','bozeman','butte','kalispell'],
-  NE: ['omaha','lincoln','grandisland','northplatte','scottsbluff'],
-  NV: ['lasvegas','reno','elko'],
+  MD: ['baltimore','frederick','easternshore'],
+  MA: ['boston','worcester','westernmass'],
+  MI: ['detroit','grandrapids','annarbor','lansing','flint'],
+  MN: ['minneapolis','duluth','stcloud'],
+  MS: ['jackson','gulfport','hattiesburg'],
+  MO: ['stlouis','kansascity','springfield','columbiamo'],
+  MT: ['billings','missoula','greatfalls','helena'],
+  NE: ['omaha','lincoln'],
+  NV: ['lasvegas','reno'],
   NH: ['nh'],
-  NJ: ['newjersey','jerseyshore','southjersey','centralnj','northjersey'],
-  NM: ['albuquerque','santafe','lascruces','roswell','farmington'],
-  NY: ['newyork','albany','buffalo','rochester','syracuse','longisland','hudsonvalley','ithaca','utica','binghamton','watertown','plattsburgh','oneonta','elmira'],
-  NC: ['charlotte','raleigh','greensboro','asheville','wilmington','fayetteville','hickory','outerbanks','boone','jacksonvillenc'],
-  ND: ['fargo','bismarck','grandforks'],
-  OH: ['cleveland','columbus','cincinnati','dayton','toledo','akroncanton','youngstown','mansfield','sandusky','zanesville','chillicothe','lima'],
-  OK: ['oklahomacity','tulsa','lawton','stillwater'],
-  OR: ['portland','eugene','salem','bend','medford','corvallis','roseburg','klamath','oregoncoast','eastoregon'],
-  PA: ['philadelphia','pittsburgh','harrisburg','allentown','erie','scranton','lancaster','reading','york','williamsport','altoona','poconos','meadville','chambersburg','statecollege'],
+  NJ: ['newjersey','jerseyshore','southjersey'],
+  NM: ['albuquerque','santafe','lascruces'],
+  NY: ['newyork','albany','buffalo','rochester','syracuse','longisland','hudsonvalley'],
+  NC: ['charlotte','raleigh','greensboro','asheville','wilmington'],
+  ND: ['fargo','bismarck'],
+  OH: ['cleveland','columbus','cincinnati','dayton','toledo','akroncanton'],
+  OK: ['oklahomacity','tulsa'],
+  OR: ['portland','eugene','salem','bend','medford'],
+  PA: ['philadelphia','pittsburgh','harrisburg','allentown','erie'],
   RI: ['providence'],
-  SC: ['charleston','columbia','greenville','myrtlebeach','hiltonhead','florence'],
-  SD: ['siouxfalls','rapidcity','pierre','aberdeen'],
-  TN: ['nashville','memphis','knoxville','chattanooga','tricities','clarksville','cookeville','jackson'],
-  TX: ['houston','dallas','austin','sanantonio','fortworth','elpaso','mcallen','corpuschristi','lubbock','amarillo','waco','killeen','beaumont','brownsville','laredo','tyler','abilene','sanangelo','texoma','nacogdoches'],
-  UT: ['saltlakecity','provo','ogden','stgeorge','logan'],
+  SC: ['charleston','columbia','greenville','myrtlebeach'],
+  SD: ['siouxfalls','rapidcity'],
+  TN: ['nashville','memphis','knoxville','chattanooga'],
+  TX: ['houston','dallas','austin','sanantonio','fortworth','elpaso'],
+  UT: ['saltlakecity','provo','ogden'],
   VT: ['burlington'],
-  VA: ['norfolk','richmond','roanoke','charlottesville','fredericksburg','danville','harrisonburg','lynchburg','blacksburg','winchester'],
-  WA: ['seattle','olympia','tacoma','spokane','bellingham','yakima','wenatchee','kpr','pullman','skagit','moseslake'],
-  WV: ['charlestonwv','morgantown','huntington','parkersburg','wheeling'],
-  WI: ['milwaukee','madison','greenbay','appleton','lacrosse','eauclaire','wausau','janesville','racine','kenosha','sheboygan'],
+  VA: ['norfolk','richmond','roanoke','charlottesville'],
+  WA: ['seattle','olympia','tacoma','spokane','bellingham'],
+  WV: ['charlestonwv','morgantown','huntington'],
+  WI: ['milwaukee','madison','greenbay','appleton'],
   WY: ['wyoming'],
 };
 
-// ── Safe HTTP GET with retries ──
+// ── Safe HTTP GET (single attempt, fast timeout) ──
 
-async function safeFetch(url: string, retries = 2): Promise<string | null> {
-  for (let attempt = 0; attempt <= retries; attempt++) {
-    try {
-      const response = await axios.get(url, {
-        headers: {
-          'User-Agent': getRandomUA(),
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-          'Accept-Language': 'en-US,en;q=0.9',
-        },
-        timeout: 15000,
-        maxRedirects: 3,
-      });
-      return response.data;
-    } catch (err: any) {
-      if (attempt === retries) {
-        console.error(`[YardSale] Failed ${url}: ${err.message}`);
-        return null;
-      }
-      await new Promise((r) => setTimeout(r, 1000));
-    }
+async function safeFetch(url: string): Promise<string | null> {
+  try {
+    const response = await axios.get(url, {
+      headers: {
+        'User-Agent': getRandomUA(),
+        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+      timeout: 8000,
+      maxRedirects: 3,
+    });
+    return response.data;
+  } catch {
+    return null;
   }
-  return null;
 }
 
 // ── CRAIGSLIST ──
@@ -164,45 +165,6 @@ async function scrapeCraigslistCity(city: string, state: string): Promise<RawLis
       sourceName: 'craigslist',
       sourceCategory: 'craigslist',
       price: priceText || undefined,
-      photos: imgSrc ? [imgSrc] : [],
-    });
-  });
-
-  return listings;
-}
-
-// ── GSALR ──
-
-async function scrapeGSALR(state: string): Promise<RawListing[]> {
-  const listings: RawListing[] = [];
-  const html = await safeFetch(`https://gsalr.com/${state.toLowerCase()}`);
-  if (!html) return listings;
-
-  const $ = cheerio.load(html);
-
-  $('.sale, .listing, article, .sale-listing, .result-item, [class*="sale"]').each((_, el) => {
-    const title = $(el).find('h2, h3, h4, .title, .sale-title').first().text().trim();
-    if (!title) return;
-
-    const desc = $(el).find('.description, .details, p, .sale-description').first().text().trim();
-    const address = $(el).find('.address, .location, .sale-address, .sale-location').first().text().trim();
-    const dateText = $(el).find('.date, time, .sale-date, .sale-dates').first().text().trim();
-
-    const link = $(el).find('a').first().attr('href') || '';
-    const fullLink = link.startsWith('http') ? link : `https://gsalr.com${link}`;
-    const imgSrc = $(el).find('img').first().attr('src') || $(el).find('img').first().attr('data-src') || '';
-
-    listings.push({
-      title,
-      description: desc.substring(0, 2000),
-      address,
-      city: extractCity(address) || undefined,
-      state,
-      date: dateText,
-      time: desc,
-      sourceUrl: fullLink,
-      sourceName: 'gsalr',
-      sourceCategory: 'yardsale-directory',
       photos: imgSrc ? [imgSrc] : [],
     });
   });
@@ -253,6 +215,20 @@ async function scrapeEstateSales(state: string): Promise<RawListing[]> {
   return listings;
 }
 
+// ── Normalize + dedup a batch ──
+
+function normalizeBatch(rawListings: RawListing[], seenIds: Set<string>): NormalizedSale[] {
+  const results: NormalizedSale[] = [];
+  for (const raw of rawListings) {
+    const sale = normalizeListing(raw);
+    if (!sale) continue;
+    if (seenIds.has(sale.source_id)) continue;
+    seenIds.add(sale.source_id);
+    results.push(sale);
+  }
+  return results;
+}
+
 // ── Supabase row mapper ──
 
 function toSupabaseRow(sale: NormalizedSale) {
@@ -281,7 +257,36 @@ function toSupabaseRow(sale: NormalizedSale) {
   };
 }
 
-// ── MAIN EXPORT ──
+// ── Save batch to Supabase ──
+
+async function saveBatch(sales: NormalizedSale[]): Promise<{ saved: number; errors: number }> {
+  if (sales.length === 0) return { saved: 0, errors: 0 };
+  let saved = 0;
+  let errors = 0;
+  const batchSize = 50;
+
+  for (let i = 0; i < sales.length; i += batchSize) {
+    const batch = sales.slice(i, i + batchSize).map(toSupabaseRow);
+    const { error } = await supabaseAdmin
+      .from('yard_sales')
+      .upsert(batch, { onConflict: 'source_url' });
+
+    if (error) {
+      console.error(`[YardSale] Upsert error: ${error.message}`);
+      errors++;
+    } else {
+      saved += batch.length;
+    }
+  }
+
+  return { saved, errors };
+}
+
+// ══════════════════════════════════════════════
+//  MAIN EXPORT — SAVE-AS-YOU-GO ARCHITECTURE
+//  Collects + normalizes + saves PER STATE
+//  If Vercel kills at state 20, states 1-19 are saved
+// ══════════════════════════════════════════════
 
 export async function scrapeYardSales(): Promise<{
   success: boolean;
@@ -290,93 +295,76 @@ export async function scrapeYardSales(): Promise<{
   details: string;
 }> {
   console.log('[YardSale] ═══════════════════════════════════════════');
-  console.log('[YardSale] SCRAPER v3 — Ultimate Edition');
-  console.log('[YardSale] Address hard gate ACTIVE — street number required');
+  console.log('[YardSale] SCRAPER v4 — SAVE-AS-YOU-GO EDITION');
+  console.log('[YardSale] Address hard gate ACTIVE');
+  console.log('[YardSale] Deadline: 55s | Saves after EVERY state');
   console.log('[YardSale] ═══════════════════════════════════════════');
 
-  const startTime = Date.now();
+  let totalSaved = 0;
   let totalErrors = 0;
-  const allRawListings: RawListing[] = [];
+  let totalRaw = 0;
+  let statesCompleted = 0;
+  const seenIds = new Set<string>();
 
-  // PHASE 1: Collect raw listings from all sources
   for (const state of ALL_STATES) {
+    // ── DEADLINE CHECK ──
+    if (isTimedOut()) {
+      console.log(`[YardSale] ⏰ DEADLINE HIT at ${statesCompleted} states. Saving what we have.`);
+      break;
+    }
+
+    const stateRaw: RawListing[] = [];
+
+    // Craigslist cities for this state
     const cities = CRAIGSLIST_CITIES[state] || [];
     for (const city of cities) {
+      if (isTimedOut()) break;
       try {
-        const items = await queue.add(() => scrapeCraigslistCity(city, state));
-        if (items && items.length > 0) {
-          allRawListings.push(...items);
-          console.log(`[YardSale] CL ${city} (${state}): ${items.length} raw`);
-        }
-      } catch (err: any) {
-        console.error(`[YardSale] CL ${city} error: ${err.message}`);
+        const items = await scrapeCraigslistCity(city, state);
+        if (items.length > 0) stateRaw.push(...items);
+      } catch {
         totalErrors++;
       }
     }
 
-    try {
-      const items = await queue.add(() => scrapeGSALR(state));
-      if (items && items.length > 0) {
-        allRawListings.push(...items);
-        console.log(`[YardSale] GSALR ${state}: ${items.length} raw`);
-      }
-    } catch (err: any) {
-      console.error(`[YardSale] GSALR ${state} error: ${err.message}`);
-      totalErrors++;
-    }
-
-    try {
-      const items = await queue.add(() => scrapeEstateSales(state));
-      if (items && items.length > 0) {
-        allRawListings.push(...items);
-        console.log(`[YardSale] EstateSales ${state}: ${items.length} raw`);
-      }
-    } catch (err: any) {
-      console.error(`[YardSale] EstateSales ${state} error: ${err.message}`);
-      totalErrors++;
-    }
-  }
-
-  console.log(`[YardSale] ── PHASE 1: ${allRawListings.length} raw listings collected ──`);
-
-  // PHASE 2: Normalize + filter + dedup
-  const validSales = normalizeAll(allRawListings);
-
-  console.log(`[YardSale] ── PHASE 2 ──`);
-  console.log(`[YardSale]   Raw:      ${allRawListings.length}`);
-  console.log(`[YardSale]   Valid:    ${validSales.length}`);
-  console.log(`[YardSale]   Rejected: ${allRawListings.length - validSales.length} (no address / junk / dupe)`);
-
-  // PHASE 3: Upsert to Supabase
-  let totalSaved = 0;
-
-  if (validSales.length > 0) {
-    const batchSize = 100;
-    for (let i = 0; i < validSales.length; i += batchSize) {
-      const batch = validSales.slice(i, i + batchSize).map(toSupabaseRow);
-      const { error } = await supabaseAdmin
-        .from('yard_sales')
-        .upsert(batch, { onConflict: 'source_url' });
-
-      if (error) {
-        console.error(`[YardSale] Upsert batch ${Math.floor(i / batchSize) + 1} error:`, error.message);
+    // EstateSales.net for this state
+    if (!isTimedOut()) {
+      try {
+        const items = await scrapeEstateSales(state);
+        if (items.length > 0) stateRaw.push(...items);
+      } catch {
         totalErrors++;
-      } else {
-        totalSaved += batch.length;
       }
     }
+
+    totalRaw += stateRaw.length;
+
+    // ── NORMALIZE + SAVE IMMEDIATELY ──
+    const valid = normalizeBatch(stateRaw, seenIds);
+    if (valid.length > 0) {
+      const result = await saveBatch(valid);
+      totalSaved += result.saved;
+      totalErrors += result.errors;
+      console.log(`[YardSale] ${state}: ${stateRaw.length} raw → ${valid.length} valid → ${result.saved} saved`);
+    } else {
+      console.log(`[YardSale] ${state}: ${stateRaw.length} raw → 0 valid (no addresses)`);
+    }
+
+    statesCompleted++;
   }
 
   const duration = Date.now() - startTime;
 
-  console.log(`[YardSale] ═══════════════════════════════════════════`);
-  console.log(`[YardSale] COMPLETE: ${totalSaved} saved, ${totalErrors} errors, ${(duration / 1000).toFixed(1)}s`);
-  console.log(`[YardSale] ═══════════════════════════════════════════`);
+  console.log('[YardSale] ═══════════════════════════════════════════');
+  console.log(`[YardSale] DONE: ${statesCompleted}/50 states`);
+  console.log(`[YardSale] Raw: ${totalRaw} → Saved: ${totalSaved} → Errors: ${totalErrors}`);
+  console.log(`[YardSale] Time: ${(duration / 1000).toFixed(1)}s`);
+  console.log('[YardSale] ═══════════════════════════════════════════');
 
   return {
     success: totalErrors === 0,
     itemsFound: totalSaved,
     errors: totalErrors,
-    details: `50 states, ${Object.values(CRAIGSLIST_CITIES).flat().length} CL cities | Raw: ${allRawListings.length} → Valid: ${validSales.length} → Saved: ${totalSaved} | ${(duration / 1000).toFixed(1)}s`,
+    details: `${statesCompleted}/50 states | Raw: ${totalRaw} → Saved: ${totalSaved} | ${(duration / 1000).toFixed(1)}s`,
   };
 }
