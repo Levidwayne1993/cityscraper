@@ -13,6 +13,12 @@
 //    - Reduced deadline from 280s to 250s for safer Vercel buffer
 //    - Added STATE ROTATION: scrapes 10 states per run (all 50 in 5 days)
 //      Prevents timeout from trying all 50 states at once
+//
+//  v2.2 FIXES (April 2026):
+//    - Disabled ALL confirmed-broken sources after live Vercel log analysis
+//    - auction-com, xome, realtor-com, county-sheriff, county-tax,
+//      county-foreclosure, fsbo, bank-reo, realtymole, rentcast all 404/dead
+//    - Only HUD, USDA, Zillow, Redfin, Craigslist remain enabled
 // ============================================================
 
 import axios from 'axios';
@@ -183,30 +189,30 @@ export const SOURCE_CONFIG: Record<string, SourceConfig> = {
   'homesteps':       { enabled: false, label: 'Freddie Mac HomeSteps', category: 'government' },  // Program discontinued, domain dead
 
   // === AUCTION PLATFORMS ===
-  'auction-com':     { enabled: true,  label: 'Auction.com',           category: 'auction' },
+  'auction-com':     { enabled: false, label: 'Auction.com',           category: 'auction' },  // 404 every state
   'hubzu':           { enabled: false, label: 'Hubzu',                 category: 'auction' },      // Site dead
-  'xome':            { enabled: true,  label: 'Xome Auctions',         category: 'auction' },
+  'xome':            { enabled: false, label: 'Xome Auctions',         category: 'auction' },  // 404 every state
 
   // === BANK-OWNED / REO ===
-  'bank-reo':        { enabled: true,  label: 'Bank REO Aggregator',   category: 'reo' },
+  'bank-reo':        { enabled: false, label: 'Bank REO Aggregator',   category: 'reo' },      // 0 results, dead URLs
 
   // === REAL ESTATE PORTALS (distressed/foreclosure filters) ===
   'zillow':          { enabled: true,  label: 'Zillow Foreclosures',   category: 'portal' },
-  'realtor-com':     { enabled: true,  label: 'Realtor.com Distressed',category: 'portal' },
+  'realtor-com':     { enabled: false, label: 'Realtor.com Distressed',category: 'portal' },   // 404 every city
   'redfin':          { enabled: true,  label: 'Redfin Distressed',     category: 'portal' },
 
   // === COUNTY-LEVEL PUBLIC RECORDS (THE GOLD MINE) ===
-  'county-sheriff':  { enabled: true,  label: 'County Sheriff Sales',  category: 'county' },
-  'county-tax':      { enabled: true,  label: 'Tax Lien/Deed Sales',   category: 'county' },
-  'county-foreclosure': { enabled: true, label: 'County Foreclosures', category: 'county' },
+  'county-sheriff':  { enabled: false, label: 'County Sheriff Sales',  category: 'county' },   // Dead URLs, expired SSL
+  'county-tax':      { enabled: false, label: 'Tax Lien/Deed Sales',   category: 'county' },   // Dead URLs, DNS failures
+  'county-foreclosure': { enabled: false, label: 'County Foreclosures', category: 'county' },  // Dead URLs
 
   // === FSBO & OTHER ===
   'craigslist':      { enabled: true,  label: 'Craigslist Housing',    category: 'other' },
-  'fsbo':            { enabled: true,  label: 'ForSaleByOwner.com',    category: 'other' },
+  'fsbo':            { enabled: false, label: 'ForSaleByOwner.com',    category: 'other' },    // 404 every state
 
   // === API-BASED (require keys) ===
-  'realtymole':      { enabled: true,  label: 'RealtyMole API',        category: 'api', requiresApiKey: 'REALTY_MOLE_API_KEY' },
-  'rentcast':        { enabled: true,  label: 'RentCast API',          category: 'api', requiresApiKey: 'RENTCAST_API_KEY' },
+  'realtymole':      { enabled: false, label: 'RealtyMole API',        category: 'api', requiresApiKey: 'REALTY_MOLE_API_KEY' },  // No API key
+  'rentcast':        { enabled: false, label: 'RentCast API',          category: 'api', requiresApiKey: 'RENTCAST_API_KEY' },    // No API key
 
   // === PAID DATA PROVIDERS (disabled by default — flip when ready) ===
   'foreclosure-com':    { enabled: false, label: 'Foreclosure.com',       category: 'paid', isPaid: true, requiresApiKey: 'FORECLOSURE_COM_KEY' },
