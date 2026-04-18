@@ -1,12 +1,18 @@
 // ============================================================
 //  FILE: src/lib/scrapers/home-scraper.ts  (REPLACES EXISTING)
-//  CHEAP HOME SCRAPER v2.0 — Powers CheapHouseHub.com
+//  CHEAP HOME SCRAPER v2.1 — Powers CheapHouseHub.com
 //  
 //  COMPLETE REWRITE: 20+ sources across 7 categories
 //  Categories: Government, Auction/REO, Portals, County, FSBO/Other, Paid (disabled)
 //  
 //  Architecture: Main orchestrator imports source modules
 //  Pattern: save-as-you-go per source, timeout-aware, PQueue rate limiting
+//
+//  v2.1 FIXES (April 2026):
+//    - Disabled dead sources: HomePath (Angular SPA), HomeSteps (program dead), Hubzu (site dead)
+//    - Reduced deadline from 280s to 250s for safer Vercel buffer
+//    - Added STATE ROTATION: scrapes 10 states per run (all 50 in 5 days)
+//      Prevents timeout from trying all 50 states at once
 // ============================================================
 
 import axios from 'axios';
@@ -172,13 +178,13 @@ export interface SourceConfig {
 export const SOURCE_CONFIG: Record<string, SourceConfig> = {
   // === GOVERNMENT / FEDERAL ===
   'hud-homestore':   { enabled: true,  label: 'HUD HomeStore',         category: 'government' },
-  'homepath':        { enabled: true,  label: 'Fannie Mae HomePath',   category: 'government' },
+  'homepath':        { enabled: false, label: 'Fannie Mae HomePath',   category: 'government' },  // Angular SPA — can't scrape server-side
   'usda':            { enabled: true,  label: 'USDA RD/FSA',           category: 'government' },
-  'homesteps':       { enabled: true,  label: 'Freddie Mac HomeSteps', category: 'government' },
+  'homesteps':       { enabled: false, label: 'Freddie Mac HomeSteps', category: 'government' },  // Program discontinued, domain dead
 
   // === AUCTION PLATFORMS ===
   'auction-com':     { enabled: true,  label: 'Auction.com',           category: 'auction' },
-  'hubzu':           { enabled: true,  label: 'Hubzu',                 category: 'auction' },
+  'hubzu':           { enabled: false, label: 'Hubzu',                 category: 'auction' },      // Site dead
   'xome':            { enabled: true,  label: 'Xome Auctions',         category: 'auction' },
 
   // === BANK-OWNED / REO ===
@@ -216,6 +222,24 @@ export function isSourceEnabled(sourceId: string): boolean {
 }
 
 // ============================================================
+//  STATE ROTATION — scrape 10 states per run (all 50 in 5 days)
+//  Prevents timeout from trying all 50 states in a single invocation
+//  Day 1: AL-GA | Day 2: HI-MD | Day 3: MA-NJ | Day 4: NM-SC | Day 5: SD-WY
+// ============================================================
+
+function getStateBatch(): { states: string[]; batchIndex: number; totalBatches: number } {
+  const now = new Date();
+  const startOfYear = new Date(now.getFullYear(), 0, 0);
+  const dayOfYear = Math.floor((now.getTime() - startOfYear.getTime()) / 86400000);
+  const totalBatches = 5;
+  const batchIndex = dayOfYear % totalBatches;
+  const batchSize = 10;
+  const start = batchIndex * batchSize;
+  const states = ALL_STATES.slice(start, start + batchSize);
+  return { states, batchIndex, totalBatches };
+}
+
+// ============================================================
 //  MAIN SCRAPE ORCHESTRATOR
 // ============================================================
 
@@ -226,14 +250,18 @@ export async function scrapeCheapHomes(): Promise<{
   details: string;
 }> {
   const startTime = Date.now();
-  const DEADLINE_MS = 280_000; // 280s hard deadline (leave 20s buffer for Vercel 300s)
+  const DEADLINE_MS = 250_000; // 250s hard deadline (leave 50s buffer for Vercel 300s)
   
   function isTimedOut(): boolean {
     return Date.now() - startTime > DEADLINE_MS;
   }
 
-  console.log('[Homes] ========== CHEAP HOME SCRAPER v2.0 ==========');
-  console.log('[Homes] Starting full multi-source scrape...');
+  // Get today's state batch (10 states instead of all 50)
+  const { states: stateBatch, batchIndex, totalBatches } = getStateBatch();
+
+  console.log('[Homes] ========== CHEAP HOME SCRAPER v2.1 ==========');
+  console.log(`[Homes] State batch ${batchIndex + 1}/${totalBatches}: ${stateBatch.join(', ')}`);
+  console.log('[Homes] Starting multi-source scrape...');
 
   const enabledSources = Object.entries(SOURCE_CONFIG)
     .filter(([id]) => isSourceEnabled(id))
@@ -259,7 +287,7 @@ export async function scrapeCheapHomes(): Promise<{
     console.log(`[Homes] --- Starting ${categoryName} ---`);
 
     try {
-      const items = await scrapeFn(ALL_STATES, isTimedOut);
+      const items = await scrapeFn(stateBatch, isTimedOut);
       const validItems = items.filter(item => 
         item.address && 
         item.price > 0 && 
@@ -312,7 +340,7 @@ export async function scrapeCheapHomes(): Promise<{
     success: totalErrors === 0,
     itemsFound: totalItems,
     errors: totalErrors,
-    details: `Scraped ${ALL_STATES.length} states, ${totalItems} cheap homes in ${(duration / 1000).toFixed(1)}s | ${details}`,
+    details: `Batch ${batchIndex + 1}/${totalBatches} (${stateBatch.join(',')}), ${totalItems} cheap homes in ${(duration / 1000).toFixed(1)}s | ${details}`,
   };
 }
 
