@@ -1,6 +1,6 @@
 // ============================================================
 //  FILE: src/lib/scrapers/home-scraper.ts  (REPLACES EXISTING)
-//  CHEAP HOME SCRAPER v2.1 — Powers CheapHouseHub.com
+//  CHEAP HOME SCRAPER v2.3 — Powers CheapHouseHub.com
 //  
 //  COMPLETE REWRITE: 20+ sources across 7 categories
 //  Categories: Government, Auction/REO, Portals, County, FSBO/Other, Paid (disabled)
@@ -19,6 +19,13 @@
 //    - auction-com, xome, realtor-com, county-sheriff, county-tax,
 //      county-foreclosure, fsbo, bank-reo, realtymole, rentcast all 404/dead
 //    - Only HUD, USDA, Zillow, Redfin, Craigslist remain enabled
+//
+//  v2.3 FIXES (April 2026):
+//    - Skip entire source categories where ALL sub-sources are disabled
+//      (County, Auction/REO) — saves 20+ seconds of dead URL requests
+//    - Relaxed address validation: accept addresses without leading number
+//      (fixes 72 auction items rejected as invalid)
+//    - Better logging for validation failures
 // ============================================================
 
 import axios from 'axios';
@@ -135,8 +142,11 @@ export function cleanTitle(text: string): string {
 }
 
 export function isValidAddress(address: string): boolean {
-  // Must start with a number (street address)
-  return /^\d+\s+\S+/.test(address.trim()) && address.length > 10;
+  // Accept any address that is long enough and contains a number somewhere
+  // Old rule (too strict): must START with a number — rejected 72+ valid auction items
+  // New rule: must contain at least one digit and be > 10 chars
+  const trimmed = address.trim();
+  return trimmed.length > 10 && /\d/.test(trimmed);
 }
 
 export function detectPropertyType(text: string): string {
@@ -294,11 +304,16 @@ export async function scrapeCheapHomes(): Promise<{
 
     try {
       const items = await scrapeFn(stateBatch, isTimedOut);
+      const rawCount = items.length;
       const validItems = items.filter(item => 
         item.address && 
         item.price > 0 && 
         isValidAddress(item.address)
       );
+      const rejected = rawCount - validItems.length;
+      if (rejected > 0) {
+        console.log(`[Homes] ${categoryName}: ${rejected} items failed validation (no address or bad price)`);
+      }
 
       if (validItems.length > 0) {
         const saved = await saveItems(validItems);
@@ -317,21 +332,47 @@ export async function scrapeCheapHomes(): Promise<{
   }
 
   // ---- Run all source categories sequentially (to manage timeout budget) ----
+  // Helper: check if ANY source in a category is enabled
+  function isCategoryActive(category: string): boolean {
+    return Object.entries(SOURCE_CONFIG).some(
+      ([id, cfg]) => cfg.category === category && isSourceEnabled(id)
+    );
+  }
 
   // 1. Government sources — highest priority, most reliable
-  await runSourceCategory('Government', scrapeGovernmentSources);
+  if (isCategoryActive('government')) {
+    await runSourceCategory('Government', scrapeGovernmentSources);
+  } else {
+    console.log('[Homes] Skipping Government — all sources disabled');
+  }
 
   // 2. Auction & REO — high-value distressed properties
-  await runSourceCategory('Auction/REO', scrapeAuctionREOSources);
+  if (isCategoryActive('auction') || isCategoryActive('reo')) {
+    await runSourceCategory('Auction/REO', scrapeAuctionREOSources);
+  } else {
+    console.log('[Homes] Skipping Auction/REO — all sources disabled');
+  }
 
   // 3. County public records — the gold mine
-  await runSourceCategory('County', scrapeCountySources);
+  if (isCategoryActive('county')) {
+    await runSourceCategory('County', scrapeCountySources);
+  } else {
+    console.log('[Homes] Skipping County — all sources disabled');
+  }
 
-  // 4. Portal distressed listings — Zillow, Realtor.com, Redfin
-  await runSourceCategory('Portals', scrapePortalSources);
+  // 4. Portal distressed listings — Zillow, Redfin
+  if (isCategoryActive('portal')) {
+    await runSourceCategory('Portals', scrapePortalSources);
+  } else {
+    console.log('[Homes] Skipping Portals — all sources disabled');
+  }
 
   // 5. FSBO, Craigslist, other
-  await runSourceCategory('Other', scrapeOtherSources);
+  if (isCategoryActive('other')) {
+    await runSourceCategory('Other', scrapeOtherSources);
+  } else {
+    console.log('[Homes] Skipping Other — all sources disabled');
+  }
 
   const duration = Date.now() - startTime;
   const details = Object.entries(sourceResults)
