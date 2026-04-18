@@ -164,7 +164,7 @@ async function scrapeEstateSales(state: string): Promise<YardSaleItem[]> {
   const items: YardSaleItem[] = [];
 
   try {
-    const url = `https://www.estatesales.net/find-sale/${state}`;
+    const url = `https://www.estatesales.net/${state}`;
     const response = await axios.get(url, {
       headers: { 'User-Agent': getRandomUA() },
       timeout: 15000,
