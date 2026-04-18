@@ -132,7 +132,7 @@ export async function GET(req: NextRequest) {
     );
 
     // 3. Geocode each unique city+state via Nominatim
-    for (const [key, entry] of cityStateMap) {
+    for (const [key, entry] of Array.from(cityStateMap.entries())) {
       // Safety: stop if approaching Vercel timeout (leave 8s buffer)
       if (Date.now() - startTime > 52000) {
         console.log('[Geocode] Approaching timeout, stopping. Run again to continue.');
