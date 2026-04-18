@@ -1,7 +1,18 @@
+// ============================================================
+// PASTE INTO: src/lib/scrapers/yard-sale-normalizer.ts (cityscraper project)
+//
+// FIXES:
+// 1. parseDate() now handles M-D-YYYY hyphen format (e.g. "4-17-2026")
+// 2. DATE_PATTERNS includes hyphen dates so extractDates() catches them
+// 3. normalizeListing() checks TITLE dates FIRST, then description,
+//    then raw.date — so the actual sale date from the seller's title
+//    takes priority over CL's posting date
+// ============================================================
+
 import { createHash } from 'crypto';
 
 // ================================================================
-//  YARD SALE NORMALIZER v3 — ULTIMATE MERGED VERSION
+//  YARD SALE NORMALIZER v3.1 — DATE PRIORITY FIX
 //  Combines: YardShoppers collector (465 lines) + CityScraper draft
 //  
 //  HARD GATE: Every listing MUST have a real street address
@@ -98,9 +109,11 @@ export const ADDRESS_PATTERN =
 
 export const ZIP_PATTERN = /\b\d{5}(-\d{4})?\b/;
 
+// FIX: Added M-D-YYYY hyphen format pattern
 export const DATE_PATTERNS: RegExp[] = [
   /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\b/i,
   /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/,
+  /\b\d{1,2}-\d{1,2}-\d{2,4}\b/,
   /\b\d{4}-\d{2}-\d{2}\b/,
   /\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)(day)?\b/i,
 ];
@@ -292,9 +305,11 @@ const MONTH_NAMES: Record<string, string> = {
 export function parseDate(dateStr: string | undefined): string | null {
   if (!dateStr) return null;
 
+  // ISO format: 2026-04-17
   const isoMatch = dateStr.match(/(\d{4}-\d{2}-\d{2})/);
   if (isoMatch) return isoMatch[1];
 
+  // US slash format: 4/17/2026
   const usMatch = dateStr.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
   if (usMatch) {
     const month = usMatch[1].padStart(2, '0');
@@ -303,6 +318,16 @@ export function parseDate(dateStr: string | undefined): string | null {
     return `${year}-${month}-${day}`;
   }
 
+  // FIX: Hyphen format: 4-17-2026 (common in CL titles like "Friday 4-17-2026")
+  const hyphenMatch = dateStr.match(/(\d{1,2})-(\d{1,2})-(\d{2,4})/);
+  if (hyphenMatch) {
+    const month = hyphenMatch[1].padStart(2, '0');
+    const day = hyphenMatch[2].padStart(2, '0');
+    const year = hyphenMatch[3].length === 2 ? `20${hyphenMatch[3]}` : hyphenMatch[3];
+    return `${year}-${month}-${day}`;
+  }
+
+  // Month name format: April 17, 2026
   const monthMatch = dateStr.match(
     /\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(\d{1,2})(?:\s*,?\s*(\d{4}))?/i
   );
@@ -313,6 +338,7 @@ export function parseDate(dateStr: string | undefined): string | null {
     return `${year}-${month}-${day}`;
   }
 
+  // Fallback: try native Date parser
   try {
     const d = new Date(dateStr);
     if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
@@ -523,7 +549,27 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
 
   const zip = raw.zip || extractZip(`${address} ${combinedText}`) || null;
 
-  const rawDates = raw.date ? [raw.date] : extractDates(combinedText);
+  // ═══════════════════════════════════════════════════════════
+  // FIX: DATE PRIORITY — title date > description date > raw.date
+  //
+  // raw.date from Craigslist is the POSTING datetime, NOT the
+  // sale date. Sellers put the actual sale date in the title:
+  //   "GARAGE SALE Friday 4-17-2026 Diecast & Hot Wheels"
+  //
+  // Old code: const rawDates = raw.date ? [raw.date] : extractDates(combinedText);
+  // This always used the CL posting date and ignored the title date.
+  //
+  // New code: Check title first, then description, then raw.date as fallback.
+  // ═══════════════════════════════════════════════════════════
+  const titleDates = extractDates(title);
+  const descDates = extractDates(description || '');
+  const rawDates = titleDates.length > 0
+    ? titleDates
+    : descDates.length > 0
+      ? descDates
+      : raw.date
+        ? [raw.date]
+        : [];
   const saleDate = parseDate(rawDates[0]) || null;
 
   const timeRange = parseTimeRange(combinedText);

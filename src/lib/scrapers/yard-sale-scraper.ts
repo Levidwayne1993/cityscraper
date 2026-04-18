@@ -1,3 +1,14 @@
+// ============================================================
+// PASTE INTO: src/lib/scrapers/yard-sale-scraper.ts (cityscraper project)
+//
+// FIXES:
+// 1. Moved startTime INSIDE scrapeYardSales() function
+//    (was module-level — warm Vercel containers reused the old
+//    value, causing isTimedOut() to return true immediately on
+//    every run after the first one)
+// 2. isTimedOut() now takes startTime as a parameter
+// ============================================================
+
 import axios from 'axios';
 import * as cheerio from 'cheerio';
 import { supabaseAdmin } from '@/lib/supabase';
@@ -11,13 +22,15 @@ import {
 } from './yard-sale-normalizer';
 
 // ================================================================
-//  YARD SALE SCRAPER v4 — SAVE-AS-YOU-GO EDITION
+//  YARD SALE SCRAPER v4.1 — WARM CONTAINER FIX
 //
-//  CRITICAL FIX: v3 collected ALL 275+ sources then saved at end.
-//  Vercel's 60s timeout killed it before it ever saved anything.
+//  CRITICAL FIX: startTime was module-level. On warm Vercel
+//  containers (reused for ~15 min), the second cron run would
+//  see startTime from hours ago → isTimedOut() returns true
+//  immediately → scraper does ZERO work.
 //
-//  v4 saves after EVERY state — if timeout hits at state 20,
-//  you still have 20 states of data in Supabase.
+//  Now startTime is inside scrapeYardSales() so every invocation
+//  gets a fresh timestamp.
 //
 //  Sources: Craigslist (175+ cities), EstateSales.net (50 states)
 //  GSALR removed — returns 403 Forbidden (blocks all scrapers)
@@ -27,7 +40,6 @@ import {
 // ================================================================
 
 const DEADLINE_MS = 55000; // Stop collecting at 55s, save what we have
-const startTime = Date.now();
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -41,7 +53,8 @@ function getRandomUA(): string {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
-function isTimedOut(): boolean {
+// FIX: Now takes startTime as parameter instead of using module-level variable
+function isTimedOut(startTime: number): boolean {
   return Date.now() - startTime > DEADLINE_MS;
 }
 
@@ -294,8 +307,14 @@ export async function scrapeYardSales(): Promise<{
   errors: number;
   details: string;
 }> {
+  // FIX: startTime is now INSIDE the function, not module-level.
+  // On warm Vercel containers, module-level variables persist across
+  // invocations. The old code would see startTime from hours ago and
+  // isTimedOut() would return true immediately — zero work done.
+  const startTime = Date.now();
+
   console.log('[YardSale] ═══════════════════════════════════════════');
-  console.log('[YardSale] SCRAPER v4 — SAVE-AS-YOU-GO EDITION');
+  console.log('[YardSale] SCRAPER v4.1 — WARM CONTAINER FIX');
   console.log('[YardSale] Address hard gate ACTIVE');
   console.log('[YardSale] Deadline: 55s | Saves after EVERY state');
   console.log('[YardSale] ═══════════════════════════════════════════');
@@ -308,7 +327,7 @@ export async function scrapeYardSales(): Promise<{
 
   for (const state of ALL_STATES) {
     // ── DEADLINE CHECK ──
-    if (isTimedOut()) {
+    if (isTimedOut(startTime)) {
       console.log(`[YardSale] ⏰ DEADLINE HIT at ${statesCompleted} states. Saving what we have.`);
       break;
     }
@@ -318,7 +337,7 @@ export async function scrapeYardSales(): Promise<{
     // Craigslist cities for this state
     const cities = CRAIGSLIST_CITIES[state] || [];
     for (const city of cities) {
-      if (isTimedOut()) break;
+      if (isTimedOut(startTime)) break;
       try {
         const items = await scrapeCraigslistCity(city, state);
         if (items.length > 0) stateRaw.push(...items);
@@ -328,7 +347,7 @@ export async function scrapeYardSales(): Promise<{
     }
 
     // EstateSales.net for this state
-    if (!isTimedOut()) {
+    if (!isTimedOut(startTime)) {
       try {
         const items = await scrapeEstateSales(state);
         if (items.length > 0) stateRaw.push(...items);
