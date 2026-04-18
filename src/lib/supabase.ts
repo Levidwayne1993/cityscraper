@@ -55,7 +55,9 @@ export async function logScrapeRun(
 ) {
   const { error } = await supabaseAdmin.from('scrape_logs').insert({
     pipeline,
+    target: pipeline,
     status,
+
     items_found: itemsFound,
     items_pushed: itemsPushed,
     errors,
