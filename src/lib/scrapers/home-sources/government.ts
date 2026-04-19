@@ -99,7 +99,7 @@ async function scrapeHUDHomeStore(state: string): Promise<CheapHomeItem[]> {
         const address = (attrs.ADDRESS || '').trim();
         const city = (attrs.CITY || '').trim();
         const stateCode = (attrs.STATE_CODE || state).trim();
-        const zip = (attrs.DISPLAY_ZIP_CODE || '').trim();
+        const zip = String(attrs.DISPLAY_ZIP_CODE || '').trim();
         const caseNumber = (attrs.CASE_NUM || '').trim();
         const lat = attrs.MAP_LATITUDE || null;
         const lng = attrs.MAP_LONGITUDE || null;
