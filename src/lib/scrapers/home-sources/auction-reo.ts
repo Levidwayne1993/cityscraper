@@ -1,14 +1,27 @@
 // ============================================================
 //  FILE: src/lib/scrapers/home-sources/auction-reo.ts
-//  AUCTION PLATFORMS & BANK-OWNED REO SOURCES
-//  
+//  AUCTION PLATFORMS & BANK-OWNED REO SOURCES — v4.0 (April 2026)
+//
+//  WHAT CHANGED FROM v3.0:
+//  1. Auction.com — DISABLED. Site is a fully client-rendered
+//     React SPA (data-app-id=resi-search). No __NEXT_DATA__,
+//     no server-rendered HTML, no public API found. Tested:
+//       - /api/v1/search → 404
+//       - /aon-ui-v2/api/search/assets → 404
+//     Returns empty array with log message instead of erroring.
+//  2. Xome — DISABLED. Site is completely down, returns
+//     "Custom Error Page" / "We are having trouble loading
+//     this page" on all routes. Returns empty array with log.
+//  3. Hubzu — unchanged, still active
+//  4. RealtyMole API — unchanged (requires API key)
+//  5. RentCast API — unchanged (requires API key)
+//
 //  Sources:
-//    1. Auction.com — largest online real estate auction platform
+//    1. Auction.com — DISABLED (client-rendered SPA, no API)
 //    2. Hubzu — online REO auction marketplace
-//    3. Xome Auctions — auction & REO platform
-//    4. Bank REO Aggregator — scrapes major bank REO pages
-//    5. RealtyMole API (if key set)
-//    6. RentCast API (if key set)
+//    3. Xome Auctions — DISABLED (site down)
+//    4. RealtyMole API (if key set)
+//    5. RentCast API (if key set)
 // ============================================================
 
 import axios from 'axios';
@@ -27,143 +40,28 @@ import {
 } from '../home-scraper';
 
 // ============================================================
-//  1. AUCTION.COM
-//  Largest US online auction platform for foreclosures/REO
-//  Method: Scrape state-level search results pages
+//  1. AUCTION.COM — DISABLED
+//
+//  v4.0: Disabled. Auction.com is a fully client-rendered
+//  React SPA. Server-side requests get an empty HTML shell
+//  with no property data. No public REST/GraphQL API exists.
+//  Re-enable if Auction.com adds server rendering or a
+//  public API in the future.
 // ============================================================
 
 async function scrapeAuctionCom(state: string): Promise<CheapHomeItem[]> {
-  if (!isSourceEnabled('auction-com')) return [];
-  const items: CheapHomeItem[] = [];
-
-  try {
-    const stateName = (STATE_NAMES[state] || state).toLowerCase().replace(/\s+/g, '-');
-    const url = `https://www.auction.com/residential/${stateName}/`;
-
-    const response = await httpQueue.add(() =>
-      axios.get(url, {
-        headers: {
-          'User-Agent': getRandomUA(),
-          'Accept': 'text/html,application/xhtml+xml',
-          'Accept-Language': 'en-US,en;q=0.9',
-        },
-        timeout: 25000,
-      })
-    );
-
-    if (!response?.data) return items;
-    const $ = cheerio.load(response.data);
-
-    // Auction.com uses React/Next.js — check for __NEXT_DATA__ or embedded JSON
-    const nextDataScript = $('script#__NEXT_DATA__').html();
-    if (nextDataScript) {
-      try {
-        const nextData = JSON.parse(nextDataScript);
-        const props = nextData?.props?.pageProps;
-        const listings = props?.listings || props?.properties || props?.searchResults?.results || [];
-
-        for (const listing of listings) {
-          const addr = listing.address || listing.propertyAddress || {};
-          const fullAddress = typeof addr === 'string'
-            ? addr
-            : `${addr.street || addr.line1 || ''}, ${addr.city || ''}, ${addr.state || state} ${addr.zip || addr.postalCode || ''}`;
-
-          items.push({
-            title: `Auction: ${fullAddress}`,
-            address: fullAddress,
-            city: typeof addr === 'object' ? (addr.city || '') : extractCity(fullAddress),
-            state,
-            zip: typeof addr === 'object' ? (addr.zip || addr.postalCode || '') : extractZip(fullAddress),
-            county: listing.county || null,
-            price: listing.currentBid || listing.startingBid || listing.price || 0,
-            original_price: listing.estimatedValue || listing.marketValue || null,
-            starting_bid: listing.startingBid || listing.openingBid || null,
-            assessed_value: listing.assessedValue || null,
-            bedrooms: listing.bedrooms || listing.beds || null,
-            bathrooms: listing.bathrooms || listing.baths || null,
-            sqft: listing.squareFeet || listing.sqft || null,
-            lot_size: listing.lotSize || null,
-            year_built: listing.yearBuilt || null,
-            property_type: detectPropertyType(listing.propertyType || ''),
-            listing_type: listing.auctionType?.toLowerCase()?.includes('foreclosure') ? 'foreclosure' : 'auction',
-            listing_category: 'auction',
-            source: 'auction-com',
-            source_url: listing.url || listing.detailUrl || `https://www.auction.com/details/${listing.id || listing.globalPropertyId || ''}`,
-            image_urls: listing.photos || listing.images || (listing.primaryPhoto ? [listing.primaryPhoto] : []),
-            description: listing.description || null,
-            auction_date: listing.auctionDate || listing.saleDate || null,
-            case_number: listing.caseNumber || null,
-            parcel_id: listing.parcelId || listing.apn || null,
-            property_status: listing.status || 'active',
-            lat: listing.latitude || listing.lat || null,
-            lng: listing.longitude || listing.lng || null,
-          });
-        }
-      } catch (e) {
-        // Fall through to HTML parsing
-      }
-    }
-
-    // Fallback: parse HTML property cards
-    if (items.length === 0) {
-      $('[class*="property-card"], [class*="auction-card"], [class*="listing-card"], [data-testid*="property"]').each((_, el) => {
-        const address = $(el).find('[class*="address"], [class*="location"]').text().trim();
-        const priceText = $(el).find('[class*="price"], [class*="bid"]').text().trim();
-        const link = $(el).find('a').attr('href') || '';
-        const imgSrc = $(el).find('img').attr('src') || $(el).find('img').attr('data-src') || '';
-
-        const price = parsePrice(priceText);
-        if (!address || address.length < 5) return;
-
-        const text = $(el).text();
-        const bedsMatch = text.match(/(\d+)\s*(?:bed|br|bd)/i);
-        const bathsMatch = text.match(/(\d+\.?\d*)\s*(?:bath|ba)/i);
-        const sqftMatch = text.match(/([\d,]+)\s*(?:sq|sf)/i);
-        const auctionDateMatch = text.match(/(?:auction|sale)\s*(?:date|on)?\s*:?\s*(\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4})/i);
-
-        items.push({
-          title: `Auction: ${address}`,
-          address,
-          city: extractCity(address),
-          state,
-          zip: extractZip(address),
-          county: null,
-          price,
-          original_price: null,
-          starting_bid: price,
-          assessed_value: null,
-          bedrooms: bedsMatch ? parseInt(bedsMatch[1]) : null,
-          bathrooms: bathsMatch ? parseFloat(bathsMatch[1]) : null,
-          sqft: sqftMatch ? parseInt(sqftMatch[1].replace(/,/g, '')) : null,
-          lot_size: null,
-          year_built: null,
-          property_type: 'single-family',
-          listing_type: 'auction',
-          listing_category: 'auction',
-          source: 'auction-com',
-          source_url: link.startsWith('http') ? link : `https://www.auction.com${link}`,
-          image_urls: imgSrc ? [imgSrc] : [],
-          description: null,
-          auction_date: auctionDateMatch ? auctionDateMatch[1] : null,
-          case_number: null,
-          parcel_id: null,
-          property_status: 'active',
-          lat: null,
-          lng: null,
-        });
-      });
-    }
-  } catch (err: any) {
-    console.error(`[Homes][Auction.com] ${state} error: ${err.message}`);
-  }
-
-  return items;
+  // DISABLED — Auction.com is a client-rendered React SPA.
+  // No server-side HTML data, no public API.
+  // Uncomment isSourceEnabled check if re-enabling in the future.
+  console.log(`[Homes][Auction.com] ${state}: DISABLED — client-rendered SPA, no public API`);
+  return [];
 }
 
 // ============================================================
 //  2. HUBZU — hubzu.com
 //  Online REO auction marketplace
 //  Method: Scrape state search results
+//  (unchanged from v3.0)
 // ============================================================
 
 async function scrapeHubzu(state: string): Promise<CheapHomeItem[]> {
@@ -306,179 +204,24 @@ async function scrapeHubzu(state: string): Promise<CheapHomeItem[]> {
 }
 
 // ============================================================
-//  3. XOME — xome.com
-//  Auction & REO platform (owned by Mr. Cooper)
-//  Method: Scrape state search results
+//  3. XOME — DISABLED
+//
+//  v4.0: Disabled. Xome.com is completely down — all routes
+//  return "Custom Error Page" / "We are having trouble loading
+//  this page". Re-enable if the site comes back online.
 // ============================================================
 
 async function scrapeXome(state: string): Promise<CheapHomeItem[]> {
-  if (!isSourceEnabled('xome')) return [];
-  const items: CheapHomeItem[] = [];
-
-  try {
-    const stateName = (STATE_NAMES[state] || state).toLowerCase().replace(/\s+/g, '-');
-    const url = `https://www.xome.com/realestate/${stateName}`;
-
-    const response = await httpQueue.add(() =>
-      axios.get(url, {
-        params: {
-          listingType: 'auction,foreclosure',
-          sort: 'price_low',
-          page: 1,
-        },
-        headers: {
-          'User-Agent': getRandomUA(),
-          'Accept': 'text/html,application/json',
-        },
-        timeout: 20000,
-      })
-    );
-
-    if (!response?.data) return items;
-
-    // Try JSON first
-    if (typeof response.data === 'object') {
-      const listings = response.data.properties || response.data.results || [];
-      for (const prop of listings) {
-        const address = prop.address || prop.streetAddress || '';
-        if (!address) continue;
-
-        items.push({
-          title: `Xome: ${address}`,
-          address: prop.fullAddress || `${address}, ${prop.city || ''}, ${state} ${prop.zip || ''}`,
-          city: prop.city || '',
-          state,
-          zip: prop.zip || prop.zipCode || '',
-          county: prop.county || null,
-          price: prop.price || prop.currentBid || 0,
-          original_price: prop.estimatedValue || null,
-          starting_bid: prop.startingBid || null,
-          assessed_value: null,
-          bedrooms: prop.bedrooms || null,
-          bathrooms: prop.bathrooms || null,
-          sqft: prop.sqft || prop.squareFeet || null,
-          lot_size: prop.lotSize || null,
-          year_built: prop.yearBuilt || null,
-          property_type: detectPropertyType(prop.propertyType || ''),
-          listing_type: detectListingType(prop.saleType || prop.listingType || 'auction'),
-          listing_category: 'auction',
-          source: 'xome',
-          source_url: prop.url || `https://www.xome.com/property/${prop.id || ''}`,
-          image_urls: prop.photos || [],
-          description: prop.description || null,
-          auction_date: prop.auctionDate || null,
-          case_number: null,
-          parcel_id: null,
-          property_status: prop.status || 'active',
-          lat: prop.latitude || null,
-          lng: prop.longitude || null,
-        });
-      }
-    } else {
-      // HTML parsing
-      const $ = cheerio.load(response.data);
-
-      // Check for Next.js data
-      const nextData = $('script#__NEXT_DATA__').html();
-      if (nextData) {
-        try {
-          const parsed = JSON.parse(nextData);
-          const listings = parsed?.props?.pageProps?.listings || parsed?.props?.pageProps?.properties || [];
-          for (const prop of listings) {
-            const addr = prop.address || '';
-            if (!addr) continue;
-            items.push({
-              title: `Xome: ${addr}`,
-              address: `${addr}, ${prop.city || ''}, ${state} ${prop.zip || ''}`,
-              city: prop.city || '',
-              state,
-              zip: prop.zip || '',
-              county: prop.county || null,
-              price: prop.price || prop.listPrice || 0,
-              original_price: null,
-              starting_bid: prop.startingBid || null,
-              assessed_value: null,
-              bedrooms: prop.bedrooms || null,
-              bathrooms: prop.bathrooms || null,
-              sqft: prop.sqft || null,
-              lot_size: null,
-              year_built: prop.yearBuilt || null,
-              property_type: detectPropertyType(prop.propertyType || ''),
-              listing_type: 'auction',
-              listing_category: 'auction',
-              source: 'xome',
-              source_url: prop.url || `https://www.xome.com`,
-              image_urls: prop.photos || [],
-              description: null,
-              auction_date: prop.auctionDate || null,
-              case_number: null,
-              parcel_id: null,
-              property_status: 'active',
-              lat: prop.latitude || null,
-              lng: prop.longitude || null,
-            });
-          }
-        } catch (e) { /* skip */ }
-      }
-
-      // Standard HTML card parsing
-      if (items.length === 0) {
-        $('[class*="property"], [class*="listing"], [class*="result"]').each((_, el) => {
-          const address = $(el).find('[class*="address"]').text().trim();
-          const priceText = $(el).find('[class*="price"]').text().trim();
-          const link = $(el).find('a').attr('href') || '';
-          const imgSrc = $(el).find('img').attr('src') || '';
-          const price = parsePrice(priceText);
-          if (!address || address.length < 5) return;
-
-          const text = $(el).text();
-          const bedsMatch = text.match(/(\d+)\s*(?:bed|br|bd)/i);
-          const bathsMatch = text.match(/(\d+\.?\d*)\s*(?:bath|ba)/i);
-          const sqftMatch = text.match(/([\d,]+)\s*(?:sq|sf)/i);
-
-          items.push({
-            title: `Xome: ${address}`,
-            address,
-            city: extractCity(address),
-            state,
-            zip: extractZip(address),
-            county: null,
-            price,
-            original_price: null,
-            starting_bid: null,
-            assessed_value: null,
-            bedrooms: bedsMatch ? parseInt(bedsMatch[1]) : null,
-            bathrooms: bathsMatch ? parseFloat(bathsMatch[1]) : null,
-            sqft: sqftMatch ? parseInt(sqftMatch[1].replace(/,/g, '')) : null,
-            lot_size: null,
-            year_built: null,
-            property_type: 'single-family',
-            listing_type: 'auction',
-            listing_category: 'auction',
-            source: 'xome',
-            source_url: link.startsWith('http') ? link : `https://www.xome.com${link}`,
-            image_urls: imgSrc ? [imgSrc] : [],
-            description: null,
-            auction_date: null,
-            case_number: null,
-            parcel_id: null,
-            property_status: 'active',
-            lat: null,
-            lng: null,
-          });
-        });
-      }
-    }
-  } catch (err: any) {
-    console.error(`[Homes][Xome] ${state} error: ${err.message}`);
-  }
-
-  return items;
+  // DISABLED — Xome.com is completely down (all routes return error page).
+  // Uncomment isSourceEnabled check if re-enabling in the future.
+  console.log(`[Homes][Xome] ${state}: DISABLED — site is down`);
+  return [];
 }
 
 // ============================================================
 //  4. REALTYMOLE API — rapidapi.com (requires API key)
 //  Real estate data API with foreclosure/distressed filters
+//  (unchanged from v3.0)
 // ============================================================
 
 async function scrapeRealtyMole(state: string): Promise<CheapHomeItem[]> {
@@ -550,6 +293,7 @@ async function scrapeRealtyMole(state: string): Promise<CheapHomeItem[]> {
 // ============================================================
 //  5. RENTCAST API — rentcast.io (requires API key)
 //  Real estate listing data with price filters
+//  (unchanged from v3.0)
 // ============================================================
 
 async function scrapeRentCast(state: string): Promise<CheapHomeItem[]> {
@@ -618,7 +362,14 @@ async function scrapeRentCast(state: string): Promise<CheapHomeItem[]> {
 }
 
 // ============================================================
-//  AUCTION/REO SOURCES ORCHESTRATOR
+//  AUCTION/REO SOURCES ORCHESTRATOR — v4.0
+//
+//  CHANGES FROM v3.0:
+//  - Auction.com disabled (client-rendered SPA, no API)
+//  - Xome disabled (site completely down)
+//  - Still runs Hubzu + RealtyMole + RentCast per state
+//  - Auction.com & Xome still called but return [] immediately
+//    so the orchestrator shape stays the same for easy re-enable
 // ============================================================
 
 export async function scrapeAuctionREOSources(

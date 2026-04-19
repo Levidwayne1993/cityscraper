@@ -1,14 +1,15 @@
 // ============================================================
 // FILE: src/lib/scrapers/home-sources/government.ts
-// GOVERNMENT & FEDERAL SOURCES — v3.0 (April 2026)
+// GOVERNMENT & FEDERAL SOURCES — v4.0 (April 2026)
 //
-// WHAT CHANGED FROM v2.3:
-// 1. HomePath (Fannie Mae) — RE-ENABLED via hidden REST API
-//    (bypasses Angular SPA by calling JSON endpoint directly)
-//    Imported from new dedicated module: ./homepath.ts
-// 2. HUD HomeStore — unchanged, still active
-// 3. USDA RD/FSA — unchanged, still active
-// 4. HomeSteps — still removed (program discontinued)
+// WHAT CHANGED FROM v3.0:
+// 1. HUD HomeStore — REPLACED cheerio HTML scraper with
+//    HUD's ArcGIS Open Data REST API (SF_REO FeatureServer).
+//    The old approach returned 403 from Vercel/cloud IPs.
+//    The ArcGIS API is public, no auth needed, returns JSON
+//    with addresses + GPS coords for all HUD REO properties.
+// 2. USDA RD/FSA — unchanged, still active & working
+// 3. HomePath (Fannie Mae) — unchanged, imported from ./homepath.ts
 // ============================================================
 import axios from 'axios';
 import * as cheerio from 'cheerio';
@@ -48,174 +49,114 @@ const FIPS_CODES: Record<string, string> = {
 const USDA_ACTIVE_STATES = ['GA', 'KY', 'MS', 'NE', 'NY', 'SC', 'TN'];
 
 // ============================================================
-// 1. HUD HOMESTORE — hudhomestore.gov
-// (unchanged from v2.3)
+// 1. HUD HOMESTORE — via ArcGIS Open Data REST API
+//
+// v4.0: Replaced HTML scraping with HUD's public ArcGIS
+// FeatureServer. No API key needed. Returns JSON with:
+//   ADDRESS, CITY, STATE_CODE, DISPLAY_ZIP_CODE,
+//   MAP_LATITUDE, MAP_LONGITUDE, CASE_NUM
+//
+// Note: The API does not return price, beds, baths, or sqft.
+// These are HUD-owned foreclosures (REO) — the price is set
+// when a buyer submits a bid through hudhomestore.gov.
+// We link each listing to its HUD search page for details.
 // ============================================================
+
+const HUD_ARCGIS_URL =
+  'https://services.arcgis.com/VTyQ9soqVukalItT/ArcGIS/rest/services/SF_REO/FeatureServer/0/query';
+
 async function scrapeHUDHomeStore(state: string): Promise<CheapHomeItem[]> {
   if (!isSourceEnabled('hud-homestore')) return [];
   const items: CheapHomeItem[] = [];
 
   try {
-    const searchUrl = `https://www.hudhomestore.gov/searchresult?citystate=${state}`;
     const response = await httpQueue.add(() =>
-      axios.get(searchUrl, {
+      axios.get(HUD_ARCGIS_URL, {
+        params: {
+          where: `STATE_CODE='${state}'`,
+          outFields: 'CASE_NUM,ADDRESS,CITY,STATE_CODE,DISPLAY_ZIP_CODE,MAP_LATITUDE,MAP_LONGITUDE',
+          resultRecordCount: 500,
+          f: 'json',
+        },
         headers: {
           'User-Agent': getRandomUA(),
-          'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9',
-          'Accept-Language': 'en-US,en;q=0.9',
-          'Referer': 'https://www.hudhomestore.gov/',
+          Accept: 'application/json',
         },
         timeout: 25000,
       })
     );
 
-    if (!response?.data) return items;
-    const $ = cheerio.load(response.data);
-
-    // STRATEGY 1: Parse using data-favorite buttons as card anchors
-    const favoriteButtons = $('button[data-favorite]');
-
-    if (favoriteButtons.length > 0) {
-      favoriteButtons.each((_, btn) => {
-        try {
-          const caseNumber = $(btn).attr('data-favorite') || '';
-          if (!caseNumber) return;
-
-          let card = $(btn).parent();
-          let cardText = card.text();
-
-          for (let depth = 0; depth < 8; depth++) {
-            if (cardText.includes('$') && cardText.includes('Beds')) break;
-            card = card.parent();
-            cardText = card.text();
-          }
-
-          if (!cardText.includes('$')) return;
-
-          const priceMatch = cardText.match(/\$([\d,]+(?:\.\d{2})?)/);
-          const price = priceMatch ? parsePrice('$' + priceMatch[1]) : 0;
-
-          let streetAddress = '';
-          let sourceUrl = '';
-          card.find('a').each((_, a) => {
-            if (streetAddress) return;
-            const linkText = $(a).text().trim();
-            const href = $(a).attr('href') || '';
-            const ariaLabel = $(a).attr('aria-label') || '';
-
-            if (
-              linkText === 'Map View' || linkText === 'Street View' ||
-              linkText === 'Email Info' || ariaLabel.includes('photo') ||
-              ariaLabel.includes('gallery') || ariaLabel.includes('street view') ||
-              href === '#' || href.startsWith('javascript:') || linkText.length < 5
-            ) return;
-
-            streetAddress = linkText;
-            sourceUrl = href;
-          });
-
-          if (!streetAddress || streetAddress.length < 5) return;
-
-          const cityStateZipMatch = cardText.match(
-            /([A-Za-z][A-Za-z\s.'\-]+),\s*([A-Z]{2}),?\s*(\d{5}(?:-\d{4})?)/
-          );
-          const city = cityStateZipMatch ? cityStateZipMatch[1].trim() : '';
-          const zip = cityStateZipMatch ? cityStateZipMatch[3] : '';
-
-          const bedsMatch = cardText.match(/(\d+)\s*Beds?/i);
-          const bathsMatch = cardText.match(/([\d.]+)\s*Baths?/i);
-          const countyMatch = cardText.match(/([A-Za-z][A-Za-z\s'-]+)\s+County/i);
-          const county = countyMatch ? countyMatch[1].trim() : null;
-
-          const bidDateMatch = cardText.match(/BIDS?\s*OPEN\s*(\d{1,2}\/\d{1,2}\/\d{4})/i);
-          const auctionDate = bidDateMatch ? bidDateMatch[1] : null;
-
-          const fullAddress = city ? `${streetAddress}, ${city}, ${state} ${zip}` : `${streetAddress}, ${state}`;
-
-          if (sourceUrl && !sourceUrl.startsWith('http')) {
-            sourceUrl = `https://www.hudhomestore.gov${sourceUrl}`;
-          }
-          if (!sourceUrl) {
-            sourceUrl = `https://www.hudhomestore.gov/searchresult?citystate=${state}#${caseNumber}`;
-          }
-
-          items.push({
-            title: `HUD Home: ${streetAddress}`,
-            address: fullAddress, city, state, zip, county,
-            price: price > 0 ? price : 0,
-            original_price: null, starting_bid: null, assessed_value: null,
-            bedrooms: bedsMatch ? parseInt(bedsMatch[1]) : null,
-            bathrooms: bathsMatch ? parseFloat(bathsMatch[1]) : null,
-            sqft: null, lot_size: null, year_built: null,
-            property_type: 'single-family',
-            listing_type: 'hud',
-            listing_category: 'government',
-            source: 'hud-homestore',
-            source_url: sourceUrl,
-            image_urls: [],
-            description: null,
-            auction_date: auctionDate,
-            case_number: caseNumber || null,
-            parcel_id: null,
-            property_status: 'active',
-            lat: null, lng: null,
-          });
-        } catch (e) { /* skip malformed */ }
-      });
+    const features = response?.data?.features;
+    if (!Array.isArray(features) || features.length === 0) {
+      return items;
     }
 
-    // STRATEGY 2: Fallback — parse embedded JSON from script tags
-    if (items.length === 0) {
-      $('script').each((_, el) => {
-        const content = $(el).html() || '';
-        const jsonMatch = content.match(
-          /(?:properties|listings|results|searchResults)\s*[:=]\s*(\[[\s\S]*?\]);/
-        );
-        if (jsonMatch) {
-          try {
-            const data = JSON.parse(jsonMatch[1]);
-            if (Array.isArray(data)) {
-              for (const prop of data) {
-                const addr = prop.address || prop.streetAddress || '';
-                if (!addr) continue;
-                items.push({
-                  title: `HUD Home: ${addr}`,
-                  address: prop.formattedAddress || `${addr}, ${prop.city || ''}, ${state} ${prop.zip || ''}`,
-                  city: prop.city || '', state,
-                  zip: prop.zip || prop.zipCode || '',
-                  county: prop.county || null,
-                  price: prop.price || prop.listPrice || 0,
-                  original_price: null, starting_bid: null, assessed_value: null,
-                  bedrooms: prop.bedrooms || prop.beds || null,
-                  bathrooms: prop.bathrooms || prop.baths || null,
-                  sqft: prop.sqft || prop.squareFeet || null,
-                  lot_size: null,
-                  year_built: prop.yearBuilt || null,
-                  property_type: detectPropertyType(prop.propertyType || ''),
-                  listing_type: 'hud',
-                  listing_category: 'government',
-                  source: 'hud-homestore',
-                  source_url: prop.url || prop.detailUrl || `https://www.hudhomestore.gov/searchresult?citystate=${state}`,
-                  image_urls: prop.imageUrl ? [prop.imageUrl] : [],
-                  description: prop.description || null,
-                  auction_date: null,
-                  case_number: prop.caseNumber || null,
-                  parcel_id: null,
-                  property_status: 'active',
-                  lat: prop.latitude || null, lng: prop.longitude || null,
-                });
-              }
-            }
-          } catch (e) { /* skip */ }
-        }
-      });
+    for (const feature of features) {
+      try {
+        const attrs = feature.attributes;
+        if (!attrs) continue;
+
+        const address = (attrs.ADDRESS || '').trim();
+        const city = (attrs.CITY || '').trim();
+        const stateCode = (attrs.STATE_CODE || state).trim();
+        const zip = (attrs.DISPLAY_ZIP_CODE || '').trim();
+        const caseNumber = (attrs.CASE_NUM || '').trim();
+        const lat = attrs.MAP_LATITUDE || null;
+        const lng = attrs.MAP_LONGITUDE || null;
+
+        // Skip entries with no usable address
+        if (!address || address.length < 5) continue;
+
+        const fullAddress = city
+          ? `${address}, ${city}, ${stateCode} ${zip}`.trim()
+          : `${address}, ${stateCode} ${zip}`.trim();
+
+        // Build source URL pointing to HUD HomeStore search for this state
+        // (individual property detail pages require the case number in HUD's system)
+        const sourceUrl = caseNumber
+          ? `https://www.hudhomestore.gov/Listing/PropertyDetails/${caseNumber}`
+          : `https://www.hudhomestore.gov/searchresult?citystate=${stateCode}`;
+
+        items.push({
+          title: `HUD Home: ${address}`,
+          address: fullAddress,
+          city,
+          state: stateCode,
+          zip,
+          county: null,
+          price: 0, // HUD REO — price set via bid process, not listed in API
+          original_price: null,
+          starting_bid: null,
+          assessed_value: null,
+          bedrooms: null,
+          bathrooms: null,
+          sqft: null,
+          lot_size: null,
+          year_built: null,
+          property_type: 'single-family',
+          listing_type: 'hud',
+          listing_category: 'government',
+          source: 'hud-homestore',
+          source_url: sourceUrl,
+          image_urls: [],
+          description: 'HUD-owned foreclosure property. Visit HUD HomeStore for pricing and bid details.',
+          auction_date: null,
+          case_number: caseNumber || null,
+          parcel_id: null,
+          property_status: 'active',
+          lat,
+          lng,
+        });
+      } catch (e) {
+        // skip malformed feature
+      }
     }
 
     if (items.length > 0) {
-      console.log(`[Homes][HUD] ${state}: ${items.length} properties found`);
+      console.log(`[Homes][HUD] ${state}: ${items.length} properties from ArcGIS API`);
     }
   } catch (err: any) {
-    console.error(`[Homes][HUD] ${state} error: ${err.message}`);
+    console.error(`[Homes][HUD] ${state} ArcGIS error: ${err.message}`);
   }
 
   return items;
@@ -223,7 +164,7 @@ async function scrapeHUDHomeStore(state: string): Promise<CheapHomeItem[]> {
 
 // ============================================================
 // 2. USDA RD/FSA — properties.sc.egov.usda.gov
-// (unchanged from v2.3)
+// (unchanged from v3.0 — this source WORKS)
 // ============================================================
 async function scrapeUSDA(state: string): Promise<CheapHomeItem[]> {
   if (!isSourceEnabled('usda')) return [];
@@ -379,11 +320,11 @@ async function scrapeUSDA(state: string): Promise<CheapHomeItem[]> {
 }
 
 // ============================================================
-// GOVERNMENT SOURCES ORCHESTRATOR — v3.0
+// GOVERNMENT SOURCES ORCHESTRATOR — v4.0
 //
-// CHANGES FROM v2.3:
-// - Added HomePath (Fannie Mae) via hidden REST API
-// - Now runs HUD + USDA + HomePath in parallel per state
+// CHANGES FROM v3.0:
+// - HUD now uses ArcGIS API (no more 403s from cloud IPs)
+// - Still runs HUD + USDA + HomePath in parallel per state
 // ============================================================
 export async function scrapeGovernmentSources(
   states: string[],
