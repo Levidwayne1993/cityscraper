@@ -282,7 +282,7 @@ export async function scrapeCheapHomes(): Promise<{
       const items = await scrapeFn(stateBatch, isTimedOut);
       const rawCount = items.length;
       const validItems = items.filter(item =>
-        item.address && item.price > 0 && isValidAddress(item.address)
+        item.address && item.price >= 0 && isValidAddress(item.address)
       );
 
       const rejected = rawCount - validItems.length;
