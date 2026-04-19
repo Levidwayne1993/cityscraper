@@ -531,7 +531,7 @@ async function main() {
 
     async failedRequestHandler({ request, error }) {
       totalSkipped++;
-      console.warn(`[Failed] ${request.url}: ${error?.message || 'Unknown error'}`);
+      console.warn(`[Failed] ${request.url}: ${(error as Error)?.message || 'Unknown error'}`);
     },
   });
 
