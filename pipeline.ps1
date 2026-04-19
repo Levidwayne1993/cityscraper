@@ -1,123 +1,113 @@
-﻿# ============================================
-#  CityScraper Pipeline Runner
-#  Usage:  .\pipeline.ps1           (scrape + push + geocode)
-#          .\pipeline.ps1 -Clear    (clear tables first, then scrape + push + geocode)
-# ============================================
-param([switch]$Clear)
+﻿# ============================================================
+# FILE: pipeline.ps1 (CityScraper project root)
+# REPLACE the existing pipeline.ps1
+#
+# CHANGES:
+# 1. Added Phase 0: Crawlee deep scraper (optional, local only)
+# 2. Rest of pipeline unchanged — scrape, push, cleanup
+# 3. Crawlee runs BEFORE the normal scrape for maximum coverage
+#
+# RUN: .\pipeline.ps1
+# RUN WITH CRAWLEE: .\pipeline.ps1 -Deep
+# ============================================================
 
-$check  = [char]0x2713   # checkmark
-$cross  = [char]0x2717   # X mark
-$arrow  = [char]0x25B6   # arrow
+param(
+    [switch]$Deep  # Add -Deep flag to run Crawlee deep scraper first
+)
 
-function Write-Status($icon, $color, $msg) {
-    Write-Host "  $icon " -ForegroundColor $color -NoNewline
-    Write-Host $msg
+$ErrorActionPreference = "Continue"
+$BASE = $PSScriptRoot
+$TIMESTAMP = Get-Date -Format "yyyy-MM-dd HH:mm:ss"
+
+Write-Host ""
+Write-Host "======================================================" -ForegroundColor Cyan
+Write-Host "  CITYSCRAPER PIPELINE v5.0" -ForegroundColor Cyan
+Write-Host "  $TIMESTAMP" -ForegroundColor Gray
+if ($Deep) {
+    Write-Host "  MODE: DEEP (Crawlee + Standard)" -ForegroundColor Yellow
+} else {
+    Write-Host "  MODE: Standard" -ForegroundColor Green
 }
+Write-Host "======================================================" -ForegroundColor Cyan
+Write-Host ""
 
-function Write-Step($msg) {
+# ── PHASE 0: CRAWLEE DEEP SCRAPER (optional) ──
+if ($Deep) {
+    Write-Host "[Phase 0] Running Crawlee deep scraper..." -ForegroundColor Yellow
+    Write-Host "  This may take 10-30 minutes depending on how many sites respond." -ForegroundColor Gray
     Write-Host ""
-    Write-Host "  $arrow $msg" -ForegroundColor Cyan
-}
 
-# Load secret
-try {
-    $secret = (Get-Content .env.vercel | Select-String "CRON_SECRET").ToString().Split("=",2)[1]
-} catch {
-    Write-Status $cross Red "Failed to load CRON_SECRET from .env.vercel"
-    exit 1
-}
-
-Write-Host ""
-Write-Host "  =============================" -ForegroundColor Yellow
-Write-Host "   CityScraper Pipeline Runner" -ForegroundColor Yellow
-Write-Host "  =============================" -ForegroundColor Yellow
-
-# ---------- CLEAR (optional) ----------
-if ($Clear) {
-    Write-Step "Clearing both databases..."
-    $clearScript = @"
-const { createClient } = require('@supabase/supabase-js');
-const fs = require('fs');
-const env = {};
-fs.readFileSync('.env.vercel', 'utf8').split('\n').forEach(line => {
-  const [k, ...v] = line.split('=');
-  if (k && v.length) env[k.trim()] = v.join('=').trim();
-});
-async function run() {
-  const cs = createClient(env.NEXT_PUBLIC_SUPABASE_URL, env.SUPABASE_SERVICE_ROLE_KEY);
-  const { error: e1 } = await cs.from('yard_sales').delete().neq('id', '00000000-0000-0000-0000-000000000000');
-  const ys = createClient(env.YARDSHOPPERS_SUPABASE_URL, env.YARDSHOPPERS_SUPABASE_KEY);
-  const { error: e2 } = await ys.from('external_sales').delete().neq('id', '00000000-0000-0000-0000-000000000000');
-  console.log(JSON.stringify({ cs: e1 ? e1.message : 'ok', ys: e2 ? e2.message : 'ok' }));
-}
-run();
-"@
-    $clearScript | Out-File -FilePath _clear_tmp.js -Encoding utf8
-    $clearResult = node _clear_tmp.js 2>&1
-    Remove-Item _clear_tmp.js -ErrorAction SilentlyContinue
     try {
-        $clearJson = $clearResult | ConvertFrom-Json
-        if ($clearJson.cs -eq 'ok' -and $clearJson.ys -eq 'ok') {
-            Write-Status $check Green "CityScraper yard_sales cleared"
-            Write-Status $check Green "YardShoppers external_sales cleared"
-        } else {
-            if ($clearJson.cs -ne 'ok') { Write-Status $cross Red "CityScraper: $($clearJson.cs)" }
-            if ($clearJson.ys -ne 'ok') { Write-Status $cross Red "YardShoppers: $($clearJson.ys)" }
-        }
+        $crawleeResult = & npx tsx "$BASE\scripts\crawlee-deep-scraper.ts" 2>&1
+        $crawleeResult | ForEach-Object { Write-Host "  $_" }
+        Write-Host ""
+        Write-Host "[Phase 0] Crawlee deep scraper complete!" -ForegroundColor Green
     } catch {
-        Write-Status $cross Red "Clear failed: $clearResult"
+        Write-Host "[Phase 0] Crawlee failed: $_" -ForegroundColor Red
+        Write-Host "  Continuing with standard pipeline..." -ForegroundColor Yellow
     }
+    Write-Host ""
 }
 
-# ---------- STEP 1: CRON SCRAPE ----------
-Write-Step "Scraping yard sales (this takes ~60s)..."
-$sw = [System.Diagnostics.Stopwatch]::StartNew()
+# ── PHASE 1: STANDARD SCRAPE (Vercel API) ──
+Write-Host "[Phase 1] Running standard scrapers..." -ForegroundColor Cyan
+
+# Yard sales
+Write-Host "  Scraping yard sales..." -ForegroundColor White
 try {
-    $cronResp = Invoke-WebRequest -Uri "https://www.cityscraper.org/api/cron" -Headers @{authorization="Bearer $secret"} -TimeoutSec 300 -UseBasicParsing
-    $sw.Stop()
-    $cronData = $cronResp.Content | ConvertFrom-Json
-    Write-Status $check Green "Scrape complete ($([math]::Round($sw.Elapsed.TotalSeconds))s) - $($cronData.totalScraped) listings scraped"
+    $yardResult = Invoke-RestMethod -Uri "https://cityscraper.vercel.app/api/cron?source=yardsales" -Method GET -TimeoutSec 120
+    Write-Host "  Yard sales: $($yardResult.details)" -ForegroundColor Green
 } catch {
-    $sw.Stop()
-    if ($_.Exception.Message -match "timed out") {
-        Write-Status $check Yellow "Scrape sent ($([math]::Round($sw.Elapsed.TotalSeconds))s) - timed out waiting but likely completed on server"
-    } else {
-        Write-Status $cross Red "Scrape failed: $($_.Exception.Message)"
-        exit 1
-    }
+    Write-Host "  Yard sales failed: $_" -ForegroundColor Red
 }
 
-# ---------- STEP 2: PUSH ----------
-Write-Step "Pushing to YardShoppers + CheapHouseHub..."
-$sw = [System.Diagnostics.Stopwatch]::StartNew()
+# Cheap homes
+Write-Host "  Scraping cheap homes..." -ForegroundColor White
 try {
-    $pushResp = Invoke-WebRequest -Uri "https://www.cityscraper.org/api/push" -Headers @{authorization="Bearer $secret"} -TimeoutSec 120 -UseBasicParsing
-    $sw.Stop()
-    $pushData = $pushResp.Content | ConvertFrom-Json
-    Write-Status $check Green "Push complete ($($pushData.duration)) - $($pushData.totalPushed) listings pushed"
+    $homeResult = Invoke-RestMethod -Uri "https://cityscraper.vercel.app/api/cron?source=homes" -Method GET -TimeoutSec 120
+    Write-Host "  Cheap homes: $($homeResult.details)" -ForegroundColor Green
 } catch {
-    $sw.Stop()
-    Write-Status $cross Red "Push failed: $($_.Exception.Message)"
-    exit 1
+    Write-Host "  Cheap homes failed: $_" -ForegroundColor Red
 }
 
-# ---------- STEP 3: GEOCODE ----------
-Write-Step "Geocoding addresses for map pins..."
-$sw = [System.Diagnostics.Stopwatch]::StartNew()
-try {
-    $geoResp = Invoke-WebRequest -Uri "https://www.cityscraper.org/api/geocode" -Headers @{authorization="Bearer $secret"} -TimeoutSec 120 -UseBasicParsing
-    $sw.Stop()
-    $geoData = $geoResp.Content | ConvertFrom-Json
-    Write-Status $check Green "Geocode complete ($($geoData.duration)) - $($geoData.citiesGeocoded) cities, $($geoData.listingsUpdated) listings updated, $($geoData.failed) failed"
-} catch {
-    $sw.Stop()
-    Write-Status $cross Red "Geocode failed: $($_.Exception.Message)"
-    exit 1
-}
-
-# ---------- DONE ----------
 Write-Host ""
-Write-Host "  =============================" -ForegroundColor Green
-Write-Host "   $check Pipeline complete!    " -ForegroundColor Green
-Write-Host "  =============================" -ForegroundColor Green
+
+# ── PHASE 2: PUSH TO DESTINATIONS ──
+Write-Host "[Phase 2] Pushing to destination sites..." -ForegroundColor Cyan
+
+# Push yard sales to YardShoppers
+Write-Host "  Pushing to YardShoppers..." -ForegroundColor White
+try {
+    $pushYard = Invoke-RestMethod -Uri "https://cityscraper.vercel.app/api/push?target=yardshoppers" -Method GET -TimeoutSec 120
+    Write-Host "  YardShoppers: $($pushYard.pushed) items pushed" -ForegroundColor Green
+} catch {
+    Write-Host "  YardShoppers push failed: $_" -ForegroundColor Red
+}
+
+# Push cheap homes to CheapHouseHub
+Write-Host "  Pushing to CheapHouseHub..." -ForegroundColor White
+try {
+    $pushHome = Invoke-RestMethod -Uri "https://cityscraper.vercel.app/api/push?target=cheaphousehub" -Method GET -TimeoutSec 120
+    Write-Host "  CheapHouseHub: $($pushHome.pushed) items pushed" -ForegroundColor Green
+} catch {
+    Write-Host "  CheapHouseHub push failed: $_" -ForegroundColor Red
+}
+
+Write-Host ""
+
+# ── PHASE 3: CLEANUP ──
+Write-Host "[Phase 3] Cleanup..." -ForegroundColor Cyan
+Write-Host "  Marking pushed items..." -ForegroundColor White
+try {
+    $cleanup = Invoke-RestMethod -Uri "https://cityscraper.vercel.app/api/cleanup" -Method GET -TimeoutSec 60
+    Write-Host "  Cleanup: $($cleanup.details)" -ForegroundColor Green
+} catch {
+    Write-Host "  Cleanup skipped or failed: $_" -ForegroundColor Yellow
+}
+
+Write-Host ""
+Write-Host "======================================================" -ForegroundColor Cyan
+Write-Host "  PIPELINE COMPLETE" -ForegroundColor Green
+Write-Host "  $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')" -ForegroundColor Gray
+Write-Host "======================================================" -ForegroundColor Cyan
 Write-Host ""

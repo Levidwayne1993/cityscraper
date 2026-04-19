@@ -1,12 +1,15 @@
 // ============================================================
-// PASTE INTO: src/lib/scrapers/yard-sale-scraper.ts (cityscraper project)
+// FILE: src/lib/scrapers/yard-sale-scraper.ts (CityScraper project)
+// REPLACE the entire file
 //
-// FIXES:
-// 1. Moved startTime INSIDE scrapeYardSales() function
-//    (was module-level — warm Vercel containers reused the old
-//    value, causing isTimedOut() to return true immediately on
-//    every run after the first one)
-// 2. isTimedOut() now takes startTime as a parameter
+// CHANGES:
+// 1. Added ScraperAPI proxy support via SCRAPER_API_KEY env var
+// 2. Craigslist + EstateSales.net now route through ScraperAPI
+// 3. Falls back to direct fetch if no API key is set
+// 4. Keeps all existing logic: 50-state coverage, warm container
+//    fix, address hard gate, save-as-you-go architecture
+//
+// ENV VAR REQUIRED: SCRAPER_API_KEY (optional — falls back to direct)
 // ============================================================
 
 import axios from 'axios';
@@ -22,24 +25,20 @@ import {
 } from './yard-sale-normalizer';
 
 // ================================================================
-//  YARD SALE SCRAPER v4.1 — WARM CONTAINER FIX
+//  YARD SALE SCRAPER v5.0 — SCRAPERAPI PROXY EDITION
 //
-//  CRITICAL FIX: startTime was module-level. On warm Vercel
-//  containers (reused for ~15 min), the second cron run would
-//  see startTime from hours ago → isTimedOut() returns true
-//  immediately → scraper does ZERO work.
-//
-//  Now startTime is inside scrapeYardSales() so every invocation
-//  gets a fresh timestamp.
+//  WHAT'S NEW:
+//  - ScraperAPI proxy for Craigslist + EstateSales.net
+//  - Falls back to direct fetch if SCRAPER_API_KEY not set
+//  - Warm container fix preserved from v4.1
 //
 //  Sources: Craigslist (175+ cities), EstateSales.net (50 states)
-//  GSALR removed — returns 403 Forbidden (blocks all scrapers)
 //
 //  HARD GATE: Every listing MUST have a real street address
 //  starting with a number. No address = rejected.
 // ================================================================
 
-const DEADLINE_MS = 55000; // Stop collecting at 55s, save what we have
+const DEADLINE_MS = 55000;
 
 const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
@@ -53,9 +52,44 @@ function getRandomUA(): string {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
 
-// FIX: Now takes startTime as parameter instead of using module-level variable
 function isTimedOut(startTime: number): boolean {
   return Date.now() - startTime > DEADLINE_MS;
+}
+
+// ── ScraperAPI Helper ──
+
+function getScraperApiKey(): string | null {
+  return process.env.SCRAPER_API_KEY || null;
+}
+
+/**
+ * Fetch a URL through ScraperAPI proxy, or fall back to direct axios.
+ * Returns HTML string or null on failure.
+ */
+async function smartFetch(url: string): Promise<string | null> {
+  const apiKey = getScraperApiKey();
+
+  try {
+    if (apiKey) {
+      // Route through ScraperAPI — bypasses IP blocks
+      const proxyUrl = `http://api.scraperapi.com?api_key=${apiKey}&url=${encodeURIComponent(url)}&render=false`;
+      const response = await axios.get(proxyUrl, {
+        timeout: 25000,
+        maxRedirects: 3,
+      });
+      return response.data;
+    } else {
+      // Direct fetch (original behavior)
+      return await safeFetch(url);
+    }
+  } catch (err) {
+    // If ScraperAPI fails, try direct as last resort
+    if (apiKey) {
+      console.warn(`[ScraperAPI] Failed for ${url}, trying direct...`);
+      return await safeFetch(url);
+    }
+    return null;
+  }
 }
 
 const ALL_STATES = [
@@ -66,7 +100,6 @@ const ALL_STATES = [
   'SD','TN','TX','UT','VT','VA','WA','WV','WI','WY',
 ];
 
-// Top 3-5 Craigslist cities per state (trimmed for speed)
 const CRAIGSLIST_CITIES: Record<string, string[]> = {
   AL: ['birmingham','huntsville','mobile','montgomery'],
   AK: ['anchorage','fairbanks'],
@@ -120,7 +153,7 @@ const CRAIGSLIST_CITIES: Record<string, string[]> = {
   WY: ['wyoming'],
 };
 
-// ── Safe HTTP GET (single attempt, fast timeout) ──
+// ── Safe HTTP GET (direct, no proxy — used as fallback) ──
 
 async function safeFetch(url: string): Promise<string | null> {
   try {
@@ -139,11 +172,14 @@ async function safeFetch(url: string): Promise<string | null> {
   }
 }
 
-// ── CRAIGSLIST ──
+// ── CRAIGSLIST (now through ScraperAPI) ──
 
 async function scrapeCraigslistCity(city: string, state: string): Promise<RawListing[]> {
   const listings: RawListing[] = [];
-  const html = await safeFetch(`https://${city}.craigslist.org/search/gms`);
+  const url = `https://${city}.craigslist.org/search/gms`;
+
+  // Use ScraperAPI if available, otherwise direct (will likely be blocked)
+  const html = await smartFetch(url);
   if (!html) return listings;
 
   const $ = cheerio.load(html);
@@ -185,11 +221,14 @@ async function scrapeCraigslistCity(city: string, state: string): Promise<RawLis
   return listings;
 }
 
-// ── ESTATESALES.NET ──
+// ── ESTATESALES.NET (now through ScraperAPI) ──
 
 async function scrapeEstateSales(state: string): Promise<RawListing[]> {
   const listings: RawListing[] = [];
-  const html = await safeFetch(`https://www.estatesales.net/${state}`);
+  const url = `https://www.estatesales.net/${state}`;
+
+  // Use ScraperAPI if available
+  const html = await smartFetch(url);
   if (!html) return listings;
 
   const $ = cheerio.load(html);
@@ -297,8 +336,6 @@ async function saveBatch(sales: NormalizedSale[]): Promise<{ saved: number; erro
 
 // ══════════════════════════════════════════════
 //  MAIN EXPORT — SAVE-AS-YOU-GO ARCHITECTURE
-//  Collects + normalizes + saves PER STATE
-//  If Vercel kills at state 20, states 1-19 are saved
 // ══════════════════════════════════════════════
 
 export async function scrapeYardSales(): Promise<{
@@ -307,14 +344,12 @@ export async function scrapeYardSales(): Promise<{
   errors: number;
   details: string;
 }> {
-  // FIX: startTime is now INSIDE the function, not module-level.
-  // On warm Vercel containers, module-level variables persist across
-  // invocations. The old code would see startTime from hours ago and
-  // isTimedOut() would return true immediately — zero work done.
   const startTime = Date.now();
+  const hasProxy = !!getScraperApiKey();
 
   console.log('[YardSale] ═══════════════════════════════════════════');
-  console.log('[YardSale] SCRAPER v4.1 — WARM CONTAINER FIX');
+  console.log('[YardSale] SCRAPER v5.0 — SCRAPERAPI PROXY EDITION');
+  console.log(`[YardSale] ScraperAPI: ${hasProxy ? 'ENABLED' : 'DISABLED (no key)'}`);
   console.log('[YardSale] Address hard gate ACTIVE');
   console.log('[YardSale] Deadline: 55s | Saves after EVERY state');
   console.log('[YardSale] ═══════════════════════════════════════════');
@@ -326,9 +361,8 @@ export async function scrapeYardSales(): Promise<{
   const seenIds = new Set<string>();
 
   for (const state of ALL_STATES) {
-    // ── DEADLINE CHECK ──
     if (isTimedOut(startTime)) {
-      console.log(`[YardSale] ⏰ DEADLINE HIT at ${statesCompleted} states. Saving what we have.`);
+      console.log(`[YardSale] Deadline hit at ${statesCompleted} states. Saving what we have.`);
       break;
     }
 
@@ -358,15 +392,15 @@ export async function scrapeYardSales(): Promise<{
 
     totalRaw += stateRaw.length;
 
-    // ── NORMALIZE + SAVE IMMEDIATELY ──
+    // Normalize + save immediately
     const valid = normalizeBatch(stateRaw, seenIds);
     if (valid.length > 0) {
       const result = await saveBatch(valid);
       totalSaved += result.saved;
       totalErrors += result.errors;
-      console.log(`[YardSale] ${state}: ${stateRaw.length} raw → ${valid.length} valid → ${result.saved} saved`);
+      console.log(`[YardSale] ${state}: ${stateRaw.length} raw -> ${valid.length} valid -> ${result.saved} saved`);
     } else {
-      console.log(`[YardSale] ${state}: ${stateRaw.length} raw → 0 valid (no addresses)`);
+      console.log(`[YardSale] ${state}: ${stateRaw.length} raw -> 0 valid (no addresses)`);
     }
 
     statesCompleted++;
@@ -376,7 +410,8 @@ export async function scrapeYardSales(): Promise<{
 
   console.log('[YardSale] ═══════════════════════════════════════════');
   console.log(`[YardSale] DONE: ${statesCompleted}/50 states`);
-  console.log(`[YardSale] Raw: ${totalRaw} → Saved: ${totalSaved} → Errors: ${totalErrors}`);
+  console.log(`[YardSale] Raw: ${totalRaw} -> Saved: ${totalSaved} -> Errors: ${totalErrors}`);
+  console.log(`[YardSale] Proxy: ${hasProxy ? 'ScraperAPI' : 'Direct (no key)'}`);
   console.log(`[YardSale] Time: ${(duration / 1000).toFixed(1)}s`);
   console.log('[YardSale] ═══════════════════════════════════════════');
 
@@ -384,6 +419,6 @@ export async function scrapeYardSales(): Promise<{
     success: totalErrors === 0,
     itemsFound: totalSaved,
     errors: totalErrors,
-    details: `${statesCompleted}/50 states | Raw: ${totalRaw} → Saved: ${totalSaved} | ${(duration / 1000).toFixed(1)}s`,
+    details: `${statesCompleted}/50 states | Raw: ${totalRaw} -> Saved: ${totalSaved} | Proxy: ${hasProxy ? 'YES' : 'NO'} | ${(duration / 1000).toFixed(1)}s`,
   };
 }
