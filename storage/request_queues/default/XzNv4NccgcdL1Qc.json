@@ -1,0 +1,9 @@
+{
+	"id": "XzNv4NccgcdL1Qc",
+	"json": "{\"id\":\"XzNv4NccgcdL1Qc\",\"url\":\"https://auburn.craigslist.org/mad/d/auburn-roll-up-shop-doors-in-stock/7925294420.html\",\"uniqueKey\":\"https://auburn.craigslist.org/mad/d/auburn-roll-up-shop-doors-in-stock/7925294420.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1}}}",
+	"method": "GET",
+	"orderNo": 1776804015236,
+	"retryCount": 0,
+	"uniqueKey": "https://auburn.craigslist.org/mad/d/auburn-roll-up-shop-doors-in-stock/7925294420.html",
+	"url": "https://auburn.craigslist.org/mad/d/auburn-roll-up-shop-doors-in-stock/7925294420.html"
+}

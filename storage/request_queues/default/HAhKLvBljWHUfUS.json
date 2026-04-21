@@ -1,0 +1,9 @@
+{
+	"id": "HAhKLvBljWHUfUS",
+	"json": "{\"id\":\"HAhKLvBljWHUfUS\",\"url\":\"https://jerseyshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://jerseyshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007605,
+	"retryCount": 0,
+	"uniqueKey": "https://jerseyshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://jerseyshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

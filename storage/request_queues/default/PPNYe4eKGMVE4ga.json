@@ -1,0 +1,9 @@
+{
+	"id": "PPNYe4eKGMVE4ga",
+	"json": "{\"id\":\"PPNYe4eKGMVE4ga\",\"url\":\"https://waterloo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://waterloo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006686,
+	"retryCount": 0,
+	"uniqueKey": "https://waterloo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://waterloo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

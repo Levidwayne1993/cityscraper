@@ -1,0 +1,9 @@
+{
+	"id": "j35eA098027TWzU",
+	"json": "{\"id\":\"j35eA098027TWzU\",\"url\":\"https://jacksontn.craigslist.org/search/gms\",\"uniqueKey\":\"https://jacksontn.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009786,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksontn.craigslist.org/search/gms",
+	"url": "https://jacksontn.craigslist.org/search/gms"
+}

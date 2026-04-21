@@ -1,0 +1,9 @@
+{
+	"id": "32Dgk2hPN5St6Er",
+	"json": "{\"id\":\"32Dgk2hPN5St6Er\",\"url\":\"https://flint.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://flint.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007091,
+	"retryCount": 0,
+	"uniqueKey": "https://flint.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://flint.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "V2OmQuCsQ8p11kB",
+	"json": "{\"id\":\"V2OmQuCsQ8p11kB\",\"url\":\"https://visalia.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://visalia.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006033,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/search/gms?s=120",
+	"url": "https://visalia.craigslist.org/search/gms?s=120"
+}

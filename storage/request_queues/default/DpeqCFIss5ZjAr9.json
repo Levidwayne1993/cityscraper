@@ -1,0 +1,9 @@
+{
+	"id": "DpeqCFIss5ZjAr9",
+	"json": "{\"id\":\"DpeqCFIss5ZjAr9\",\"url\":\"https://memphis.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://memphis.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009802,
+	"retryCount": 0,
+	"uniqueKey": "https://memphis.craigslist.org/search/gms?s=240",
+	"url": "https://memphis.craigslist.org/search/gms?s=240"
+}

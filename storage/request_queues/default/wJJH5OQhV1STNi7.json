@@ -1,0 +1,9 @@
+{
+	"id": "wJJH5OQhV1STNi7",
+	"json": "{\"id\":\"wJJH5OQhV1STNi7\",\"url\":\"https://panamacity.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://panamacity.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006290,
+	"retryCount": 0,
+	"uniqueKey": "https://panamacity.craigslist.org/search/gms?s=120",
+	"url": "https://panamacity.craigslist.org/search/gms?s=120"
+}

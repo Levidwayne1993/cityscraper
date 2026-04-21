@@ -1,0 +1,9 @@
+{
+	"id": "sPWMTgxfS1rCMJV",
+	"json": "{\"id\":\"sPWMTgxfS1rCMJV\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Lafayette-LA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Lafayette-LA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804012796,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Lafayette-LA.html",
+	"url": "https://www.yardsalesearch.com/garage-sales-in-Lafayette-LA.html"
+}

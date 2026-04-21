@@ -1,0 +1,9 @@
+{
+	"id": "GfAqAQga5E2tPZc",
+	"json": "{\"id\":\"GfAqAQga5E2tPZc\",\"url\":\"https://bemidji.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://bemidji.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007254,
+	"retryCount": 0,
+	"uniqueKey": "https://bemidji.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://bemidji.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

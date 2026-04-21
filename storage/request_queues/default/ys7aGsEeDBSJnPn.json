@@ -1,0 +1,9 @@
+{
+	"id": "ys7aGsEeDBSJnPn",
+	"json": "{\"id\":\"ys7aGsEeDBSJnPn\",\"url\":\"https://raleigh.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://raleigh.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007894,
+	"retryCount": 0,
+	"uniqueKey": "https://raleigh.craigslist.org/search/gms?s=120",
+	"url": "https://raleigh.craigslist.org/search/gms?s=120"
+}

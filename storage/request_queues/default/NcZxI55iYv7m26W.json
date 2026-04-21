@@ -1,0 +1,9 @@
+{
+	"id": "NcZxI55iYv7m26W",
+	"json": "{\"id\":\"NcZxI55iYv7m26W\",\"url\":\"https://louisville.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://louisville.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006761,
+	"retryCount": 0,
+	"uniqueKey": "https://louisville.craigslist.org/search/gms?s=120",
+	"url": "https://louisville.craigslist.org/search/gms?s=120"
+}

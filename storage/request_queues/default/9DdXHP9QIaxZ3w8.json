@@ -1,0 +1,9 @@
+{
+	"id": "9DdXHP9QIaxZ3w8",
+	"json": "{\"id\":\"9DdXHP9QIaxZ3w8\",\"url\":\"https://wv.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://wv.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010286,
+	"retryCount": 0,
+	"uniqueKey": "https://wv.craigslist.org/search/gms?s=120",
+	"url": "https://wv.craigslist.org/search/gms?s=120"
+}

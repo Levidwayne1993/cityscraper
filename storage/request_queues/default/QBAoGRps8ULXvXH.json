@@ -1,0 +1,9 @@
+{
+	"id": "QBAoGRps8ULXvXH",
+	"json": "{\"id\":\"QBAoGRps8ULXvXH\",\"url\":\"https://southbend.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://southbend.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006609,
+	"retryCount": 0,
+	"uniqueKey": "https://southbend.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://southbend.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

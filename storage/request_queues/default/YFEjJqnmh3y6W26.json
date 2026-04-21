@@ -1,0 +1,9 @@
+{
+	"id": "YFEjJqnmh3y6W26",
+	"json": "{\"id\":\"YFEjJqnmh3y6W26\",\"url\":\"https://gainesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://gainesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006235,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://gainesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

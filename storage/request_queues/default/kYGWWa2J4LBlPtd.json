@@ -1,0 +1,9 @@
+{
+	"id": "kYGWWa2J4LBlPtd",
+	"json": "{\"id\":\"kYGWWa2J4LBlPtd\",\"url\":\"https://fingerlakes.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://fingerlakes.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007729,
+	"retryCount": 0,
+	"uniqueKey": "https://fingerlakes.craigslist.org/search/gms?s=240",
+	"url": "https://fingerlakes.craigslist.org/search/gms?s=240"
+}

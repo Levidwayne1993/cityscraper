@@ -1,0 +1,9 @@
+{
+	"id": "poZO86nE8mk0WB4",
+	"json": "{\"id\":\"poZO86nE8mk0WB4\",\"url\":\"https://buffalo.craigslist.org/search/gms\",\"uniqueKey\":\"https://buffalo.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007696,
+	"retryCount": 0,
+	"uniqueKey": "https://buffalo.craigslist.org/search/gms",
+	"url": "https://buffalo.craigslist.org/search/gms"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "C20FUtnErGRrQa8",
+	"json": "{\"id\":\"C20FUtnErGRrQa8\",\"url\":\"https://provo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://provo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"UT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010024,
+	"retryCount": 0,
+	"uniqueKey": "https://provo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://provo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

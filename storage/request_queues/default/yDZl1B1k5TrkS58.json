@@ -1,0 +1,9 @@
+{
+	"id": "yDZl1B1k5TrkS58",
+	"json": "{\"id\":\"yDZl1B1k5TrkS58\",\"url\":\"https://corpuschristi.craigslist.org/search/gms\",\"uniqueKey\":\"https://corpuschristi.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009860,
+	"retryCount": 0,
+	"uniqueKey": "https://corpuschristi.craigslist.org/search/gms",
+	"url": "https://corpuschristi.craigslist.org/search/gms"
+}

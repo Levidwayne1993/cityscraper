@@ -1,0 +1,9 @@
+{
+	"id": "Me9jQLnzZas4jmM",
+	"json": "{\"id\":\"Me9jQLnzZas4jmM\",\"url\":\"https://enid.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://enid.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008382,
+	"retryCount": 0,
+	"uniqueKey": "https://enid.craigslist.org/search/gms?s=240",
+	"url": "https://enid.craigslist.org/search/gms?s=240"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SHnJME8ukbpZpKX",
+	"json": "{\"id\":\"SHnJME8ukbpZpKX\",\"url\":\"https://lincoln.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://lincoln.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007526,
+	"retryCount": 0,
+	"uniqueKey": "https://lincoln.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://lincoln.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "p45gvqazo2MehwW",
+	"json": "{\"id\":\"p45gvqazo2MehwW\",\"url\":\"https://swmi.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://swmi.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007230,
+	"retryCount": 0,
+	"uniqueKey": "https://swmi.craigslist.org/search/gms?s=240",
+	"url": "https://swmi.craigslist.org/search/gms?s=240"
+}

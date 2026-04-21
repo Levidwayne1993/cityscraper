@@ -1,0 +1,9 @@
+{
+	"id": "SEd23fVmMHMSZZP",
+	"json": "{\"id\":\"SEd23fVmMHMSZZP\",\"url\":\"https://seks.craigslist.org/search/gms\",\"uniqueKey\":\"https://seks.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006714,
+	"retryCount": 0,
+	"uniqueKey": "https://seks.craigslist.org/search/gms",
+	"url": "https://seks.craigslist.org/search/gms"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EbY87SY4RVz1d67",
+	"json": "{\"id\":\"EbY87SY4RVz1d67\",\"url\":\"https://corvallis.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://corvallis.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008414,
+	"retryCount": 0,
+	"uniqueKey": "https://corvallis.craigslist.org/search/gms?s=120",
+	"url": "https://corvallis.craigslist.org/search/gms?s=120"
+}

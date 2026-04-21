@@ -1,0 +1,9 @@
+{
+	"id": "D6Utju6TyHl08Pq",
+	"json": "{\"id\":\"D6Utju6TyHl08Pq\",\"url\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006287,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

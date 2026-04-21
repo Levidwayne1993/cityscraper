@@ -1,0 +1,9 @@
+{
+	"id": "2AELhHX5L4WuBvq",
+	"json": "{\"id\":\"2AELhHX5L4WuBvq\",\"url\":\"https://boston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://boston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007017,
+	"retryCount": 0,
+	"uniqueKey": "https://boston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://boston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

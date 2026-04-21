@@ -1,0 +1,9 @@
+{
+	"id": "3InBSBMaTTISBdt",
+	"json": "{\"id\":\"3InBSBMaTTISBdt\",\"url\":\"https://auburn.craigslist.org/art/d/lockport-barn-quilt-art/7927621785.html\",\"uniqueKey\":\"https://auburn.craigslist.org/art/d/lockport-barn-quilt-art/7927621785.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1}}}",
+	"method": "GET",
+	"orderNo": 1776804015233,
+	"retryCount": 0,
+	"uniqueKey": "https://auburn.craigslist.org/art/d/lockport-barn-quilt-art/7927621785.html",
+	"url": "https://auburn.craigslist.org/art/d/lockport-barn-quilt-art/7927621785.html"
+}

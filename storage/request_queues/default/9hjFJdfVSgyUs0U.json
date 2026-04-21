@@ -1,0 +1,9 @@
+{
+	"id": "9hjFJdfVSgyUs0U",
+	"json": "{\"id\":\"9hjFJdfVSgyUs0U\",\"url\":\"https://jonesboro.craigslist.org/search/gms\",\"uniqueKey\":\"https://jonesboro.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005830,
+	"retryCount": 0,
+	"uniqueKey": "https://jonesboro.craigslist.org/search/gms",
+	"url": "https://jonesboro.craigslist.org/search/gms"
+}

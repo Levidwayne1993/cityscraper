@@ -1,0 +1,9 @@
+{
+	"id": "bHBJIWj8mUs9ERU",
+	"json": "{\"id\":\"bHBJIWj8mUs9ERU\",\"url\":\"https://clovis.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://clovis.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007638,
+	"retryCount": 0,
+	"uniqueKey": "https://clovis.craigslist.org/search/gms?s=120",
+	"url": "https://clovis.craigslist.org/search/gms?s=120"
+}

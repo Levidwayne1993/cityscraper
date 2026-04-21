@@ -1,0 +1,9 @@
+{
+	"id": "s0aC03E75DN36nj",
+	"json": "{\"id\":\"s0aC03E75DN36nj\",\"url\":\"https://newjersey.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://newjersey.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007611,
+	"retryCount": 0,
+	"uniqueKey": "https://newjersey.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://newjersey.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

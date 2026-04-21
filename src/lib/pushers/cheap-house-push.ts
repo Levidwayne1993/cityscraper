@@ -89,7 +89,8 @@ export async function pushToCheapHouseHub(): Promise<{
       .select('*')
       .eq('pushed', false)
       .order('scraped_at', { ascending: false })
-      .limit(500);
+      .limit(5000);
+
 
     if (fetchError) {
       console.error('[Push:CheapHouseHub] Fetch error:', fetchError);

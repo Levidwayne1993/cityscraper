@@ -1,0 +1,9 @@
+{
+	"id": "o1vTzdDbOqGmVv2",
+	"json": "{\"id\":\"o1vTzdDbOqGmVv2\",\"url\":\"https://kpr.craigslist.org/search/gms\",\"uniqueKey\":\"https://kpr.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010188,
+	"retryCount": 0,
+	"uniqueKey": "https://kpr.craigslist.org/search/gms",
+	"url": "https://kpr.craigslist.org/search/gms"
+}

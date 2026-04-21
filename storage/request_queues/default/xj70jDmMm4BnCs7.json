@@ -1,0 +1,9 @@
+{
+	"id": "xj70jDmMm4BnCs7",
+	"json": "{\"id\":\"xj70jDmMm4BnCs7\",\"url\":\"https://kirksville.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://kirksville.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007394,
+	"retryCount": 0,
+	"uniqueKey": "https://kirksville.craigslist.org/search/gms?s=120",
+	"url": "https://kirksville.craigslist.org/search/gms?s=120"
+}

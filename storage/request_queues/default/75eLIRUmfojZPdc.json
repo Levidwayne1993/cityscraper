@@ -1,0 +1,9 @@
+{
+	"id": "75eLIRUmfojZPdc",
+	"json": "{\"id\":\"75eLIRUmfojZPdc\",\"url\":\"https://gadsden.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005700,
+	"retryCount": 0,
+	"uniqueKey": "https://gadsden.craigslist.org/search/gms?s=240",
+	"url": "https://gadsden.craigslist.org/search/gms?s=240"
+}

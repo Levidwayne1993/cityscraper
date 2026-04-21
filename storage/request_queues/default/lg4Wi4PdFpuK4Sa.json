@@ -1,0 +1,9 @@
+{
+	"id": "lg4Wi4PdFpuK4Sa",
+	"json": "{\"id\":\"lg4Wi4PdFpuK4Sa\",\"url\":\"https://frederick.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://frederick.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006858,
+	"retryCount": 0,
+	"uniqueKey": "https://frederick.craigslist.org/search/gms?s=120",
+	"url": "https://frederick.craigslist.org/search/gms?s=120"
+}

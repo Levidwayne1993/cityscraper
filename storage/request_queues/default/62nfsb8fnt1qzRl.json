@@ -1,0 +1,9 @@
+{
+	"id": "62nfsb8fnt1qzRl",
+	"json": "{\"id\":\"62nfsb8fnt1qzRl\",\"url\":\"https://fortlauderdale.craigslist.org/search/gms\",\"uniqueKey\":\"https://fortlauderdale.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006217,
+	"retryCount": 0,
+	"uniqueKey": "https://fortlauderdale.craigslist.org/search/gms",
+	"url": "https://fortlauderdale.craigslist.org/search/gms"
+}

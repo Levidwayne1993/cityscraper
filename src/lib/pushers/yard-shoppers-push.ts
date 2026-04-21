@@ -49,7 +49,8 @@ export async function pushToYardShoppers(): Promise<{
       .select('*')
       .eq('pushed', false)
       .order('scraped_at', { ascending: false })
-      .limit(500);
+      .limit(5000);
+
 
     if (fetchError) {
       console.error('[Push:YardShoppers] Fetch error:', fetchError);

@@ -1,0 +1,9 @@
+{
+	"id": "44l4QNmQoNxF6LJ",
+	"json": "{\"id\":\"44l4QNmQoNxF6LJ\",\"url\":\"https://kpr.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://kpr.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010195,
+	"retryCount": 0,
+	"uniqueKey": "https://kpr.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://kpr.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

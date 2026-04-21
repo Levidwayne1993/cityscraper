@@ -1,0 +1,9 @@
+{
+	"id": "Wqd727xQjTQzeNc",
+	"json": "{\"id\":\"Wqd727xQjTQzeNc\",\"url\":\"https://kokomo.craigslist.org/search/gms\",\"uniqueKey\":\"https://kokomo.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006579,
+	"retryCount": 0,
+	"uniqueKey": "https://kokomo.craigslist.org/search/gms",
+	"url": "https://kokomo.craigslist.org/search/gms"
+}

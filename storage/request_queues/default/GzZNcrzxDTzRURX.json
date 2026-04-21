@@ -1,0 +1,9 @@
+{
+	"id": "GzZNcrzxDTzRURX",
+	"json": "{\"id\":\"GzZNcrzxDTzRURX\",\"url\":\"https://roanoke.craigslist.org/search/gms\",\"uniqueKey\":\"https://roanoke.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010087,
+	"retryCount": 0,
+	"uniqueKey": "https://roanoke.craigslist.org/search/gms",
+	"url": "https://roanoke.craigslist.org/search/gms"
+}

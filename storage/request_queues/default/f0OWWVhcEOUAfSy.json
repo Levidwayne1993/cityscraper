@@ -1,0 +1,9 @@
+{
+	"id": "f0OWWVhcEOUAfSy",
+	"json": "{\"id\":\"f0OWWVhcEOUAfSy\",\"url\":\"https://westky.craigslist.org/search/gms\",\"uniqueKey\":\"https://westky.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006772,
+	"retryCount": 0,
+	"uniqueKey": "https://westky.craigslist.org/search/gms",
+	"url": "https://westky.craigslist.org/search/gms"
+}

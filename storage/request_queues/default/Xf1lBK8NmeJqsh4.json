@@ -1,0 +1,9 @@
+{
+	"id": "Xf1lBK8NmeJqsh4",
+	"json": "{\"id\":\"Xf1lBK8NmeJqsh4\",\"url\":\"https://ithaca.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://ithaca.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007754,
+	"retryCount": 0,
+	"uniqueKey": "https://ithaca.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://ithaca.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

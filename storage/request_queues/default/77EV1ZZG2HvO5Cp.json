@@ -1,0 +1,9 @@
+{
+	"id": "77EV1ZZG2HvO5Cp",
+	"json": "{\"id\":\"77EV1ZZG2HvO5Cp\",\"url\":\"https://providence.craigslist.org/search/gms\",\"uniqueKey\":\"https://providence.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"RI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008565,
+	"retryCount": 0,
+	"uniqueKey": "https://providence.craigslist.org/search/gms",
+	"url": "https://providence.craigslist.org/search/gms"
+}

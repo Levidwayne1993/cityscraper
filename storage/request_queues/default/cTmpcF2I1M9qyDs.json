@@ -1,0 +1,9 @@
+{
+	"id": "cTmpcF2I1M9qyDs",
+	"json": "{\"id\":\"cTmpcF2I1M9qyDs\",\"url\":\"https://roseburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://roseburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008459,
+	"retryCount": 0,
+	"uniqueKey": "https://roseburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://roseburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

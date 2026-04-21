@@ -1,0 +1,9 @@
+{
+	"id": "NdSTYHsHLpLh3EC",
+	"json": "{\"id\":\"NdSTYHsHLpLh3EC\",\"url\":\"https://poconos.craigslist.org/search/gms\",\"uniqueKey\":\"https://poconos.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008528,
+	"retryCount": 0,
+	"uniqueKey": "https://poconos.craigslist.org/search/gms",
+	"url": "https://poconos.craigslist.org/search/gms"
+}

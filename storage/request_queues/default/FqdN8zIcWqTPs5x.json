@@ -1,0 +1,9 @@
+{
+	"id": "FqdN8zIcWqTPs5x",
+	"json": "{\"id\":\"FqdN8zIcWqTPs5x\",\"url\":\"https://www.garagesalefinder.com/sale/Oregon\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Oregon\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Oregon\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010876,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/sale/Oregon",
+	"url": "https://www.garagesalefinder.com/sale/Oregon"
+}

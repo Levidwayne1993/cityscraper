@@ -1,0 +1,9 @@
+{
+	"id": "Nsjy2egPEBdH0fx",
+	"json": "{\"id\":\"Nsjy2egPEBdH0fx\",\"url\":\"https://fargo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://fargo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ND\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007926,
+	"retryCount": 0,
+	"uniqueKey": "https://fargo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://fargo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

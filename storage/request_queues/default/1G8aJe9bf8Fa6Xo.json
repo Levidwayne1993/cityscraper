@@ -1,0 +1,9 @@
+{
+	"id": "1G8aJe9bf8Fa6Xo",
+	"json": "{\"id\":\"1G8aJe9bf8Fa6Xo\",\"url\":\"https://nwct.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://nwct.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006174,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/search/gms?s=120",
+	"url": "https://nwct.craigslist.org/search/gms?s=120"
+}

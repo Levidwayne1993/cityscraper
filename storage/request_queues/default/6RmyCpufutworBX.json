@@ -1,0 +1,9 @@
+{
+	"id": "6RmyCpufutworBX",
+	"json": "{\"id\":\"6RmyCpufutworBX\",\"url\":\"https://saginaw.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://saginaw.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007221,
+	"retryCount": 0,
+	"uniqueKey": "https://saginaw.craigslist.org/search/gms?s=120",
+	"url": "https://saginaw.craigslist.org/search/gms?s=120"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zVOo2wkNUt2BgYf",
+	"json": "{\"id\":\"zVOo2wkNUt2BgYf\",\"url\":\"https://okaloosa.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://okaloosa.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006278,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/search/gms?s=240",
+	"url": "https://okaloosa.craigslist.org/search/gms?s=240"
+}

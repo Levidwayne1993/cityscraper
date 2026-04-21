@@ -1,0 +1,9 @@
+{
+	"id": "NpKLPGEvNyYbFiR",
+	"json": "{\"id\":\"NpKLPGEvNyYbFiR\",\"url\":\"https://seks.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://seks.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006716,
+	"retryCount": 0,
+	"uniqueKey": "https://seks.craigslist.org/search/gms?s=120",
+	"url": "https://seks.craigslist.org/search/gms?s=120"
+}

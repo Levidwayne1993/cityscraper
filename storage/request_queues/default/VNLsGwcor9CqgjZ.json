@@ -1,0 +1,9 @@
+{
+	"id": "VNLsGwcor9CqgjZ",
+	"json": "{\"id\":\"VNLsGwcor9CqgjZ\",\"url\":\"https://mobile.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://mobile.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005713,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/search/gms?s=120",
+	"url": "https://mobile.craigslist.org/search/gms?s=120"
+}

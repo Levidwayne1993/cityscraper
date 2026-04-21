@@ -1,0 +1,9 @@
+{
+	"id": "s6Ig9W9N22F46Kk",
+	"json": "{\"id\":\"s6Ig9W9N22F46Kk\",\"url\":\"https://athensohio.craigslist.org/search/gms\",\"uniqueKey\":\"https://athensohio.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007956,
+	"retryCount": 0,
+	"uniqueKey": "https://athensohio.craigslist.org/search/gms",
+	"url": "https://athensohio.craigslist.org/search/gms"
+}

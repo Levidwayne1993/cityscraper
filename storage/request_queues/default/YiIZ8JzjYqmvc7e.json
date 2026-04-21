@@ -1,0 +1,9 @@
+{
+	"id": "YiIZ8JzjYqmvc7e",
+	"json": "{\"id\":\"YiIZ8JzjYqmvc7e\",\"url\":\"https://yakima.craigslist.org/search/gms\",\"uniqueKey\":\"https://yakima.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010239,
+	"retryCount": 0,
+	"uniqueKey": "https://yakima.craigslist.org/search/gms",
+	"url": "https://yakima.craigslist.org/search/gms"
+}

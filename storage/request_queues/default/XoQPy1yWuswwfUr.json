@@ -1,0 +1,9 @@
+{
+	"id": "XoQPy1yWuswwfUr",
+	"json": "{\"id\":\"XoQPy1yWuswwfUr\",\"url\":\"https://baltimore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://baltimore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006848,
+	"retryCount": 0,
+	"uniqueKey": "https://baltimore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://baltimore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

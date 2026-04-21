@@ -1,0 +1,9 @@
+{
+	"id": "MVIJJMUVYsYt6CN",
+	"json": "{\"id\":\"MVIJJMUVYsYt6CN\",\"url\":\"https://fredericksburg.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://fredericksburg.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010057,
+	"retryCount": 0,
+	"uniqueKey": "https://fredericksburg.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://fredericksburg.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

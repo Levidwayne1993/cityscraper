@@ -1,0 +1,9 @@
+{
+	"id": "bcKSK5s92qYTsq2",
+	"json": "{\"id\":\"bcKSK5s92qYTsq2\",\"url\":\"https://statesboro.craigslist.org/search/gms\",\"uniqueKey\":\"https://statesboro.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006414,
+	"retryCount": 0,
+	"uniqueKey": "https://statesboro.craigslist.org/search/gms",
+	"url": "https://statesboro.craigslist.org/search/gms"
+}

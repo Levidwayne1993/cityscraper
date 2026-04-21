@@ -1,0 +1,9 @@
+{
+	"id": "2WJEx8l2iJBmLJd",
+	"json": "{\"id\":\"2WJEx8l2iJBmLJd\",\"url\":\"https://toledo.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://toledo.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008351,
+	"retryCount": 0,
+	"uniqueKey": "https://toledo.craigslist.org/search/gms?s=240",
+	"url": "https://toledo.craigslist.org/search/gms?s=240"
+}

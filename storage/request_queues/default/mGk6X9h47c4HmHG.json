@@ -1,0 +1,9 @@
+{
+	"id": "mGk6X9h47c4HmHG",
+	"json": "{\"id\":\"mGk6X9h47c4HmHG\",\"url\":\"https://montgomery.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://montgomery.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005723,
+	"retryCount": 0,
+	"uniqueKey": "https://montgomery.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://montgomery.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

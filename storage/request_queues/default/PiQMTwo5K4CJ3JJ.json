@@ -1,0 +1,9 @@
+{
+	"id": "PiQMTwo5K4CJ3JJ",
+	"json": "{\"id\":\"PiQMTwo5K4CJ3JJ\",\"url\":\"https://greenbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://greenbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010307,
+	"retryCount": 0,
+	"uniqueKey": "https://greenbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://greenbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

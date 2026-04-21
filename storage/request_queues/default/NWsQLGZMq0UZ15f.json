@@ -1,0 +1,9 @@
+{
+	"id": "NWsQLGZMq0UZ15f",
+	"json": "{\"id\":\"NWsQLGZMq0UZ15f\",\"url\":\"https://florencesc.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://florencesc.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008586,
+	"retryCount": 0,
+	"uniqueKey": "https://florencesc.craigslist.org/search/gms?s=120",
+	"url": "https://florencesc.craigslist.org/search/gms?s=120"
+}

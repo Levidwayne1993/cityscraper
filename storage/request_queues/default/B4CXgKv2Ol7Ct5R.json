@@ -1,0 +1,9 @@
+{
+	"id": "B4CXgKv2Ol7Ct5R",
+	"json": "{\"id\":\"B4CXgKv2Ol7Ct5R\",\"url\":\"https://wichitafalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://wichitafalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010005,
+	"retryCount": 0,
+	"uniqueKey": "https://wichitafalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://wichitafalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

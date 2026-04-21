@@ -1,0 +1,9 @@
+{
+	"id": "CMP78GhtcqKomui",
+	"json": "{\"id\":\"CMP78GhtcqKomui\",\"url\":\"https://capecod.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://capecod.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007025,
+	"retryCount": 0,
+	"uniqueKey": "https://capecod.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://capecod.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nol3LGbX5RViEYU",
+	"json": "{\"id\":\"nol3LGbX5RViEYU\",\"url\":\"https://southcoast.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://southcoast.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007033,
+	"retryCount": 0,
+	"uniqueKey": "https://southcoast.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://southcoast.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "e0ycfCi2Rt1GUqB",
+	"json": "{\"id\":\"e0ycfCi2Rt1GUqB\",\"url\":\"https://kalamazoo.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://kalamazoo.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007130,
+	"retryCount": 0,
+	"uniqueKey": "https://kalamazoo.craigslist.org/search/gms?s=240",
+	"url": "https://kalamazoo.craigslist.org/search/gms?s=240"
+}

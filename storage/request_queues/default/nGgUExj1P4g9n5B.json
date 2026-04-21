@@ -1,0 +1,9 @@
+{
+	"id": "nGgUExj1P4g9n5B",
+	"json": "{\"id\":\"nGgUExj1P4g9n5B\",\"url\":\"https://fairbanks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://fairbanks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005743,
+	"retryCount": 0,
+	"uniqueKey": "https://fairbanks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://fairbanks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

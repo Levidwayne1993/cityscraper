@@ -1,0 +1,9 @@
+{
+	"id": "3gGfSC8VlBqVVjQ",
+	"json": "{\"id\":\"3gGfSC8VlBqVVjQ\",\"url\":\"https://washingtondc.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://washingtondc.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006187,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/search/gms?s=120",
+	"url": "https://washingtondc.craigslist.org/search/gms?s=120"
+}

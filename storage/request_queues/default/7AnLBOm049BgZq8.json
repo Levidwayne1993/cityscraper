@@ -1,0 +1,9 @@
+{
+	"id": "7AnLBOm049BgZq8",
+	"json": "{\"id\":\"7AnLBOm049BgZq8\",\"url\":\"https://kirksville.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://kirksville.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007392,
+	"retryCount": 0,
+	"uniqueKey": "https://kirksville.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://kirksville.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

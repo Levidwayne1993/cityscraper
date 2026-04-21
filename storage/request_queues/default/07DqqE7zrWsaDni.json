@@ -1,0 +1,9 @@
+{
+	"id": "07DqqE7zrWsaDni",
+	"json": "{\"id\":\"07DqqE7zrWsaDni\",\"url\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005734,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/search/gms?s=240",
+	"url": "https://anchorage.craigslist.org/search/gms?s=240"
+}

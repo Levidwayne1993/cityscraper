@@ -1,0 +1,9 @@
+{
+	"id": "jDf18lnzTCOjrqu",
+	"json": "{\"id\":\"jDf18lnzTCOjrqu\",\"url\":\"https://cookeville.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://cookeville.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009783,
+	"retryCount": 0,
+	"uniqueKey": "https://cookeville.craigslist.org/search/gms?s=240",
+	"url": "https://cookeville.craigslist.org/search/gms?s=240"
+}

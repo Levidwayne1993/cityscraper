@@ -1,0 +1,9 @@
+{
+	"id": "hfMquL7zAoa5gL7",
+	"json": "{\"id\":\"hfMquL7zAoa5gL7\",\"url\":\"https://cookeville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://cookeville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009784,
+	"retryCount": 0,
+	"uniqueKey": "https://cookeville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://cookeville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

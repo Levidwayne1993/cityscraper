@@ -1,0 +1,9 @@
+{
+	"id": "jr5hAUvujqgNgzI",
+	"json": "{\"id\":\"jr5hAUvujqgNgzI\",\"url\":\"https://nd.craigslist.org/search/gms\",\"uniqueKey\":\"https://nd.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ND\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007934,
+	"retryCount": 0,
+	"uniqueKey": "https://nd.craigslist.org/search/gms",
+	"url": "https://nd.craigslist.org/search/gms"
+}

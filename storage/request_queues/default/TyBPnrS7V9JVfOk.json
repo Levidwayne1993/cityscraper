@@ -1,0 +1,9 @@
+{
+	"id": "TyBPnrS7V9JVfOk",
+	"json": "{\"id\":\"TyBPnrS7V9JVfOk\",\"url\":\"https://madison.craigslist.org/search/gms\",\"uniqueKey\":\"https://madison.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010321,
+	"retryCount": 0,
+	"uniqueKey": "https://madison.craigslist.org/search/gms",
+	"url": "https://madison.craigslist.org/search/gms"
+}

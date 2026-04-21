@@ -1,0 +1,9 @@
+{
+	"id": "sM5qTtoHN7rSJ0R",
+	"json": "{\"id\":\"sM5qTtoHN7rSJ0R\",\"url\":\"https://evansville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://evansville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006564,
+	"retryCount": 0,
+	"uniqueKey": "https://evansville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://evansville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

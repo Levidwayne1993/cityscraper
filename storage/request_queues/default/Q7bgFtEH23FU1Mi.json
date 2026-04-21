@@ -1,0 +1,9 @@
+{
+	"id": "Q7bgFtEH23FU1Mi",
+	"json": "{\"id\":\"Q7bgFtEH23FU1Mi\",\"url\":\"https://allentown.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://allentown.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008505,
+	"retryCount": 0,
+	"uniqueKey": "https://allentown.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://allentown.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

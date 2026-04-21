@@ -1,0 +1,9 @@
+{
+	"id": "dha6iRDGHFPvj0G",
+	"json": "{\"id\":\"dha6iRDGHFPvj0G\",\"url\":\"https://lakecharles.craigslist.org/search/gms\",\"uniqueKey\":\"https://lakecharles.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006804,
+	"retryCount": 0,
+	"uniqueKey": "https://lakecharles.craigslist.org/search/gms",
+	"url": "https://lakecharles.craigslist.org/search/gms"
+}

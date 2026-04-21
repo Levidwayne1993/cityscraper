@@ -1,0 +1,9 @@
+{
+	"id": "yVslOh1vEFjyX1U",
+	"json": "{\"id\":\"yVslOh1vEFjyX1U\",\"url\":\"https://saltlakecity.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://saltlakecity.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"UT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010028,
+	"retryCount": 0,
+	"uniqueKey": "https://saltlakecity.craigslist.org/search/gms?s=240",
+	"url": "https://saltlakecity.craigslist.org/search/gms?s=240"
+}

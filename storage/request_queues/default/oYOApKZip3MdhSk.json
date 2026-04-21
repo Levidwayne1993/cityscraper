@@ -1,0 +1,9 @@
+{
+	"id": "oYOApKZip3MdhSk",
+	"json": "{\"id\":\"oYOApKZip3MdhSk\",\"url\":\"https://ogden.craigslist.org/search/gms\",\"uniqueKey\":\"https://ogden.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"UT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010013,
+	"retryCount": 0,
+	"uniqueKey": "https://ogden.craigslist.org/search/gms",
+	"url": "https://ogden.craigslist.org/search/gms"
+}

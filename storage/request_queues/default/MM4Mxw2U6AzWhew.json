@@ -1,0 +1,9 @@
+{
+	"id": "MM4Mxw2U6AzWhew",
+	"json": "{\"id\":\"MM4Mxw2U6AzWhew\",\"url\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006121,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/search/gms?s=120",
+	"url": "https://pueblo.craigslist.org/search/gms?s=120"
+}

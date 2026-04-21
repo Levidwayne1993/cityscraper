@@ -1,0 +1,9 @@
+{
+	"id": "pFCUGAz6d0Czo6u",
+	"json": "{\"id\":\"pFCUGAz6d0Czo6u\",\"url\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005759,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

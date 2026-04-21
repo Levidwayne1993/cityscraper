@@ -1,0 +1,9 @@
+{
+	"id": "u37MJaG3QNaugnW",
+	"json": "{\"id\":\"u37MJaG3QNaugnW\",\"url\":\"https://shreveport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://shreveport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006828,
+	"retryCount": 0,
+	"uniqueKey": "https://shreveport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://shreveport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

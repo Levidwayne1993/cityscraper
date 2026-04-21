@@ -1,0 +1,9 @@
+{
+	"id": "6mYEB0f46tuxcDm",
+	"json": "{\"id\":\"6mYEB0f46tuxcDm\",\"url\":\"https://wenatchee.craigslist.org/search/gms\",\"uniqueKey\":\"https://wenatchee.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010233,
+	"retryCount": 0,
+	"uniqueKey": "https://wenatchee.craigslist.org/search/gms",
+	"url": "https://wenatchee.craigslist.org/search/gms"
+}

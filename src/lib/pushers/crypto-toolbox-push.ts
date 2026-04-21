@@ -24,7 +24,8 @@ export async function pushToCryptoToolbox(): Promise<{
       .from('crypto_assets')
       .select('*')
       .order('rank', { ascending: true })
-      .limit(500);
+      .limit(5000);
+
 
     // --- Push News ---
     const { data: news } = await supabaseAdmin

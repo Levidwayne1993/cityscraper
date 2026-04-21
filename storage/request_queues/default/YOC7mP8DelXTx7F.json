@@ -1,0 +1,9 @@
+{
+	"id": "YOC7mP8DelXTx7F",
+	"json": "{\"id\":\"YOC7mP8DelXTx7F\",\"url\":\"https://poconos.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://poconos.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008529,
+	"retryCount": 0,
+	"uniqueKey": "https://poconos.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://poconos.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

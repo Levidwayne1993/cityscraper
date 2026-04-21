@@ -1,0 +1,9 @@
+{
+	"id": "cubwvhK49a0IeEe",
+	"json": "{\"id\":\"cubwvhK49a0IeEe\",\"url\":\"https://northcentralfl.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://northcentralfl.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006265,
+	"retryCount": 0,
+	"uniqueKey": "https://northcentralfl.craigslist.org/search/gms?s=240",
+	"url": "https://northcentralfl.craigslist.org/search/gms?s=240"
+}

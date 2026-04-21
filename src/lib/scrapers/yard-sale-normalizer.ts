@@ -1,20 +1,35 @@
 // ============================================================
-// PASTE INTO: src/lib/scrapers/yard-sale-normalizer.ts (cityscraper project)
+// FILE: src/lib/scrapers/yard-sale-normalizer.ts (CityScraper project)
+// REPLACES: src/lib/scrapers/yard-sale-normalizer.ts
 //
-// FIXES:
-// 1. parseDate() now handles M-D-YYYY hyphen format (e.g. "4-17-2026")
-// 2. DATE_PATTERNS includes hyphen dates so extractDates() catches them
-// 3. normalizeListing() checks TITLE dates FIRST, then description,
-//    then raw.date — so the actual sale date from the seller's title
-//    takes priority over CL's posting date
+// YARD SALE NORMALIZER v4.0 — UPGRADED FOR v2.0 DEEP SCRAPER + v6.0 SCRAPER
+//
+// UPGRADES FROM v3.1:
+//   1. CRAIGSLIST DEDUP FIX — source_id now normalizes CL URLs
+//      so the same listing from /gms and /sss deduplicates properly
+//   2. ENHANCED ADDRESS EXTRACTION — handles apt/unit/suite numbers,
+//      more street suffixes (Alley, Grove, Ridge, etc.)
+//   3. STATE EXTRACTION — new extractState() pulls 2-letter state codes
+//   4. SMART EXPIRY — if sale date is known, expires 1 day after sale
+//      instead of blanket 14 days
+//   5. PHOTO DEDUP — strips duplicate photo URLs
+//   6. HTML ENTITY CLEANUP — strips &amp; &lt; etc from detail page text
+//   7. ENHANCED TIME PARSING — handles "Saturday 8am-2pm" format
+//      common on detail pages
+//   8. ADDRESS CONFIDENCE SCORING — ranks address quality
+//
+// BACKWARD COMPATIBLE — works with both v2.0 deep scraper
+// and v6.0 Vercel scraper with no changes needed in either.
+//
+// Self-contained — no external dependencies except 'crypto'
 // ============================================================
 
 import { createHash } from 'crypto';
 
 // ================================================================
-//  YARD SALE NORMALIZER v3.1 — DATE PRIORITY FIX
-//  Combines: YardShoppers collector (465 lines) + CityScraper draft
-//  
+//  YARD SALE NORMALIZER v4.0
+//  Combines: YardShoppers collector + CityScraper v3.1 + new upgrades
+//
 //  HARD GATE: Every listing MUST have a real street address
 //  starting with a number (e.g. "2607 11th Ave SW Olympia WA 98512")
 //  No address = no listing. Period.
@@ -104,12 +119,13 @@ export const SECONDARY_KEYWORDS: string[] = [
 // ADDRESS / ZIP / DATE / TIME PATTERNS
 // ============================================
 
+// UPGRADED: Added more street suffixes + apt/unit/suite support
 export const ADDRESS_PATTERN =
-  /\d{1,5}\s+(?:(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West)\.?\s+)?(?:[A-Za-z0-9]+\s+){1,4}(?:St|Street|Ave|Avenue|Blvd|Boulevard|Dr|Drive|Rd|Road|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Ter|Terrace|Hwy|Highway|Trail|Trl|Loop|Run|Pass|Path|Pike|Sq|Square)\b/i;
+  /\d{1,5}\s+(?:(?:N|S|E|W|NE|NW|SE|SW|North|South|East|West)\.?\s+)?(?:[A-Za-z0-9]+\s+){1,4}(?:St|Street|Ave|Avenue|Blvd|Boulevard|Dr|Drive|Rd|Road|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Ter|Terrace|Hwy|Highway|Trail|Trl|Loop|Run|Pass|Path|Pike|Sq|Square|Alley|Aly|Grove|Grv|Ridge|Rdg|View|Vw|Crossing|Xing|Point|Pt|Commons|Cmns|Glen|Gln|Meadow|Mdw|Cove|Cv|Creek|Crk|Knoll|Knl|Spur|Row|Mall|Walk|Bend|Holw|Hollow)\b(?:\s*(?:#|Apt|Apt\.|Suite|Ste|Unit|Bldg|Fl|Floor|Rm|Room)\.?\s*\w+)?/i;
 
 export const ZIP_PATTERN = /\b\d{5}(-\d{4})?\b/;
 
-// FIX: Added M-D-YYYY hyphen format pattern
+// FIX (from v3.1): Added M-D-YYYY hyphen format pattern
 export const DATE_PATTERNS: RegExp[] = [
   /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\b/i,
   /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/,
@@ -118,10 +134,29 @@ export const DATE_PATTERNS: RegExp[] = [
   /\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)(day)?\b/i,
 ];
 
+// UPGRADED: handles "Saturday 8am-2pm" and "8a-2p" shorthand from detail pages
 export const TIME_PATTERNS: RegExp[] = [
-  /\b\d{1,2}(:\d{2})?\s*(am|pm|a\.m\.|p\.m\.|AM|PM)\b/,
-  /\b\d{1,2}(:\d{2})?\s*[-\u2013\u2014to]+\s*\d{1,2}(:\d{2})?\s*(am|pm|a\.m\.|p\.m\.|AM|PM)\b/,
+  /\b\d{1,2}(:\d{2})?\s*(am|pm|a\.m\.|p\.m\.|AM|PM|a|p)\b/,
+  /\b\d{1,2}(:\d{2})?\s*[-\u2013\u2014to]+\s*\d{1,2}(:\d{2})?\s*(am|pm|a\.m\.|p\.m\.|AM|PM|a|p)\b/,
 ];
+
+// ============================================
+// HTML ENTITY CLEANUP (NEW in v4.0)
+// Detail pages sometimes pass through raw HTML entities
+// ============================================
+
+function cleanHtmlEntities(text: string): string {
+  return text
+    .replace(/&amp;/g, '&')
+    .replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>')
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ')
+    .replace(/&#(\d+);/g, (_match, dec) => String.fromCharCode(parseInt(dec, 10)))
+    .replace(/\s+/g, ' ')
+    .trim();
+}
 
 // ============================================
 // JUNK TITLE FILTER (YardShoppers 65+ exact matches)
@@ -277,15 +312,39 @@ export function guessCategories(text: string): string[] {
 }
 
 // ============================================
-// SOURCE ID — 3-field MD5 hash (strongest dedup)
+// SOURCE ID — UPGRADED IN v4.0
+// Now normalizes Craigslist URLs so the same listing
+// from /gms and /sss gets the SAME hash = proper dedup
 // ============================================
+
+function normalizeCraigslistUrl(url: string): string {
+  // Craigslist detail page URLs look like:
+  //   https://seattle.craigslist.org/tac/gms/d/tacoma-huge-garage-sale/7890123456.html
+  //   https://seattle.craigslist.org/tac/sss/d/tacoma-huge-garage-sale/7890123456.html
+  // The post ID (7890123456) is the same regardless of category.
+  // Normalize to just the post ID for dedup.
+  const clDetailMatch = url.match(/craigslist\.org\/.*\/(\d{9,11})\.html/);
+  if (clDetailMatch) {
+    return `craigslist:${clDetailMatch[1]}`;
+  }
+  // For search result URLs, keep as-is
+  return url;
+}
 
 export function generateSourceId(
   source: string,
   url: string,
   title: string
 ): string {
-  const raw = `${source}|${url}|${title}`.toLowerCase().trim();
+  const normalizedSource = source.toLowerCase().trim();
+
+  // For Craigslist, use normalized URL so /gms and /sss dedup
+  let normalizedUrl = url;
+  if (normalizedSource === 'craigslist' || /craigslist/i.test(url)) {
+    normalizedUrl = normalizeCraigslistUrl(url);
+  }
+
+  const raw = `${normalizedSource}|${normalizedUrl}|${title}`.toLowerCase().trim();
   return createHash('md5').update(raw).digest('hex');
 }
 
@@ -318,7 +377,7 @@ export function parseDate(dateStr: string | undefined): string | null {
     return `${year}-${month}-${day}`;
   }
 
-  // FIX: Hyphen format: 4-17-2026 (common in CL titles like "Friday 4-17-2026")
+  // FIX (from v3.1): Hyphen format: 4-17-2026
   const hyphenMatch = dateStr.match(/(\d{1,2})-(\d{1,2})-(\d{2,4})/);
   if (hyphenMatch) {
     const month = hyphenMatch[1].padStart(2, '0');
@@ -349,13 +408,15 @@ export function parseDate(dateStr: string | undefined): string | null {
 
 // ============================================
 // TIME PARSING (supports a.m./p.m. with dots)
+// UPGRADED in v4.0: handles shorthand "8a" "2p" from detail pages
 // ============================================
 
 export function parseTime(timeStr: string | undefined): string | null {
   if (!timeStr) return null;
 
+  // Standard format: 8:00am, 2:30 PM, 8am, 2pm
   const timeMatch = timeStr.match(
-    /(\d{1,2}):?(\d{2})?\s*(am|pm|a\.m\.|p\.m\.)?/i
+    /(\d{1,2}):?(\d{2})?\s*(am|pm|a\.m\.|p\.m\.|a|p)\b/i
   );
   if (!timeMatch) return null;
 
@@ -363,8 +424,11 @@ export function parseTime(timeStr: string | undefined): string | null {
   const minutes = timeMatch[2] ? parseInt(timeMatch[2], 10) : 0;
   const period = (timeMatch[3] || '').toLowerCase().replace(/\./g, '');
 
-  if (period === 'pm' && hours < 12) hours += 12;
-  if (period === 'am' && hours === 12) hours = 0;
+  // Normalize "a" -> "am", "p" -> "pm"
+  const normalizedPeriod = period === 'a' ? 'am' : period === 'p' ? 'pm' : period;
+
+  if (normalizedPeriod === 'pm' && hours < 12) hours += 12;
+  if (normalizedPeriod === 'am' && hours === 12) hours = 0;
 
   return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`;
 }
@@ -372,14 +436,16 @@ export function parseTime(timeStr: string | undefined): string | null {
 export function parseTimeRange(
   text: string
 ): { start: string | null; end: string | null } {
+  // UPGRADED: also matches "8a-2p", "8am-2pm", "8:00a - 2:00p"
   const rangeMatch = text.match(
-    /(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)?)[\s]*[-\u2013\u2014to]+[\s]*(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.))/i
+    /(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.|a|p)?)\s*[-\u2013\u2014to]+\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.|a|p))/i
   );
   if (rangeMatch) {
     let startStr = rangeMatch[1];
     const endStr = rangeMatch[2];
-    if (!/am|pm|a\.m\.|p\.m\./i.test(startStr)) {
-      const suffix = endStr.match(/am|pm|a\.m\.|p\.m\./i);
+    // If start has no period marker, inherit from end
+    if (!/am|pm|a\.m\.|p\.m\.|[ap]\b/i.test(startStr)) {
+      const suffix = endStr.match(/am|pm|a\.m\.|p\.m\.|[ap]\b/i);
       if (suffix) startStr += suffix[0];
     }
     return { start: parseTime(startStr), end: parseTime(endStr) };
@@ -399,6 +465,27 @@ export function extractAddress(text: string): string | null {
 export function extractZip(text: string): string | null {
   const match = text.match(ZIP_PATTERN);
   return match ? match[0] : null;
+}
+
+// NEW in v4.0: Extract 2-letter US state code from text
+const US_STATES = new Set([
+  'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA',
+  'HI','ID','IL','IN','IA','KS','KY','LA','ME','MD',
+  'MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ',
+  'NM','NY','NC','ND','OH','OK','OR','PA','RI','SC',
+  'SD','TN','TX','UT','VT','VA','WA','WV','WI','WY','DC',
+]);
+
+export function extractState(text: string): string | null {
+  // Look for 2-letter state code after a comma or at end of address
+  const stateMatch = text.match(/,\s*([A-Z]{2})\b/);
+  if (stateMatch && US_STATES.has(stateMatch[1])) return stateMatch[1];
+
+  // Look for standalone state code near a zip
+  const nearZipMatch = text.match(/\b([A-Z]{2})\s+\d{5}\b/);
+  if (nearZipMatch && US_STATES.has(nearZipMatch[1])) return nearZipMatch[1];
+
+  return null;
 }
 
 export function extractDates(text: string): string[] {
@@ -448,8 +535,29 @@ export function isValidAddress(address: string | null | undefined): boolean {
   return /^\d+\s+\S/.test(trimmed);
 }
 
+// NEW in v4.0: Address confidence scoring
+// Higher score = better quality address data
+export function scoreAddress(address: string): number {
+  let score = 0;
+  if (!address) return 0;
+
+  // Has street number
+  if (/^\d+\s/.test(address)) score += 30;
+  // Has street suffix (St, Ave, etc.)
+  if (/\b(St|Street|Ave|Avenue|Blvd|Rd|Road|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place)\b/i.test(address)) score += 20;
+  // Has city name (word after comma)
+  if (/,\s*[A-Za-z]+/.test(address)) score += 15;
+  // Has state code
+  if (/\b[A-Z]{2}\b/.test(address)) score += 15;
+  // Has zip code
+  if (/\b\d{5}\b/.test(address)) score += 20;
+
+  return Math.min(score, 100);
+}
+
 // ============================================
-// PHOTO URL NORMALIZATION
+// PHOTO URL NORMALIZATION — UPGRADED in v4.0
+// Now deduplicates photo URLs
 // ============================================
 
 export function normalizePhotoUrls(
@@ -457,6 +565,9 @@ export function normalizePhotoUrls(
   baseUrl: string
 ): string[] {
   if (!photos || photos.length === 0) return [];
+
+  const seen = new Set<string>();
+
   return photos
     .filter((url) => url && url.length > 5)
     .map((url) => {
@@ -469,6 +580,13 @@ export function normalizePhotoUrls(
       }
     })
     .filter((url) => url.startsWith('http'))
+    .filter((url) => {
+      // Dedup: strip query params for comparison
+      const key = url.split('?')[0].toLowerCase();
+      if (seen.has(key)) return false;
+      seen.add(key);
+      return true;
+    })
     .slice(0, 10);
 }
 
@@ -517,16 +635,16 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
   // GATE 0: Must have a title
   if (!raw.title || raw.title.trim().length < 3) return null;
 
-  const title = raw.title
-    .replace(/\s+/g, ' ')
-    .trim()
-    .slice(0, 200);
+  // v4.0: Clean HTML entities from title and description
+  const title = cleanHtmlEntities(
+    raw.title.replace(/\s+/g, ' ').trim().slice(0, 200)
+  );
 
   // GATE 1: Junk title filter
   if (isJunkTitle(title)) return null;
 
   const description = raw.description
-    ? raw.description.replace(/\s+/g, ' ').trim().slice(0, 2000)
+    ? cleanHtmlEntities(raw.description.replace(/\s+/g, ' ').trim().slice(0, 2000))
     : null;
 
   const combinedText = `${title} ${description || ''}`;
@@ -537,6 +655,10 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
 
   // GATE 2: ADDRESS — THE HARD GATE
   let address = raw.address || null;
+
+  // v4.0: Clean HTML entities from address too
+  if (address) address = cleanHtmlEntities(address);
+
   if (!isValidAddress(address)) {
     const fromDesc = extractAddress(combinedText);
     if (fromDesc) address = fromDesc;
@@ -550,16 +672,13 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
   const zip = raw.zip || extractZip(`${address} ${combinedText}`) || null;
 
   // ═══════════════════════════════════════════════════════════
-  // FIX: DATE PRIORITY — title date > description date > raw.date
+  // FIX (from v3.1): DATE PRIORITY — title date > description date > raw.date
   //
   // raw.date from Craigslist is the POSTING datetime, NOT the
   // sale date. Sellers put the actual sale date in the title:
   //   "GARAGE SALE Friday 4-17-2026 Diecast & Hot Wheels"
   //
-  // Old code: const rawDates = raw.date ? [raw.date] : extractDates(combinedText);
-  // This always used the CL posting date and ignored the title date.
-  //
-  // New code: Check title first, then description, then raw.date as fallback.
+  // Check title first, then description, then raw.date as fallback.
   // ═══════════════════════════════════════════════════════════
   const titleDates = extractDates(title);
   const descDates = extractDates(description || '');
@@ -586,14 +705,28 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
 
   const city = raw.city || extractCity(address || '') || null;
 
+  // v4.0: Use extractState as fallback if raw.state is missing
+  const state = raw.state || extractState(`${address} ${combinedText}`) || null;
+
   const latitude =
     typeof raw.latitude === 'number' && !isNaN(raw.latitude) ? raw.latitude : null;
   const longitude =
     typeof raw.longitude === 'number' && !isNaN(raw.longitude) ? raw.longitude : null;
 
-  const expiresAt = new Date(
-    Date.now() + 14 * 24 * 60 * 60 * 1000
-  ).toISOString();
+  // ═══════════════════════════════════════════════════════════
+  // v4.0: SMART EXPIRY
+  // If we know the sale date, expire 1 day after the sale ends.
+  // If no sale date, fall back to 14 days from now.
+  // This keeps the listings table clean — no week-old sales lingering.
+  // ═══════════════════════════════════════════════════════════
+  let expiresAt: string;
+  if (saleDate) {
+    const saleDateObj = new Date(saleDate + 'T23:59:59');
+    saleDateObj.setDate(saleDateObj.getDate() + 1); // 1 day after sale
+    expiresAt = saleDateObj.toISOString();
+  } else {
+    expiresAt = new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString();
+  }
 
   const collectedAt = new Date().toISOString();
 
@@ -604,7 +737,7 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
     title,
     description,
     city,
-    state: raw.state || null,
+    state,
     latitude,
     longitude,
     price,

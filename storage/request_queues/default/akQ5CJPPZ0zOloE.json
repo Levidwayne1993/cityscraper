@@ -1,0 +1,9 @@
+{
+	"id": "akQ5CJPPZ0zOloE",
+	"json": "{\"id\":\"akQ5CJPPZ0zOloE\",\"url\":\"https://parkersburg.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://parkersburg.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010271,
+	"retryCount": 0,
+	"uniqueKey": "https://parkersburg.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://parkersburg.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

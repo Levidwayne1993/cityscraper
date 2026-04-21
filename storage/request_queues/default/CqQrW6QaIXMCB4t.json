@@ -1,0 +1,9 @@
+{
+	"id": "CqQrW6QaIXMCB4t",
+	"json": "{\"id\":\"CqQrW6QaIXMCB4t\",\"url\":\"https://www.garagesalefinder.com/sale/Iowa?page=2\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Iowa?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Iowa\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010716,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/sale/Iowa?page=2",
+	"url": "https://www.garagesalefinder.com/sale/Iowa?page=2"
+}

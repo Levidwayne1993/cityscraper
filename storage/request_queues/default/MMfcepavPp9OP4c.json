@@ -1,0 +1,9 @@
+{
+	"id": "MMfcepavPp9OP4c",
+	"json": "{\"id\":\"MMfcepavPp9OP4c\",\"url\":\"https://elmira.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://elmira.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007721,
+	"retryCount": 0,
+	"uniqueKey": "https://elmira.craigslist.org/search/gms?s=240",
+	"url": "https://elmira.craigslist.org/search/gms?s=240"
+}

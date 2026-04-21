@@ -1,0 +1,9 @@
+{
+	"id": "u9YiDCfONf5TlNB",
+	"json": "{\"id\":\"u9YiDCfONf5TlNB\",\"url\":\"https://decatur.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://decatur.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006481,
+	"retryCount": 0,
+	"uniqueKey": "https://decatur.craigslist.org/search/gms?s=240",
+	"url": "https://decatur.craigslist.org/search/gms?s=240"
+}

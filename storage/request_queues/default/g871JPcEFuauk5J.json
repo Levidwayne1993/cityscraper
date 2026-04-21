@@ -1,0 +1,9 @@
+{
+	"id": "g871JPcEFuauk5J",
+	"json": "{\"id\":\"g871JPcEFuauk5J\",\"url\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804187969,
+	"retryCount": 0,
+	"uniqueKey": "https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

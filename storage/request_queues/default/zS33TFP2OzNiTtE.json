@@ -1,0 +1,9 @@
+{
+	"id": "zS33TFP2OzNiTtE",
+	"json": "{\"id\":\"zS33TFP2OzNiTtE\",\"url\":\"https://sandusky.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://sandusky.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008343,
+	"retryCount": 0,
+	"uniqueKey": "https://sandusky.craigslist.org/search/gms?s=240",
+	"url": "https://sandusky.craigslist.org/search/gms?s=240"
+}

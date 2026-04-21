@@ -1,0 +1,9 @@
+{
+	"id": "Hq487V8Cmf2K5L5",
+	"json": "{\"id\":\"Hq487V8Cmf2K5L5\",\"url\":\"https://saginaw.craigslist.org/search/gms\",\"uniqueKey\":\"https://saginaw.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007218,
+	"retryCount": 0,
+	"uniqueKey": "https://saginaw.craigslist.org/search/gms",
+	"url": "https://saginaw.craigslist.org/search/gms"
+}

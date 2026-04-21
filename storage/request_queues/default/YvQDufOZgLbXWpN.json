@@ -1,0 +1,9 @@
+{
+	"id": "YvQDufOZgLbXWpN",
+	"json": "{\"id\":\"YvQDufOZgLbXWpN\",\"url\":\"https://www.garagesalefinder.com/sale/Colorado\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Colorado\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Colorado\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010657,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/sale/Colorado",
+	"url": "https://www.garagesalefinder.com/sale/Colorado"
+}

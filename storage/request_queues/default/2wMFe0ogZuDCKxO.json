@@ -1,0 +1,9 @@
+{
+	"id": "2wMFe0ogZuDCKxO",
+	"json": "{\"id\":\"2wMFe0ogZuDCKxO\",\"url\":\"https://www.garagesalefinder.com/sale/Texas?page=2\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Texas?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Texas\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010914,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/sale/Texas?page=2",
+	"url": "https://www.garagesalefinder.com/sale/Texas?page=2"
+}

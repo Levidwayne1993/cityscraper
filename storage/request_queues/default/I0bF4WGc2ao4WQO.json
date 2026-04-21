@@ -1,0 +1,9 @@
+{
+	"id": "I0bF4WGc2ao4WQO",
+	"json": "{\"id\":\"I0bF4WGc2ao4WQO\",\"url\":\"https://nwga.craigslist.org/search/gms\",\"uniqueKey\":\"https://nwga.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006401,
+	"retryCount": 0,
+	"uniqueKey": "https://nwga.craigslist.org/search/gms",
+	"url": "https://nwga.craigslist.org/search/gms"
+}

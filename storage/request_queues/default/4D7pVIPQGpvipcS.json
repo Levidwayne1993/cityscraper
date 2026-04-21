@@ -1,0 +1,9 @@
+{
+	"id": "4D7pVIPQGpvipcS",
+	"json": "{\"id\":\"4D7pVIPQGpvipcS\",\"url\":\"https://stcloud.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://stcloud.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007315,
+	"retryCount": 0,
+	"uniqueKey": "https://stcloud.craigslist.org/search/gms?s=240",
+	"url": "https://stcloud.craigslist.org/search/gms?s=240"
+}

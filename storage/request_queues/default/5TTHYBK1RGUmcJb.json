@@ -1,0 +1,9 @@
+{
+	"id": "5TTHYBK1RGUmcJb",
+	"json": "{\"id\":\"5TTHYBK1RGUmcJb\",\"url\":\"https://athensga.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://athensga.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006365,
+	"retryCount": 0,
+	"uniqueKey": "https://athensga.craigslist.org/search/gms?s=120",
+	"url": "https://athensga.craigslist.org/search/gms?s=120"
+}

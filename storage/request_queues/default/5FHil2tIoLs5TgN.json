@@ -1,0 +1,9 @@
+{
+	"id": "5FHil2tIoLs5TgN",
+	"json": "{\"id\":\"5FHil2tIoLs5TgN\",\"url\":\"https://www.garagesalefinder.com/sale/Illinois\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Illinois\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Illinois\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010704,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/sale/Illinois",
+	"url": "https://www.garagesalefinder.com/sale/Illinois"
+}

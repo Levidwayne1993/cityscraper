@@ -1,0 +1,9 @@
+{
+	"id": "88FrEfQiPGLpZmZ",
+	"json": "{\"id\":\"88FrEfQiPGLpZmZ\",\"url\":\"https://daytona.craigslist.org/search/gms\",\"uniqueKey\":\"https://daytona.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006198,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/search/gms",
+	"url": "https://daytona.craigslist.org/search/gms"
+}

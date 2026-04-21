@@ -1,0 +1,9 @@
+{
+	"id": "mAbQikR0hk9xNv0",
+	"json": "{\"id\":\"mAbQikR0hk9xNv0\",\"url\":\"https://lascruces.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://lascruces.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007656,
+	"retryCount": 0,
+	"uniqueKey": "https://lascruces.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://lascruces.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

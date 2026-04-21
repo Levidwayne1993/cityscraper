@@ -1,0 +1,9 @@
+{
+	"id": "sNYGlOHPWI3nsU6",
+	"json": "{\"id\":\"sNYGlOHPWI3nsU6\",\"url\":\"https://fayar.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fayar.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005818,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/search/gms?s=120",
+	"url": "https://fayar.craigslist.org/search/gms?s=120"
+}

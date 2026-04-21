@@ -1,0 +1,9 @@
+{
+	"id": "KmBjJFVwQzZK2ZN",
+	"json": "{\"id\":\"KmBjJFVwQzZK2ZN\",\"url\":\"https://elko.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://elko.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007558,
+	"retryCount": 0,
+	"uniqueKey": "https://elko.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://elko.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

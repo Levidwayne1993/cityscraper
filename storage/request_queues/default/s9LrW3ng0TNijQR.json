@@ -1,0 +1,9 @@
+{
+	"id": "s9LrW3ng0TNijQR",
+	"json": "{\"id\":\"s9LrW3ng0TNijQR\",\"url\":\"https://southbend.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://southbend.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006606,
+	"retryCount": 0,
+	"uniqueKey": "https://southbend.craigslist.org/search/gms?s=120",
+	"url": "https://southbend.craigslist.org/search/gms?s=120"
+}

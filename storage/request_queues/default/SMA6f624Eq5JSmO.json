@@ -1,0 +1,9 @@
+{
+	"id": "SMA6f624Eq5JSmO",
+	"json": "{\"id\":\"SMA6f624Eq5JSmO\",\"url\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005727,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscaloosa.craigslist.org/search/gms?s=240",
+	"url": "https://tuscaloosa.craigslist.org/search/gms?s=240"
+}

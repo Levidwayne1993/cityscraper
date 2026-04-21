@@ -1,0 +1,9 @@
+{
+	"id": "BW4Cj4huqi0Jm0U",
+	"json": "{\"id\":\"BW4Cj4huqi0Jm0U\",\"url\":\"https://boston.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://boston.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007013,
+	"retryCount": 0,
+	"uniqueKey": "https://boston.craigslist.org/search/gms?s=120",
+	"url": "https://boston.craigslist.org/search/gms?s=120"
+}

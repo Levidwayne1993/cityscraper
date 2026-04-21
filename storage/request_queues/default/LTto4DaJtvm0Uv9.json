@@ -1,0 +1,9 @@
+{
+	"id": "LTto4DaJtvm0Uv9",
+	"json": "{\"id\":\"LTto4DaJtvm0Uv9\",\"url\":\"https://butte.craigslist.org/search/gms\",\"uniqueKey\":\"https://butte.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007458,
+	"retryCount": 0,
+	"uniqueKey": "https://butte.craigslist.org/search/gms",
+	"url": "https://butte.craigslist.org/search/gms"
+}

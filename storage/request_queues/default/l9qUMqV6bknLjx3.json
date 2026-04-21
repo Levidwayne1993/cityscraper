@@ -1,0 +1,9 @@
+{
+	"id": "l9qUMqV6bknLjx3",
+	"json": "{\"id\":\"l9qUMqV6bknLjx3\",\"url\":\"https://statesboro.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://statesboro.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006419,
+	"retryCount": 0,
+	"uniqueKey": "https://statesboro.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://statesboro.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

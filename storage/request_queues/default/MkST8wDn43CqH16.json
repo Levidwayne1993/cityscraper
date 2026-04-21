@@ -1,0 +1,9 @@
+{
+	"id": "MkST8wDn43CqH16",
+	"json": "{\"id\":\"MkST8wDn43CqH16\",\"url\":\"https://richmond.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://richmond.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006601,
+	"retryCount": 0,
+	"uniqueKey": "https://richmond.craigslist.org/search/gms?s=240",
+	"url": "https://richmond.craigslist.org/search/gms?s=240"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dmRU7Oe86kMzdZP",
+	"json": "{\"id\":\"dmRU7Oe86kMzdZP\",\"url\":\"https://masoncity.craigslist.org/search/gms\",\"uniqueKey\":\"https://masoncity.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006655,
+	"retryCount": 0,
+	"uniqueKey": "https://masoncity.craigslist.org/search/gms",
+	"url": "https://masoncity.craigslist.org/search/gms"
+}

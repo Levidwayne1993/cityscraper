@@ -1,0 +1,9 @@
+{
+	"id": "0HIvS1J1JGNfDGF",
+	"json": "{\"id\":\"0HIvS1J1JGNfDGF\",\"url\":\"https://miami.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://miami.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006260,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://miami.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

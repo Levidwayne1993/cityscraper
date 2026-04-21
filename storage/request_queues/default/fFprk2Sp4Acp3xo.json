@@ -1,0 +1,9 @@
+{
+	"id": "fFprk2Sp4Acp3xo",
+	"json": "{\"id\":\"fFprk2Sp4Acp3xo\",\"url\":\"https://lancaster.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://lancaster.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008498,
+	"retryCount": 0,
+	"uniqueKey": "https://lancaster.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://lancaster.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

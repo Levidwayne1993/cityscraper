@@ -1,0 +1,9 @@
+{
+	"id": "pDUwadWfajwnU8U",
+	"json": "{\"id\":\"pDUwadWfajwnU8U\",\"url\":\"https://winchester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://winchester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010109,
+	"retryCount": 0,
+	"uniqueKey": "https://winchester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://winchester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

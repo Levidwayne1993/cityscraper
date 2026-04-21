@@ -1,0 +1,9 @@
+{
+	"id": "cN5iLxgQkmXf9XG",
+	"json": "{\"id\":\"cN5iLxgQkmXf9XG\",\"url\":\"https://chattanooga.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://chattanooga.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804009765,
+	"retryCount": 0,
+	"uniqueKey": "https://chattanooga.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://chattanooga.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

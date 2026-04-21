@@ -1,0 +1,9 @@
+{
+	"id": "hwjA2Bz3oKSuJZW",
+	"json": "{\"id\":\"hwjA2Bz3oKSuJZW\",\"url\":\"https://roswell.craigslist.org/search/gms\",\"uniqueKey\":\"https://roswell.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007662,
+	"retryCount": 0,
+	"uniqueKey": "https://roswell.craigslist.org/search/gms",
+	"url": "https://roswell.craigslist.org/search/gms"
+}

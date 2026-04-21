@@ -1,0 +1,9 @@
+{
+	"id": "0wGnde8WQjFqC2l",
+	"json": "{\"id\":\"0wGnde8WQjFqC2l\",\"url\":\"https://pueblo.craigslist.org/search/gms\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006114,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/search/gms",
+	"url": "https://pueblo.craigslist.org/search/gms"
+}

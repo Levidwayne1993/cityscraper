@@ -1,0 +1,9 @@
+{
+	"id": "hvQZlF43mQyNI2y",
+	"json": "{\"id\":\"hvQZlF43mQyNI2y\",\"url\":\"https://joplin.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://joplin.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007377,
+	"retryCount": 0,
+	"uniqueKey": "https://joplin.craigslist.org/search/gms?s=120",
+	"url": "https://joplin.craigslist.org/search/gms?s=120"
+}

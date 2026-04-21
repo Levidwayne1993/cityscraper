@@ -1,0 +1,9 @@
+{
+	"id": "tKxMo1vptTp8Jir",
+	"json": "{\"id\":\"tKxMo1vptTp8Jir\",\"url\":\"https://tuscarawas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://tuscarawas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008359,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscarawas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://tuscarawas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

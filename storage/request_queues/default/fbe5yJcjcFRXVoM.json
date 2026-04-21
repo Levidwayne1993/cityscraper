@@ -1,0 +1,9 @@
+{
+	"id": "fbe5yJcjcFRXVoM",
+	"json": "{\"id\":\"fbe5yJcjcFRXVoM\",\"url\":\"https://pullman.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://pullman.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010211,
+	"retryCount": 0,
+	"uniqueKey": "https://pullman.craigslist.org/search/gms?s=120",
+	"url": "https://pullman.craigslist.org/search/gms?s=120"
+}

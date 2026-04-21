@@ -1,0 +1,9 @@
+{
+	"id": "EPceh936RwdH0dW",
+	"json": "{\"id\":\"EPceh936RwdH0dW\",\"url\":\"https://reading.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://reading.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008538,
+	"retryCount": 0,
+	"uniqueKey": "https://reading.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://reading.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

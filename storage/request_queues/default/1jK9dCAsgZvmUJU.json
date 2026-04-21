@@ -1,0 +1,9 @@
+{
+	"id": "1jK9dCAsgZvmUJU",
+	"json": "{\"id\":\"1jK9dCAsgZvmUJU\",\"url\":\"https://lansing.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://lansing.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007159,
+	"retryCount": 0,
+	"uniqueKey": "https://lansing.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://lansing.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

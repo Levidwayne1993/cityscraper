@@ -1,0 +1,9 @@
+{
+	"id": "EqhOG6qN3DCbopw",
+	"json": "{\"id\":\"EqhOG6qN3DCbopw\",\"url\":\"https://tuscaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005729,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://tuscaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

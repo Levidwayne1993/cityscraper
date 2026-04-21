@@ -1,0 +1,9 @@
+{
+	"id": "F0wobT7GVb9oYms",
+	"json": "{\"id\":\"F0wobT7GVb9oYms\",\"url\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006135,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

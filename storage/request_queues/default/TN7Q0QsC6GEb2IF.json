@@ -1,0 +1,9 @@
+{
+	"id": "TN7Q0QsC6GEb2IF",
+	"json": "{\"id\":\"TN7Q0QsC6GEb2IF\",\"url\":\"https://terrehaute.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://terrehaute.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006616,
+	"retryCount": 0,
+	"uniqueKey": "https://terrehaute.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://terrehaute.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

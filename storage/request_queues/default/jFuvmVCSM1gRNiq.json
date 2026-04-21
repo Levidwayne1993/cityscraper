@@ -1,0 +1,9 @@
+{
+	"id": "jFuvmVCSM1gRNiq",
+	"json": "{\"id\":\"jFuvmVCSM1gRNiq\",\"url\":\"https://fortmyers.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fortmyers.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006225,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/search/gms?s=120",
+	"url": "https://fortmyers.craigslist.org/search/gms?s=120"
+}

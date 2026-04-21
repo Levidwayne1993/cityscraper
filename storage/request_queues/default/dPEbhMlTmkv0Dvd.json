@@ -1,0 +1,9 @@
+{
+	"id": "dPEbhMlTmkv0Dvd",
+	"json": "{\"id\":\"dPEbhMlTmkv0Dvd\",\"url\":\"https://masoncity.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://masoncity.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006657,
+	"retryCount": 0,
+	"uniqueKey": "https://masoncity.craigslist.org/search/gms?s=120",
+	"url": "https://masoncity.craigslist.org/search/gms?s=120"
+}

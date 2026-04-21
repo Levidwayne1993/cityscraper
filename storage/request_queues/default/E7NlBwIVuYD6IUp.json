@@ -1,0 +1,9 @@
+{
+	"id": "E7NlBwIVuYD6IUp",
+	"json": "{\"id\":\"E7NlBwIVuYD6IUp\",\"url\":\"https://billings.craigslist.org/search/gms\",\"uniqueKey\":\"https://billings.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007441,
+	"retryCount": 0,
+	"uniqueKey": "https://billings.craigslist.org/search/gms",
+	"url": "https://billings.craigslist.org/search/gms"
+}

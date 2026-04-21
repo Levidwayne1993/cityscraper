@@ -1,0 +1,9 @@
+{
+	"id": "HX2MoQ1S777VtjR",
+	"json": "{\"id\":\"HX2MoQ1S777VtjR\",\"url\":\"https://grandrapids.craigslist.org/search/gms\",\"uniqueKey\":\"https://grandrapids.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007093,
+	"retryCount": 0,
+	"uniqueKey": "https://grandrapids.craigslist.org/search/gms",
+	"url": "https://grandrapids.craigslist.org/search/gms"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HN1fsH4gnDAVZMC",
+	"json": "{\"id\":\"HN1fsH4gnDAVZMC\",\"url\":\"https://phoenix.craigslist.org/search/gms\",\"uniqueKey\":\"https://phoenix.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804005771,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/search/gms",
+	"url": "https://phoenix.craigslist.org/search/gms"
+}

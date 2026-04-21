@@ -1,0 +1,9 @@
+{
+	"id": "a1z4d8Ybc1P4j3A",
+	"json": "{\"id\":\"a1z4d8Ybc1P4j3A\",\"url\":\"https://albanyga.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://albanyga.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006358,
+	"retryCount": 0,
+	"uniqueKey": "https://albanyga.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://albanyga.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

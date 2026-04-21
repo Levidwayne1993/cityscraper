@@ -1,0 +1,9 @@
+{
+	"id": "jZ4tpBZUf3VHt42",
+	"json": "{\"id\":\"jZ4tpBZUf3VHt42\",\"url\":\"https://zanesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://zanesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804008371,
+	"retryCount": 0,
+	"uniqueKey": "https://zanesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://zanesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

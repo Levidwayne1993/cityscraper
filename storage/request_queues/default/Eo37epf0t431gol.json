@@ -1,0 +1,9 @@
+{
+	"id": "Eo37epf0t431gol",
+	"json": "{\"id\":\"Eo37epf0t431gol\",\"url\":\"https://eauclaire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://eauclaire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804010300,
+	"retryCount": 0,
+	"uniqueKey": "https://eauclaire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://eauclaire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

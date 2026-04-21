@@ -1,0 +1,9 @@
+{
+	"id": "nbrbMBO9wTNzP3a",
+	"json": "{\"id\":\"nbrbMBO9wTNzP3a\",\"url\":\"https://grandforks.craigslist.org/search/gms\",\"uniqueKey\":\"https://grandforks.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ND\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007927,
+	"retryCount": 0,
+	"uniqueKey": "https://grandforks.craigslist.org/search/gms",
+	"url": "https://grandforks.craigslist.org/search/gms"
+}

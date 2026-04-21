@@ -1,0 +1,9 @@
+{
+	"id": "JtFlWTEQllUyF6Z",
+	"json": "{\"id\":\"JtFlWTEQllUyF6Z\",\"url\":\"https://spacecoast.craigslist.org/search/gms\",\"uniqueKey\":\"https://spacecoast.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804006317,
+	"retryCount": 0,
+	"uniqueKey": "https://spacecoast.craigslist.org/search/gms",
+	"url": "https://spacecoast.craigslist.org/search/gms"
+}

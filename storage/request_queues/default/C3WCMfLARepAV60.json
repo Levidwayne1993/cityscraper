@@ -1,0 +1,9 @@
+{
+	"id": "C3WCMfLARepAV60",
+	"json": "{\"id\":\"C3WCMfLARepAV60\",\"url\":\"https://akroncanton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://akroncanton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1776804007946,
+	"retryCount": 0,
+	"uniqueKey": "https://akroncanton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://akroncanton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}
