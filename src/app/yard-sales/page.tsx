@@ -20,7 +20,7 @@ interface YardSale {
   categories: string[];
   source: string;
   source_url: string;
-  image_urls: string[];
+  photo_urls: string[]
   scraped_at: string;
   pushed: boolean;
 }

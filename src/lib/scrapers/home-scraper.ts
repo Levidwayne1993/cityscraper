@@ -49,7 +49,7 @@ export interface CheapHomeItem {
   listing_category: string;
   source: string;
   source_url: string;
-  image_urls: string[];
+  photo_urls: string[]
   description: string | null;
   auction_date: string | null;
   case_number: string | null;

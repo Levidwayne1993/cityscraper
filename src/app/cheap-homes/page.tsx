@@ -21,7 +21,7 @@ interface CheapHome {
   listing_type: string; // foreclosure, auction, short-sale, cheap
   source: string;
   source_url: string;
-  image_urls: string[];
+  photo_urls: string[]
   lat: number | null;
   lng: number | null;
   scraped_at: string;

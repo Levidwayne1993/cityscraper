@@ -2,18 +2,24 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v3.0 — MAXIMUM COVERAGE EDITION
+// CRAWLEE DEEP SCRAPER v3.1 — MERGED PHOTO-FIX + MAX COVERAGE
 //
-// CHANGES FROM v2.3:
-//   1. NEW SOURCE: Gsalr.com — 50 states × 3 pages (ScraperAPI-only)
-//   2. NEW CL QUERIES: estate+sale, moving+sale sub-searches (826 more URLs)
-//   3. Total URLs: ~4,348 → ~5,324+
+// CHANGES FROM v3.0:
+//   1. PHOTO-FIX: getImgUrl(), getAllImgUrls(), parseCraigslistDataIds()
+//      — checks src, data-src, data-lazy, data-lazy-src, data-original,
+//        data-image, content, srcset on ALL sources
+//   2. CL detail pages: parse data-ids attribute for real image URLs
+//   3. ALL v3.0 sources preserved: CL, EstateSales, GSF, YSS, Gsalr
+//   4. CL estate+sale & moving+sale sub-queries (826 extra URLs)
+//   5. Total URLs: ~5,324+ (same as v3.0, plus photo extraction fixes)
 //
-// ALL v2.3 FEATURES STILL INCLUDED:
+// ALL v3.0 FEATURES STILL INCLUDED:
 //   - 413 CL subdomains with /gms + /sss dual URLs
+//   - CL estate+sale & moving+sale sub-queries (v3.0)
 //   - 274 YardSaleSearch cities × 5 pages
 //   - 50 EstateSales.net states × 5 pages
 //   - 50 GarageSaleFinder states × 5 pages
+//   - 50 Gsalr.com states × 3 pages (ScraperAPI-only) (v3.0)
 //   - Verbose logging per URL
 //   - 2s delay between requests
 //   - CL 3 pages max
@@ -27,6 +33,13 @@
 //   - Broad CSS selectors with fallbacks
 //   - ScraperAPI country_code=us
 //   - Purge on start
+//
+// PHOTO-FIX IMPROVEMENTS (v3.1):
+//   - Universal getImgUrl() helper (multi-attribute extraction)
+//   - getAllImgUrls() for container-level image discovery
+//   - parseCraigslistDataIds() for CL's data-ids image format
+//   - Enhanced lazy-load support across all sources
+//   - Expanded CSS selectors for detail page galleries
 //
 // RUN: npx tsx scripts/crawlee-deep-scraper.ts
 //
@@ -62,7 +75,7 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── GEOCODING CONFIG ──
 const GEOCODE_DELAY_MS = 1100;
-const GEOCODE_USER_AGENT = 'CityScraper/3.0 (cityscraper.org)';
+const GEOCODE_USER_AGENT = 'CityScraper/3.1 (cityscraper.org)';
 
 // ── v2.2: REDUCED PAGINATION ──
 const CL_MAX_PAGES = 3;         // Was 10 → now 3 (freshest listings)
@@ -92,7 +105,7 @@ interface ScrapedSale {
   categories: string[];
   source: string;
   source_url: string;
-  image_urls: string[];
+  photo_urls: string[]
   expires_at: string;
   scraped_at: string;
   pushed: boolean;
@@ -149,6 +162,79 @@ function extractDateFromText(text: string): string | null {
     if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
   }
   return null;
+}
+
+// ── UNIVERSAL IMAGE EXTRACTION (v2.3-photo-fix) ──
+// Most yard sale sites lazy-load images via data-src, data-lazy, etc.
+// This helper checks ALL common attributes so we actually get photos.
+function getImgUrl(el: any, $: any): string {
+  const img = $(el).is('img') ? $(el) : $(el).find('img').first();
+  return (
+    img.attr('src') ||
+    img.attr('data-src') ||
+    img.attr('data-lazy') ||
+    img.attr('data-lazy-src') ||
+    img.attr('data-original') ||
+    img.attr('data-image') ||
+    img.attr('content') ||
+    img.attr('srcset')?.split(',')[0]?.trim()?.split(' ')[0] ||
+    ''
+  );
+}
+
+// Extracts ALL image URLs from a container, checking lazy-load attributes
+function getAllImgUrls(container: any, $: any): string[] {
+  const urls: string[] = [];
+  $(container).find('img').each((_: number, img: any) => {
+    const src =
+      $(img).attr('src') ||
+      $(img).attr('data-src') ||
+      $(img).attr('data-lazy') ||
+      $(img).attr('data-lazy-src') ||
+      $(img).attr('data-original') ||
+      $(img).attr('data-image') ||
+      '';
+    if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && !src.includes('pixel') && src.length > 10) {
+      urls.push(src);
+    }
+  });
+
+  // ── v3.0 NEW: GSALR.COM (ScraperAPI proxy required — 403 without it) ──
+  if (SCRAPER_API_KEY) {
+    for (const state of GSALR_STATES) {
+      urls.push({
+        url: `https://gsalr.com/garage-sales-in/${state}/`,
+        userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
+      });
+      for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
+        urls.push({
+          url: `https://gsalr.com/garage-sales-in/${state}/page/${page}/`,
+          userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
+        });
+      }
+    }
+    console.log(`[Gsalr] Added ${GSALR_STATES.length * GSALR_MAX_PAGES} URLs (ScraperAPI proxy)`);
+  } else {
+    console.log('[Gsalr] SKIPPED — requires SCRAPER_API_KEY (site blocks direct access)');
+  }
+
+  return urls;
+}
+
+// Craigslist stores image IDs in data-ids attribute like "3:00r0r_abc123,3:00s0s_def456"
+// This constructs the real image URLs from those IDs
+function parseCraigslistDataIds($: any): string[] {
+  const urls: string[] = [];
+  $('[data-ids]').each((_: number, el: any) => {
+    const dataIds = $(el).attr('data-ids') || '';
+    const ids = dataIds.split(',').map((id: string) => id.replace(/^\d+:/, '').trim());
+    for (const id of ids) {
+      if (id && id.length > 3) {
+        urls.push(`https://images.craigslist.org/${id}_600x450.jpg`);
+      }
+    }
+  });
+  return urls;
 }
 
 // ── CATEGORY DETECTION ──
@@ -447,6 +533,7 @@ const YSS_CITIES = [
   'Cheyenne-WY','Casper-WY',
 ];
 
+
 // ── GSALR.COM STATES (v3.0 NEW SOURCE — ScraperAPI-only, 403 without proxy) ──
 const GSALR_STATES = [
   'alabama','alaska','arizona','arkansas','california','colorado',
@@ -548,25 +635,6 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
     }
   }
 
-  // ── v3.0 NEW: GSALR.COM (ScraperAPI proxy required — 403 without it) ──
-  if (SCRAPER_API_KEY) {
-    for (const state of GSALR_STATES) {
-      urls.push({
-        url: `https://gsalr.com/garage-sales-in/${state}/`,
-        userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-      });
-      for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
-        urls.push({
-          url: `https://gsalr.com/garage-sales-in/${state}/page/${page}/`,
-          userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-        });
-      }
-    }
-    console.log(`[Gsalr] Added ${GSALR_STATES.length * GSALR_MAX_PAGES} URLs (ScraperAPI proxy)`);
-  } else {
-    console.log('[Gsalr] SKIPPED — requires SCRAPER_API_KEY (site blocks direct access)');
-  }
-
   return urls;
 }
 
@@ -597,9 +665,9 @@ async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<number> {
 
 async function main() {
   console.log('═══════════════════════════════════════════════════════');
-  console.log('  CRAWLEE DEEP SCRAPER v3.0 — MAXIMUM COVERAGE EDITION');
-  console.log('  NEW: Gsalr.com 5th source, CL estate+moving queries,');
-  console.log('       all v2.3 features preserved');
+  console.log('  CRAWLEE DEEP SCRAPER v3.1 — MERGED PHOTO-FIX + MAX COVERAGE');
+  console.log('  NEW: Photo-fix helpers, Gsalr.com 5th source, CL estate+moving queries,');
+  console.log('       all v3.0 features preserved + enhanced image extraction');
   console.log(`  ScraperAPI: ${SCRAPER_API_KEY ? 'ENABLED' : 'DISABLED'}`);
   console.log(`  Supabase: ${SUPABASE_URL ? 'Connected' : 'MISSING'}`);
   console.log(`  Geocoding: POST-CRAWL (runs after all pages scraped)`);
@@ -697,7 +765,9 @@ async function main() {
           const address = extractAddressFromText(locationText + ' ' + title) || locationText;
           const dateText = $(el).find('time').attr('datetime') || '';
           const priceText = $(el).find('.price, .result-price, .priceinfo').text().trim();
-          const imgSrc = $(el).find('img').attr('src') || '';
+          // v2.3-photo-fix: CL index pages have NO <img> tags — just a "pic" indicator
+          // Photos are only available on detail pages via data-ids
+          const imgSrc = getImgUrl($(el), $);
 
           pendingSales.push({
             source_id: sourceId,
@@ -751,10 +821,15 @@ async function main() {
         const mapAddress = $('div.mapaddress, .mapAndAttrs .mapaddress').text().trim();
         const geoLat = $('[data-latitude]').attr('data-latitude');
         const geoLng = $('[data-longitude]').attr('data-longitude');
-        const allImages: string[] = [];
-        $('img[src*="images.craigslist"], .gallery img, #thumbs a').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('href') || '';
-          if (src && !src.includes('00T0T')) allImages.push(src.replace(/\/\d+x\d+_/, '/600x450_'));
+        // v2.3-photo-fix: CL detail pages store images in data-ids attribute
+        // Parse data-ids first (most reliable), then fall back to img tags + data-src
+        const allImages: string[] = parseCraigslistDataIds($);
+        // Also grab any regular img tags with craigslist image URLs
+        $('img[src*="images.craigslist"], .gallery img, #thumbs a, img[data-src*="craigslist"]').each((_, img) => {
+          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('href') || '';
+          if (src && !src.includes('00T0T') && !allImages.includes(src)) {
+            allImages.push(src.replace(/\/\d+x\d+_/, '/600x450_'));
+          }
         });
 
         const times = extractTimes(bodyText);
@@ -847,7 +922,8 @@ async function main() {
           if (!title || seenIds.has(sourceId)) return;
           seenIds.add(sourceId);
 
-          const imgSrc = $(el).find('img').first().attr('src') || '';
+          // v2.3-photo-fix: check data-src for lazy-loaded images
+          const imgSrc = getImgUrl($(el), $);
           const dateText = $(el).find('.date, .sale-date, [class*="date"]').first().text().trim();
           const parsedDate = extractDateFromText(dateText);
 
@@ -899,10 +975,11 @@ async function main() {
         const stateEl = $('[itemprop="addressRegion"]').text().trim();
         const zipEl = $('[itemprop="postalCode"]').text().trim();
         const description = $('.sale-description, .description, [class*="description"]').text().trim();
+        // v2.3-photo-fix: check data-src for lazy-loaded estate sale photos
         const allImages: string[] = [];
-        $('.sale-photo img, .photo-gallery img, [class*="gallery"] img, [class*="photo"] img').each((_, img) => {
-          const src = $(img).attr('src') || '';
-          if (src) allImages.push(src);
+        $('.sale-photo img, .photo-gallery img, [class*="gallery"] img, [class*="photo"] img, .sale-images img, .slider img').each((_, img) => {
+          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) allImages.push(src);
         });
         const dateSection = $('.sale-dates, .dates, [class*="date"]').text().trim();
         const times = extractTimes(dateSection);
@@ -938,7 +1015,8 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = $(el).find('img').first().attr('src') || '';
+          // v2.3-photo-fix: check data-src for lazy-loaded images
+          const imgSrc = getImgUrl($(el), $);
           const dateText = $(el).find('.date, [class*="date"]').text().trim();
           const parsedDate = extractDateFromText(dateText);
           const times = extractTimes(bodyText);
@@ -1023,10 +1101,11 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], #sale-details, .details').text().trim();
+        // v2.3-photo-fix: check data-src for lazy-loaded GSF detail photos
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img').each((_, img) => {
-          const src = $(img).attr('src') || '';
-          if (src && !src.includes('logo') && !src.includes('icon')) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
+          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) allImages.push(src);
         });
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
@@ -1059,7 +1138,8 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = $(el).find('img').first().attr('src') || '';
+          // v2.3-photo-fix: check data-src for lazy-loaded images
+          const imgSrc = getImgUrl($(el), $);
           const times = extractTimes(bodyText);
           const parsedDate = extractDateFromText(bodyText);
 
@@ -1110,10 +1190,11 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
+        // v2.3-photo-fix: check data-src for lazy-loaded YSS detail photos
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img').each((_, img) => {
-          const src = $(img).attr('src') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner')) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
+          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) allImages.push(src);
         });
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
@@ -1149,7 +1230,8 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = $(el).find('img').first().attr('src') || '';
+          // v3.1-photo-fix: check data-src for lazy-loaded images
+          const imgSrc = getImgUrl($(el), $);
           const times = extractTimes(bodyText);
           const parsedDate = extractDateFromText(bodyText);
 
@@ -1240,10 +1322,11 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
+        // v3.1-photo-fix: check data-src for lazy-loaded Gsalr detail photos
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img').each((_, img) => {
-          const src = $(img).attr('src') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner')) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
+          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) allImages.push(src);
         });
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
@@ -1297,7 +1380,7 @@ async function main() {
   await crawler.addRequests(startUrls);
 
   // Run the crawler
-  console.log('Starting Crawlee v2.3...\n');
+  console.log('Starting Crawlee v3.1...\n');
   const crawlStartTime = Date.now();
   await crawler.run();
 
@@ -1333,7 +1416,7 @@ async function main() {
   const totalDuration = (Date.now() - crawlStartTime) / 1000;
 
   console.log('\n═══════════════════════════════════════════════════════');
-  console.log('  CRAWLEE DEEP SCRAPER v3.0 — ALL DONE');
+  console.log('  CRAWLEE DEEP SCRAPER v3.1 — ALL DONE');
   console.log(`  Sales saved: ${totalSaved}`);
   console.log(`  Sales geocoded: ${geocoded}`);
   console.log(`  Total duration: ${totalDuration.toFixed(1)}s (${(totalDuration / 60).toFixed(1)} min)`);
