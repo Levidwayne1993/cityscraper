@@ -318,7 +318,79 @@ function guessCategories(text: string): string[] {
   if (cats.length === 0) cats.push('Garage Sale');
   return cats;
 }
+// ── POST-CRAWL ADDRESS CLEANUP (v3.8) ──
+// Runs AFTER all detail pages have enriched listings.
+// Removes any listing that STILL has no valid street address.
+async function postCrawlAddressCleanup(): Promise<{ cleaned: number; kept: number }> {
+  console.log('\n══════════════════════════════════════════════════');
+  console.log('  POST-CRAWL ADDRESS CLEANUP (v3.8)');
+  console.log('  Removing listings that have no valid address');
+  console.log('  after detail page enrichment...');
+  console.log('══════════════════════════════════════════════════');
 
+  let totalCleaned = 0;
+  let totalKept = 0;
+  let offset = 0;
+  const batchSize = 500;
+
+  while (true) {
+    const { data: rows, error } = await supabase
+      .from('yard_sales')
+      .select('id, address, title')
+      .range(offset, offset + batchSize - 1);
+
+    if (error) {
+      console.error(`[Cleanup] Query error: ${error.message}`);
+      break;
+    }
+
+    if (!rows || rows.length === 0) break;
+
+    // Find rows that STILL don't have a valid address
+    const toDelete = rows.filter(r => {
+      const addr = (r.address || '').trim();
+      if (addr.length < 8) return true;  // too short
+      // Must have: street number + street name + street suffix
+      return !/^\d+\s+[\w]+([\s]+[\w]+)*\s+(St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Hwy|Highway|Trail|Tr|Terrace|Trl|Loop|Run|Pass|Pike|Alley|Aly)\b/i.test(addr);
+    });
+
+    const toKeep = rows.length - toDelete.length;
+    totalKept += toKeep;
+
+    if (toDelete.length > 0) {
+      const deleteIds = toDelete.map(r => r.id);
+
+      // Delete in sub-batches of 100
+      for (let i = 0; i < deleteIds.length; i += 100) {
+        const chunk = deleteIds.slice(i, i + 100);
+        const { error: delError } = await supabase
+          .from('yard_sales')
+          .delete()
+          .in('id', chunk);
+
+        if (delError) {
+          console.error(`[Cleanup] Delete error: ${delError.message}`);
+        } else {
+          totalCleaned += chunk.length;
+        }
+      }
+
+      console.log(`[Cleanup] Batch: ${toDelete.length} removed, ${toKeep} kept (offset ${offset})`);
+    } else {
+      console.log(`[Cleanup] Batch: all ${rows.length} valid (offset ${offset})`);
+    }
+
+    // If we got fewer than batchSize rows, we're done
+    if (rows.length < batchSize) break;
+
+    // Since we're deleting rows, don't advance offset by full batchSize
+    // Only advance by the number we kept (still in DB)
+    offset += toKeep;
+  }
+
+  console.log(`[Cleanup] DONE — ${totalCleaned} removed, ${totalKept} kept with valid addresses`);
+  return { cleaned: totalCleaned, kept: totalKept };
+}
 // ── POST-CRAWL GEOCODING ──
 async function geocodeAddress(address: string, city: string, state: string, zip: string): Promise<{ lat: number; lng: number } | null> {
   const query = [address, city, state, zip].filter(Boolean).join(', ');
@@ -723,23 +795,24 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
   return urls;
 }
 
-// ── SUPABASE BATCH SAVE — IMMEDIATE ──
+// ── SUPABASE BATCH SAVE — IMMEDIATE (v3.8: save-first, cleanup after) ──
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<number> {
   if (sales.length === 0) return 0;
 
-  // v3.4: ADDRESS HARD GATE — no address = no save
-  const withAddress = sales.filter(s => s.address && s.address.trim().length > 0 && hasValidAddress(s.address));
-  const skipped = sales.length - withAddress.length;
+  // v3.8: Save everything with a title — detail pages will enrich addresses later.
+  // Post-crawl cleanup removes junk AFTER all detail pages have run.
+  const withTitle = sales.filter(s => s.title && s.title.trim().length > 0);
+  const skipped = sales.length - withTitle.length;
   if (skipped > 0) {
-    console.log(`  🚫 [Address Gate] ${skipped} listings skipped (no valid address)`);
+    console.log(`  ⏭️ [Save] ${skipped} listings skipped (no title)`);
   }
-  if (withAddress.length === 0) return 0;
+  if (withTitle.length === 0) return 0;
 
   let saved = 0;
   const batchSize = 50;
 
-  for (let i = 0; i < withAddress.length; i += batchSize) {
-    const batch = withAddress.slice(i, i + batchSize);
+  for (let i = 0; i < withTitle.length; i += batchSize) {
+    const batch = withTitle.slice(i, i + batchSize);
     const { error } = await supabase
       .from('yard_sales')
       .upsert(batch, { onConflict: 'source_url' });
@@ -1626,14 +1699,18 @@ async function main() {
   console.log(`  Crawl duration: ${crawlDuration.toFixed(1)}s (${(crawlDuration / 60).toFixed(1)} min)`);
   console.log('═══════════════════════════════════════════════════════');
 
-  // POST-CRAWL GEOCODING
+  // v3.8: POST-CRAWL ADDRESS CLEANUP — remove junk AFTER detail pages enriched
+  const { cleaned, kept } = await postCrawlAddressCleanup();
+
+  // POST-CRAWL GEOCODING (only geocodes rows that survived cleanup)
   const geocoded = await postCrawlGeocode();
 
   const totalDuration = (Date.now() - crawlStartTime) / 1000;
 
   console.log('\n═══════════════════════════════════════════════════════');
-  console.log('  CRAWLEE DEEP SCRAPER v3.1 — ALL DONE');
+  console.log('  CRAWLEE DEEP SCRAPER v3.8 — ALL DONE');
   console.log(`  Sales saved: ${totalSaved}`);
+  console.log(`  Address cleanup: ${cleaned} removed, ${kept} kept`);
   console.log(`  Sales geocoded: ${geocoded}`);
   console.log(`  Total duration: ${totalDuration.toFixed(1)}s (${(totalDuration / 60).toFixed(1)} min)`);
   console.log('═══════════════════════════════════════════════════════');
