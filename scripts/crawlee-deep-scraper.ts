@@ -2,7 +2,7 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v3.1 — MERGED PHOTO-FIX + MAX COVERAGE
+// CRAWLEE DEEP SCRAPER v3.7 — /sss RESTORED + 50+ KEYWORDS + STRICT ADDRESS + PHOTO-FIX
 //
 // CHANGES FROM v3.0:
 //   1. PHOTO-FIX: getImgUrl(), getAllImgUrls(), parseCraigslistDataIds()
@@ -14,7 +14,7 @@
 //   5. Total URLs: ~5,324+ (same as v3.0, plus photo extraction fixes)
 //
 // ALL v3.0 FEATURES STILL INCLUDED:
-//   - 413 CL subdomains with /gms + /sss dual URLs
+//   - 413 CL subdomains with /gms + /sss (v3.7: /sss restored — keyword+address gates catch junk)
 //   - CL estate+sale & moving+sale sub-queries (v3.0)
 //   - 274 YardSaleSearch cities × 5 pages
 //   - 50 EstateSales.net states × 5 pages
@@ -28,7 +28,7 @@
 //   - 2 retries
 //   - Per-source counters
 //   - Detail page crawling on all sources
-//   - Craigslist dual URL (/gms + /sss)
+//   - Craigslist /gms + /sss (v3.7: safe with keyword+address gates)
 //   - Post-crawl geocoding via Nominatim
 //   - Broad CSS selectors with fallbacks
 //   - ScraperAPI country_code=us
@@ -105,7 +105,7 @@ interface ScrapedSale {
   categories: string[];
   source: string;
   source_url: string;
-  photo_urls: string[]
+  image_urls: string[];
   expires_at: string;
   scraped_at: string;
   pushed: boolean;
@@ -122,7 +122,91 @@ const sourceStats: Record<string, { success: number; failed: number; listings: n
 
 // ── ADDRESS VALIDATION (hard gate) ──
 function hasValidAddress(text: string): boolean {
-  return /^\d+\s+[A-Za-z]/.test(text.trim());
+  const t = text.trim();
+  // v3.5: Must have street number + street name + street type
+  // Example: "2607 114th Ave SW" or "123 Main Street"
+  if (t.length < 8) return false;
+  // Pattern: starts with digits (street number), then words, then a street type suffix
+  return /^\d+\s+[\w]+(\s+[\w]+)*\s+(St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Hwy|Highway|Trail|Tr|Terrace|Trl|Loop|Run|Pass|Pike|Alley|Aly)\b/i.test(t);
+}
+
+// ── YARD SALE KEYWORD FILTER (v3.4) ──
+// ── v3.6: COMPREHENSIVE KEYWORD FILTER — 50+ terms with misspelling support ──
+// s[ae]i?le?s? catches: sale, sail, sales, sails, sael, sel (common typos)
+// [-\s]* catches: "yard sale", "yardsale", "yard-sale" (all formats)
+const SALE_TERMS = [
+  // ── Core terms (+ typos) ──
+  'yard[-\\s]*s[ae]i?le?s?',                     // yard sale, yardsale, yard sail
+  'yrad[-\\s]*s[ae]i?le?s?',                     // yrad sale (transposed)
+  'g[ae]?r[ae]?ge?[-\\s]*s[ae]i?le?s?',          // garage sale, garag sale, grage sale, garaje sale
+  'est[ae]te?[-\\s]*s[ae]i?le?s?',               // estate sale, estat sale
+  'mov[ei]*n[g\']?[-\\s]*(out[-\\s]*)?s[ae]i?le?s?', // moving sale, moveing sale, moving out sale
+
+  // ── Rummage / Tag ──
+  'r[uo]mm?[aei]ge[-\\s]*s[ae]i?le?s?',          // rummage sale, rumage, rummige
+  'tag[-\\s]*s[ae]i?le?s?',                      // tag sale
+
+  // ── Location-based sales ──
+  'porch[-\\s]*s[ae]i?le?s?',                    // porch sale
+  'car[-\\s]*port[-\\s]*s[ae]i?le?s?',            // carport sale, car port sale
+  'drive[-\\s]*way[-\\s]*s[ae]i?le?s?',           // driveway sale
+  'barn[-\\s]*s[ae]i?le?s?',                     // barn sale
+  'shed[-\\s]*s[ae]i?le?s?',                     // shed sale
+  'storage[-\\s]*s[ae]i?le?s?',                  // storage sale
+
+  // ── Downsizing / Clean-out ──
+  'downsiz\\w*[-\\s]*s[ae]i?le?s?',              // downsizing sale
+  'downsiz\\w*',                                   // downsizing, downsizing before moving
+  'clean[-\\s]*out[-\\s]*s[ae]i?le?s?',           // clean-out sale, cleanout sale
+  'house[-\\s]*clean[-\\s]*out',                   // house cleanout
+
+  // ── Whole house / Everything must go / Liquidation ──
+  'whole[-\\s]*house[-\\s]*s[ae]i?le?s?',         // whole house sale
+  'everything[-\\s]*must[-\\s]*go',                // everything must go
+  'liquidat\\w*[-\\s]*s[ae]i?le?s?',             // liquidation sale
+  'household[-\\s]*(s[ae]i?le?s?|goods)',         // household sale, household goods
+
+  // ── Group / Community sales ──
+  'multi[-\\s]*family[-\\s]*s[ae]i?le?s?',        // multi-family sale, multi family sale
+  'family[-\\s]*s[ae]i?le?s?',                   // family sale
+  'community[-\\s]*s[ae]i?le?s?',                // community sale
+  'n[ei]+gh?b[ou]*r[-\\s]*h?oo?d[-\\s]*s[ae]i?le?s?', // neighborhood sale + misspellings
+  'sub[-\\s]*divi[sz]i?on[-\\s]*s[ae]i?le?s?',     // subdivision sale, subdivison sale
+  'block[-\\s]*s[ae]i?le?s?',                    // block sale
+  'street[-\\s]*s[ae]i?le?s?',                   // street sale
+
+  // ── Organization sales ──
+  'hoa[-\\s]*s[ae]i?le?s?',                      // HOA sale
+  'church[-\\s]*s[ae]i?le?s?',                   // church sale
+  'fundrais\\w*[-\\s]*s[ae]i?le?s?',             // fundraiser sale
+  'school[-\\s]*r[uo]mm?age',                     // school rummage
+
+  // ── Flea market / Swap meet ──
+  'fl[ei]+a?[-\\s]*mar[ck][ei]t',                   // flea market, flee market, flea markit
+  'swap[-\\s]*meets?',                            // swap meet, swapmeet
+
+  // ── Relocation / Pre-move ──
+  'relocat\\w*[-\\s]*s[ae]i?le?s?',              // relocation sale
+  'pre[-\\s]*move[-\\s]*s[ae]i?le?s?',            // pre-move sale
+  'going[-\\s]*away[-\\s]*s[ae]i?le?s?',          // going away sale
+  'leaving[-\\s]*town',                           // leaving town sale
+
+  // ── Specialty sales ──
+  'pop[-\\s]*up[-\\s]*s[ae]i?le?s?',              // pop-up sale
+  'tool[-\\s]*s[ae]i?le?s?',                     // tool sale
+  'antique[-\\s]*s[ae]i?le?s?',                  // antique sale
+
+  // ── Online / Local / Near me ──
+  'online[-\\s]*(yard|garage)[-\\s]*s[ae]i?le?s?', // online yard sale, online garage sale
+  'local[-\\s]*yard[-\\s]*s[ae]i?le?s?',          // local yard sales
+  '(yard|garage)[-\\s]*s[ae]i?le?s?[-\\s]*near[-\\s]*me', // yard sales near me
+
+  // ── Misc ──
+  'declutter\\w*',                                // declutter, decluttering
+].join('|');
+const SALE_KEYWORDS = new RegExp(`\\b(${SALE_TERMS})\\b`, 'i');
+function isYardSale(title: string, description?: string): boolean {
+  return SALE_KEYWORDS.test(title) || SALE_KEYWORDS.test(description || '');
 }
 
 function extractAddressFromText(text: string): string | null {
@@ -198,25 +282,6 @@ function getAllImgUrls(container: any, $: any): string[] {
       urls.push(src);
     }
   });
-
-  // ── v3.0 NEW: GSALR.COM (ScraperAPI proxy required — 403 without it) ──
-  if (SCRAPER_API_KEY) {
-    for (const state of GSALR_STATES) {
-      urls.push({
-        url: `https://gsalr.com/garage-sales-in/${state}/`,
-        userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-      });
-      for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
-        urls.push({
-          url: `https://gsalr.com/garage-sales-in/${state}/page/${page}/`,
-          userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-        });
-      }
-    }
-    console.log(`[Gsalr] Added ${GSALR_STATES.length * GSALR_MAX_PAGES} URLs (ScraperAPI proxy)`);
-  } else {
-    console.log('[Gsalr] SKIPPED — requires SCRAPER_API_KEY (site blocks direct access)');
-  }
 
   return urls;
 }
@@ -553,7 +618,7 @@ const GSALR_MAX_PAGES = 3;
 function buildStartUrls(): { url: string; userData: { source: string; state: string; pageType: string } }[] {
   const urls: { url: string; userData: { source: string; state: string; pageType: string } }[] = [];
 
-  // ── CRAIGSLIST: /search/gms + /search/sss — v2.2: only 3 pages ──
+  // ── CRAIGSLIST: /search/gms + /search/sss — v3.7: /sss restored (keyword+address gates) ──
   for (const [state, cities] of Object.entries(CRAIGSLIST_CITIES)) {
     for (const city of cities) {
       // Primary: garage/moving sales category — page 1
@@ -561,7 +626,7 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
         url: `https://${city}.craigslist.org/search/gms`,
         userData: { source: 'craigslist', state, pageType: 'index' },
       });
-      // Secondary: keyword search — page 1
+      // v3.7: /sss RESTORED — keyword filter + address gate catch junk
       urls.push({
         url: `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale`,
         userData: { source: 'craigslist', state, pageType: 'index' },
@@ -573,7 +638,7 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
           userData: { source: 'craigslist', state, pageType: 'index' },
         });
       }
-      // Pagination for /sss (pages 2-3 only)
+      // v3.7: /sss pagination RESTORED
       for (let page = 1; page < CL_MAX_PAGES; page++) {
         urls.push({
           url: `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale&s=${page * 120}`,
@@ -581,7 +646,7 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
         });
       }
 
-      // v3.0 NEW: estate sale + moving sale sub-queries (page 1 only)
+      // v3.7: /sss estate+sale RESTORED
       urls.push({
         url: `https://${city}.craigslist.org/search/sss?query=estate+sale`,
         userData: { source: 'craigslist', state, pageType: 'index' },
@@ -621,6 +686,7 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
     }
   }
 
+
   // ── YARDSALESEARCH ──
   for (const city of YSS_CITIES) {
     urls.push({
@@ -635,17 +701,45 @@ function buildStartUrls(): { url: string; userData: { source: string; state: str
     }
   }
 
+  // ── v3.0 NEW: GSALR.COM (ScraperAPI proxy required — 403 without it) ──
+  if (SCRAPER_API_KEY) {
+    for (const state of GSALR_STATES) {
+      urls.push({
+        url: `https://gsalr.com/garage-sales-in/${state}/`,
+        userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
+      });
+      for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
+        urls.push({
+          url: `https://gsalr.com/garage-sales-in/${state}/page/${page}/`,
+          userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
+        });
+      }
+    }
+    console.log(`[Gsalr] Added ${GSALR_STATES.length * GSALR_MAX_PAGES} URLs (ScraperAPI proxy)`);
+  } else {
+    console.log('[Gsalr] SKIPPED — requires SCRAPER_API_KEY (site blocks direct access)');
+  }
+
   return urls;
 }
 
 // ── SUPABASE BATCH SAVE — IMMEDIATE ──
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<number> {
   if (sales.length === 0) return 0;
+
+  // v3.4: ADDRESS HARD GATE — no address = no save
+  const withAddress = sales.filter(s => s.address && s.address.trim().length > 0 && hasValidAddress(s.address));
+  const skipped = sales.length - withAddress.length;
+  if (skipped > 0) {
+    console.log(`  🚫 [Address Gate] ${skipped} listings skipped (no valid address)`);
+  }
+  if (withAddress.length === 0) return 0;
+
   let saved = 0;
   const batchSize = 50;
 
-  for (let i = 0; i < sales.length; i += batchSize) {
-    const batch = sales.slice(i, i + batchSize);
+  for (let i = 0; i < withAddress.length; i += batchSize) {
+    const batch = withAddress.slice(i, i + batchSize);
     const { error } = await supabase
       .from('yard_sales')
       .upsert(batch, { onConflict: 'source_url' });
@@ -769,6 +863,11 @@ async function main() {
           // Photos are only available on detail pages via data-ids
           const imgSrc = getImgUrl($(el), $);
 
+          // v3.4: Skip non-yard-sale CL posts (PS5s, TVs, cars, etc.)
+          if (!isYardSale(title, locationText)) {
+            return; // skip junk
+          }
+
           pendingSales.push({
             source_id: sourceId,
             title,
@@ -803,7 +902,7 @@ async function main() {
           await addRequests(detailUrls.map(url => ({
             url,
             userData: { source: 'craigslist', state, pageType: 'detail' },
-          })));
+          })), { forefront: true });
           totalDetailPages += detailUrls.length;
         }
 
@@ -853,7 +952,31 @@ async function main() {
           existingSale.zip = existingSale.zip || extractZip(bodyText + ' ' + mapAddress);
           console.log(`  📝 [CL detail] enriched: ${existingSale.title.slice(0, 50)}`);
         } else {
-          console.log(`  ⚪ [CL detail] no match in memory: ${shortUrl}`);
+          // v3.2-photo-fix: listing already flushed to Supabase — UPDATE directly
+          if (allImages.length > 0 || mapAddress || bodyText) {
+            const updateData: Record<string, any> = {};
+            if (allImages.length > 0) updateData.image_urls = allImages;
+            if (mapAddress && hasValidAddress(mapAddress)) updateData.address = mapAddress;
+            if (bodyText) updateData.description = bodyText.slice(0, 2000);
+            if (geoLat && geoLng) { updateData.lat = parseFloat(geoLat); updateData.lng = parseFloat(geoLng); }
+            if (times.time_start) updateData.time_start = times.time_start;
+            if (times.time_end) updateData.time_end = times.time_end;
+            if (detailDate) updateData.date_start = detailDate;
+            const bodyZip = extractZip(bodyText + ' ' + mapAddress);
+            if (bodyZip) updateData.zip = bodyZip;
+
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', sourceUrl);
+            if (error) {
+              console.log(`  ⚠️ [CL detail] DB update failed: ${error.message}`);
+            } else {
+              console.log(`  📸 [CL detail] updated DB directly: ${allImages.length} photos + enrichment`);
+            }
+          } else {
+            console.log(`  ⚪ [CL detail] no match in memory: ${shortUrl}`);
+          }
         }
 
       // ═══════════════════════════════════════
@@ -956,7 +1079,7 @@ async function main() {
           await addRequests(detailUrls.map(url => ({
             url,
             userData: { source: 'estatesales', state, pageType: 'detail' },
-          })));
+          })), { forefront: true });
           totalDetailPages += detailUrls.length;
         }
 
@@ -996,6 +1119,30 @@ async function main() {
           if (times.time_end) existingSale.time_end = times.time_end;
           if (parsedDate) existingSale.date_start = parsedDate;
           console.log(`  📝 [ES detail] enriched: ${existingSale.title.slice(0, 50)}`);
+        } else {
+          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          if (allImages.length > 0 || fullAddress || description) {
+            const updateData: Record<string, any> = {};
+            if (allImages.length > 0) updateData.image_urls = allImages;
+            if (fullAddress && hasValidAddress(fullAddress)) updateData.address = fullAddress;
+            if (cityEl) updateData.city = cityEl;
+            if (stateEl) updateData.state = stateEl;
+            if (zipEl) updateData.zip = zipEl;
+            if (description) updateData.description = description.slice(0, 2000);
+            if (times.time_start) updateData.time_start = times.time_start;
+            if (times.time_end) updateData.time_end = times.time_end;
+            if (parsedDate) updateData.date_start = parsedDate;
+
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', sourceUrl);
+            if (error) {
+              console.log(`  ⚠️ [ES detail] DB update failed: ${error.message}`);
+            } else {
+              console.log(`  📸 [ES detail] updated DB directly: ${allImages.length} photos + enrichment`);
+            }
+          }
         }
 
       // ═══════════════════════════════════════
@@ -1084,7 +1231,7 @@ async function main() {
           await addRequests(detailUrls.map(url => ({
             url,
             userData: { source: 'garagesalefinder', state, pageType: 'detail' },
-          })));
+          })), { forefront: true });
           totalDetailPages += detailUrls.length;
         }
 
@@ -1119,6 +1266,29 @@ async function main() {
           if (parsedDate) existingSale.date_start = parsedDate;
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [GSF detail] enriched: ${existingSale.title.slice(0, 50)}`);
+        } else {
+          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          if (allImages.length > 0 || detailAddress || description) {
+            const updateData: Record<string, any> = {};
+            if (allImages.length > 0) updateData.image_urls = allImages;
+            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
+            if (description) updateData.description = description.slice(0, 2000);
+            if (times.time_start) updateData.time_start = times.time_start;
+            if (times.time_end) updateData.time_end = times.time_end;
+            if (parsedDate) updateData.date_start = parsedDate;
+            const bodyZip = extractZip(bodyText);
+            if (bodyZip) updateData.zip = bodyZip;
+
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', sourceUrl);
+            if (error) {
+              console.log(`  ⚠️ [GSF detail] DB update failed: ${error.message}`);
+            } else {
+              console.log(`  📸 [GSF detail] updated DB directly: ${allImages.length} photos + enrichment`);
+            }
+          }
         }
 
       // ═══════════════════════════════════════
@@ -1173,7 +1343,7 @@ async function main() {
           await addRequests(detailUrls.map(url => ({
             url,
             userData: { source: 'yardsalesearch', state, pageType: 'detail' },
-          })));
+          })), { forefront: true });
           totalDetailPages += detailUrls.length;
         }
 
@@ -1208,6 +1378,29 @@ async function main() {
           if (parsedDate) existingSale.date_start = parsedDate;
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [YSS detail] enriched: ${existingSale.title.slice(0, 50)}`);
+        } else {
+          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          if (allImages.length > 0 || detailAddress || description) {
+            const updateData: Record<string, any> = {};
+            if (allImages.length > 0) updateData.image_urls = allImages;
+            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
+            if (description) updateData.description = description.slice(0, 2000);
+            if (times.time_start) updateData.time_start = times.time_start;
+            if (times.time_end) updateData.time_end = times.time_end;
+            if (parsedDate) updateData.date_start = parsedDate;
+            const bodyZip = extractZip(bodyText);
+            if (bodyZip) updateData.zip = bodyZip;
+
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', sourceUrl);
+            if (error) {
+              console.log(`  ⚠️ [YSS detail] DB update failed: ${error.message}`);
+            } else {
+              console.log(`  📸 [YSS detail] updated DB directly: ${allImages.length} photos + enrichment`);
+            }
+          }
         }
 
       // ═══════════════════════════════════════
@@ -1305,7 +1498,7 @@ async function main() {
           await addRequests(detailUrls.map(url => ({
             url,
             userData: { source: 'gsalr', state, pageType: 'detail' },
-          })));
+          })), { forefront: true });
           totalDetailPages += detailUrls.length;
         }
 
@@ -1340,6 +1533,29 @@ async function main() {
           if (parsedDate) existingSale.date_start = parsedDate;
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [GSALR detail] enriched: ${existingSale.title.slice(0, 50)}`);
+        } else {
+          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          if (allImages.length > 0 || detailAddress || description) {
+            const updateData: Record<string, any> = {};
+            if (allImages.length > 0) updateData.image_urls = allImages;
+            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
+            if (description) updateData.description = description.slice(0, 2000);
+            if (times.time_start) updateData.time_start = times.time_start;
+            if (times.time_end) updateData.time_end = times.time_end;
+            if (parsedDate) updateData.date_start = parsedDate;
+            const bodyZip = extractZip(bodyText);
+            if (bodyZip) updateData.zip = bodyZip;
+
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', sourceUrl);
+            if (error) {
+              console.log(`  ⚠️ [GSALR detail] DB update failed: ${error.message}`);
+            } else {
+              console.log(`  📸 [GSALR detail] updated DB directly: ${allImages.length} photos + enrichment`);
+            }
+          }
         }
       }
 
