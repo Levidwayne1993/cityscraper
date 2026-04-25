@@ -99,7 +99,7 @@ interface ScrapedSale {
   zip: string;
   lat: number | null;
   lng: number | null;
-  date_start: string;
+  date_start: string | null;
   date_end: string | null;
   time_start: string | null;
   time_end: string | null;
@@ -108,18 +108,18 @@ interface ScrapedSale {
   source: string;
   source_url: string;
   image_urls: string[];
-  expires_at: string;
+  expires_at: string | null;
   scraped_at: string;
   pushed: boolean;
 }
 
 // ── PER-SOURCE COUNTERS ──
-const sourceStats: Record<string, { success: number; failed: number; listings: number }> = {
-  craigslist: { success: 0, failed: 0, listings: 0 },
-  estatesales: { success: 0, failed: 0, listings: 0 },
-  garagesalefinder: { success: 0, failed: 0, listings: 0 },
-  yardsalesearch: { success: 0, failed: 0, listings: 0 },
-  gsalr: { success: 0, failed: 0, listings: 0 },
+const sourceStats: Record<string, { success: number; failed: number; listings: number; pages: number; details: number }> = {
+  craigslist: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
+  estatesales: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
+  garagesalefinder: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
+  yardsalesearch: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
+  gsalr: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
 };
 
 // ── ADDRESS VALIDATION (hard gate) ──
@@ -497,7 +497,6 @@ function extractCityFromYSSSlug(slug: string): string {
     'Rapid-City': 'Rapid City',
     'Green-Bay': 'Green Bay',
     'Eau-Claire': 'Eau Claire',
-    'Bowling-Green': 'Bowling Green',
     'Great-Falls': 'Great Falls',
   };
   const cityPart = parts.join('-');
@@ -1438,7 +1437,7 @@ async function main(): Promise<void> {
         const mapAddress = $('div.mapaddress').text().trim();
         const lat = $('div.viewposting').attr('data-latitude') || null;
         const lng = $('div.viewposting').attr('data-longitude') || null;
-        const images = getAllImgUrls($);
+        const images = getAllImgUrls($("body"), $);
 
         // v4.1: Extract city from map address or CL URL
         const detailCity = extractCityFromAddress(mapAddress) || extractCityFromCLUrl(request.url) || '';
@@ -1463,8 +1462,8 @@ async function main(): Promise<void> {
 
           // Extract times from description
           const times = extractTimes(description);
-          existingSale.time_start = times.start || existingSale.time_start;
-          existingSale.time_end = times.end || existingSale.time_end;
+          existingSale.time_start = times.time_start || existingSale.time_start;
+          existingSale.time_end = times.time_end || existingSale.time_end;
 
           // Extract date from description if missing
           if (!existingSale.date_start) {
@@ -1483,8 +1482,8 @@ async function main(): Promise<void> {
           if (images.length > 0) updateData.image_urls = images;
 
           const times = extractTimes(description);
-          if (times.start) updateData.time_start = times.start;
-          if (times.end) updateData.time_end = times.end;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1660,7 +1659,7 @@ async function main(): Promise<void> {
         const zipEl = $('[itemprop="postalCode"]').text().trim();
         const lat = $('[itemprop="latitude"]').attr('content') || null;
         const lng = $('[itemprop="longitude"]').attr('content') || null;
-        const images = getAllImgUrls($);
+        const images = getAllImgUrls($("body"), $);
 
         const dateText = $('.sale-dates, .dates, [itemprop="startDate"]').text().trim();
         const times = extractTimes(dateText + ' ' + description);
@@ -1678,8 +1677,8 @@ async function main(): Promise<void> {
           if (lat) existingSale.lat = parseFloat(lat);
           if (lng) existingSale.lng = parseFloat(lng);
           if (images.length > 0) existingSale.image_urls = images;
-          if (times.start) existingSale.time_start = times.start;
-          if (times.end) existingSale.time_end = times.end;
+          if (times.time_start) existingSale.time_start = times.time_start;
+          if (times.time_end) existingSale.time_end = times.time_end;
         } else {
           // ── PATH B: Direct DB update ──
           const updateData: Record<string, unknown> = {};
@@ -1691,8 +1690,8 @@ async function main(): Promise<void> {
           if (lat) updateData.lat = parseFloat(lat);
           if (lng) updateData.lng = parseFloat(lng);
           if (images.length > 0) updateData.image_urls = images;
-          if (times.start) updateData.time_start = times.start;
-          if (times.end) updateData.time_end = times.end;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1794,7 +1793,7 @@ async function main(): Promise<void> {
           $('.sale-description, .description, .sale-details').html() || $('article').html() || ''
         );
         const addressText = $('.address, .sale-address, .location').text().trim();
-        const images = getAllImgUrls($);
+        const images = getAllImgUrls($("body"), $);
         const dateText = $('.date, .sale-date, time').text().trim();
         const times = extractTimes(description + ' ' + dateText);
 
@@ -1814,8 +1813,8 @@ async function main(): Promise<void> {
           }
           existingSale.zip = extractZip(addressText) || existingSale.zip;
           if (images.length > 0) existingSale.image_urls = images;
-          if (times.start) existingSale.time_start = times.start;
-          if (times.end) existingSale.time_end = times.end;
+          if (times.time_start) existingSale.time_start = times.time_start;
+          if (times.time_end) existingSale.time_end = times.time_end;
           if (!existingSale.date_start) {
             existingSale.date_start = extractDateFromText(dateText || description);
           }
@@ -1829,8 +1828,8 @@ async function main(): Promise<void> {
           const zip = extractZip(addressText);
           if (zip) updateData.zip = zip;
           if (images.length > 0) updateData.image_urls = images;
-          if (times.start) updateData.time_start = times.start;
-          if (times.end) updateData.time_end = times.end;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1960,7 +1959,7 @@ async function main(): Promise<void> {
           $('.sale-description, .description, .sale-details').html() || $('article').html() || ''
         );
         const addressText = $('.address, .sale-address, .location').text().trim();
-        const images = getAllImgUrls($);
+        const images = getAllImgUrls($("body"), $);
         const dateText = $('.date, .sale-date, time').text().trim();
         const times = extractTimes(description + ' ' + dateText);
 
@@ -1981,8 +1980,8 @@ async function main(): Promise<void> {
           }
           existingSale.zip = extractZip(addressText) || existingSale.zip;
           if (images.length > 0) existingSale.image_urls = images;
-          if (times.start) existingSale.time_start = times.start;
-          if (times.end) existingSale.time_end = times.end;
+          if (times.time_start) existingSale.time_start = times.time_start;
+          if (times.time_end) existingSale.time_end = times.time_end;
           if (!existingSale.date_start) {
             existingSale.date_start = extractDateFromText(dateText || description);
           }
@@ -1996,8 +1995,8 @@ async function main(): Promise<void> {
           const zip = extractZip(addressText);
           if (zip) updateData.zip = zip;
           if (images.length > 0) updateData.image_urls = images;
-          if (times.start) updateData.time_start = times.start;
-          if (times.end) updateData.time_end = times.end;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -2105,7 +2104,7 @@ async function main(): Promise<void> {
           $('article').html() || ''
         );
         const addressText = $('.address, .sale-address, .location').text().trim();
-        const images = getAllImgUrls($);
+        const images = getAllImgUrls($("body"), $);
         const dateText = $('.date, .sale-date, time').text().trim();
         const times = extractTimes(description + ' ' + dateText);
 
@@ -2125,8 +2124,8 @@ async function main(): Promise<void> {
           }
           existingSale.zip = extractZip(addressText) || existingSale.zip;
           if (images.length > 0) existingSale.image_urls = images;
-          if (times.start) existingSale.time_start = times.start;
-          if (times.end) existingSale.time_end = times.end;
+          if (times.time_start) existingSale.time_start = times.time_start;
+          if (times.time_end) existingSale.time_end = times.time_end;
           if (!existingSale.date_start) {
             existingSale.date_start = extractDateFromText(dateText || description);
           }
@@ -2140,8 +2139,8 @@ async function main(): Promise<void> {
           const zip = extractZip(addressText);
           if (zip) updateData.zip = zip;
           if (images.length > 0) updateData.image_urls = images;
-          if (times.start) updateData.time_start = times.start;
-          if (times.end) updateData.time_end = times.end;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -2165,13 +2164,11 @@ async function main(): Promise<void> {
 
     }, // end requestHandler
 
-    // ══════════════════════════════════════════════════════
-    // BATCH SAVE: Save periodically during crawl
-    // ══════════════════════════════════════════════════════
-    async requestHandlerTimeout({ request }) {
-      log.warning(`Request timed out: ${request.url}`);
+    async failedRequestHandler({ request }, error) {
+      const { source } = request.userData as { source: string };
+      log.warning(`Request failed: ${request.url} (source: ${source}) — ${error?.message || 'unknown'}`);
     },
-  });
+  }); // end CheerioCrawler constructor
 
   // ── Periodic batch save during crawl ──
   const batchSaveInterval = setInterval(async () => {
@@ -2182,12 +2179,6 @@ async function main(): Promise<void> {
       log.info(`Batch saved ${batch.length} sales (total processed: ${totalProcessed})`);
     }
   }, 2000);
-
-  // ── Failed request handler ──
-  crawler.on('requestFailed', ({ request, error }) => {
-    const { source } = request.userData as { source: string };
-    log.warning(`Request failed: ${request.url} (source: ${source}) — ${error?.message || 'unknown'}`);
-  });
 
   // ══════════════════════════════════════════════════════
   // RUN THE CRAWLER
