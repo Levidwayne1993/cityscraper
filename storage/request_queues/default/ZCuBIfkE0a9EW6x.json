@@ -1,0 +1,9 @@
+{
+	"id": "ZCuBIfkE0a9EW6x",
+	"json": "{\"id\":\"ZCuBIfkE0a9EW6x\",\"url\":\"https://plattsburgh.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://plattsburgh.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327114,
+	"retryCount": 0,
+	"uniqueKey": "https://plattsburgh.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://plattsburgh.craigslist.org/search/sss?query=estate+sale"
+}

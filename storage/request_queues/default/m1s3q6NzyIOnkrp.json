@@ -1,0 +1,9 @@
+{
+	"id": "m1s3q6NzyIOnkrp",
+	"json": "{\"id\":\"m1s3q6NzyIOnkrp\",\"url\":\"https://syracuse.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://syracuse.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327140,
+	"retryCount": 0,
+	"uniqueKey": "https://syracuse.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://syracuse.craigslist.org/search/sss?query=moving+sale"
+}

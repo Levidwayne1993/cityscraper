@@ -1,0 +1,9 @@
+{
+	"id": "qMzc2xtHUW3mIML",
+	"json": "{\"id\":\"qMzc2xtHUW3mIML\",\"url\":\"https://cookeville.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://cookeville.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327906,
+	"retryCount": 0,
+	"uniqueKey": "https://cookeville.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://cookeville.craigslist.org/search/sss?query=estate+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TNKsAvZGH2Z8aTn",
+	"json": "{\"id\":\"TNKsAvZGH2Z8aTn\",\"url\":\"https://boulder.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://boulder.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323367,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://boulder.craigslist.org/search/sss?query=moving+sale"
+}

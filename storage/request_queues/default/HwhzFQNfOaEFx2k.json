@@ -1,6 +1,6 @@
 {
 	"id": "HwhzFQNfOaEFx2k",
-	"json": "{\"id\":\"HwhzFQNfOaEFx2k\",\"url\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-21T20:40:34.417Z\"}",
+	"json": "{\"id\":\"HwhzFQNfOaEFx2k\",\"url\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://auburn.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:19:09.310Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

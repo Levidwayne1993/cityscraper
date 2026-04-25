@@ -1,0 +1,9 @@
+{
+	"id": "9r15dR7mwi5x8OT",
+	"json": "{\"id\":\"9r15dR7mwi5x8OT\",\"url\":\"https://chambersburg.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://chambersburg.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327635,
+	"retryCount": 0,
+	"uniqueKey": "https://chambersburg.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://chambersburg.craigslist.org/search/sss?query=moving+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gnEpNveoeD0W1m5",
+	"json": "{\"id\":\"gnEpNveoeD0W1m5\",\"url\":\"https://greensboro.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://greensboro.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327212,
+	"retryCount": 0,
+	"uniqueKey": "https://greensboro.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://greensboro.craigslist.org/search/sss?query=estate+sale"
+}

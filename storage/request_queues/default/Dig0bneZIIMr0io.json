@@ -2,7 +2,7 @@
 	"id": "Dig0bneZIIMr0io",
 	"json": "{\"id\":\"Dig0bneZIIMr0io\",\"url\":\"https://duluth.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://duluth.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
 	"method": "GET",
-	"orderNo": 1776804007272,
+	"orderNo": 1777040325341,
 	"retryCount": 0,
 	"uniqueKey": "https://duluth.craigslist.org/search/gms?s=120",
 	"url": "https://duluth.craigslist.org/search/gms?s=120"

@@ -1,0 +1,9 @@
+{
+	"id": "fj20ZhAHAVu9Aef",
+	"json": "{\"id\":\"fj20ZhAHAVu9Aef\",\"url\":\"https://wenatchee.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://wenatchee.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329667,
+	"retryCount": 0,
+	"uniqueKey": "https://wenatchee.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://wenatchee.craigslist.org/search/sss?query=estate+sale"
+}

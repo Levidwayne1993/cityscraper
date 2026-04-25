@@ -1,0 +1,9 @@
+{
+	"id": "8eB664poxGrPyXJ",
+	"json": "{\"id\":\"8eB664poxGrPyXJ\",\"url\":\"https://swva.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://swva.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329581,
+	"retryCount": 0,
+	"uniqueKey": "https://swva.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://swva.craigslist.org/search/sss?query=moving+sale"
+}

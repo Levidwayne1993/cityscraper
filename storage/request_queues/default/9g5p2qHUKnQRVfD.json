@@ -1,0 +1,9 @@
+{
+	"id": "9g5p2qHUKnQRVfD",
+	"json": "{\"id\":\"9g5p2qHUKnQRVfD\",\"url\":\"https://providence.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://providence.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"RI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327796,
+	"retryCount": 0,
+	"uniqueKey": "https://providence.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://providence.craigslist.org/search/sss?query=estate+sale"
+}

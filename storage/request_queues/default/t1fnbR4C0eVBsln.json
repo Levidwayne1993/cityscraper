@@ -1,0 +1,9 @@
+{
+	"id": "t1fnbR4C0eVBsln",
+	"json": "{\"id\":\"t1fnbR4C0eVBsln\",\"url\":\"https://delaware.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://delaware.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323476,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://delaware.craigslist.org/search/sss?query=moving+sale"
+}

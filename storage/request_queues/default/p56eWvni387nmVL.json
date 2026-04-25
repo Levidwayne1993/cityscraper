@@ -1,0 +1,9 @@
+{
+	"id": "p56eWvni387nmVL",
+	"json": "{\"id\":\"p56eWvni387nmVL\",\"url\":\"https://okaloosa.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://okaloosa.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323594,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://okaloosa.craigslist.org/search/sss?query=moving+sale"
+}

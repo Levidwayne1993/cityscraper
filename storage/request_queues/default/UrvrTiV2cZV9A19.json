@@ -1,8 +1,8 @@
 {
 	"id": "UrvrTiV2cZV9A19",
-	"json": "{\"id\":\"UrvrTiV2cZV9A19\",\"url\":\"https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html\",\"uniqueKey\":\"https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1}}}",
+	"json": "{\"id\":\"UrvrTiV2cZV9A19\",\"url\":\"https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html\",\"loadedUrl\":\"https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html\",\"uniqueKey\":\"https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-04-24T14:18:56.466Z\"}",
 	"method": "GET",
-	"orderNo": 1776804015231,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html",
 	"url": "https://auburn.craigslist.org/gms/d/auburn-university-family-yard-sale/7928188995.html"

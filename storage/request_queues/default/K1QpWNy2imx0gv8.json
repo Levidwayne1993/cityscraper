@@ -1,0 +1,9 @@
+{
+	"id": "K1QpWNy2imx0gv8",
+	"json": "{\"id\":\"K1QpWNy2imx0gv8\",\"url\":\"https://anchorage.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040322940,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://anchorage.craigslist.org/search/sss?query=estate+sale"
+}

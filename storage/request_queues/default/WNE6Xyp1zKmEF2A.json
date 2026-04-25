@@ -1,0 +1,9 @@
+{
+	"id": "WNE6Xyp1zKmEF2A",
+	"json": "{\"id\":\"WNE6Xyp1zKmEF2A\",\"url\":\"https://gsalr.com/garage-sales-in/illinois/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/illinois\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"illinois\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040334369,
+	"retryCount": 0,
+	"uniqueKey": "https://gsalr.com/garage-sales-in/illinois",
+	"url": "https://gsalr.com/garage-sales-in/illinois/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "whF7EHmgAj8s7Nc",
+	"json": "{\"id\":\"whF7EHmgAj8s7Nc\",\"url\":\"https://wyoming.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://wyoming.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329864,
+	"retryCount": 0,
+	"uniqueKey": "https://wyoming.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://wyoming.craigslist.org/search/sss?query=moving+sale"
+}

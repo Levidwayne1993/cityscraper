@@ -1,0 +1,9 @@
+{
+	"id": "ibLKd6XARnFeACC",
+	"json": "{\"id\":\"ibLKd6XARnFeACC\",\"url\":\"https://waco.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://waco.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040328318,
+	"retryCount": 0,
+	"uniqueKey": "https://waco.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://waco.craigslist.org/search/sss?query=estate+sale"
+}

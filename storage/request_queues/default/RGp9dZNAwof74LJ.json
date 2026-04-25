@@ -1,0 +1,9 @@
+{
+	"id": "RGp9dZNAwof74LJ",
+	"json": "{\"id\":\"RGp9dZNAwof74LJ\",\"url\":\"https://rapidcity.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://rapidcity.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327867,
+	"retryCount": 0,
+	"uniqueKey": "https://rapidcity.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://rapidcity.craigslist.org/search/sss?query=moving+sale"
+}

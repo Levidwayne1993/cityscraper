@@ -1,0 +1,9 @@
+{
+	"id": "bwfoyXbjMoEpbTJ",
+	"json": "{\"id\":\"bwfoyXbjMoEpbTJ\",\"url\":\"https://nashville.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://nashville.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327941,
+	"retryCount": 0,
+	"uniqueKey": "https://nashville.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://nashville.craigslist.org/search/sss?query=moving+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mCgrk9IVpb1q3C1",
+	"json": "{\"id\":\"mCgrk9IVpb1q3C1\",\"url\":\"https://pullman.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://pullman.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329633,
+	"retryCount": 0,
+	"uniqueKey": "https://pullman.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://pullman.craigslist.org/search/sss?query=estate+sale"
+}

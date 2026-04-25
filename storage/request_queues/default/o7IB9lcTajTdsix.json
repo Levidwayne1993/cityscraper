@@ -1,0 +1,9 @@
+{
+	"id": "o7IB9lcTajTdsix",
+	"json": "{\"id\":\"o7IB9lcTajTdsix\",\"url\":\"https://providence.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://providence.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"RI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327798,
+	"retryCount": 0,
+	"uniqueKey": "https://providence.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://providence.craigslist.org/search/sss?query=moving+sale"
+}

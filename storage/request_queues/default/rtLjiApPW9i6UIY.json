@@ -1,0 +1,9 @@
+{
+	"id": "rtLjiApPW9i6UIY",
+	"json": "{\"id\":\"rtLjiApPW9i6UIY\",\"url\":\"https://huntsville.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329782,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://huntsville.craigslist.org/search/sss?query=moving+sale"
+}

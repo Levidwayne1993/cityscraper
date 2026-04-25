@@ -1,0 +1,9 @@
+{
+	"id": "aQ08hiFPaTiPfoL",
+	"json": "{\"id\":\"aQ08hiFPaTiPfoL\",\"url\":\"https://baltimore.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://baltimore.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324681,
+	"retryCount": 0,
+	"uniqueKey": "https://baltimore.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://baltimore.craigslist.org/search/sss?query=estate+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "co1fNTLQKX1hlQ1",
+	"json": "{\"id\":\"co1fNTLQKX1hlQ1\",\"url\":\"https://newhaven.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323457,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://newhaven.craigslist.org/search/sss?query=estate+sale"
+}

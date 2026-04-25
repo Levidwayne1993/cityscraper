@@ -1,0 +1,9 @@
+{
+	"id": "ZFwje9I9TrUEnb4",
+	"json": "{\"id\":\"ZFwje9I9TrUEnb4\",\"url\":\"https://tricities.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://tricities.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327948,
+	"retryCount": 0,
+	"uniqueKey": "https://tricities.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://tricities.craigslist.org/search/sss?query=estate+sale"
+}

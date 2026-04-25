@@ -1,0 +1,9 @@
+{
+	"id": "ZIi7XpEM4Vi8YUp",
+	"json": "{\"id\":\"ZIi7XpEM4Vi8YUp\",\"url\":\"https://westernmass.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://westernmass.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324768,
+	"retryCount": 0,
+	"uniqueKey": "https://westernmass.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://westernmass.craigslist.org/search/sss?query=estate+sale"
+}

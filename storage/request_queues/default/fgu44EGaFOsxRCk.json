@@ -1,0 +1,9 @@
+{
+	"id": "fgu44EGaFOsxRCk",
+	"json": "{\"id\":\"fgu44EGaFOsxRCk\",\"url\":\"https://monterey.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://monterey.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323222,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://monterey.craigslist.org/search/sss?query=moving+sale"
+}

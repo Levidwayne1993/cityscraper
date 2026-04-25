@@ -1,0 +1,9 @@
+{
+	"id": "JCt11hg1rcoDQ9l",
+	"json": "{\"id\":\"JCt11hg1rcoDQ9l\",\"url\":\"https://wichita.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://wichita.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324468,
+	"retryCount": 0,
+	"uniqueKey": "https://wichita.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://wichita.craigslist.org/search/sss?query=estate+sale"
+}

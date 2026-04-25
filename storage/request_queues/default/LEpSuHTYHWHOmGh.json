@@ -1,0 +1,9 @@
+{
+	"id": "LEpSuHTYHWHOmGh",
+	"json": "{\"id\":\"LEpSuHTYHWHOmGh\",\"url\":\"https://sd.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://sd.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327876,
+	"retryCount": 0,
+	"uniqueKey": "https://sd.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://sd.craigslist.org/search/sss?query=moving+sale"
+}

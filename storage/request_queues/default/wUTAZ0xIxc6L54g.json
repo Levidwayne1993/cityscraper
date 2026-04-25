@@ -1,0 +1,9 @@
+{
+	"id": "wUTAZ0xIxc6L54g",
+	"json": "{\"id\":\"wUTAZ0xIxc6L54g\",\"url\":\"https://lakecharles.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://lakecharles.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324612,
+	"retryCount": 0,
+	"uniqueKey": "https://lakecharles.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://lakecharles.craigslist.org/search/sss?query=moving+sale"
+}

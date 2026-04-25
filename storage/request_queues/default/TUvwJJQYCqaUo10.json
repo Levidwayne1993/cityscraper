@@ -1,0 +1,9 @@
+{
+	"id": "TUvwJJQYCqaUo10",
+	"json": "{\"id\":\"TUvwJJQYCqaUo10\",\"url\":\"https://blacksburg.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://blacksburg.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329555,
+	"retryCount": 0,
+	"uniqueKey": "https://blacksburg.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://blacksburg.craigslist.org/search/sss?query=moving+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "arKx0kMGOQ7RaPZ",
+	"json": "{\"id\":\"arKx0kMGOQ7RaPZ\",\"url\":\"https://eugene.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://eugene.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327563,
+	"retryCount": 0,
+	"uniqueKey": "https://eugene.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://eugene.craigslist.org/search/sss?query=estate+sale"
+}

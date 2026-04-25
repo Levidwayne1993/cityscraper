@@ -1,0 +1,9 @@
+{
+	"id": "U9hKMkvveB7K676",
+	"json": "{\"id\":\"U9hKMkvveB7K676\",\"url\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323303,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://santamaria.craigslist.org/search/sss?query=moving+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "AK1ZUT7hbipfTx8",
+	"json": "{\"id\":\"AK1ZUT7hbipfTx8\",\"url\":\"https://utica.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://utica.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327156,
+	"retryCount": 0,
+	"uniqueKey": "https://utica.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://utica.craigslist.org/search/sss?query=moving+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5PhWUXiIp9Yfs7K",
+	"json": "{\"id\":\"5PhWUXiIp9Yfs7K\",\"url\":\"https://reno.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://reno.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040325742,
+	"retryCount": 0,
+	"uniqueKey": "https://reno.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://reno.craigslist.org/search/sss?query=estate+sale"
+}

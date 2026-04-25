@@ -1,0 +1,9 @@
+{
+	"id": "j6TUQEgrfUkN9LZ",
+	"json": "{\"id\":\"j6TUQEgrfUkN9LZ\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323311,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://siskiyou.craigslist.org/search/sss?query=moving+sale"
+}

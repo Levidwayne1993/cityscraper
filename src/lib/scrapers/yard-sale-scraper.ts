@@ -69,7 +69,18 @@ const USER_AGENTS = [
   'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Firefox/128.0',
   'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.0 Safari/605.1.15',
 ];
-
+// FIX 4: Fisher-Yates shuffle — randomizes array in-place
+// This ensures the 55s Vercel deadline covers DIFFERENT states
+// each run instead of always scraping AL→FL and timing out.
+// Over 6 runs/day (every 4 hours), all 50 states get coverage.
+function shuffleArray<T>(array: T[]): T[] {
+  const shuffled = [...array]; // Don't mutate the original
+  for (let i = shuffled.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  }
+  return shuffled;
+}
 function getRandomUA(): string {
   return USER_AGENTS[Math.floor(Math.random() * USER_AGENTS.length)];
 }
@@ -512,7 +523,13 @@ export async function scrapeYardSales(): Promise<{
   let statesCompleted = 0;
   const seenIds = new Set<string>();
 
-  for (const state of ALL_STATES) {
+  // FIX 4: Shuffle states so each 55s run covers different regions
+  // Instead of always AL→AZ→AR→CA... and timing out at FL,
+  // each run gets a random slice of all 50 states
+  const shuffledStates = shuffleArray(ALL_STATES);
+  console.log(`[YardSale] State order: ${shuffledStates.slice(0, 10).join(', ')}... (shuffled)`);
+
+  for (const state of shuffledStates) {
     if (isTimedOut(startTime)) {
       console.log(`[YardSale] Deadline hit at ${statesCompleted} states. Saving what we have.`);
       break;

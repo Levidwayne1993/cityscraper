@@ -1,0 +1,9 @@
+{
+	"id": "oeE1ZLhGSkiXZ5K",
+	"json": "{\"id\":\"oeE1ZLhGSkiXZ5K\",\"url\":\"https://albanyga.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://albanyga.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323695,
+	"retryCount": 0,
+	"uniqueKey": "https://albanyga.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://albanyga.craigslist.org/search/sss?query=moving+sale"
+}

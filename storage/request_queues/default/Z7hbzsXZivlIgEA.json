@@ -1,0 +1,9 @@
+{
+	"id": "Z7hbzsXZivlIgEA",
+	"json": "{\"id\":\"Z7hbzsXZivlIgEA\",\"url\":\"https://clarksville.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://clarksville.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327898,
+	"retryCount": 0,
+	"uniqueKey": "https://clarksville.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://clarksville.craigslist.org/search/sss?query=moving+sale"
+}

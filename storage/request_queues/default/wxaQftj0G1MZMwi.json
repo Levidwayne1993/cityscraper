@@ -1,0 +1,9 @@
+{
+	"id": "wxaQftj0G1MZMwi",
+	"json": "{\"id\":\"wxaQftj0G1MZMwi\",\"url\":\"https://poconos.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://poconos.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327742,
+	"retryCount": 0,
+	"uniqueKey": "https://poconos.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://poconos.craigslist.org/search/sss?query=estate+sale"
+}

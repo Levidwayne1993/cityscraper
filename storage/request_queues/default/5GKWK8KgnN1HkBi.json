@@ -1,0 +1,9 @@
+{
+	"id": "5GKWK8KgnN1HkBi",
+	"json": "{\"id\":\"5GKWK8KgnN1HkBi\",\"url\":\"https://iowacity.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://iowacity.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324262,
+	"retryCount": 0,
+	"uniqueKey": "https://iowacity.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://iowacity.craigslist.org/search/sss?query=moving+sale"
+}

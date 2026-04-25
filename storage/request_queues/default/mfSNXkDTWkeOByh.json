@@ -1,0 +1,9 @@
+{
+	"id": "mfSNXkDTWkeOByh",
+	"json": "{\"id\":\"mfSNXkDTWkeOByh\",\"url\":\"https://eastoregon.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://eastoregon.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327544,
+	"retryCount": 0,
+	"uniqueKey": "https://eastoregon.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://eastoregon.craigslist.org/search/sss?query=estate+sale"
+}

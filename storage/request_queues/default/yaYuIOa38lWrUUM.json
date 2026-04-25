@@ -1,0 +1,9 @@
+{
+	"id": "yaYuIOa38lWrUUM",
+	"json": "{\"id\":\"yaYuIOa38lWrUUM\",\"url\":\"https://milwaukee.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://milwaukee.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329826,
+	"retryCount": 0,
+	"uniqueKey": "https://milwaukee.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://milwaukee.craigslist.org/search/sss?query=estate+sale"
+}

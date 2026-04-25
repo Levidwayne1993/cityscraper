@@ -1,0 +1,9 @@
+{
+	"id": "F6qqCnoLwVOoOHR",
+	"json": "{\"id\":\"F6qqCnoLwVOoOHR\",\"url\":\"https://boston.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://boston.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324737,
+	"retryCount": 0,
+	"uniqueKey": "https://boston.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://boston.craigslist.org/search/sss?query=moving+sale"
+}

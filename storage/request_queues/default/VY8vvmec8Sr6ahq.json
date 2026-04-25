@@ -1,0 +1,9 @@
+{
+	"id": "VY8vvmec8Sr6ahq",
+	"json": "{\"id\":\"VY8vvmec8Sr6ahq\",\"url\":\"https://flint.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://flint.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324833,
+	"retryCount": 0,
+	"uniqueKey": "https://flint.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://flint.craigslist.org/search/sss?query=estate+sale"
+}

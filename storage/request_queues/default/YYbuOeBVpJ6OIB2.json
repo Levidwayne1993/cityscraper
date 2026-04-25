@@ -1,0 +1,9 @@
+{
+	"id": "YYbuOeBVpJ6OIB2",
+	"json": "{\"id\":\"YYbuOeBVpJ6OIB2\",\"url\":\"https://columbia.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://columbia.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327813,
+	"retryCount": 0,
+	"uniqueKey": "https://columbia.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://columbia.craigslist.org/search/sss?query=estate+sale"
+}

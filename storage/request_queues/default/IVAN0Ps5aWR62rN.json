@@ -1,0 +1,9 @@
+{
+	"id": "IVAN0Ps5aWR62rN",
+	"json": "{\"id\":\"IVAN0Ps5aWR62rN\",\"url\":\"https://sierravista.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://sierravista.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323033,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://sierravista.craigslist.org/search/sss?query=moving+sale"
+}

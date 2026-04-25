@@ -1,0 +1,9 @@
+{
+	"id": "hK9Zg6nHvyyqDYf",
+	"json": "{\"id\":\"hK9Zg6nHvyyqDYf\",\"url\":\"https://atlanta.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://atlanta.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323711,
+	"retryCount": 0,
+	"uniqueKey": "https://atlanta.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://atlanta.craigslist.org/search/sss?query=estate+sale"
+}

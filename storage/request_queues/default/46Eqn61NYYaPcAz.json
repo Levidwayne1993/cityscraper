@@ -1,6 +1,6 @@
 {
 	"id": "46Eqn61NYYaPcAz",
-	"json": "{\"id\":\"46Eqn61NYYaPcAz\",\"url\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-21T20:40:43.277Z\"}",
+	"json": "{\"id\":\"46Eqn61NYYaPcAz\",\"url\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:19:24.407Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

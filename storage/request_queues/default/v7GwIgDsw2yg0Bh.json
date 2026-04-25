@@ -1,0 +1,9 @@
+{
+	"id": "v7GwIgDsw2yg0Bh",
+	"json": "{\"id\":\"v7GwIgDsw2yg0Bh\",\"url\":\"https://showlow.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://showlow.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323022,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://showlow.craigslist.org/search/sss?query=estate+sale"
+}

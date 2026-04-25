@@ -1,0 +1,9 @@
+{
+	"id": "RCP09R6nCNYGBqW",
+	"json": "{\"id\":\"RCP09R6nCNYGBqW\",\"url\":\"https://southcoast.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://southcoast.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324759,
+	"retryCount": 0,
+	"uniqueKey": "https://southcoast.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://southcoast.craigslist.org/search/sss?query=moving+sale"
+}

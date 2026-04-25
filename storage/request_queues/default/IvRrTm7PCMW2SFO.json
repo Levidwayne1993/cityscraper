@@ -1,0 +1,9 @@
+{
+	"id": "IvRrTm7PCMW2SFO",
+	"json": "{\"id\":\"IvRrTm7PCMW2SFO\",\"url\":\"https://burlington.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://burlington.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VT\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040328377,
+	"retryCount": 0,
+	"uniqueKey": "https://burlington.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://burlington.craigslist.org/search/sss?query=moving+sale"
+}

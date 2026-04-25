@@ -1,0 +1,9 @@
+{
+	"id": "yMaiAEKEGiOnEsq",
+	"json": "{\"id\":\"yMaiAEKEGiOnEsq\",\"url\":\"https://susanville.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://susanville.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323329,
+	"retryCount": 0,
+	"uniqueKey": "https://susanville.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://susanville.craigslist.org/search/sss?query=moving+sale"
+}

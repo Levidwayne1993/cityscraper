@@ -1,0 +1,9 @@
+{
+	"id": "ILajNRnxknL8BS3",
+	"json": "{\"id\":\"ILajNRnxknL8BS3\",\"url\":\"https://owensboro.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://owensboro.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324540,
+	"retryCount": 0,
+	"uniqueKey": "https://owensboro.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://owensboro.craigslist.org/search/sss?query=moving+sale"
+}

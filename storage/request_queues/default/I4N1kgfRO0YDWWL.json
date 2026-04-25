@@ -1,0 +1,9 @@
+{
+	"id": "I4N1kgfRO0YDWWL",
+	"json": "{\"id\":\"I4N1kgfRO0YDWWL\",\"url\":\"https://wenatchee.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://wenatchee.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329668,
+	"retryCount": 0,
+	"uniqueKey": "https://wenatchee.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://wenatchee.craigslist.org/search/sss?query=moving+sale"
+}

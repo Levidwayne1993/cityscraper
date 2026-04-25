@@ -1,0 +1,9 @@
+{
+	"id": "0G31amwN54SbxSV",
+	"json": "{\"id\":\"0G31amwN54SbxSV\",\"url\":\"https://roanoke.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://roanoke.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329572,
+	"retryCount": 0,
+	"uniqueKey": "https://roanoke.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://roanoke.craigslist.org/search/sss?query=moving+sale"
+}

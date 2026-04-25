@@ -1,0 +1,9 @@
+{
+	"id": "1NzbkmvtIzXRoki",
+	"json": "{\"id\":\"1NzbkmvtIzXRoki\",\"url\":\"https://chattanooga.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://chattanooga.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327890,
+	"retryCount": 0,
+	"uniqueKey": "https://chattanooga.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://chattanooga.craigslist.org/search/sss?query=moving+sale"
+}

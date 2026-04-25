@@ -1,0 +1,9 @@
+{
+	"id": "8S07uwWMyfW6w5c",
+	"json": "{\"id\":\"8S07uwWMyfW6w5c\",\"url\":\"https://madison.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://madison.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329818,
+	"retryCount": 0,
+	"uniqueKey": "https://madison.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://madison.craigslist.org/search/sss?query=estate+sale"
+}

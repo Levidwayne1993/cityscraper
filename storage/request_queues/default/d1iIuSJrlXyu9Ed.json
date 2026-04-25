@@ -1,0 +1,9 @@
+{
+	"id": "d1iIuSJrlXyu9Ed",
+	"json": "{\"id\":\"d1iIuSJrlXyu9Ed\",\"url\":\"https://winstonsalem.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://winstonsalem.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327264,
+	"retryCount": 0,
+	"uniqueKey": "https://winstonsalem.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://winstonsalem.craigslist.org/search/sss?query=estate+sale"
+}

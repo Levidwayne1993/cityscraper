@@ -1,0 +1,9 @@
+{
+	"id": "EFcXMk0REM0s1AC",
+	"json": "{\"id\":\"EFcXMk0REM0s1AC\",\"url\":\"https://neworleans.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://neworleans.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324632,
+	"retryCount": 0,
+	"uniqueKey": "https://neworleans.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://neworleans.craigslist.org/search/sss?query=estate+sale"
+}

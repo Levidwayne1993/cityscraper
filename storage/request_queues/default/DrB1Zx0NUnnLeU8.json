@@ -1,9 +1,0 @@
-{
-	"id": "DrB1Zx0NUnnLeU8",
-	"json": "{\"id\":\"DrB1Zx0NUnnLeU8\",\"url\":\"https://auburn.craigslist.org/wad/d/opelika-wanted-old-motorcycles-call/7926892706.html\",\"uniqueKey\":\"https://auburn.craigslist.org/wad/d/opelika-wanted-old-motorcycles-call/7926892706.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1}}}",
-	"method": "GET",
-	"orderNo": 1776804015234,
-	"retryCount": 0,
-	"uniqueKey": "https://auburn.craigslist.org/wad/d/opelika-wanted-old-motorcycles-call/7926892706.html",
-	"url": "https://auburn.craigslist.org/wad/d/opelika-wanted-old-motorcycles-call/7926892706.html"
-}

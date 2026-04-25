@@ -1,0 +1,9 @@
+{
+	"id": "k8oowfynJjR3qCR",
+	"json": "{\"id\":\"k8oowfynJjR3qCR\",\"url\":\"https://boston.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://boston.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040324736,
+	"retryCount": 0,
+	"uniqueKey": "https://boston.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://boston.craigslist.org/search/sss?query=estate+sale"
+}

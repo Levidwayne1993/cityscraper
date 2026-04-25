@@ -1,0 +1,9 @@
+{
+	"id": "IfMT2QhW6cOrfYB",
+	"json": "{\"id\":\"IfMT2QhW6cOrfYB\",\"url\":\"https://boulder.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://boulder.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323366,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://boulder.craigslist.org/search/sss?query=estate+sale"
+}

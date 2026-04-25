@@ -1,0 +1,9 @@
+{
+	"id": "MYGRBIZKy7Rhn7G",
+	"json": "{\"id\":\"MYGRBIZKy7Rhn7G\",\"url\":\"https://fairbanks.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://fairbanks.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040322949,
+	"retryCount": 0,
+	"uniqueKey": "https://fairbanks.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://fairbanks.craigslist.org/search/sss?query=estate+sale"
+}

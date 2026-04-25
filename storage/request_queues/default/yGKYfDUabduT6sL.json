@@ -1,6 +1,6 @@
 {
 	"id": "yGKYfDUabduT6sL",
-	"json": "{\"id\":\"yGKYfDUabduT6sL\",\"url\":\"https://birmingham.craigslist.org/search/gms\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/gms\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-21T20:40:35.403Z\"}",
+	"json": "{\"id\":\"yGKYfDUabduT6sL\",\"url\":\"https://birmingham.craigslist.org/search/gms\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/gms\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:19:29.749Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,0 +1,9 @@
+{
+	"id": "PEUvCvEOUJ8zdU2",
+	"json": "{\"id\":\"PEUvCvEOUJ8zdU2\",\"url\":\"https://jacksontn.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://jacksontn.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327914,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksontn.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://jacksontn.craigslist.org/search/sss?query=estate+sale"
+}

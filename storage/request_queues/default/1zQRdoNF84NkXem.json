@@ -1,0 +1,9 @@
+{
+	"id": "1zQRdoNF84NkXem",
+	"json": "{\"id\":\"1zQRdoNF84NkXem\",\"url\":\"https://littlerock.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://littlerock.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323094,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://littlerock.craigslist.org/search/sss?query=estate+sale"
+}

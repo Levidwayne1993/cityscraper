@@ -1,0 +1,9 @@
+{
+	"id": "QMN4Wz4J4HFgVMu",
+	"json": "{\"id\":\"QMN4Wz4J4HFgVMu\",\"url\":\"https://gsalr.com/garage-sales-in/washington/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/washington\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"washington\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040334480,
+	"retryCount": 0,
+	"uniqueKey": "https://gsalr.com/garage-sales-in/washington",
+	"url": "https://gsalr.com/garage-sales-in/washington/"
+}

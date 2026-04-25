@@ -1,0 +1,9 @@
+{
+	"id": "4rqxkO0ZMNHYSef",
+	"json": "{\"id\":\"4rqxkO0ZMNHYSef\",\"url\":\"https://fortsmith.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://fortsmith.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323074,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://fortsmith.craigslist.org/search/sss?query=estate+sale"
+}

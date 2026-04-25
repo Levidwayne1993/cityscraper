@@ -1,0 +1,9 @@
+{
+	"id": "66fOk8nCfYowmdS",
+	"json": "{\"id\":\"66fOk8nCfYowmdS\",\"url\":\"https://susanville.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://susanville.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323328,
+	"retryCount": 0,
+	"uniqueKey": "https://susanville.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://susanville.craigslist.org/search/sss?query=estate+sale"
+}

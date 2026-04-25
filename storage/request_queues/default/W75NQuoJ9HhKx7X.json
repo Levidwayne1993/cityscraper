@@ -1,0 +1,9 @@
+{
+	"id": "W75NQuoJ9HhKx7X",
+	"json": "{\"id\":\"W75NQuoJ9HhKx7X\",\"url\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323095,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://littlerock.craigslist.org/search/sss?query=moving+sale"
+}

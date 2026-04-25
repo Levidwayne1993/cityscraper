@@ -1,0 +1,9 @@
+{
+	"id": "RfcHSQHKfeeaXQd",
+	"json": "{\"id\":\"RfcHSQHKfeeaXQd\",\"url\":\"https://milwaukee.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://milwaukee.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040329827,
+	"retryCount": 0,
+	"uniqueKey": "https://milwaukee.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://milwaukee.craigslist.org/search/sss?query=moving+sale"
+}

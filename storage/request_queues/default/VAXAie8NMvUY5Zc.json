@@ -1,0 +1,9 @@
+{
+	"id": "VAXAie8NMvUY5Zc",
+	"json": "{\"id\":\"VAXAie8NMvUY5Zc\",\"url\":\"https://stockton.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://stockton.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040323319,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://stockton.craigslist.org/search/sss?query=estate+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mlwIeJpPyVckMNs",
+	"json": "{\"id\":\"mlwIeJpPyVckMNs\",\"url\":\"https://boone.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://boone.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\",\"pageType\":\"index\"}}",
+	"method": "GET",
+	"orderNo": 1777040327179,
+	"retryCount": 0,
+	"uniqueKey": "https://boone.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://boone.craigslist.org/search/sss?query=estate+sale"
+}
