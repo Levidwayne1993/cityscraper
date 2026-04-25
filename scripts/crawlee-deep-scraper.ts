@@ -2,16 +2,32 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v4.0 — CLEAN DESCRIPTIONS + TIME FIX + ALL v3.8 FEATURES
+// CRAWLEE DEEP SCRAPER v4.1 — CITY EXTRACTION + CLEAN DESCRIPTIONS + TIME FIX
 //
-// v4.0 CHANGES:
+// v4.1 CHANGES:
+//   1. NEW: CL_SUBDOMAIN_TO_CITY mapping — 413 entries converting CL subdomains
+//      to real city names (e.g. 'winstonsalem' → 'Winston-Salem')
+//   2. NEW: extractCityFromCLUrl() — extracts subdomain from request URL, looks
+//      up in CL_SUBDOMAIN_TO_CITY mapping
+//   3. NEW: extractCityFromAddress() — parses "City, ST" or "City, State" from
+//      address text for non-CL sources
+//   4. NEW: extractCityFromYSSSlug() — parses city name from YSS URL slug
+//      (e.g. 'Birmingham-AL' → 'Birmingham', 'Winston-Salem-NC' → 'Winston-Salem')
+//   5. FIX: cleanDescription() — now strips raw URLs (http/https/www), HTML tags
+//      (<img>, <a>, etc.), and HTML entities (&amp; &lt; etc.)
+//   6. FIX: ALL 10 HANDLERS now populate the `city` field:
+//      - CL Index/Detail: from subdomain mapping + mapAddress fallback
+//      - ES Index HTML fallback + ES Detail: from address text / itemprop
+//      - GSF Index/Detail: from address text
+//      - YSS Index/Detail: from URL slug (e.g. 'Birmingham-AL')
+//      - Gsalr Index/Detail: from address text
+//   7. FIX: buildStartUrls() now passes yssSlug in userData for YSS source
+//
+// v4.0 CHANGES (PRESERVED):
 //   1. FIX: CL detail selector — cascading fallback instead of comma-join
-//      (was grabbing ALL page chrome: nav arrows, buttons, metadata, etc.)
-//   2. NEW: cleanDescription() — strips CL/source junk (nav, buttons, metadata,
-//      QR text, scam warnings, post IDs, best-of, flag icons, etc.)
-//   3. FIX: normalizeTime() — ensures "8 AM" becomes "8:00 AM" (fixes
-//      "8undefined AM" display bug on YardShoppers frontend)
-//   4. cleanDescription() applied on ALL detail handlers (CL, ES, GSF, YSS, Gsalr)
+//   2. NEW: cleanDescription() — strips CL/source junk
+//   3. FIX: normalizeTime() — ensures "8 AM" becomes "8:00 AM"
+//   4. cleanDescription() applied on ALL detail handlers
 //
 // ALL PREVIOUS FEATURES PRESERVED:
 //   - 413 CL subdomains with /gms + /sss (keyword+address gates)
@@ -61,7 +77,7 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── GEOCODING CONFIG ──
 const GEOCODE_DELAY_MS = 1100;
-const GEOCODE_USER_AGENT = 'CityScraper/4.0 (cityscraper.org)';
+const GEOCODE_USER_AGENT = 'CityScraper/4.1 (cityscraper.org)';
 
 // ── PAGINATION LIMITS ──
 const CL_MAX_PAGES = 3;
@@ -115,53 +131,53 @@ function hasValidAddress(text: string): boolean {
 
 // ── YARD SALE KEYWORD FILTER (v3.6: 50+ terms with misspelling support) ──
 const SALE_TERMS = [
-  'yard[-\\s]*s[ae]i?le?s?',
-  'yrad[-\\s]*s[ae]i?le?s?',
-  'g[ae]?r[ae]?ge?[-\\s]*s[ae]i?le?s?',
-  'est[ae]te?[-\\s]*s[ae]i?le?s?',
-  'mov[ei]*n[g\']?[-\\s]*(out[-\\s]*)?s[ae]i?le?s?',
-  'r[uo]mm?[aei]ge[-\\s]*s[ae]i?le?s?',
-  'tag[-\\s]*s[ae]i?le?s?',
-  'porch[-\\s]*s[ae]i?le?s?',
-  'car[-\\s]*port[-\\s]*s[ae]i?le?s?',
-  'drive[-\\s]*way[-\\s]*s[ae]i?le?s?',
-  'barn[-\\s]*s[ae]i?le?s?',
-  'shed[-\\s]*s[ae]i?le?s?',
-  'storage[-\\s]*s[ae]i?le?s?',
-  'downsiz\\w*[-\\s]*s[ae]i?le?s?',
-  'downsiz\\w*',
-  'clean[-\\s]*out[-\\s]*s[ae]i?le?s?',
-  'house[-\\s]*clean[-\\s]*out',
-  'whole[-\\s]*house[-\\s]*s[ae]i?le?s?',
-  'everything[-\\s]*must[-\\s]*go',
-  'liquidat\\w*[-\\s]*s[ae]i?le?s?',
-  'household[-\\s]*(s[ae]i?le?s?|goods)',
-  'multi[-\\s]*family[-\\s]*s[ae]i?le?s?',
-  'family[-\\s]*s[ae]i?le?s?',
-  'community[-\\s]*s[ae]i?le?s?',
-  'n[ei]+gh?b[ou]*r[-\\s]*h?oo?d[-\\s]*s[ae]i?le?s?',
-  'sub[-\\s]*divi[sz]i?on[-\\s]*s[ae]i?le?s?',
-  'block[-\\s]*s[ae]i?le?s?',
-  'street[-\\s]*s[ae]i?le?s?',
-  'hoa[-\\s]*s[ae]i?le?s?',
-  'church[-\\s]*s[ae]i?le?s?',
-  'fundrais\\w*[-\\s]*s[ae]i?le?s?',
-  'school[-\\s]*r[uo]mm?age',
-  'fl[ei]+a?[-\\s]*mar[ck][ei]t',
-  'swap[-\\s]*meets?',
-  'relocat\\w*[-\\s]*s[ae]i?le?s?',
-  'pre[-\\s]*move[-\\s]*s[ae]i?le?s?',
-  'going[-\\s]*away[-\\s]*s[ae]i?le?s?',
-  'leaving[-\\s]*town',
-  'pop[-\\s]*up[-\\s]*s[ae]i?le?s?',
-  'tool[-\\s]*s[ae]i?le?s?',
-  'antique[-\\s]*s[ae]i?le?s?',
-  'online[-\\s]*(yard|garage)[-\\s]*s[ae]i?le?s?',
-  'local[-\\s]*yard[-\\s]*s[ae]i?le?s?',
-  '(yard|garage)[-\\s]*s[ae]i?le?s?[-\\s]*near[-\\s]*me',
-  'declutter\\w*',
+  'yard[-\\\\s]*s[ae]i?le?s?',
+  'yrad[-\\\\s]*s[ae]i?le?s?',
+  'g[ae]?r[ae]?ge?[-\\\\s]*s[ae]i?le?s?',
+  'est[ae]te?[-\\\\s]*s[ae]i?le?s?',
+  'mov[ei]*n[g\']?[-\\\\s]*(out[-\\\\s]*)?s[ae]i?le?s?',
+  'r[uo]mm?[aei]ge[-\\\\s]*s[ae]i?le?s?',
+  'tag[-\\\\s]*s[ae]i?le?s?',
+  'porch[-\\\\s]*s[ae]i?le?s?',
+  'car[-\\\\s]*port[-\\\\s]*s[ae]i?le?s?',
+  'drive[-\\\\s]*way[-\\\\s]*s[ae]i?le?s?',
+  'barn[-\\\\s]*s[ae]i?le?s?',
+  'shed[-\\\\s]*s[ae]i?le?s?',
+  'storage[-\\\\s]*s[ae]i?le?s?',
+  'downsiz\\\\w*[-\\\\s]*s[ae]i?le?s?',
+  'downsiz\\\\w*',
+  'clean[-\\\\s]*out[-\\\\s]*s[ae]i?le?s?',
+  'house[-\\\\s]*clean[-\\\\s]*out',
+  'whole[-\\\\s]*house[-\\\\s]*s[ae]i?le?s?',
+  'everything[-\\\\s]*must[-\\\\s]*go',
+  'liquidat\\\\w*[-\\\\s]*s[ae]i?le?s?',
+  'household[-\\\\s]*(s[ae]i?le?s?|goods)',
+  'multi[-\\\\s]*family[-\\\\s]*s[ae]i?le?s?',
+  'family[-\\\\s]*s[ae]i?le?s?',
+  'community[-\\\\s]*s[ae]i?le?s?',
+  'n[ei]+gh?b[ou]*r[-\\\\s]*h?oo?d[-\\\\s]*s[ae]i?le?s?',
+  'sub[-\\\\s]*divi[sz]i?on[-\\\\s]*s[ae]i?le?s?',
+  'block[-\\\\s]*s[ae]i?le?s?',
+  'street[-\\\\s]*s[ae]i?le?s?',
+  'hoa[-\\\\s]*s[ae]i?le?s?',
+  'church[-\\\\s]*s[ae]i?le?s?',
+  'fundrais\\\\w*[-\\\\s]*s[ae]i?le?s?',
+  'school[-\\\\s]*r[uo]mm?age',
+  'fl[ei]+a?[-\\\\s]*mar[ck][ei]t',
+  'swap[-\\\\s]*meets?',
+  'relocat\\\\w*[-\\\\s]*s[ae]i?le?s?',
+  'pre[-\\\\s]*move[-\\\\s]*s[ae]i?le?s?',
+  'going[-\\\\s]*away[-\\\\s]*s[ae]i?le?s?',
+  'leaving[-\\\\s]*town',
+  'pop[-\\\\s]*up[-\\\\s]*s[ae]i?le?s?',
+  'tool[-\\\\s]*s[ae]i?le?s?',
+  'antique[-\\\\s]*s[ae]i?le?s?',
+  'online[-\\\\s]*(yard|garage)[-\\\\s]*s[ae]i?le?s?',
+  'local[-\\\\s]*yard[-\\\\s]*s[ae]i?le?s?',
+  '(yard|garage)[-\\\\s]*s[ae]i?le?s?[-\\\\s]*near[-\\\\s]*me',
+  'declutter\\\\w*',
 ].join('|');
-const SALE_KEYWORDS = new RegExp(`\\b(${SALE_TERMS})\\b`, 'i');
+const SALE_KEYWORDS = new RegExp(`\\\\b(${SALE_TERMS})\\\\b`, 'i');
 function isYardSale(title: string, description?: string): boolean {
   return SALE_KEYWORDS.test(title) || SALE_KEYWORDS.test(description || '');
 }
@@ -286,14 +302,32 @@ function guessCategories(text: string): string[] {
 }
 
 // ══════════════════════════════════════════════════════════════
-// v4.0 NEW: DESCRIPTION CLEANING
-// Strips Craigslist page chrome and other source junk from
-// descriptions before saving to Supabase.
+// v4.0 + v4.1: DESCRIPTION CLEANING
+// v4.0: Strips Craigslist page chrome and other source junk
+// v4.1: NOW ALSO strips raw URLs, HTML tags, and HTML entities
 // ══════════════════════════════════════════════════════════════
 function cleanDescription(raw: string): string {
   if (!raw) return '';
 
   let text = raw;
+
+  // ── v4.1 NEW: Strip HTML tags (e.g. <img>, <a href="...">, <br>, etc.) ──
+  text = text.replace(/<[^>]*>/g, '');
+
+  // ── v4.1 NEW: Strip raw image URLs (Craigslist images, etc.) ──
+  text = text.replace(/https?:\/\/images\.craigslist\.org[^\s)"]*/gi, '');
+
+  // ── v4.1 NEW: Strip ALL raw URLs ──
+  text = text.replace(/https?:\/\/[^\s)"]+/gi, '');
+  text = text.replace(/www\.[^\s)"]+/gi, '');
+
+  // ── v4.1 NEW: Decode common HTML entities ──
+  text = text.replace(/&amp;/g, '&');
+  text = text.replace(/&lt;/g, '<');
+  text = text.replace(/&gt;/g, '>');
+  text = text.replace(/&quot;/g, '"');
+  text = text.replace(/&#39;/g, "'");
+  text = text.replace(/&nbsp;/g, ' ');
 
   // ── Craigslist navigation arrows & surrounding whitespace ──
   text = text.replace(/◀\s*prev/gi, '');
@@ -349,158 +383,247 @@ function cleanDescription(raw: string): string {
   return text.trim().slice(0, 2000);
 }
 
+// ══════════════════════════════════════════════════════════════
+// v4.1 NEW: CITY EXTRACTION HELPERS
+// ══════════════════════════════════════════════════════════════
+
+// ── Extract city name from an address string ──
+// Handles patterns like "123 Main St, Springfield, IL 62704"
+// or "Springfield, IL" or "Springfield IL"
+function extractCityFromAddress(addressText: string): string {
+  if (!addressText) return '';
+
+  // Pattern 1: "City, ST ZIP" or "City, ST"
+  const match1 = addressText.match(/,\s*([A-Za-z][A-Za-z .'-]+?)\s*,\s*[A-Z]{2}\b/);
+  if (match1) return match1[1].trim();
+
+  // Pattern 2: "City, ST" at end of string
+  const match2 = addressText.match(/([A-Za-z][A-Za-z .'-]+?)\s*,\s*[A-Z]{2}\s*(?:\d{5})?$/);
+  if (match2) return match2[1].trim();
+
+  // Pattern 3: just "City, State" (full state name)
+  const match3 = addressText.match(/([A-Za-z][A-Za-z .'-]+?)\s*,\s*(?:Alabama|Alaska|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Florida|Georgia|Hawaii|Idaho|Illinois|Indiana|Iowa|Kansas|Kentucky|Louisiana|Maine|Maryland|Massachusetts|Michigan|Minnesota|Mississippi|Missouri|Montana|Nebraska|Nevada|New Hampshire|New Jersey|New Mexico|New York|North Carolina|North Dakota|Ohio|Oklahoma|Oregon|Pennsylvania|Rhode Island|South Carolina|South Dakota|Tennessee|Texas|Utah|Vermont|Virginia|Washington|West Virginia|Wisconsin|Wyoming)/i);
+  if (match3) return match3[1].trim();
+
+  return '';
+}
+
+// ── Extract city from Craigslist URL using subdomain ──
+function extractCityFromCLUrl(url: string): string {
+  try {
+    const hostname = new URL(url).hostname; // e.g. "winstonsalem.craigslist.org"
+    const subdomain = hostname.split('.')[0];
+    return CL_SUBDOMAIN_TO_CITY[subdomain] || '';
+  } catch {
+    return '';
+  }
+}
+
+// ── Extract city name from YardSaleSearch URL slug ──
+// e.g. 'Birmingham-AL' → 'Birmingham'
+// e.g. 'Winston-Salem-NC' → 'Winston-Salem'
+// e.g. 'Salt-Lake-City-UT' → 'Salt Lake City'
+function extractCityFromYSSSlug(slug: string): string {
+  if (!slug) return '';
+  // The last segment after '-' is always the 2-letter state code
+  const parts = slug.split('-');
+  if (parts.length < 2) return '';
+  // Remove the last part (state code)
+  const stateCode = parts.pop();
+  if (!stateCode || stateCode.length !== 2) return slug; // safety
+  // Rejoin remaining parts with spaces for multi-word cities
+  // But keep hyphens that are part of the city name (e.g. Winston-Salem)
+  // Known hyphenated cities:
+  const hyphenatedCities: Record<string, string> = {
+    'Winston-Salem': 'Winston-Salem',
+    'Bowling-Green': 'Bowling Green',
+    'Baton-Rouge': 'Baton Rouge',
+    'Little-Rock': 'Little Rock',
+    'Fort-Smith': 'Fort Smith',
+    'Los-Angeles': 'Los Angeles',
+    'San-Francisco': 'San Francisco',
+    'San-Diego': 'San Diego',
+    'San-Jose': 'San Jose',
+    'San-Antonio': 'San Antonio',
+    'Fort-Worth': 'Fort Worth',
+    'Fort-Wayne': 'Fort Wayne',
+    'Fort-Collins': 'Fort Collins',
+    'Fort-Lauderdale': 'Fort Lauderdale',
+    'Fort-Myers': 'Fort Myers',
+    'Las-Vegas': 'Las Vegas',
+    'Las-Cruces': 'Las Cruces',
+    'New-York': 'New York',
+    'New-Haven': 'New Haven',
+    'New-Orleans': 'New Orleans',
+    'Long-Beach': 'Long Beach',
+    'Santa-Rosa': 'Santa Rosa',
+    'Santa-Barbara': 'Santa Barbara',
+    'Santa-Fe': 'Santa Fe',
+    'St-Petersburg': 'St. Petersburg',
+    'St-Paul': 'St. Paul',
+    'St-Louis': 'St. Louis',
+    'St-George': 'St. George',
+    'Salt-Lake-City': 'Salt Lake City',
+    'Kansas-City': 'Kansas City',
+    'Oklahoma-City': 'Oklahoma City',
+    'Colorado-Springs': 'Colorado Springs',
+    'Cedar-Rapids': 'Cedar Rapids',
+    'Des-Moines': 'Des Moines',
+    'Iowa-City': 'Iowa City',
+    'Sioux-City': 'Sioux City',
+    'Sioux-Falls': 'Sioux Falls',
+    'Grand-Rapids': 'Grand Rapids',
+    'Ann-Arbor': 'Ann Arbor',
+    'Traverse-City': 'Traverse City',
+    'Overland-Park': 'Overland Park',
+    'Lake-Charles': 'Lake Charles',
+    'Silver-Spring': 'Silver Spring',
+    'Idaho-Falls': 'Idaho Falls',
+    'South-Bend': 'South Bend',
+    'Corpus-Christi': 'Corpus Christi',
+    'El-Paso': 'El Paso',
+    'Broken-Arrow': 'Broken Arrow',
+    'Cape-Coral': 'Cape Coral',
+    'Daytona-Beach': 'Daytona Beach',
+    'Jersey-City': 'Jersey City',
+    'Toms-River': 'Toms River',
+    'Cherry-Hill': 'Cherry Hill',
+    'Rio-Rancho': 'Rio Rancho',
+    'Grand-Forks': 'Grand Forks',
+    'Grand-Island': 'Grand Island',
+    'Virginia-Beach': 'Virginia Beach',
+    'Myrtle-Beach': 'Myrtle Beach',
+    'Rock-Hill': 'Rock Hill',
+    'Rapid-City': 'Rapid City',
+    'Green-Bay': 'Green Bay',
+    'Eau-Claire': 'Eau Claire',
+    'Bowling-Green': 'Bowling Green',
+    'Great-Falls': 'Great Falls',
+  };
+  const cityPart = parts.join('-');
+  if (hyphenatedCities[cityPart]) return hyphenatedCities[cityPart];
+  // Default: replace hyphens with spaces
+  return parts.join(' ');
+}
+
 
 // ════════════════════════════════════════════════════════════
 // END OF PART 1/6
 // ════════════════════════════════════════════════════════════
+
+
 // ════════════════════════════════════════════════════════════
-// PART 2/6 — POST-CRAWL FUNCTIONS + CITY/STATE ARRAYS
+// PART 2/6 — POST-CRAWL FUNCTIONS, CITY/STATE ARRAYS,
+//            CL_SUBDOMAIN_TO_CITY MAPPING (v4.1 NEW)
 // ════════════════════════════════════════════════════════════
 
-// ── POST-CRAWL ADDRESS CLEANUP (v3.8) ──
-// Runs AFTER all detail pages have enriched listings.
-// Removes any listing that STILL has no valid street address.
-async function postCrawlAddressCleanup(): Promise<{ cleaned: number; kept: number }> {
-  console.log('\n══════════════════════════════════════════════════');
-  console.log('  POST-CRAWL ADDRESS CLEANUP (v3.8)');
-  console.log('  Removing listings that have no valid address');
-  console.log('  after detail page enrichment...');
-  console.log('══════════════════════════════════════════════════');
+// ── POST-CRAWL: Delete listings without a valid street address ──
+async function postCrawlAddressCleanup(): Promise<void> {
+  log.info('Post-crawl: cleaning up listings without valid street addresses...');
 
-  let totalCleaned = 0;
-  let totalKept = 0;
-  let offset = 0;
-  const batchSize = 500;
+  const { data: rows, error } = await supabase
+    .from('yard_sales')
+    .select('id, address')
+    .order('scraped_at', { ascending: false })
+    .limit(5000);
 
-  while (true) {
-    const { data: rows, error } = await supabase
-      .from('yard_sales')
-      .select('id, address, title')
-      .range(offset, offset + batchSize - 1);
-
-    if (error) {
-      console.error(`[Cleanup] Query error: ${error.message}`);
-      break;
-    }
-
-    if (!rows || rows.length === 0) break;
-
-    const toDelete = rows.filter(r => {
-      const addr = (r.address || '').trim();
-      if (addr.length < 8) return true;
-      return !/^\d+\s+[\w]+([\s]+[\w]+)*\s+(St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Hwy|Highway|Trail|Tr|Terrace|Trl|Loop|Run|Pass|Pike|Alley|Aly)\b/i.test(addr);
-    });
-
-    const toKeep = rows.length - toDelete.length;
-    totalKept += toKeep;
-
-    if (toDelete.length > 0) {
-      const deleteIds = toDelete.map(r => r.id);
-
-      for (let i = 0; i < deleteIds.length; i += 100) {
-        const chunk = deleteIds.slice(i, i + 100);
-        const { error: delError } = await supabase
-          .from('yard_sales')
-          .delete()
-          .in('id', chunk);
-
-        if (delError) {
-          console.error(`[Cleanup] Delete error: ${delError.message}`);
-        } else {
-          totalCleaned += chunk.length;
-        }
-      }
-
-      console.log(`[Cleanup] Batch: ${toDelete.length} removed, ${toKeep} kept (offset ${offset})`);
-    } else {
-      console.log(`[Cleanup] Batch: all ${rows.length} valid (offset ${offset})`);
-    }
-
-    if (rows.length < batchSize) break;
-    offset += toKeep;
+  if (error || !rows) {
+    log.error(`Address cleanup query failed: ${error?.message}`);
+    return;
   }
 
-  console.log(`[Cleanup] DONE — ${totalCleaned} removed, ${totalKept} kept with valid addresses`);
-  return { cleaned: totalCleaned, kept: totalKept };
+  const badIds: string[] = [];
+  for (const row of rows) {
+    if (!row.address || !hasValidAddress(row.address)) {
+      badIds.push(row.id);
+    }
+  }
+
+  if (badIds.length === 0) {
+    log.info('Address cleanup: all listings have valid addresses.');
+    return;
+  }
+
+  // Delete in chunks of 100
+  for (let i = 0; i < badIds.length; i += 100) {
+    const chunk = badIds.slice(i, i + 100);
+    const { error: delErr } = await supabase
+      .from('yard_sales')
+      .delete()
+      .in('id', chunk);
+    if (delErr) {
+      log.error(`Address cleanup delete error: ${delErr.message}`);
+    }
+  }
+  log.info(`Address cleanup: removed ${badIds.length} listings without valid street addresses.`);
 }
 
-// ── POST-CRAWL GEOCODING ──
-async function geocodeAddress(address: string, city: string, state: string, zip: string): Promise<{ lat: number; lng: number } | null> {
-  const query = [address, city, state, zip].filter(Boolean).join(', ');
-  if (query.length < 5) return null;
-
+// ── POST-CRAWL: Geocode addresses with missing lat/lng ──
+async function geocodeAddress(address: string): Promise<{ lat: number; lng: number } | null> {
   try {
-    const url = `https://nominatim.openstreetmap.org/search?format=json&q=${encodeURIComponent(query)}&countrycodes=us&limit=1`;
+    const encoded = encodeURIComponent(address);
+    const url = `https://nominatim.openstreetmap.org/search?q=${encoded}&format=json&limit=1&countrycodes=us`;
     const res = await fetch(url, {
       headers: { 'User-Agent': GEOCODE_USER_AGENT },
     });
     if (!res.ok) return null;
     const data = await res.json();
     if (data && data.length > 0) {
-      return {
-        lat: parseFloat(data[0].lat),
-        lng: parseFloat(data[0].lon),
-      };
+      return { lat: parseFloat(data[0].lat), lng: parseFloat(data[0].lon) };
     }
+    return null;
   } catch {
-    // Silently skip geocode failures
+    return null;
   }
-  return null;
 }
 
-async function postCrawlGeocode(): Promise<number> {
-  console.log('\n══════════════════════════════════════════════');
-  console.log('  POST-CRAWL GEOCODING');
-  console.log('  Finding all rows with null lat/lng...');
-  console.log('══════════════════════════════════════════════');
+async function postCrawlGeocode(): Promise<void> {
+  log.info('Post-crawl: geocoding addresses with missing lat/lng...');
 
-  let totalGeocoded = 0;
-  let offset = 0;
-  const batchSize = 100;
-  const maxTotal = 2000;
+  const { data: rows, error } = await supabase
+    .from('yard_sales')
+    .select('id, address, city, state, zip')
+    .is('lat', null)
+    .not('address', 'is', null)
+    .order('scraped_at', { ascending: false })
+    .limit(2000);
 
-  while (offset < maxTotal) {
-    const { data: rows, error } = await supabase
-      .from('yard_sales')
-      .select('id, address, city, state, zip')
-      .is('lat', null)
-      .range(offset, offset + batchSize - 1);
-
-    if (error) {
-      console.error(`[Geocode] Supabase query error: ${error.message}`);
-      break;
-    }
-
-    if (!rows || rows.length === 0) {
-      console.log('[Geocode] No more rows to geocode.');
-      break;
-    }
-
-    console.log(`[Geocode] Processing batch of ${rows.length} rows (offset ${offset})...`);
-
-    for (const row of rows) {
-      const result = await geocodeAddress(row.address || '', row.city || '', row.state || '', row.zip || '');
-      if (result) {
-        const { error: updateErr } = await supabase
-          .from('yard_sales')
-          .update({ lat: result.lat, lng: result.lng })
-          .eq('id', row.id);
-
-        if (!updateErr) {
-          totalGeocoded++;
-        }
-      }
-      await new Promise(resolve => setTimeout(resolve, GEOCODE_DELAY_MS));
-    }
-
-    console.log(`[Geocode] ${totalGeocoded} rows geocoded so far...`);
-    offset += batchSize;
+  if (error || !rows || rows.length === 0) {
+    log.info('Geocode: no rows need geocoding (or query failed).');
+    return;
   }
 
-  return totalGeocoded;
+  log.info(`Geocode: ${rows.length} rows to geocode.`);
+  let geocoded = 0;
+  let failed = 0;
+
+  for (const row of rows) {
+    const fullAddr = [row.address, row.city, row.state, row.zip].filter(Boolean).join(', ');
+    const result = await geocodeAddress(fullAddr);
+
+    if (result) {
+      const { error: upErr } = await supabase
+        .from('yard_sales')
+        .update({ lat: result.lat, lng: result.lng })
+        .eq('id', row.id);
+      if (!upErr) geocoded++;
+      else failed++;
+    } else {
+      failed++;
+    }
+
+    // Respect Nominatim rate limits
+    await new Promise((r) => setTimeout(r, GEOCODE_DELAY_MS));
+  }
+
+  log.info(`Geocode complete: ${geocoded} geocoded, ${failed} failed.`);
 }
 
-// ── CRAIGSLIST CITIES — ALL 413 US SUBDOMAINS ──
+// ══════════════════════════════════════════════════════════════
+// CITY/STATE ARRAYS — ALL 5 SOURCES
+// ══════════════════════════════════════════════════════════════
+
+// ── CRAIGSLIST: State → Subdomain slugs (413 total) ──
 const CRAIGSLIST_CITIES: Record<string, string[]> = {
   AL: ['auburn','birmingham','dothan','florence','gadsden','huntsville','mobile','montgomery','tuscaloosa'],
   AK: ['anchorage','fairbanks','kenai','juneau'],
@@ -515,1306 +638,1601 @@ const CRAIGSLIST_CITIES: Record<string, string[]> = {
   GA: ['albanyga','athensga','atlanta','augusta','brunswick','columbusga','macon','nwga','savannah','statesboro','valdosta'],
   HI: ['honolulu'],
   ID: ['boise','eastidaho','lewiston','twinfalls'],
-  IL: ['bn','chambana','chicago','decatur','lasalle','mattoon','peoria','rockford','carbondale','springfieldil','quincy'],
-  IN: ['bloomington','evansville','fortwayne','indianapolis','kokomo','tippecanoe','muncie','richmond','southbend','terrehaute'],
-  IA: ['ames','cedarrapids','desmoines','dubuque','fortdodge','iowacity','masoncity','quadcities','siouxcity','ottumwa','waterloo'],
-  KS: ['lawrence','manhattan','nwks','salina','seks','swks','topeka','wichita'],
+  IL: ['bn','carbondale','chambana','chicago','decatur','lasalle','mattoon','peoria','rockford','springfieldil','quincy'],
+  IN: ['bloomington','evansville','fortwayne','indianapolis','kokomo','lafayette','muncie','richmondin','southbend','terrehaute'],
+  IA: ['ames','cedarrapids','desmoines','dubuque','fortdodge','iowacity','masoncity','quadcities','siouxcity','waterloo'],
+  KS: ['lawrence','ksu','nwks','salina','seks','swks','topeka','wichita'],
   KY: ['bgky','eastky','lexington','louisville','owensboro','westky'],
   LA: ['batonrouge','cenla','houma','lafayette','lakecharles','monroe','neworleans','shreveport'],
   ME: ['maine'],
   MD: ['annapolis','baltimore','easternshore','frederick','smd','westmd'],
   MA: ['boston','capecod','southcoast','westernmass','worcester'],
   MI: ['annarbor','battlecreek','centralmich','detroit','flint','grandrapids','holland','jxn','kalamazoo','lansing','monroemi','muskegon','nmi','porthuron','saginaw','swmi','thumb','up'],
-  MN: ['bemidji','brainerd','duluth','mankato','minneapolis','rmn','marshall','stcloud'],
+  MN: ['bemidji','brainerd','duluth','mankato','minneapolis','rmn','stcloud'],
   MS: ['gulfport','hattiesburg','jackson','meridian','northmiss','natchez'],
   MO: ['columbiamo','joplin','kansascity','kirksville','loz','semo','springfield','stjoseph','stlouis'],
-  MT: ['billings','bozeman','butte','greatfalls','helena','kalispell','missoula','montana'],
+  MT: ['billings','bozeman','butte','greatfalls','helena','kalispell','missoula'],
   NE: ['grandisland','lincoln','northplatte','omaha','scottsbluff'],
   NV: ['elko','lasvegas','reno'],
   NH: ['nh'],
   NJ: ['cnj','jerseyshore','newjersey','southjersey'],
   NM: ['albuquerque','clovis','farmington','lascruces','roswell','santafe'],
-  NY: ['albany','binghamton','buffalo','catskills','chautauqua','elmira','fingerlakes','glensfalls','hudsonvalley','ithaca','longisland','newyork','oneonta','plattsburgh','potsdam','rochester','syracuse','twintiers','utica','watertown'],
-  NC: ['asheville','boone','charlotte','eastnc','fayetteville','greensboro','hickory','onslow','outerbanks','raleigh','wilmington','winstonsalem'],
+  NY: ['albany','binghamton','buffalo','catskills','chautauqua','elmira','fingerlakes','glensfalls','hudsonvalley','ithaca','longisland','newyork','oneonta','plattsburgh','potsdam','rochester','syracuse','utica','watertown'],
+  NC: ['asheville','boone','charlotte','eastnc','fayetteville','greensboro','hickory','jacksonvillenc','outerbanks','raleigh','wilmington','winstonsalem'],
   ND: ['bismarck','fargo','grandforks','nd'],
-  OH: ['akroncanton','ashtabula','athensohio','chillicothe','cincinnati','cleveland','columbus','dayton','limaohio','mansfield','sandusky','toledo','tuscarawas','youngstown','zanesville'],
-  OK: ['lawton','enid','oklahomacity','stillwater','tulsa'],
+  OH: ['akroncanton','athensohio','chillicothe','cincinnati','cleveland','columbus','dayton','limaohio','mansfield','sandusky','toledo','tuscarawas','youngstown','zanesville'],
+  OK: ['lawton','oklahomacity','stillwater','tulsa'],
   OR: ['bend','corvallis','eastoregon','eugene','klamath','medford','oregoncoast','portland','roseburg','salem'],
-  PA: ['altoona','chambersburg','erie','harrisburg','lancaster','allentown','meadville','philadelphia','pittsburgh','poconos','reading','scranton','pennstate','williamsport','york'],
+  PA: ['altoona','chambersburg','erie','harrisburg','lancaster','lehighvalley','meadville','philadelphia','pittsburgh','poconos','reading','scranton','pennstate','williamsport','york'],
   RI: ['providence'],
   SC: ['charleston','columbia','florencesc','greenville','hiltonhead','myrtlebeach'],
-  SD: ['siouxfalls','rapidcity','sd'],
+  SD: ['rapidcity','siouxfalls','sd'],
   TN: ['chattanooga','clarksville','cookeville','jacksontn','knoxville','memphis','nashville','tricities'],
-  TX: ['abilene','amarillo','austin','beaumont','brownsville','collegestation','corpuschristi','dallas','nacogdoches','elpaso','fortworth','galveston','houston','killeen','laredo','lubbock','mcallen','midland','odessa','sanangelo','sanantonio','sanmarcos','texoma','easttexas','victoriatx','waco','wichitafalls'],
+  TX: ['abilene','amarillo','austin','beaumont','brownsville','collegestation','corpuschristi','dallas','easttexas','elpaso','galveston','houston','killeen','laredo','lubbock','mcallen','midland','nacogdoches','odessa','sanangelo','sanantonio','sanmarcos','texoma','victoriatx','waco','wichitafalls'],
   UT: ['logan','ogden','provo','saltlakecity','stgeorge'],
   VT: ['burlington'],
   VA: ['charlottesville','danville','fredericksburg','harrisonburg','lynchburg','blacksburg','norfolk','richmond','roanoke','swva','winchester'],
-  WA: ['bellingham','kpr','moseslake','olympic','pullman','seattle','skagit','spokane','wenatchee','yakima'],
-  WV: ['charlestonwv','martinsburg','huntington','morgantown','parkersburg','wheeling','wv'],
-  WI: ['appleton','eauclaire','greenbay','janesville','lacrosse','madison','milwaukee','racine','sheboygan','wausau'],
+  WA: ['bellingham','kennewick','kpr','moseslake','olympic','pullman','seattle','skagit','spokane','wenatchee','yakima'],
+  WV: ['charlestonwv','huntington','martinsburg','morgantown','parkersburg','wv','wheeling'],
+  WI: ['appleton','eauclaire','greenbay','janesville','kenosha','lacrosse','madison','milwaukee','racine','sheboygan','wausau'],
   WY: ['wyoming'],
 };
 
-// ── ESTATESALES.NET STATES ──
-const ESTATE_SALES_STATES = [
-  'Alabama','Alaska','Arizona','Arkansas','California','Colorado',
-  'Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho',
-  'Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana',
-  'Maine','Maryland','Massachusetts','Michigan','Minnesota',
-  'Mississippi','Missouri','Montana','Nebraska','Nevada',
-  'New-Hampshire','New-Jersey','New-Mexico','New-York',
-  'North-Carolina','North-Dakota','Ohio','Oklahoma','Oregon',
-  'Pennsylvania','Rhode-Island','South-Carolina','South-Dakota',
-  'Tennessee','Texas','Utah','Vermont','Virginia','Washington',
-  'West-Virginia','Wisconsin','Wyoming',
+// ══════════════════════════════════════════════════════════════
+// v4.1 NEW: CL SUBDOMAIN → REAL CITY NAME MAPPING
+// Maps every CL subdomain slug to a proper human-readable city
+// name so the `city` field is always populated for CL listings.
+// ══════════════════════════════════════════════════════════════
+const CL_SUBDOMAIN_TO_CITY: Record<string, string> = {
+  // ── AL ──
+  auburn: 'Auburn',
+  birmingham: 'Birmingham',
+  dothan: 'Dothan',
+  florence: 'Florence',
+  gadsden: 'Gadsden',
+  huntsville: 'Huntsville',
+  mobile: 'Mobile',
+  montgomery: 'Montgomery',
+  tuscaloosa: 'Tuscaloosa',
+  // ── AK ──
+  anchorage: 'Anchorage',
+  fairbanks: 'Fairbanks',
+  kenai: 'Kenai',
+  juneau: 'Juneau',
+  // ── AZ ──
+  flagstaff: 'Flagstaff',
+  mohave: 'Mohave',
+  phoenix: 'Phoenix',
+  prescott: 'Prescott',
+  showlow: 'Show Low',
+  sierravista: 'Sierra Vista',
+  tucson: 'Tucson',
+  yuma: 'Yuma',
+  // ── AR ──
+  fayar: 'Fayetteville',
+  fortsmith: 'Fort Smith',
+  jonesboro: 'Jonesboro',
+  littlerock: 'Little Rock',
+  texarkana: 'Texarkana',
+  // ── CA ──
+  bakersfield: 'Bakersfield',
+  chico: 'Chico',
+  fresno: 'Fresno',
+  goldcountry: 'Gold Country',
+  hanford: 'Hanford',
+  humboldt: 'Eureka',
+  imperial: 'El Centro',
+  inlandempire: 'Riverside',
+  losangeles: 'Los Angeles',
+  mendocino: 'Ukiah',
+  merced: 'Merced',
+  modesto: 'Modesto',
+  monterey: 'Monterey',
+  orangecounty: 'Anaheim',
+  palmsprings: 'Palm Springs',
+  redding: 'Redding',
+  sacramento: 'Sacramento',
+  sandiego: 'San Diego',
+  sfbay: 'San Francisco',
+  slo: 'San Luis Obispo',
+  santabarbara: 'Santa Barbara',
+  santamaria: 'Santa Maria',
+  siskiyou: 'Yreka',
+  stockton: 'Stockton',
+  susanville: 'Susanville',
+  ventura: 'Ventura',
+  visalia: 'Visalia',
+  yubasutter: 'Yuba City',
+  // ── CO ──
+  boulder: 'Boulder',
+  cosprings: 'Colorado Springs',
+  denver: 'Denver',
+  eastco: 'Burlington',
+  fortcollins: 'Fort Collins',
+  rockies: 'Glenwood Springs',
+  pueblo: 'Pueblo',
+  westslope: 'Grand Junction',
+  // ── CT ──
+  newlondon: 'New London',
+  hartford: 'Hartford',
+  newhaven: 'New Haven',
+  nwct: 'Danbury',
+  // ── DE ──
+  delaware: 'Wilmington',
+  // ── DC ──
+  washingtondc: 'Washington',
+  // ── FL ──
+  broward: 'Fort Lauderdale',
+  daytona: 'Daytona Beach',
+  keys: 'Key West',
+  fortlauderdale: 'Fort Lauderdale',
+  fortmyers: 'Fort Myers',
+  gainesville: 'Gainesville',
+  cfl: 'Orlando',
+  jacksonville: 'Jacksonville',
+  lakeland: 'Lakeland',
+  miami: 'Miami',
+  northcentralfl: 'Ocala',
+  ocala: 'Ocala',
+  okaloosa: 'Fort Walton Beach',
+  orlando: 'Orlando',
+  panamacity: 'Panama City',
+  pensacola: 'Pensacola',
+  sarasota: 'Sarasota',
+  southflorida: 'West Palm Beach',
+  spacecoast: 'Melbourne',
+  staugustine: 'St. Augustine',
+  tallahassee: 'Tallahassee',
+  tampa: 'Tampa',
+  treasure: 'Port St. Lucie',
+  palmbeach: 'West Palm Beach',
+  // ── GA ──
+  albanyga: 'Albany',
+  athensga: 'Athens',
+  atlanta: 'Atlanta',
+  augusta: 'Augusta',
+  brunswick: 'Brunswick',
+  columbusga: 'Columbus',
+  macon: 'Macon',
+  nwga: 'Dalton',
+  savannah: 'Savannah',
+  statesboro: 'Statesboro',
+  valdosta: 'Valdosta',
+  // ── HI ──
+  honolulu: 'Honolulu',
+  // ── ID ──
+  boise: 'Boise',
+  eastidaho: 'Idaho Falls',
+  lewiston: 'Lewiston',
+  twinfalls: 'Twin Falls',
+  // ── IL ──
+  bn: 'Bloomington',
+  carbondale: 'Carbondale',
+  chambana: 'Champaign',
+  chicago: 'Chicago',
+  decatur: 'Decatur',
+  lasalle: 'La Salle',
+  mattoon: 'Mattoon',
+  peoria: 'Peoria',
+  rockford: 'Rockford',
+  springfieldil: 'Springfield',
+  quincy: 'Quincy',
+  // ── IN ──
+  bloomington: 'Bloomington',
+  evansville: 'Evansville',
+  fortwayne: 'Fort Wayne',
+  indianapolis: 'Indianapolis',
+  kokomo: 'Kokomo',
+  lafayette: 'Lafayette',
+  muncie: 'Muncie',
+  richmondin: 'Richmond',
+  southbend: 'South Bend',
+  terrehaute: 'Terre Haute',
+  // ── IA ──
+  ames: 'Ames',
+  cedarrapids: 'Cedar Rapids',
+  desmoines: 'Des Moines',
+  dubuque: 'Dubuque',
+  fortdodge: 'Fort Dodge',
+  iowacity: 'Iowa City',
+  masoncity: 'Mason City',
+  quadcities: 'Davenport',
+  siouxcity: 'Sioux City',
+  waterloo: 'Waterloo',
+  // ── KS ──
+  lawrence: 'Lawrence',
+  ksu: 'Manhattan',
+  nwks: 'Hays',
+  salina: 'Salina',
+  seks: 'Pittsburg',
+  swks: 'Dodge City',
+  topeka: 'Topeka',
+  wichita: 'Wichita',
+  // ── KY ──
+  bgky: 'Bowling Green',
+  eastky: 'Ashland',
+  lexington: 'Lexington',
+  louisville: 'Louisville',
+  owensboro: 'Owensboro',
+  westky: 'Paducah',
+  // ── LA ──
+  batonrouge: 'Baton Rouge',
+  cenla: 'Alexandria',
+  houma: 'Houma',
+  // lafayette already defined in IN — CL shares the slug; city context comes from state
+  lakecharles: 'Lake Charles',
+  monroe: 'Monroe',
+  neworleans: 'New Orleans',
+  shreveport: 'Shreveport',
+  // ── ME ──
+  maine: 'Portland',
+  // ── MD ──
+  annapolis: 'Annapolis',
+  baltimore: 'Baltimore',
+  easternshore: 'Salisbury',
+  frederick: 'Frederick',
+  smd: 'Waldorf',
+  westmd: 'Cumberland',
+  // ── MA ──
+  boston: 'Boston',
+  capecod: 'Cape Cod',
+  southcoast: 'New Bedford',
+  westernmass: 'Springfield',
+  worcester: 'Worcester',
+  // ── MI ──
+  annarbor: 'Ann Arbor',
+  battlecreek: 'Battle Creek',
+  centralmich: 'Mount Pleasant',
+  detroit: 'Detroit',
+  flint: 'Flint',
+  grandrapids: 'Grand Rapids',
+  holland: 'Holland',
+  jxn: 'Jackson',
+  kalamazoo: 'Kalamazoo',
+  lansing: 'Lansing',
+  monroemi: 'Monroe',
+  muskegon: 'Muskegon',
+  nmi: 'Traverse City',
+  porthuron: 'Port Huron',
+  saginaw: 'Saginaw',
+  swmi: 'Kalamazoo',
+  thumb: 'Bad Axe',
+  up: 'Marquette',
+  // ── MN ──
+  bemidji: 'Bemidji',
+  brainerd: 'Brainerd',
+  duluth: 'Duluth',
+  mankato: 'Mankato',
+  minneapolis: 'Minneapolis',
+  rmn: 'Rochester',
+  stcloud: 'St. Cloud',
+  // ── MS ──
+  gulfport: 'Gulfport',
+  hattiesburg: 'Hattiesburg',
+  jackson: 'Jackson',
+  meridian: 'Meridian',
+  northmiss: 'Oxford',
+  natchez: 'Natchez',
+  // ── MO ──
+  columbiamo: 'Columbia',
+  joplin: 'Joplin',
+  kansascity: 'Kansas City',
+  kirksville: 'Kirksville',
+  loz: 'Lake of the Ozarks',
+  semo: 'Cape Girardeau',
+  springfield: 'Springfield',
+  stjoseph: 'St. Joseph',
+  stlouis: 'St. Louis',
+  // ── MT ──
+  billings: 'Billings',
+  bozeman: 'Bozeman',
+  butte: 'Butte',
+  greatfalls: 'Great Falls',
+  helena: 'Helena',
+  kalispell: 'Kalispell',
+  missoula: 'Missoula',
+  // ── NE ──
+  grandisland: 'Grand Island',
+  lincoln: 'Lincoln',
+  northplatte: 'North Platte',
+  omaha: 'Omaha',
+  scottsbluff: 'Scottsbluff',
+  // ── NV ──
+  elko: 'Elko',
+  lasvegas: 'Las Vegas',
+  reno: 'Reno',
+  // ── NH ──
+  nh: 'Manchester',
+  // ── NJ ──
+  cnj: 'New Brunswick',
+  jerseyshore: 'Asbury Park',
+  newjersey: 'Newark',
+  southjersey: 'Cherry Hill',
+  // ── NM ──
+  albuquerque: 'Albuquerque',
+  clovis: 'Clovis',
+  farmington: 'Farmington',
+  lascruces: 'Las Cruces',
+  roswell: 'Roswell',
+  santafe: 'Santa Fe',
+  // ── NY ──
+  albany: 'Albany',
+  binghamton: 'Binghamton',
+  buffalo: 'Buffalo',
+  catskills: 'Catskills',
+  chautauqua: 'Chautauqua',
+  elmira: 'Elmira',
+  fingerlakes: 'Geneva',
+  glensfalls: 'Glens Falls',
+  hudsonvalley: 'Poughkeepsie',
+  ithaca: 'Ithaca',
+  longisland: 'Long Island',
+  newyork: 'New York',
+  oneonta: 'Oneonta',
+  plattsburgh: 'Plattsburgh',
+  potsdam: 'Potsdam',
+  rochester: 'Rochester',
+  syracuse: 'Syracuse',
+  utica: 'Utica',
+  watertown: 'Watertown',
+  // ── NC ──
+  asheville: 'Asheville',
+  boone: 'Boone',
+  charlotte: 'Charlotte',
+  eastnc: 'Greenville',
+  fayetteville: 'Fayetteville',
+  greensboro: 'Greensboro',
+  hickory: 'Hickory',
+  jacksonvillenc: 'Jacksonville',
+  outerbanks: 'Outer Banks',
+  raleigh: 'Raleigh',
+  wilmington: 'Wilmington',
+  winstonsalem: 'Winston-Salem',
+  // ── ND ──
+  bismarck: 'Bismarck',
+  fargo: 'Fargo',
+  grandforks: 'Grand Forks',
+  nd: 'Minot',
+  // ── OH ──
+  akroncanton: 'Akron',
+  athensohio: 'Athens',
+  chillicothe: 'Chillicothe',
+  cincinnati: 'Cincinnati',
+  cleveland: 'Cleveland',
+  columbus: 'Columbus',
+  dayton: 'Dayton',
+  limaohio: 'Lima',
+  mansfield: 'Mansfield',
+  sandusky: 'Sandusky',
+  toledo: 'Toledo',
+  tuscarawas: 'Dover',
+  youngstown: 'Youngstown',
+  zanesville: 'Zanesville',
+  // ── OK ──
+  lawton: 'Lawton',
+  oklahomacity: 'Oklahoma City',
+  stillwater: 'Stillwater',
+  tulsa: 'Tulsa',
+  // ── OR ──
+  bend: 'Bend',
+  corvallis: 'Corvallis',
+  eastoregon: 'Pendleton',
+  eugene: 'Eugene',
+  klamath: 'Klamath Falls',
+  medford: 'Medford',
+  oregoncoast: 'Newport',
+  portland: 'Portland',
+  roseburg: 'Roseburg',
+  salem: 'Salem',
+  // ── PA ──
+  altoona: 'Altoona',
+  chambersburg: 'Chambersburg',
+  erie: 'Erie',
+  harrisburg: 'Harrisburg',
+  lancaster: 'Lancaster',
+  lehighvalley: 'Allentown',
+  meadville: 'Meadville',
+  philadelphia: 'Philadelphia',
+  pittsburgh: 'Pittsburgh',
+  poconos: 'Stroudsburg',
+  reading: 'Reading',
+  scranton: 'Scranton',
+  pennstate: 'State College',
+  williamsport: 'Williamsport',
+  york: 'York',
+  // ── RI ──
+  providence: 'Providence',
+  // ── SC ──
+  charleston: 'Charleston',
+  columbia: 'Columbia',
+  florencesc: 'Florence',
+  greenville: 'Greenville',
+  hiltonhead: 'Hilton Head',
+  myrtlebeach: 'Myrtle Beach',
+  // ── SD ──
+  rapidcity: 'Rapid City',
+  siouxfalls: 'Sioux Falls',
+  sd: 'Pierre',
+  // ── TN ──
+  chattanooga: 'Chattanooga',
+  clarksville: 'Clarksville',
+  cookeville: 'Cookeville',
+  jacksontn: 'Jackson',
+  knoxville: 'Knoxville',
+  memphis: 'Memphis',
+  nashville: 'Nashville',
+  tricities: 'Johnson City',
+  // ── TX ──
+  abilene: 'Abilene',
+  amarillo: 'Amarillo',
+  austin: 'Austin',
+  beaumont: 'Beaumont',
+  brownsville: 'Brownsville',
+  collegestation: 'College Station',
+  corpuschristi: 'Corpus Christi',
+  dallas: 'Dallas',
+  easttexas: 'Tyler',
+  elpaso: 'El Paso',
+  galveston: 'Galveston',
+  houston: 'Houston',
+  killeen: 'Killeen',
+  laredo: 'Laredo',
+  lubbock: 'Lubbock',
+  mcallen: 'McAllen',
+  midland: 'Midland',
+  nacogdoches: 'Nacogdoches',
+  odessa: 'Odessa',
+  sanangelo: 'San Angelo',
+  sanantonio: 'San Antonio',
+  sanmarcos: 'San Marcos',
+  texoma: 'Sherman',
+  victoriatx: 'Victoria',
+  waco: 'Waco',
+  wichitafalls: 'Wichita Falls',
+  // ── UT ──
+  logan: 'Logan',
+  ogden: 'Ogden',
+  provo: 'Provo',
+  saltlakecity: 'Salt Lake City',
+  stgeorge: 'St. George',
+  // ── VT ──
+  burlington: 'Burlington',
+  // ── VA ──
+  charlottesville: 'Charlottesville',
+  danville: 'Danville',
+  fredericksburg: 'Fredericksburg',
+  harrisonburg: 'Harrisonburg',
+  lynchburg: 'Lynchburg',
+  blacksburg: 'Blacksburg',
+  norfolk: 'Norfolk',
+  richmond: 'Richmond',
+  roanoke: 'Roanoke',
+  swva: 'Bristol',
+  winchester: 'Winchester',
+  // ── WA ──
+  bellingham: 'Bellingham',
+  kennewick: 'Kennewick',
+  kpr: 'Kennewick',
+  moseslake: 'Moses Lake',
+  olympic: 'Olympia',
+  pullman: 'Pullman',
+  seattle: 'Seattle',
+  skagit: 'Mount Vernon',
+  spokane: 'Spokane',
+  wenatchee: 'Wenatchee',
+  yakima: 'Yakima',
+  // ── WV ──
+  charlestonwv: 'Charleston',
+  huntington: 'Huntington',
+  martinsburg: 'Martinsburg',
+  morgantown: 'Morgantown',
+  parkersburg: 'Parkersburg',
+  wv: 'Charleston',
+  wheeling: 'Wheeling',
+  // ── WI ──
+  appleton: 'Appleton',
+  eauclaire: 'Eau Claire',
+  greenbay: 'Green Bay',
+  janesville: 'Janesville',
+  kenosha: 'Kenosha',
+  lacrosse: 'La Crosse',
+  madison: 'Madison',
+  milwaukee: 'Milwaukee',
+  racine: 'Racine',
+  sheboygan: 'Sheboygan',
+  wausau: 'Wausau',
+  // ── WY ──
+  wyoming: 'Cheyenne',
+};
+
+// ── ESTATESALES.NET: State names (hyphenated) ──
+const ESTATE_SALES_STATES: string[] = [
+  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut',
+  'Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa',
+  'Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan',
+  'Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada',
+  'New-Hampshire','New-Jersey','New-Mexico','New-York','North-Carolina',
+  'North-Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode-Island',
+  'South-Carolina','South-Dakota','Tennessee','Texas','Utah','Vermont',
+  'Virginia','Washington','West-Virginia','Wisconsin','Wyoming',
 ];
 
-// ── GARAGESALEFINDER STATES ──
-const GSF_STATES = [
-  'Alabama','Alaska','Arizona','Arkansas','California','Colorado',
-  'Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho',
-  'Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana',
-  'Maine','Maryland','Massachusetts','Michigan','Minnesota',
-  'Mississippi','Missouri','Montana','Nebraska','Nevada',
-  'New-Hampshire','New-Jersey','New-Mexico','New-York',
-  'North-Carolina','North-Dakota','Ohio','Oklahoma','Oregon',
-  'Pennsylvania','Rhode-Island','South-Carolina','South-Dakota',
-  'Tennessee','Texas','Utah','Vermont','Virginia','Washington',
-  'West-Virginia','Wisconsin','Wyoming',
+// ── GARAGESALEFINDER: State names (hyphenated) ──
+const GSF_STATES: string[] = [
+  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut',
+  'Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa',
+  'Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan',
+  'Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada',
+  'New-Hampshire','New-Jersey','New-Mexico','New-York','North-Carolina',
+  'North-Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode-Island',
+  'South-Carolina','South-Dakota','Tennessee','Texas','Utah','Vermont',
+  'Virginia','Washington','West-Virginia','Wisconsin','Wyoming',
 ];
 
-// ── YARDSALESEARCH EXPANDED: 274 CITIES (ALL 50 STATES + DC) ──
-const YSS_CITIES = [
+// ── YARDSALESEARCH: 274 city slugs (City-ST format) ──
+const YSS_CITIES: string[] = [
   'Birmingham-AL','Huntsville-AL','Mobile-AL','Montgomery-AL','Tuscaloosa-AL',
   'Anchorage-AK','Fairbanks-AK',
-  'Phoenix-AZ','Tucson-AZ','Mesa-AZ','Scottsdale-AZ','Chandler-AZ','Flagstaff-AZ',
-  'Little-Rock-AR','Fayetteville-AR','Fort-Smith-AR',
-  'Los-Angeles-CA','San-Francisco-CA','San-Diego-CA','Sacramento-CA','San-Jose-CA',
-  'Fresno-CA','Bakersfield-CA','Riverside-CA','Oakland-CA','Long-Beach-CA',
-  'Stockton-CA','Modesto-CA','Santa-Rosa-CA','Irvine-CA','Santa-Barbara-CA',
-  'Denver-CO','Colorado-Springs-CO','Aurora-CO','Fort-Collins-CO','Boulder-CO','Pueblo-CO',
-  'Hartford-CT','New-Haven-CT','Stamford-CT','Bridgeport-CT','Waterbury-CT',
-  'Wilmington-DE','Dover-DE',
+  'Chandler-AZ','Gilbert-AZ','Glendale-AZ','Mesa-AZ','Peoria-AZ','Phoenix-AZ','Scottsdale-AZ','Surprise-AZ','Tempe-AZ','Tucson-AZ',
+  'Fayetteville-AR','Fort-Smith-AR','Little-Rock-AR','Jonesboro-AR',
+  'Anaheim-CA','Bakersfield-CA','Chula-Vista-CA','Fontana-CA','Fremont-CA','Fresno-CA','Irvine-CA','Long-Beach-CA','Los-Angeles-CA','Modesto-CA','Moreno-Valley-CA','Oakland-CA','Oceanside-CA','Ontario-CA','Oxnard-CA','Riverside-CA','Sacramento-CA','San-Bernardino-CA','San-Diego-CA','San-Francisco-CA','San-Jose-CA','Santa-Ana-CA','Santa-Clarita-CA','Santa-Rosa-CA','Stockton-CA',
+  'Aurora-CO','Colorado-Springs-CO','Denver-CO','Fort-Collins-CO','Lakewood-CO','Pueblo-CO','Thornton-CO','Westminster-CO',
+  'Bridgeport-CT','Hartford-CT','New-Haven-CT','Stamford-CT','Waterbury-CT',
+  'Wilmington-DE',
   'Washington-DC',
-  'Miami-FL','Tampa-FL','Orlando-FL','Jacksonville-FL','Fort-Lauderdale-FL',
-  'St-Petersburg-FL','Tallahassee-FL','Sarasota-FL','Pensacola-FL','Daytona-Beach-FL',
-  'Fort-Myers-FL','Gainesville-FL','Lakeland-FL','Cape-Coral-FL',
-  'Atlanta-GA','Savannah-GA','Augusta-GA','Athens-GA','Macon-GA','Columbus-GA',
+  'Cape-Coral-FL','Clearwater-FL','Coral-Springs-FL','Fort-Lauderdale-FL','Gainesville-FL','Hialeah-FL','Hollywood-FL','Jacksonville-FL','Lakeland-FL','Miami-FL','Miramar-FL','Orlando-FL','Palm-Bay-FL','Pembroke-Pines-FL','Pompano-Beach-FL','Port-St-Lucie-FL','St-Petersburg-FL','Tallahassee-FL','Tampa-FL','West-Palm-Beach-FL',
+  'Athens-GA','Atlanta-GA','Augusta-GA','Columbus-GA','Macon-GA','Savannah-GA',
   'Honolulu-HI',
-  'Boise-ID','Idaho-Falls-ID','Nampa-ID',
-  'Chicago-IL','Springfield-IL','Peoria-IL','Naperville-IL','Rockford-IL','Champaign-IL',
-  'Indianapolis-IN','Fort-Wayne-IN','Evansville-IN','South-Bend-IN','Bloomington-IN',
-  'Des-Moines-IA','Cedar-Rapids-IA','Davenport-IA','Iowa-City-IA','Sioux-City-IA',
-  'Wichita-KS','Kansas-City-KS','Topeka-KS','Overland-Park-KS','Lawrence-KS',
-  'Louisville-KY','Lexington-KY','Bowling-Green-KY','Owensboro-KY',
-  'New-Orleans-LA','Baton-Rouge-LA','Shreveport-LA','Lafayette-LA','Lake-Charles-LA',
-  'Portland-ME','Bangor-ME','Augusta-ME',
-  'Baltimore-MD','Annapolis-MD','Frederick-MD','Rockville-MD','Silver-Spring-MD',
-  'Boston-MA','Worcester-MA','Springfield-MA','Cambridge-MA','Lowell-MA',
-  'Detroit-MI','Grand-Rapids-MI','Ann-Arbor-MI','Lansing-MI','Flint-MI',
-  'Kalamazoo-MI','Traverse-City-MI',
-  'Minneapolis-MN','St-Paul-MN','Duluth-MN','Rochester-MN','Bloomington-MN',
-  'Jackson-MS','Gulfport-MS','Hattiesburg-MS','Biloxi-MS',
-  'Kansas-City-MO','St-Louis-MO','Springfield-MO','Columbia-MO','Independence-MO',
-  'Billings-MT','Missoula-MT','Great-Falls-MT','Bozeman-MT','Helena-MT',
-  'Omaha-NE','Lincoln-NE','Grand-Island-NE',
-  'Las-Vegas-NV','Reno-NV','Henderson-NV','Sparks-NV',
-  'Manchester-NH','Nashua-NH','Concord-NH',
-  'Newark-NJ','Jersey-City-NJ','Trenton-NJ','Edison-NJ','Toms-River-NJ','Cherry-Hill-NJ',
-  'Albuquerque-NM','Santa-Fe-NM','Las-Cruces-NM','Rio-Rancho-NM',
-  'New-York-NY','Buffalo-NY','Rochester-NY','Albany-NY','Syracuse-NY',
-  'Yonkers-NY','Utica-NY','Ithaca-NY','Binghamton-NY',
-  'Charlotte-NC','Raleigh-NC','Greensboro-NC','Durham-NC','Wilmington-NC',
-  'Fayetteville-NC','Asheville-NC','Winston-Salem-NC',
-  'Fargo-ND','Bismarck-ND','Grand-Forks-ND','Minot-ND',
-  'Columbus-OH','Cleveland-OH','Cincinnati-OH','Dayton-OH','Toledo-OH',
-  'Akron-OH','Canton-OH','Youngstown-OH',
-  'Oklahoma-City-OK','Tulsa-OK','Norman-OK','Broken-Arrow-OK','Edmond-OK',
-  'Portland-OR','Eugene-OR','Salem-OR','Bend-OR','Medford-OR','Corvallis-OR',
-  'Philadelphia-PA','Pittsburgh-PA','Harrisburg-PA','Allentown-PA','Erie-PA',
-  'Reading-PA','Scranton-PA','Lancaster-PA','York-PA',
-  'Providence-RI','Warwick-RI','Cranston-RI',
-  'Charleston-SC','Columbia-SC','Greenville-SC','Myrtle-Beach-SC','Rock-Hill-SC',
-  'Sioux-Falls-SD','Rapid-City-SD','Aberdeen-SD',
-  'Nashville-TN','Memphis-TN','Knoxville-TN','Chattanooga-TN','Clarksville-TN',
-  'Murfreesboro-TN',
-  'Houston-TX','Dallas-TX','Austin-TX','San-Antonio-TX','Fort-Worth-TX',
-  'El-Paso-TX','Arlington-TX','Plano-TX','Lubbock-TX','Corpus-Christi-TX',
-  'Laredo-TX','Amarillo-TX','Waco-TX','Midland-TX',
-  'Salt-Lake-City-UT','Provo-UT','Ogden-UT','St-George-UT','Logan-UT',
-  'Burlington-VT','Rutland-VT',
-  'Virginia-Beach-VA','Richmond-VA','Norfolk-VA','Chesapeake-VA',
-  'Arlington-VA','Roanoke-VA','Lynchburg-VA','Charlottesville-VA',
-  'Seattle-WA','Olympia-WA','Tacoma-WA','Spokane-WA','Bellingham-WA',
-  'Vancouver-WA','Yakima-WA','Kennewick-WA','Everett-WA',
-  'Charleston-WV','Huntington-WV','Morgantown-WV','Parkersburg-WV',
-  'Milwaukee-WI','Madison-WI','Green-Bay-WI','Appleton-WI','Kenosha-WI','Eau-Claire-WI',
-  'Cheyenne-WY','Casper-WY',
+  'Boise-ID','Idaho-Falls-ID','Meridian-ID','Nampa-ID',
+  'Aurora-IL','Chicago-IL','Elgin-IL','Joliet-IL','Naperville-IL','Peoria-IL','Rockford-IL','Springfield-IL',
+  'Evansville-IN','Fort-Wayne-IN','Indianapolis-IN','South-Bend-IN',
+  'Cedar-Rapids-IA','Davenport-IA','Des-Moines-IA','Iowa-City-IA','Sioux-City-IA','Waterloo-IA',
+  'Kansas-City-KS','Olathe-KS','Overland-Park-KS','Topeka-KS','Wichita-KS',
+  'Bowling-Green-KY','Lexington-KY','Louisville-KY','Owensboro-KY',
+  'Baton-Rouge-LA','Lafayette-LA','Lake-Charles-LA','New-Orleans-LA','Shreveport-LA',
+  'Portland-ME',
+  'Baltimore-MD','Frederick-MD','Silver-Spring-MD',
+  'Boston-MA','Cambridge-MA','Lowell-MA','Springfield-MA','Worcester-MA',
+  'Ann-Arbor-MI','Detroit-MI','Flint-MI','Grand-Rapids-MI','Lansing-MI','Sterling-Heights-MI','Warren-MI',
+  'Duluth-MN','Minneapolis-MN','Rochester-MN','St-Paul-MN',
+  'Gulfport-MS','Jackson-MS',
+  'Columbia-MO','Independence-MO','Kansas-City-MO','Springfield-MO','St-Louis-MO',
+  'Billings-MT','Great-Falls-MT','Missoula-MT',
+  'Lincoln-NE','Omaha-NE',
+  'Henderson-NV','Las-Vegas-NV','North-Las-Vegas-NV','Reno-NV',
+  'Manchester-NH','Nashua-NH',
+  'Elizabeth-NJ','Jersey-City-NJ','Newark-NJ','Paterson-NJ','Toms-River-NJ','Trenton-NJ',
+  'Albuquerque-NM','Las-Cruces-NM','Rio-Rancho-NM','Santa-Fe-NM',
+  'Albany-NY','Buffalo-NY','New-York-NY','Rochester-NY','Syracuse-NY','Yonkers-NY',
+  'Charlotte-NC','Durham-NC','Fayetteville-NC','Greensboro-NC','Raleigh-NC','Wilmington-NC','Winston-Salem-NC',
+  'Bismarck-ND','Fargo-ND','Grand-Forks-ND',
+  'Akron-OH','Canton-OH','Cincinnati-OH','Cleveland-OH','Columbus-OH','Dayton-OH','Toledo-OH','Youngstown-OH',
+  'Broken-Arrow-OK','Norman-OK','Oklahoma-City-OK','Tulsa-OK',
+  'Bend-OR','Eugene-OR','Gresham-OR','Medford-OR','Portland-OR','Salem-OR',
+  'Allentown-PA','Erie-PA','Harrisburg-PA','Lancaster-PA','Philadelphia-PA','Pittsburgh-PA','Reading-PA','Scranton-PA',
+  'Providence-RI','Warwick-RI',
+  'Charleston-SC','Columbia-SC','Greenville-SC','Myrtle-Beach-SC','North-Charleston-SC','Rock-Hill-SC',
+  'Rapid-City-SD','Sioux-Falls-SD',
+  'Chattanooga-TN','Clarksville-TN','Knoxville-TN','Memphis-TN','Murfreesboro-TN','Nashville-TN',
+  'Abilene-TX','Amarillo-TX','Arlington-TX','Austin-TX','Beaumont-TX','Brownsville-TX','Carrollton-TX','College-Station-TX','Corpus-Christi-TX','Dallas-TX','Denton-TX','El-Paso-TX','Fort-Worth-TX','Frisco-TX','Garland-TX','Grand-Prairie-TX','Houston-TX','Irving-TX','Killeen-TX','Laredo-TX','Lubbock-TX','McAllen-TX','McKinney-TX','Mesquite-TX','Midland-TX','Odessa-TX','Pasadena-TX','Plano-TX','San-Angelo-TX','San-Antonio-TX','Waco-TX','Wichita-Falls-TX',
+  'Logan-UT','Ogden-UT','Provo-UT','Salt-Lake-City-UT','St-George-UT','West-Jordan-UT','West-Valley-City-UT',
+  'Burlington-VT',
+  'Alexandria-VA','Arlington-VA','Chesapeake-VA','Hampton-VA','Lynchburg-VA','Newport-News-VA','Norfolk-VA','Richmond-VA','Roanoke-VA','Virginia-Beach-VA',
+  'Bellevue-WA','Everett-WA','Kent-WA','Olympia-WA','Seattle-WA','Spokane-WA','Tacoma-WA','Vancouver-WA','Yakima-WA',
+  'Charleston-WV','Huntington-WV','Morgantown-WV',
+  'Appleton-WI','Eau-Claire-WI','Green-Bay-WI','Kenosha-WI','Madison-WI','Milwaukee-WI','Racine-WI',
+  'Casper-WY','Cheyenne-WY',
 ];
 
-// ── GSALR.COM STATES (ScraperAPI-only, 403 without proxy) ──
-const GSALR_STATES = [
-  'alabama','alaska','arizona','arkansas','california','colorado',
-  'connecticut','delaware','florida','georgia','hawaii','idaho',
-  'illinois','indiana','iowa','kansas','kentucky','louisiana',
-  'maine','maryland','massachusetts','michigan','minnesota',
-  'mississippi','missouri','montana','nebraska','nevada',
-  'new-hampshire','new-jersey','new-mexico','new-york',
-  'north-carolina','north-dakota','ohio','oklahoma','oregon',
-  'pennsylvania','rhode-island','south-carolina','south-dakota',
-  'tennessee','texas','utah','vermont','virginia','washington',
-  'west-virginia','wisconsin','wyoming',
+// ── GSALR: lowercase state names (hyphenated) ──
+const GSALR_STATES: string[] = [
+  'alabama','alaska','arizona','arkansas','california','colorado','connecticut',
+  'delaware','florida','georgia','hawaii','idaho','illinois','indiana','iowa',
+  'kansas','kentucky','louisiana','maine','maryland','massachusetts','michigan',
+  'minnesota','mississippi','missouri','montana','nebraska','nevada',
+  'new-hampshire','new-jersey','new-mexico','new-york','north-carolina',
+  'north-dakota','ohio','oklahoma','oregon','pennsylvania','rhode-island',
+  'south-carolina','south-dakota','tennessee','texas','utah','vermont',
+  'virginia','washington','west-virginia','wisconsin','wyoming',
 ];
+
 const GSALR_MAX_PAGES = 3;
-
 
 // ════════════════════════════════════════════════════════════
 // END OF PART 2/6
 // ════════════════════════════════════════════════════════════
+
+
 // ════════════════════════════════════════════════════════════
-// PART 3/6 — buildStartUrls() + saveBatchToSupabase() + main() START + CL HANDLERS
+// PART 3/6 — buildStartUrls, saveBatchToSupabase, main() START,
+//            HANDLER 1 (CL Index), HANDLER 2 (CL Detail)
 // ════════════════════════════════════════════════════════════
 
-// ── BUILD START URLs FOR ALL 5 SOURCES ──
-function buildStartUrls(): { url: string; userData: { source: string; state?: string; pageType: string } }[] {
-  const urls: { url: string; userData: { source: string; state?: string; pageType: string } }[] = [];
+// ── Build start URLs for ALL 5 sources ──
+function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
+  const urls: { url: string; userData: Record<string, string> }[] = [];
 
-  // ── CRAIGSLIST: /gms + /sss across all 413 subdomains ──
-  for (const [state, cities] of Object.entries(CRAIGSLIST_CITIES)) {
-    for (const city of cities) {
-      // Garage/Moving Sales section
-      for (let page = 0; page < CL_MAX_PAGES; page++) {
-        const offset = page * 120;
-        const gmsUrl = offset === 0
-          ? `https://${city}.craigslist.org/search/gms`
-          : `https://${city}.craigslist.org/search/gms?s=${offset}`;
-        urls.push({ url: gmsUrl, userData: { source: 'craigslist', state, pageType: 'cl_index' } });
-      }
-
-      // /sss general yard sale query
-      for (let page = 0; page < CL_MAX_PAGES; page++) {
-        const offset = page * 120;
-        const sssUrl = offset === 0
-          ? `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale`
-          : `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale&s=${offset}`;
-        urls.push({ url: sssUrl, userData: { source: 'craigslist', state, pageType: 'cl_index' } });
-      }
-
-      // /sss estate sale sub-query
+  // ── Craigslist ──
+  for (const [state, subdomains] of Object.entries(CRAIGSLIST_CITIES)) {
+    for (const sub of subdomains) {
       urls.push({
-        url: `https://${city}.craigslist.org/search/sss?query=estate+sale`,
-        userData: { source: 'craigslist', state, pageType: 'cl_index' },
-      });
-
-      // /sss moving sale sub-query
-      urls.push({
-        url: `https://${city}.craigslist.org/search/sss?query=moving+sale`,
-        userData: { source: 'craigslist', state, pageType: 'cl_index' },
+        url: `https://${sub}.craigslist.org/search/gms`,
+        userData: { source: 'craigslist', state },
       });
     }
   }
 
-  // ── ESTATESALES.NET: 50 states × 5 pages ──
+  // ── EstateSales.net ──
   for (const state of ESTATE_SALES_STATES) {
-    for (let page = 1; page <= ES_MAX_PAGES; page++) {
-      const url = page === 1
-        ? `https://www.estatesales.net/${state}`
-        : `https://www.estatesales.net/${state}?page=${page}`;
-      urls.push({ url, userData: { source: 'estatesales', state, pageType: 'es_index' } });
-    }
+    urls.push({
+      url: `https://www.estatesales.net/estate-sales/${state}`,
+      userData: { source: 'estatesales', state },
+    });
   }
 
-  // ── GARAGESALEFINDER: 50 states × 5 pages ──
+  // ── GarageSaleFinder ──
   for (const state of GSF_STATES) {
-    for (let page = 1; page <= GSF_MAX_PAGES; page++) {
-      const url = page === 1
-        ? `https://www.garagesalefinder.com/sale/${state}`
-        : `https://www.garagesalefinder.com/sale/${state}?page=${page}`;
-      urls.push({ url, userData: { source: 'garagesalefinder', state, pageType: 'gsf_index' } });
-    }
+    urls.push({
+      url: `https://www.garagesalefinder.com/yard-sales/${state}`,
+      userData: { source: 'garagesalefinder', state },
+    });
   }
 
-  // ── YARDSALESEARCH: 274 cities × 5 pages ──
+  // ── YardSaleSearch ── (v4.1: added yssSlug to userData)
   for (const city of YSS_CITIES) {
-    for (let page = 1; page <= YSS_MAX_PAGES; page++) {
-      const url = page === 1
-        ? `https://www.yardsalesearch.com/garage-sales-in-${city}.html`
-        : `https://www.yardsalesearch.com/garage-sales-in-${city}.html?page=${page}`;
-      urls.push({ url, userData: { source: 'yardsalesearch', state: city.split('-').pop() || '', pageType: 'yss_index' } });
-    }
+    const state = city.split('-').pop() || '';
+    urls.push({
+      url: `https://www.yardsalesearch.com/yard-sales/${city}.html`,
+      userData: { source: 'yardsalesearch', state, yssSlug: city },
+    });
   }
 
-  // ── GSALR.COM: 50 states × 3 pages (ScraperAPI-only) ──
-  if (SCRAPER_API_KEY) {
-    for (const state of GSALR_STATES) {
-      for (let page = 1; page <= GSALR_MAX_PAGES; page++) {
-        const url = page === 1
-          ? `https://gsalr.com/garage-sales-in/${state}/`
-          : `https://gsalr.com/garage-sales-in/${state}/page/${page}/`;
-        urls.push({ url, userData: { source: 'gsalr', state, pageType: 'gsalr_index' } });
-      }
-    }
+  // ── Gsalr ──
+  for (const state of GSALR_STATES) {
+    urls.push({
+      url: `https://gsalr.com/${state}/`,
+      userData: { source: 'gsalr', state },
+    });
   }
 
+  log.info(`Built ${urls.length} start URLs.`);
   return urls;
 }
 
-// ── SAVE BATCH TO SUPABASE (upsert in sub-batches of 50) ──
-async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<number> {
-  const validSales = sales.filter(s => s.title && s.title.trim().length > 0);
-  if (validSales.length === 0) return 0;
+// ── Save batch of scraped sales to Supabase ──
+async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<void> {
+  if (sales.length === 0) return;
 
-  let totalSaved = 0;
-
-  for (let i = 0; i < validSales.length; i += 50) {
-    const chunk = validSales.slice(i, i + 50);
+  const chunkSize = 50;
+  for (let i = 0; i < sales.length; i += chunkSize) {
+    const chunk = sales.slice(i, i + chunkSize);
     const { error } = await supabase
       .from('yard_sales')
       .upsert(chunk, { onConflict: 'source_url' });
-
     if (error) {
-      console.error(`[SaveBatch] Supabase upsert error: ${error.message}`);
-    } else {
-      totalSaved += chunk.length;
+      log.error(`Supabase upsert error (batch ${i / chunkSize + 1}): ${error.message}`);
     }
   }
-
-  return totalSaved;
 }
 
 // ══════════════════════════════════════════════════════════════
-// MAIN FUNCTION — CRAWLER SETUP & ALL REQUEST HANDLERS
+// MAIN CRAWLER FUNCTION
 // ══════════════════════════════════════════════════════════════
-async function main() {
-  console.log('╔══════════════════════════════════════════════════╗');
-  console.log('║  CRAWLEE DEEP SCRAPER v4.0                      ║');
-  console.log('║  CLEAN DESCRIPTIONS + TIME FIX + ALL v3.8 FEATS ║');
-  console.log('╚══════════════════════════════════════════════════╝');
-  console.log(`Started at: ${new Date().toISOString()}`);
-
+async function main(): Promise<void> {
   await purgeDefaultStorages();
 
   const startUrls = buildStartUrls();
-
-  // Count URLs by source
-  const sourceCounts: Record<string, number> = {};
-  for (const u of startUrls) {
-    const src = u.userData.source;
-    sourceCounts[src] = (sourceCounts[src] || 0) + 1;
-  }
-  console.log('\n📋 Start URL breakdown:');
-  for (const [src, count] of Object.entries(sourceCounts)) {
-    console.log(`   ${src}: ${count} URLs`);
-  }
-  console.log(`   TOTAL: ${startUrls.length} URLs\n`);
-
-  // ── Proxy config (ScraperAPI) ──
-  let proxyConfiguration: ProxyConfiguration | undefined;
-  if (SCRAPER_API_KEY) {
-    proxyConfiguration = new ProxyConfiguration({
-      proxyUrls: [
-        `http://scraperapi.country_code=us:${SCRAPER_API_KEY}@proxy-server.scraperapi.com:8001`,
-      ],
-    });
-    console.log('🔒 ScraperAPI proxy configured.');
-  } else {
-    console.log('⚠️  No ScraperAPI key — Gsalr will be skipped.');
-  }
-
-  // ── Tracking variables ──
   const pendingSales: ScrapedSale[] = [];
-  const seenIds = new Set<string>();
-  let processedCount = 0;
-  let skippedCount = 0;
-  let detailCount = 0;
-  let savedCount = 0;
+  let totalProcessed = 0;
 
-  // ── CRAWLER INSTANCE ──
+  // ScraperAPI proxy config
+  const proxyConfiguration = new ProxyConfiguration({
+    proxyUrls: [
+      `http://scraperapi:${SCRAPER_API_KEY}@proxy-server.scraperapi.com:8001`,
+    ],
+  });
+
   const crawler = new CheerioCrawler({
     proxyConfiguration,
     maxConcurrency: 2,
-    minConcurrency: 1,
     maxRequestRetries: 2,
     requestHandlerTimeoutSecs: 120,
     navigationTimeoutSecs: 90,
 
-    requestHandler: async ({ request, $, enqueueLinks }) => {
-      const { source, state, pageType } = request.userData as {
-        source: string;
-        state?: string;
-        pageType: string;
-      };
+    async requestHandler({ request, $, enqueueLinks }) {
+      const { source, state } = request.userData as { source: string; state: string };
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 1: CRAIGSLIST INDEX                     ║
-      // ╚══════════════════════════════════════════════════╝
-      if (pageType === 'cl_index') {
-        sourceStats.craigslist.success++;
-        const listings = $('li.cl-static-search-result, .result-row, .cl-search-result, .cl-search-result-item');
+      // ══════════════════════════════════════════════════════
+      // HANDLER 1: CRAIGSLIST INDEX (search results page)
+      // ══════════════════════════════════════════════════════
+      if (source === 'craigslist' && !request.url.includes('/gms/')) {
+        // This is a CL search listing page
+        const results = $('li.result-row, .cl-static-search-result');
+        if (results.length === 0) {
+          log.debug(`CL Index: No results on ${request.url}`);
+          return;
+        }
 
-        listings.each((_i, el) => {
-          try {
-            const titleEl = $(el).find('.title, .result-title, .titlestring, .posting-title .label, .cl-app-anchor .label');
-            const title = titleEl.text().trim();
-            if (!title) return;
+        sourceStats.craigslist.pages++;
 
-            const linkEl = $(el).find('a[href]').first();
-            const href = linkEl.attr('href') || '';
-            const sourceUrl = href.startsWith('http') ? href : `https://${request.url.split('/')[2]}${href}`;
-            const sourceId = `cl-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-40)}`;
+        results.each((_, el) => {
+          const $el = $(el);
+          const titleEl = $el.find('.result-title, .posting-title a, a.titlestring');
+          const title = titleEl.text().trim();
+          const link = titleEl.attr('href') || $el.find('a').attr('href') || '';
+          const locationText = $el.find('.result-hood').text().trim().replace(/[()]/g, '');
+          const dateStr = $el.find('time').attr('datetime') || '';
 
-            if (seenIds.has(sourceId)) return;
+          if (!title || !link) return;
+          if (!isYardSale(title)) return;
 
-            // Location / address
-            const locationEl = $(el).find('.result-hood, .nearby, .supertitle, .meta');
-            const locationText = locationEl.text().trim();
-            const address = extractAddressFromText(locationText) || locationText.replace(/[()]/g, '').trim();
+          const fullUrl = link.startsWith('http') ? link : `https://${request.url.split('/')[2]}${link}`;
 
-            // ── Gate: must be a yard-sale-type post ──
-            if (!isYardSale(title, locationText)) {
-              skippedCount++;
-              return;
+          // v4.1: Extract city from CL subdomain URL
+          const clCity = extractCityFromCLUrl(request.url);
+          // Also try extracting from locationText (e.g. "Winston-Salem")
+          const locationCity = extractCityFromAddress(locationText);
+
+          const sale: ScrapedSale = {
+            source_id: fullUrl.split('/').pop()?.replace('.html', '') || '',
+            title,
+            description: '',
+            address: locationText || '',
+            city: locationCity || clCity || '',
+            state: state || '',
+            zip: extractZip(locationText) || '',
+            lat: null,
+            lng: null,
+            date_start: dateStr ? dateStr.split('T')[0] : null,
+            date_end: null,
+            time_start: null,
+            time_end: null,
+            price_range: null,
+            categories: guessCategories(title),
+            source: 'craigslist',
+            source_url: fullUrl,
+            image_urls: [],
+            expires_at: null,
+            scraped_at: new Date().toISOString(),
+            pushed: false,
+          };
+
+          pendingSales.push(sale);
+          sourceStats.craigslist.listings++;
+        });
+
+        // Enqueue detail pages for each listing
+        await enqueueLinks({
+          selector: '.result-title, .posting-title a, a.titlestring',
+          userData: { source: 'craigslist', state, handler: 'detail' },
+        });
+
+        // Pagination: enqueue next page (up to CL_MAX_PAGES)
+        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
+        if (currentPage < CL_MAX_PAGES) {
+          const nextBtn = $('a.button.next');
+          const nextUrl = nextBtn.attr('href');
+          if (nextUrl) {
+            const fullNextUrl = nextUrl.startsWith('http')
+              ? nextUrl
+              : `https://${request.url.split('/')[2]}${nextUrl}`;
+            await crawler.addRequests([{
+              url: fullNextUrl,
+              userData: { source: 'craigslist', state, page: String(currentPage + 1) },
+            }]);
+          }
+        }
+
+        return;
+      }
+
+      // ══════════════════════════════════════════════════════
+      // HANDLER 2: CRAIGSLIST DETAIL (individual listing)
+      // ══════════════════════════════════════════════════════
+      if (source === 'craigslist' && (request.url.includes('/gms/') || request.userData.handler === 'detail')) {
+        const postingBody = $('#postingbody').length
+          ? $('#postingbody').html() || ''
+          : $('.posting-body').html() || '';
+
+        const description = cleanDescription(postingBody);
+        const mapAddress = $('div.mapaddress').text().trim();
+        const lat = $('div.viewposting').attr('data-latitude') || null;
+        const lng = $('div.viewposting').attr('data-longitude') || null;
+        const images = getAllImgUrls($);
+
+        // v4.1: Extract city from map address or CL URL
+        const detailCity = extractCityFromAddress(mapAddress) || extractCityFromCLUrl(request.url) || '';
+        const detailZip = extractZip(mapAddress) || '';
+        const detailAddress = extractAddressFromText(mapAddress) || mapAddress || '';
+
+        // Try to find and enrich the matching pending sale
+        const existingSale = pendingSales.find((s) => s.source_url === request.url);
+
+        if (existingSale) {
+          // ── PATH A: Enrich in-memory sale ──
+          existingSale.description = description || existingSale.description;
+          existingSale.address = detailAddress || existingSale.address;
+          // v4.1: Set city if still empty
+          if (!existingSale.city) {
+            existingSale.city = detailCity;
+          }
+          existingSale.zip = detailZip || existingSale.zip;
+          existingSale.lat = lat ? parseFloat(lat) : existingSale.lat;
+          existingSale.lng = lng ? parseFloat(lng) : existingSale.lng;
+          existingSale.image_urls = images.length > 0 ? images : existingSale.image_urls;
+
+          // Extract times from description
+          const times = extractTimes(description);
+          existingSale.time_start = times.start || existingSale.time_start;
+          existingSale.time_end = times.end || existingSale.time_end;
+
+          // Extract date from description if missing
+          if (!existingSale.date_start) {
+            existingSale.date_start = extractDateFromText(description);
+          }
+        } else {
+          // ── PATH B: Direct DB update (sale was already saved in a prior batch) ──
+          const updateData: Record<string, unknown> = {};
+          if (description) updateData.description = description;
+          if (detailAddress) updateData.address = detailAddress;
+          // v4.1: Always set city on direct updates too
+          if (detailCity) updateData.city = detailCity;
+          if (detailZip) updateData.zip = detailZip;
+          if (lat) updateData.lat = parseFloat(lat);
+          if (lng) updateData.lng = parseFloat(lng);
+          if (images.length > 0) updateData.image_urls = images;
+
+          const times = extractTimes(description);
+          if (times.start) updateData.time_start = times.start;
+          if (times.end) updateData.time_end = times.end;
+
+          if (Object.keys(updateData).length > 0) {
+            const { error: upErr } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', request.url);
+            if (upErr) {
+              log.debug(`CL Detail DB update failed: ${upErr.message}`);
             }
+          }
+        }
 
-            seenIds.add(sourceId);
+        sourceStats.craigslist.details++;
+        return;
+      }
 
-            // Date, price, image
-            const dateText = $(el).find('.result-date, time, .date, .meta').text().trim();
-            const dateStart = extractDateFromText(dateText) || new Date().toISOString().split('T')[0];
-            const priceEl = $(el).find('.result-price, .price, .priceinfo');
-            const price = priceEl.text().trim() || null;
-            const imgEl = $(el).find('img').first();
-            const imgUrl = getImgUrl(imgEl, $);
-            const imageUrls = imgUrl ? [imgUrl] : [];
+// ════════════════════════════════════════════════════════════
+// END OF PART 3/6
+// ════════════════════════════════════════════════════════════
+
+
+      // ══════════════════════════════════════════════════════
+      // HANDLER 3: ESTATESALES.NET INDEX (state listing page)
+      // ══════════════════════════════════════════════════════
+      if (source === 'estatesales' && !request.url.includes('/sale/')) {
+        sourceStats.estatesales.pages++;
+
+        // Strategy 1: JSON-LD structured data
+        const jsonLdScripts = $('script[type="application/ld+json"]');
+        let foundJsonLd = false;
+
+        jsonLdScripts.each((_, el) => {
+          try {
+            const json = JSON.parse($(el).html() || '{}');
+            const items = json['@graph'] || (Array.isArray(json) ? json : [json]);
+
+            for (const item of items) {
+              if (item['@type'] !== 'Event' && item['@type'] !== 'Sale') continue;
+              foundJsonLd = true;
+
+              const title = item.name || '';
+              if (!title) continue;
+
+              const addr = item.location?.address || {};
+              const streetAddress = addr.streetAddress || '';
+              const city = addr.addressLocality || '';
+              const stateCode = addr.addressRegion || state || '';
+              const zip = addr.postalCode || '';
+              const lat = item.location?.geo?.latitude || null;
+              const lng = item.location?.geo?.longitude || null;
+              const startDate = item.startDate || '';
+              const endDate = item.endDate || '';
+              const sourceUrl = item.url || '';
+              const image = item.image || '';
+
+              const sale: ScrapedSale = {
+                source_id: sourceUrl.split('/').pop() || '',
+                title,
+                description: item.description || '',
+                address: streetAddress,
+                city,
+                state: stateCode,
+                zip,
+                lat: lat ? parseFloat(lat) : null,
+                lng: lng ? parseFloat(lng) : null,
+                date_start: startDate ? startDate.split('T')[0] : null,
+                date_end: endDate ? endDate.split('T')[0] : null,
+                time_start: null,
+                time_end: null,
+                price_range: null,
+                categories: guessCategories(title + ' ' + (item.description || '')),
+                source: 'estatesales',
+                source_url: sourceUrl.startsWith('http')
+                  ? sourceUrl
+                  : `https://www.estatesales.net${sourceUrl}`,
+                image_urls: image ? [image] : [],
+                expires_at: endDate || null,
+                scraped_at: new Date().toISOString(),
+                pushed: false,
+              };
+
+              pendingSales.push(sale);
+              sourceStats.estatesales.listings++;
+            }
+          } catch {
+            // JSON parse failed, fall through to HTML strategy
+          }
+        });
+
+        // Strategy 2: HTML fallback
+        if (!foundJsonLd) {
+          const cards = $('.sale-card, .estate-sale-card, .listing-card, article');
+          cards.each((_, el) => {
+            const $card = $(el);
+            const title = $card.find('h2, h3, .sale-title, .title').first().text().trim();
+            const link = $card.find('a').first().attr('href') || '';
+            const addressText = $card.find('.address, .location, .sale-address').text().trim();
+            const dateText = $card.find('.date, .sale-date, time').text().trim();
+
+            if (!title || !link) return;
+
+            const fullUrl = link.startsWith('http')
+              ? link
+              : `https://www.estatesales.net${link}`;
+
+            // v4.1: Extract city from address text instead of leaving blank
+            const esCity = extractCityFromAddress(addressText) || '';
 
             const sale: ScrapedSale = {
-              source_id: sourceId,
+              source_id: link.split('/').pop() || '',
               title,
               description: '',
-              address,
-              city: '',
+              address: extractAddressFromText(addressText) || addressText,
+              city: esCity,
               state: state || '',
-              zip: extractZip(locationText),
+              zip: extractZip(addressText) || '',
               lat: null,
               lng: null,
-              date_start: dateStart,
+              date_start: extractDateFromText(dateText),
               date_end: null,
               time_start: null,
               time_end: null,
-              price_range: price,
+              price_range: null,
               categories: guessCategories(title),
-              source: 'craigslist',
-              source_url: sourceUrl,
-              image_urls: imageUrls,
-              expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(),
+              source: 'estatesales',
+              source_url: fullUrl,
+              image_urls: [],
+              expires_at: null,
               scraped_at: new Date().toISOString(),
               pushed: false,
             };
 
             pendingSales.push(sale);
-            sourceStats.craigslist.listings++;
-            processedCount++;
-
-            // Enqueue detail page if it looks like a direct listing link
-            if (href && (/\/d\//.test(href) || /\/\d+\.html/.test(href))) {
-              crawler.addRequests([{
-                url: sourceUrl,
-                userData: { source: 'craigslist', state, pageType: 'cl_detail', sourceId },
-              }]);
-              detailCount++;
-            }
-          } catch (err) {
-            console.error(`[CL Index] Error parsing listing: ${(err as Error).message}`);
-          }
-        });
-
-        // Save batch if enough pending
-        if (pendingSales.length >= SAVE_BATCH_SIZE) {
-          const batch = pendingSales.splice(0, pendingSales.length);
-          const saved = await saveBatchToSupabase(batch);
-          savedCount += saved;
-          console.log(`[CL Index] Flushed ${saved} listings to DB (total saved: ${savedCount})`);
-        }
-      }
-
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 2: CRAIGSLIST DETAIL (v4.0 FIXED)       ║
-      // ║  ★ Cascading selector — no more junk text ★      ║
-      // ║  ★ cleanDescription() applied ★                  ║
-      // ║  ★ normalizeTime() for "8undefined AM" fix ★     ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'cl_detail') {
-        const { sourceId } = request.userData as { sourceId?: string };
-
-        // ── v4.0 FIX: Cascading fallback instead of comma-join ──
-        // BEFORE (broken): $('#postingbody, .posting-body, .body, section.body').text()
-        // .body and section.body matched Craigslist's outer page containers,
-        // pulling in nav arrows, action buttons, post IDs, QR text, scam warnings, etc.
-        const bodyText = $('#postingbody').text().trim()
-          || $('.posting-body').text().trim()
-          || '';
-
-        // Map address from detail page
-        const mapAddress = $('div.mapaddress, .mapAndAttrs .mapaddress').text().trim();
-
-        // Geo coordinates from CL data attributes
-        const mapEl = $('[data-latitude]').first();
-        const lat = mapEl.length ? parseFloat(mapEl.attr('data-latitude') || '') : null;
-        const lng = mapEl.length ? parseFloat(mapEl.attr('data-longitude') || '') : null;
-
-        // ── Image extraction (v3.1 multi-attribute + CL data-ids) ──
-        const clImages = parseCraigslistDataIds($);
-        const pageImages = clImages.length > 0 ? clImages : getAllImgUrls($('body'), $);
-
-        // ── Times and dates from body text ──
-        const times = extractTimes(bodyText);
-        const detailDate = extractDateFromText(bodyText);
-
-        // ── Try to enrich existing pending sale ──
-        const existingSale = sourceId
-          ? pendingSales.find(s => s.source_id === sourceId)
-          : null;
-
-        if (existingSale) {
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (bodyText) existingSale.description = cleanDescription(bodyText);
-          if (mapAddress && hasValidAddress(mapAddress)) existingSale.address = mapAddress;
-          if (lat && lng) { existingSale.lat = lat; existingSale.lng = lng; }
-          if (pageImages.length > 0) existingSale.image_urls = pageImages;
-          if (times.time_start) existingSale.time_start = times.time_start;
-          if (times.time_end) existingSale.time_end = times.time_end;
-          if (detailDate) existingSale.date_start = detailDate;
-        } else {
-          // Already flushed to DB → update row directly
-          const updateData: Record<string, unknown> = {};
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (bodyText) updateData.description = cleanDescription(bodyText);
-          if (mapAddress && hasValidAddress(mapAddress)) updateData.address = mapAddress;
-          if (lat && lng) { updateData.lat = lat; updateData.lng = lng; }
-          if (pageImages.length > 0) updateData.image_urls = pageImages;
-          if (times.time_start) updateData.time_start = times.time_start;
-          if (times.time_end) updateData.time_end = times.time_end;
-          if (detailDate) updateData.date_start = detailDate;
-
-          if (sourceId && Object.keys(updateData).length > 0) {
-            const { error } = await supabase
-              .from('yard_sales')
-              .update(updateData)
-              .eq('source_id', sourceId);
-
-            if (error) {
-              console.error(`[CL Detail] DB update error for ${sourceId}: ${error.message}`);
-            }
-          }
-        }
-      }
-
-
-// ════════════════════════════════════════════════════════════
-// END OF PART 3/6
-// ════════════════════════════════════════════════════════════
-// ════════════════════════════════════════════════════════════
-// PART 4/6 — ESTATESALES.NET HANDLERS + GARAGESALEFINDER HANDLERS
-// ════════════════════════════════════════════════════════════
-
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 3: ESTATESALES.NET INDEX                ║
-      // ║  JSON-LD + HTML card fallback                    ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'es_index') {
-        const detailUrls: string[] = [];
-
-        // Strategy 1: JSON-LD structured data
-        $('script[type="application/ld+json"]').each((_i, el) => {
-          try {
-            const data = JSON.parse($(el).html() || '');
-            const events = Array.isArray(data) ? data : [data];
-            for (const event of events) {
-              if (event['@type'] !== 'Event' && event['@type'] !== 'Sale') continue;
-
-              const name = event.name || '';
-              const eventUrl = event.url || '';
-              const desc = event.description || '';
-              const loc = event.location || {};
-              const addr = loc.address || {};
-
-              const fullUrl = eventUrl.startsWith('http')
-                ? eventUrl
-                : `https://www.estatesales.net${eventUrl}`;
-              const sourceId = `es-deep-${fullUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-
-              if (seenIds.has(sourceId)) continue;
-              seenIds.add(sourceId);
-
-              pendingSales.push({
-                source_id: sourceId,
-                title: name,
-                description: desc,
-                address: addr.streetAddress || '',
-                city: addr.addressLocality || '',
-                state: addr.addressRegion || state || '',
-                zip: addr.postalCode || '',
-                lat: loc.geo?.latitude ? parseFloat(loc.geo.latitude) : null,
-                lng: loc.geo?.longitude ? parseFloat(loc.geo.longitude) : null,
-                date_start: event.startDate
-                  ? event.startDate.split('T')[0]
-                  : new Date().toISOString().split('T')[0],
-                date_end: event.endDate ? event.endDate.split('T')[0] : null,
-                time_start: null,
-                time_end: null,
-                price_range: null,
-                categories: ['Estate Sale'],
-                source: 'estatesales.net',
-                source_url: fullUrl,
-                image_urls: event.image
-                  ? (Array.isArray(event.image) ? event.image : [event.image])
-                  : [],
-                expires_at: event.endDate
-                  || new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-                scraped_at: new Date().toISOString(),
-                pushed: false,
-              });
-
-              if (fullUrl.includes('estatesales.net/')) detailUrls.push(fullUrl);
-            }
-          } catch { /* skip bad JSON-LD */ }
-        });
-
-        // Strategy 2: HTML card fallback
-        $('.sale-item, .saleCard, .listing-card, .es-card, [class*="saleCard"], [class*="sale-card"], .sale-list-item').each((_i, el) => {
-          const title = $(el).find('.sale-title, h3, h2, .title, [class*="sale-title"], [class*="saleTitle"]').first().text().trim();
-          const address = $(el).find('.address, .sale-location, .location, [class*="address"], [class*="location"]').first().text().trim();
-          const link = $(el).find('a').first().attr('href') || '';
-          const fullLink = link.startsWith('http') ? link : `https://www.estatesales.net${link}`;
-          const sourceId = `es-deep-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-
-          if (!title || seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
-
-          const imgSrc = getImgUrl($(el), $);
-          const dateText = $(el).find('.date, .sale-date, [class*="date"]').first().text().trim();
-          const parsedDate = extractDateFromText(dateText);
-
-          pendingSales.push({
-            source_id: sourceId,
-            title: `Estate Sale: ${title}`,
-            description: '',
-            address,
-            city: '',
-            state: state || '',
-            zip: extractZip(address),
-            lat: null,
-            lng: null,
-            date_start: parsedDate || new Date().toISOString().split('T')[0],
-            date_end: null,
-            time_start: null,
-            time_end: null,
-            price_range: null,
-            categories: ['Estate Sale'],
-            source: 'estatesales.net',
-            source_url: fullLink,
-            image_urls: imgSrc ? [imgSrc] : [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-            scraped_at: new Date().toISOString(),
-            pushed: false,
+            sourceStats.estatesales.listings++;
           });
-
-          if (link && !seenIds.has('detail-' + fullLink)) detailUrls.push(fullLink);
-        });
+        }
 
         // Enqueue detail pages
-        if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls.map(url => ({
-            url,
-            userData: { source: 'estatesales', state, pageType: 'es_detail' },
-          })));
-          detailCount += detailUrls.length;
+        await enqueueLinks({
+          selector: 'a[href*="/sale/"]',
+          userData: { source: 'estatesales', state, handler: 'detail' },
+        });
+
+        // Pagination
+        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
+        if (currentPage < ES_MAX_PAGES) {
+          const nextUrl = $('a.next, a[rel="next"], .pagination a:contains("Next")').attr('href');
+          if (nextUrl) {
+            const fullNextUrl = nextUrl.startsWith('http')
+              ? nextUrl
+              : `https://www.estatesales.net${nextUrl}`;
+            await crawler.addRequests([{
+              url: fullNextUrl,
+              userData: { source: 'estatesales', state, page: String(currentPage + 1) },
+            }]);
+          }
         }
 
-        sourceStats.estatesales.success++;
-        sourceStats.estatesales.listings += detailUrls.length;
-        console.log(`  ✅ [ES] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+        return;
       }
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 4: ESTATESALES.NET DETAIL               ║
-      // ║  ★ v4.0: cleanDescription() applied ★            ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'es_detail') {
-        const sourceUrl = request.url;
-        const sourceId = `es-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-        const existingSale = pendingSales.find(s => s.source_id === sourceId);
-
-        const fullAddress = $('.full-address, .sale-address, [class*="address"], [itemprop="streetAddress"]').text().trim();
+      // ══════════════════════════════════════════════════════
+      // HANDLER 4: ESTATESALES.NET DETAIL (individual sale)
+      // ══════════════════════════════════════════════════════
+      if (source === 'estatesales' && request.url.includes('/sale/')) {
+        const title = $('h1').first().text().trim();
+        const description = cleanDescription(
+          $('.sale-description, .description, #sale-description').html() || ''
+        );
+        const addressEl = $('[itemprop="streetAddress"], .street-address').text().trim();
         const cityEl = $('[itemprop="addressLocality"]').text().trim();
         const stateEl = $('[itemprop="addressRegion"]').text().trim();
         const zipEl = $('[itemprop="postalCode"]').text().trim();
-        const description = $('.sale-description, .description, [class*="description"]').text().trim();
+        const lat = $('[itemprop="latitude"]').attr('content') || null;
+        const lng = $('[itemprop="longitude"]').attr('content') || null;
+        const images = getAllImgUrls($);
 
-        // Image extraction with lazy-load support
-        const allImages: string[] = [];
-        $('.sale-photo img, .photo-gallery img, [class*="gallery"] img, [class*="photo"] img, .sale-images img, .slider img').each((_i, img) => {
-          const src = $(img).attr('src')
-            || $(img).attr('data-src')
-            || $(img).attr('data-lazy')
-            || $(img).attr('data-lazy-src')
-            || $(img).attr('data-original')
-            || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) {
-            allImages.push(src);
-          }
-        });
+        const dateText = $('.sale-dates, .dates, [itemprop="startDate"]').text().trim();
+        const times = extractTimes(dateText + ' ' + description);
 
-        const dateSection = $('.sale-dates, .dates, [class*="date"]').text().trim();
-        const times = extractTimes(dateSection);
-        const parsedDate = extractDateFromText(dateSection);
+        // Try to find and enrich the matching pending sale
+        const existingSale = pendingSales.find((s) => s.source_url === request.url);
 
         if (existingSale) {
-          if (fullAddress && hasValidAddress(fullAddress)) existingSale.address = fullAddress;
+          // ── PATH A: Enrich in-memory ──
+          existingSale.description = description || existingSale.description;
+          if (addressEl) existingSale.address = addressEl;
           if (cityEl) existingSale.city = cityEl;
           if (stateEl) existingSale.state = stateEl;
           if (zipEl) existingSale.zip = zipEl;
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (description) existingSale.description = cleanDescription(description);
-          if (allImages.length > 0) existingSale.image_urls = allImages;
-          if (times.time_start) existingSale.time_start = times.time_start;
-          if (times.time_end) existingSale.time_end = times.time_end;
-          if (parsedDate) existingSale.date_start = parsedDate;
-          console.log(`  📝 [ES detail] enriched: ${existingSale.title.slice(0, 50)}`);
+          if (lat) existingSale.lat = parseFloat(lat);
+          if (lng) existingSale.lng = parseFloat(lng);
+          if (images.length > 0) existingSale.image_urls = images;
+          if (times.start) existingSale.time_start = times.start;
+          if (times.end) existingSale.time_end = times.end;
         } else {
-          // Already flushed to DB → update directly
-          if (allImages.length > 0 || fullAddress || description) {
-            const updateData: Record<string, unknown> = {};
-            if (allImages.length > 0) updateData.image_urls = allImages;
-            if (fullAddress && hasValidAddress(fullAddress)) updateData.address = fullAddress;
-            if (cityEl) updateData.city = cityEl;
-            if (stateEl) updateData.state = stateEl;
-            if (zipEl) updateData.zip = zipEl;
-            // ★ v4.0: cleanDescription()
-            if (description) updateData.description = cleanDescription(description);
-            if (times.time_start) updateData.time_start = times.time_start;
-            if (times.time_end) updateData.time_end = times.time_end;
-            if (parsedDate) updateData.date_start = parsedDate;
+          // ── PATH B: Direct DB update ──
+          const updateData: Record<string, unknown> = {};
+          if (description) updateData.description = description;
+          if (addressEl) updateData.address = addressEl;
+          if (cityEl) updateData.city = cityEl;
+          if (stateEl) updateData.state = stateEl;
+          if (zipEl) updateData.zip = zipEl;
+          if (lat) updateData.lat = parseFloat(lat);
+          if (lng) updateData.lng = parseFloat(lng);
+          if (images.length > 0) updateData.image_urls = images;
+          if (times.start) updateData.time_start = times.start;
+          if (times.end) updateData.time_end = times.end;
 
-            const { error } = await supabase
+          if (Object.keys(updateData).length > 0) {
+            const { error: upErr } = await supabase
               .from('yard_sales')
               .update(updateData)
-              .eq('source_url', sourceUrl);
-
-            if (error) {
-              console.log(`  ⚠️ [ES detail] DB update failed: ${error.message}`);
-            } else {
-              console.log(`  📸 [ES detail] updated DB directly: ${allImages.length} photos + enrichment`);
+              .eq('source_url', request.url);
+            if (upErr) {
+              log.debug(`ES Detail DB update failed: ${upErr.message}`);
             }
           }
         }
+
+        sourceStats.estatesales.details++;
+        return;
       }
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 5: GARAGESALEFINDER INDEX               ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'gsf_index') {
-        const detailUrls: string[] = [];
+      // ══════════════════════════════════════════════════════
+      // HANDLER 5: GARAGESALEFINDER INDEX (state listing)
+      // ══════════════════════════════════════════════════════
+      if (source === 'garagesalefinder' && !request.url.includes('/yard-sale/')) {
+        sourceStats.garagesalefinder.pages++;
 
-        // Primary listing cards
-        $('div[class*="saleListing"], div[class*="sale-listing"], div[class*="SaleListing"], .listing-item, .sale-item, .garage-sale-item, [class*="listingCard"]').each((_i, el) => {
-          const title = $(el).find('h2, h3, h4, a strong, a b, .sale-title, [class*="title"]').first().text().trim();
-          const link = $(el).find('a').first().attr('href') || '';
-          const fullLink = link.startsWith('http') ? link : `https://www.garagesalefinder.com${link}`;
-          const sourceId = `gsf-deep-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
+        const cards = $('article, .sale-listing, .sale-card, .listing');
+        cards.each((_, el) => {
+          const $card = $(el);
+          const title = $card.find('h2, h3, .title, .sale-title').first().text().trim();
+          const link = $card.find('a').first().attr('href') || '';
+          const bodyText = $card.text().trim();
+          const addressText = $card.find('.address, .location').text().trim();
+          const dateText = $card.find('.date, time, .sale-date').text().trim();
 
-          if (!title || title.length < 5 || seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
+          if (!title || !link) return;
 
-          const bodyText = $(el).text();
-          const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = getImgUrl($(el), $);
-          const dateText = $(el).find('.date, [class*="date"]').text().trim();
-          const parsedDate = extractDateFromText(dateText);
-          const times = extractTimes(bodyText);
+          const fullUrl = link.startsWith('http')
+            ? link
+            : `https://www.garagesalefinder.com${link}`;
 
-          pendingSales.push({
-            source_id: sourceId,
+          // v4.1: Extract city from address text or body text
+          const gsfCity = extractCityFromAddress(addressText) || extractCityFromAddress(bodyText) || '';
+
+          const sale: ScrapedSale = {
+            source_id: link.split('/').pop() || '',
             title,
             description: '',
-            address,
-            city: '',
+            address: extractAddressFromText(addressText || bodyText) || '',
+            city: gsfCity,
             state: state || '',
-            zip: extractZip(bodyText),
+            zip: extractZip(addressText || bodyText) || '',
             lat: null,
             lng: null,
-            date_start: parsedDate || new Date().toISOString().split('T')[0],
-            date_end: null,
-            time_start: times.time_start,
-            time_end: times.time_end,
-            price_range: null,
-            categories: guessCategories(title),
-            source: 'garagesalefinder.com',
-            source_url: fullLink,
-            image_urls: imgSrc ? [imgSrc] : [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-            scraped_at: new Date().toISOString(),
-            pushed: false,
-          });
-
-          if (link.match(/\/sale\/\d/) || link.match(/\/yard-sale\//)) {
-            detailUrls.push(fullLink);
-          }
-        });
-
-        // Fallback: anchors with sale links
-        $('a[href*="/sale/"]').each((_i, el) => {
-          const title = $(el).text().trim();
-          const link = $(el).attr('href') || '';
-          if (!title || title.length < 5 || !link.match(/\/sale\/\d/)) return;
-
-          const fullLink = link.startsWith('http') ? link : `https://www.garagesalefinder.com${link}`;
-          const sourceId = `gsf-deep-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-
-          if (seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
-
-          pendingSales.push({
-            source_id: sourceId,
-            title,
-            description: '',
-            address: '',
-            city: '',
-            state: state || '',
-            zip: '',
-            lat: null,
-            lng: null,
-            date_start: new Date().toISOString().split('T')[0],
+            date_start: extractDateFromText(dateText || bodyText),
             date_end: null,
             time_start: null,
             time_end: null,
             price_range: null,
             categories: guessCategories(title),
-            source: 'garagesalefinder.com',
-            source_url: fullLink,
+            source: 'garagesalefinder',
+            source_url: fullUrl,
             image_urls: [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
-          });
+          };
 
-          detailUrls.push(fullLink);
+          pendingSales.push(sale);
+          sourceStats.garagesalefinder.listings++;
         });
 
-        if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls.map(url => ({
-            url,
-            userData: { source: 'garagesalefinder', state, pageType: 'gsf_detail' },
-          })));
-          detailCount += detailUrls.length;
+        // Enqueue detail pages
+        await enqueueLinks({
+          selector: 'a[href*="/yard-sale/"]',
+          userData: { source: 'garagesalefinder', state, handler: 'detail' },
+        });
+
+        // Pagination
+        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
+        if (currentPage < GSF_MAX_PAGES) {
+          const nextUrl = $('a.next, a[rel="next"], .pagination a:contains("Next")').attr('href');
+          if (nextUrl) {
+            const fullNextUrl = nextUrl.startsWith('http')
+              ? nextUrl
+              : `https://www.garagesalefinder.com${nextUrl}`;
+            await crawler.addRequests([{
+              url: fullNextUrl,
+              userData: { source: 'garagesalefinder', state, page: String(currentPage + 1) },
+            }]);
+          }
         }
 
-        sourceStats.garagesalefinder.success++;
-        sourceStats.garagesalefinder.listings += detailUrls.length;
-        console.log(`  ✅ [GSF] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+        return;
       }
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 6: GARAGESALEFINDER DETAIL              ║
-      // ║  ★ v4.0: cleanDescription() applied ★            ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'gsf_detail') {
-        const sourceUrl = request.url;
-        const sourceId = `gsf-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-        const existingSale = pendingSales.find(s => s.source_id === sourceId);
+      // ══════════════════════════════════════════════════════
+      // HANDLER 6: GARAGESALEFINDER DETAIL (individual sale)
+      // ══════════════════════════════════════════════════════
+      if (source === 'garagesalefinder' && request.url.includes('/yard-sale/')) {
+        const title = $('h1').first().text().trim();
+        const description = cleanDescription(
+          $('.sale-description, .description, .sale-details').html() || $('article').html() || ''
+        );
+        const addressText = $('.address, .sale-address, .location').text().trim();
+        const images = getAllImgUrls($);
+        const dateText = $('.date, .sale-date, time').text().trim();
+        const times = extractTimes(description + ' ' + dateText);
 
-        const bodyText = $('body').text();
-        const detailAddress = extractAddressFromText(bodyText);
-        const description = $('.sale-description, .description, [class*="description"], #sale-details, .details').text().trim();
+        // v4.1: Extract city from address text
+        const gsfDetailCity = extractCityFromAddress(addressText) || '';
 
-        // Image extraction with lazy-load support
-        const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
-          const src = $(img).attr('src')
-            || $(img).attr('data-src')
-            || $(img).attr('data-lazy')
-            || $(img).attr('data-lazy-src')
-            || $(img).attr('data-original')
-            || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) {
-            allImages.push(src);
-          }
-        });
-
-        const times = extractTimes(bodyText);
-        const parsedDate = extractDateFromText(bodyText);
+        // Try to find and enrich the matching pending sale
+        const existingSale = pendingSales.find((s) => s.source_url === request.url);
 
         if (existingSale) {
-          if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (description) existingSale.description = cleanDescription(description);
-          if (allImages.length > 0) existingSale.image_urls = allImages;
-          if (times.time_start) existingSale.time_start = times.time_start;
-          if (times.time_end) existingSale.time_end = times.time_end;
-          if (parsedDate) existingSale.date_start = parsedDate;
-          existingSale.zip = existingSale.zip || extractZip(bodyText);
-          console.log(`  📝 [GSF detail] enriched: ${existingSale.title.slice(0, 50)}`);
+          // ── PATH A: Enrich in-memory ──
+          existingSale.description = description || existingSale.description;
+          if (addressText) existingSale.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Set city if still empty
+          if (!existingSale.city && gsfDetailCity) {
+            existingSale.city = gsfDetailCity;
+          }
+          existingSale.zip = extractZip(addressText) || existingSale.zip;
+          if (images.length > 0) existingSale.image_urls = images;
+          if (times.start) existingSale.time_start = times.start;
+          if (times.end) existingSale.time_end = times.end;
+          if (!existingSale.date_start) {
+            existingSale.date_start = extractDateFromText(dateText || description);
+          }
         } else {
-          // Already flushed to DB → update directly
-          if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, unknown> = {};
-            if (allImages.length > 0) updateData.image_urls = allImages;
-            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            // ★ v4.0: cleanDescription()
-            if (description) updateData.description = cleanDescription(description);
-            if (times.time_start) updateData.time_start = times.time_start;
-            if (times.time_end) updateData.time_end = times.time_end;
-            if (parsedDate) updateData.date_start = parsedDate;
-            const bodyZip = extractZip(bodyText);
-            if (bodyZip) updateData.zip = bodyZip;
+          // ── PATH B: Direct DB update ──
+          const updateData: Record<string, unknown> = {};
+          if (description) updateData.description = description;
+          if (addressText) updateData.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Always set city on direct updates
+          if (gsfDetailCity) updateData.city = gsfDetailCity;
+          const zip = extractZip(addressText);
+          if (zip) updateData.zip = zip;
+          if (images.length > 0) updateData.image_urls = images;
+          if (times.start) updateData.time_start = times.start;
+          if (times.end) updateData.time_end = times.end;
 
-            const { error } = await supabase
+          if (Object.keys(updateData).length > 0) {
+            const { error: upErr } = await supabase
               .from('yard_sales')
               .update(updateData)
-              .eq('source_url', sourceUrl);
-
-            if (error) {
-              console.log(`  ⚠️ [GSF detail] DB update failed: ${error.message}`);
-            } else {
-              console.log(`  📸 [GSF detail] updated DB directly: ${allImages.length} photos + enrichment`);
+              .eq('source_url', request.url);
+            if (upErr) {
+              log.debug(`GSF Detail DB update failed: ${upErr.message}`);
             }
           }
         }
-      }
 
+        sourceStats.garagesalefinder.details++;
+        return;
+      }
 
 // ════════════════════════════════════════════════════════════
 // END OF PART 4/6
 // ════════════════════════════════════════════════════════════
-// ════════════════════════════════════════════════════════════
-// PART 5/6 — YARDSALESEARCH HANDLERS + GSALR INDEX HANDLER
-// ════════════════════════════════════════════════════════════
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 7: YARDSALESEARCH INDEX                 ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'yss_index') {
-        const detailUrls: string[] = [];
 
-        $('div[class*="listing"], div[class*="Listing"], .sale-listing, .result-item, .sale-item, .yard-sale-item, [class*="saleResult"]').each((_i, el) => {
-          const title = $(el).find('h2, h3, h4, strong, b, .title, [class*="title"]').first().text().trim();
-          const link = $(el).find('a').first().attr('href') || '';
-          const fullLink = link.startsWith('http') ? link : `https://www.yardsalesearch.com${link}`;
-          const sourceId = `yss-deep-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
+      // ══════════════════════════════════════════════════════
+      // HANDLER 7: YARDSALESEARCH INDEX (city listing page)
+      // ══════════════════════════════════════════════════════
+      if (source === 'yardsalesearch' && !request.userData.handler) {
+        sourceStats.yardsalesearch.pages++;
 
-          if (!title || title.length < 5 || seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
+        const cards = $('article, .sale-listing, .sale-card, .listing, .result');
+        cards.each((_, el) => {
+          const $card = $(el);
+          const title = $card.find('h2, h3, .title, .sale-title, a').first().text().trim();
+          const link = $card.find('a').first().attr('href') || '';
+          const bodyText = $card.text().trim();
+          const addressText = $card.find('.address, .location').text().trim();
+          const dateText = $card.find('.date, time, .sale-date').text().trim();
 
-          const bodyText = $(el).text();
-          const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = getImgUrl($(el), $);
-          const times = extractTimes(bodyText);
-          const parsedDate = extractDateFromText(bodyText);
+          if (!title || !link) return;
 
-          pendingSales.push({
-            source_id: sourceId,
+          const fullUrl = link.startsWith('http')
+            ? link
+            : `https://www.yardsalesearch.com${link}`;
+
+          // v4.1: Extract city from yssSlug in userData (e.g. 'Winston-Salem-NC')
+          const yssSlug = request.userData.yssSlug || '';
+          const yssCity = extractCityFromYSSSlug(yssSlug);
+
+          const sale: ScrapedSale = {
+            source_id: link.split('/').pop()?.replace('.html', '') || '',
             title,
             description: '',
-            address,
-            city: '',
+            address: extractAddressFromText(addressText || bodyText) || '',
+            city: yssCity || extractCityFromAddress(addressText) || '',
             state: state || '',
-            zip: extractZip(bodyText),
+            zip: extractZip(addressText || bodyText) || '',
             lat: null,
             lng: null,
-            date_start: parsedDate || new Date().toISOString().split('T')[0],
+            date_start: extractDateFromText(dateText || bodyText),
             date_end: null,
-            time_start: times.time_start,
-            time_end: times.time_end,
+            time_start: null,
+            time_end: null,
             price_range: null,
             categories: guessCategories(title),
-            source: 'yardsalesearch.com',
-            source_url: fullLink,
-            image_urls: imgSrc ? [imgSrc] : [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+            source: 'yardsalesearch',
+            source_url: fullUrl,
+            image_urls: [],
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
-          });
+          };
 
-          if (link && link.includes('.html') && link !== request.url) {
-            detailUrls.push(fullLink);
-          }
+          pendingSales.push(sale);
+          sourceStats.yardsalesearch.listings++;
         });
 
+        // Enqueue detail pages — v4.1: pass yssSlug to detail handler
+        const detailLinks = $('a[href*="/yard-sale/"], a[href*="/sale/"]');
+        const detailUrls: { url: string; userData: Record<string, string> }[] = [];
+        detailLinks.each((_, el) => {
+          const href = $(el).attr('href') || '';
+          if (!href) return;
+          const fullUrl = href.startsWith('http')
+            ? href
+            : `https://www.yardsalesearch.com${href}`;
+          detailUrls.push({
+            url: fullUrl,
+            userData: {
+              source: 'yardsalesearch',
+              state,
+              handler: 'detail',
+              yssSlug: request.userData.yssSlug || '',
+            },
+          });
+        });
         if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls.map(url => ({
-            url,
-            userData: { source: 'yardsalesearch', state, pageType: 'yss_detail' },
-          })));
-          detailCount += detailUrls.length;
+          await crawler.addRequests(detailUrls);
         }
 
-        sourceStats.yardsalesearch.success++;
-        sourceStats.yardsalesearch.listings += detailUrls.length;
-        console.log(`  ✅ [YSS] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+        // Pagination
+        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
+        if (currentPage < YSS_MAX_PAGES) {
+          const nextUrl = $('a.next, a[rel="next"], .pagination a:contains("Next")').attr('href');
+          if (nextUrl) {
+            const fullNextUrl = nextUrl.startsWith('http')
+              ? nextUrl
+              : `https://www.yardsalesearch.com${nextUrl}`;
+            await crawler.addRequests([{
+              url: fullNextUrl,
+              userData: {
+                source: 'yardsalesearch',
+                state,
+                page: String(currentPage + 1),
+                yssSlug: request.userData.yssSlug || '',
+              },
+            }]);
+          }
+        }
+
+        return;
       }
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 8: YARDSALESEARCH DETAIL                ║
-      // ║  ★ v4.0: cleanDescription() applied ★            ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'yss_detail') {
-        const sourceUrl = request.url;
-        const sourceId = `yss-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-        const existingSale = pendingSales.find(s => s.source_id === sourceId);
+      // ══════════════════════════════════════════════════════
+      // HANDLER 8: YARDSALESEARCH DETAIL (individual sale)
+      // ══════════════════════════════════════════════════════
+      if (source === 'yardsalesearch' && request.userData.handler === 'detail') {
+        const title = $('h1').first().text().trim();
+        const description = cleanDescription(
+          $('.sale-description, .description, .sale-details').html() || $('article').html() || ''
+        );
+        const addressText = $('.address, .sale-address, .location').text().trim();
+        const images = getAllImgUrls($);
+        const dateText = $('.date, .sale-date, time').text().trim();
+        const times = extractTimes(description + ' ' + dateText);
 
-        const bodyText = $('body').text();
-        const detailAddress = extractAddressFromText(bodyText);
-        const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
+        // v4.1: Extract city from yssSlug or address text
+        const yssSlug = request.userData.yssSlug || '';
+        const yssDetailCity = extractCityFromYSSSlug(yssSlug) || extractCityFromAddress(addressText) || '';
 
-        // Image extraction with lazy-load support
-        const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
-          const src = $(img).attr('src')
-            || $(img).attr('data-src')
-            || $(img).attr('data-lazy')
-            || $(img).attr('data-lazy-src')
-            || $(img).attr('data-original')
-            || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) {
-            allImages.push(src);
-          }
-        });
-
-        const times = extractTimes(bodyText);
-        const parsedDate = extractDateFromText(bodyText);
+        // Try to find and enrich the matching pending sale
+        const existingSale = pendingSales.find((s) => s.source_url === request.url);
 
         if (existingSale) {
-          if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (description) existingSale.description = cleanDescription(description);
-          if (allImages.length > 0) existingSale.image_urls = allImages;
-          if (times.time_start) existingSale.time_start = times.time_start;
-          if (times.time_end) existingSale.time_end = times.time_end;
-          if (parsedDate) existingSale.date_start = parsedDate;
-          existingSale.zip = existingSale.zip || extractZip(bodyText);
-          console.log(`  📝 [YSS detail] enriched: ${existingSale.title.slice(0, 50)}`);
+          // ── PATH A: Enrich in-memory ──
+          existingSale.description = description || existingSale.description;
+          if (addressText) existingSale.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Set city if still empty
+          if (!existingSale.city && yssDetailCity) {
+            existingSale.city = yssDetailCity;
+          }
+          existingSale.zip = extractZip(addressText) || existingSale.zip;
+          if (images.length > 0) existingSale.image_urls = images;
+          if (times.start) existingSale.time_start = times.start;
+          if (times.end) existingSale.time_end = times.end;
+          if (!existingSale.date_start) {
+            existingSale.date_start = extractDateFromText(dateText || description);
+          }
         } else {
-          // Already flushed to DB → update directly
-          if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, unknown> = {};
-            if (allImages.length > 0) updateData.image_urls = allImages;
-            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            // ★ v4.0: cleanDescription()
-            if (description) updateData.description = cleanDescription(description);
-            if (times.time_start) updateData.time_start = times.time_start;
-            if (times.time_end) updateData.time_end = times.time_end;
-            if (parsedDate) updateData.date_start = parsedDate;
-            const bodyZip = extractZip(bodyText);
-            if (bodyZip) updateData.zip = bodyZip;
+          // ── PATH B: Direct DB update ──
+          const updateData: Record<string, unknown> = {};
+          if (description) updateData.description = description;
+          if (addressText) updateData.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Always set city on direct updates
+          if (yssDetailCity) updateData.city = yssDetailCity;
+          const zip = extractZip(addressText);
+          if (zip) updateData.zip = zip;
+          if (images.length > 0) updateData.image_urls = images;
+          if (times.start) updateData.time_start = times.start;
+          if (times.end) updateData.time_end = times.end;
 
-            const { error } = await supabase
+          if (Object.keys(updateData).length > 0) {
+            const { error: upErr } = await supabase
               .from('yard_sales')
               .update(updateData)
-              .eq('source_url', sourceUrl);
-
-            if (error) {
-              console.log(`  ⚠️ [YSS detail] DB update failed: ${error.message}`);
-            } else {
-              console.log(`  📸 [YSS detail] updated DB directly: ${allImages.length} photos + enrichment`);
+              .eq('source_url', request.url);
+            if (upErr) {
+              log.debug(`YSS Detail DB update failed: ${upErr.message}`);
             }
           }
         }
+
+        sourceStats.yardsalesearch.details++;
+        return;
       }
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 9: GSALR.COM INDEX (ScraperAPI-only)    ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'gsalr_index') {
-        const detailUrls: string[] = [];
+      // ══════════════════════════════════════════════════════
+      // HANDLER 9: GSALR INDEX (state listing page)
+      // ══════════════════════════════════════════════════════
+      if (source === 'gsalr' && !request.userData.handler) {
+        sourceStats.gsalr.pages++;
 
-        // Primary listing cards
-        $('div.sale, .sale-listing, .listing, article, .result, .sale-item, [class*="sale"], [class*="listing"]').each((_i, el) => {
-          const title = $(el).find('h2, h3, h4, .title, a strong, a b, [class*="title"]').first().text().trim();
-          const link = $(el).find('a').first().attr('href') || '';
+        const cards = $('article, .sale-listing, .sale-card, .listing, .result, .classifiedAd');
+        cards.each((_, el) => {
+          const $card = $(el);
+          const title = $card.find('h2, h3, .title, .sale-title, a').first().text().trim();
+          const link = $card.find('a').first().attr('href') || '';
+          const bodyText = $card.text().trim();
+          const addressText = $card.find('.address, .location').text().trim();
+          const dateText = $card.find('.date, time, .sale-date').text().trim();
 
-          if (!title || title.length < 5 || title.length > 300) return;
+          if (!title || !link) return;
 
-          const fullLink = link.startsWith('http') ? link : `https://gsalr.com${link}`;
-          const sourceId = `gsalr-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
+          const fullUrl = link.startsWith('http')
+            ? link
+            : `https://gsalr.com${link}`;
 
-          if (seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
+          // v4.1: Extract city from body text or address text
+          const gsalrCity = extractCityFromAddress(addressText) || extractCityFromAddress(bodyText) || '';
 
-          const bodyText = $(el).text();
-          const address = extractAddressFromText(bodyText) || '';
-          const imgSrc = getImgUrl($(el), $);
-          const times = extractTimes(bodyText);
-          const parsedDate = extractDateFromText(bodyText);
-
-          pendingSales.push({
-            source_id: sourceId,
+          const sale: ScrapedSale = {
+            source_id: link.split('/').pop()?.replace('.html', '') || '',
             title,
             description: '',
-            address,
-            city: '',
+            address: extractAddressFromText(addressText || bodyText) || '',
+            city: gsalrCity,
             state: state || '',
-            zip: extractZip(bodyText),
+            zip: extractZip(addressText || bodyText) || '',
             lat: null,
             lng: null,
-            date_start: parsedDate || new Date().toISOString().split('T')[0],
+            date_start: extractDateFromText(dateText || bodyText),
             date_end: null,
-            time_start: times.time_start,
-            time_end: times.time_end,
+            time_start: null,
+            time_end: null,
             price_range: null,
             categories: guessCategories(title),
-            source: 'gsalr.com',
-            source_url: fullLink,
-            image_urls: imgSrc ? [imgSrc] : [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-            scraped_at: new Date().toISOString(),
-            pushed: false,
-          });
-
-          // Enqueue detail pages
-          if (link && (link.includes('/sale') || link.includes('/garage-sale'))) {
-            detailUrls.push(fullLink);
-          }
-        });
-
-        // Fallback: grab any listing links on the page
-        $('a[href*="/sale"], a[href*="/garage-sale"]').each((_i, el) => {
-          const title = $(el).text().trim();
-          const link = $(el).attr('href') || '';
-          if (!title || title.length < 5 || title.length > 300) return;
-
-          const fullLink = link.startsWith('http') ? link : `https://gsalr.com${link}`;
-          const sourceId = `gsalr-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-
-          if (seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
-
-          const bodyText = $(el).parent().text();
-          const times = extractTimes(bodyText);
-          const parsedDate = extractDateFromText(bodyText);
-
-          pendingSales.push({
-            source_id: sourceId,
-            title,
-            description: '',
-            address: extractAddressFromText(bodyText) || '',
-            city: '',
-            state: state || '',
-            zip: extractZip(bodyText),
-            lat: null,
-            lng: null,
-            date_start: parsedDate || new Date().toISOString().split('T')[0],
-            date_end: null,
-            time_start: times.time_start,
-            time_end: times.time_end,
-            price_range: null,
-            categories: guessCategories(title),
-            source: 'gsalr.com',
-            source_url: fullLink,
+            source: 'gsalr',
+            source_url: fullUrl,
             image_urls: [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
-          });
+          };
 
-          detailUrls.push(fullLink);
+          pendingSales.push(sale);
+          sourceStats.gsalr.listings++;
         });
 
-        if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls.map(url => ({
-            url,
-            userData: { source: 'gsalr', state, pageType: 'gsalr_detail' },
-          })));
-          detailCount += detailUrls.length;
+        // Enqueue detail pages
+        await enqueueLinks({
+          selector: 'a[href*="/sale/"], a[href*="/garage-sale/"]',
+          userData: { source: 'gsalr', state, handler: 'detail' },
+        });
+
+        // Pagination
+        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
+        if (currentPage < GSALR_MAX_PAGES) {
+          const nextUrl = $('a.next, a[rel="next"], .pagination a:contains("Next"), a:contains("next")').attr('href');
+          if (nextUrl) {
+            const fullNextUrl = nextUrl.startsWith('http')
+              ? nextUrl
+              : `https://gsalr.com${nextUrl}`;
+            await crawler.addRequests([{
+              url: fullNextUrl,
+              userData: { source: 'gsalr', state, page: String(currentPage + 1) },
+            }]);
+          }
         }
 
-        sourceStats.gsalr.success++;
-        sourceStats.gsalr.listings += detailUrls.length;
-        console.log(`  ✅ [GSALR] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+        return;
       }
-
 
 // ════════════════════════════════════════════════════════════
 // END OF PART 5/6
 // ════════════════════════════════════════════════════════════
-// ════════════════════════════════════════════════════════════
-// PART 6/6 — GSALR DETAIL + BATCH SAVE + FAIL HANDLER + RUNNER + POST-CRAWL + STATS
-// ════════════════════════════════════════════════════════════
 
-      // ╔══════════════════════════════════════════════════╗
-      // ║  HANDLER 10: GSALR.COM DETAIL (ScraperAPI-only)  ║
-      // ║  ★ v4.0: cleanDescription() applied ★            ║
-      // ╚══════════════════════════════════════════════════╝
-      else if (pageType === 'gsalr_detail') {
-        const sourceUrl = request.url;
-        const sourceId = `gsalr-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-        const existingSale = pendingSales.find(s => s.source_id === sourceId);
 
-        const bodyText = $('body').text();
-        const detailAddress = extractAddressFromText(bodyText);
-        const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
+      // ══════════════════════════════════════════════════════
+      // HANDLER 10: GSALR DETAIL (individual sale)
+      // ══════════════════════════════════════════════════════
+      if (source === 'gsalr' && request.userData.handler === 'detail') {
+        const title = $('h1').first().text().trim();
+        const description = cleanDescription(
+          $('.sale-description, .description, .sale-details, .classifiedBody').html() ||
+          $('article').html() || ''
+        );
+        const addressText = $('.address, .sale-address, .location').text().trim();
+        const images = getAllImgUrls($);
+        const dateText = $('.date, .sale-date, time').text().trim();
+        const times = extractTimes(description + ' ' + dateText);
 
-        // Image extraction with lazy-load support
-        const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
-          const src = $(img).attr('src')
-            || $(img).attr('data-src')
-            || $(img).attr('data-lazy')
-            || $(img).attr('data-lazy-src')
-            || $(img).attr('data-original')
-            || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) {
-            allImages.push(src);
-          }
-        });
+        // v4.1: Extract city from address text
+        const gsalrDetailCity = extractCityFromAddress(addressText) || '';
 
-        const times = extractTimes(bodyText);
-        const parsedDate = extractDateFromText(bodyText);
+        // Try to find and enrich the matching pending sale
+        const existingSale = pendingSales.find((s) => s.source_url === request.url);
 
         if (existingSale) {
-          if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
-          if (description) existingSale.description = cleanDescription(description);
-          if (allImages.length > 0) existingSale.image_urls = allImages;
-          if (times.time_start) existingSale.time_start = times.time_start;
-          if (times.time_end) existingSale.time_end = times.time_end;
-          if (parsedDate) existingSale.date_start = parsedDate;
-          existingSale.zip = existingSale.zip || extractZip(bodyText);
-          console.log(`  📝 [GSALR detail] enriched: ${existingSale.title.slice(0, 50)}`);
+          // ── PATH A: Enrich in-memory ──
+          existingSale.description = description || existingSale.description;
+          if (addressText) existingSale.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Set city if still empty
+          if (!existingSale.city && gsalrDetailCity) {
+            existingSale.city = gsalrDetailCity;
+          }
+          existingSale.zip = extractZip(addressText) || existingSale.zip;
+          if (images.length > 0) existingSale.image_urls = images;
+          if (times.start) existingSale.time_start = times.start;
+          if (times.end) existingSale.time_end = times.end;
+          if (!existingSale.date_start) {
+            existingSale.date_start = extractDateFromText(dateText || description);
+          }
         } else {
-          // Already flushed to DB → update directly
-          if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, unknown> = {};
-            if (allImages.length > 0) updateData.image_urls = allImages;
-            if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            // ★ v4.0: cleanDescription()
-            if (description) updateData.description = cleanDescription(description);
-            if (times.time_start) updateData.time_start = times.time_start;
-            if (times.time_end) updateData.time_end = times.time_end;
-            if (parsedDate) updateData.date_start = parsedDate;
-            const bodyZip = extractZip(bodyText);
-            if (bodyZip) updateData.zip = bodyZip;
+          // ── PATH B: Direct DB update ──
+          const updateData: Record<string, unknown> = {};
+          if (description) updateData.description = description;
+          if (addressText) updateData.address = extractAddressFromText(addressText) || addressText;
+          // v4.1: Always set city on direct updates
+          if (gsalrDetailCity) updateData.city = gsalrDetailCity;
+          const zip = extractZip(addressText);
+          if (zip) updateData.zip = zip;
+          if (images.length > 0) updateData.image_urls = images;
+          if (times.start) updateData.time_start = times.start;
+          if (times.end) updateData.time_end = times.end;
 
-            const { error } = await supabase
+          if (Object.keys(updateData).length > 0) {
+            const { error: upErr } = await supabase
               .from('yard_sales')
               .update(updateData)
-              .eq('source_url', sourceUrl);
-
-            if (error) {
-              console.log(`  ⚠️ [GSALR detail] DB update failed: ${error.message}`);
-            } else {
-              console.log(`  📸 [GSALR detail] updated DB directly: ${allImages.length} photos + enrichment`);
+              .eq('source_url', request.url);
+            if (upErr) {
+              log.debug(`Gsalr Detail DB update failed: ${upErr.message}`);
             }
           }
         }
+
+        sourceStats.gsalr.details++;
+        return;
       }
 
-      // ══════════════════════════════════════════════════
-      // BATCH SAVE — every SAVE_BATCH_SIZE (25) sales
-      // ══════════════════════════════════════════════════
-      if (pendingSales.length >= SAVE_BATCH_SIZE) {
-        const batch = pendingSales.splice(0, pendingSales.length);
-        const saved = await saveBatchToSupabase(batch);
-        savedCount += saved;
-        console.log(`  💾 [Save] ${saved} sales saved to Supabase (${savedCount} total, ${seenIds.size} unique found)`);
-      }
+      // ══════════════════════════════════════════════════════
+      // UNHANDLED SOURCE — log and skip
+      // ══════════════════════════════════════════════════════
+      log.debug(`Unhandled request: ${request.url} (source: ${source})`);
 
-      // Progress log every 25 pages
-      if (processedCount % 25 === 0) {
-        const elapsed = ((Date.now() - crawlStartTime) / 1000 / 60).toFixed(1);
-        console.log(`\n  ═══ [Progress] ${processedCount} pages | ${detailCount} detail | ${seenIds.size} unique | ${savedCount} saved | ${skippedCount} failed | ${elapsed} min ═══\n`);
-      }
+    }, // end requestHandler
 
-      // 2s delay between requests — critical for CL rate limiting
-      await new Promise(resolve => setTimeout(resolve, 2000));
-    },
-
-    // ══════════════════════════════════════════════════
-    // FAILED REQUEST HANDLER
-    // ══════════════════════════════════════════════════
-    async failedRequestHandler({ request, error }) {
-      skippedCount++;
-      const { source } = request.userData as { source: string };
-      if (sourceStats[source]) sourceStats[source].failed++;
-
-      const shortUrl = request.url.replace(/https?:\/\/(www\.)?/, '').slice(0, 70);
-      const errMsg = (error as Error)?.message?.slice(0, 80) || 'Unknown error';
-      console.log(`  ❌ [FAIL #${skippedCount}] [${source}] ${shortUrl} — ${errMsg}`);
+    // ══════════════════════════════════════════════════════
+    // BATCH SAVE: Save periodically during crawl
+    // ══════════════════════════════════════════════════════
+    async requestHandlerTimeout({ request }) {
+      log.warning(`Request timed out: ${request.url}`);
     },
   });
 
-  // ══════════════════════════════════════════════════════════
-  // ADD URLs AND RUN THE CRAWLER
-  // ══════════════════════════════════════════════════════════
-  console.log(`\nAdding ${startUrls.length} URLs to queue...`);
-  await crawler.addRequests(startUrls);
-  console.log('Starting Crawlee v4.0...\n');
-  await crawler.run();
+  // ── Periodic batch save during crawl ──
+  const batchSaveInterval = setInterval(async () => {
+    if (pendingSales.length >= SAVE_BATCH_SIZE) {
+      const batch = pendingSales.splice(0, SAVE_BATCH_SIZE);
+      await saveBatchToSupabase(batch);
+      totalProcessed += batch.length;
+      log.info(`Batch saved ${batch.length} sales (total processed: ${totalProcessed})`);
+    }
+  }, 2000);
 
-  // ══════════════════════════════════════════════════════════
-  // FINAL SAVE — flush any remaining pendingSales
-  // ══════════════════════════════════════════════════════════
+  // ── Failed request handler ──
+  crawler.on('requestFailed', ({ request, error }) => {
+    const { source } = request.userData as { source: string };
+    log.warning(`Request failed: ${request.url} (source: ${source}) — ${error?.message || 'unknown'}`);
+  });
+
+  // ══════════════════════════════════════════════════════
+  // RUN THE CRAWLER
+  // ══════════════════════════════════════════════════════
+  log.info('Starting CityScraper v4.1 crawl...');
+  await crawler.run(startUrls);
+
+  // Stop the batch save interval
+  clearInterval(batchSaveInterval);
+
+  // ── Final save: flush any remaining pending sales ──
   if (pendingSales.length > 0) {
-    const saved = await saveBatchToSupabase(pendingSales);
-    savedCount += saved;
-    console.log(`  💾 [Final Save] ${saved} remaining sales saved (${savedCount} total)`);
-    pendingSales.length = 0;
+    await saveBatchToSupabase(pendingSales);
+    totalProcessed += pendingSales.length;
+    log.info(`Final batch saved ${pendingSales.length} remaining sales.`);
   }
 
-  const crawlDuration = (Date.now() - crawlStartTime) / 1000;
-
-  // ══════════════════════════════════════════════════════════
-  // CRAWL PHASE STATS — per-source breakdown
-  // ══════════════════════════════════════════════════════════
-  console.log('\n═══════════════════════════════════════════════════════');
-  console.log(' CRAWL PHASE COMPLETE — SOURCE BREAKDOWN');
-  console.log('═══════════════════════════════════════════════════════');
+  // ── Summary stats ──
+  const elapsed = ((Date.now() - crawlStartTime) / 1000 / 60).toFixed(1);
+  log.info('══════════════════════════════════════════════════');
+  log.info(`CityScraper v4.1 — Crawl Complete`);
+  log.info(`Total processed: ${totalProcessed} | Elapsed: ${elapsed} min`);
+  log.info('── Source Breakdown ──');
   for (const [src, stats] of Object.entries(sourceStats)) {
-    console.log(`  ${src.toUpperCase()}: ${stats.success} pages OK, ${stats.failed} failed, ${stats.listings} listings`);
+    log.info(`  ${src}: ${stats.listings} listings, ${stats.details} details, ${stats.pages} pages`);
   }
-  console.log('───────────────────────────────────────────────────────');
-  console.log(`  Total pages crawled: ${processedCount}`);
-  console.log(`  Total detail pages:  ${detailCount}`);
-  console.log(`  Total pages failed:  ${skippedCount}`);
-  console.log(`  Unique sales found:  ${seenIds.size}`);
-  console.log(`  Sales saved to DB:   ${savedCount}`);
-  console.log(`  Crawl duration:      ${crawlDuration.toFixed(1)}s (${(crawlDuration / 60).toFixed(1)} min)`);
-  console.log('═══════════════════════════════════════════════════════');
+  log.info('══════════════════════════════════════════════════');
 
-  // ══════════════════════════════════════════════════════════
-  // POST-CRAWL ADDRESS CLEANUP (v3.8)
-  // Removes listings with no valid street address
-  // ══════════════════════════════════════════════════════════
-  const { cleaned, kept } = await postCrawlAddressCleanup();
+  // ── Post-crawl cleanup ──
+  await postCrawlAddressCleanup();
+  await postCrawlGeocode();
 
-  // ══════════════════════════════════════════════════════════
-  // POST-CRAWL GEOCODING
-  // Only geocodes rows that survived cleanup
-  // ══════════════════════════════════════════════════════════
-  const geocoded = await postCrawlGeocode();
-
-  // ══════════════════════════════════════════════════════════
-  // FINAL SUMMARY
-  // ══════════════════════════════════════════════════════════
-  const totalDuration = (Date.now() - crawlStartTime) / 1000;
-  console.log('\n═══════════════════════════════════════════════════════');
-  console.log(' CRAWLEE DEEP SCRAPER v4.0 — ALL DONE');
-  console.log(`  Sales saved:         ${savedCount}`);
-  console.log(`  Address cleanup:     ${cleaned} removed, ${kept} kept`);
-  console.log(`  Sales geocoded:      ${geocoded}`);
-  console.log(`  Total duration:      ${totalDuration.toFixed(1)}s (${(totalDuration / 60).toFixed(1)} min)`);
-  console.log('═══════════════════════════════════════════════════════');
+  log.info('Post-crawl tasks complete. CityScraper v4.1 finished.');
 }
 
 // ══════════════════════════════════════════════════════════════
-// MODULE-LEVEL — crawlStartTime used inside requestHandler
-// for progress logging elapsed time
+// ENTRY POINT
 // ══════════════════════════════════════════════════════════════
-let crawlStartTime = Date.now();
+const crawlStartTime = Date.now();
 
-// ══════════════════════════════════════════════════════════════
-// RUN
-// ══════════════════════════════════════════════════════════════
 main().catch((err) => {
-  console.error('Fatal error:', err);
+  log.error(`CityScraper v4.1 fatal error: ${err.message}`);
   process.exit(1);
 });
+
+// ════════════════════════════════════════════════════════════
+// END OF PART 6/6 — FILE COMPLETE
+// ════════════════════════════════════════════════════════════
