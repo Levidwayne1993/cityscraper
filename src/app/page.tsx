@@ -1,3 +1,7 @@
+// FILE: src/app/page.tsx
+// REPLACES: src/app/page.tsx
+// CLEANED: Removed CheapHouseHub, CryptoToolbox pipelines, counts, terminal refs, footer refs
+
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -14,28 +18,12 @@ const PIPELINES = [
     href: '/dashboard?tab=yard-sales',
     stats: { label: 'Sales Tracked', key: 'yard_sales' },
   },
-  {
-    name: 'CheapHouseHub.com',
-    description: 'Foreclosures, auctions, cheap homes under market value',
-    icon: '🏠',
-    color: 'cyan',
-    href: '/dashboard?tab=cheap-homes',
-    stats: { label: 'Listings Found', key: 'cheap_homes' },
-  },
-  {
-    name: 'CryptoToolbox.org',
-    description: 'Live prices, news, DeFi yields, whale alerts, sentiment',
-    icon: '₿',
-    color: 'amber',
-    href: '/dashboard?tab=crypto',
-    stats: { label: 'Data Points', key: 'crypto' },
-  },
 ];
 
 const FEATURES = [
   { icon: <Zap className="w-5 h-5" />, title: 'Real-Time Scraping', desc: 'Automated collection every 4 hours across all pipelines' },
   { icon: <Database className="w-5 h-5" />, title: 'Supabase Storage', desc: 'PostgreSQL-backed with full-text search and geo queries' },
-  { icon: <Globe className="w-5 h-5" />, title: 'Multi-Site Push', desc: 'One scrape feeds three websites simultaneously' },
+  { icon: <Globe className="w-5 h-5" />, title: 'Multi-Site Push', desc: 'One scrape feeds YardShoppers.com automatically' },
   { icon: <Shield className="w-5 h-5" />, title: 'API-Key Protected', desc: 'Every endpoint locked behind authentication' },
   { icon: <BarChart3 className="w-5 h-5" />, title: 'Live Dashboard', desc: 'Monitor scrape health, data volume, and push status' },
   { icon: <Activity className="w-5 h-5" />, title: 'Error Recovery', desc: 'Auto-retry with exponential backoff on failures' },
@@ -43,21 +31,20 @@ const FEATURES = [
 
 export default function HomePage() {
   const [terminalLines, setTerminalLines] = useState<string[]>([]);
-  const [counts, setCounts] = useState({ yard_sales: 0, cheap_homes: 0, crypto: 0 });
+  const [counts, setCounts] = useState({ yard_sales: 0 });
 
   // Boot-up terminal animation
   useEffect(() => {
     const lines = [
-      '> Initializing CityScraper Engine v1.0.0...',
+      '> Initializing CityScraper Engine v4.1...',
       '> Connecting to Supabase cluster...',
-      '> Loading scraper modules: [yard-sales] [cheap-homes] [crypto]',
+      '> Loading scraper modules: [yard-sales]',
       '> Verifying API keys... ✓',
-      '> Push targets configured: yardshoppers.com | cheaphousehub.com | cryptotoolbox.org',
+      '> Push target configured: yardshoppers.com',
       '> Cron schedule: */4 hours',
       '> System status: OPERATIONAL',
       '> Welcome, Operator.',
     ];
-
     lines.forEach((line, i) => {
       setTimeout(() => {
         setTerminalLines((prev) => [...prev, line]);
@@ -72,7 +59,7 @@ export default function HomePage() {
         const res = await fetch('/api/health');
         if (res.ok) {
           const data = await res.json();
-          setCounts(data.counts || { yard_sales: 0, cheap_homes: 0, crypto: 0 });
+          setCounts(data.counts || { yard_sales: 0 });
         }
       } catch {
         // Dashboard will show 0 until API is live
@@ -97,7 +84,7 @@ export default function HomePage() {
           Advanced Multi-Site Aggregator Engine
         </p>
         <p className="text-matrix-green-dim/60 text-sm max-w-xl mx-auto">
-          One engine. Three websites. Infinite data.
+          One engine. One mission. Nationwide yard sale data.
         </p>
 
         {/* Terminal Boot */}
@@ -106,7 +93,9 @@ export default function HomePage() {
             <div className="w-3 h-3 rounded-full bg-matrix-red/80" />
             <div className="w-3 h-3 rounded-full bg-matrix-amber/80" />
             <div className="w-3 h-3 rounded-full bg-matrix-green/80" />
-            <span className="text-matrix-green-dim/50 text-xs ml-2 font-display">CITYSCRAPER TERMINAL</span>
+            <span className="text-matrix-green-dim/50 text-xs ml-2 font-display">
+              CITYSCRAPER TERMINAL
+            </span>
           </div>
           <div className="terminal-sm space-y-1 min-h-[200px]">
             {terminalLines.map((line, i) => (
@@ -136,7 +125,7 @@ export default function HomePage() {
         <h2 className="font-display text-xl tracking-widest text-matrix-green-dim mb-6 text-center">
           // DATA PIPELINES
         </h2>
-        <div className="grid md:grid-cols-3 gap-6">
+        <div className="grid md:grid-cols-1 gap-6 max-w-md mx-auto">
           {PIPELINES.map((pipe, i) => (
             <motion.div
               key={pipe.name}
@@ -149,15 +138,7 @@ export default function HomePage() {
                   <div className="flex items-center gap-3 mb-4">
                     <span className="text-3xl">{pipe.icon}</span>
                     <div>
-                      <h3
-                        className={`font-display text-sm tracking-wider ${
-                          pipe.color === 'green'
-                            ? 'text-matrix-green text-glow'
-                            : pipe.color === 'cyan'
-                            ? 'text-matrix-cyan text-glow-cyan'
-                            : 'text-matrix-amber text-glow-amber'
-                        }`}
-                      >
+                      <h3 className="font-display text-sm tracking-wider text-matrix-green text-glow">
                         {pipe.name}
                       </h3>
                     </div>
@@ -207,14 +188,15 @@ export default function HomePage() {
       <section className="text-center mb-16">
         <Link href="/dashboard">
           <button className="neon-btn font-display">
-            Enter Command Center <ArrowRight className="inline w-4 h-4 ml-2" />
+            Enter Command Center
+            <ArrowRight className="inline w-4 h-4 ml-2" />
           </button>
         </Link>
       </section>
 
       {/* FOOTER */}
       <footer className="text-center text-matrix-green-dim/30 terminal-xs pb-8 border-t border-matrix-panel-border pt-6">
-        <p>CITYSCRAPER.ORG v1.0.0 | Powering YardShoppers | CheapHouseHub | CryptoToolbox</p>
+        <p>CITYSCRAPER.ORG v4.1 | Powering YardShoppers</p>
         <p className="mt-1">Built by Levi | {new Date().getFullYear()}</p>
       </footer>
     </div>

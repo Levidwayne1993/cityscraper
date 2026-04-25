@@ -1,16 +1,18 @@
+// FILE: src/components/Navbar.tsx
+// REPLACES: src/components/Navbar.tsx
+// CLEANED: Removed cheap-homes and crypto nav items + Bitcoin import
+
 'use client';
 
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
-import { Menu, X, Activity, Home, Tag, Bitcoin, Settings, LayoutDashboard } from 'lucide-react';
+import { Menu, X, Activity, Home, Tag, Settings, LayoutDashboard } from 'lucide-react';
 
 const NAV_ITEMS = [
   { href: '/', label: 'Home', icon: <Home className="w-4 h-4" /> },
   { href: '/dashboard', label: 'Dashboard', icon: <LayoutDashboard className="w-4 h-4" /> },
   { href: '/yard-sales', label: 'Yard Sales', icon: <Tag className="w-4 h-4" /> },
-  { href: '/cheap-homes', label: 'Cheap Homes', icon: <Home className="w-4 h-4" /> },
-  { href: '/crypto', label: 'Crypto', icon: <Bitcoin className="w-4 h-4" /> },
   { href: '/settings', label: 'Settings', icon: <Settings className="w-4 h-4" /> },
 ];
 

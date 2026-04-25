@@ -1,3 +1,7 @@
+// FILE: src/app/layout.tsx
+// REPLACES: src/app/layout.tsx
+// CLEANED: Removed CheapHouseHub and CryptoToolbox from metadata
+
 import type { Metadata } from 'next';
 import './globals.css';
 import { Navbar } from '@/components/Navbar';
@@ -6,8 +10,9 @@ import { CityScape } from '@/components/CityScape';
 
 export const metadata: Metadata = {
   title: 'CityScraper.org | Advanced Multi-Site Aggregator Engine',
-  description: 'Command center powering YardShoppers.com, CheapHouseHub.com, and CryptoToolbox.org with real-time data aggregation.',
-  keywords: 'aggregator, scraper, yard sales, cheap homes, crypto, data engine',
+  description:
+    'Command center powering YardShoppers.com with real-time yard sale data aggregation.',
+  keywords: 'aggregator, scraper, yard sales, garage sales, estate sales, data engine',
   icons: { icon: '/favicon.ico' },
 };
 

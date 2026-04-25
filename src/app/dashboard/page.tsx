@@ -1,20 +1,30 @@
-// ============================================================
 // FILE: src/app/dashboard/page.tsx
-// STATUS: FIXED — removed hardcoded 'your-key-here' API key.
-//         Now reads from NEXT_PUBLIC_CITYSCRAPER_API_KEY env var.
-// REPLACES: src/app/dashboard/page.tsx (existing file)
-// ============================================================
+// REPLACES: src/app/dashboard/page.tsx
+// CLEANED: Removed cheap-homes and crypto pipelines, pipeConfig, triggerAll, chart, placeholder logs
 
 'use client';
 
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import {
-  Activity, RefreshCw, Play, Clock, CheckCircle, AlertTriangle,
-  Tag, Home, Bitcoin, ArrowUpRight, Database
+  Activity,
+  RefreshCw,
+  Play,
+  Clock,
+  CheckCircle,
+  AlertTriangle,
+  Tag,
+  ArrowUpRight,
+  Database,
 } from 'lucide-react';
 import {
-  AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer
+  AreaChart,
+  Area,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  ResponsiveContainer,
 } from 'recharts';
 
 interface PipelineStatus {
@@ -41,8 +51,6 @@ interface ScrapeLog {
 export default function DashboardPage() {
   const [pipelines, setPipelines] = useState<PipelineStatus[]>([
     { name: 'yard-sales', status: 'idle', lastRun: null, itemsScraped: 0, itemsPushed: 0, errors: 0 },
-    { name: 'cheap-homes', status: 'idle', lastRun: null, itemsScraped: 0, itemsPushed: 0, errors: 0 },
-    { name: 'crypto', status: 'idle', lastRun: null, itemsScraped: 0, itemsPushed: 0, errors: 0 },
   ]);
   const [logs, setLogs] = useState<ScrapeLog[]>([]);
   const [chartData, setChartData] = useState<any[]>([]);
@@ -51,7 +59,7 @@ export default function DashboardPage() {
   // Fetch dashboard data
   useEffect(() => {
     fetchDashboardData();
-    const interval = setInterval(fetchDashboardData, 30000); // refresh every 30s
+    const interval = setInterval(fetchDashboardData, 30000);
     return () => clearInterval(interval);
   }, []);
 
@@ -69,11 +77,6 @@ export default function DashboardPage() {
     }
   }
 
-  // ============================================================
-  // FIX: Replaced hardcoded 'your-key-here' with env variable
-  // Add to .env.local and Vercel:
-  //   NEXT_PUBLIC_CITYSCRAPER_API_KEY=cs_your_random_secret_key_here
-  // ============================================================
   async function triggerScrape(pipeline: string) {
     setIsRunning(true);
     setPipelines((prev) =>
@@ -89,7 +92,6 @@ export default function DashboardPage() {
         },
       });
       const data = await res.json();
-
       if (!res.ok) {
         throw new Error(data.error || `HTTP ${res.status}`);
       }
@@ -118,18 +120,8 @@ export default function DashboardPage() {
     }
   }
 
-  async function triggerAll() {
-    setIsRunning(true);
-    for (const pipe of ['yard-sales', 'cheap-homes', 'crypto']) {
-      await triggerScrape(pipe);
-    }
-    setIsRunning(false);
-  }
-
   const pipeConfig: Record<string, { icon: React.ReactNode; label: string; color: string }> = {
     'yard-sales': { icon: <Tag className="w-5 h-5" />, label: 'YardShoppers', color: 'green' },
-    'cheap-homes': { icon: <Home className="w-5 h-5" />, label: 'CheapHouseHub', color: 'cyan' },
-    crypto: { icon: <Bitcoin className="w-5 h-5" />, label: 'CryptoToolbox', color: 'amber' },
   };
 
   const statusColors: Record<string, string> = {
@@ -160,19 +152,19 @@ export default function DashboardPage() {
           </p>
         </div>
         <button
-          onClick={triggerAll}
+          onClick={() => triggerScrape('yard-sales')}
           disabled={isRunning}
           className="neon-btn flex items-center gap-2 disabled:opacity-30"
         >
           <Play className="w-4 h-4" />
-          {isRunning ? 'RUNNING...' : 'RUN ALL'}
+          {isRunning ? 'RUNNING...' : 'RUN SCRAPE'}
         </button>
       </div>
 
       {/* PIPELINE CARDS */}
-      <div className="grid md:grid-cols-3 gap-6 mb-10">
+      <div className="grid md:grid-cols-1 gap-6 mb-10 max-w-lg">
         {pipelines.map((pipe, i) => {
-          const cfg = pipeConfig[pipe.name];
+          const cfg = pipeConfig[pipe.name] || { icon: <Tag className="w-5 h-5" />, label: pipe.name, color: 'green' };
           return (
             <motion.div
               key={pipe.name}
@@ -183,17 +175,7 @@ export default function DashboardPage() {
             >
               <div className="flex items-center justify-between mb-4">
                 <div className="flex items-center gap-2">
-                  <span
-                    className={
-                      cfg.color === 'green'
-                        ? 'text-matrix-green'
-                        : cfg.color === 'cyan'
-                        ? 'text-matrix-cyan'
-                        : 'text-matrix-amber'
-                    }
-                  >
-                    {cfg.icon}
-                  </span>
+                  <span className="text-matrix-green">{cfg.icon}</span>
                   <span className="font-display text-xs tracking-wider">{cfg.label}</span>
                 </div>
                 <span className={`flex items-center gap-1 terminal-xs ${statusColors[pipe.status]}`}>
@@ -221,9 +203,7 @@ export default function DashboardPage() {
 
               <div className="flex items-center justify-between">
                 <span className="terminal-xs text-matrix-green-dim/30">
-                  {pipe.lastRun
-                    ? `Last: ${new Date(pipe.lastRun).toLocaleTimeString()}`
-                    : 'Never run'}
+                  {pipe.lastRun ? `Last: ${new Date(pipe.lastRun).toLocaleTimeString()}` : 'Never run'}
                 </span>
                 <button
                   onClick={() => triggerScrape(pipe.name)}
@@ -263,26 +243,9 @@ export default function DashboardPage() {
               <Area
                 type="monotone"
                 dataKey="yardSales"
-                stackId="1"
                 stroke="#00ff41"
                 fill="#00ff4120"
                 name="Yard Sales"
-              />
-              <Area
-                type="monotone"
-                dataKey="cheapHomes"
-                stackId="1"
-                stroke="#00d4ff"
-                fill="#00d4ff20"
-                name="Cheap Homes"
-              />
-              <Area
-                type="monotone"
-                dataKey="crypto"
-                stackId="1"
-                stroke="#ffb000"
-                fill="#ffb00020"
-                name="Crypto"
               />
             </AreaChart>
           </ResponsiveContainer>
@@ -309,16 +272,29 @@ export default function DashboardPage() {
             </thead>
             <tbody>
               {(logs.length ? logs : generatePlaceholderLogs()).map((log, i) => (
-                <tr key={log.id || i} className="border-b border-matrix-panel-border/30 hover:bg-matrix-green/5">
+                <tr
+                  key={log.id || i}
+                  className="border-b border-matrix-panel-border/30 hover:bg-matrix-green/5"
+                >
                   <td className="py-2 px-2 font-display tracking-wider">
                     {pipeConfig[log.pipeline]?.label || log.pipeline}
                   </td>
-                  <td className={`py-2 px-2 ${log.status === 'success' ? 'text-matrix-green' : log.status === 'error' ? 'text-matrix-red' : 'text-matrix-amber'}`}>
+                  <td
+                    className={`py-2 px-2 ${
+                      log.status === 'success'
+                        ? 'text-matrix-green'
+                        : log.status === 'error'
+                        ? 'text-matrix-red'
+                        : 'text-matrix-amber'
+                    }`}
+                  >
                     {log.status.toUpperCase()}
                   </td>
                   <td className="py-2 px-2 text-right">{log.items_found}</td>
                   <td className="py-2 px-2 text-right text-matrix-cyan">{log.items_pushed}</td>
-                  <td className={`py-2 px-2 text-right ${log.errors > 0 ? 'text-matrix-red' : ''}`}>{log.errors}</td>
+                  <td className={`py-2 px-2 text-right ${log.errors > 0 ? 'text-matrix-red' : ''}`}>
+                    {log.errors}
+                  </td>
                   <td className="py-2 px-2 text-right text-matrix-green-dim/50">
                     {log.duration_ms ? `${(log.duration_ms / 1000).toFixed(1)}s` : '—'}
                   </td>
@@ -341,15 +317,21 @@ function generatePlaceholderChart() {
   return hours.map((time) => ({
     time,
     yardSales: Math.floor(Math.random() * 50),
-    cheapHomes: Math.floor(Math.random() * 30),
-    crypto: Math.floor(Math.random() * 100),
   }));
 }
 
 function generatePlaceholderLogs(): ScrapeLog[] {
   return [
-    { id: '1', pipeline: 'yard-sales', status: 'success', items_found: 142, items_pushed: 138, errors: 0, started_at: new Date().toISOString(), completed_at: new Date().toISOString(), duration_ms: 12400 },
-    { id: '2', pipeline: 'cheap-homes', status: 'success', items_found: 89, items_pushed: 85, errors: 2, started_at: new Date().toISOString(), completed_at: new Date().toISOString(), duration_ms: 18700 },
-    { id: '3', pipeline: 'crypto', status: 'success', items_found: 500, items_pushed: 500, errors: 0, started_at: new Date().toISOString(), completed_at: new Date().toISOString(), duration_ms: 4200 },
+    {
+      id: '1',
+      pipeline: 'yard-sales',
+      status: 'success',
+      items_found: 142,
+      items_pushed: 138,
+      errors: 0,
+      started_at: new Date().toISOString(),
+      completed_at: new Date().toISOString(),
+      duration_ms: 12400,
+    },
   ];
 }
