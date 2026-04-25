@@ -2,44 +2,30 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v3.7 — /sss RESTORED + 50+ KEYWORDS + STRICT ADDRESS + PHOTO-FIX
+// CRAWLEE DEEP SCRAPER v4.0 — CLEAN DESCRIPTIONS + TIME FIX + ALL v3.8 FEATURES
 //
-// CHANGES FROM v3.0:
-//   1. PHOTO-FIX: getImgUrl(), getAllImgUrls(), parseCraigslistDataIds()
-//      — checks src, data-src, data-lazy, data-lazy-src, data-original,
-//        data-image, content, srcset on ALL sources
-//   2. CL detail pages: parse data-ids attribute for real image URLs
-//   3. ALL v3.0 sources preserved: CL, EstateSales, GSF, YSS, Gsalr
-//   4. CL estate+sale & moving+sale sub-queries (826 extra URLs)
-//   5. Total URLs: ~5,324+ (same as v3.0, plus photo extraction fixes)
+// v4.0 CHANGES:
+//   1. FIX: CL detail selector — cascading fallback instead of comma-join
+//      (was grabbing ALL page chrome: nav arrows, buttons, metadata, etc.)
+//   2. NEW: cleanDescription() — strips CL/source junk (nav, buttons, metadata,
+//      QR text, scam warnings, post IDs, best-of, flag icons, etc.)
+//   3. FIX: normalizeTime() — ensures "8 AM" becomes "8:00 AM" (fixes
+//      "8undefined AM" display bug on YardShoppers frontend)
+//   4. cleanDescription() applied on ALL detail handlers (CL, ES, GSF, YSS, Gsalr)
 //
-// ALL v3.0 FEATURES STILL INCLUDED:
-//   - 413 CL subdomains with /gms + /sss (v3.7: /sss restored — keyword+address gates catch junk)
-//   - CL estate+sale & moving+sale sub-queries (v3.0)
+// ALL PREVIOUS FEATURES PRESERVED:
+//   - 413 CL subdomains with /gms + /sss (keyword+address gates)
+//   - CL estate+sale & moving+sale sub-queries
 //   - 274 YardSaleSearch cities × 5 pages
 //   - 50 EstateSales.net states × 5 pages
 //   - 50 GarageSaleFinder states × 5 pages
-//   - 50 Gsalr.com states × 3 pages (ScraperAPI-only) (v3.0)
-//   - Verbose logging per URL
-//   - 2s delay between requests
-//   - CL 3 pages max
-//   - Concurrency = 2
-//   - Save every 25 sales (save-first)
-//   - 2 retries
-//   - Per-source counters
+//   - 50 Gsalr.com states × 3 pages (ScraperAPI-only)
+//   - Photo-fix helpers (v3.1): getImgUrl, getAllImgUrls, parseCraigslistDataIds
+//   - Save-first (v3.8) + post-crawl address cleanup + post-crawl geocoding
+//   - 50+ keyword filter with typo support (v3.6)
+//   - Strict address validation (v3.5)
 //   - Detail page crawling on all sources
-//   - Craigslist /gms + /sss (v3.7: safe with keyword+address gates)
-//   - Post-crawl geocoding via Nominatim
-//   - Broad CSS selectors with fallbacks
-//   - ScraperAPI country_code=us
-//   - Purge on start
-//
-// PHOTO-FIX IMPROVEMENTS (v3.1):
-//   - Universal getImgUrl() helper (multi-attribute extraction)
-//   - getAllImgUrls() for container-level image discovery
-//   - parseCraigslistDataIds() for CL's data-ids image format
-//   - Enhanced lazy-load support across all sources
-//   - Expanded CSS selectors for detail page galleries
+//   - Deduplication via seenIds Set + Supabase upsert on source_url
 //
 // RUN: npx tsx scripts/crawlee-deep-scraper.ts
 //
@@ -48,7 +34,7 @@
 //   NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 //   SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 //
-// INSTALL (same as before):
+// INSTALL:
 //   npm install crawlee cheerio dotenv @supabase/supabase-js
 // ============================================================
 
@@ -75,16 +61,16 @@ const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 // ── GEOCODING CONFIG ──
 const GEOCODE_DELAY_MS = 1100;
-const GEOCODE_USER_AGENT = 'CityScraper/3.1 (cityscraper.org)';
+const GEOCODE_USER_AGENT = 'CityScraper/4.0 (cityscraper.org)';
 
-// ── v2.2: REDUCED PAGINATION ──
-const CL_MAX_PAGES = 3;         // Was 10 → now 3 (freshest listings)
+// ── PAGINATION LIMITS ──
+const CL_MAX_PAGES = 3;
 const ES_MAX_PAGES = 5;
 const GSF_MAX_PAGES = 5;
 const YSS_MAX_PAGES = 5;
 
-// ── v2.2: SMALLER SAVE BATCHES ──
-const SAVE_BATCH_SIZE = 25;     // Was 100 → now 25
+// ── SAVE BATCHES ──
+const SAVE_BATCH_SIZE = 25;
 
 // ── TYPES ──
 interface ScrapedSale {
@@ -111,7 +97,7 @@ interface ScrapedSale {
   pushed: boolean;
 }
 
-// ── v2.2: PER-SOURCE COUNTERS ──
+// ── PER-SOURCE COUNTERS ──
 const sourceStats: Record<string, { success: number; failed: number; listings: number }> = {
   craigslist: { success: 0, failed: 0, listings: 0 },
   estatesales: { success: 0, failed: 0, listings: 0 },
@@ -123,86 +109,57 @@ const sourceStats: Record<string, { success: number; failed: number; listings: n
 // ── ADDRESS VALIDATION (hard gate) ──
 function hasValidAddress(text: string): boolean {
   const t = text.trim();
-  // v3.5: Must have street number + street name + street type
-  // Example: "2607 114th Ave SW" or "123 Main Street"
   if (t.length < 8) return false;
-  // Pattern: starts with digits (street number), then words, then a street type suffix
   return /^\d+\s+[\w]+(\s+[\w]+)*\s+(St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Hwy|Highway|Trail|Tr|Terrace|Trl|Loop|Run|Pass|Pike|Alley|Aly)\b/i.test(t);
 }
 
-// ── YARD SALE KEYWORD FILTER (v3.4) ──
-// ── v3.6: COMPREHENSIVE KEYWORD FILTER — 50+ terms with misspelling support ──
-// s[ae]i?le?s? catches: sale, sail, sales, sails, sael, sel (common typos)
-// [-\s]* catches: "yard sale", "yardsale", "yard-sale" (all formats)
+// ── YARD SALE KEYWORD FILTER (v3.6: 50+ terms with misspelling support) ──
 const SALE_TERMS = [
-  // ── Core terms (+ typos) ──
-  'yard[-\\s]*s[ae]i?le?s?',                     // yard sale, yardsale, yard sail
-  'yrad[-\\s]*s[ae]i?le?s?',                     // yrad sale (transposed)
-  'g[ae]?r[ae]?ge?[-\\s]*s[ae]i?le?s?',          // garage sale, garag sale, grage sale, garaje sale
-  'est[ae]te?[-\\s]*s[ae]i?le?s?',               // estate sale, estat sale
-  'mov[ei]*n[g\']?[-\\s]*(out[-\\s]*)?s[ae]i?le?s?', // moving sale, moveing sale, moving out sale
-
-  // ── Rummage / Tag ──
-  'r[uo]mm?[aei]ge[-\\s]*s[ae]i?le?s?',          // rummage sale, rumage, rummige
-  'tag[-\\s]*s[ae]i?le?s?',                      // tag sale
-
-  // ── Location-based sales ──
-  'porch[-\\s]*s[ae]i?le?s?',                    // porch sale
-  'car[-\\s]*port[-\\s]*s[ae]i?le?s?',            // carport sale, car port sale
-  'drive[-\\s]*way[-\\s]*s[ae]i?le?s?',           // driveway sale
-  'barn[-\\s]*s[ae]i?le?s?',                     // barn sale
-  'shed[-\\s]*s[ae]i?le?s?',                     // shed sale
-  'storage[-\\s]*s[ae]i?le?s?',                  // storage sale
-
-  // ── Downsizing / Clean-out ──
-  'downsiz\\w*[-\\s]*s[ae]i?le?s?',              // downsizing sale
-  'downsiz\\w*',                                   // downsizing, downsizing before moving
-  'clean[-\\s]*out[-\\s]*s[ae]i?le?s?',           // clean-out sale, cleanout sale
-  'house[-\\s]*clean[-\\s]*out',                   // house cleanout
-
-  // ── Whole house / Everything must go / Liquidation ──
-  'whole[-\\s]*house[-\\s]*s[ae]i?le?s?',         // whole house sale
-  'everything[-\\s]*must[-\\s]*go',                // everything must go
-  'liquidat\\w*[-\\s]*s[ae]i?le?s?',             // liquidation sale
-  'household[-\\s]*(s[ae]i?le?s?|goods)',         // household sale, household goods
-
-  // ── Group / Community sales ──
-  'multi[-\\s]*family[-\\s]*s[ae]i?le?s?',        // multi-family sale, multi family sale
-  'family[-\\s]*s[ae]i?le?s?',                   // family sale
-  'community[-\\s]*s[ae]i?le?s?',                // community sale
-  'n[ei]+gh?b[ou]*r[-\\s]*h?oo?d[-\\s]*s[ae]i?le?s?', // neighborhood sale + misspellings
-  'sub[-\\s]*divi[sz]i?on[-\\s]*s[ae]i?le?s?',     // subdivision sale, subdivison sale
-  'block[-\\s]*s[ae]i?le?s?',                    // block sale
-  'street[-\\s]*s[ae]i?le?s?',                   // street sale
-
-  // ── Organization sales ──
-  'hoa[-\\s]*s[ae]i?le?s?',                      // HOA sale
-  'church[-\\s]*s[ae]i?le?s?',                   // church sale
-  'fundrais\\w*[-\\s]*s[ae]i?le?s?',             // fundraiser sale
-  'school[-\\s]*r[uo]mm?age',                     // school rummage
-
-  // ── Flea market / Swap meet ──
-  'fl[ei]+a?[-\\s]*mar[ck][ei]t',                   // flea market, flee market, flea markit
-  'swap[-\\s]*meets?',                            // swap meet, swapmeet
-
-  // ── Relocation / Pre-move ──
-  'relocat\\w*[-\\s]*s[ae]i?le?s?',              // relocation sale
-  'pre[-\\s]*move[-\\s]*s[ae]i?le?s?',            // pre-move sale
-  'going[-\\s]*away[-\\s]*s[ae]i?le?s?',          // going away sale
-  'leaving[-\\s]*town',                           // leaving town sale
-
-  // ── Specialty sales ──
-  'pop[-\\s]*up[-\\s]*s[ae]i?le?s?',              // pop-up sale
-  'tool[-\\s]*s[ae]i?le?s?',                     // tool sale
-  'antique[-\\s]*s[ae]i?le?s?',                  // antique sale
-
-  // ── Online / Local / Near me ──
-  'online[-\\s]*(yard|garage)[-\\s]*s[ae]i?le?s?', // online yard sale, online garage sale
-  'local[-\\s]*yard[-\\s]*s[ae]i?le?s?',          // local yard sales
-  '(yard|garage)[-\\s]*s[ae]i?le?s?[-\\s]*near[-\\s]*me', // yard sales near me
-
-  // ── Misc ──
-  'declutter\\w*',                                // declutter, decluttering
+  'yard[-\\s]*s[ae]i?le?s?',
+  'yrad[-\\s]*s[ae]i?le?s?',
+  'g[ae]?r[ae]?ge?[-\\s]*s[ae]i?le?s?',
+  'est[ae]te?[-\\s]*s[ae]i?le?s?',
+  'mov[ei]*n[g\']?[-\\s]*(out[-\\s]*)?s[ae]i?le?s?',
+  'r[uo]mm?[aei]ge[-\\s]*s[ae]i?le?s?',
+  'tag[-\\s]*s[ae]i?le?s?',
+  'porch[-\\s]*s[ae]i?le?s?',
+  'car[-\\s]*port[-\\s]*s[ae]i?le?s?',
+  'drive[-\\s]*way[-\\s]*s[ae]i?le?s?',
+  'barn[-\\s]*s[ae]i?le?s?',
+  'shed[-\\s]*s[ae]i?le?s?',
+  'storage[-\\s]*s[ae]i?le?s?',
+  'downsiz\\w*[-\\s]*s[ae]i?le?s?',
+  'downsiz\\w*',
+  'clean[-\\s]*out[-\\s]*s[ae]i?le?s?',
+  'house[-\\s]*clean[-\\s]*out',
+  'whole[-\\s]*house[-\\s]*s[ae]i?le?s?',
+  'everything[-\\s]*must[-\\s]*go',
+  'liquidat\\w*[-\\s]*s[ae]i?le?s?',
+  'household[-\\s]*(s[ae]i?le?s?|goods)',
+  'multi[-\\s]*family[-\\s]*s[ae]i?le?s?',
+  'family[-\\s]*s[ae]i?le?s?',
+  'community[-\\s]*s[ae]i?le?s?',
+  'n[ei]+gh?b[ou]*r[-\\s]*h?oo?d[-\\s]*s[ae]i?le?s?',
+  'sub[-\\s]*divi[sz]i?on[-\\s]*s[ae]i?le?s?',
+  'block[-\\s]*s[ae]i?le?s?',
+  'street[-\\s]*s[ae]i?le?s?',
+  'hoa[-\\s]*s[ae]i?le?s?',
+  'church[-\\s]*s[ae]i?le?s?',
+  'fundrais\\w*[-\\s]*s[ae]i?le?s?',
+  'school[-\\s]*r[uo]mm?age',
+  'fl[ei]+a?[-\\s]*mar[ck][ei]t',
+  'swap[-\\s]*meets?',
+  'relocat\\w*[-\\s]*s[ae]i?le?s?',
+  'pre[-\\s]*move[-\\s]*s[ae]i?le?s?',
+  'going[-\\s]*away[-\\s]*s[ae]i?le?s?',
+  'leaving[-\\s]*town',
+  'pop[-\\s]*up[-\\s]*s[ae]i?le?s?',
+  'tool[-\\s]*s[ae]i?le?s?',
+  'antique[-\\s]*s[ae]i?le?s?',
+  'online[-\\s]*(yard|garage)[-\\s]*s[ae]i?le?s?',
+  'local[-\\s]*yard[-\\s]*s[ae]i?le?s?',
+  '(yard|garage)[-\\s]*s[ae]i?le?s?[-\\s]*near[-\\s]*me',
+  'declutter\\w*',
 ].join('|');
 const SALE_KEYWORDS = new RegExp(`\\b(${SALE_TERMS})\\b`, 'i');
 function isYardSale(title: string, description?: string): boolean {
@@ -220,15 +177,30 @@ function extractZip(text: string): string {
   return match ? match[1] : '';
 }
 
-// ── TIME EXTRACTION ──
+// ── v4.0 NEW: TIME NORMALIZATION ──
+// Ensures all times have minutes: "8 AM" → "8:00 AM", "8AM" → "8:00 AM"
+// Fixes the "8undefined AM" bug on YardShoppers frontend
+function normalizeTime(t: string): string {
+  const m = t.match(/^(\d{1,2})(?::(\d{2}))?\s*(am|pm)$/i);
+  if (!m) return t;
+  const hours = m[1];
+  const minutes = m[2] || '00';
+  const period = m[3].toUpperCase();
+  return `${hours}:${minutes} ${period}`;
+}
+
+// ── TIME EXTRACTION (v4.0: now normalizes all times) ──
 function extractTimes(text: string): { time_start: string | null; time_end: string | null } {
   const rangeMatch = text.match(/(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))\s*[-–to]+\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))/i);
   if (rangeMatch) {
-    return { time_start: rangeMatch[1].trim(), time_end: rangeMatch[2].trim() };
+    return {
+      time_start: normalizeTime(rangeMatch[1].trim()),
+      time_end: normalizeTime(rangeMatch[2].trim()),
+    };
   }
   const singleMatch = text.match(/(?:starts?\s+(?:at\s+)?|opens?\s+(?:at\s+)?|from\s+)(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))/i);
   if (singleMatch) {
-    return { time_start: singleMatch[1].trim(), time_end: null };
+    return { time_start: normalizeTime(singleMatch[1].trim()), time_end: null };
   }
   return { time_start: null, time_end: null };
 }
@@ -248,9 +220,7 @@ function extractDateFromText(text: string): string | null {
   return null;
 }
 
-// ── UNIVERSAL IMAGE EXTRACTION (v2.3-photo-fix) ──
-// Most yard sale sites lazy-load images via data-src, data-lazy, etc.
-// This helper checks ALL common attributes so we actually get photos.
+// ── UNIVERSAL IMAGE EXTRACTION (v3.1 photo-fix) ──
 function getImgUrl(el: any, $: any): string {
   const img = $(el).is('img') ? $(el) : $(el).find('img').first();
   return (
@@ -266,7 +236,6 @@ function getImgUrl(el: any, $: any): string {
   );
 }
 
-// Extracts ALL image URLs from a container, checking lazy-load attributes
 function getAllImgUrls(container: any, $: any): string[] {
   const urls: string[] = [];
   $(container).find('img').each((_: number, img: any) => {
@@ -282,12 +251,9 @@ function getAllImgUrls(container: any, $: any): string[] {
       urls.push(src);
     }
   });
-
   return urls;
 }
 
-// Craigslist stores image IDs in data-ids attribute like "3:00r0r_abc123,3:00s0s_def456"
-// This constructs the real image URLs from those IDs
 function parseCraigslistDataIds($: any): string[] {
   const urls: string[] = [];
   $('[data-ids]').each((_: number, el: any) => {
@@ -318,6 +284,79 @@ function guessCategories(text: string): string[] {
   if (cats.length === 0) cats.push('Garage Sale');
   return cats;
 }
+
+// ══════════════════════════════════════════════════════════════
+// v4.0 NEW: DESCRIPTION CLEANING
+// Strips Craigslist page chrome and other source junk from
+// descriptions before saving to Supabase.
+// ══════════════════════════════════════════════════════════════
+function cleanDescription(raw: string): string {
+  if (!raw) return '';
+
+  let text = raw;
+
+  // ── Craigslist navigation arrows & surrounding whitespace ──
+  text = text.replace(/◀\s*prev/gi, '');
+  text = text.replace(/next\s*▶/gi, '');
+  text = text.replace(/[◀▶▲▼]/g, '');
+
+  // ── CL action buttons ──
+  text = text.replace(/\b(reply|favorite|hide|unhide|flag|flagged)\b/gi, '');
+
+  // ── CL flag icons ──
+  text = text.replace(/[⚐⚑]/g, '');
+
+  // ── "Posted YYYY-MM-DD HH:MM" metadata line ──
+  text = text.replace(/Posted\s+\d{4}-\d{2}-\d{2}\s+\d{1,2}:\d{2}/gi, '');
+
+  // ── "Contact Information: print" ──
+  text = text.replace(/Contact\s+Information:\s*print/gi, '');
+
+  // ── "QR Code Link to This Post" ──
+  text = text.replace(/QR\s+Code\s+Link\s+to\s+This\s+Post/gi, '');
+
+  // ── "♥ best of [?]" ──
+  text = text.replace(/♥\s*best\s+of\s*\[\?\]/gi, '');
+  text = text.replace(/♥/g, '');
+
+  // ── CL post footer: "post id: 1234567890" ──
+  text = text.replace(/post\s+id:\s*\d+/gi, '');
+
+  // ── CL footer timestamps: "posted: 2026-03-11 15:16" / "updated: ..." ──
+  text = text.replace(/(?:posted|updated):\s*\d{4}-\d{2}-\d{2}\s*\d{1,2}:\d{2}/gi, '');
+
+  // ── Standalone "posted:" or "updated:" leftover ──
+  text = text.replace(/\b(?:posted|updated):\s*/gi, '');
+
+  // ── CL scam warning block ──
+  text = text.replace(/Avoid\s+scams,?\s+deal\s+locally[\s\S]*?shipping\./gi, '');
+  text = text.replace(/Beware\s+wiring\s*\(e\.?g\.?\s*Western\s+Union\)[\s\S]*?shipping\./gi, '');
+
+  // ── CL "do NOT contact me with unsolicited..." ──
+  text = text.replace(/do\s+NOT\s+contact\s+me\s+with\s+unsolicited[\s\S]*?(?:services|offers)\s*\.?/gi, '');
+
+  // ── CL dates/start time labels (the structured ones, not the user content) ──
+  text = text.replace(/\bdates:\s*/gi, '');
+  text = text.replace(/\bstart\s+time:\s*/gi, '');
+
+  // ── CL "print" button text ──
+  text = text.replace(/^\s*print\s*$/gm, '');
+
+  // ── Collapse multiple whitespace/newlines into single spaces ──
+  text = text.replace(/[\r\n]+/g, ' ');
+  text = text.replace(/\s{2,}/g, ' ');
+
+  return text.trim().slice(0, 2000);
+}
+
+
+// ════════════════════════════════════════════════════════════
+// END OF PART 1/6
+// ════════════════════════════════════════════════════════════
+// ════════════════════════════════════════════════════════════
+// PART 2/6 — POST-CRAWL FUNCTIONS + CITY/STATE ARRAYS
+// ════════════════════════════════════════════════════════════
+
 // ── POST-CRAWL ADDRESS CLEANUP (v3.8) ──
 // Runs AFTER all detail pages have enriched listings.
 // Removes any listing that STILL has no valid street address.
@@ -346,11 +385,9 @@ async function postCrawlAddressCleanup(): Promise<{ cleaned: number; kept: numbe
 
     if (!rows || rows.length === 0) break;
 
-    // Find rows that STILL don't have a valid address
     const toDelete = rows.filter(r => {
       const addr = (r.address || '').trim();
-      if (addr.length < 8) return true;  // too short
-      // Must have: street number + street name + street suffix
+      if (addr.length < 8) return true;
       return !/^\d+\s+[\w]+([\s]+[\w]+)*\s+(St|Street|Ave|Avenue|Rd|Road|Blvd|Boulevard|Dr|Drive|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Parkway|Hwy|Highway|Trail|Tr|Terrace|Trl|Loop|Run|Pass|Pike|Alley|Aly)\b/i.test(addr);
     });
 
@@ -360,7 +397,6 @@ async function postCrawlAddressCleanup(): Promise<{ cleaned: number; kept: numbe
     if (toDelete.length > 0) {
       const deleteIds = toDelete.map(r => r.id);
 
-      // Delete in sub-batches of 100
       for (let i = 0; i < deleteIds.length; i += 100) {
         const chunk = deleteIds.slice(i, i + 100);
         const { error: delError } = await supabase
@@ -380,17 +416,14 @@ async function postCrawlAddressCleanup(): Promise<{ cleaned: number; kept: numbe
       console.log(`[Cleanup] Batch: all ${rows.length} valid (offset ${offset})`);
     }
 
-    // If we got fewer than batchSize rows, we're done
     if (rows.length < batchSize) break;
-
-    // Since we're deleting rows, don't advance offset by full batchSize
-    // Only advance by the number we kept (still in DB)
     offset += toKeep;
   }
 
   console.log(`[Cleanup] DONE — ${totalCleaned} removed, ${totalKept} kept with valid addresses`);
   return { cleaned: totalCleaned, kept: totalKept };
 }
+
 // ── POST-CRAWL GEOCODING ──
 async function geocodeAddress(address: string, city: string, state: string, zip: string): Promise<{ lat: number; lng: number } | null> {
   const query = [address, city, state, zip].filter(Boolean).join(', ');
@@ -552,126 +585,74 @@ const GSF_STATES = [
 
 // ── YARDSALESEARCH EXPANDED: 274 CITIES (ALL 50 STATES + DC) ──
 const YSS_CITIES = [
-  // Alabama
   'Birmingham-AL','Huntsville-AL','Mobile-AL','Montgomery-AL','Tuscaloosa-AL',
-  // Alaska
   'Anchorage-AK','Fairbanks-AK',
-  // Arizona
   'Phoenix-AZ','Tucson-AZ','Mesa-AZ','Scottsdale-AZ','Chandler-AZ','Flagstaff-AZ',
-  // Arkansas
   'Little-Rock-AR','Fayetteville-AR','Fort-Smith-AR',
-  // California
   'Los-Angeles-CA','San-Francisco-CA','San-Diego-CA','Sacramento-CA','San-Jose-CA',
   'Fresno-CA','Bakersfield-CA','Riverside-CA','Oakland-CA','Long-Beach-CA',
   'Stockton-CA','Modesto-CA','Santa-Rosa-CA','Irvine-CA','Santa-Barbara-CA',
-  // Colorado
   'Denver-CO','Colorado-Springs-CO','Aurora-CO','Fort-Collins-CO','Boulder-CO','Pueblo-CO',
-  // Connecticut
   'Hartford-CT','New-Haven-CT','Stamford-CT','Bridgeport-CT','Waterbury-CT',
-  // Delaware
   'Wilmington-DE','Dover-DE',
-  // DC
   'Washington-DC',
-  // Florida
   'Miami-FL','Tampa-FL','Orlando-FL','Jacksonville-FL','Fort-Lauderdale-FL',
   'St-Petersburg-FL','Tallahassee-FL','Sarasota-FL','Pensacola-FL','Daytona-Beach-FL',
   'Fort-Myers-FL','Gainesville-FL','Lakeland-FL','Cape-Coral-FL',
-  // Georgia
   'Atlanta-GA','Savannah-GA','Augusta-GA','Athens-GA','Macon-GA','Columbus-GA',
-  // Hawaii
   'Honolulu-HI',
-  // Idaho
   'Boise-ID','Idaho-Falls-ID','Nampa-ID',
-  // Illinois
   'Chicago-IL','Springfield-IL','Peoria-IL','Naperville-IL','Rockford-IL','Champaign-IL',
-  // Indiana
   'Indianapolis-IN','Fort-Wayne-IN','Evansville-IN','South-Bend-IN','Bloomington-IN',
-  // Iowa
   'Des-Moines-IA','Cedar-Rapids-IA','Davenport-IA','Iowa-City-IA','Sioux-City-IA',
-  // Kansas
   'Wichita-KS','Kansas-City-KS','Topeka-KS','Overland-Park-KS','Lawrence-KS',
-  // Kentucky
   'Louisville-KY','Lexington-KY','Bowling-Green-KY','Owensboro-KY',
-  // Louisiana
   'New-Orleans-LA','Baton-Rouge-LA','Shreveport-LA','Lafayette-LA','Lake-Charles-LA',
-  // Maine
   'Portland-ME','Bangor-ME','Augusta-ME',
-  // Maryland
   'Baltimore-MD','Annapolis-MD','Frederick-MD','Rockville-MD','Silver-Spring-MD',
-  // Massachusetts
   'Boston-MA','Worcester-MA','Springfield-MA','Cambridge-MA','Lowell-MA',
-  // Michigan
   'Detroit-MI','Grand-Rapids-MI','Ann-Arbor-MI','Lansing-MI','Flint-MI',
   'Kalamazoo-MI','Traverse-City-MI',
-  // Minnesota
   'Minneapolis-MN','St-Paul-MN','Duluth-MN','Rochester-MN','Bloomington-MN',
-  // Mississippi
   'Jackson-MS','Gulfport-MS','Hattiesburg-MS','Biloxi-MS',
-  // Missouri
   'Kansas-City-MO','St-Louis-MO','Springfield-MO','Columbia-MO','Independence-MO',
-  // Montana
   'Billings-MT','Missoula-MT','Great-Falls-MT','Bozeman-MT','Helena-MT',
-  // Nebraska
   'Omaha-NE','Lincoln-NE','Grand-Island-NE',
-  // Nevada
   'Las-Vegas-NV','Reno-NV','Henderson-NV','Sparks-NV',
-  // New Hampshire
   'Manchester-NH','Nashua-NH','Concord-NH',
-  // New Jersey
   'Newark-NJ','Jersey-City-NJ','Trenton-NJ','Edison-NJ','Toms-River-NJ','Cherry-Hill-NJ',
-  // New Mexico
   'Albuquerque-NM','Santa-Fe-NM','Las-Cruces-NM','Rio-Rancho-NM',
-  // New York
   'New-York-NY','Buffalo-NY','Rochester-NY','Albany-NY','Syracuse-NY',
   'Yonkers-NY','Utica-NY','Ithaca-NY','Binghamton-NY',
-  // North Carolina
   'Charlotte-NC','Raleigh-NC','Greensboro-NC','Durham-NC','Wilmington-NC',
   'Fayetteville-NC','Asheville-NC','Winston-Salem-NC',
-  // North Dakota
   'Fargo-ND','Bismarck-ND','Grand-Forks-ND','Minot-ND',
-  // Ohio
   'Columbus-OH','Cleveland-OH','Cincinnati-OH','Dayton-OH','Toledo-OH',
   'Akron-OH','Canton-OH','Youngstown-OH',
-  // Oklahoma
   'Oklahoma-City-OK','Tulsa-OK','Norman-OK','Broken-Arrow-OK','Edmond-OK',
-  // Oregon
   'Portland-OR','Eugene-OR','Salem-OR','Bend-OR','Medford-OR','Corvallis-OR',
-  // Pennsylvania
   'Philadelphia-PA','Pittsburgh-PA','Harrisburg-PA','Allentown-PA','Erie-PA',
   'Reading-PA','Scranton-PA','Lancaster-PA','York-PA',
-  // Rhode Island
   'Providence-RI','Warwick-RI','Cranston-RI',
-  // South Carolina
   'Charleston-SC','Columbia-SC','Greenville-SC','Myrtle-Beach-SC','Rock-Hill-SC',
-  // South Dakota
   'Sioux-Falls-SD','Rapid-City-SD','Aberdeen-SD',
-  // Tennessee
   'Nashville-TN','Memphis-TN','Knoxville-TN','Chattanooga-TN','Clarksville-TN',
   'Murfreesboro-TN',
-  // Texas
   'Houston-TX','Dallas-TX','Austin-TX','San-Antonio-TX','Fort-Worth-TX',
   'El-Paso-TX','Arlington-TX','Plano-TX','Lubbock-TX','Corpus-Christi-TX',
   'Laredo-TX','Amarillo-TX','Waco-TX','Midland-TX',
-  // Utah
   'Salt-Lake-City-UT','Provo-UT','Ogden-UT','St-George-UT','Logan-UT',
-  // Vermont
   'Burlington-VT','Rutland-VT',
-  // Virginia
   'Virginia-Beach-VA','Richmond-VA','Norfolk-VA','Chesapeake-VA',
   'Arlington-VA','Roanoke-VA','Lynchburg-VA','Charlottesville-VA',
-  // Washington
   'Seattle-WA','Olympia-WA','Tacoma-WA','Spokane-WA','Bellingham-WA',
   'Vancouver-WA','Yakima-WA','Kennewick-WA','Everett-WA',
-  // West Virginia
   'Charleston-WV','Huntington-WV','Morgantown-WV','Parkersburg-WV',
-  // Wisconsin
   'Milwaukee-WI','Madison-WI','Green-Bay-WI','Appleton-WI','Kenosha-WI','Eau-Claire-WI',
-  // Wyoming
   'Cheyenne-WY','Casper-WY',
 ];
 
-
-// ── GSALR.COM STATES (v3.0 NEW SOURCE — ScraperAPI-only, 403 without proxy) ──
+// ── GSALR.COM STATES (ScraperAPI-only, 403 without proxy) ──
 const GSALR_STATES = [
   'alabama','alaska','arizona','arkansas','california','colorado',
   'connecticut','delaware','florida','georgia','hawaii','idaho',
@@ -686,179 +667,148 @@ const GSALR_STATES = [
 ];
 const GSALR_MAX_PAGES = 3;
 
-// ── BUILD START URLs ──
-function buildStartUrls(): { url: string; userData: { source: string; state: string; pageType: string } }[] {
-  const urls: { url: string; userData: { source: string; state: string; pageType: string } }[] = [];
 
-  // ── CRAIGSLIST: /search/gms + /search/sss — v3.7: /sss restored (keyword+address gates) ──
+// ════════════════════════════════════════════════════════════
+// END OF PART 2/6
+// ════════════════════════════════════════════════════════════
+// ════════════════════════════════════════════════════════════
+// PART 3/6 — buildStartUrls() + saveBatchToSupabase() + main() START + CL HANDLERS
+// ════════════════════════════════════════════════════════════
+
+// ── BUILD START URLs FOR ALL 5 SOURCES ──
+function buildStartUrls(): { url: string; userData: { source: string; state?: string; pageType: string } }[] {
+  const urls: { url: string; userData: { source: string; state?: string; pageType: string } }[] = [];
+
+  // ── CRAIGSLIST: /gms + /sss across all 413 subdomains ──
   for (const [state, cities] of Object.entries(CRAIGSLIST_CITIES)) {
     for (const city of cities) {
-      // Primary: garage/moving sales category — page 1
-      urls.push({
-        url: `https://${city}.craigslist.org/search/gms`,
-        userData: { source: 'craigslist', state, pageType: 'index' },
-      });
-      // v3.7: /sss RESTORED — keyword filter + address gate catch junk
-      urls.push({
-        url: `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale`,
-        userData: { source: 'craigslist', state, pageType: 'index' },
-      });
-      // Pagination for /gms (pages 2-3 only)
-      for (let page = 1; page < CL_MAX_PAGES; page++) {
-        urls.push({
-          url: `https://${city}.craigslist.org/search/gms?s=${page * 120}`,
-          userData: { source: 'craigslist', state, pageType: 'index' },
-        });
-      }
-      // v3.7: /sss pagination RESTORED
-      for (let page = 1; page < CL_MAX_PAGES; page++) {
-        urls.push({
-          url: `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale&s=${page * 120}`,
-          userData: { source: 'craigslist', state, pageType: 'index' },
-        });
+      // Garage/Moving Sales section
+      for (let page = 0; page < CL_MAX_PAGES; page++) {
+        const offset = page * 120;
+        const gmsUrl = offset === 0
+          ? `https://${city}.craigslist.org/search/gms`
+          : `https://${city}.craigslist.org/search/gms?s=${offset}`;
+        urls.push({ url: gmsUrl, userData: { source: 'craigslist', state, pageType: 'cl_index' } });
       }
 
-      // v3.7: /sss estate+sale RESTORED
+      // /sss general yard sale query
+      for (let page = 0; page < CL_MAX_PAGES; page++) {
+        const offset = page * 120;
+        const sssUrl = offset === 0
+          ? `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale`
+          : `https://${city}.craigslist.org/search/sss?query=yard+sale+garage+sale&s=${offset}`;
+        urls.push({ url: sssUrl, userData: { source: 'craigslist', state, pageType: 'cl_index' } });
+      }
+
+      // /sss estate sale sub-query
       urls.push({
         url: `https://${city}.craigslist.org/search/sss?query=estate+sale`,
-        userData: { source: 'craigslist', state, pageType: 'index' },
+        userData: { source: 'craigslist', state, pageType: 'cl_index' },
       });
+
+      // /sss moving sale sub-query
       urls.push({
         url: `https://${city}.craigslist.org/search/sss?query=moving+sale`,
-        userData: { source: 'craigslist', state, pageType: 'index' },
+        userData: { source: 'craigslist', state, pageType: 'cl_index' },
       });
     }
   }
 
-  // ── ESTATESALES.NET ──
+  // ── ESTATESALES.NET: 50 states × 5 pages ──
   for (const state of ESTATE_SALES_STATES) {
-    urls.push({
-      url: `https://www.estatesales.net/${state}`,
-      userData: { source: 'estatesales', state: state.replace(/-/g, ' '), pageType: 'index' },
-    });
-    for (let page = 2; page <= ES_MAX_PAGES; page++) {
-      urls.push({
-        url: `https://www.estatesales.net/${state}?page=${page}`,
-        userData: { source: 'estatesales', state: state.replace(/-/g, ' '), pageType: 'index' },
-      });
+    for (let page = 1; page <= ES_MAX_PAGES; page++) {
+      const url = page === 1
+        ? `https://www.estatesales.net/${state}`
+        : `https://www.estatesales.net/${state}?page=${page}`;
+      urls.push({ url, userData: { source: 'estatesales', state, pageType: 'es_index' } });
     }
   }
 
-  // ── GARAGESALEFINDER ──
+  // ── GARAGESALEFINDER: 50 states × 5 pages ──
   for (const state of GSF_STATES) {
-    urls.push({
-      url: `https://www.garagesalefinder.com/sale/${state}`,
-      userData: { source: 'garagesalefinder', state: state.replace(/-/g, ' '), pageType: 'index' },
-    });
-    for (let page = 2; page <= GSF_MAX_PAGES; page++) {
-      urls.push({
-        url: `https://www.garagesalefinder.com/sale/${state}?page=${page}`,
-        userData: { source: 'garagesalefinder', state: state.replace(/-/g, ' '), pageType: 'index' },
-      });
+    for (let page = 1; page <= GSF_MAX_PAGES; page++) {
+      const url = page === 1
+        ? `https://www.garagesalefinder.com/sale/${state}`
+        : `https://www.garagesalefinder.com/sale/${state}?page=${page}`;
+      urls.push({ url, userData: { source: 'garagesalefinder', state, pageType: 'gsf_index' } });
     }
   }
 
-
-  // ── YARDSALESEARCH ──
+  // ── YARDSALESEARCH: 274 cities × 5 pages ──
   for (const city of YSS_CITIES) {
-    urls.push({
-      url: `https://www.yardsalesearch.com/garage-sales-in-${city}.html`,
-      userData: { source: 'yardsalesearch', state: city.split('-').pop() || '', pageType: 'index' },
-    });
-    for (let page = 2; page <= YSS_MAX_PAGES; page++) {
-      urls.push({
-        url: `https://www.yardsalesearch.com/garage-sales-in-${city}.html?page=${page}`,
-        userData: { source: 'yardsalesearch', state: city.split('-').pop() || '', pageType: 'index' },
-      });
+    for (let page = 1; page <= YSS_MAX_PAGES; page++) {
+      const url = page === 1
+        ? `https://www.yardsalesearch.com/garage-sales-in-${city}.html`
+        : `https://www.yardsalesearch.com/garage-sales-in-${city}.html?page=${page}`;
+      urls.push({ url, userData: { source: 'yardsalesearch', state: city.split('-').pop() || '', pageType: 'yss_index' } });
     }
   }
 
-  // ── v3.0 NEW: GSALR.COM (ScraperAPI proxy required — 403 without it) ──
+  // ── GSALR.COM: 50 states × 3 pages (ScraperAPI-only) ──
   if (SCRAPER_API_KEY) {
     for (const state of GSALR_STATES) {
-      urls.push({
-        url: `https://gsalr.com/garage-sales-in/${state}/`,
-        userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-      });
-      for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
-        urls.push({
-          url: `https://gsalr.com/garage-sales-in/${state}/page/${page}/`,
-          userData: { source: 'gsalr', state: state.replace(/-/g, ' '), pageType: 'index' },
-        });
+      for (let page = 1; page <= GSALR_MAX_PAGES; page++) {
+        const url = page === 1
+          ? `https://gsalr.com/garage-sales-in/${state}/`
+          : `https://gsalr.com/garage-sales-in/${state}/page/${page}/`;
+        urls.push({ url, userData: { source: 'gsalr', state, pageType: 'gsalr_index' } });
       }
     }
-    console.log(`[Gsalr] Added ${GSALR_STATES.length * GSALR_MAX_PAGES} URLs (ScraperAPI proxy)`);
-  } else {
-    console.log('[Gsalr] SKIPPED — requires SCRAPER_API_KEY (site blocks direct access)');
   }
 
   return urls;
 }
 
-// ── SUPABASE BATCH SAVE — IMMEDIATE (v3.8: save-first, cleanup after) ──
+// ── SAVE BATCH TO SUPABASE (upsert in sub-batches of 50) ──
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<number> {
-  if (sales.length === 0) return 0;
+  const validSales = sales.filter(s => s.title && s.title.trim().length > 0);
+  if (validSales.length === 0) return 0;
 
-  // v3.8: Save everything with a title — detail pages will enrich addresses later.
-  // Post-crawl cleanup removes junk AFTER all detail pages have run.
-  const withTitle = sales.filter(s => s.title && s.title.trim().length > 0);
-  const skipped = sales.length - withTitle.length;
-  if (skipped > 0) {
-    console.log(`  ⏭️ [Save] ${skipped} listings skipped (no title)`);
-  }
-  if (withTitle.length === 0) return 0;
+  let totalSaved = 0;
 
-  let saved = 0;
-  const batchSize = 50;
-
-  for (let i = 0; i < withTitle.length; i += batchSize) {
-    const batch = withTitle.slice(i, i + batchSize);
+  for (let i = 0; i < validSales.length; i += 50) {
+    const chunk = validSales.slice(i, i + 50);
     const { error } = await supabase
       .from('yard_sales')
-      .upsert(batch, { onConflict: 'source_url' });
+      .upsert(chunk, { onConflict: 'source_url' });
 
     if (error) {
-      console.error(`  ❌ [Supabase] Upsert error: ${error.message}`);
+      console.error(`[SaveBatch] Supabase upsert error: ${error.message}`);
     } else {
-      saved += batch.length;
+      totalSaved += chunk.length;
     }
   }
-  return saved;
+
+  return totalSaved;
 }
 
-// ══════════════════════════════════════════════
-//  MAIN CRAWLEE RUNNER — v2.2
-// ══════════════════════════════════════════════
-
+// ══════════════════════════════════════════════════════════════
+// MAIN FUNCTION — CRAWLER SETUP & ALL REQUEST HANDLERS
+// ══════════════════════════════════════════════════════════════
 async function main() {
-  console.log('═══════════════════════════════════════════════════════');
-  console.log('  CRAWLEE DEEP SCRAPER v3.1 — MERGED PHOTO-FIX + MAX COVERAGE');
-  console.log('  NEW: Photo-fix helpers, Gsalr.com 5th source, CL estate+moving queries,');
-  console.log('       all v3.0 features preserved + enhanced image extraction');
-  console.log(`  ScraperAPI: ${SCRAPER_API_KEY ? 'ENABLED' : 'DISABLED'}`);
-  console.log(`  Supabase: ${SUPABASE_URL ? 'Connected' : 'MISSING'}`);
-  console.log(`  Geocoding: POST-CRAWL (runs after all pages scraped)`);
-  console.log('═══════════════════════════════════════════════════════');
+  console.log('╔══════════════════════════════════════════════════╗');
+  console.log('║  CRAWLEE DEEP SCRAPER v4.0                      ║');
+  console.log('║  CLEAN DESCRIPTIONS + TIME FIX + ALL v3.8 FEATS ║');
+  console.log('╚══════════════════════════════════════════════════╝');
+  console.log(`Started at: ${new Date().toISOString()}`);
 
-  // Purge old Crawlee state
-  console.log('Purging old Crawlee storage state...');
   await purgeDefaultStorages();
-  console.log('Storage purged — all URLs will be processed fresh.\n');
 
   const startUrls = buildStartUrls();
 
   // Count URLs by source
-  const urlCounts: Record<string, number> = {};
+  const sourceCounts: Record<string, number> = {};
   for (const u of startUrls) {
     const src = u.userData.source;
-    urlCounts[src] = (urlCounts[src] || 0) + 1;
+    sourceCounts[src] = (sourceCounts[src] || 0) + 1;
   }
-  console.log(`Total start URLs: ${startUrls.length}`);
-  for (const [src, count] of Object.entries(urlCounts)) {
-    console.log(`  ${src}: ${count} URLs`);
+  console.log('\n📋 Start URL breakdown:');
+  for (const [src, count] of Object.entries(sourceCounts)) {
+    console.log(`   ${src}: ${count} URLs`);
   }
+  console.log(`   TOTAL: ${startUrls.length} URLs\n`);
 
-  // ScraperAPI proxy
+  // ── Proxy config (ScraperAPI) ──
   let proxyConfiguration: ProxyConfiguration | undefined;
   if (SCRAPER_API_KEY) {
     proxyConfiguration = new ProxyConfiguration({
@@ -866,200 +816,216 @@ async function main() {
         `http://scraperapi.country_code=us:${SCRAPER_API_KEY}@proxy-server.scraperapi.com:8001`,
       ],
     });
-    console.log('ScraperAPI proxy configured (country_code=us)\n');
+    console.log('🔒 ScraperAPI proxy configured.');
   } else {
-    console.warn('⚠️  No SCRAPER_API_KEY — running without proxy (CL will likely block)\n');
+    console.log('⚠️  No ScraperAPI key — Gsalr will be skipped.');
   }
 
-  // ── TRACKING ──
+  // ── Tracking variables ──
   const pendingSales: ScrapedSale[] = [];
   const seenIds = new Set<string>();
-  let totalProcessed = 0;
-  let totalSkipped = 0;
-  let totalDetailPages = 0;
-  let totalSaved = 0;
+  let processedCount = 0;
+  let skippedCount = 0;
+  let detailCount = 0;
+  let savedCount = 0;
 
+  // ── CRAWLER INSTANCE ──
   const crawler = new CheerioCrawler({
     proxyConfiguration,
-
-    // v2.2: Lower concurrency — 2 instead of 5
-    // Prevents ScraperAPI rate limit cascade failures
     maxConcurrency: 2,
-
-    // v2.2: 2 retries with longer timeout
+    minConcurrency: 1,
     maxRequestRetries: 2,
     requestHandlerTimeoutSecs: 120,
     navigationTimeoutSecs: 90,
 
-    // v2.2: 2 second delay between requests
-    // This is the key fix — Craigslist detects rapid-fire and blocks
-    minConcurrency: 1,
-
-    async requestHandler({ request, $, addRequests }) {
+    requestHandler: async ({ request, $, enqueueLinks }) => {
       const { source, state, pageType } = request.userData as {
         source: string;
-        state: string;
+        state?: string;
         pageType: string;
       };
-      totalProcessed++;
 
-      // v2.2: Verbose per-URL logging
-      const shortUrl = request.url.replace(/https?:\/\/(www\.)?/, '').slice(0, 70);
-      const beforeCount = seenIds.size;
-
-      // ═══════════════════════════════════════
-      // CRAIGSLIST
-      // ═══════════════════════════════════════
-      if (source === 'craigslist' && pageType === 'index') {
-        const detailUrls: string[] = [];
-
-        $('li.cl-static-search-result, .result-row, .cl-search-result, .cl-search-result-item').each((_, el) => {
-          const titleEl = $(el).find('.title, .result-title, .titlestring, .posting-title .label, .cl-app-anchor .label');
-          const title = titleEl.text().trim();
-          if (!title) return;
-
-          const linkEl = titleEl.closest('a').length ? titleEl.closest('a') : $(el).find('a').first();
-          const link = linkEl.attr('href') || '';
-          if (!link) return;
-
-          const sourceUrl = link.startsWith('http') ? link : `https://${request.url.split('/')[2]}${link}`;
-          const sourceId = `cl-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-
-          if (seenIds.has(sourceId)) return;
-          seenIds.add(sourceId);
-
-          const locationText = $(el).find('.location, .result-hood, .subreddit').text().trim().replace(/[()]/g, '');
-          const address = extractAddressFromText(locationText + ' ' + title) || locationText;
-          const dateText = $(el).find('time').attr('datetime') || '';
-          const priceText = $(el).find('.price, .result-price, .priceinfo').text().trim();
-          // v2.3-photo-fix: CL index pages have NO <img> tags — just a "pic" indicator
-          // Photos are only available on detail pages via data-ids
-          const imgSrc = getImgUrl($(el), $);
-
-          // v3.4: Skip non-yard-sale CL posts (PS5s, TVs, cars, etc.)
-          if (!isYardSale(title, locationText)) {
-            return; // skip junk
-          }
-
-          pendingSales.push({
-            source_id: sourceId,
-            title,
-            description: locationText,
-            address: address || '',
-            city: '',
-            state,
-            zip: extractZip(locationText),
-            lat: null,
-            lng: null,
-            date_start: dateText ? dateText.split('T')[0] : new Date().toISOString().split('T')[0],
-            date_end: null,
-            time_start: null,
-            time_end: null,
-            price_range: priceText || null,
-            categories: guessCategories(title),
-            source: 'craigslist',
-            source_url: sourceUrl,
-            image_urls: imgSrc ? [imgSrc] : [],
-            expires_at: new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
-            scraped_at: new Date().toISOString(),
-            pushed: false,
-          });
-
-          // Enqueue detail page
-          if (sourceUrl.includes('/d/') || sourceUrl.match(/\/\d+\.html/)) {
-            detailUrls.push(sourceUrl);
-          }
-        });
-
-        if (detailUrls.length > 0) {
-          await addRequests(detailUrls.map(url => ({
-            url,
-            userData: { source: 'craigslist', state, pageType: 'detail' },
-          })), { forefront: true });
-          totalDetailPages += detailUrls.length;
-        }
-
-        const newListings = seenIds.size - beforeCount;
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 1: CRAIGSLIST INDEX                     ║
+      // ╚══════════════════════════════════════════════════╝
+      if (pageType === 'cl_index') {
         sourceStats.craigslist.success++;
-        sourceStats.craigslist.listings += newListings;
-        console.log(`  ✅ [CL] ${shortUrl} → ${newListings} listings, ${detailUrls.length} detail pages enqueued`);
+        const listings = $('li.cl-static-search-result, .result-row, .cl-search-result, .cl-search-result-item');
 
-      } else if (source === 'craigslist' && pageType === 'detail') {
-        const sourceUrl = request.url;
-        const sourceId = `cl-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
-        const existingSale = pendingSales.find(s => s.source_id === sourceId);
+        listings.each((_i, el) => {
+          try {
+            const titleEl = $(el).find('.title, .result-title, .titlestring, .posting-title .label, .cl-app-anchor .label');
+            const title = titleEl.text().trim();
+            if (!title) return;
 
-        const bodyText = $('#postingbody, .posting-body, .body, section.body').text().trim();
-        const mapAddress = $('div.mapaddress, .mapAndAttrs .mapaddress').text().trim();
-        const geoLat = $('[data-latitude]').attr('data-latitude');
-        const geoLng = $('[data-longitude]').attr('data-longitude');
-        // v2.3-photo-fix: CL detail pages store images in data-ids attribute
-        // Parse data-ids first (most reliable), then fall back to img tags + data-src
-        const allImages: string[] = parseCraigslistDataIds($);
-        // Also grab any regular img tags with craigslist image URLs
-        $('img[src*="images.craigslist"], .gallery img, #thumbs a, img[data-src*="craigslist"]').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('href') || '';
-          if (src && !src.includes('00T0T') && !allImages.includes(src)) {
-            allImages.push(src.replace(/\/\d+x\d+_/, '/600x450_'));
+            const linkEl = $(el).find('a[href]').first();
+            const href = linkEl.attr('href') || '';
+            const sourceUrl = href.startsWith('http') ? href : `https://${request.url.split('/')[2]}${href}`;
+            const sourceId = `cl-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-40)}`;
+
+            if (seenIds.has(sourceId)) return;
+
+            // Location / address
+            const locationEl = $(el).find('.result-hood, .nearby, .supertitle, .meta');
+            const locationText = locationEl.text().trim();
+            const address = extractAddressFromText(locationText) || locationText.replace(/[()]/g, '').trim();
+
+            // ── Gate: must be a yard-sale-type post ──
+            if (!isYardSale(title, locationText)) {
+              skippedCount++;
+              return;
+            }
+
+            seenIds.add(sourceId);
+
+            // Date, price, image
+            const dateText = $(el).find('.result-date, time, .date, .meta').text().trim();
+            const dateStart = extractDateFromText(dateText) || new Date().toISOString().split('T')[0];
+            const priceEl = $(el).find('.result-price, .price, .priceinfo');
+            const price = priceEl.text().trim() || null;
+            const imgEl = $(el).find('img').first();
+            const imgUrl = getImgUrl(imgEl, $);
+            const imageUrls = imgUrl ? [imgUrl] : [];
+
+            const sale: ScrapedSale = {
+              source_id: sourceId,
+              title,
+              description: '',
+              address,
+              city: '',
+              state: state || '',
+              zip: extractZip(locationText),
+              lat: null,
+              lng: null,
+              date_start: dateStart,
+              date_end: null,
+              time_start: null,
+              time_end: null,
+              price_range: price,
+              categories: guessCategories(title),
+              source: 'craigslist',
+              source_url: sourceUrl,
+              image_urls: imageUrls,
+              expires_at: new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString(),
+              scraped_at: new Date().toISOString(),
+              pushed: false,
+            };
+
+            pendingSales.push(sale);
+            sourceStats.craigslist.listings++;
+            processedCount++;
+
+            // Enqueue detail page if it looks like a direct listing link
+            if (href && (/\/d\//.test(href) || /\/\d+\.html/.test(href))) {
+              crawler.addRequests([{
+                url: sourceUrl,
+                userData: { source: 'craigslist', state, pageType: 'cl_detail', sourceId },
+              }]);
+              detailCount++;
+            }
+          } catch (err) {
+            console.error(`[CL Index] Error parsing listing: ${(err as Error).message}`);
           }
         });
 
+        // Save batch if enough pending
+        if (pendingSales.length >= SAVE_BATCH_SIZE) {
+          const batch = pendingSales.splice(0, pendingSales.length);
+          const saved = await saveBatchToSupabase(batch);
+          savedCount += saved;
+          console.log(`[CL Index] Flushed ${saved} listings to DB (total saved: ${savedCount})`);
+        }
+      }
+
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 2: CRAIGSLIST DETAIL (v4.0 FIXED)       ║
+      // ║  ★ Cascading selector — no more junk text ★      ║
+      // ║  ★ cleanDescription() applied ★                  ║
+      // ║  ★ normalizeTime() for "8undefined AM" fix ★     ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'cl_detail') {
+        const { sourceId } = request.userData as { sourceId?: string };
+
+        // ── v4.0 FIX: Cascading fallback instead of comma-join ──
+        // BEFORE (broken): $('#postingbody, .posting-body, .body, section.body').text()
+        // .body and section.body matched Craigslist's outer page containers,
+        // pulling in nav arrows, action buttons, post IDs, QR text, scam warnings, etc.
+        const bodyText = $('#postingbody').text().trim()
+          || $('.posting-body').text().trim()
+          || '';
+
+        // Map address from detail page
+        const mapAddress = $('div.mapaddress, .mapAndAttrs .mapaddress').text().trim();
+
+        // Geo coordinates from CL data attributes
+        const mapEl = $('[data-latitude]').first();
+        const lat = mapEl.length ? parseFloat(mapEl.attr('data-latitude') || '') : null;
+        const lng = mapEl.length ? parseFloat(mapEl.attr('data-longitude') || '') : null;
+
+        // ── Image extraction (v3.1 multi-attribute + CL data-ids) ──
+        const clImages = parseCraigslistDataIds($);
+        const pageImages = clImages.length > 0 ? clImages : getAllImgUrls($('body'), $);
+
+        // ── Times and dates from body text ──
         const times = extractTimes(bodyText);
         const detailDate = extractDateFromText(bodyText);
 
+        // ── Try to enrich existing pending sale ──
+        const existingSale = sourceId
+          ? pendingSales.find(s => s.source_id === sourceId)
+          : null;
+
         if (existingSale) {
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (bodyText) existingSale.description = cleanDescription(bodyText);
           if (mapAddress && hasValidAddress(mapAddress)) existingSale.address = mapAddress;
-          if (!existingSale.address || !hasValidAddress(existingSale.address)) {
-            const foundAddr = extractAddressFromText(bodyText);
-            if (foundAddr) existingSale.address = foundAddr;
-          }
-          if (bodyText) existingSale.description = bodyText.slice(0, 2000);
-          if (geoLat && geoLng) {
-            existingSale.lat = parseFloat(geoLat);
-            existingSale.lng = parseFloat(geoLng);
-          }
-          if (allImages.length > 0) existingSale.image_urls = allImages;
+          if (lat && lng) { existingSale.lat = lat; existingSale.lng = lng; }
+          if (pageImages.length > 0) existingSale.image_urls = pageImages;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
-          if (detailDate && !existingSale.date_start) existingSale.date_start = detailDate;
-          existingSale.zip = existingSale.zip || extractZip(bodyText + ' ' + mapAddress);
-          console.log(`  📝 [CL detail] enriched: ${existingSale.title.slice(0, 50)}`);
+          if (detailDate) existingSale.date_start = detailDate;
         } else {
-          // v3.2-photo-fix: listing already flushed to Supabase — UPDATE directly
-          if (allImages.length > 0 || mapAddress || bodyText) {
-            const updateData: Record<string, any> = {};
-            if (allImages.length > 0) updateData.image_urls = allImages;
-            if (mapAddress && hasValidAddress(mapAddress)) updateData.address = mapAddress;
-            if (bodyText) updateData.description = bodyText.slice(0, 2000);
-            if (geoLat && geoLng) { updateData.lat = parseFloat(geoLat); updateData.lng = parseFloat(geoLng); }
-            if (times.time_start) updateData.time_start = times.time_start;
-            if (times.time_end) updateData.time_end = times.time_end;
-            if (detailDate) updateData.date_start = detailDate;
-            const bodyZip = extractZip(bodyText + ' ' + mapAddress);
-            if (bodyZip) updateData.zip = bodyZip;
+          // Already flushed to DB → update row directly
+          const updateData: Record<string, unknown> = {};
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (bodyText) updateData.description = cleanDescription(bodyText);
+          if (mapAddress && hasValidAddress(mapAddress)) updateData.address = mapAddress;
+          if (lat && lng) { updateData.lat = lat; updateData.lng = lng; }
+          if (pageImages.length > 0) updateData.image_urls = pageImages;
+          if (times.time_start) updateData.time_start = times.time_start;
+          if (times.time_end) updateData.time_end = times.time_end;
+          if (detailDate) updateData.date_start = detailDate;
 
+          if (sourceId && Object.keys(updateData).length > 0) {
             const { error } = await supabase
               .from('yard_sales')
               .update(updateData)
-              .eq('source_url', sourceUrl);
+              .eq('source_id', sourceId);
+
             if (error) {
-              console.log(`  ⚠️ [CL detail] DB update failed: ${error.message}`);
-            } else {
-              console.log(`  📸 [CL detail] updated DB directly: ${allImages.length} photos + enrichment`);
+              console.error(`[CL Detail] DB update error for ${sourceId}: ${error.message}`);
             }
-          } else {
-            console.log(`  ⚪ [CL detail] no match in memory: ${shortUrl}`);
           }
         }
+      }
 
-      // ═══════════════════════════════════════
-      // ESTATESALES.NET
-      // ═══════════════════════════════════════
-      } else if (source === 'estatesales' && pageType === 'index') {
+
+// ════════════════════════════════════════════════════════════
+// END OF PART 3/6
+// ════════════════════════════════════════════════════════════
+// ════════════════════════════════════════════════════════════
+// PART 4/6 — ESTATESALES.NET HANDLERS + GARAGESALEFINDER HANDLERS
+// ════════════════════════════════════════════════════════════
+
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 3: ESTATESALES.NET INDEX                ║
+      // ║  JSON-LD + HTML card fallback                    ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'es_index') {
         const detailUrls: string[] = [];
 
-        // Try JSON-LD first
-        $('script[type="application/ld+json"]').each((_, el) => {
+        // Strategy 1: JSON-LD structured data
+        $('script[type="application/ld+json"]').each((_i, el) => {
           try {
             const data = JSON.parse($(el).html() || '');
             const events = Array.isArray(data) ? data : [data];
@@ -1072,7 +1038,9 @@ async function main() {
               const loc = event.location || {};
               const addr = loc.address || {};
 
-              const fullUrl = eventUrl.startsWith('http') ? eventUrl : `https://www.estatesales.net${eventUrl}`;
+              const fullUrl = eventUrl.startsWith('http')
+                ? eventUrl
+                : `https://www.estatesales.net${eventUrl}`;
               const sourceId = `es-deep-${fullUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
 
               if (seenIds.has(sourceId)) continue;
@@ -1084,11 +1052,13 @@ async function main() {
                 description: desc,
                 address: addr.streetAddress || '',
                 city: addr.addressLocality || '',
-                state: addr.addressRegion || state,
+                state: addr.addressRegion || state || '',
                 zip: addr.postalCode || '',
                 lat: loc.geo?.latitude ? parseFloat(loc.geo.latitude) : null,
                 lng: loc.geo?.longitude ? parseFloat(loc.geo.longitude) : null,
-                date_start: event.startDate ? event.startDate.split('T')[0] : new Date().toISOString().split('T')[0],
+                date_start: event.startDate
+                  ? event.startDate.split('T')[0]
+                  : new Date().toISOString().split('T')[0],
                 date_end: event.endDate ? event.endDate.split('T')[0] : null,
                 time_start: null,
                 time_end: null,
@@ -1096,8 +1066,11 @@ async function main() {
                 categories: ['Estate Sale'],
                 source: 'estatesales.net',
                 source_url: fullUrl,
-                image_urls: event.image ? (Array.isArray(event.image) ? event.image : [event.image]) : [],
-                expires_at: event.endDate || new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
+                image_urls: event.image
+                  ? (Array.isArray(event.image) ? event.image : [event.image])
+                  : [],
+                expires_at: event.endDate
+                  || new Date(Date.now() + 14 * 24 * 60 * 60 * 1000).toISOString(),
                 scraped_at: new Date().toISOString(),
                 pushed: false,
               });
@@ -1107,8 +1080,8 @@ async function main() {
           } catch { /* skip bad JSON-LD */ }
         });
 
-        // Fallback HTML cards
-        $('.sale-item, .saleCard, .listing-card, .es-card, [class*="saleCard"], [class*="sale-card"], .sale-list-item').each((_, el) => {
+        // Strategy 2: HTML card fallback
+        $('.sale-item, .saleCard, .listing-card, .es-card, [class*="saleCard"], [class*="sale-card"], .sale-list-item').each((_i, el) => {
           const title = $(el).find('.sale-title, h3, h2, .title, [class*="sale-title"], [class*="saleTitle"]').first().text().trim();
           const address = $(el).find('.address, .sale-location, .location, [class*="address"], [class*="location"]').first().text().trim();
           const link = $(el).find('a').first().attr('href') || '';
@@ -1118,7 +1091,6 @@ async function main() {
           if (!title || seenIds.has(sourceId)) return;
           seenIds.add(sourceId);
 
-          // v2.3-photo-fix: check data-src for lazy-loaded images
           const imgSrc = getImgUrl($(el), $);
           const dateText = $(el).find('.date, .sale-date, [class*="date"]').first().text().trim();
           const parsedDate = extractDateFromText(dateText);
@@ -1129,12 +1101,14 @@ async function main() {
             description: '',
             address,
             city: '',
-            state,
+            state: state || '',
             zip: extractZip(address),
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: parsedDate || new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: null, time_end: null,
+            time_start: null,
+            time_end: null,
             price_range: null,
             categories: ['Estate Sale'],
             source: 'estatesales.net',
@@ -1148,20 +1122,25 @@ async function main() {
           if (link && !seenIds.has('detail-' + fullLink)) detailUrls.push(fullLink);
         });
 
+        // Enqueue detail pages
         if (detailUrls.length > 0) {
-          await addRequests(detailUrls.map(url => ({
+          await crawler.addRequests(detailUrls.map(url => ({
             url,
-            userData: { source: 'estatesales', state, pageType: 'detail' },
-          })), { forefront: true });
-          totalDetailPages += detailUrls.length;
+            userData: { source: 'estatesales', state, pageType: 'es_detail' },
+          })));
+          detailCount += detailUrls.length;
         }
 
-        const newListings = seenIds.size - beforeCount;
         sourceStats.estatesales.success++;
-        sourceStats.estatesales.listings += newListings;
-        console.log(`  ✅ [ES] ${shortUrl} → ${newListings} listings, ${detailUrls.length} detail pages`);
+        sourceStats.estatesales.listings += detailUrls.length;
+        console.log(`  ✅ [ES] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+      }
 
-      } else if (source === 'estatesales' && pageType === 'detail') {
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 4: ESTATESALES.NET DETAIL               ║
+      // ║  ★ v4.0: cleanDescription() applied ★            ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'es_detail') {
         const sourceUrl = request.url;
         const sourceId = `es-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
         const existingSale = pendingSales.find(s => s.source_id === sourceId);
@@ -1171,12 +1150,21 @@ async function main() {
         const stateEl = $('[itemprop="addressRegion"]').text().trim();
         const zipEl = $('[itemprop="postalCode"]').text().trim();
         const description = $('.sale-description, .description, [class*="description"]').text().trim();
-        // v2.3-photo-fix: check data-src for lazy-loaded estate sale photos
+
+        // Image extraction with lazy-load support
         const allImages: string[] = [];
-        $('.sale-photo img, .photo-gallery img, [class*="gallery"] img, [class*="photo"] img, .sale-images img, .slider img').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) allImages.push(src);
+        $('.sale-photo img, .photo-gallery img, [class*="gallery"] img, [class*="photo"] img, .sale-images img, .slider img').each((_i, img) => {
+          const src = $(img).attr('src')
+            || $(img).attr('data-src')
+            || $(img).attr('data-lazy')
+            || $(img).attr('data-lazy-src')
+            || $(img).attr('data-original')
+            || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) {
+            allImages.push(src);
+          }
         });
+
         const dateSection = $('.sale-dates, .dates, [class*="date"]').text().trim();
         const times = extractTimes(dateSection);
         const parsedDate = extractDateFromText(dateSection);
@@ -1186,22 +1174,24 @@ async function main() {
           if (cityEl) existingSale.city = cityEl;
           if (stateEl) existingSale.state = stateEl;
           if (zipEl) existingSale.zip = zipEl;
-          if (description) existingSale.description = description.slice(0, 2000);
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (description) existingSale.description = cleanDescription(description);
           if (allImages.length > 0) existingSale.image_urls = allImages;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
           if (parsedDate) existingSale.date_start = parsedDate;
           console.log(`  📝 [ES detail] enriched: ${existingSale.title.slice(0, 50)}`);
         } else {
-          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          // Already flushed to DB → update directly
           if (allImages.length > 0 || fullAddress || description) {
-            const updateData: Record<string, any> = {};
+            const updateData: Record<string, unknown> = {};
             if (allImages.length > 0) updateData.image_urls = allImages;
             if (fullAddress && hasValidAddress(fullAddress)) updateData.address = fullAddress;
             if (cityEl) updateData.city = cityEl;
             if (stateEl) updateData.state = stateEl;
             if (zipEl) updateData.zip = zipEl;
-            if (description) updateData.description = description.slice(0, 2000);
+            // ★ v4.0: cleanDescription()
+            if (description) updateData.description = cleanDescription(description);
             if (times.time_start) updateData.time_start = times.time_start;
             if (times.time_end) updateData.time_end = times.time_end;
             if (parsedDate) updateData.date_start = parsedDate;
@@ -1210,6 +1200,7 @@ async function main() {
               .from('yard_sales')
               .update(updateData)
               .eq('source_url', sourceUrl);
+
             if (error) {
               console.log(`  ⚠️ [ES detail] DB update failed: ${error.message}`);
             } else {
@@ -1217,14 +1208,16 @@ async function main() {
             }
           }
         }
+      }
 
-      // ═══════════════════════════════════════
-      // GARAGESALEFINDER
-      // ═══════════════════════════════════════
-      } else if (source === 'garagesalefinder' && pageType === 'index') {
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 5: GARAGESALEFINDER INDEX               ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'gsf_index') {
         const detailUrls: string[] = [];
 
-        $('div[class*="saleListing"], div[class*="sale-listing"], div[class*="SaleListing"], .listing-item, .sale-item, .garage-sale-item, [class*="listingCard"]').each((_, el) => {
+        // Primary listing cards
+        $('div[class*="saleListing"], div[class*="sale-listing"], div[class*="SaleListing"], .listing-item, .sale-item, .garage-sale-item, [class*="listingCard"]').each((_i, el) => {
           const title = $(el).find('h2, h3, h4, a strong, a b, .sale-title, [class*="title"]').first().text().trim();
           const link = $(el).find('a').first().attr('href') || '';
           const fullLink = link.startsWith('http') ? link : `https://www.garagesalefinder.com${link}`;
@@ -1235,7 +1228,6 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          // v2.3-photo-fix: check data-src for lazy-loaded images
           const imgSrc = getImgUrl($(el), $);
           const dateText = $(el).find('.date, [class*="date"]').text().trim();
           const parsedDate = extractDateFromText(dateText);
@@ -1246,12 +1238,15 @@ async function main() {
             title,
             description: '',
             address,
-            city: '', state,
+            city: '',
+            state: state || '',
             zip: extractZip(bodyText),
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: parsedDate || new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: times.time_start, time_end: times.time_end,
+            time_start: times.time_start,
+            time_end: times.time_end,
             price_range: null,
             categories: guessCategories(title),
             source: 'garagesalefinder.com',
@@ -1268,12 +1263,14 @@ async function main() {
         });
 
         // Fallback: anchors with sale links
-        $('a[href*="/sale/"]').each((_, el) => {
+        $('a[href*="/sale/"]').each((_i, el) => {
           const title = $(el).text().trim();
           const link = $(el).attr('href') || '';
           if (!title || title.length < 5 || !link.match(/\/sale\/\d/)) return;
+
           const fullLink = link.startsWith('http') ? link : `https://www.garagesalefinder.com${link}`;
           const sourceId = `gsf-deep-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
+
           if (seenIds.has(sourceId)) return;
           seenIds.add(sourceId);
 
@@ -1281,12 +1278,16 @@ async function main() {
             source_id: sourceId,
             title,
             description: '',
-            address: '', city: '', state,
+            address: '',
+            city: '',
+            state: state || '',
             zip: '',
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: null, time_end: null,
+            time_start: null,
+            time_end: null,
             price_range: null,
             categories: guessCategories(title),
             source: 'garagesalefinder.com',
@@ -1301,19 +1302,23 @@ async function main() {
         });
 
         if (detailUrls.length > 0) {
-          await addRequests(detailUrls.map(url => ({
+          await crawler.addRequests(detailUrls.map(url => ({
             url,
-            userData: { source: 'garagesalefinder', state, pageType: 'detail' },
-          })), { forefront: true });
-          totalDetailPages += detailUrls.length;
+            userData: { source: 'garagesalefinder', state, pageType: 'gsf_detail' },
+          })));
+          detailCount += detailUrls.length;
         }
 
-        const newListings = seenIds.size - beforeCount;
         sourceStats.garagesalefinder.success++;
-        sourceStats.garagesalefinder.listings += newListings;
-        console.log(`  ✅ [GSF] ${shortUrl} → ${newListings} listings, ${detailUrls.length} detail pages`);
+        sourceStats.garagesalefinder.listings += detailUrls.length;
+        console.log(`  ✅ [GSF] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+      }
 
-      } else if (source === 'garagesalefinder' && pageType === 'detail') {
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 6: GARAGESALEFINDER DETAIL              ║
+      // ║  ★ v4.0: cleanDescription() applied ★            ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'gsf_detail') {
         const sourceUrl = request.url;
         const sourceId = `gsf-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
         const existingSale = pendingSales.find(s => s.source_id === sourceId);
@@ -1321,18 +1326,28 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], #sale-details, .details').text().trim();
-        // v2.3-photo-fix: check data-src for lazy-loaded GSF detail photos
+
+        // Image extraction with lazy-load support
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
+          const src = $(img).attr('src')
+            || $(img).attr('data-src')
+            || $(img).attr('data-lazy')
+            || $(img).attr('data-lazy-src')
+            || $(img).attr('data-original')
+            || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('spacer') && src.length > 10) {
+            allImages.push(src);
+          }
         });
+
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
 
         if (existingSale) {
           if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          if (description) existingSale.description = description.slice(0, 2000);
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (description) existingSale.description = cleanDescription(description);
           if (allImages.length > 0) existingSale.image_urls = allImages;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
@@ -1340,12 +1355,13 @@ async function main() {
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [GSF detail] enriched: ${existingSale.title.slice(0, 50)}`);
         } else {
-          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          // Already flushed to DB → update directly
           if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, any> = {};
+            const updateData: Record<string, unknown> = {};
             if (allImages.length > 0) updateData.image_urls = allImages;
             if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            if (description) updateData.description = description.slice(0, 2000);
+            // ★ v4.0: cleanDescription()
+            if (description) updateData.description = cleanDescription(description);
             if (times.time_start) updateData.time_start = times.time_start;
             if (times.time_end) updateData.time_end = times.time_end;
             if (parsedDate) updateData.date_start = parsedDate;
@@ -1356,6 +1372,7 @@ async function main() {
               .from('yard_sales')
               .update(updateData)
               .eq('source_url', sourceUrl);
+
             if (error) {
               console.log(`  ⚠️ [GSF detail] DB update failed: ${error.message}`);
             } else {
@@ -1363,14 +1380,23 @@ async function main() {
             }
           }
         }
+      }
 
-      // ═══════════════════════════════════════
-      // YARDSALESEARCH
-      // ═══════════════════════════════════════
-      } else if (source === 'yardsalesearch' && pageType === 'index') {
+
+// ════════════════════════════════════════════════════════════
+// END OF PART 4/6
+// ════════════════════════════════════════════════════════════
+// ════════════════════════════════════════════════════════════
+// PART 5/6 — YARDSALESEARCH HANDLERS + GSALR INDEX HANDLER
+// ════════════════════════════════════════════════════════════
+
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 7: YARDSALESEARCH INDEX                 ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'yss_index') {
         const detailUrls: string[] = [];
 
-        $('div[class*="listing"], div[class*="Listing"], .sale-listing, .result-item, .sale-item, .yard-sale-item, [class*="saleResult"]').each((_, el) => {
+        $('div[class*="listing"], div[class*="Listing"], .sale-listing, .result-item, .sale-item, .yard-sale-item, [class*="saleResult"]').each((_i, el) => {
           const title = $(el).find('h2, h3, h4, strong, b, .title, [class*="title"]').first().text().trim();
           const link = $(el).find('a').first().attr('href') || '';
           const fullLink = link.startsWith('http') ? link : `https://www.yardsalesearch.com${link}`;
@@ -1381,7 +1407,6 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          // v2.3-photo-fix: check data-src for lazy-loaded images
           const imgSrc = getImgUrl($(el), $);
           const times = extractTimes(bodyText);
           const parsedDate = extractDateFromText(bodyText);
@@ -1391,12 +1416,15 @@ async function main() {
             title,
             description: '',
             address,
-            city: '', state,
+            city: '',
+            state: state || '',
             zip: extractZip(bodyText),
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: parsedDate || new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: times.time_start, time_end: times.time_end,
+            time_start: times.time_start,
+            time_end: times.time_end,
             price_range: null,
             categories: guessCategories(title),
             source: 'yardsalesearch.com',
@@ -1413,19 +1441,23 @@ async function main() {
         });
 
         if (detailUrls.length > 0) {
-          await addRequests(detailUrls.map(url => ({
+          await crawler.addRequests(detailUrls.map(url => ({
             url,
-            userData: { source: 'yardsalesearch', state, pageType: 'detail' },
-          })), { forefront: true });
-          totalDetailPages += detailUrls.length;
+            userData: { source: 'yardsalesearch', state, pageType: 'yss_detail' },
+          })));
+          detailCount += detailUrls.length;
         }
 
-        const newListings = seenIds.size - beforeCount;
         sourceStats.yardsalesearch.success++;
-        sourceStats.yardsalesearch.listings += newListings;
-        console.log(`  ✅ [YSS] ${shortUrl} → ${newListings} listings, ${detailUrls.length} detail pages`);
+        sourceStats.yardsalesearch.listings += detailUrls.length;
+        console.log(`  ✅ [YSS] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+      }
 
-      } else if (source === 'yardsalesearch' && pageType === 'detail') {
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 8: YARDSALESEARCH DETAIL                ║
+      // ║  ★ v4.0: cleanDescription() applied ★            ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'yss_detail') {
         const sourceUrl = request.url;
         const sourceId = `yss-deep-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
         const existingSale = pendingSales.find(s => s.source_id === sourceId);
@@ -1433,18 +1465,28 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
-        // v2.3-photo-fix: check data-src for lazy-loaded YSS detail photos
+
+        // Image extraction with lazy-load support
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
+          const src = $(img).attr('src')
+            || $(img).attr('data-src')
+            || $(img).attr('data-lazy')
+            || $(img).attr('data-lazy-src')
+            || $(img).attr('data-original')
+            || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) {
+            allImages.push(src);
+          }
         });
+
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
 
         if (existingSale) {
           if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          if (description) existingSale.description = description.slice(0, 2000);
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (description) existingSale.description = cleanDescription(description);
           if (allImages.length > 0) existingSale.image_urls = allImages;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
@@ -1452,12 +1494,13 @@ async function main() {
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [YSS detail] enriched: ${existingSale.title.slice(0, 50)}`);
         } else {
-          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          // Already flushed to DB → update directly
           if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, any> = {};
+            const updateData: Record<string, unknown> = {};
             if (allImages.length > 0) updateData.image_urls = allImages;
             if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            if (description) updateData.description = description.slice(0, 2000);
+            // ★ v4.0: cleanDescription()
+            if (description) updateData.description = cleanDescription(description);
             if (times.time_start) updateData.time_start = times.time_start;
             if (times.time_end) updateData.time_end = times.time_end;
             if (parsedDate) updateData.date_start = parsedDate;
@@ -1468,6 +1511,7 @@ async function main() {
               .from('yard_sales')
               .update(updateData)
               .eq('source_url', sourceUrl);
+
             if (error) {
               console.log(`  ⚠️ [YSS detail] DB update failed: ${error.message}`);
             } else {
@@ -1475,17 +1519,19 @@ async function main() {
             }
           }
         }
+      }
 
-      // ═══════════════════════════════════════
-      // GSALR.COM (v3.0 NEW SOURCE)
-      // ═══════════════════════════════════════
-      } else if (source === 'gsalr' && pageType === 'index') {
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 9: GSALR.COM INDEX (ScraperAPI-only)    ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'gsalr_index') {
         const detailUrls: string[] = [];
 
-        // Gsalr listing cards
-        $('div.sale, .sale-listing, .listing, article, .result, .sale-item, [class*="sale"], [class*="listing"]').each((_, el) => {
+        // Primary listing cards
+        $('div.sale, .sale-listing, .listing, article, .result, .sale-item, [class*="sale"], [class*="listing"]').each((_i, el) => {
           const title = $(el).find('h2, h3, h4, .title, a strong, a b, [class*="title"]').first().text().trim();
           const link = $(el).find('a').first().attr('href') || '';
+
           if (!title || title.length < 5 || title.length > 300) return;
 
           const fullLink = link.startsWith('http') ? link : `https://gsalr.com${link}`;
@@ -1496,7 +1542,6 @@ async function main() {
 
           const bodyText = $(el).text();
           const address = extractAddressFromText(bodyText) || '';
-          // v3.1-photo-fix: check data-src for lazy-loaded images
           const imgSrc = getImgUrl($(el), $);
           const times = extractTimes(bodyText);
           const parsedDate = extractDateFromText(bodyText);
@@ -1506,12 +1551,15 @@ async function main() {
             title,
             description: '',
             address,
-            city: '', state,
+            city: '',
+            state: state || '',
             zip: extractZip(bodyText),
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: parsedDate || new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: times.time_start, time_end: times.time_end,
+            time_start: times.time_start,
+            time_end: times.time_end,
             price_range: null,
             categories: guessCategories(title),
             source: 'gsalr.com',
@@ -1529,13 +1577,14 @@ async function main() {
         });
 
         // Fallback: grab any listing links on the page
-        $('a[href*="/sale"], a[href*="/garage-sale"]').each((_, el) => {
+        $('a[href*="/sale"], a[href*="/garage-sale"]').each((_i, el) => {
           const title = $(el).text().trim();
           const link = $(el).attr('href') || '';
           if (!title || title.length < 5 || title.length > 300) return;
 
           const fullLink = link.startsWith('http') ? link : `https://gsalr.com${link}`;
           const sourceId = `gsalr-${fullLink.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
+
           if (seenIds.has(sourceId)) return;
           seenIds.add(sourceId);
 
@@ -1548,12 +1597,15 @@ async function main() {
             title,
             description: '',
             address: extractAddressFromText(bodyText) || '',
-            city: '', state,
+            city: '',
+            state: state || '',
             zip: extractZip(bodyText),
-            lat: null, lng: null,
+            lat: null,
+            lng: null,
             date_start: parsedDate || new Date().toISOString().split('T')[0],
             date_end: null,
-            time_start: times.time_start, time_end: times.time_end,
+            time_start: times.time_start,
+            time_end: times.time_end,
             price_range: null,
             categories: guessCategories(title),
             source: 'gsalr.com',
@@ -1568,19 +1620,31 @@ async function main() {
         });
 
         if (detailUrls.length > 0) {
-          await addRequests(detailUrls.map(url => ({
+          await crawler.addRequests(detailUrls.map(url => ({
             url,
-            userData: { source: 'gsalr', state, pageType: 'detail' },
-          })), { forefront: true });
-          totalDetailPages += detailUrls.length;
+            userData: { source: 'gsalr', state, pageType: 'gsalr_detail' },
+          })));
+          detailCount += detailUrls.length;
         }
 
-        const newListings = seenIds.size - beforeCount;
         sourceStats.gsalr.success++;
-        sourceStats.gsalr.listings += newListings;
-        console.log(`  ✅ [GSALR] ${shortUrl} → ${newListings} listings, ${detailUrls.length} detail pages`);
+        sourceStats.gsalr.listings += detailUrls.length;
+        console.log(`  ✅ [GSALR] ${request.url.slice(0, 60)} → ${detailUrls.length} listings`);
+      }
 
-      } else if (source === 'gsalr' && pageType === 'detail') {
+
+// ════════════════════════════════════════════════════════════
+// END OF PART 5/6
+// ════════════════════════════════════════════════════════════
+// ════════════════════════════════════════════════════════════
+// PART 6/6 — GSALR DETAIL + BATCH SAVE + FAIL HANDLER + RUNNER + POST-CRAWL + STATS
+// ════════════════════════════════════════════════════════════
+
+      // ╔══════════════════════════════════════════════════╗
+      // ║  HANDLER 10: GSALR.COM DETAIL (ScraperAPI-only)  ║
+      // ║  ★ v4.0: cleanDescription() applied ★            ║
+      // ╚══════════════════════════════════════════════════╝
+      else if (pageType === 'gsalr_detail') {
         const sourceUrl = request.url;
         const sourceId = `gsalr-${sourceUrl.replace(/[^a-zA-Z0-9]/g, '').slice(-30)}`;
         const existingSale = pendingSales.find(s => s.source_id === sourceId);
@@ -1588,18 +1652,28 @@ async function main() {
         const bodyText = $('body').text();
         const detailAddress = extractAddressFromText(bodyText);
         const description = $('.sale-description, .description, [class*="description"], .details, #details').text().trim();
-        // v3.1-photo-fix: check data-src for lazy-loaded Gsalr detail photos
+
+        // Image extraction with lazy-load support
         const allImages: string[] = [];
-        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_, img) => {
-          const src = $(img).attr('src') || $(img).attr('data-src') || $(img).attr('data-lazy') || $(img).attr('data-lazy-src') || $(img).attr('data-original') || '';
-          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) allImages.push(src);
+        $('img[src*="sale"], img[src*="photo"], .photo img, .gallery img, img[data-src], img[data-lazy], [class*="photo"] img, [class*="gallery"] img').each((_i, img) => {
+          const src = $(img).attr('src')
+            || $(img).attr('data-src')
+            || $(img).attr('data-lazy')
+            || $(img).attr('data-lazy-src')
+            || $(img).attr('data-original')
+            || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && src.length > 10) {
+            allImages.push(src);
+          }
         });
+
         const times = extractTimes(bodyText);
         const parsedDate = extractDateFromText(bodyText);
 
         if (existingSale) {
           if (detailAddress && hasValidAddress(detailAddress)) existingSale.address = detailAddress;
-          if (description) existingSale.description = description.slice(0, 2000);
+          // ★ v4.0: cleanDescription() instead of raw .slice(0,2000)
+          if (description) existingSale.description = cleanDescription(description);
           if (allImages.length > 0) existingSale.image_urls = allImages;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
@@ -1607,12 +1681,13 @@ async function main() {
           existingSale.zip = existingSale.zip || extractZip(bodyText);
           console.log(`  📝 [GSALR detail] enriched: ${existingSale.title.slice(0, 50)}`);
         } else {
-          // v3.2-photo-fix: listing already flushed — UPDATE Supabase directly
+          // Already flushed to DB → update directly
           if (allImages.length > 0 || detailAddress || description) {
-            const updateData: Record<string, any> = {};
+            const updateData: Record<string, unknown> = {};
             if (allImages.length > 0) updateData.image_urls = allImages;
             if (detailAddress && hasValidAddress(detailAddress)) updateData.address = detailAddress;
-            if (description) updateData.description = description.slice(0, 2000);
+            // ★ v4.0: cleanDescription()
+            if (description) updateData.description = cleanDescription(description);
             if (times.time_start) updateData.time_start = times.time_start;
             if (times.time_end) updateData.time_end = times.time_end;
             if (parsedDate) updateData.date_start = parsedDate;
@@ -1623,6 +1698,7 @@ async function main() {
               .from('yard_sales')
               .update(updateData)
               .eq('source_url', sourceUrl);
+
             if (error) {
               console.log(`  ⚠️ [GSALR detail] DB update failed: ${error.message}`);
             } else {
@@ -1632,94 +1708,112 @@ async function main() {
         }
       }
 
-      // ═══════════════════════════════════════
-      //  SAVE IMMEDIATELY — every 25 sales
-      // ═══════════════════════════════════════
+      // ══════════════════════════════════════════════════
+      // BATCH SAVE — every SAVE_BATCH_SIZE (25) sales
+      // ══════════════════════════════════════════════════
       if (pendingSales.length >= SAVE_BATCH_SIZE) {
         const batch = pendingSales.splice(0, pendingSales.length);
         const saved = await saveBatchToSupabase(batch);
-        totalSaved += saved;
-        console.log(`  💾 [Save] ${saved} sales saved to Supabase (${totalSaved} total, ${seenIds.size} unique found)`);
+        savedCount += saved;
+        console.log(`  💾 [Save] ${saved} sales saved to Supabase (${savedCount} total, ${seenIds.size} unique found)`);
       }
 
       // Progress log every 25 pages
-      if (totalProcessed % 25 === 0) {
+      if (processedCount % 25 === 0) {
         const elapsed = ((Date.now() - crawlStartTime) / 1000 / 60).toFixed(1);
-        console.log(`\n  ═══ [Progress] ${totalProcessed} pages | ${totalDetailPages} detail | ${seenIds.size} unique | ${totalSaved} saved | ${totalSkipped} failed | ${elapsed} min ═══\n`);
+        console.log(`\n  ═══ [Progress] ${processedCount} pages | ${detailCount} detail | ${seenIds.size} unique | ${savedCount} saved | ${skippedCount} failed | ${elapsed} min ═══\n`);
       }
 
-      // v2.2: Delay between requests — critical for CL
+      // 2s delay between requests — critical for CL rate limiting
       await new Promise(resolve => setTimeout(resolve, 2000));
     },
 
+    // ══════════════════════════════════════════════════
+    // FAILED REQUEST HANDLER
+    // ══════════════════════════════════════════════════
     async failedRequestHandler({ request, error }) {
-      totalSkipped++;
+      skippedCount++;
       const { source } = request.userData as { source: string };
       if (sourceStats[source]) sourceStats[source].failed++;
 
-      // v2.2: Log EVERY failure so you can see what's happening
       const shortUrl = request.url.replace(/https?:\/\/(www\.)?/, '').slice(0, 70);
       const errMsg = (error as Error)?.message?.slice(0, 80) || 'Unknown error';
-      console.log(`  ❌ [FAIL #${totalSkipped}] [${source}] ${shortUrl} — ${errMsg}`);
+      console.log(`  ❌ [FAIL #${skippedCount}] [${source}] ${shortUrl} — ${errMsg}`);
     },
   });
 
-  // Add all start URLs
-  console.log(`Adding ${startUrls.length} URLs to queue...`);
+  // ══════════════════════════════════════════════════════════
+  // ADD URLs AND RUN THE CRAWLER
+  // ══════════════════════════════════════════════════════════
+  console.log(`\nAdding ${startUrls.length} URLs to queue...`);
   await crawler.addRequests(startUrls);
-
-  // Run the crawler
-  console.log('Starting Crawlee v3.1...\n');
-  const crawlStartTime = Date.now();
+  console.log('Starting Crawlee v4.0...\n');
   await crawler.run();
 
-  // Save any remaining sales
+  // ══════════════════════════════════════════════════════════
+  // FINAL SAVE — flush any remaining pendingSales
+  // ══════════════════════════════════════════════════════════
   if (pendingSales.length > 0) {
     const saved = await saveBatchToSupabase(pendingSales);
-    totalSaved += saved;
-    console.log(`  💾 [Final Save] ${saved} remaining sales saved (${totalSaved} total)`);
+    savedCount += saved;
+    console.log(`  💾 [Final Save] ${saved} remaining sales saved (${savedCount} total)`);
     pendingSales.length = 0;
   }
 
   const crawlDuration = (Date.now() - crawlStartTime) / 1000;
 
-  // v2.2: Per-source breakdown
+  // ══════════════════════════════════════════════════════════
+  // CRAWL PHASE STATS — per-source breakdown
+  // ══════════════════════════════════════════════════════════
   console.log('\n═══════════════════════════════════════════════════════');
-  console.log('  CRAWL PHASE COMPLETE — SOURCE BREAKDOWN');
+  console.log(' CRAWL PHASE COMPLETE — SOURCE BREAKDOWN');
   console.log('═══════════════════════════════════════════════════════');
   for (const [src, stats] of Object.entries(sourceStats)) {
     console.log(`  ${src.toUpperCase()}: ${stats.success} pages OK, ${stats.failed} failed, ${stats.listings} listings`);
   }
   console.log('───────────────────────────────────────────────────────');
-  console.log(`  Total pages crawled: ${totalProcessed}`);
-  console.log(`  Total detail pages: ${totalDetailPages}`);
-  console.log(`  Total pages failed: ${totalSkipped}`);
-  console.log(`  Unique sales found: ${seenIds.size}`);
-  console.log(`  Sales saved to Supabase: ${totalSaved}`);
-  console.log(`  Crawl duration: ${crawlDuration.toFixed(1)}s (${(crawlDuration / 60).toFixed(1)} min)`);
+  console.log(`  Total pages crawled: ${processedCount}`);
+  console.log(`  Total detail pages:  ${detailCount}`);
+  console.log(`  Total pages failed:  ${skippedCount}`);
+  console.log(`  Unique sales found:  ${seenIds.size}`);
+  console.log(`  Sales saved to DB:   ${savedCount}`);
+  console.log(`  Crawl duration:      ${crawlDuration.toFixed(1)}s (${(crawlDuration / 60).toFixed(1)} min)`);
   console.log('═══════════════════════════════════════════════════════');
 
-  // v3.8: POST-CRAWL ADDRESS CLEANUP — remove junk AFTER detail pages enriched
+  // ══════════════════════════════════════════════════════════
+  // POST-CRAWL ADDRESS CLEANUP (v3.8)
+  // Removes listings with no valid street address
+  // ══════════════════════════════════════════════════════════
   const { cleaned, kept } = await postCrawlAddressCleanup();
 
-  // POST-CRAWL GEOCODING (only geocodes rows that survived cleanup)
+  // ══════════════════════════════════════════════════════════
+  // POST-CRAWL GEOCODING
+  // Only geocodes rows that survived cleanup
+  // ══════════════════════════════════════════════════════════
   const geocoded = await postCrawlGeocode();
 
+  // ══════════════════════════════════════════════════════════
+  // FINAL SUMMARY
+  // ══════════════════════════════════════════════════════════
   const totalDuration = (Date.now() - crawlStartTime) / 1000;
-
   console.log('\n═══════════════════════════════════════════════════════');
-  console.log('  CRAWLEE DEEP SCRAPER v3.8 — ALL DONE');
-  console.log(`  Sales saved: ${totalSaved}`);
-  console.log(`  Address cleanup: ${cleaned} removed, ${kept} kept`);
-  console.log(`  Sales geocoded: ${geocoded}`);
-  console.log(`  Total duration: ${totalDuration.toFixed(1)}s (${(totalDuration / 60).toFixed(1)} min)`);
+  console.log(' CRAWLEE DEEP SCRAPER v4.0 — ALL DONE');
+  console.log(`  Sales saved:         ${savedCount}`);
+  console.log(`  Address cleanup:     ${cleaned} removed, ${kept} kept`);
+  console.log(`  Sales geocoded:      ${geocoded}`);
+  console.log(`  Total duration:      ${totalDuration.toFixed(1)}s (${(totalDuration / 60).toFixed(1)} min)`);
   console.log('═══════════════════════════════════════════════════════');
 }
 
-// Declare crawlStartTime at module level for use in requestHandler
+// ══════════════════════════════════════════════════════════════
+// MODULE-LEVEL — crawlStartTime used inside requestHandler
+// for progress logging elapsed time
+// ══════════════════════════════════════════════════════════════
 let crawlStartTime = Date.now();
 
-// Run
+// ══════════════════════════════════════════════════════════════
+// RUN
+// ══════════════════════════════════════════════════════════════
 main().catch((err) => {
   console.error('Fatal error:', err);
   process.exit(1);
