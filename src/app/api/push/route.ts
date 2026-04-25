@@ -1,7 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { pushToYardShoppers } from '@/lib/pushers/yard-shoppers-push';
-import { pushToCheapHouseHub } from '@/lib/pushers/cheap-house-push';
-import { pushToCryptoToolbox } from '@/lib/pushers/crypto-toolbox-push';
 
 export const maxDuration = 60;
 
@@ -27,27 +25,8 @@ export async function GET(req: NextRequest) {
     console.error('[PUSH] YardShoppers failed:', err.message);
   }
 
-  try {
-    results.cheap_house_hub = await pushToCheapHouseHub();
-    console.log(`[PUSH] CheapHouseHub: ${results.cheap_house_hub.itemsPushed} items pushed`);
-  } catch (err: any) {
-    results.cheap_house_hub = { success: false, itemsPushed: 0, error: err.message };
-    console.error('[PUSH] CheapHouseHub failed:', err.message);
-  }
-
-  try {
-    results.crypto_toolbox = await pushToCryptoToolbox();
-    console.log(`[PUSH] CryptoToolbox: ${results.crypto_toolbox.itemsPushed} items pushed`);
-  } catch (err: any) {
-    results.crypto_toolbox = { success: false, itemsPushed: 0, error: err.message };
-    console.error('[PUSH] CryptoToolbox failed:', err.message);
-  }
-
   const duration = Date.now() - startTime;
-  const totalPushed =
-    (results.yard_shoppers?.itemsPushed || 0) +
-    (results.cheap_house_hub?.itemsPushed || 0) +
-    (results.crypto_toolbox?.itemsPushed || 0);
+  const totalPushed = results.yard_shoppers?.itemsPushed || 0;
 
   console.log(`[PUSH] Complete: ${totalPushed} pushed in ${(duration / 1000).toFixed(1)}s`);
 
