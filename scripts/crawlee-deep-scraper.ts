@@ -1418,7 +1418,7 @@ async function main(): Promise<void> {
 
   const crawler = new CheerioCrawler({
     proxyConfiguration,
-    maxConcurrency: 2,
+    maxConcurrency: 10,
     maxRequestRetries: 2,
     requestHandlerTimeoutSecs: 120,
     navigationTimeoutSecs: 90,
