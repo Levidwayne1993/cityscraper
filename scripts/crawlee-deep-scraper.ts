@@ -2,9 +2,23 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v4.1 — CITY EXTRACTION + CLEAN DESCRIPTIONS + TIME FIX
+// CRAWLEE DEEP SCRAPER v4.2 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
 //
-// v4.1 CHANGES:
+// v4.2 CHANGES:
+//   1. NEW: cleanTitle() — strips source-site branding, excessive punctuation,
+//      garbage chars, emoji, and collapses whitespace. Applied to ALL 6 index
+//      handler title assignments (CL, ES JSON-LD, ES HTML, GSF, YSS, Gsalr).
+//   2. FIX: CL index handler now sets date_start: null instead of CL posting
+//      date — CL <time datetime> is when the AD was posted, not the sale date.
+//   3. FIX: All 5 detail handlers now ALWAYS override date_start when
+//      extractDateFromText() finds a date in the description (removed old
+//      guards that prevented correct dates from overriding bad ones).
+//   4. FIX: extractDateFromText() now checks ISO dates (YYYY-MM-DD) FIRST,
+//      so CL descriptions with "date: 2026-04-18" are parsed correctly.
+//   5. FIX: All 5 PATH B (direct DB update) blocks now also extract and
+//      save date_start from description text.
+//
+// v4.1 CHANGES (PRESERVED):
 //   1. NEW: CL_SUBDOMAIN_TO_CITY mapping — 413 entries converting CL subdomains
 //      to real city names (e.g. 'winstonsalem' → 'Winston-Salem')
 //   2. NEW: extractCityFromCLUrl() — extracts subdomain from request URL, looks
@@ -307,6 +321,57 @@ function guessCategories(text: string): string[] {
   if (/flea\s*market/i.test(lower)) cats.push('Flea Market');
   if (cats.length === 0) cats.push('Garage Sale');
   return cats;
+}
+
+// ══════════════════════════════════════════════════════════════
+// v4.2 NEW: TITLE CLEANING
+// Strips source-site branding, excessive punctuation, emoji,
+// garbage chars, and normalizes whitespace.
+// ══════════════════════════════════════════════════════════════
+function cleanTitle(raw: string): string {
+  if (!raw) return '';
+
+  let t = raw;
+
+  // ── Strip source-site branding prefixes ──
+  // e.g. "Craigslist:", "Estate Sale -", "Garage Sale Finder:"
+  t = t.replace(/^\s*(craigslist|estate\s*sales?\.net|garagesalefinder|yardsalesearch|gsalr)\s*[:\-–—|]+\s*/i, '');
+
+  // ── Strip common noise prefixes ──
+  // e.g. "HUGE!!!", "*** MOVING SALE ***"
+  t = t.replace(/^[\s*!~#>•\-–—]+/, '');
+
+  // ── Strip emoji and other symbol characters ──
+  t = t.replace(/[\u{1F300}-\u{1F9FF}\u{2600}-\u{26FF}\u{2700}-\u{27BF}\u{FE00}-\u{FE0F}\u{1F000}-\u{1F02F}]/gu, '');
+
+  // ── Strip excessive punctuation runs (3+ of same char) ──
+  // "!!!" → "!", "***" → "", "---" → ""
+  t = t.replace(/([!?]){3,}/g, '$1');
+  t = t.replace(/[*~#]{2,}/g, '');
+  t = t.replace(/[-–—]{3,}/g, '');
+
+  // ── Strip garbage / control characters ──
+  t = t.replace(/[\x00-\x1F\x7F]/g, '');
+
+  // ── Decode common HTML entities ──
+  t = t.replace(/&amp;/g, '&');
+  t = t.replace(/&lt;/g, '<');
+  t = t.replace(/&gt;/g, '>');
+  t = t.replace(/&quot;/g, '"');
+  t = t.replace(/&#39;/g, "'");
+  t = t.replace(/&nbsp;/g, ' ');
+
+  // ── Strip HTML tags (in case title contains markup) ──
+  t = t.replace(/<[^>]*>/g, '');
+
+  // ── Collapse whitespace ──
+  t = t.replace(/[\r\n]+/g, ' ');
+  t = t.replace(/\s{2,}/g, ' ');
+
+  // ── Trim trailing punctuation junk ──
+  t = t.replace(/[\s*!~#\-–—|:]+$/, '');
+
+  return t.trim().slice(0, 300);
 }
 
 // ══════════════════════════════════════════════════════════════
@@ -1382,7 +1447,7 @@ async function main(): Promise<void> {
 
           const sale: ScrapedSale = {
             source_id: fullUrl.split('/').pop()?.replace('.html', '') || '',
-            title,
+            title: cleanTitle(title),  // v4.2 FIX: clean title
             description: '',
             address: locationText || '',
             city: locationCity || clCity || '',
@@ -1552,7 +1617,7 @@ async function main(): Promise<void> {
 
               const sale: ScrapedSale = {
                 source_id: sourceUrl.split('/').pop() || '',
-                title,
+                title: cleanTitle(title),  // v4.2 FIX: clean title
                 description: item.description || '',
                 address: streetAddress,
                 city,
@@ -1605,7 +1670,7 @@ async function main(): Promise<void> {
 
             const sale: ScrapedSale = {
               source_id: link.split('/').pop() || '',
-              title,
+              title: cleanTitle(title),  // v4.2 FIX: clean title
               description: '',
               address: extractAddressFromText(addressText) || addressText,
               city: esCity,
@@ -1752,7 +1817,7 @@ async function main(): Promise<void> {
 
           const sale: ScrapedSale = {
             source_id: link.split('/').pop() || '',
-            title,
+            title: cleanTitle(title),  // v4.2 FIX: clean title
             description: '',
             address: extractAddressFromText(addressText || bodyText) || '',
             city: gsfCity,
@@ -1900,7 +1965,7 @@ async function main(): Promise<void> {
 
           const sale: ScrapedSale = {
             source_id: link.split('/').pop()?.replace('.html', '') || '',
-            title,
+            title: cleanTitle(title),  // v4.2 FIX: clean title
             description: '',
             address: extractAddressFromText(addressText || bodyText) || '',
             city: yssCity || extractCityFromAddress(addressText) || '',
@@ -2065,7 +2130,7 @@ async function main(): Promise<void> {
 
           const sale: ScrapedSale = {
             source_id: link.split('/').pop()?.replace('.html', '') || '',
-            title,
+            title: cleanTitle(title),  // v4.2 FIX: clean title
             description: '',
             address: extractAddressFromText(addressText || bodyText) || '',
             city: gsalrCity,
