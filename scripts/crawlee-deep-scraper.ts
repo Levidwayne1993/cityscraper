@@ -1498,7 +1498,7 @@ async function main(): Promise<void> {
 
         // Enqueue detail pages directly (bypasses broken CSS selector matching)
         if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls);
+          await crawler.addRequests(detailUrls, { forefront: true });
           log.info(`[CL Index] Enqueued ${detailUrls.length} detail pages from ${request.url}`);
         }
 
@@ -2037,7 +2037,7 @@ async function main(): Promise<void> {
           });
         });
         if (detailUrls.length > 0) {
-          await crawler.addRequests(detailUrls);
+          await crawler.addRequests(detailUrls, { forefront: true });
         }
 
         // Pagination
