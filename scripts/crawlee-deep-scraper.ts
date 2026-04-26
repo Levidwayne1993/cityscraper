@@ -223,11 +223,19 @@ function extractTimes(text: string): { time_start: string | null; time_end: stri
 
 // ── DATE EXTRACTION FROM TEXT ──
 function extractDateFromText(text: string): string | null {
+  // v4.2 FIX: ISO dates FIRST (YYYY-MM-DD) — CL descriptions use this format
+  const isoMatch = text.match(/(\d{4}-\d{2}-\d{2})/);
+  if (isoMatch) {
+    const d = new Date(isoMatch[1] + 'T12:00:00');
+    if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
+  }
+  // "April 18, 2026" or "Apr 18 2026"
   const fullMatch = text.match(/(\w+\s+\d{1,2},?\s+\d{4})/);
   if (fullMatch) {
     const d = new Date(fullMatch[1]);
     if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
   }
+  // "4/18/2026" or "04/18/26"
   const slashMatch = text.match(/(\d{1,2}\/\d{1,2}\/\d{2,4})/);
   if (slashMatch) {
     const d = new Date(slashMatch[1]);
@@ -1382,7 +1390,7 @@ async function main(): Promise<void> {
             zip: extractZip(locationText) || '',
             lat: null,
             lng: null,
-            date_start: dateStr ? dateStr.split('T')[0] : null,
+            date_start: null, // v4.2 FIX: CL <time> is the POSTING date, not the sale date
             date_end: null,
             time_start: null,
             time_end: null,
@@ -1465,10 +1473,9 @@ async function main(): Promise<void> {
           existingSale.time_start = times.time_start || existingSale.time_start;
           existingSale.time_end = times.time_end || existingSale.time_end;
 
-          // Extract date from description if missing
-          if (!existingSale.date_start) {
-            existingSale.date_start = extractDateFromText(description);
-          }
+          // v4.2 FIX: ALWAYS try to extract date from description (override CL posting date)
+          const descDate = extractDateFromText(description);
+          if (descDate) existingSale.date_start = descDate;
         } else {
           // ── PATH B: Direct DB update (sale was already saved in a prior batch) ──
           const updateData: Record<string, unknown> = {};
@@ -1484,6 +1491,10 @@ async function main(): Promise<void> {
           const times = extractTimes(description);
           if (times.time_start) updateData.time_start = times.time_start;
           if (times.time_end) updateData.time_end = times.time_end;
+
+          // v4.2 FIX: Always try to extract real sale date from description
+          const descDate = extractDateFromText(description);
+          if (descDate) updateData.date_start = descDate;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1679,6 +1690,9 @@ async function main(): Promise<void> {
           if (images.length > 0) existingSale.image_urls = images;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
+          // v4.2 FIX: ALWAYS try to extract date from description (override bad dates)
+          const esDescDate = extractDateFromText(dateText || description);
+          if (esDescDate) existingSale.date_start = esDescDate;
         } else {
           // ── PATH B: Direct DB update ──
           const updateData: Record<string, unknown> = {};
@@ -1692,6 +1706,10 @@ async function main(): Promise<void> {
           if (images.length > 0) updateData.image_urls = images;
           if (times.time_start) updateData.time_start = times.time_start;
           if (times.time_end) updateData.time_end = times.time_end;
+
+          // v4.2 FIX: Always try to extract real sale date from description
+          const esDescDate2 = extractDateFromText(dateText || description);
+          if (esDescDate2) updateData.date_start = esDescDate2;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1815,9 +1833,9 @@ async function main(): Promise<void> {
           if (images.length > 0) existingSale.image_urls = images;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
-          if (!existingSale.date_start) {
-            existingSale.date_start = extractDateFromText(dateText || description);
-          }
+          // v4.2 FIX: ALWAYS try to extract date from description (override bad dates)
+          const gsfDescDate = extractDateFromText(dateText || description);
+          if (gsfDescDate) existingSale.date_start = gsfDescDate;
         } else {
           // ── PATH B: Direct DB update ──
           const updateData: Record<string, unknown> = {};
@@ -1830,6 +1848,10 @@ async function main(): Promise<void> {
           if (images.length > 0) updateData.image_urls = images;
           if (times.time_start) updateData.time_start = times.time_start;
           if (times.time_end) updateData.time_end = times.time_end;
+
+          // v4.2 FIX: Always try to extract real sale date from description
+          const gsfDescDate2 = extractDateFromText(dateText || description);
+          if (gsfDescDate2) updateData.date_start = gsfDescDate2;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -1982,9 +2004,9 @@ async function main(): Promise<void> {
           if (images.length > 0) existingSale.image_urls = images;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
-          if (!existingSale.date_start) {
-            existingSale.date_start = extractDateFromText(dateText || description);
-          }
+          // v4.2 FIX: ALWAYS try to extract date from description (override bad dates)
+          const yssDescDate = extractDateFromText(dateText || description);
+          if (yssDescDate) existingSale.date_start = yssDescDate;
         } else {
           // ── PATH B: Direct DB update ──
           const updateData: Record<string, unknown> = {};
@@ -1997,6 +2019,10 @@ async function main(): Promise<void> {
           if (images.length > 0) updateData.image_urls = images;
           if (times.time_start) updateData.time_start = times.time_start;
           if (times.time_end) updateData.time_end = times.time_end;
+
+          // v4.2 FIX: Always try to extract real sale date from description
+          const yssDescDate2 = extractDateFromText(dateText || description);
+          if (yssDescDate2) updateData.date_start = yssDescDate2;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -2126,9 +2152,9 @@ async function main(): Promise<void> {
           if (images.length > 0) existingSale.image_urls = images;
           if (times.time_start) existingSale.time_start = times.time_start;
           if (times.time_end) existingSale.time_end = times.time_end;
-          if (!existingSale.date_start) {
-            existingSale.date_start = extractDateFromText(dateText || description);
-          }
+          // v4.2 FIX: ALWAYS try to extract date from description (override bad dates)
+          const gsalrDescDate = extractDateFromText(dateText || description);
+          if (gsalrDescDate) existingSale.date_start = gsalrDescDate;
         } else {
           // ── PATH B: Direct DB update ──
           const updateData: Record<string, unknown> = {};
@@ -2141,6 +2167,10 @@ async function main(): Promise<void> {
           if (images.length > 0) updateData.image_urls = images;
           if (times.time_start) updateData.time_start = times.time_start;
           if (times.time_end) updateData.time_end = times.time_end;
+
+          // v4.2 FIX: Always try to extract real sale date from description
+          const gsalrDescDate2 = extractDateFromText(dateText || description);
+          if (gsalrDescDate2) updateData.date_start = gsalrDescDate2;
 
           if (Object.keys(updateData).length > 0) {
             const { error: upErr } = await supabase
@@ -2157,16 +2187,13 @@ async function main(): Promise<void> {
         return;
       }
 
-            // ══════════════════════════════════════════════════════
+      // ══════════════════════════════════════════════════════
       // UNHANDLED SOURCE — log and skip
       // ══════════════════════════════════════════════════════
       log.debug(`Unhandled request: ${request.url} (source: ${source})`);
 
     }, // end requestHandler
 
-    // ══════════════════════════════════════════════════════
-    // FAILED REQUEST HANDLER
-    // ══════════════════════════════════════════════════════
     async failedRequestHandler({ request }, error) {
       const { source } = request.userData as { source: string };
       log.warning(`Request failed: ${request.url} (source: ${source}) — ${error?.message || 'unknown'}`);
@@ -2182,7 +2209,6 @@ async function main(): Promise<void> {
       log.info(`Batch saved ${batch.length} sales (total processed: ${totalProcessed})`);
     }
   }, 2000);
-
 
   // ══════════════════════════════════════════════════════
   // RUN THE CRAWLER
