@@ -271,6 +271,40 @@ function extractDateFromText(text: string): string | null {
     const d = new Date(slashMatch[1]);
     if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
   }
+  // v4.3 NEW: Relative day-of-week parsing ("Saturday", "this Sunday", "next Friday")
+  // Resolves to the NEXT occurrence of that day from today
+  const dayNames = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
+  const dayMatch = text.toLowerCase().match(/(?:this\s+|next\s+|happening\s+)?(sunday|monday|tuesday|wednesday|thursday|friday|saturday)/);
+  if (dayMatch) {
+    const targetDay = dayNames.indexOf(dayMatch[1]);
+    if (targetDay >= 0) {
+      const now = new Date();
+      const currentDay = now.getDay();
+      let daysAhead = targetDay - currentDay;
+      if (daysAhead <= 0) daysAhead += 7; // always resolve to future
+      const target = new Date(now);
+      target.setDate(target.getDate() + daysAhead);
+      return target.toISOString().split('T')[0];
+    }
+  }
+  // v4.3 NEW: "today" / "tomorrow" / "this weekend"
+  const relMatch = text.toLowerCase().match(/\b(today|tomorrow|this weekend)\b/);
+  if (relMatch) {
+    const now = new Date();
+    if (relMatch[1] === 'today') return now.toISOString().split('T')[0];
+    if (relMatch[1] === 'tomorrow') {
+      now.setDate(now.getDate() + 1);
+      return now.toISOString().split('T')[0];
+    }
+    if (relMatch[1] === 'this weekend') {
+      // Resolve to next Saturday
+      const currentDay = now.getDay();
+      let daysToSat = 6 - currentDay;
+      if (daysToSat <= 0) daysToSat += 7;
+      now.setDate(now.getDate() + daysToSat);
+      return now.toISOString().split('T')[0];
+    }
+  }
   return null;
 }
 
@@ -1540,7 +1574,7 @@ async function main(): Promise<void> {
             zip: extractZip(locationText) || '',
             lat: null,
             lng: null,
-            date_start: null, // v4.2 FIX: CL <time> is the POSTING date, not the sale date
+            date_start: dateStr ? dateStr.split('T')[0] : null, // v4.3: use CL posting date as fallback — detail handler overrides with real sale date if found
             date_end: null,
             time_start: null,
             time_end: null,
