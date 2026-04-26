@@ -2157,13 +2157,16 @@ async function main(): Promise<void> {
         return;
       }
 
-      // ══════════════════════════════════════════════════════
+            // ══════════════════════════════════════════════════════
       // UNHANDLED SOURCE — log and skip
       // ══════════════════════════════════════════════════════
       log.debug(`Unhandled request: ${request.url} (source: ${source})`);
 
     }, // end requestHandler
 
+    // ══════════════════════════════════════════════════════
+    // FAILED REQUEST HANDLER
+    // ══════════════════════════════════════════════════════
     async failedRequestHandler({ request }, error) {
       const { source } = request.userData as { source: string };
       log.warning(`Request failed: ${request.url} (source: ${source}) — ${error?.message || 'unknown'}`);
@@ -2179,6 +2182,7 @@ async function main(): Promise<void> {
       log.info(`Batch saved ${batch.length} sales (total processed: ${totalProcessed})`);
     }
   }, 2000);
+
 
   // ══════════════════════════════════════════════════════
   // RUN THE CRAWLER
