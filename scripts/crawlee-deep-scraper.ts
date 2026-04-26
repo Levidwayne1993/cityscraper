@@ -2,7 +2,7 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v4.4 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
+// CRAWLEE DEEP SCRAPER v4.5 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
 //
 // v4.3 CHANGES:
 //   1. FIX: buildStartUrls() restored to FULL v3.8 URL set with pagination:
@@ -150,6 +150,7 @@ const sourceStats: Record<string, { success: number; failed: number; listings: n
   garagesalefinder: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
   yardsalesearch: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
   gsalr: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
+  ystm: { success: 0, failed: 0, listings: 0, pages: 0, details: 0 },
 };
 
 // ── ADDRESS VALIDATION (hard gate) ──
@@ -323,22 +324,6 @@ function extractDateFromText(text: string): string | null {
     }
   }
   return null;
-}
-
-
-// ── v4.4: Auto-compute expires_at ──
-// If sale has a date → expires 1 day after the sale date
-// If no date → expires 7 days after scrape (reasonable TTL for undated listings)
-function computeExpiresAt(dateStart: string | null, scrapedAt: string): string {
-  if (dateStart) {
-    const saleDate = new Date(dateStart + 'T23:59:59');
-    saleDate.setDate(saleDate.getDate() + 1); // 1 day buffer after sale
-    return saleDate.toISOString();
-  }
-  // No date known — expire after 7 days
-  const scrapeDate = new Date(scrapedAt);
-  scrapeDate.setDate(scrapeDate.getDate() + 7);
-  return scrapeDate.toISOString();
 }
 
 // ── UNIVERSAL IMAGE EXTRACTION (v3.1 photo-fix) ──
@@ -1401,6 +1386,18 @@ const GSALR_STATES: string[] = [
 
 const GSALR_MAX_PAGES = 3;
 
+// ── YardSaleTreasureMap.com — 50 states (separate company, unique data pool) ──
+const YSTM_STATES: string[] = [
+  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut',
+  'Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa',
+  'Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan',
+  'Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada',
+  'New-Hampshire','New-Jersey','New-Mexico','New-York','North-Carolina',
+  'North-Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode-Island',
+  'South-Carolina','South-Dakota','Tennessee','Texas','Utah','Vermont',
+  'Virginia','Washington','West-Virginia','Wisconsin','Wyoming',
+];
+
 // ════════════════════════════════════════════════════════════
 // END OF PART 2/6
 // ════════════════════════════════════════════════════════════
@@ -1453,6 +1450,15 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
       // SSS moving+sale sub-query (no pagination — low volume)
       urls.push({
         url: `https://${sub}.craigslist.org/search/sss?query=moving+sale`,
+        userData: { source: 'craigslist', state },
+      });
+      // v4.5: CCC community events — yard/garage sales posted as events
+      urls.push({
+        url: `https://${sub}.craigslist.org/search/ccc?query=yard+sale`,
+        userData: { source: 'craigslist', state },
+      });
+      urls.push({
+        url: `https://${sub}.craigslist.org/search/ccc?query=garage+sale`,
         userData: { source: 'craigslist', state },
       });
     }
@@ -1515,6 +1521,14 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
     }
   }
 
+  // ── v4.5: YardSaleTreasureMap — state directory pages (discover city URLs dynamically) ──
+  for (const ystmState of YSTM_STATES) {
+    urls.push({
+      url: `https://yardsaletreasuremap.com/US/${ystmState}/`,
+      userData: { source: 'ystm', state: ystmState },
+    });
+  }
+
   log.info(`Built ${urls.length} start URLs.`);
   return urls;
 }
@@ -1523,41 +1537,9 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<void> {
   if (sales.length === 0) return;
 
-  // v4.4: Auto-compute expires_at + filter stale listings before saving
-  const now = new Date();
-  const enriched = sales
-    .map((sale) => {
-      // Compute expires_at if not already set
-      if (!sale.expires_at) {
-        if (sale.date_start) {
-          // Sale has a date → expires end of day AFTER the sale
-          const saleDate = new Date(sale.date_start + 'T23:59:59');
-          saleDate.setDate(saleDate.getDate() + 1);
-          sale.expires_at = saleDate.toISOString();
-        } else {
-          // No date known → expires 7 days after scrape
-          const scrapeDate = new Date(sale.scraped_at);
-          scrapeDate.setDate(scrapeDate.getDate() + 7);
-          sale.expires_at = scrapeDate.toISOString();
-        }
-      }
-      return sale;
-    })
-    // Drop listings that are already expired (sale date in the past)
-    .filter((sale) => {
-      if (sale.expires_at && new Date(sale.expires_at) < now) {
-        return false; // skip — this sale already happened
-      }
-      return true;
-    });
-
-  if (enriched.length < sales.length) {
-    log.info(`Filtered out ${sales.length - enriched.length} expired listings before save`);
-  }
-
   const chunkSize = 50;
-  for (let i = 0; i < enriched.length; i += chunkSize) {
-    const chunk = enriched.slice(i, i + chunkSize);
+  for (let i = 0; i < sales.length; i += chunkSize) {
+    const chunk = sales.slice(i, i + chunkSize);
     const { error } = await supabase
       .from('yard_sales')
       .upsert(chunk, { onConflict: 'source_url' });
@@ -1621,7 +1603,7 @@ async function main(): Promise<void> {
 
           if (!title || !link) return;
           // v4.4: Only filter /sss results — /gms is the dedicated yard sale category
-          const isSSS = request.url.includes('/sss');
+          const isSSS = request.url.includes('/sss') || request.url.includes('/ccc');
           if (isSSS && !isYardSale(title)) return;
 
           const fullUrl = link.startsWith('http') ? link : `https://${request.url.split('/')[2]}${link}`;
@@ -1650,7 +1632,7 @@ async function main(): Promise<void> {
             source: 'craigslist',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: '', // computed below
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -1881,7 +1863,7 @@ async function main(): Promise<void> {
               source: 'estatesales',
               source_url: fullUrl,
               image_urls: [],
-              expires_at: '', // computed below
+              expires_at: null,
               scraped_at: new Date().toISOString(),
               pushed: false,
             };
@@ -2062,7 +2044,7 @@ async function main(): Promise<void> {
             source: 'garagesalefinder',
             source_url: fullUrl,
             image_urls: photoImg ? [photoImg] : [],
-            expires_at: '', // computed below
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -2208,7 +2190,7 @@ async function main(): Promise<void> {
             source: 'yardsalesearch',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: '', // computed below
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -2374,7 +2356,7 @@ async function main(): Promise<void> {
             source: 'gsalr',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: '', // computed below
+            expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -2476,6 +2458,219 @@ async function main(): Promise<void> {
         }
 
         sourceStats.gsalr.details++;
+        return;
+      }
+
+      // HANDLER 11: YSTM STATE DIRECTORY (discover city pages)
+      // ══════════════════════════════════════════════════════
+      if (source === 'ystm' && !request.url.endsWith('.html') && request.userData.handler !== 'detail') {
+        log.info(`[YSTM State] Processing ${request.url}`);
+        sourceStats.ystm.pages++;
+
+        // State pages list city links: /US/Washington/Seattle.html
+        const cityLinks: { url: string; userData: Record<string, any> }[] = [];
+        const seenCities = new Set<string>();
+        $('a[href$=".html"]').each((_, el) => {
+          const href = $(el).attr('href') || '';
+          if (!href.includes('/US/')) return;
+          const fullUrl = href.startsWith('http')
+            ? href
+            : `https://yardsaletreasuremap.com${href}`;
+          if (!seenCities.has(fullUrl)) {
+            seenCities.add(fullUrl);
+            cityLinks.push({
+              url: fullUrl,
+              userData: { source: 'ystm', state, handler: 'city' },
+            });
+          }
+        });
+
+        if (cityLinks.length > 0) {
+          await crawler.addRequests(cityLinks, { forefront: true });
+          log.info(`[YSTM State] Enqueued ${cityLinks.length} city pages from ${request.url}`);
+        } else {
+          log.info(`[YSTM State] No city links found on ${request.url}`);
+        }
+
+        return;
+      }
+
+      // HANDLER 12: YSTM CITY PAGE (parse listings)
+      // ══════════════════════════════════════════════════════
+      if (source === 'ystm' && (request.userData.handler === 'city' || request.url.endsWith('.html')) && request.userData.handler !== 'detail') {
+        log.info(`[YSTM City] Processing ${request.url}`);
+        sourceStats.ystm.pages++;
+
+        // Extract city name from URL: /US/Washington/Seattle.html → Seattle
+        const urlParts = request.url.split('/');
+        const citySlug = (urlParts[urlParts.length - 1] || '').replace('.html', '');
+        const ystmCity = citySlug.replace(/-/g, ' ') || '';
+
+        // Collect detail page links for enrichment
+        const detailUrls: { url: string; userData: Record<string, any> }[] = [];
+        const seenDetailUrls = new Set<string>();
+
+        $('a').each((_, el) => {
+          const href = $(el).attr('href') || '';
+          if (!href) return;
+          // Skip navigation, state, and city directory links
+          if (href.endsWith('/') || (href.includes('/US/') && href.endsWith('.html'))) return;
+          // Match sale detail links (contain /sale/ or SaleId or saleid)
+          if (href.includes('/sale/') || href.includes('SaleId') || href.includes('saleid')) {
+            const fullUrl = href.startsWith('http')
+              ? href
+              : `https://yardsaletreasuremap.com${href}`;
+            if (!seenDetailUrls.has(fullUrl)) {
+              seenDetailUrls.add(fullUrl);
+              detailUrls.push({
+                url: fullUrl,
+                userData: { source: 'ystm', state, handler: 'detail', city: ystmCity },
+              });
+            }
+          }
+        });
+
+        // Parse listing data directly from page structure
+        // YSTM renders listings as blocks with address, date, title
+        let cityListingCount = 0;
+        $('div, li, tr, article, section').each((_, el) => {
+          const $el = $(el);
+          const text = $el.text().trim();
+
+          // Skip huge blocks (page-level containers)
+          if (text.length > 800 || text.length < 20) return;
+
+          // Look for elements containing an address pattern
+          const hasAddress = /\d+\s+\w+\s+(St|Ave|Rd|Dr|Blvd|Ln|Way|Ct|Pl|Cir|Ter|Loop|Pike|Hwy|Trail|Street|Avenue|Road|Drive|Boulevard|Lane|Court|Place|Circle)/i.test(text);
+
+          if (hasAddress) {
+            // Extract address
+            const addrMatch = text.match(/(\d+\s+[^,\n]+(?:St|Ave|Rd|Dr|Blvd|Ln|Way|Ct|Pl|Cir|Ter|Loop|Pike|Hwy|Trail|Street|Avenue|Road|Drive|Boulevard|Lane|Court|Place|Circle)[^,\n]*)/i);
+            const address = addrMatch ? addrMatch[1].trim() : '';
+            if (!address || address.length < 8) return;
+
+            // Dedupe: check if we already saved this address
+            const addrKey = address.toLowerCase().replace(/\s+/g, '');
+            if (pendingSales.some((s) => s.address.toLowerCase().replace(/\s+/g, '') === addrKey && s.source === 'ystm')) return;
+
+            // Extract date
+            const dateMatch = text.match(/(\d{1,2}\/\d{1,2}(?:\/\d{2,4})?)/);
+            const dateStr = dateMatch ? dateMatch[1] : '';
+
+            // Extract time
+            const timeMatch = text.match(/(\d{1,2}:\d{2}\s*[AaPp][Mm])/);
+            const timeStr = timeMatch ? timeMatch[1] : '';
+
+            // Extract title from first link in this element
+            const titleLink = $el.find('a').first();
+            const title = titleLink.text().trim() || `Yard Sale in ${ystmCity}`;
+            const link = titleLink.attr('href') || '';
+            const sourceUrl = link.startsWith('http')
+              ? link
+              : link ? `https://yardsaletreasuremap.com${link}` : request.url;
+
+            // Build unique source_id
+            const sourceId = `ystm-${address.replace(/\s+/g, '-').substring(0, 50)}-${dateStr.replace(/\//g, '')}`;
+
+            const sale: ScrapedSale = {
+              source_id: sourceId,
+              title: cleanTitle(title),
+              description: '',
+              address: address,
+              city: ystmCity,
+              state: state || '',
+              zip: extractZip(text) || '',
+              lat: null,
+              lng: null,
+              date_start: extractDateFromText(dateStr || text),
+              date_end: null,
+              time_start: normalizeTime(timeStr) || null,
+              time_end: null,
+              price_range: null,
+              categories: guessCategories(title + ' ' + text),
+              source: 'ystm',
+              source_url: sourceUrl,
+              image_urls: [],
+              expires_at: null,
+              scraped_at: new Date().toISOString(),
+              pushed: false,
+            };
+
+            pendingSales.push(sale);
+            sourceStats.ystm.listings++;
+            cityListingCount++;
+          }
+        });
+
+        // Enqueue detail pages for enrichment (descriptions, photos)
+        if (detailUrls.length > 0) {
+          await crawler.addRequests(detailUrls, { forefront: true });
+          log.info(`[YSTM City] Enqueued ${detailUrls.length} detail pages`);
+        }
+
+        log.info(`[YSTM City] ${cityListingCount} listings from ${ystmCity}`);
+        return;
+      }
+
+      // HANDLER 13: YSTM DETAIL PAGE (enrichment — photos, description)
+      // ══════════════════════════════════════════════════════
+      if (source === 'ystm' && request.userData.handler === 'detail') {
+        log.info(`[YSTM Detail] Processing ${request.url}`);
+        sourceStats.ystm.details++;
+
+        // Extract description
+        const descText = $('div.description, .sale-description, [itemprop="description"]').first().text().trim()
+          || $('p').map((_, el) => $(el).text().trim()).get().join(' ').substring(0, 1000);
+        const description = cleanDescription(descText || '');
+
+        // Extract photos
+        const photos: string[] = [];
+        $('img').each((_, el) => {
+          const src = $(el).attr('src') || $(el).attr('data-src') || '';
+          if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('avatar')
+              && !src.includes('banner') && !src.includes('spacer') && !src.includes('pixel')
+              && (src.includes('sale') || src.includes('photo') || src.includes('image')
+              || src.includes('upload') || src.includes('img') || src.includes('pic'))) {
+            const fullSrc = src.startsWith('http') ? src : `https://yardsaletreasuremap.com${src}`;
+            if (!photos.includes(fullSrc)) photos.push(fullSrc);
+          }
+        });
+
+        // Extract address from detail page
+        const addrEl = $('[itemprop="streetAddress"], .address, .sale-address, .location').first();
+        const detailAddress = addrEl.text().trim() || extractAddressFromText($('body').text()) || '';
+        const city = request.userData.city || extractCityFromAddress(detailAddress) || '';
+
+        // Try to find and update existing sale in pendingSales
+        const existingIdx = pendingSales.findIndex((s) => s.source_url === request.url);
+        if (existingIdx >= 0) {
+          if (description) pendingSales[existingIdx].description = description;
+          if (photos.length > 0) pendingSales[existingIdx].image_urls = photos;
+          if (detailAddress && !pendingSales[existingIdx].address) pendingSales[existingIdx].address = detailAddress;
+          if (city && !pendingSales[existingIdx].city) pendingSales[existingIdx].city = city;
+          const detailDate = extractDateFromText(description);
+          if (detailDate) pendingSales[existingIdx].date_start = detailDate;
+        } else {
+          // ── PATH B: Direct DB update ──
+          const bodyText = $('body').text();
+          const dateStart = extractDateFromText(bodyText);
+
+          const updateData: Record<string, any> = {};
+          if (description) updateData.description = description;
+          if (photos.length > 0) updateData.image_urls = photos;
+          if (detailAddress) updateData.address = detailAddress;
+          if (city) updateData.city = city;
+          if (dateStart) updateData.date_start = dateStart;
+
+          if (Object.keys(updateData).length > 0) {
+            const { error } = await supabase
+              .from('yard_sales')
+              .update(updateData)
+              .eq('source_url', request.url);
+            if (error) log.debug(`[YSTM Detail] DB update failed: ${error.message}`);
+          }
+        }
+
         return;
       }
 
