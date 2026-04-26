@@ -1440,6 +1440,7 @@ async function main(): Promise<void> {
         log.info(`[CL Index] ${results.length} raw listings on ${request.url}`);
         sourceStats.craigslist.pages++;
 
+        const detailUrls: { url: string; userData: Record<string, any> }[] = [];
         results.each((_, el) => {
           const $el = $(el);
           const titleEl = $el.find('.result-title, .posting-title a, a.titlestring');
@@ -1486,13 +1487,20 @@ async function main(): Promise<void> {
 
           pendingSales.push(sale);
           sourceStats.craigslist.listings++;
+
+          // Collect detail URL for manual enqueueing (enqueueLinks CSS selectors
+          // fail on CL static HTML — this is the reliable path)
+          detailUrls.push({
+            url: fullUrl,
+            userData: { source: 'craigslist', state, handler: 'detail' },
+          });
         });
 
-        // Enqueue detail pages for each listing
-        await enqueueLinks({
-          selector: '.result-title, .posting-title a, a.titlestring, li.cl-static-search-result > a',
-          userData: { source: 'craigslist', state, handler: 'detail' },
-        });
+        // Enqueue detail pages directly (bypasses broken CSS selector matching)
+        if (detailUrls.length > 0) {
+          await crawler.addRequests(detailUrls);
+          log.info(`[CL Index] Enqueued ${detailUrls.length} detail pages from ${request.url}`);
+        }
 
         // Pagination: enqueue next page (up to CL_MAX_PAGES)
         const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
