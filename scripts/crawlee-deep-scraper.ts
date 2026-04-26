@@ -325,6 +325,22 @@ function extractDateFromText(text: string): string | null {
   return null;
 }
 
+
+// ── v4.4: Auto-compute expires_at ──
+// If sale has a date → expires 1 day after the sale date
+// If no date → expires 7 days after scrape (reasonable TTL for undated listings)
+function computeExpiresAt(dateStart: string | null, scrapedAt: string): string {
+  if (dateStart) {
+    const saleDate = new Date(dateStart + 'T23:59:59');
+    saleDate.setDate(saleDate.getDate() + 1); // 1 day buffer after sale
+    return saleDate.toISOString();
+  }
+  // No date known — expire after 7 days
+  const scrapeDate = new Date(scrapedAt);
+  scrapeDate.setDate(scrapeDate.getDate() + 7);
+  return scrapeDate.toISOString();
+}
+
 // ── UNIVERSAL IMAGE EXTRACTION (v3.1 photo-fix) ──
 function getImgUrl(el: any, $: any): string {
   const img = $(el).is('img') ? $(el) : $(el).find('img').first();
@@ -1507,9 +1523,41 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<void> {
   if (sales.length === 0) return;
 
+  // v4.4: Auto-compute expires_at + filter stale listings before saving
+  const now = new Date();
+  const enriched = sales
+    .map((sale) => {
+      // Compute expires_at if not already set
+      if (!sale.expires_at) {
+        if (sale.date_start) {
+          // Sale has a date → expires end of day AFTER the sale
+          const saleDate = new Date(sale.date_start + 'T23:59:59');
+          saleDate.setDate(saleDate.getDate() + 1);
+          sale.expires_at = saleDate.toISOString();
+        } else {
+          // No date known → expires 7 days after scrape
+          const scrapeDate = new Date(sale.scraped_at);
+          scrapeDate.setDate(scrapeDate.getDate() + 7);
+          sale.expires_at = scrapeDate.toISOString();
+        }
+      }
+      return sale;
+    })
+    // Drop listings that are already expired (sale date in the past)
+    .filter((sale) => {
+      if (sale.expires_at && new Date(sale.expires_at) < now) {
+        return false; // skip — this sale already happened
+      }
+      return true;
+    });
+
+  if (enriched.length < sales.length) {
+    log.info(`Filtered out ${sales.length - enriched.length} expired listings before save`);
+  }
+
   const chunkSize = 50;
-  for (let i = 0; i < sales.length; i += chunkSize) {
-    const chunk = sales.slice(i, i + chunkSize);
+  for (let i = 0; i < enriched.length; i += chunkSize) {
+    const chunk = enriched.slice(i, i + chunkSize);
     const { error } = await supabase
       .from('yard_sales')
       .upsert(chunk, { onConflict: 'source_url' });
@@ -1602,7 +1650,7 @@ async function main(): Promise<void> {
             source: 'craigslist',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: null,
+            expires_at: '', // computed below
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -1833,7 +1881,7 @@ async function main(): Promise<void> {
               source: 'estatesales',
               source_url: fullUrl,
               image_urls: [],
-              expires_at: null,
+              expires_at: '', // computed below
               scraped_at: new Date().toISOString(),
               pushed: false,
             };
@@ -2014,7 +2062,7 @@ async function main(): Promise<void> {
             source: 'garagesalefinder',
             source_url: fullUrl,
             image_urls: photoImg ? [photoImg] : [],
-            expires_at: null,
+            expires_at: '', // computed below
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -2160,7 +2208,7 @@ async function main(): Promise<void> {
             source: 'yardsalesearch',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: null,
+            expires_at: '', // computed below
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
@@ -2326,7 +2374,7 @@ async function main(): Promise<void> {
             source: 'gsalr',
             source_url: fullUrl,
             image_urls: [],
-            expires_at: null,
+            expires_at: '', // computed below
             scraped_at: new Date().toISOString(),
             pushed: false,
           };
