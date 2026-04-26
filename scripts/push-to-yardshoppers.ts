@@ -1,6 +1,7 @@
 // ============================================================
 // FILE: scripts/push-to-yardshoppers.ts (CityScraper project)
 // STANDALONE push — loads its own env, verbose logging
+// v4.4: Filters expired listings + auto-cleanup of stale data
 // RUN: npx tsx scripts/push-to-yardshoppers.ts
 // ============================================================
 
@@ -17,7 +18,7 @@ const DEST_KEY   = process.env.YARDSHOPPERS_SUPABASE_KEY || '';
 
 console.log('');
 console.log('═══════════════════════════════════════════════════════');
-console.log('  YARD SHOPPERS PUSH — STANDALONE');
+console.log('  YARD SHOPPERS PUSH v4.4 — WITH EXPIRY FILTER');
 console.log('═══════════════════════════════════════════════════════');
 console.log(`  Source (cityscraper):      ${SOURCE_URL ? '✅' : '❌ MISSING'}`);
 console.log(`  Destination (yardshoppers): ${DEST_URL ? '✅' : '❌ MISSING'}`);
@@ -36,6 +37,85 @@ const dest   = createClient(DEST_URL, DEST_KEY);
 const BATCH_SIZE = 200;
 
 async function main() {
+  const now = new Date().toISOString();
+
+  // ── LAYER 2: Clean up expired listings from BOTH databases ──
+  console.log('🧹 Cleaning expired listings...');
+
+  // Clean cityscraper yard_sales
+  const { count: srcExpired } = await source
+    .from('yard_sales')
+    .select('*', { count: 'exact', head: true })
+    .lt('expires_at', now)
+    .not('expires_at', 'is', null);
+
+  if (srcExpired && srcExpired > 0) {
+    const { error: srcDelErr } = await source
+      .from('yard_sales')
+      .delete()
+      .lt('expires_at', now)
+      .not('expires_at', 'is', null);
+    if (srcDelErr) {
+      console.error(`  ❌ Source cleanup error: ${srcDelErr.message}`);
+    } else {
+      console.log(`  ✅ Removed ${srcExpired} expired listings from cityscraper`);
+    }
+  } else {
+    console.log('  ✅ No expired listings in cityscraper');
+  }
+
+  // Clean yardshoppers external_sales
+  const { count: destExpired } = await dest
+    .from('external_sales')
+    .select('*', { count: 'exact', head: true })
+    .lt('expires_at', now)
+    .not('expires_at', 'is', null);
+
+  if (destExpired && destExpired > 0) {
+    const { error: destDelErr } = await dest
+      .from('external_sales')
+      .delete()
+      .lt('expires_at', now)
+      .not('expires_at', 'is', null);
+    if (destDelErr) {
+      console.error(`  ❌ Dest cleanup error: ${destDelErr.message}`);
+    } else {
+      console.log(`  ✅ Removed ${destExpired} expired listings from yardshoppers`);
+    }
+  } else {
+    console.log('  ✅ No expired listings in yardshoppers');
+  }
+
+  // Also clean listings with no expires_at that are older than 14 days
+  const twoWeeksAgo = new Date();
+  twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
+  const cutoff = twoWeeksAgo.toISOString();
+
+  const { count: srcStale } = await source
+    .from('yard_sales')
+    .select('*', { count: 'exact', head: true })
+    .is('expires_at', null)
+    .lt('scraped_at', cutoff);
+
+  if (srcStale && srcStale > 0) {
+    await source.from('yard_sales').delete().is('expires_at', null).lt('scraped_at', cutoff);
+    console.log(`  ✅ Removed ${srcStale} stale (no expiry, >14 days old) from cityscraper`);
+  }
+
+  const { count: destStale } = await dest
+    .from('external_sales')
+    .select('*', { count: 'exact', head: true })
+    .is('expires_at', null)
+    .lt('collected_at', cutoff);
+
+  if (destStale && destStale > 0) {
+    await dest.from('external_sales').delete().is('expires_at', null).lt('collected_at', cutoff);
+    console.log(`  ✅ Removed ${destStale} stale (no expiry, >14 days old) from yardshoppers`);
+  }
+
+  console.log('');
+
+  // ── PUSH FRESH LISTINGS ──
   const { count, error: countErr } = await source
     .from('yard_sales').select('*', { count: 'exact', head: true });
   if (countErr) { console.error('❌ Count failed:', countErr.message); process.exit(1); }
@@ -49,6 +129,7 @@ async function main() {
   if (!count || count === 0) { console.log('⚠️ No sales to push.'); process.exit(0); }
 
   let totalPushed = 0;
+  let totalSkipped = 0;
   let offset = 0;
 
   while (true) {
@@ -60,9 +141,24 @@ async function main() {
     if (fetchErr) { console.error(`❌ Fetch error:`, fetchErr.message); break; }
     if (!data || data.length === 0) break;
 
-    console.log(`  📦 Fetched ${data.length} records (offset ${offset})...`);
+    // Filter out expired listings before pushing
+    const fresh = data.filter((s: any) => {
+      if (s.expires_at && new Date(s.expires_at) < new Date(now)) return false;
+      return true;
+    });
+    const skipped = data.length - fresh.length;
+    totalSkipped += skipped;
 
-        const mapped = data.map((s: any) => ({
+    if (fresh.length === 0) {
+      console.log(`  📦 Batch at offset ${offset}: ${data.length} records, all expired — skipped`);
+      if (data.length < BATCH_SIZE) break;
+      offset += BATCH_SIZE;
+      continue;
+    }
+
+    console.log(`  📦 Fetched ${data.length} records (offset ${offset}), ${skipped} expired → pushing ${fresh.length}...`);
+
+    const mapped = fresh.map((s: any) => ({
       source_id:       s.source_id,
       source:          s.source,
       title:           s.title,
@@ -94,8 +190,8 @@ async function main() {
       break;
     }
 
-    totalPushed += data.length;
-    console.log(`  ✅ Pushed ${data.length} → yardshoppers (${totalPushed} total)`);
+    totalPushed += fresh.length;
+    console.log(`  ✅ Pushed ${fresh.length} → yardshoppers (${totalPushed} total)`);
 
     const ids = data.map((s: any) => s.source_id);
     await source.from('yard_sales').update({ pushed_at: new Date().toISOString() }).in('source_id', ids);
@@ -109,7 +205,8 @@ async function main() {
 
   console.log('');
   console.log('═══════════════════════════════════════════════════════');
-  console.log(`  ✅ DONE — Pushed ${totalPushed} listings`);
+  console.log(`  ✅ DONE — Pushed ${totalPushed} fresh listings`);
+  if (totalSkipped > 0) console.log(`  ⏭️  Skipped ${totalSkipped} expired listings`);
   console.log(`  Yardshoppers before: ${destCount}`);
   console.log(`  Yardshoppers after:  ${newCount}`);
   console.log('═══════════════════════════════════════════════════════');
