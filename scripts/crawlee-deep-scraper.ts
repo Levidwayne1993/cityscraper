@@ -274,9 +274,13 @@ function getImgUrl(el: any, $: any): string {
   );
 }
 
+const MAX_PHOTOS = 10; // v4.2 FIX: Cap photos per listing + dedup
+
 function getAllImgUrls(container: any, $: any): string[] {
+  const seen = new Set<string>();
   const urls: string[] = [];
   $(container).find('img').each((_: number, img: any) => {
+    if (urls.length >= MAX_PHOTOS) return false; // stop early at cap
     const src =
       $(img).attr('src') ||
       $(img).attr('data-src') ||
@@ -286,19 +290,27 @@ function getAllImgUrls(container: any, $: any): string[] {
       $(img).attr('data-image') ||
       '';
     if (src && !src.includes('logo') && !src.includes('icon') && !src.includes('banner') && !src.includes('spacer') && !src.includes('pixel') && src.length > 10) {
-      urls.push(src);
+      const normalized = src.split('?')[0].replace(/\/+$/, '');
+      if (!seen.has(normalized)) {
+        seen.add(normalized);
+        urls.push(src);
+      }
     }
   });
   return urls;
 }
 
 function parseCraigslistDataIds($: any): string[] {
+  const seen = new Set<string>();
   const urls: string[] = [];
   $('[data-ids]').each((_: number, el: any) => {
+    if (urls.length >= MAX_PHOTOS) return false; // stop early at cap
     const dataIds = $(el).attr('data-ids') || '';
     const ids = dataIds.split(',').map((id: string) => id.replace(/^\d+:/, '').trim());
     for (const id of ids) {
-      if (id && id.length > 3) {
+      if (urls.length >= MAX_PHOTOS) break; // stop at cap
+      if (id && id.length > 3 && !seen.has(id)) {
+        seen.add(id);
         urls.push(`https://images.craigslist.org/${id}_600x450.jpg`);
       }
     }
