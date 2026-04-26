@@ -2,7 +2,23 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v4.2 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
+// CRAWLEE DEEP SCRAPER v4.3 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
+//
+// v4.3 CHANGES:
+//   1. FIX: buildStartUrls() restored to FULL v3.8 URL set with pagination:
+//      - /gms pages 1-3 (3 URLs per subdomain)
+//      - /sss?query=yard+sale+garage+sale pages 1-3 (3 URLs per subdomain)
+//      - /sss?query=estate+sale (1 URL per subdomain)
+//      - /sss?query=moving+sale (1 URL per subdomain)
+//      = 8 URLs × 413 subdomains = 3,304 CL start URLs
+//   2. FIX: Handler routing uses userData.handler !== 'detail' (not URL path)
+//      so /sss index pages are processed correctly by Handler 1
+//   3. FIX: maxConcurrency reduced from 10 → 2 (matching v3.8) to avoid bans
+//   4. FIX: GarageSaleFinder URLs updated from /yard-sales/${state} (404s) to
+//      /yard-sales/by-location/${stateAbbrev}/ (verified working, 84+ listings)
+//   5. FIX: GSF_STATES changed from full names to 2-letter abbreviations
+//   6. FIX: Removed duplicate const declarations (CL/ES/GSF/YSS/GSALR_MAX_PAGES)
+//      that would crash TypeScript compilation
 //
 // v4.2 CHANGES:
 //   1. NEW: cleanTitle() — strips source-site branding, excessive punctuation,
@@ -1243,14 +1259,10 @@ const ESTATE_SALES_STATES: string[] = [
 
 // ── GARAGESALEFINDER: State names (hyphenated) ──
 const GSF_STATES: string[] = [
-  'Alabama','Alaska','Arizona','Arkansas','California','Colorado','Connecticut',
-  'Delaware','Florida','Georgia','Hawaii','Idaho','Illinois','Indiana','Iowa',
-  'Kansas','Kentucky','Louisiana','Maine','Maryland','Massachusetts','Michigan',
-  'Minnesota','Mississippi','Missouri','Montana','Nebraska','Nevada',
-  'New-Hampshire','New-Jersey','New-Mexico','New-York','North-Carolina',
-  'North-Dakota','Ohio','Oklahoma','Oregon','Pennsylvania','Rhode-Island',
-  'South-Carolina','South-Dakota','Tennessee','Texas','Utah','Vermont',
-  'Virginia','Washington','West-Virginia','Wisconsin','Wyoming',
+  'AL','AK','AZ','AR','CA','CO','CT','DE','FL','GA','HI','ID','IL','IN','IA',
+  'KS','KY','LA','ME','MD','MA','MI','MN','MS','MO','MT','NE','NV','NH','NJ',
+  'NM','NY','NC','ND','OH','OK','OR','PA','RI','SC','SD','TN','TX','UT','VT',
+  'VA','WA','WV','WI','WY',
 ];
 
 // ── YARDSALESEARCH: 274 city slugs (City-ST format) ──
@@ -1333,50 +1345,107 @@ const GSALR_MAX_PAGES = 3;
 // ════════════════════════════════════════════════════════════
 
 // ── Build start URLs for ALL 5 sources ──
+// ── v3.8 PAGINATION CONSTANTS (restored) ──
+
 function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
   const urls: { url: string; userData: Record<string, string> }[] = [];
 
-  // ── Craigslist ──
+  // ── Craigslist: /gms (3 pages) + /sss yard+garage (3 pages) + /sss estate + /sss moving ──
+  // = 8 URLs per subdomain × 413 subdomains = 3,304 CL URLs
   for (const [state, subdomains] of Object.entries(CRAIGSLIST_CITIES)) {
     for (const sub of subdomains) {
+      // GMS category — page 1
       urls.push({
         url: `https://${sub}.craigslist.org/search/gms`,
+        userData: { source: 'craigslist', state },
+      });
+      // GMS pagination — pages 2-3
+      for (let page = 1; page < CL_MAX_PAGES; page++) {
+        urls.push({
+          url: `https://${sub}.craigslist.org/search/gms?s=${page * 120}`,
+          userData: { source: 'craigslist', state },
+        });
+      }
+      // SSS combined yard+garage query — page 1
+      urls.push({
+        url: `https://${sub}.craigslist.org/search/sss?query=yard+sale+garage+sale`,
+        userData: { source: 'craigslist', state },
+      });
+      // SSS combined yard+garage pagination — pages 2-3
+      for (let page = 1; page < CL_MAX_PAGES; page++) {
+        urls.push({
+          url: `https://${sub}.craigslist.org/search/sss?query=yard+sale+garage+sale&s=${page * 120}`,
+          userData: { source: 'craigslist', state },
+        });
+      }
+      // SSS estate+sale sub-query (no pagination — low volume)
+      urls.push({
+        url: `https://${sub}.craigslist.org/search/sss?query=estate+sale`,
+        userData: { source: 'craigslist', state },
+      });
+      // SSS moving+sale sub-query (no pagination — low volume)
+      urls.push({
+        url: `https://${sub}.craigslist.org/search/sss?query=moving+sale`,
         userData: { source: 'craigslist', state },
       });
     }
   }
 
-  // ── EstateSales.net ──
+  // ── EstateSales.net — 5 pages per state ──
   for (const state of ESTATE_SALES_STATES) {
     urls.push({
       url: `https://www.estatesales.net/estate-sales/${state}`,
       userData: { source: 'estatesales', state },
     });
+    for (let page = 2; page <= ES_MAX_PAGES; page++) {
+      urls.push({
+        url: `https://www.estatesales.net/estate-sales/${state}?page=${page}`,
+        userData: { source: 'estatesales', state },
+      });
+    }
   }
 
-  // ── GarageSaleFinder ──
+  // ── GarageSaleFinder — 5 pages per state ──
   for (const state of GSF_STATES) {
     urls.push({
-      url: `https://www.garagesalefinder.com/yard-sales/${state}`,
+      url: `https://www.garagesalefinder.com/yard-sales/by-location/${state}/`,
       userData: { source: 'garagesalefinder', state },
     });
+    for (let page = 2; page <= GSF_MAX_PAGES; page++) {
+      urls.push({
+        url: `https://www.garagesalefinder.com/yard-sales/by-location/${state}/?page=${page}`,
+        userData: { source: 'garagesalefinder', state },
+      });
+    }
   }
 
-  // ── YardSaleSearch ── (v4.1: added yssSlug to userData)
+  // ── YardSaleSearch — 5 pages per city ── (v4.1: added yssSlug to userData)
   for (const city of YSS_CITIES) {
     const state = city.split('-').pop() || '';
     urls.push({
       url: `https://www.yardsalesearch.com/yard-sales/${city}.html`,
       userData: { source: 'yardsalesearch', state, yssSlug: city },
     });
+    for (let page = 2; page <= YSS_MAX_PAGES; page++) {
+      urls.push({
+        url: `https://www.yardsalesearch.com/yard-sales/${city}.html?page=${page}`,
+        userData: { source: 'yardsalesearch', state, yssSlug: city },
+      });
+    }
   }
 
-  // ── Gsalr ──
+  // ── Gsalr — 3 pages per state ──
   for (const state of GSALR_STATES) {
     urls.push({
       url: `https://gsalr.com/${state}/`,
       userData: { source: 'gsalr', state },
     });
+    for (let page = 2; page <= GSALR_MAX_PAGES; page++) {
+      urls.push({
+        url: `https://gsalr.com/${state}/page/${page}/`,
+        userData: { source: 'gsalr', state },
+      });
+    }
   }
 
   log.info(`Built ${urls.length} start URLs.`);
@@ -1418,7 +1487,7 @@ async function main(): Promise<void> {
 
   const crawler = new CheerioCrawler({
     proxyConfiguration,
-    maxConcurrency: 10,
+    maxConcurrency: 2,
     maxRequestRetries: 2,
     requestHandlerTimeoutSecs: 120,
     navigationTimeoutSecs: 90,
@@ -1429,7 +1498,7 @@ async function main(): Promise<void> {
       // ══════════════════════════════════════════════════════
       // HANDLER 1: CRAIGSLIST INDEX (search results page)
       // ══════════════════════════════════════════════════════
-      if (source === 'craigslist' && !request.url.includes('/gms/')) {
+      if (source === 'craigslist' && request.userData.handler !== 'detail') {
         // This is a CL search listing page
         const results = $('li.result-row, .cl-static-search-result');
         if (results.length === 0) {
@@ -1524,7 +1593,7 @@ async function main(): Promise<void> {
       // ══════════════════════════════════════════════════════
       // HANDLER 2: CRAIGSLIST DETAIL (individual listing)
       // ══════════════════════════════════════════════════════
-      if (source === 'craigslist' && (request.url.includes('/gms/') || request.userData.handler === 'detail')) {
+      if (source === 'craigslist' && request.userData.handler === 'detail') {
         const postingBody = $('#postingbody').length
           ? $('#postingbody').html() || ''
           : $('.posting-body').html() || '';
