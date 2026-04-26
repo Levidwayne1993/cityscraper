@@ -2,7 +2,7 @@
 // FILE: scripts/crawlee-deep-scraper.ts (CityScraper project)
 // REPLACES: scripts/crawlee-deep-scraper.ts
 //
-// CRAWLEE DEEP SCRAPER v4.3 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
+// CRAWLEE DEEP SCRAPER v4.4 — TITLE CLEANING + DATE FIX + CITY + CLEAN DESC
 //
 // v4.3 CHANGES:
 //   1. FIX: buildStartUrls() restored to FULL v3.8 URL set with pagination:
@@ -110,7 +110,7 @@ const GEOCODE_DELAY_MS = 1100;
 const GEOCODE_USER_AGENT = 'CityScraper/4.1 (cityscraper.org)';
 
 // ── PAGINATION LIMITS ──
-const CL_MAX_PAGES = 3;
+const CL_MAX_PAGES = 5;   // v4.4: bumped from 3 to catch big metros
 const ES_MAX_PAGES = 5;
 const GSF_MAX_PAGES = 5;
 const YSS_MAX_PAGES = 5;
@@ -206,6 +206,23 @@ const SALE_TERMS = [
   'local[-\\s]*yard[-\\s]*s[ae]i?le?s?',
   '(yard|garage)[-\\s]*s[ae]i?le?s?[-\\s]*near[-\\s]*me',
   'declutter\\w*',
+  // v4.4: additional sale types to maximize /sss coverage
+  'attic[-\\s]*s[ae]i?le?s?',
+  'basement[-\\s]*s[ae]i?le?s?',
+  'sidewalk[-\\s]*s[ae]i?le?s?',
+  'curb[-\\s]*s[ae]i?le?s?',
+  'curbside[-\\s]*s[ae]i?le?s?',
+  'warehouse[-\\s]*s[ae]i?le?s?',
+  'charity[-\\s]*s[ae]i?le?s?',
+  'benefit[-\\s]*s[ae]i?le?s?',
+  'thrift[-\\s]*s[ae]i?le?s?',
+  'blowout[-\\s]*s[ae]i?le?s?',
+  'contents[-\\s]*s[ae]i?le?s?',
+  'purge[-\\s]*s[ae]i?le?s?',
+  'stoop[-\\s]*s[ae]i?le?s?',
+  'lawn[-\\s]*s[ae]i?le?s?',
+  'clear\\w*[-\\s]*out',
+  'junk[-\\s]*s[ae]i?le?s?',
 ].join('|');
 const SALE_KEYWORDS = new RegExp(`\\b(${SALE_TERMS})\\b`, 'i');
 function isYardSale(title: string, description?: string): boolean {
@@ -1555,7 +1572,9 @@ async function main(): Promise<void> {
           const dateStr = $el.find('time').attr('datetime') || '';
 
           if (!title || !link) return;
-          if (!isYardSale(title)) return;
+          // v4.4: Only filter /sss results — /gms is the dedicated yard sale category
+          const isSSS = request.url.includes('/sss');
+          if (isSSS && !isYardSale(title)) return;
 
           const fullUrl = link.startsWith('http') ? link : `https://${request.url.split('/')[2]}${link}`;
 
@@ -1921,47 +1940,80 @@ async function main(): Promise<void> {
       // ══════════════════════════════════════════════════════
       // HANDLER 5: GARAGESALEFINDER INDEX (state listing)
       // ══════════════════════════════════════════════════════
+      // v4.4: Rewritten to match GSF's actual HTML — table rows, not article cards
+      // GSF state pages have: city directory links at top + "Recently Added Sales" table
+      // Table columns: Photos | Sales (address link) | City | Date(s)
       if (source === 'garagesalefinder' && !request.url.includes('/yard-sale/')) {
         log.info(`[GSF Index] Processing ${request.url}`);
         sourceStats.garagesalefinder.pages++;
 
-        const cards = $('article, .sale-listing, .sale-card, .listing');
-        cards.each((_, el) => {
-          const $card = $(el);
-          const title = $card.find('h2, h3, .title, .sale-title').first().text().trim();
-          const link = $card.find('a').first().attr('href') || '';
-          const bodyText = $card.text().trim();
-          const addressText = $card.find('.address, .location').text().trim();
-          const dateText = $card.find('.date, time, .sale-date').text().trim();
+        // GSF uses a table with rows: each <tr> has <td> cells
+        // Skip header row (has <th> elements)
+        const rows = $('table tr').filter((_, el) => $(el).find('td').length > 0);
+        log.info(`[GSF Index] Found ${rows.length} listing rows on ${request.url}`);
 
-          if (!title || !link) return;
+        rows.each((_, el) => {
+          const $row = $(el);
+          const cells = $row.find('td');
+
+          // Columns: 0=Photos, 1=Address/Sale link, 2=City, 3=Dates
+          const addressCell = cells.eq(1);
+          const cityCell = cells.eq(2);
+          const dateCell = cells.eq(3);
+          const photoCell = cells.eq(0);
+
+          const addressLink = addressCell.find('a').first();
+          const addressText = addressLink.text().trim();
+          const link = addressLink.attr('href') || '';
+          const cityText = cityCell.text().trim();
+          const dateText = dateCell.text().trim();
+
+          // Photo: check for img in photo cell, or photo link title
+          const photoImg = photoCell.find('img').attr('src') || '';
+          const photoLink = photoCell.find('a[title*="photos for sale"]').attr('href') || '';
+
+          if (!addressText || !link) return;
 
           const fullUrl = link.startsWith('http')
             ? link
             : `https://www.garagesalefinder.com${link}`;
 
-          // v4.1: Extract city from address text or body text
-          const gsfCity = extractCityFromAddress(addressText) || extractCityFromAddress(bodyText) || '';
+          // Parse address components — GSF addresses are "Street, City, ST ZIP"
+          const gsfCity = cityText || extractCityFromAddress(addressText) || '';
+          const gsfState = state || '';
+          const gsfZip = extractZip(addressText) || '';
+
+          // Build a title from the address since GSF doesn't have separate titles
+          const saleTitle = cleanTitle(`Yard Sale in ${gsfCity || gsfState}`);
+
+          // Parse dates — GSF uses "04/25/26" or "04/25/26 - 04/26/26"
+          const dateParts = dateText.split(' - ');
+          const dateStart = extractDateFromText(dateParts[0]) || null;
+          const dateEnd = dateParts.length > 1 ? extractDateFromText(dateParts[1]) : null;
+
+          // Extract sale ID from photo link title or URL
+          const saleIdMatch = (photoCell.find('a').attr('title') || '').match(/sale (\d+)/);
+          const saleId = saleIdMatch ? saleIdMatch[1] : link.split('/').pop() || '';
 
           const sale: ScrapedSale = {
-            source_id: link.split('/').pop() || '',
-            title: cleanTitle(title),  // v4.2 FIX: clean title
+            source_id: saleId,
+            title: saleTitle,
             description: '',
-            address: extractAddressFromText(addressText || bodyText) || '',
+            address: addressText || '',
             city: gsfCity,
-            state: state || '',
-            zip: extractZip(addressText || bodyText) || '',
+            state: gsfState,
+            zip: gsfZip,
             lat: null,
             lng: null,
-            date_start: extractDateFromText(dateText || bodyText),
-            date_end: null,
+            date_start: dateStart,
+            date_end: dateEnd,
             time_start: null,
             time_end: null,
             price_range: null,
-            categories: guessCategories(title),
+            categories: guessCategories(addressText),
             source: 'garagesalefinder',
             source_url: fullUrl,
-            image_urls: [],
+            image_urls: photoImg ? [photoImg] : [],
             expires_at: null,
             scraped_at: new Date().toISOString(),
             pushed: false,
@@ -1971,25 +2023,22 @@ async function main(): Promise<void> {
           sourceStats.garagesalefinder.listings++;
         });
 
-        // Enqueue detail pages
-        await enqueueLinks({
-          selector: 'a[href*="/yard-sale/"]',
-          userData: { source: 'garagesalefinder', state, handler: 'detail' },
+        // Enqueue detail pages for enrichment (description, more photos)
+        const detailLinks: { url: string; userData: Record<string, any> }[] = [];
+        $('a[href*="/yard-sale/"]').each((_, el) => {
+          const href = $(el).attr('href') || '';
+          if (!href) return;
+          const fullHref = href.startsWith('http')
+            ? href
+            : `https://www.garagesalefinder.com${href}`;
+          detailLinks.push({
+            url: fullHref,
+            userData: { source: 'garagesalefinder', state, handler: 'detail' },
+          });
         });
-
-        // Pagination
-        const currentPage = request.userData.page ? parseInt(request.userData.page, 10) : 1;
-        if (currentPage < GSF_MAX_PAGES) {
-          const nextUrl = $('a.next, a[rel="next"], .pagination a:contains("Next")').attr('href');
-          if (nextUrl) {
-            const fullNextUrl = nextUrl.startsWith('http')
-              ? nextUrl
-              : `https://www.garagesalefinder.com${nextUrl}`;
-            await crawler.addRequests([{
-              url: fullNextUrl,
-              userData: { source: 'garagesalefinder', state, page: String(currentPage + 1) },
-            }]);
-          }
+        if (detailLinks.length > 0) {
+          await crawler.addRequests(detailLinks, { forefront: true });
+          log.info(`[GSF Index] Enqueued ${detailLinks.length} detail pages from ${request.url}`);
         }
 
         return;
