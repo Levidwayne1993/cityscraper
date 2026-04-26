@@ -1418,7 +1418,7 @@ async function main(): Promise<void> {
 
   const crawler = new CheerioCrawler({
     proxyConfiguration,
-    maxConcurrency: 10,
+    maxConcurrency: 2,
     maxRequestRetries: 2,
     requestHandlerTimeoutSecs: 120,
     navigationTimeoutSecs: 90,
@@ -1433,16 +1433,19 @@ async function main(): Promise<void> {
         // This is a CL search listing page
         const results = $('li.result-row, .cl-static-search-result');
         if (results.length === 0) {
-          log.debug(`CL Index: No results on ${request.url}`);
+          log.info(`[CL Index] 0 listings on ${request.url}`);
           return;
         }
 
+        log.info(`[CL Index] ${results.length} raw listings on ${request.url}`);
         sourceStats.craigslist.pages++;
 
         results.each((_, el) => {
           const $el = $(el);
           const titleEl = $el.find('.result-title, .posting-title a, a.titlestring');
-          const title = titleEl.text().trim();
+          // v4.2 FIX: CL static HTML (via ScraperAPI) puts title in <li title="...">
+          // attribute and link in a plain <a> with no class — fall back to those
+          let title = titleEl.text().trim() || $el.attr('title') || '';
           const link = titleEl.attr('href') || $el.find('a').attr('href') || '';
           const locationText = $el.find('.result-hood').text().trim().replace(/[()]/g, '');
           const dateStr = $el.find('time').attr('datetime') || '';
@@ -1487,7 +1490,7 @@ async function main(): Promise<void> {
 
         // Enqueue detail pages for each listing
         await enqueueLinks({
-          selector: '.result-title, .posting-title a, a.titlestring',
+          selector: '.result-title, .posting-title a, a.titlestring, li.cl-static-search-result > a',
           userData: { source: 'craigslist', state, handler: 'detail' },
         });
 
@@ -1597,6 +1600,7 @@ async function main(): Promise<void> {
       // HANDLER 3: ESTATESALES.NET INDEX (state listing page)
       // ══════════════════════════════════════════════════════
       if (source === 'estatesales' && !request.url.includes('/sale/')) {
+        log.info(`[ES Index] Processing ${request.url}`);
         sourceStats.estatesales.pages++;
 
         // Strategy 1: JSON-LD structured data
@@ -1807,6 +1811,7 @@ async function main(): Promise<void> {
       // HANDLER 5: GARAGESALEFINDER INDEX (state listing)
       // ══════════════════════════════════════════════════════
       if (source === 'garagesalefinder' && !request.url.includes('/yard-sale/')) {
+        log.info(`[GSF Index] Processing ${request.url}`);
         sourceStats.garagesalefinder.pages++;
 
         const cards = $('article, .sale-listing, .sale-card, .listing');
@@ -1954,6 +1959,7 @@ async function main(): Promise<void> {
       // HANDLER 7: YARDSALESEARCH INDEX (city listing page)
       // ══════════════════════════════════════════════════════
       if (source === 'yardsalesearch' && !request.userData.handler) {
+        log.info(`[YSS Index] Processing ${request.url}`);
         sourceStats.yardsalesearch.pages++;
 
         const cards = $('article, .sale-listing, .sale-card, .listing, .result');
@@ -2120,6 +2126,7 @@ async function main(): Promise<void> {
       // HANDLER 9: GSALR INDEX (state listing page)
       // ══════════════════════════════════════════════════════
       if (source === 'gsalr' && !request.userData.handler) {
+        log.info(`[Gsalr Index] Processing ${request.url}`);
         sourceStats.gsalr.pages++;
 
         const cards = $('article, .sale-listing, .sale-card, .listing, .result, .classifiedAd');
