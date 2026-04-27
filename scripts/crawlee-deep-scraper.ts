@@ -342,8 +342,7 @@ function getImgUrl(el: any, $: any): string {
   );
 }
 
-const MAX_PHOTOS = 10; // v4.2 FIX: Cap photos per listing + dedup
-
+const MAX_PHOTOS = 1; // v4.6: 1 photo per listing to save bandwidth + storage
 function getAllImgUrls(container: any, $: any): string[] {
   const seen = new Set<string>();
   const urls: string[] = [];
@@ -2700,10 +2699,17 @@ async function main(): Promise<void> {
   // ══════════════════════════════════════════════════════
   // RUN THE CRAWLER
   // ══════════════════════════════════════════════════════
-  log.info('Starting CityScraper v4.1 crawl...');
-  await crawler.run(startUrls);
+  // v4.6: Fisher-Yates shuffle — randomize start URLs so interrupted runs
+  // cover different states each time instead of always starting at Alabama
+  for (let i = startUrls.length - 1; i > 0; i--) {
+  const j = Math.floor(Math.random() * (i + 1));
+  [startUrls[i], startUrls[j]] = [startUrls[j], startUrls[i]];
+ }
+   log.info('Starting CityScraper v4.6 crawl (shuffled URLs)...');
+   await crawler.run(startUrls);
 
-  // Stop the batch save interval
+
+   // Stop the batch save interval
   clearInterval(batchSaveInterval);
 
   // ── Final save: flush any remaining pending sales ──
