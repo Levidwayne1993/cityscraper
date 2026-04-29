@@ -1,0 +1,9 @@
+{
+	"id": "XnhHOjpZ53AFkn8",
+	"json": "{\"id\":\"XnhHOjpZ53AFkn8\",\"url\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:07:34.738Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "aWnL4hFOZ2TTGC3",
+	"json": "{\"id\":\"aWnL4hFOZ2TTGC3\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-davie-forest-ridge/7927605735.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-davie-forest-ridge/7927605735.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-davie-forest-ridge/7927605735.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:06.314Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-davie-forest-ridge/7927605735.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-davie-forest-ridge/7927605735.html"
+}

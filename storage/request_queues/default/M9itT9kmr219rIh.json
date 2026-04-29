@@ -1,0 +1,9 @@
+{
+	"id": "M9itT9kmr219rIh",
+	"json": "{\"id\":\"M9itT9kmr219rIh\",\"url\":\"https://sfbay.craigslist.org/sby/atq/d/san-jose-2-off-dayestate-sale-silent/7929771323.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/atq/d/san-jose-2-off-dayestate-sale-silent/7929771323.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/atq/d/san-jose-2-off-dayestate-sale-silent/7929771323.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:51.348Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/atq/d/san-jose-2-off-dayestate-sale-silent/7929771323.html",
+	"url": "https://sfbay.craigslist.org/sby/atq/d/san-jose-2-off-dayestate-sale-silent/7929771323.html"
+}

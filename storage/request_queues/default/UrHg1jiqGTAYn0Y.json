@@ -1,0 +1,9 @@
+{
+	"id": "UrHg1jiqGTAYn0Y",
+	"json": "{\"id\":\"UrHg1jiqGTAYn0Y\",\"url\":\"https://huntington.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://huntington.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528121,
+	"retryCount": 0,
+	"uniqueKey": "https://huntington.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://huntington.craigslist.org/search/ccc?query=garage+sale"
+}

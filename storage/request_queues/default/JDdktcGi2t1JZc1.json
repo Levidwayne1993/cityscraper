@@ -1,8 +1,8 @@
 {
 	"id": "JDdktcGi2t1JZc1",
-	"json": "{\"id\":\"JDdktcGi2t1JZc1\",\"url\":\"https://bakersfield.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://bakersfield.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"JDdktcGi2t1JZc1\",\"url\":\"https://bakersfield.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://bakersfield.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://bakersfield.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:24:30.312Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323114,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://bakersfield.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://bakersfield.craigslist.org/search/sss?query=moving+sale"

@@ -1,0 +1,9 @@
+{
+	"id": "lfv0aGho1Jv11w8",
+	"json": "{\"id\":\"lfv0aGho1Jv11w8\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-garage-yard-sale/7925593074.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-garage-yard-sale/7925593074.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-garage-yard-sale/7925593074.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:30.757Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-garage-yard-sale/7925593074.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-garage-yard-sale/7925593074.html"
+}

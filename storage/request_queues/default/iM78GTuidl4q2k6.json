@@ -1,0 +1,9 @@
+{
+	"id": "iM78GTuidl4q2k6",
+	"json": "{\"id\":\"iM78GTuidl4q2k6\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-garage-moving-collectables/7930011809.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-garage-moving-collectables/7930011809.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-garage-moving-collectables/7930011809.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:37.317Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/encinitas-garage-moving-collectables/7930011809.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/encinitas-garage-moving-collectables/7930011809.html"
+}

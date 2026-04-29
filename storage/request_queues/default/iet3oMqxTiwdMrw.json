@@ -1,0 +1,9 @@
+{
+	"id": "iet3oMqxTiwdMrw",
+	"json": "{\"id\":\"iet3oMqxTiwdMrw\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-furniture-and-more/7929267383.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-furniture-and-more/7929267383.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-furniture-and-more/7929267383.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:41:56.536Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-furniture-and-more/7929267383.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-furniture-and-more/7929267383.html"
+}

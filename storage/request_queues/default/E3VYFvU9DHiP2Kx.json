@@ -1,0 +1,9 @@
+{
+	"id": "E3VYFvU9DHiP2Kx",
+	"json": "{\"id\":\"E3VYFvU9DHiP2Kx\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Rockford-IL.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Rockford-IL.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"IL\",\"yssSlug\":\"Rockford-IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186530887,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Rockford-IL.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Rockford-IL.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "do81uIMk7hnlbnj",
+	"json": "{\"id\":\"do81uIMk7hnlbnj\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/ND/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/ND\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"ND\"}}",
+	"method": "GET",
+	"orderNo": 1777186530146,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/ND",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/ND/"
+}

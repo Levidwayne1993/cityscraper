@@ -1,0 +1,9 @@
+{
+	"id": "ZRRIwz0x50jJotB",
+	"json": "{\"id\":\"ZRRIwz0x50jJotB\",\"url\":\"https://fortmyers.craigslist.org/col/gms/d/bonita-springs-large-garage-sale-huge/7922342032.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/gms/d/bonita-springs-large-garage-sale-huge/7922342032.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/gms/d/bonita-springs-large-garage-sale-huge/7922342032.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:20.516Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/gms/d/bonita-springs-large-garage-sale-huge/7922342032.html",
+	"url": "https://fortmyers.craigslist.org/col/gms/d/bonita-springs-large-garage-sale-huge/7922342032.html"
+}

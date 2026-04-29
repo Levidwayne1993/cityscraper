@@ -1,0 +1,9 @@
+{
+	"id": "3AuUwtODHRt2qdD",
+	"json": "{\"id\":\"3AuUwtODHRt2qdD\",\"url\":\"https://www.yardsalesearch.com/yard-sales/New-York-NY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/New-York-NY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NY\",\"yssSlug\":\"New-York-NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186532477,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/New-York-NY.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/New-York-NY.html"
+}

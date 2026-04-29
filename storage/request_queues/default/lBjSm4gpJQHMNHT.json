@@ -1,0 +1,9 @@
+{
+	"id": "lBjSm4gpJQHMNHT",
+	"json": "{\"id\":\"lBjSm4gpJQHMNHT\",\"url\":\"https://ocala.craigslist.org/com/d/belleview-yard-sale-silver-springs-13/7920987304.html\",\"loadedUrl\":\"https://ocala.craigslist.org/com/d/belleview-yard-sale-silver-springs-13/7920987304.html\",\"uniqueKey\":\"https://ocala.craigslist.org/com/d/belleview-yard-sale-silver-springs-13/7920987304.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:29.154Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/com/d/belleview-yard-sale-silver-springs-13/7920987304.html",
+	"url": "https://ocala.craigslist.org/com/d/belleview-yard-sale-silver-springs-13/7920987304.html"
+}

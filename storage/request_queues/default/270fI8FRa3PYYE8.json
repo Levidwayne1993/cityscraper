@@ -1,0 +1,9 @@
+{
+	"id": "270fI8FRa3PYYE8",
+	"json": "{\"id\":\"270fI8FRa3PYYE8\",\"url\":\"https://orlando.craigslist.org/gms/d/davenport-yard-sale-lots-of-clothes/7930263859.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/davenport-yard-sale-lots-of-clothes/7930263859.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/davenport-yard-sale-lots-of-clothes/7930263859.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:21:00.611Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/davenport-yard-sale-lots-of-clothes/7930263859.html",
+	"url": "https://orlando.craigslist.org/gms/d/davenport-yard-sale-lots-of-clothes/7930263859.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "y9FBTQwVxEIYuOo",
+	"json": "{\"id\":\"y9FBTQwVxEIYuOo\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/sun-city-west-garage-sale-great-items/7930059658.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/sun-city-west-garage-sale-great-items/7930059658.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/sun-city-west-garage-sale-great-items/7930059658.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:37.778Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/sun-city-west-garage-sale-great-items/7930059658.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/sun-city-west-garage-sale-great-items/7930059658.html"
+}

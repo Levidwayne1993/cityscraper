@@ -1,0 +1,9 @@
+{
+	"id": "N5r31mqwm2ZzDis",
+	"json": "{\"id\":\"N5r31mqwm2ZzDis\",\"url\":\"https://orangecounty.craigslist.org/sys/d/lake-forest-moving-sale-excellent/7920807279.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/sys/d/lake-forest-moving-sale-excellent/7920807279.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/sys/d/lake-forest-moving-sale-excellent/7920807279.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:56.548Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/sys/d/lake-forest-moving-sale-excellent/7920807279.html",
+	"url": "https://orangecounty.craigslist.org/sys/d/lake-forest-moving-sale-excellent/7920807279.html"
+}

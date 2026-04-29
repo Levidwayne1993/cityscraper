@@ -1,0 +1,9 @@
+{
+	"id": "kf3uKQtRyjZOQBj",
+	"json": "{\"id\":\"kf3uKQtRyjZOQBj\",\"url\":\"https://springfield.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://springfield.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521295,
+	"retryCount": 0,
+	"uniqueKey": "https://springfield.craigslist.org/search/gms?s=480",
+	"url": "https://springfield.craigslist.org/search/gms?s=480"
+}

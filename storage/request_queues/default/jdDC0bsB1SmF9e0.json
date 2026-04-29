@@ -1,0 +1,9 @@
+{
+	"id": "jdDC0bsB1SmF9e0",
+	"json": "{\"id\":\"jdDC0bsB1SmF9e0\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-serious-spring-cleaning-yard-sale/7929678122.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-serious-spring-cleaning-yard-sale/7929678122.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-serious-spring-cleaning-yard-sale/7929678122.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:02:05.789Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-serious-spring-cleaning-yard-sale/7929678122.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-serious-spring-cleaning-yard-sale/7929678122.html"
+}

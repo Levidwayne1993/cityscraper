@@ -1,0 +1,9 @@
+{
+	"id": "xx6XUgKpTfDjQYk",
+	"json": "{\"id\":\"xx6XUgKpTfDjQYk\",\"url\":\"https://bakersfield.craigslist.org/app/d/kernville-ge-dryer-moving-sale/7898754401.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/app/d/kernville-ge-dryer-moving-sale/7898754401.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/app/d/kernville-ge-dryer-moving-sale/7898754401.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:26:11.670Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/app/d/kernville-ge-dryer-moving-sale/7898754401.html",
+	"url": "https://bakersfield.craigslist.org/app/d/kernville-ge-dryer-moving-sale/7898754401.html"
+}

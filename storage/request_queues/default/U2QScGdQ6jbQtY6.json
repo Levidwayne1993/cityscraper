@@ -1,0 +1,9 @@
+{
+	"id": "U2QScGdQ6jbQtY6",
+	"json": "{\"id\":\"U2QScGdQ6jbQtY6\",\"url\":\"https://binghamton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://binghamton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523074,
+	"retryCount": 0,
+	"uniqueKey": "https://binghamton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://binghamton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "T7MqhpWSQOi3WV0",
+	"json": "{\"id\":\"T7MqhpWSQOi3WV0\",\"url\":\"https://orangecounty.craigslist.org/com/d/orange-storage-clean-out-yard-sale/7928436097.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/com/d/orange-storage-clean-out-yard-sale/7928436097.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/com/d/orange-storage-clean-out-yard-sale/7928436097.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:24:51.724Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/com/d/orange-storage-clean-out-yard-sale/7928436097.html",
+	"url": "https://orangecounty.craigslist.org/com/d/orange-storage-clean-out-yard-sale/7928436097.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KRJ4fI2Ch1NRrs0",
+	"json": "{\"id\":\"KRJ4fI2Ch1NRrs0\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/WA/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/WA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530283,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/WA",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/WA/"
+}

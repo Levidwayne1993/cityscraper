@@ -1,0 +1,9 @@
+{
+	"id": "G8liM599Fu1B2RP",
+	"json": "{\"id\":\"G8liM599Fu1B2RP\",\"url\":\"https://rockies.craigslist.org/gms/d/nathrop-huge-estate-sale/7929540779.html\",\"loadedUrl\":\"https://rockies.craigslist.org/gms/d/nathrop-huge-estate-sale/7929540779.html\",\"uniqueKey\":\"https://rockies.craigslist.org/gms/d/nathrop-huge-estate-sale/7929540779.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:26.912Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://rockies.craigslist.org/gms/d/nathrop-huge-estate-sale/7929540779.html",
+	"url": "https://rockies.craigslist.org/gms/d/nathrop-huge-estate-sale/7929540779.html"
+}

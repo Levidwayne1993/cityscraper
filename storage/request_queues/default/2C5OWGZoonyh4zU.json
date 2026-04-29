@@ -1,0 +1,9 @@
+{
+	"id": "2C5OWGZoonyh4zU",
+	"json": "{\"id\":\"2C5OWGZoonyh4zU\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-palmetto-bay-yard-sale/7926629533.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-palmetto-bay-yard-sale/7926629533.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-palmetto-bay-yard-sale/7926629533.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:29.915Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-palmetto-bay-yard-sale/7926629533.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-palmetto-bay-yard-sale/7926629533.html"
+}

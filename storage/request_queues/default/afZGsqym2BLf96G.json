@@ -1,0 +1,9 @@
+{
+	"id": "afZGsqym2BLf96G",
+	"json": "{\"id\":\"afZGsqym2BLf96G\",\"url\":\"https://sacramento.craigslist.org/gms/d/granite-bay-garage-estate-sale-small/7926636674.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/granite-bay-garage-estate-sale-small/7926636674.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/granite-bay-garage-estate-sale-small/7926636674.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:48:40.535Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/granite-bay-garage-estate-sale-small/7926636674.html",
+	"url": "https://sacramento.craigslist.org/gms/d/granite-bay-garage-estate-sale-small/7926636674.html"
+}

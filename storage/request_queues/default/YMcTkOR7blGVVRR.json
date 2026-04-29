@@ -1,0 +1,9 @@
+{
+	"id": "YMcTkOR7blGVVRR",
+	"json": "{\"id\":\"YMcTkOR7blGVVRR\",\"url\":\"https://monterey.craigslist.org/for/d/watsonville-estate-yard-sale/7928528413.html\",\"loadedUrl\":\"https://monterey.craigslist.org/for/d/watsonville-estate-yard-sale/7928528413.html\",\"uniqueKey\":\"https://monterey.craigslist.org/for/d/watsonville-estate-yard-sale/7928528413.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:03:37.599Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/for/d/watsonville-estate-yard-sale/7928528413.html",
+	"url": "https://monterey.craigslist.org/for/d/watsonville-estate-yard-sale/7928528413.html"
+}

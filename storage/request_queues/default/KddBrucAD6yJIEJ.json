@@ -1,0 +1,9 @@
+{
+	"id": "KddBrucAD6yJIEJ",
+	"json": "{\"id\":\"KddBrucAD6yJIEJ\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-santa-barbara-high-school/7929760588.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-santa-barbara-high-school/7929760588.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-santa-barbara-high-school/7929760588.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:55:11.638Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-santa-barbara-high-school/7929760588.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-santa-barbara-high-school/7929760588.html"
+}

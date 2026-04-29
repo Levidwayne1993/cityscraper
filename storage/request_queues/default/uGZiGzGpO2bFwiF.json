@@ -1,0 +1,9 @@
+{
+	"id": "uGZiGzGpO2bFwiF",
+	"json": "{\"id\":\"uGZiGzGpO2bFwiF\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-1849-blossom-hill-rd-los/7929116691.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-1849-blossom-hill-rd-los/7929116691.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-1849-blossom-hill-rd-los/7929116691.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:09.627Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/los-gatos-1849-blossom-hill-rd-los/7929116691.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/los-gatos-1849-blossom-hill-rd-los/7929116691.html"
+}

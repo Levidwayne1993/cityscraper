@@ -1,0 +1,9 @@
+{
+	"id": "usYvIvGaGFYB4ld",
+	"json": "{\"id\":\"usYvIvGaGFYB4ld\",\"url\":\"https://brainerd.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://brainerd.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520973,
+	"retryCount": 0,
+	"uniqueKey": "https://brainerd.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://brainerd.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

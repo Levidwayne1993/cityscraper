@@ -1,0 +1,9 @@
+{
+	"id": "ItIjgXTezrtzM4h",
+	"json": "{\"id\":\"ItIjgXTezrtzM4h\",\"url\":\"https://florencesc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://florencesc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525865,
+	"retryCount": 0,
+	"uniqueKey": "https://florencesc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://florencesc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

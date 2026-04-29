@@ -1,0 +1,9 @@
+{
+	"id": "tTyqCCJx9OeeG8L",
+	"json": "{\"id\":\"tTyqCCJx9OeeG8L\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-mult-family-yard-sale/7928006113.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-mult-family-yard-sale/7928006113.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-mult-family-yard-sale/7928006113.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:24.861Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/morgan-hill-mult-family-yard-sale/7928006113.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/morgan-hill-mult-family-yard-sale/7928006113.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GLFDrMQL19sAHK0",
+	"json": "{\"id\":\"GLFDrMQL19sAHK0\",\"url\":\"https://tucson.craigslist.org/com/d/tucson-yard-sale-great-prices/7927980953.html\",\"loadedUrl\":\"https://tucson.craigslist.org/com/d/tucson-yard-sale-great-prices/7927980953.html\",\"uniqueKey\":\"https://tucson.craigslist.org/com/d/tucson-yard-sale-great-prices/7927980953.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:07:29.576Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/com/d/tucson-yard-sale-great-prices/7927980953.html",
+	"url": "https://tucson.craigslist.org/com/d/tucson-yard-sale-great-prices/7927980953.html"
+}

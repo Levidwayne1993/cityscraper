@@ -1,0 +1,9 @@
+{
+	"id": "Dg56OgckQZDOE0I",
+	"json": "{\"id\":\"Dg56OgckQZDOE0I\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-huge-yard-sale-today-only-open/7924141586.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-huge-yard-sale-today-only-open/7924141586.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-huge-yard-sale-today-only-open/7924141586.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:54:04.002Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-huge-yard-sale-today-only-open/7924141586.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-huge-yard-sale-today-only-open/7924141586.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uOAVcl7d03UBnGd",
+	"json": "{\"id\":\"uOAVcl7d03UBnGd\",\"url\":\"https://sacramento.craigslist.org/gms/d/elk-grove-yard-sale-saturday-april-25th/7929797705.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/elk-grove-yard-sale-saturday-april-25th/7929797705.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/elk-grove-yard-sale-saturday-april-25th/7929797705.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:05.009Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/elk-grove-yard-sale-saturday-april-25th/7929797705.html",
+	"url": "https://sacramento.craigslist.org/gms/d/elk-grove-yard-sale-saturday-april-25th/7929797705.html"
+}

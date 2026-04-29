@@ -1,0 +1,9 @@
+{
+	"id": "AIRPSbyRaFTo5n1",
+	"json": "{\"id\":\"AIRPSbyRaFTo5n1\",\"url\":\"https://stjoseph.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://stjoseph.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521387,
+	"retryCount": 0,
+	"uniqueKey": "https://stjoseph.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://stjoseph.craigslist.org/search/ccc?query=yard+sale"
+}

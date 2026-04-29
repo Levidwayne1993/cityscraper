@@ -1,0 +1,9 @@
+{
+	"id": "hh6NfY2Dtug8isk",
+	"json": "{\"id\":\"hh6NfY2Dtug8isk\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/CO/?page=2\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/CO?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"CO\"}}",
+	"method": "GET",
+	"orderNo": 1777186528859,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/CO?page=2",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/CO/?page=2"
+}

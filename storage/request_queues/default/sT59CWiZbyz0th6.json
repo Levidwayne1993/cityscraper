@@ -1,8 +1,8 @@
 {
 	"id": "sT59CWiZbyz0th6",
-	"json": "{\"id\":\"sT59CWiZbyz0th6\",\"url\":\"https://rmn.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://rmn.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"sT59CWiZbyz0th6\",\"url\":\"https://rmn.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://rmn.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
 	"method": "GET",
-	"orderNo": 1777040325385,
+	"orderNo": 1777186521043,
 	"retryCount": 0,
 	"uniqueKey": "https://rmn.craigslist.org/search/gms?s=240",
 	"url": "https://rmn.craigslist.org/search/gms?s=240"

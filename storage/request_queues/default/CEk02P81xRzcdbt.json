@@ -1,0 +1,9 @@
+{
+	"id": "CEk02P81xRzcdbt",
+	"json": "{\"id\":\"CEk02P81xRzcdbt\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Winston-Salem-NC.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Winston-Salem-NC.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NC\",\"yssSlug\":\"Winston-Salem-NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186532532,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Winston-Salem-NC.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Winston-Salem-NC.html"
+}

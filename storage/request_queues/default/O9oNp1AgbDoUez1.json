@@ -1,0 +1,9 @@
+{
+	"id": "O9oNp1AgbDoUez1",
+	"json": "{\"id\":\"O9oNp1AgbDoUez1\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale/7928064768.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale/7928064768.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale/7928064768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:28.732Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-yard-sale/7928064768.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-yard-sale/7928064768.html"
+}

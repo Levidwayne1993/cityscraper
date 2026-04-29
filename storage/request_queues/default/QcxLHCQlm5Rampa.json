@@ -1,0 +1,9 @@
+{
+	"id": "QcxLHCQlm5Rampa",
+	"json": "{\"id\":\"QcxLHCQlm5Rampa\",\"url\":\"https://washingtondc.craigslist.org/nva/app/d/annandale-ge-profile-refrigerator-black/7923881801.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/app/d/annandale-ge-profile-refrigerator-black/7923881801.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/app/d/annandale-ge-profile-refrigerator-black/7923881801.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:28:32.665Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/app/d/annandale-ge-profile-refrigerator-black/7923881801.html",
+	"url": "https://washingtondc.craigslist.org/nva/app/d/annandale-ge-profile-refrigerator-black/7923881801.html"
+}

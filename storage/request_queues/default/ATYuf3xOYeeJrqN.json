@@ -1,0 +1,9 @@
+{
+	"id": "ATYuf3xOYeeJrqN",
+	"json": "{\"id\":\"ATYuf3xOYeeJrqN\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Hartford-CT.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Hartford-CT.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CT\",\"yssSlug\":\"Hartford-CT\"}}",
+	"method": "GET",
+	"orderNo": 1777186530651,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Hartford-CT.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Hartford-CT.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "juQUgq5aTpm0qjz",
+	"json": "{\"id\":\"juQUgq5aTpm0qjz\",\"url\":\"https://stillwater.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://stillwater.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525100,
+	"retryCount": 0,
+	"uniqueKey": "https://stillwater.craigslist.org/search/gms?s=480",
+	"url": "https://stillwater.craigslist.org/search/gms?s=480"
+}

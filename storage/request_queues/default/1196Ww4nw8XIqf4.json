@@ -1,0 +1,9 @@
+{
+	"id": "1196Ww4nw8XIqf4",
+	"json": "{\"id\":\"1196Ww4nw8XIqf4\",\"url\":\"https://inlandempire.craigslist.org/gms/d/redlands-garage-sale-in-redlands-04-18/7928351624.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/redlands-garage-sale-in-redlands-04-18/7928351624.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/redlands-garage-sale-in-redlands-04-18/7928351624.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:15:48.576Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/redlands-garage-sale-in-redlands-04-18/7928351624.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/redlands-garage-sale-in-redlands-04-18/7928351624.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "my1pZZj4clp6w17",
+	"json": "{\"id\":\"my1pZZj4clp6w17\",\"url\":\"https://lascruces.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://lascruces.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186523003,
+	"retryCount": 0,
+	"uniqueKey": "https://lascruces.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://lascruces.craigslist.org/search/ccc?query=garage+sale"
+}

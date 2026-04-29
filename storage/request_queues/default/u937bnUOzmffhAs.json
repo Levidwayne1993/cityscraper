@@ -1,0 +1,9 @@
+{
+	"id": "u937bnUOzmffhAs",
+	"json": "{\"id\":\"u937bnUOzmffhAs\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-american-western-antiques/7929621763.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-american-western-antiques/7929621763.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-american-western-antiques/7929621763.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:01.530Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/gilroy-american-western-antiques/7929621763.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/gilroy-american-western-antiques/7929621763.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vojEGRrVqK08j7L",
+	"json": "{\"id\":\"vojEGRrVqK08j7L\",\"url\":\"https://cookeville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://cookeville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526020,
+	"retryCount": 0,
+	"uniqueKey": "https://cookeville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://cookeville.craigslist.org/search/ccc?query=garage+sale"
+}

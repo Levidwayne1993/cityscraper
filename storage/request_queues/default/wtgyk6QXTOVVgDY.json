@@ -1,0 +1,9 @@
+{
+	"id": "wtgyk6QXTOVVgDY",
+	"json": "{\"id\":\"wtgyk6QXTOVVgDY\",\"url\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-womens-clothing-home/7924084652.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-womens-clothing-home/7924084652.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-womens-clothing-home/7924084652.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:15.106Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ojai-yard-sale-womens-clothing-home/7924084652.html",
+	"url": "https://ventura.craigslist.org/gms/d/ojai-yard-sale-womens-clothing-home/7924084652.html"
+}

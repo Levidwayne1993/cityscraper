@@ -1,0 +1,9 @@
+{
+	"id": "PERk3xq35i6Aocv",
+	"json": "{\"id\":\"PERk3xq35i6Aocv\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-updated-yard-sale-tools/7930105831.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-updated-yard-sale-tools/7930105831.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-updated-yard-sale-tools/7930105831.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:22:48.243Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/granada-hills-updated-yard-sale-tools/7930105831.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/granada-hills-updated-yard-sale-tools/7930105831.html"
+}

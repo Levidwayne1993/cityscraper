@@ -1,0 +1,9 @@
+{
+	"id": "Q1Qynr0rOsI0brn",
+	"json": "{\"id\":\"Q1Qynr0rOsI0brn\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-spring/7929763156.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-spring/7929763156.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-spring/7929763156.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:21:22.722Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-spring/7929763156.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-spring/7929763156.html"
+}

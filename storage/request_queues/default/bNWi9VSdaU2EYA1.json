@@ -1,0 +1,9 @@
+{
+	"id": "bNWi9VSdaU2EYA1",
+	"json": "{\"id\":\"bNWi9VSdaU2EYA1\",\"url\":\"https://stockton.craigslist.org/gms/d/woodbridge-garage-sale-3058-belmont-dr/7926712813.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/woodbridge-garage-sale-3058-belmont-dr/7926712813.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/woodbridge-garage-sale-3058-belmont-dr/7926712813.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:59.713Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/woodbridge-garage-sale-3058-belmont-dr/7926712813.html",
+	"url": "https://stockton.craigslist.org/gms/d/woodbridge-garage-sale-3058-belmont-dr/7926712813.html"
+}

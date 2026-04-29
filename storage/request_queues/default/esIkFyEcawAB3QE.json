@@ -1,0 +1,9 @@
+{
+	"id": "esIkFyEcawAB3QE",
+	"json": "{\"id\":\"esIkFyEcawAB3QE\",\"url\":\"https://modesto.craigslist.org/gms/d/keyes-warehouse-blowout-sale/7922320443.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/keyes-warehouse-blowout-sale/7922320443.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/keyes-warehouse-blowout-sale/7922320443.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:57:43.326Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/keyes-warehouse-blowout-sale/7922320443.html",
+	"url": "https://modesto.craigslist.org/gms/d/keyes-warehouse-blowout-sale/7922320443.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Zx0RwPpUoFwhi2X",
+	"json": "{\"id\":\"Zx0RwPpUoFwhi2X\",\"url\":\"https://topeka.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://topeka.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519902,
+	"retryCount": 0,
+	"uniqueKey": "https://topeka.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://topeka.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

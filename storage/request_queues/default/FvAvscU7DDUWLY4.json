@@ -1,0 +1,9 @@
+{
+	"id": "FvAvscU7DDUWLY4",
+	"json": "{\"id\":\"FvAvscU7DDUWLY4\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-huge-yard-sale-sat-am/7930072078.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-huge-yard-sale-sat-am/7930072078.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-huge-yard-sale-sat-am/7930072078.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:02.083Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-huge-yard-sale-sat-am/7930072078.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-huge-yard-sale-sat-am/7930072078.html"
+}

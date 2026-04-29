@@ -1,0 +1,9 @@
+{
+	"id": "S4sKzk81bsyZxvW",
+	"json": "{\"id\":\"S4sKzk81bsyZxvW\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-garage-sale/7930082334.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-garage-sale/7930082334.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-garage-sale/7930082334.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:14.950Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-garage-sale/7930082334.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-garage-sale/7930082334.html"
+}

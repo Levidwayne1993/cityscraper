@@ -1,0 +1,9 @@
+{
+	"id": "sABJkPdf8Y9ujKa",
+	"json": "{\"id\":\"sABJkPdf8Y9ujKa\",\"url\":\"https://poconos.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://poconos.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525728,
+	"retryCount": 0,
+	"uniqueKey": "https://poconos.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://poconos.craigslist.org/search/ccc?query=yard+sale"
+}

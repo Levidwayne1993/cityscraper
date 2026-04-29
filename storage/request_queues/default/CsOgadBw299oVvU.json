@@ -1,0 +1,9 @@
+{
+	"id": "CsOgadBw299oVvU",
+	"json": "{\"id\":\"CsOgadBw299oVvU\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-happening-now-28-in/7924067903.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-happening-now-28-in/7924067903.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-happening-now-28-in/7924067903.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:47:27.653Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-happening-now-28-in/7924067903.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-happening-now-28-in/7924067903.html"
+}

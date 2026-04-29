@@ -1,0 +1,9 @@
+{
+	"id": "GOacVZOB8MyseQH",
+	"json": "{\"id\":\"GOacVZOB8MyseQH\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-barkers-music-musicians-flea/7924607062.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-barkers-music-musicians-flea/7924607062.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-barkers-music-musicians-flea/7924607062.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:58:23.675Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-barkers-music-musicians-flea/7924607062.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-barkers-music-musicians-flea/7924607062.html"
+}

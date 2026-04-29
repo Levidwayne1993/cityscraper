@@ -1,0 +1,9 @@
+{
+	"id": "1R3DzzVPbKh24cg",
+	"json": "{\"id\":\"1R3DzzVPbKh24cg\",\"url\":\"https://denver.craigslist.org/hsh/d/arvada-moving-sale-kitchen-house-hold/7927910411.html\",\"loadedUrl\":\"https://denver.craigslist.org/hsh/d/arvada-moving-sale-kitchen-house-hold/7927910411.html\",\"uniqueKey\":\"https://denver.craigslist.org/hsh/d/arvada-moving-sale-kitchen-house-hold/7927910411.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:42:39.355Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/hsh/d/arvada-moving-sale-kitchen-house-hold/7927910411.html",
+	"url": "https://denver.craigslist.org/hsh/d/arvada-moving-sale-kitchen-house-hold/7927910411.html"
+}

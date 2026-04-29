@@ -1,0 +1,9 @@
+{
+	"id": "mJerV8g4Fe6l8X0",
+	"json": "{\"id\":\"mJerV8g4Fe6l8X0\",\"url\":\"https://ocala.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://ocala.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://ocala.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:07:22.230Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://ocala.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

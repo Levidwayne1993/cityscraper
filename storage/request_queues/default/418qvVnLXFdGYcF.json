@@ -1,0 +1,9 @@
+{
+	"id": "418qvVnLXFdGYcF",
+	"json": "{\"id\":\"418qvVnLXFdGYcF\",\"url\":\"https://sacramento.craigslist.org/hsh/d/elk-grove-moving-sale/7917469839.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/hsh/d/elk-grove-moving-sale/7917469839.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/hsh/d/elk-grove-moving-sale/7917469839.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:58.032Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/hsh/d/elk-grove-moving-sale/7917469839.html",
+	"url": "https://sacramento.craigslist.org/hsh/d/elk-grove-moving-sale/7917469839.html"
+}

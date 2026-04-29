@@ -1,0 +1,9 @@
+{
+	"id": "P8qd1cwqXMBouMv",
+	"json": "{\"id\":\"P8qd1cwqXMBouMv\",\"url\":\"https://stockton.craigslist.org/gms/d/manteca-two-household-combined-yard-sale/7922528328.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/manteca-two-household-combined-yard-sale/7922528328.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/manteca-two-household-combined-yard-sale/7922528328.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:00.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/manteca-two-household-combined-yard-sale/7922528328.html",
+	"url": "https://stockton.craigslist.org/gms/d/manteca-two-household-combined-yard-sale/7922528328.html"
+}

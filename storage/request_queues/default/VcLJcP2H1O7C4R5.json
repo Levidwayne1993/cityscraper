@@ -1,0 +1,9 @@
+{
+	"id": "VcLJcP2H1O7C4R5",
+	"json": "{\"id\":\"VcLJcP2H1O7C4R5\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-misc-items-yard-sale/7928716938.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-misc-items-yard-sale/7928716938.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-misc-items-yard-sale/7928716938.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:11.943Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/glendale-misc-items-yard-sale/7928716938.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/glendale-misc-items-yard-sale/7928716938.html"
+}

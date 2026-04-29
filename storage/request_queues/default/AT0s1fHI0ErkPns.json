@@ -1,0 +1,9 @@
+{
+	"id": "AT0s1fHI0ErkPns",
+	"json": "{\"id\":\"AT0s1fHI0ErkPns\",\"url\":\"https://mendocino.craigslist.org/gms/d/kelseyville-huge-garage-sale-17-to/7928407598.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/kelseyville-huge-garage-sale-17-to/7928407598.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/kelseyville-huge-garage-sale-17-to/7928407598.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:55.630Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/kelseyville-huge-garage-sale-17-to/7928407598.html",
+	"url": "https://mendocino.craigslist.org/gms/d/kelseyville-huge-garage-sale-17-to/7928407598.html"
+}

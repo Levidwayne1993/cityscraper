@@ -1,0 +1,9 @@
+{
+	"id": "mAlHdp5re64LFlc",
+	"json": "{\"id\":\"mAlHdp5re64LFlc\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-today-april-18/7928527858.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-today-april-18/7928527858.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-today-april-18/7928527858.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:09:41.278Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-today-april-18/7928527858.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-today-april-18/7928527858.html"
+}

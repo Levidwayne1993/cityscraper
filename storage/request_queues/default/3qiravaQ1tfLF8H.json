@@ -1,0 +1,9 @@
+{
+	"id": "3qiravaQ1tfLF8H",
+	"json": "{\"id\":\"3qiravaQ1tfLF8H\",\"url\":\"https://centralmich.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://centralmich.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520611,
+	"retryCount": 0,
+	"uniqueKey": "https://centralmich.craigslist.org/search/gms?s=480",
+	"url": "https://centralmich.craigslist.org/search/gms?s=480"
+}

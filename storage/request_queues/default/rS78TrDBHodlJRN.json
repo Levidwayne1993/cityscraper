@@ -1,0 +1,9 @@
+{
+	"id": "rS78TrDBHodlJRN",
+	"json": "{\"id\":\"rS78TrDBHodlJRN\",\"url\":\"https://denver.craigslist.org/com/d/littleton-garage-sale-estate-sale/7926995959.html\",\"loadedUrl\":\"https://denver.craigslist.org/com/d/littleton-garage-sale-estate-sale/7926995959.html\",\"uniqueKey\":\"https://denver.craigslist.org/com/d/littleton-garage-sale-estate-sale/7926995959.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:52.610Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/com/d/littleton-garage-sale-estate-sale/7926995959.html",
+	"url": "https://denver.craigslist.org/com/d/littleton-garage-sale-estate-sale/7926995959.html"
+}

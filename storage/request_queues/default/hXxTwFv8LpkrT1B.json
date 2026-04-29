@@ -1,0 +1,9 @@
+{
+	"id": "hXxTwFv8LpkrT1B",
+	"json": "{\"id\":\"hXxTwFv8LpkrT1B\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Aurora-IL.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Aurora-IL.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"IL\",\"yssSlug\":\"Aurora-IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186530854,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Aurora-IL.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Aurora-IL.html"
+}

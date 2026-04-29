@@ -1,0 +1,9 @@
+{
+	"id": "LikdtGCoAiCGUmr",
+	"json": "{\"id\":\"LikdtGCoAiCGUmr\",\"url\":\"https://palmsprings.craigslist.org/gms/d/joshua-tree-garage-sale-sunday-1-joshua/7925272380.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/joshua-tree-garage-sale-sunday-1-joshua/7925272380.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/joshua-tree-garage-sale-sunday-1-joshua/7925272380.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:32:18.349Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/joshua-tree-garage-sale-sunday-1-joshua/7925272380.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/joshua-tree-garage-sale-sunday-1-joshua/7925272380.html"
+}

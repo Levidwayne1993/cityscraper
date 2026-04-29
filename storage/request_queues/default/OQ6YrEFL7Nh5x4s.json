@@ -1,0 +1,9 @@
+{
+	"id": "OQ6YrEFL7Nh5x4s",
+	"json": "{\"id\":\"OQ6YrEFL7Nh5x4s\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/hollister-yard-sale/7928552443.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/hollister-yard-sale/7928552443.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/hollister-yard-sale/7928552443.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:27:01.913Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/hollister-yard-sale/7928552443.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/hollister-yard-sale/7928552443.html"
+}

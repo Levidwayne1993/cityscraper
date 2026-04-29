@@ -1,0 +1,9 @@
+{
+	"id": "TOY3G7XhP5BE1Wr",
+	"json": "{\"id\":\"TOY3G7XhP5BE1Wr\",\"url\":\"https://ocala.craigslist.org/gms/d/ocala-awesome-yard-sale/7925131970.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/ocala-awesome-yard-sale/7925131970.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/ocala-awesome-yard-sale/7925131970.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:59:24.047Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/ocala-awesome-yard-sale/7925131970.html",
+	"url": "https://ocala.craigslist.org/gms/d/ocala-awesome-yard-sale/7925131970.html"
+}

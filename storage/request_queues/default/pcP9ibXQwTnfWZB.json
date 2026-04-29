@@ -1,0 +1,9 @@
+{
+	"id": "pcP9ibXQwTnfWZB",
+	"json": "{\"id\":\"pcP9ibXQwTnfWZB\",\"url\":\"https://hartford.craigslist.org/gms/d/vernon-rockville-huge-tag-sale/7926961087.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/vernon-rockville-huge-tag-sale/7926961087.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/vernon-rockville-huge-tag-sale/7926961087.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:56.597Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/vernon-rockville-huge-tag-sale/7926961087.html",
+	"url": "https://hartford.craigslist.org/gms/d/vernon-rockville-huge-tag-sale/7926961087.html"
+}

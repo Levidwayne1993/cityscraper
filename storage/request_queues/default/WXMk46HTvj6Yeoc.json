@@ -1,0 +1,9 @@
+{
+	"id": "WXMk46HTvj6Yeoc",
+	"json": "{\"id\":\"WXMk46HTvj6Yeoc\",\"url\":\"https://ventura.craigslist.org/com/d/ventura-big-garage-sale/7928000302.html\",\"loadedUrl\":\"https://ventura.craigslist.org/com/d/ventura-big-garage-sale/7928000302.html\",\"uniqueKey\":\"https://ventura.craigslist.org/com/d/ventura-big-garage-sale/7928000302.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:19:10.954Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/com/d/ventura-big-garage-sale/7928000302.html",
+	"url": "https://ventura.craigslist.org/com/d/ventura-big-garage-sale/7928000302.html"
+}

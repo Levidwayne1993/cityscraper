@@ -1,0 +1,9 @@
+{
+	"id": "YaHUJTbYPm2Gfnq",
+	"json": "{\"id\":\"YaHUJTbYPm2Gfnq\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Augusta-GA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Augusta-GA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"GA\",\"yssSlug\":\"Augusta-GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530807,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Augusta-GA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Augusta-GA.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Om7WWb7etc5VQzS",
+	"json": "{\"id\":\"Om7WWb7etc5VQzS\",\"url\":\"https://fairbanks.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://fairbanks.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://fairbanks.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:13:00.189Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fairbanks.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://fairbanks.craigslist.org/search/ccc?query=yard+sale"
+}

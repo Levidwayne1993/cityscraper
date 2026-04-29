@@ -1,0 +1,9 @@
+{
+	"id": "LiwPyXlobcD6uru",
+	"json": "{\"id\":\"LiwPyXlobcD6uru\",\"url\":\"https://valdosta.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://valdosta.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517957,
+	"retryCount": 0,
+	"uniqueKey": "https://valdosta.craigslist.org/search/gms?s=360",
+	"url": "https://valdosta.craigslist.org/search/gms?s=360"
+}

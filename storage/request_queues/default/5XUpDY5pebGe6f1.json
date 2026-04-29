@@ -1,0 +1,9 @@
+{
+	"id": "5XUpDY5pebGe6f1",
+	"json": "{\"id\":\"5XUpDY5pebGe6f1\",\"url\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-estate-sale-april/7927473222.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-estate-sale-april/7927473222.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-estate-sale-april/7927473222.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:43.592Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/north-grosvenordale-estate-sale-april/7927473222.html",
+	"url": "https://newlondon.craigslist.org/gms/d/north-grosvenordale-estate-sale-april/7927473222.html"
+}

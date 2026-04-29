@@ -1,6 +1,6 @@
 {
 	"id": "Cz5sTVokMnEnbsa",
-	"json": "{\"id\":\"Cz5sTVokMnEnbsa\",\"url\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:19:32.025Z\"}",
+	"json": "{\"id\":\"Cz5sTVokMnEnbsa\",\"url\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://birmingham.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:56:31.930Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

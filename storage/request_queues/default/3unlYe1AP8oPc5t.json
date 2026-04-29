@@ -1,0 +1,9 @@
+{
+	"id": "3unlYe1AP8oPc5t",
+	"json": "{\"id\":\"3unlYe1AP8oPc5t\",\"url\":\"https://baltimore.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://baltimore.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520263,
+	"retryCount": 0,
+	"uniqueKey": "https://baltimore.craigslist.org/search/gms?s=480",
+	"url": "https://baltimore.craigslist.org/search/gms?s=480"
+}

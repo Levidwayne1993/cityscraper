@@ -1,0 +1,9 @@
+{
+	"id": "pV4SwlMk562lGuW",
+	"json": "{\"id\":\"pV4SwlMk562lGuW\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/NH/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/NH\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"NH\"}}",
+	"method": "GET",
+	"orderNo": 1777186530117,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/NH",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/NH/"
+}

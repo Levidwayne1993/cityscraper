@@ -1,0 +1,9 @@
+{
+	"id": "ZGlbCiuHwGYdf2j",
+	"json": "{\"id\":\"ZGlbCiuHwGYdf2j\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-massive-yard-sale-in-arden/7925588850.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-massive-yard-sale-in-arden/7925588850.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-massive-yard-sale-in-arden/7925588850.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:44:29.027Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-massive-yard-sale-in-arden/7925588850.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-massive-yard-sale-in-arden/7925588850.html"
+}

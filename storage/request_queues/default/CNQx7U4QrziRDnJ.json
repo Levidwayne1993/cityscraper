@@ -1,0 +1,9 @@
+{
+	"id": "CNQx7U4QrziRDnJ",
+	"json": "{\"id\":\"CNQx7U4QrziRDnJ\",\"url\":\"https://swmi.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://swmi.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520909,
+	"retryCount": 0,
+	"uniqueKey": "https://swmi.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://swmi.craigslist.org/search/ccc?query=yard+sale"
+}

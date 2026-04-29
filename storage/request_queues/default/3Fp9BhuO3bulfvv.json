@@ -1,0 +1,9 @@
+{
+	"id": "3Fp9BhuO3bulfvv",
+	"json": "{\"id\":\"3Fp9BhuO3bulfvv\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-in-el-encanto/7929841782.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-in-el-encanto/7929841782.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-in-el-encanto/7929841782.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:55:17.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-in-el-encanto/7929841782.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-in-el-encanto/7929841782.html"
+}

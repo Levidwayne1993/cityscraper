@@ -1,0 +1,9 @@
+{
+	"id": "nKwTWipl9UD8nIp",
+	"json": "{\"id\":\"nKwTWipl9UD8nIp\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-yard-sale-fri-sat-kayak-brass/7920857666.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-yard-sale-fri-sat-kayak-brass/7920857666.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-yard-sale-fri-sat-kayak-brass/7920857666.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:18.269Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/glendale-yard-sale-fri-sat-kayak-brass/7920857666.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/glendale-yard-sale-fri-sat-kayak-brass/7920857666.html"
+}

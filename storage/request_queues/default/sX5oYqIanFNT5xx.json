@@ -1,0 +1,9 @@
+{
+	"id": "sX5oYqIanFNT5xx",
+	"json": "{\"id\":\"sX5oYqIanFNT5xx\",\"url\":\"https://delaware.craigslist.org/gms/d/newark-special-saturday-thift-warehouse/7929993911.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/newark-special-saturday-thift-warehouse/7929993911.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/newark-special-saturday-thift-warehouse/7929993911.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:18:09.364Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/newark-special-saturday-thift-warehouse/7929993911.html",
+	"url": "https://delaware.craigslist.org/gms/d/newark-special-saturday-thift-warehouse/7929993911.html"
+}

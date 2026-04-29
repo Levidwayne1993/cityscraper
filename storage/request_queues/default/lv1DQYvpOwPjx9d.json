@@ -1,0 +1,9 @@
+{
+	"id": "lv1DQYvpOwPjx9d",
+	"json": "{\"id\":\"lv1DQYvpOwPjx9d\",\"url\":\"https://waco.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://waco.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527597,
+	"retryCount": 0,
+	"uniqueKey": "https://waco.craigslist.org/search/gms?s=480",
+	"url": "https://waco.craigslist.org/search/gms?s=480"
+}

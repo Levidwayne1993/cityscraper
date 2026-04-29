@@ -1,8 +1,8 @@
 {
 	"id": "sQYRoysZC3emM73",
-	"json": "{\"id\":\"sQYRoysZC3emM73\",\"url\":\"https://tuscaloosa.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"sQYRoysZC3emM73\",\"url\":\"https://tuscaloosa.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://tuscaloosa.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:09:45.477Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322928,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://tuscaloosa.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://tuscaloosa.craigslist.org/search/sss?query=moving+sale"

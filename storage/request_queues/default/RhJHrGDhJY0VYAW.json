@@ -1,0 +1,9 @@
+{
+	"id": "RhJHrGDhJY0VYAW",
+	"json": "{\"id\":\"RhJHrGDhJY0VYAW\",\"url\":\"https://eastidaho.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://eastidaho.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518005,
+	"retryCount": 0,
+	"uniqueKey": "https://eastidaho.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://eastidaho.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

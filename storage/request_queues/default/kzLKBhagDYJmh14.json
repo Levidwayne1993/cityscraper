@@ -1,0 +1,9 @@
+{
+	"id": "kzLKBhagDYJmh14",
+	"json": "{\"id\":\"kzLKBhagDYJmh14\",\"url\":\"https://longisland.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://longisland.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523222,
+	"retryCount": 0,
+	"uniqueKey": "https://longisland.craigslist.org/search/gms?s=480",
+	"url": "https://longisland.craigslist.org/search/gms?s=480"
+}

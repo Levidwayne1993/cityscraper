@@ -1,0 +1,9 @@
+{
+	"id": "PPuNDk938UCZ6d5",
+	"json": "{\"id\":\"PPuNDk938UCZ6d5\",\"url\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-garage-sale/7928264117.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-garage-sale/7928264117.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-garage-sale/7928264117.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:32:49.919Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/cathedral-city-garage-sale/7928264117.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/cathedral-city-garage-sale/7928264117.html"
+}

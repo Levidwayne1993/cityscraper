@@ -1,0 +1,9 @@
+{
+	"id": "yLsUzC0VIFYx74j",
+	"json": "{\"id\":\"yLsUzC0VIFYx74j\",\"url\":\"https://seks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://seks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519873,
+	"retryCount": 0,
+	"uniqueKey": "https://seks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://seks.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

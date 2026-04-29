@@ -1,0 +1,9 @@
+{
+	"id": "AsWkXL990n3KRLe",
+	"json": "{\"id\":\"AsWkXL990n3KRLe\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-the-estate-sale/7924644723.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-the-estate-sale/7924644723.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-the-estate-sale/7924644723.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:04:22.996Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-the-estate-sale/7924644723.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-the-estate-sale/7924644723.html"
+}

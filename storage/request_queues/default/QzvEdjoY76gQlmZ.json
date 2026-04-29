@@ -1,0 +1,9 @@
+{
+	"id": "QzvEdjoY76gQlmZ",
+	"json": "{\"id\":\"QzvEdjoY76gQlmZ\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/lawndale-huge-yard-sale-everything-must/7928542735.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/lawndale-huge-yard-sale-everything-must/7928542735.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/lawndale-huge-yard-sale-everything-must/7928542735.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:31:25.872Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/lawndale-huge-yard-sale-everything-must/7928542735.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/lawndale-huge-yard-sale-everything-must/7928542735.html"
+}

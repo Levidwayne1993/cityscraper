@@ -1,9 +1,0 @@
-{
-	"id": "9Jx1G4WtN2H7zjK",
-	"json": "{\"id\":\"9Jx1G4WtN2H7zjK\",\"url\":\"https://gsalr.com/garage-sales-in/colorado/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/colorado\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"colorado\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334348,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/colorado",
-	"url": "https://gsalr.com/garage-sales-in/colorado/"
-}

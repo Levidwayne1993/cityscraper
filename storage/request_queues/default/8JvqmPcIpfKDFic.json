@@ -1,0 +1,9 @@
+{
+	"id": "8JvqmPcIpfKDFic",
+	"json": "{\"id\":\"8JvqmPcIpfKDFic\",\"url\":\"https://newlondon.craigslist.org/gms/d/columbia-st-columba-church-annual-tag/7929755355.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/columbia-st-columba-church-annual-tag/7929755355.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/columbia-st-columba-church-annual-tag/7929755355.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:59.111Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/columbia-st-columba-church-annual-tag/7929755355.html",
+	"url": "https://newlondon.craigslist.org/gms/d/columbia-st-columba-church-annual-tag/7929755355.html"
+}

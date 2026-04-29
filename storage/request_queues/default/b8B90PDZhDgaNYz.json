@@ -1,0 +1,9 @@
+{
+	"id": "b8B90PDZhDgaNYz",
+	"json": "{\"id\":\"b8B90PDZhDgaNYz\",\"url\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-sat-25th-3pm/7928461381.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-sat-25th-3pm/7928461381.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-sat-25th-3pm/7928461381.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:17:18.745Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-sat-25th-3pm/7928461381.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-sat-25th-3pm/7928461381.html"
+}

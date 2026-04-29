@@ -1,0 +1,9 @@
+{
+	"id": "p2Ygks2YZ1AUmMU",
+	"json": "{\"id\":\"p2Ygks2YZ1AUmMU\",\"url\":\"https://hanford.craigslist.org/gms/d/hanford-garage-sale/7922552491.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/hanford-garage-sale/7922552491.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/hanford-garage-sale/7922552491.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:54:40.869Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/hanford-garage-sale/7922552491.html",
+	"url": "https://hanford.craigslist.org/gms/d/hanford-garage-sale/7922552491.html"
+}

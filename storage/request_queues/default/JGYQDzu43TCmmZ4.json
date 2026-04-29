@@ -1,0 +1,9 @@
+{
+	"id": "JGYQDzu43TCmmZ4",
+	"json": "{\"id\":\"JGYQDzu43TCmmZ4\",\"url\":\"https://newhaven.craigslist.org/gms/d/west-haven-sunday-estate-sale-indoor/7924242110.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/west-haven-sunday-estate-sale-indoor/7924242110.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/west-haven-sunday-estate-sale-indoor/7924242110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:06.696Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/west-haven-sunday-estate-sale-indoor/7924242110.html",
+	"url": "https://newhaven.craigslist.org/gms/d/west-haven-sunday-estate-sale-indoor/7924242110.html"
+}

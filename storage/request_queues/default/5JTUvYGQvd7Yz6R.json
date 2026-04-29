@@ -1,0 +1,9 @@
+{
+	"id": "5JTUvYGQvd7Yz6R",
+	"json": "{\"id\":\"5JTUvYGQvd7Yz6R\",\"url\":\"https://dubuque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://dubuque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518511,
+	"retryCount": 0,
+	"uniqueKey": "https://dubuque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://dubuque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

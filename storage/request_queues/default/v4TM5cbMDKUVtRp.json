@@ -1,0 +1,9 @@
+{
+	"id": "v4TM5cbMDKUVtRp",
+	"json": "{\"id\":\"v4TM5cbMDKUVtRp\",\"url\":\"https://phoenix.craigslist.org/wvl/hsh/d/surprise-moving-sale-furniture-and-more/7929713191.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/hsh/d/surprise-moving-sale-furniture-and-more/7929713191.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/hsh/d/surprise-moving-sale-furniture-and-more/7929713191.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:23.491Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/hsh/d/surprise-moving-sale-furniture-and-more/7929713191.html",
+	"url": "https://phoenix.craigslist.org/wvl/hsh/d/surprise-moving-sale-furniture-and-more/7929713191.html"
+}

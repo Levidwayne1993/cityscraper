@@ -1,0 +1,9 @@
+{
+	"id": "G8wolQJ7417e8jS",
+	"json": "{\"id\":\"G8wolQJ7417e8jS\",\"url\":\"https://macon.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://macon.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517543,
+	"retryCount": 0,
+	"uniqueKey": "https://macon.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://macon.craigslist.org/search/ccc?query=yard+sale"
+}

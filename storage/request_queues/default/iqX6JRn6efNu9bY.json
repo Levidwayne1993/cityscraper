@@ -1,0 +1,9 @@
+{
+	"id": "iqX6JRn6efNu9bY",
+	"json": "{\"id\":\"iqX6JRn6efNu9bY\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Yonkers-NY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Yonkers-NY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NY\",\"yssSlug\":\"Yonkers-NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186532494,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Yonkers-NY.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Yonkers-NY.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "O6Za3JEDeuJgBGl",
+	"json": "{\"id\":\"O6Za3JEDeuJgBGl\",\"url\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-sale-april-11/7926954623.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-sale-april-11/7926954623.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-sale-april-11/7926954623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:23.799Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/coral-springs-garage-sale-april-11/7926954623.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/coral-springs-garage-sale-april-11/7926954623.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YKvxHxxrfFtiiLw",
+	"json": "{\"id\":\"YKvxHxxrfFtiiLw\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-multi-family-garage-sale/7927151933.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-multi-family-garage-sale/7927151933.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-multi-family-garage-sale/7927151933.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:06.689Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-multi-family-garage-sale/7927151933.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-multi-family-garage-sale/7927151933.html"
+}

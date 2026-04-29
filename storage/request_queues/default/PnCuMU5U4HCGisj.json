@@ -1,0 +1,9 @@
+{
+	"id": "PnCuMU5U4HCGisj",
+	"json": "{\"id\":\"PnCuMU5U4HCGisj\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-massive-estate/7913585522.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-massive-estate/7913585522.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-massive-estate/7913585522.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:30:01.252Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-springs-massive-estate/7913585522.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-springs-massive-estate/7913585522.html"
+}

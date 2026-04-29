@@ -1,0 +1,9 @@
+{
+	"id": "7oYClJVqeGjqRCS",
+	"json": "{\"id\":\"7oYClJVqeGjqRCS\",\"url\":\"https://lehighvalley.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://lehighvalley.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525513,
+	"retryCount": 0,
+	"uniqueKey": "https://lehighvalley.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://lehighvalley.craigslist.org/search/ccc?query=garage+sale"
+}

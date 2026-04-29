@@ -1,0 +1,9 @@
+{
+	"id": "nYxwktqOdIe0cKn",
+	"json": "{\"id\":\"nYxwktqOdIe0cKn\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Oakland-CA.html?page=3\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Oakland-CA.html?page=3\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"Oakland-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530499,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Oakland-CA.html?page=3",
+	"url": "https://www.yardsalesearch.com/yard-sales/Oakland-CA.html?page=3"
+}

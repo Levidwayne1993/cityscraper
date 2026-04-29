@@ -1,0 +1,9 @@
+{
+	"id": "mOT3MXgzGYiPbTR",
+	"json": "{\"id\":\"mOT3MXgzGYiPbTR\",\"url\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-sat-estate-sale-mid-cent-mod/7928498588.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-sat-estate-sale-mid-cent-mod/7928498588.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-sat-estate-sale-mid-cent-mod/7928498588.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:04.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/fuo/d/boca-raton-sat-estate-sale-mid-cent-mod/7928498588.html",
+	"url": "https://miami.craigslist.org/pbc/fuo/d/boca-raton-sat-estate-sale-mid-cent-mod/7928498588.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nJT6FErlNezRPTI",
+	"json": "{\"id\":\"nJT6FErlNezRPTI\",\"url\":\"https://denver.craigslist.org/gms/d/dupont-massive-yard-sale-moving/7927678308.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/dupont-massive-yard-sale-moving/7927678308.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/dupont-massive-yard-sale-moving/7927678308.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:24.512Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/dupont-massive-yard-sale-moving/7927678308.html",
+	"url": "https://denver.craigslist.org/gms/d/dupont-massive-yard-sale-moving/7927678308.html"
+}

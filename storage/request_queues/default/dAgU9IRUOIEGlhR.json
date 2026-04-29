@@ -1,0 +1,9 @@
+{
+	"id": "dAgU9IRUOIEGlhR",
+	"json": "{\"id\":\"dAgU9IRUOIEGlhR\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-yard-sale-imperial-beach/7930047930.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-yard-sale-imperial-beach/7930047930.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-yard-sale-imperial-beach/7930047930.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:02:35.822Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-yard-sale-imperial-beach/7930047930.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-yard-sale-imperial-beach/7930047930.html"
+}

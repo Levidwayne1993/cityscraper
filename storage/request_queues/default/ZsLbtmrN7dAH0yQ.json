@@ -1,0 +1,9 @@
+{
+	"id": "ZsLbtmrN7dAH0yQ",
+	"json": "{\"id\":\"ZsLbtmrN7dAH0yQ\",\"url\":\"https://orlando.craigslist.org/gms/d/apopka-huge-estate-sale-moving-sale/7927246269.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/apopka-huge-estate-sale-moving-sale/7927246269.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/apopka-huge-estate-sale-moving-sale/7927246269.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:30:56.799Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/apopka-huge-estate-sale-moving-sale/7927246269.html",
+	"url": "https://orlando.craigslist.org/gms/d/apopka-huge-estate-sale-moving-sale/7927246269.html"
+}

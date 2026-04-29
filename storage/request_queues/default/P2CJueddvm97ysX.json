@@ -1,0 +1,9 @@
+{
+	"id": "P2CJueddvm97ysX",
+	"json": "{\"id\":\"P2CJueddvm97ysX\",\"url\":\"https://sacramento.craigslist.org/gms/d/yolo-moving-sale/7930030421.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/yolo-moving-sale/7930030421.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/yolo-moving-sale/7930030421.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:06.555Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/yolo-moving-sale/7930030421.html",
+	"url": "https://sacramento.craigslist.org/gms/d/yolo-moving-sale/7930030421.html"
+}

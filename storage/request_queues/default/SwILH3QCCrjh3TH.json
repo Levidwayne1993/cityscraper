@@ -1,0 +1,9 @@
+{
+	"id": "SwILH3QCCrjh3TH",
+	"json": "{\"id\":\"SwILH3QCCrjh3TH\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-palm-desert-country-club/7921119426.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-palm-desert-country-club/7921119426.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-palm-desert-country-club/7921119426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:28:51.513Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-desert-palm-desert-country-club/7921119426.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-desert-palm-desert-country-club/7921119426.html"
+}

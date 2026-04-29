@@ -1,0 +1,9 @@
+{
+	"id": "ewASfO47htD1K2q",
+	"json": "{\"id\":\"ewASfO47htD1K2q\",\"url\":\"https://orangecounty.craigslist.org/gms/d/orange-saturday-25-moving-sale/7930023515.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/orange-saturday-25-moving-sale/7930023515.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/orange-saturday-25-moving-sale/7930023515.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:14:55.595Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/orange-saturday-25-moving-sale/7930023515.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/orange-saturday-25-moving-sale/7930023515.html"
+}

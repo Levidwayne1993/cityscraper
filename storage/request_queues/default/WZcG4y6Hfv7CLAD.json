@@ -1,9 +1,9 @@
 {
 	"id": "WZcG4y6Hfv7CLAD",
-	"json": "{\"id\":\"WZcG4y6Hfv7CLAD\",\"url\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"WZcG4y6Hfv7CLAD\",\"url\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: request timed out after 90 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\citys\\\\Documents\\\\cityscraper\\\\node_modules\\\\@apify\\\\src\\\\index.ts:87:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:39.850Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323116,
-	"retryCount": 0,
+	"orderNo": null,
+	"retryCount": 1,
 	"uniqueKey": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale"
 }

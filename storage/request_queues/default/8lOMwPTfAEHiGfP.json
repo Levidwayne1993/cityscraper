@@ -1,0 +1,9 @@
+{
+	"id": "8lOMwPTfAEHiGfP",
+	"json": "{\"id\":\"8lOMwPTfAEHiGfP\",\"url\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-on-site-liquidation-sale/7928262334.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-on-site-liquidation-sale/7928262334.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-on-site-liquidation-sale/7928262334.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:28.579Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/flagstaff-on-site-liquidation-sale/7928262334.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/flagstaff-on-site-liquidation-sale/7928262334.html"
+}

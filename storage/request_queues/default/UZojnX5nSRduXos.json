@@ -1,0 +1,9 @@
+{
+	"id": "UZojnX5nSRduXos",
+	"json": "{\"id\":\"UZojnX5nSRduXos\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-awesome-yard-sale-today-now/7928443884.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-awesome-yard-sale-today-now/7928443884.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-awesome-yard-sale-today-now/7928443884.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:28.556Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/oakland-awesome-yard-sale-today-now/7928443884.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/oakland-awesome-yard-sale-today-now/7928443884.html"
+}

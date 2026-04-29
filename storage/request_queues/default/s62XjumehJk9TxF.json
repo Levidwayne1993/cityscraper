@@ -1,0 +1,9 @@
+{
+	"id": "s62XjumehJk9TxF",
+	"json": "{\"id\":\"s62XjumehJk9TxF\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale/7930069577.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale/7930069577.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale/7930069577.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:06.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-garage-sale/7930069577.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-garage-sale/7930069577.html"
+}

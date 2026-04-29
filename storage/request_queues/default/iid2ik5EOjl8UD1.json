@@ -1,0 +1,9 @@
+{
+	"id": "iid2ik5EOjl8UD1",
+	"json": "{\"id\":\"iid2ik5EOjl8UD1\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-westside-yard-sale-clothing/7925448980.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-westside-yard-sale-clothing/7925448980.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-westside-yard-sale-clothing/7925448980.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:23:53.368Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-westside-yard-sale-clothing/7925448980.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-westside-yard-sale-clothing/7925448980.html"
+}

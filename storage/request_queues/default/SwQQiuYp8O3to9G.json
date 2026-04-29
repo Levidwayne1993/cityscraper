@@ -1,0 +1,9 @@
+{
+	"id": "SwQQiuYp8O3to9G",
+	"json": "{\"id\":\"SwQQiuYp8O3to9G\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-8am-3pm/7930015411.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-8am-3pm/7930015411.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-8am-3pm/7930015411.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:06:57.593Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-8am-3pm/7930015411.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-8am-3pm/7930015411.html"
+}

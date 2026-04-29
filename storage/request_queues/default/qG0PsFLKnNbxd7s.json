@@ -1,0 +1,9 @@
+{
+	"id": "qG0PsFLKnNbxd7s",
+	"json": "{\"id\":\"qG0PsFLKnNbxd7s\",\"url\":\"https://dothan.craigslist.org/gms/d/hartford-huge-yard-sale4-187-am/7928328333.html\",\"loadedUrl\":\"https://dothan.craigslist.org/gms/d/hartford-huge-yard-sale4-187-am/7928328333.html\",\"uniqueKey\":\"https://dothan.craigslist.org/gms/d/hartford-huge-yard-sale4-187-am/7928328333.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:58:28.428Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://dothan.craigslist.org/gms/d/hartford-huge-yard-sale4-187-am/7928328333.html",
+	"url": "https://dothan.craigslist.org/gms/d/hartford-huge-yard-sale4-187-am/7928328333.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SLnKxZEjxWRVgJb",
+	"json": "{\"id\":\"SLnKxZEjxWRVgJb\",\"url\":\"https://denver.craigslist.org/for/d/arvada-moving-sale-ladies-belts-from/7929627729.html\",\"loadedUrl\":\"https://denver.craigslist.org/for/d/arvada-moving-sale-ladies-belts-from/7929627729.html\",\"uniqueKey\":\"https://denver.craigslist.org/for/d/arvada-moving-sale-ladies-belts-from/7929627729.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:40:49.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/for/d/arvada-moving-sale-ladies-belts-from/7929627729.html",
+	"url": "https://denver.craigslist.org/for/d/arvada-moving-sale-ladies-belts-from/7929627729.html"
+}

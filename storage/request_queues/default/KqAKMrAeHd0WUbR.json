@@ -1,9 +1,0 @@
-{
-	"id": "KqAKMrAeHd0WUbR",
-	"json": "{\"id\":\"KqAKMrAeHd0WUbR\",\"url\":\"https://www.garagesalefinder.com/sale/Arizona\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Arizona\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Arizona\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330176,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Arizona",
-	"url": "https://www.garagesalefinder.com/sale/Arizona"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "BumNtrBm6kfv1cy",
+	"json": "{\"id\":\"BumNtrBm6kfv1cy\",\"url\":\"https://butte.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://butte.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522558,
+	"retryCount": 0,
+	"uniqueKey": "https://butte.craigslist.org/search/gms?s=360",
+	"url": "https://butte.craigslist.org/search/gms?s=360"
+}

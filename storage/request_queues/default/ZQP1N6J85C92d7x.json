@@ -1,8 +1,8 @@
 {
 	"id": "ZQP1N6J85C92d7x",
-	"json": "{\"id\":\"ZQP1N6J85C92d7x\",\"url\":\"https://sierravista.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://sierravista.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"ZQP1N6J85C92d7x\",\"url\":\"https://sierravista.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://sierravista.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://sierravista.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:23.186Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323027,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sierravista.craigslist.org/search/gms?s=120",
 	"url": "https://sierravista.craigslist.org/search/gms?s=120"

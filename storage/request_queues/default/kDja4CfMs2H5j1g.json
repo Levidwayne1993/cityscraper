@@ -1,0 +1,9 @@
+{
+	"id": "kDja4CfMs2H5j1g",
+	"json": "{\"id\":\"kDja4CfMs2H5j1g\",\"url\":\"https://albanyga.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://albanyga.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517392,
+	"retryCount": 0,
+	"uniqueKey": "https://albanyga.craigslist.org/search/gms?s=360",
+	"url": "https://albanyga.craigslist.org/search/gms?s=360"
+}

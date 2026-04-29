@@ -1,0 +1,9 @@
+{
+	"id": "8m8xrgxQIqS7qMP",
+	"json": "{\"id\":\"8m8xrgxQIqS7qMP\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-north-park-christian-church/7921150600.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-north-park-christian-church/7921150600.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-north-park-christian-church/7921150600.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:02:00.743Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-north-park-christian-church/7921150600.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-north-park-christian-church/7921150600.html"
+}

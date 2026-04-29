@@ -1,0 +1,9 @@
+{
+	"id": "tk6QdQCxA0vKgYX",
+	"json": "{\"id\":\"tk6QdQCxA0vKgYX\",\"url\":\"https://ocala.craigslist.org/gms/d/homosassa-springs-massive-estate-sale/7928022268.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/homosassa-springs-massive-estate-sale/7928022268.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/homosassa-springs-massive-estate-sale/7928022268.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:59:41.836Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/homosassa-springs-massive-estate-sale/7928022268.html",
+	"url": "https://ocala.craigslist.org/gms/d/homosassa-springs-massive-estate-sale/7928022268.html"
+}

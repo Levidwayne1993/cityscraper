@@ -1,0 +1,9 @@
+{
+	"id": "m8IaB1twHpR2Z8s",
+	"json": "{\"id\":\"m8IaB1twHpR2Z8s\",\"url\":\"https://orlando.craigslist.org/fuo/d/orlando-estate-sale-all-furniture-for/7923653679.html\",\"loadedUrl\":\"https://orlando.craigslist.org/fuo/d/orlando-estate-sale-all-furniture-for/7923653679.html\",\"uniqueKey\":\"https://orlando.craigslist.org/fuo/d/orlando-estate-sale-all-furniture-for/7923653679.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:29:57.318Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/fuo/d/orlando-estate-sale-all-furniture-for/7923653679.html",
+	"url": "https://orlando.craigslist.org/fuo/d/orlando-estate-sale-all-furniture-for/7923653679.html"
+}

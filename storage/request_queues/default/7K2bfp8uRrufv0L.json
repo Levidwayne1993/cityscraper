@@ -1,0 +1,9 @@
+{
+	"id": "7K2bfp8uRrufv0L",
+	"json": "{\"id\":\"7K2bfp8uRrufv0L\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-413-fulton-way-yard-sale/7922587295.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-413-fulton-way-yard-sale/7922587295.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-413-fulton-way-yard-sale/7922587295.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:02:54.804Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-413-fulton-way-yard-sale/7922587295.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-413-fulton-way-yard-sale/7922587295.html"
+}

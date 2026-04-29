@@ -1,0 +1,9 @@
+{
+	"id": "zyg0fh642aegHzu",
+	"json": "{\"id\":\"zyg0fh642aegHzu\",\"url\":\"https://lakeland.craigslist.org/gms/d/winter-haven-collectibles-antique-sale/7921691250.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/winter-haven-collectibles-antique-sale/7921691250.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/winter-haven-collectibles-antique-sale/7921691250.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:47:44.810Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/winter-haven-collectibles-antique-sale/7921691250.html",
+	"url": "https://lakeland.craigslist.org/gms/d/winter-haven-collectibles-antique-sale/7921691250.html"
+}

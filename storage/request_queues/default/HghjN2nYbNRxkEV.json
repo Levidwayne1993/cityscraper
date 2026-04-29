@@ -1,0 +1,9 @@
+{
+	"id": "HghjN2nYbNRxkEV",
+	"json": "{\"id\":\"HghjN2nYbNRxkEV\",\"url\":\"https://annapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://annapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520252,
+	"retryCount": 0,
+	"uniqueKey": "https://annapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://annapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wqP0G7owCRwstHx",
+	"json": "{\"id\":\"wqP0G7owCRwstHx\",\"url\":\"https://mohave.craigslist.org/gms/d/chloride-yard-sale/7922324852.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/chloride-yard-sale/7922324852.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/chloride-yard-sale/7922324852.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:42.998Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/chloride-yard-sale/7922324852.html",
+	"url": "https://mohave.craigslist.org/gms/d/chloride-yard-sale/7922324852.html"
+}

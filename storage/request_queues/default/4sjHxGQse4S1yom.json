@@ -1,0 +1,9 @@
+{
+	"id": "4sjHxGQse4S1yom",
+	"json": "{\"id\":\"4sjHxGQse4S1yom\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-west-side/7929833463.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-west-side/7929833463.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-west-side/7929833463.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:15.241Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-west-side/7929833463.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-west-side/7929833463.html"
+}

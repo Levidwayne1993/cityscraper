@@ -1,0 +1,9 @@
+{
+	"id": "qT62Hqu8OoTBFaF",
+	"json": "{\"id\":\"qT62Hqu8OoTBFaF\",\"url\":\"https://monterey.craigslist.org/gms/d/castroville-big-garage-sale/7923925258.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/castroville-big-garage-sale/7923925258.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/castroville-big-garage-sale/7923925258.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:05:12.981Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/castroville-big-garage-sale/7923925258.html",
+	"url": "https://monterey.craigslist.org/gms/d/castroville-big-garage-sale/7923925258.html"
+}

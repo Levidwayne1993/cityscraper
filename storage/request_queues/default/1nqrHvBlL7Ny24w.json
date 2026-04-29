@@ -1,0 +1,9 @@
+{
+	"id": "1nqrHvBlL7Ny24w",
+	"json": "{\"id\":\"1nqrHvBlL7Ny24w\",\"url\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-for-men-no-ladies/7921920511.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-for-men-no-ladies/7921920511.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-for-men-no-ladies/7921920511.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:05:02.090Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-for-men-no-ladies/7921920511.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-for-men-no-ladies/7921920511.html"
+}

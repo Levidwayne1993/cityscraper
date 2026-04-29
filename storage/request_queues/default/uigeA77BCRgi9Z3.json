@@ -1,0 +1,9 @@
+{
+	"id": "uigeA77BCRgi9Z3",
+	"json": "{\"id\":\"uigeA77BCRgi9Z3\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-moving-sale/7929540127.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-moving-sale/7929540127.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-moving-sale/7929540127.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:18:23.551Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/san-anselmo-moving-sale/7929540127.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/san-anselmo-moving-sale/7929540127.html"
+}

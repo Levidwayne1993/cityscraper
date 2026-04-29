@@ -1,0 +1,9 @@
+{
+	"id": "vgELU7H8g1VUHPh",
+	"json": "{\"id\":\"vgELU7H8g1VUHPh\",\"url\":\"https://phoenix.craigslist.org/nph/com/d/glendale-saturday-community-huge-yard/7930010080.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/com/d/glendale-saturday-community-huge-yard/7930010080.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/com/d/glendale-saturday-community-huge-yard/7930010080.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:35.205Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/com/d/glendale-saturday-community-huge-yard/7930010080.html",
+	"url": "https://phoenix.craigslist.org/nph/com/d/glendale-saturday-community-huge-yard/7930010080.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VPu3U8Plf6ZoMkm",
+	"json": "{\"id\":\"VPu3U8Plf6ZoMkm\",\"url\":\"https://swks.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://swks.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519882,
+	"retryCount": 0,
+	"uniqueKey": "https://swks.craigslist.org/search/gms?s=360",
+	"url": "https://swks.craigslist.org/search/gms?s=360"
+}

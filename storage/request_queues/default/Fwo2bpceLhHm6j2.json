@@ -1,0 +1,9 @@
+{
+	"id": "Fwo2bpceLhHm6j2",
+	"json": "{\"id\":\"Fwo2bpceLhHm6j2\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale-palmetto/7926132873.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale-palmetto/7926132873.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale-palmetto/7926132873.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:17.300Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale-palmetto/7926132873.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale-palmetto/7926132873.html"
+}

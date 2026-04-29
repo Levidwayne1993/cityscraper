@@ -1,0 +1,9 @@
+{
+	"id": "jTgEgJIJrkxPzgZ",
+	"json": "{\"id\":\"jTgEgJIJrkxPzgZ\",\"url\":\"https://slo.craigslist.org/tls/d/paso-robles-moving-sale-tools/7924518123.html\",\"loadedUrl\":\"https://slo.craigslist.org/tls/d/paso-robles-moving-sale-tools/7924518123.html\",\"uniqueKey\":\"https://slo.craigslist.org/tls/d/paso-robles-moving-sale-tools/7924518123.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:18.962Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/tls/d/paso-robles-moving-sale-tools/7924518123.html",
+	"url": "https://slo.craigslist.org/tls/d/paso-robles-moving-sale-tools/7924518123.html"
+}

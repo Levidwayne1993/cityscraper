@@ -1,0 +1,9 @@
+{
+	"id": "ZHOxbWdOXA8FCg0",
+	"json": "{\"id\":\"ZHOxbWdOXA8FCg0\",\"url\":\"https://newhaven.craigslist.org/fuo/d/new-haven-moving-saleround-dinning/7922848115.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/fuo/d/new-haven-moving-saleround-dinning/7922848115.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/fuo/d/new-haven-moving-saleround-dinning/7922848115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:22.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/fuo/d/new-haven-moving-saleround-dinning/7922848115.html",
+	"url": "https://newhaven.craigslist.org/fuo/d/new-haven-moving-saleround-dinning/7922848115.html"
+}

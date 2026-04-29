@@ -1,0 +1,9 @@
+{
+	"id": "LXo5zWX9ehb488M",
+	"json": "{\"id\":\"LXo5zWX9ehb488M\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/IA/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/IA?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530024,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/IA?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/IA/?page=4"
+}

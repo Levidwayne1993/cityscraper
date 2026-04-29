@@ -1,0 +1,9 @@
+{
+	"id": "c74zWw4W3L6jWfc",
+	"json": "{\"id\":\"c74zWw4W3L6jWfc\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-gulf-gate-east-community-sale/7923960178.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-gulf-gate-east-community-sale/7923960178.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-gulf-gate-east-community-sale/7923960178.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:49:10.594Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-gulf-gate-east-community-sale/7923960178.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-gulf-gate-east-community-sale/7923960178.html"
+}

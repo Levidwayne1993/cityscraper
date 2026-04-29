@@ -1,0 +1,9 @@
+{
+	"id": "9jon33l9Yr3RGbw",
+	"json": "{\"id\":\"9jon33l9Yr3RGbw\",\"url\":\"https://santamaria.craigslist.org/gms/d/lompoc-massive-yard-sale/7925524264.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/lompoc-massive-yard-sale/7925524264.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/lompoc-massive-yard-sale/7925524264.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:57:14.075Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/lompoc-massive-yard-sale/7925524264.html",
+	"url": "https://santamaria.craigslist.org/gms/d/lompoc-massive-yard-sale/7925524264.html"
+}

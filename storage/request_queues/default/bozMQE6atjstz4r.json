@@ -1,0 +1,9 @@
+{
+	"id": "bozMQE6atjstz4r",
+	"json": "{\"id\":\"bozMQE6atjstz4r\",\"url\":\"https://fortcollins.craigslist.org/gms/d/loveland-big-yard-sale-in-loveland/7926986594.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/loveland-big-yard-sale-in-loveland/7926986594.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/loveland-big-yard-sale-in-loveland/7926986594.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:40.488Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/loveland-big-yard-sale-in-loveland/7926986594.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/loveland-big-yard-sale-in-loveland/7926986594.html"
+}

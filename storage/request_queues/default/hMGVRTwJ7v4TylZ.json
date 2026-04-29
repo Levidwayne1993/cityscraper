@@ -1,0 +1,9 @@
+{
+	"id": "hMGVRTwJ7v4TylZ",
+	"json": "{\"id\":\"hMGVRTwJ7v4TylZ\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-huge-garage-sale-some/7930011667.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-huge-garage-sale-some/7930011667.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/granada-hills-huge-garage-sale-some/7930011667.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:22:53.919Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/granada-hills-huge-garage-sale-some/7930011667.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/granada-hills-huge-garage-sale-some/7930011667.html"
+}

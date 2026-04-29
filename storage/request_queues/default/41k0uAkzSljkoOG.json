@@ -1,0 +1,9 @@
+{
+	"id": "41k0uAkzSljkoOG",
+	"json": "{\"id\":\"41k0uAkzSljkoOG\",\"url\":\"https://denver.craigslist.org/com/d/wheat-ridge-four-family-yard-sale-april/7927331308.html\",\"loadedUrl\":\"https://denver.craigslist.org/com/d/wheat-ridge-four-family-yard-sale-april/7927331308.html\",\"uniqueKey\":\"https://denver.craigslist.org/com/d/wheat-ridge-four-family-yard-sale-april/7927331308.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:42.417Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/com/d/wheat-ridge-four-family-yard-sale-april/7927331308.html",
+	"url": "https://denver.craigslist.org/com/d/wheat-ridge-four-family-yard-sale-april/7927331308.html"
+}

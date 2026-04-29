@@ -1,0 +1,9 @@
+{
+	"id": "KSLxpHafgrxX4pW",
+	"json": "{\"id\":\"KSLxpHafgrxX4pW\",\"url\":\"https://delaware.craigslist.org/gms/d/newark-huge-spring-community-yard-sale/7928932769.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/newark-huge-spring-community-yard-sale/7928932769.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/newark-huge-spring-community-yard-sale/7928932769.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:17:38.518Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/newark-huge-spring-community-yard-sale/7928932769.html",
+	"url": "https://delaware.craigslist.org/gms/d/newark-huge-spring-community-yard-sale/7928932769.html"
+}

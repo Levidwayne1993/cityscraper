@@ -1,0 +1,9 @@
+{
+	"id": "wSCyEs3nK7kELKM",
+	"json": "{\"id\":\"wSCyEs3nK7kELKM\",\"url\":\"https://stockton.craigslist.org/gms/d/lockeford-yard-sale-en-acampo/7925304575.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lockeford-yard-sale-en-acampo/7925304575.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lockeford-yard-sale-en-acampo/7925304575.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:12.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lockeford-yard-sale-en-acampo/7925304575.html",
+	"url": "https://stockton.craigslist.org/gms/d/lockeford-yard-sale-en-acampo/7925304575.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "F0wobT7GVb9oYms",
-	"json": "{\"id\":\"F0wobT7GVb9oYms\",\"url\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"F0wobT7GVb9oYms\",\"url\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:02.456Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323423,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://westslope.craigslist.org/search/sss?query=yard+sale+garage+sale"

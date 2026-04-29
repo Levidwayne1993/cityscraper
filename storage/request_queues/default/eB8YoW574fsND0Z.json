@@ -1,0 +1,9 @@
+{
+	"id": "eB8YoW574fsND0Z",
+	"json": "{\"id\":\"eB8YoW574fsND0Z\",\"url\":\"https://indianapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://indianapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518292,
+	"retryCount": 0,
+	"uniqueKey": "https://indianapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://indianapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

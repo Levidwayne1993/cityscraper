@@ -1,0 +1,9 @@
+{
+	"id": "P1gQIenCNJSinUH",
+	"json": "{\"id\":\"P1gQIenCNJSinUH\",\"url\":\"https://denver.craigslist.org/com/d/aurora-garage-sale-alert/7927383449.html\",\"loadedUrl\":\"https://denver.craigslist.org/com/d/aurora-garage-sale-alert/7927383449.html\",\"uniqueKey\":\"https://denver.craigslist.org/com/d/aurora-garage-sale-alert/7927383449.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:46:00.463Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/com/d/aurora-garage-sale-alert/7927383449.html",
+	"url": "https://denver.craigslist.org/com/d/aurora-garage-sale-alert/7927383449.html"
+}

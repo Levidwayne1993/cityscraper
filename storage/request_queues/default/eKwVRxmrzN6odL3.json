@@ -1,0 +1,9 @@
+{
+	"id": "eKwVRxmrzN6odL3",
+	"json": "{\"id\":\"eKwVRxmrzN6odL3\",\"url\":\"https://santamaria.craigslist.org/gms/d/los-alamos-clearance-at-sunset-swap-meet/7922780653.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/los-alamos-clearance-at-sunset-swap-meet/7922780653.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/los-alamos-clearance-at-sunset-swap-meet/7922780653.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:11.766Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/los-alamos-clearance-at-sunset-swap-meet/7922780653.html",
+	"url": "https://santamaria.craigslist.org/gms/d/los-alamos-clearance-at-sunset-swap-meet/7922780653.html"
+}

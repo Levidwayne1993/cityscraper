@@ -1,0 +1,9 @@
+{
+	"id": "g8GFmu6oAhmWVZx",
+	"json": "{\"id\":\"g8GFmu6oAhmWVZx\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/santee-large-yard-sale-saturday-am-pm/7927906763.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/santee-large-yard-sale-saturday-am-pm/7927906763.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/santee-large-yard-sale-saturday-am-pm/7927906763.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:00:16.226Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/santee-large-yard-sale-saturday-am-pm/7927906763.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/santee-large-yard-sale-saturday-am-pm/7927906763.html"
+}

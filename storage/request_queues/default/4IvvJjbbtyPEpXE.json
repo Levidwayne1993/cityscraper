@@ -1,0 +1,9 @@
+{
+	"id": "4IvvJjbbtyPEpXE",
+	"json": "{\"id\":\"4IvvJjbbtyPEpXE\",\"url\":\"https://oneonta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://oneonta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523257,
+	"retryCount": 0,
+	"uniqueKey": "https://oneonta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://oneonta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

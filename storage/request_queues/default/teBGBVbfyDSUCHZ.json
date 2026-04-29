@@ -1,0 +1,9 @@
+{
+	"id": "teBGBVbfyDSUCHZ",
+	"json": "{\"id\":\"teBGBVbfyDSUCHZ\",\"url\":\"https://daytona.craigslist.org/gms/d/port-orange-yard-sale/7928291345.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/port-orange-yard-sale/7928291345.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/port-orange-yard-sale/7928291345.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:54:34.329Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/port-orange-yard-sale/7928291345.html",
+	"url": "https://daytona.craigslist.org/gms/d/port-orange-yard-sale/7928291345.html"
+}

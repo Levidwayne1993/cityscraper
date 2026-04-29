@@ -1,0 +1,9 @@
+{
+	"id": "Nd6aURQ9576r1p8",
+	"json": "{\"id\":\"Nd6aURQ9576r1p8\",\"url\":\"https://nashville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://nashville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526076,
+	"retryCount": 0,
+	"uniqueKey": "https://nashville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://nashville.craigslist.org/search/ccc?query=garage+sale"
+}

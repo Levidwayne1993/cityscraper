@@ -1,0 +1,9 @@
+{
+	"id": "GW6PGc5lkS6RmI9",
+	"json": "{\"id\":\"GW6PGc5lkS6RmI9\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-garage-sale-estate-vintage-sale/7929977883.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-garage-sale-estate-vintage-sale/7929977883.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-garage-sale-estate-vintage-sale/7929977883.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:17.649Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/aptos-garage-sale-estate-vintage-sale/7929977883.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/aptos-garage-sale-estate-vintage-sale/7929977883.html"
+}

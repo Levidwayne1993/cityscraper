@@ -1,0 +1,9 @@
+{
+	"id": "5oEWEmI2mAbM9hw",
+	"json": "{\"id\":\"5oEWEmI2mAbM9hw\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-sale-this/7929407785.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-sale-this/7929407785.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-sale-this/7929407785.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:03.247Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-sale-this/7929407785.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-sale-this/7929407785.html"
+}

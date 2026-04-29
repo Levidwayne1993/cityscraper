@@ -1,0 +1,9 @@
+{
+	"id": "WE8ue6b3K0B3IfE",
+	"json": "{\"id\":\"WE8ue6b3K0B3IfE\",\"url\":\"https://sandiego.craigslist.org/esd/fuo/d/el-cajon-garage-sale/7928624028.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/fuo/d/el-cajon-garage-sale/7928624028.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/fuo/d/el-cajon-garage-sale/7928624028.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:01:19.063Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/fuo/d/el-cajon-garage-sale/7928624028.html",
+	"url": "https://sandiego.craigslist.org/esd/fuo/d/el-cajon-garage-sale/7928624028.html"
+}

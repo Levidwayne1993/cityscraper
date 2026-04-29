@@ -1,9 +1,0 @@
-{
-	"id": "AZhI0jRhYckjar5",
-	"json": "{\"id\":\"AZhI0jRhYckjar5\",\"url\":\"https://www.estatesales.net/Michigan?page=5\",\"uniqueKey\":\"https://www.estatesales.net/Michigan?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Michigan\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330021,
-	"retryCount": 0,
-	"uniqueKey": "https://www.estatesales.net/Michigan?page=5",
-	"url": "https://www.estatesales.net/Michigan?page=5"
-}

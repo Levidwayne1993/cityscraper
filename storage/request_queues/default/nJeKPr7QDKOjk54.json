@@ -1,0 +1,9 @@
+{
+	"id": "nJeKPr7QDKOjk54",
+	"json": "{\"id\":\"nJeKPr7QDKOjk54\",\"url\":\"https://anchorage.craigslist.org/gms/d/anchorage-liquidation-sale-10-and-11/7926949056.html\",\"loadedUrl\":\"https://anchorage.craigslist.org/gms/d/anchorage-liquidation-sale-10-and-11/7926949056.html\",\"uniqueKey\":\"https://anchorage.craigslist.org/gms/d/anchorage-liquidation-sale-10-and-11/7926949056.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:31.986Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/gms/d/anchorage-liquidation-sale-10-and-11/7926949056.html",
+	"url": "https://anchorage.craigslist.org/gms/d/anchorage-liquidation-sale-10-and-11/7926949056.html"
+}

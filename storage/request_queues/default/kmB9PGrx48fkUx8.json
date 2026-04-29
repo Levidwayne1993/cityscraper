@@ -1,0 +1,9 @@
+{
+	"id": "kmB9PGrx48fkUx8",
+	"json": "{\"id\":\"kmB9PGrx48fkUx8\",\"url\":\"https://daytona.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://daytona.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://daytona.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:01:38.613Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://daytona.craigslist.org/search/ccc?query=garage+sale"
+}

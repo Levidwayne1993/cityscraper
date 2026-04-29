@@ -1,0 +1,9 @@
+{
+	"id": "KSlG9jHMpUYrwLw",
+	"json": "{\"id\":\"KSlG9jHMpUYrwLw\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-big-yard-sale-2920-fowler-rd/7929810295.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-big-yard-sale-2920-fowler-rd/7929810295.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-big-yard-sale-2920-fowler-rd/7929810295.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:56:43.709Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-big-yard-sale-2920-fowler-rd/7929810295.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-big-yard-sale-2920-fowler-rd/7929810295.html"
+}

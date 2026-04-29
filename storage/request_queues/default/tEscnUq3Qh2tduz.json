@@ -1,0 +1,9 @@
+{
+	"id": "tEscnUq3Qh2tduz",
+	"json": "{\"id\":\"tEscnUq3Qh2tduz\",\"url\":\"https://prescott.craigslist.org/gms/d/mayer-moving-sale/7928354293.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/mayer-moving-sale/7928354293.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/mayer-moving-sale/7928354293.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:19.037Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/mayer-moving-sale/7928354293.html",
+	"url": "https://prescott.craigslist.org/gms/d/mayer-moving-sale/7928354293.html"
+}

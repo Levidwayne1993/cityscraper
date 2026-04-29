@@ -1,0 +1,9 @@
+{
+	"id": "F2VDw3u2B9Fqscz",
+	"json": "{\"id\":\"F2VDw3u2B9Fqscz\",\"url\":\"https://chillicothe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://chillicothe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523733,
+	"retryCount": 0,
+	"uniqueKey": "https://chillicothe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://chillicothe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "xkMB3Beax65oKWV",
+	"json": "{\"id\":\"xkMB3Beax65oKWV\",\"url\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale/7921162602.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale/7921162602.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale/7921162602.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:11.059Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/tracy-garage-sale/7921162602.html",
+	"url": "https://stockton.craigslist.org/gms/d/tracy-garage-sale/7921162602.html"
+}

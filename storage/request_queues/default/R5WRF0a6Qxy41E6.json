@@ -1,0 +1,9 @@
+{
+	"id": "R5WRF0a6Qxy41E6",
+	"json": "{\"id\":\"R5WRF0a6Qxy41E6\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale/7929764758.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale/7929764758.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale/7929764758.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:09.748Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-yard-sale/7929764758.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-yard-sale/7929764758.html"
+}

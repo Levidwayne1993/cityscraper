@@ -1,0 +1,9 @@
+{
+	"id": "mIH7r7YBLt21NzQ",
+	"json": "{\"id\":\"mIH7r7YBLt21NzQ\",\"url\":\"https://quincy.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://quincy.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518226,
+	"retryCount": 0,
+	"uniqueKey": "https://quincy.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://quincy.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

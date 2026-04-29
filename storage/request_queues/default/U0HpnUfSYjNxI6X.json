@@ -1,0 +1,9 @@
+{
+	"id": "U0HpnUfSYjNxI6X",
+	"json": "{\"id\":\"U0HpnUfSYjNxI6X\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-saturday-april-18th/7927585987.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-saturday-april-18th/7927585987.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-saturday-april-18th/7927585987.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:58:39.483Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-saturday-april-18th/7927585987.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-saturday-april-18th/7927585987.html"
+}

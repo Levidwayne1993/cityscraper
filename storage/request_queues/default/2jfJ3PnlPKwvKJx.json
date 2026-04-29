@@ -1,0 +1,9 @@
+{
+	"id": "2jfJ3PnlPKwvKJx",
+	"json": "{\"id\":\"2jfJ3PnlPKwvKJx\",\"url\":\"https://pensacola.craigslist.org/com/d/pensacola-multi-family-yard-sale-this/7921913306.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/com/d/pensacola-multi-family-yard-sale-this/7921913306.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/com/d/pensacola-multi-family-yard-sale-this/7921913306.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:44:23.501Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/com/d/pensacola-multi-family-yard-sale-this/7921913306.html",
+	"url": "https://pensacola.craigslist.org/com/d/pensacola-multi-family-yard-sale-this/7921913306.html"
+}

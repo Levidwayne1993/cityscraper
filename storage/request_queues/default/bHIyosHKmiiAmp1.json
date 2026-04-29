@@ -1,0 +1,9 @@
+{
+	"id": "bHIyosHKmiiAmp1",
+	"json": "{\"id\":\"bHIyosHKmiiAmp1\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-estate-sale-moving-sale/7929660800.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-estate-sale-moving-sale/7929660800.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-estate-sale-moving-sale/7929660800.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:07.006Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-estate-sale-moving-sale/7929660800.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-estate-sale-moving-sale/7929660800.html"
+}

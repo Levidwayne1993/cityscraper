@@ -1,0 +1,9 @@
+{
+	"id": "JJUWOLfycPWNyQS",
+	"json": "{\"id\":\"JJUWOLfycPWNyQS\",\"url\":\"https://knoxville.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://knoxville.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526039,
+	"retryCount": 0,
+	"uniqueKey": "https://knoxville.craigslist.org/search/gms?s=480",
+	"url": "https://knoxville.craigslist.org/search/gms?s=480"
+}

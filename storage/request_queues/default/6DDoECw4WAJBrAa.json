@@ -1,0 +1,9 @@
+{
+	"id": "6DDoECw4WAJBrAa",
+	"json": "{\"id\":\"6DDoECw4WAJBrAa\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale-womens-fashion/7923965034.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale-womens-fashion/7923965034.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale-womens-fashion/7923965034.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:10:55.863Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-yard-sale-womens-fashion/7923965034.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-yard-sale-womens-fashion/7923965034.html"
+}

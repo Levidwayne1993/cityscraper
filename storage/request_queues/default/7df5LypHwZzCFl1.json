@@ -1,0 +1,9 @@
+{
+	"id": "7df5LypHwZzCFl1",
+	"json": "{\"id\":\"7df5LypHwZzCFl1\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/santee-garage-yard-sale-huge/7923948497.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/santee-garage-yard-sale-huge/7923948497.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/santee-garage-yard-sale-huge/7923948497.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:03:33.800Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/santee-garage-yard-sale-huge/7923948497.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/santee-garage-yard-sale-huge/7923948497.html"
+}

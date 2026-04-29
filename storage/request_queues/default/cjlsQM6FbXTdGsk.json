@@ -1,0 +1,9 @@
+{
+	"id": "cjlsQM6FbXTdGsk",
+	"json": "{\"id\":\"cjlsQM6FbXTdGsk\",\"url\":\"https://jacksonville.craigslist.org/hsh/d/jacksonville-small-business-for-sale/7909946365.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/hsh/d/jacksonville-small-business-for-sale/7909946365.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/hsh/d/jacksonville-small-business-for-sale/7909946365.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:40:10.523Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/hsh/d/jacksonville-small-business-for-sale/7909946365.html",
+	"url": "https://jacksonville.craigslist.org/hsh/d/jacksonville-small-business-for-sale/7909946365.html"
+}

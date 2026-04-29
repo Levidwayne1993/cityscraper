@@ -1,0 +1,9 @@
+{
+	"id": "sJKkkHRG3TuAAlo",
+	"json": "{\"id\":\"sJKkkHRG3TuAAlo\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-estate-sale-moving-out-of/7928250151.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-estate-sale-moving-out-of/7928250151.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-estate-sale-moving-out-of/7928250151.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:41.652Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-estate-sale-moving-out-of/7928250151.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-estate-sale-moving-out-of/7928250151.html"
+}

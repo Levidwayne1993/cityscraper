@@ -1,0 +1,9 @@
+{
+	"id": "5XNxvOVreoPOrqq",
+	"json": "{\"id\":\"5XNxvOVreoPOrqq\",\"url\":\"https://chico.craigslist.org/gms/d/corning-yard-sale-tool-sale/7921065365.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/corning-yard-sale-tool-sale/7921065365.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/corning-yard-sale-tool-sale/7921065365.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:28:37.668Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/corning-yard-sale-tool-sale/7921065365.html",
+	"url": "https://chico.craigslist.org/gms/d/corning-yard-sale-tool-sale/7921065365.html"
+}

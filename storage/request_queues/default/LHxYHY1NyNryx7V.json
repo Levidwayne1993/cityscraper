@@ -1,0 +1,9 @@
+{
+	"id": "LHxYHY1NyNryx7V",
+	"json": "{\"id\":\"LHxYHY1NyNryx7V\",\"url\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-ucc-of-westerly-annual-indoor/7929369911.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-ucc-of-westerly-annual-indoor/7929369911.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-ucc-of-westerly-annual-indoor/7929369911.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:44.851Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/pawcatuck-ucc-of-westerly-annual-indoor/7929369911.html",
+	"url": "https://newlondon.craigslist.org/gms/d/pawcatuck-ucc-of-westerly-annual-indoor/7929369911.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "56vkqdoqQm1JDMp",
+	"json": "{\"id\":\"56vkqdoqQm1JDMp\",\"url\":\"https://roanoke.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://roanoke.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527873,
+	"retryCount": 0,
+	"uniqueKey": "https://roanoke.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://roanoke.craigslist.org/search/ccc?query=garage+sale"
+}

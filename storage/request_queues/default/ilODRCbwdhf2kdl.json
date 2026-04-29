@@ -1,0 +1,9 @@
+{
+	"id": "ilODRCbwdhf2kdl",
+	"json": "{\"id\":\"ilODRCbwdhf2kdl\",\"url\":\"https://annapolis.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://annapolis.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520246,
+	"retryCount": 0,
+	"uniqueKey": "https://annapolis.craigslist.org/search/gms?s=480",
+	"url": "https://annapolis.craigslist.org/search/gms?s=480"
+}

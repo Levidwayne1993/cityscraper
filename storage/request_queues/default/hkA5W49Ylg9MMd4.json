@@ -1,0 +1,9 @@
+{
+	"id": "hkA5W49Ylg9MMd4",
+	"json": "{\"id\":\"hkA5W49Ylg9MMd4\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-huge-garage-sale/7930070087.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-huge-garage-sale/7930070087.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-huge-garage-sale/7930070087.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:01.176Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/gilroy-huge-garage-sale/7930070087.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/gilroy-huge-garage-sale/7930070087.html"
+}

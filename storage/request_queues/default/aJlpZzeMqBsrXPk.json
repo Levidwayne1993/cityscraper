@@ -1,0 +1,9 @@
+{
+	"id": "aJlpZzeMqBsrXPk",
+	"json": "{\"id\":\"aJlpZzeMqBsrXPk\",\"url\":\"https://slo.craigslist.org/vnn/d/san-luis-obispo-multi-garage-sale/7928284669.html\",\"loadedUrl\":\"https://slo.craigslist.org/vnn/d/san-luis-obispo-multi-garage-sale/7928284669.html\",\"uniqueKey\":\"https://slo.craigslist.org/vnn/d/san-luis-obispo-multi-garage-sale/7928284669.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:50:23.692Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/vnn/d/san-luis-obispo-multi-garage-sale/7928284669.html",
+	"url": "https://slo.craigslist.org/vnn/d/san-luis-obispo-multi-garage-sale/7928284669.html"
+}

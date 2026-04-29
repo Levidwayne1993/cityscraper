@@ -1,0 +1,9 @@
+{
+	"id": "RKnLQzxuTQpIjKq",
+	"json": "{\"id\":\"RKnLQzxuTQpIjKq\",\"url\":\"https://miami.craigslist.org/pbc/com/d/west-palm-beach-garage-sale-saturday-11/7927022287.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/com/d/west-palm-beach-garage-sale-saturday-11/7927022287.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/com/d/west-palm-beach-garage-sale-saturday-11/7927022287.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:07.238Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/com/d/west-palm-beach-garage-sale-saturday-11/7927022287.html",
+	"url": "https://miami.craigslist.org/pbc/com/d/west-palm-beach-garage-sale-saturday-11/7927022287.html"
+}

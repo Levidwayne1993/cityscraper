@@ -1,0 +1,9 @@
+{
+	"id": "xfepVfeo6q1j2Qx",
+	"json": "{\"id\":\"xfepVfeo6q1j2Qx\",\"url\":\"https://chillicothe.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://chillicothe.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523727,
+	"retryCount": 0,
+	"uniqueKey": "https://chillicothe.craigslist.org/search/gms?s=480",
+	"url": "https://chillicothe.craigslist.org/search/gms?s=480"
+}

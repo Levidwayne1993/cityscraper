@@ -1,0 +1,9 @@
+{
+	"id": "bs3R4gG7g3saE61",
+	"json": "{\"id\":\"bs3R4gG7g3saE61\",\"url\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-garage-moving-sale-this/7922336750.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-garage-moving-sale-this/7922336750.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-garage-moving-sale-this/7922336750.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:47:23.135Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/san-luis-obispo-garage-moving-sale-this/7922336750.html",
+	"url": "https://slo.craigslist.org/gms/d/san-luis-obispo-garage-moving-sale-this/7922336750.html"
+}

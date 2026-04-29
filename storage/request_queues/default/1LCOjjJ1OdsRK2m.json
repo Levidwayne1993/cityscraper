@@ -1,0 +1,9 @@
+{
+	"id": "1LCOjjJ1OdsRK2m",
+	"json": "{\"id\":\"1LCOjjJ1OdsRK2m\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sharpening-at-garage-sale/7899006722.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sharpening-at-garage-sale/7899006722.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sharpening-at-garage-sale/7899006722.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:28.680Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sharpening-at-garage-sale/7899006722.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sharpening-at-garage-sale/7899006722.html"
+}

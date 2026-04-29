@@ -1,0 +1,9 @@
+{
+	"id": "jgq6ek5OLhXitpZ",
+	"json": "{\"id\":\"jgq6ek5OLhXitpZ\",\"url\":\"https://fortwayne.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fortwayne.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518269,
+	"retryCount": 0,
+	"uniqueKey": "https://fortwayne.craigslist.org/search/gms?s=480",
+	"url": "https://fortwayne.craigslist.org/search/gms?s=480"
+}

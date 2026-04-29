@@ -1,9 +1,0 @@
-{
-	"id": "zUhBbFHkHx72XDm",
-	"json": "{\"id\":\"zUhBbFHkHx72XDm\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-San-Diego-CA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-San-Diego-CA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330524,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-San-Diego-CA.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-San-Diego-CA.html"
-}

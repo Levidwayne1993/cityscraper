@@ -1,0 +1,9 @@
+{
+	"id": "GCwNPY5OIXdoNgH",
+	"json": "{\"id\":\"GCwNPY5OIXdoNgH\",\"url\":\"https://inlandempire.craigslist.org/gms/d/riverside-community-yard-sale-some/7929862198.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/riverside-community-yard-sale-some/7929862198.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/riverside-community-yard-sale-some/7929862198.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:09:07.408Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/riverside-community-yard-sale-some/7929862198.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/riverside-community-yard-sale-some/7929862198.html"
+}

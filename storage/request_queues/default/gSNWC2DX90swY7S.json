@@ -1,0 +1,9 @@
+{
+	"id": "gSNWC2DX90swY7S",
+	"json": "{\"id\":\"gSNWC2DX90swY7S\",\"url\":\"https://twinfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://twinfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518036,
+	"retryCount": 0,
+	"uniqueKey": "https://twinfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://twinfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

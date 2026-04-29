@@ -1,0 +1,9 @@
+{
+	"id": "t7Ky72ANpMBUysA",
+	"json": "{\"id\":\"t7Ky72ANpMBUysA\",\"url\":\"https://denver.craigslist.org/fuo/d/englewood-moving-sale/7929046909.html\",\"loadedUrl\":\"https://denver.craigslist.org/fuo/d/englewood-moving-sale/7929046909.html\",\"uniqueKey\":\"https://denver.craigslist.org/fuo/d/englewood-moving-sale/7929046909.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:42:31.736Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/fuo/d/englewood-moving-sale/7929046909.html",
+	"url": "https://denver.craigslist.org/fuo/d/englewood-moving-sale/7929046909.html"
+}

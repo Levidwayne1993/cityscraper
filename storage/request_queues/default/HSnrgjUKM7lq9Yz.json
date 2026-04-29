@@ -1,0 +1,9 @@
+{
+	"id": "HSnrgjUKM7lq9Yz",
+	"json": "{\"id\":\"HSnrgjUKM7lq9Yz\",\"url\":\"https://chico.craigslist.org/gms/d/chico-large-yard-sale-sat-sun-at-900am/7928537649.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-large-yard-sale-sat-sun-at-900am/7928537649.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-large-yard-sale-sat-sun-at-900am/7928537649.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:27:59.662Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-large-yard-sale-sat-sun-at-900am/7928537649.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-large-yard-sale-sat-sun-at-900am/7928537649.html"
+}

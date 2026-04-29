@@ -1,0 +1,9 @@
+{
+	"id": "ETgTZiifE8lcKVg",
+	"json": "{\"id\":\"ETgTZiifE8lcKVg\",\"url\":\"https://chico.craigslist.org/gms/d/chico-huge-indoor-yard-sale-for-wags/7929318229.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-huge-indoor-yard-sale-for-wags/7929318229.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-huge-indoor-yard-sale-for-wags/7929318229.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:06.860Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-huge-indoor-yard-sale-for-wags/7929318229.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-huge-indoor-yard-sale-for-wags/7929318229.html"
+}

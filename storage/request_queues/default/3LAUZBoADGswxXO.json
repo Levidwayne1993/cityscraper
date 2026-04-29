@@ -1,0 +1,9 @@
+{
+	"id": "3LAUZBoADGswxXO",
+	"json": "{\"id\":\"3LAUZBoADGswxXO\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-knives-sharpened-by/7913650113.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-knives-sharpened-by/7913650113.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-knives-sharpened-by/7913650113.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:21.171Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-knives-sharpened-by/7913650113.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-knives-sharpened-by/7913650113.html"
+}

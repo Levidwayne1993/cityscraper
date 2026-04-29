@@ -1,0 +1,9 @@
+{
+	"id": "e5E2U8AL5CadxQk",
+	"json": "{\"id\":\"e5E2U8AL5CadxQk\",\"url\":\"https://hartford.craigslist.org/gms/d/southington-huge-tag-sale/7926636501.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/southington-huge-tag-sale/7926636501.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/southington-huge-tag-sale/7926636501.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:49.964Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/southington-huge-tag-sale/7926636501.html",
+	"url": "https://hartford.craigslist.org/gms/d/southington-huge-tag-sale/7926636501.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "053Cm2lTS1PE2n9",
+	"json": "{\"id\":\"053Cm2lTS1PE2n9\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-huge-yard-sale/7928455854.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-huge-yard-sale/7928455854.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-huge-yard-sale/7928455854.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:48:29.341Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-huge-yard-sale/7928455854.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-huge-yard-sale/7928455854.html"
+}

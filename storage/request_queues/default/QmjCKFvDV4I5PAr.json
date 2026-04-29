@@ -1,0 +1,9 @@
+{
+	"id": "QmjCKFvDV4I5PAr",
+	"json": "{\"id\":\"QmjCKFvDV4I5PAr\",\"url\":\"https://fortmyers.craigslist.org/col/fuo/d/naples-glass-coffee-table-moving-sale/7915013815.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/fuo/d/naples-glass-coffee-table-moving-sale/7915013815.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/fuo/d/naples-glass-coffee-table-moving-sale/7915013815.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:26:34.686Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/fuo/d/naples-glass-coffee-table-moving-sale/7915013815.html",
+	"url": "https://fortmyers.craigslist.org/col/fuo/d/naples-glass-coffee-table-moving-sale/7915013815.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ggJ9XQ6YsH0wfz7",
+	"json": "{\"id\":\"ggJ9XQ6YsH0wfz7\",\"url\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-community-garage-sale-at/7927008580.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-community-garage-sale-at/7927008580.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-community-garage-sale-at/7927008580.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:01.268Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/thousand-oaks-community-garage-sale-at/7927008580.html",
+	"url": "https://ventura.craigslist.org/gms/d/thousand-oaks-community-garage-sale-at/7927008580.html"
+}

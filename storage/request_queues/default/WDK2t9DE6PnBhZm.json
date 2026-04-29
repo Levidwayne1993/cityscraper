@@ -1,0 +1,9 @@
+{
+	"id": "WDK2t9DE6PnBhZm",
+	"json": "{\"id\":\"WDK2t9DE6PnBhZm\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-yard-sale/7922628931.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-yard-sale/7922628931.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-yard-sale/7922628931.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:37.376Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/el-mirage-yard-sale/7922628931.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/el-mirage-yard-sale/7922628931.html"
+}

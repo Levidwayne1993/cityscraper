@@ -1,0 +1,9 @@
+{
+	"id": "EKd71zee7srSwcs",
+	"json": "{\"id\":\"EKd71zee7srSwcs\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-today-sat-apr-25-garage-yard/7930081009.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-today-sat-apr-25-garage-yard/7930081009.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-today-sat-apr-25-garage-yard/7930081009.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:51.628Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-today-sat-apr-25-garage-yard/7930081009.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-today-sat-apr-25-garage-yard/7930081009.html"
+}

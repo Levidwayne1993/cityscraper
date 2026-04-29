@@ -1,0 +1,9 @@
+{
+	"id": "1ojgUzgOMtOd9F4",
+	"json": "{\"id\":\"1ojgUzgOMtOd9F4\",\"url\":\"https://inlandempire.craigslist.org/gms/d/riverside-yard-sale/7930073453.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/riverside-yard-sale/7930073453.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/riverside-yard-sale/7930073453.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:38.745Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/riverside-yard-sale/7930073453.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/riverside-yard-sale/7930073453.html"
+}

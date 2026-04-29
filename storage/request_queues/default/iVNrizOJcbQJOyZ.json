@@ -1,0 +1,9 @@
+{
+	"id": "iVNrizOJcbQJOyZ",
+	"json": "{\"id\":\"iVNrizOJcbQJOyZ\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-chandler-estate-sale-furniture/7926707241.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-chandler-estate-sale-furniture/7926707241.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-chandler-estate-sale-furniture/7926707241.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:56.014Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-chandler-estate-sale-furniture/7926707241.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-chandler-estate-sale-furniture/7926707241.html"
+}

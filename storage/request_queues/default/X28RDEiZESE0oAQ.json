@@ -1,9 +1,0 @@
-{
-	"id": "X28RDEiZESE0oAQ",
-	"json": "{\"id\":\"X28RDEiZESE0oAQ\",\"url\":\"https://www.garagesalefinder.com/sale/Washington?page=5\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Washington?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Washington\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330411,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Washington?page=5",
-	"url": "https://www.garagesalefinder.com/sale/Washington?page=5"
-}

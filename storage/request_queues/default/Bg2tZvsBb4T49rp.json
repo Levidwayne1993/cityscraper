@@ -1,0 +1,9 @@
+{
+	"id": "Bg2tZvsBb4T49rp",
+	"json": "{\"id\":\"Bg2tZvsBb4T49rp\",\"url\":\"https://ventura.craigslist.org/bik/d/oxnard-specialized-his-hers-bikes-only/7929277389.html\",\"loadedUrl\":\"https://ventura.craigslist.org/bik/d/oxnard-specialized-his-hers-bikes-only/7929277389.html\",\"uniqueKey\":\"https://ventura.craigslist.org/bik/d/oxnard-specialized-his-hers-bikes-only/7929277389.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:21.716Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/bik/d/oxnard-specialized-his-hers-bikes-only/7929277389.html",
+	"url": "https://ventura.craigslist.org/bik/d/oxnard-specialized-his-hers-bikes-only/7929277389.html"
+}

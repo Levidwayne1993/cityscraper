@@ -1,0 +1,9 @@
+{
+	"id": "Pijz8ZRXLbmw2W3",
+	"json": "{\"id\":\"Pijz8ZRXLbmw2W3\",\"url\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-yard-sale-friday-saturday-only/7923865063.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-yard-sale-friday-saturday-only/7923865063.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-yard-sale-friday-saturday-only/7923865063.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:24:16.129Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/yuba-city-yard-sale-friday-saturday-only/7923865063.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/yuba-city-yard-sale-friday-saturday-only/7923865063.html"
+}

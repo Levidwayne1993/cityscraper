@@ -1,0 +1,9 @@
+{
+	"id": "Da7ADy93kuFQQJr",
+	"json": "{\"id\":\"Da7ADy93kuFQQJr\",\"url\":\"https://chico.craigslist.org/gms/d/proberta-garage-sale/7926694056.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/proberta-garage-sale/7926694056.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/proberta-garage-sale/7926694056.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:52.314Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/proberta-garage-sale/7926694056.html",
+	"url": "https://chico.craigslist.org/gms/d/proberta-garage-sale/7926694056.html"
+}

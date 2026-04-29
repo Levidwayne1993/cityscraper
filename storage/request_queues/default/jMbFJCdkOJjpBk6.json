@@ -1,0 +1,9 @@
+{
+	"id": "jMbFJCdkOJjpBk6",
+	"json": "{\"id\":\"jMbFJCdkOJjpBk6\",\"url\":\"https://mendocino.craigslist.org/gms/d/clearlake-park-yard-sale/7928406561.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/clearlake-park-yard-sale/7928406561.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/clearlake-park-yard-sale/7928406561.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:06.146Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/clearlake-park-yard-sale/7928406561.html",
+	"url": "https://mendocino.craigslist.org/gms/d/clearlake-park-yard-sale/7928406561.html"
+}

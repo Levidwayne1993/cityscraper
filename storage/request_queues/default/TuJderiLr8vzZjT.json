@@ -1,0 +1,9 @@
+{
+	"id": "TuJderiLr8vzZjT",
+	"json": "{\"id\":\"TuJderiLr8vzZjT\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-8232/7928386306.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-8232/7928386306.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-8232/7928386306.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:51:43.271Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-8232/7928386306.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-8232/7928386306.html"
+}

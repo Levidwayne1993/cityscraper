@@ -1,0 +1,9 @@
+{
+	"id": "XxdlHrZmk1Vb0VD",
+	"json": "{\"id\":\"XxdlHrZmk1Vb0VD\",\"url\":\"https://newhaven.craigslist.org/gms/d/meriden-multi-family-tag-sale/7928171052.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/meriden-multi-family-tag-sale/7928171052.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/meriden-multi-family-tag-sale/7928171052.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:47.519Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/meriden-multi-family-tag-sale/7928171052.html",
+	"url": "https://newhaven.craigslist.org/gms/d/meriden-multi-family-tag-sale/7928171052.html"
+}

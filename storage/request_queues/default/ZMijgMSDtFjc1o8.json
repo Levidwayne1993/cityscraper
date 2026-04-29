@@ -1,8 +1,8 @@
 {
 	"id": "ZMijgMSDtFjc1o8",
-	"json": "{\"id\":\"ZMijgMSDtFjc1o8\",\"url\":\"https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"ZMijgMSDtFjc1o8\",\"url\":\"https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:37:40.993Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323608,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://panamacity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

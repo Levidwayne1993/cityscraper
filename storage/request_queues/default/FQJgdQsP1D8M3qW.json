@@ -1,0 +1,9 @@
+{
+	"id": "FQJgdQsP1D8M3qW",
+	"json": "{\"id\":\"FQJgdQsP1D8M3qW\",\"url\":\"https://albany.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://albany.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523062,
+	"retryCount": 0,
+	"uniqueKey": "https://albany.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://albany.craigslist.org/search/ccc?query=yard+sale"
+}

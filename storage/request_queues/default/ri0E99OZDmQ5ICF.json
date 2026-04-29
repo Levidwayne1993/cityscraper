@@ -1,0 +1,9 @@
+{
+	"id": "ri0E99OZDmQ5ICF",
+	"json": "{\"id\":\"ri0E99OZDmQ5ICF\",\"url\":\"https://morgantown.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://morgantown.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528144,
+	"retryCount": 0,
+	"uniqueKey": "https://morgantown.craigslist.org/search/gms?s=480",
+	"url": "https://morgantown.craigslist.org/search/gms?s=480"
+}

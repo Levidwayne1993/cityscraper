@@ -1,0 +1,9 @@
+{
+	"id": "SK7y0MEGGqBZNeU",
+	"json": "{\"id\":\"SK7y0MEGGqBZNeU\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-vinyl-records/7923791479.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-vinyl-records/7923791479.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-vinyl-records/7923791479.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:36:12.670Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-vinyl-records/7923791479.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-vinyl-records/7923791479.html"
+}

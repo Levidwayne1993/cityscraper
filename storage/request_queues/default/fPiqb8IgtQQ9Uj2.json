@@ -1,0 +1,9 @@
+{
+	"id": "fPiqb8IgtQQ9Uj2",
+	"json": "{\"id\":\"fPiqb8IgtQQ9Uj2\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale/7921144034.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale/7921144034.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale/7921144034.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:39:41.436Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-block-sale/7921144034.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-block-sale/7921144034.html"
+}

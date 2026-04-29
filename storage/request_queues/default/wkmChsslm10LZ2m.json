@@ -1,0 +1,9 @@
+{
+	"id": "wkmChsslm10LZ2m",
+	"json": "{\"id\":\"wkmChsslm10LZ2m\",\"url\":\"https://huntsville.craigslist.org/gms/d/meridianville-yard-sale/7928399944.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/meridianville-yard-sale/7928399944.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/meridianville-yard-sale/7928399944.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:03:18.585Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/meridianville-yard-sale/7928399944.html",
+	"url": "https://huntsville.craigslist.org/gms/d/meridianville-yard-sale/7928399944.html"
+}

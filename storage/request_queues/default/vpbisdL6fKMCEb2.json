@@ -1,0 +1,9 @@
+{
+	"id": "vpbisdL6fKMCEb2",
+	"json": "{\"id\":\"vpbisdL6fKMCEb2\",\"url\":\"https://clovis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://clovis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522879,
+	"retryCount": 0,
+	"uniqueKey": "https://clovis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://clovis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

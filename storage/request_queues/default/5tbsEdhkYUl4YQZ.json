@@ -1,0 +1,9 @@
+{
+	"id": "5tbsEdhkYUl4YQZ",
+	"json": "{\"id\":\"5tbsEdhkYUl4YQZ\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/warrenton-moving-sale-in-warrenton/7929257614.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/warrenton-moving-sale-in-warrenton/7929257614.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/warrenton-moving-sale-in-warrenton/7929257614.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:26:53.477Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/warrenton-moving-sale-in-warrenton/7929257614.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/warrenton-moving-sale-in-warrenton/7929257614.html"
+}

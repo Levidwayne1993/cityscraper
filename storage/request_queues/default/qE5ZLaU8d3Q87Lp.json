@@ -1,0 +1,9 @@
+{
+	"id": "qE5ZLaU8d3Q87Lp",
+	"json": "{\"id\":\"qE5ZLaU8d3Q87Lp\",\"url\":\"https://westslope.craigslist.org/gms/d/fruita-fruita-yard-sale-friday-saturday/7925038813.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/fruita-fruita-yard-sale-friday-saturday/7925038813.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/fruita-fruita-yard-sale-friday-saturday/7925038813.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:30.449Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/fruita-fruita-yard-sale-friday-saturday/7925038813.html",
+	"url": "https://westslope.craigslist.org/gms/d/fruita-fruita-yard-sale-friday-saturday/7925038813.html"
+}

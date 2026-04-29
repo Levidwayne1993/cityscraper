@@ -1,0 +1,9 @@
+{
+	"id": "m2dHYn87KNAOnrc",
+	"json": "{\"id\":\"m2dHYn87KNAOnrc\",\"url\":\"https://erie.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://erie.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525432,
+	"retryCount": 0,
+	"uniqueKey": "https://erie.craigslist.org/search/gms?s=480",
+	"url": "https://erie.craigslist.org/search/gms?s=480"
+}

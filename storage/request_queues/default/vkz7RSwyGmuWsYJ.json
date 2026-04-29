@@ -1,0 +1,9 @@
+{
+	"id": "vkz7RSwyGmuWsYJ",
+	"json": "{\"id\":\"vkz7RSwyGmuWsYJ\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/camp-verde-brackneys-estate-sales-camp/7926105774.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/camp-verde-brackneys-estate-sales-camp/7926105774.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/camp-verde-brackneys-estate-sales-camp/7926105774.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:22.321Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/camp-verde-brackneys-estate-sales-camp/7926105774.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/camp-verde-brackneys-estate-sales-camp/7926105774.html"
+}

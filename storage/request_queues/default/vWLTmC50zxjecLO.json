@@ -1,0 +1,9 @@
+{
+	"id": "vWLTmC50zxjecLO",
+	"json": "{\"id\":\"vWLTmC50zxjecLO\",\"url\":\"https://losangeles.craigslist.org/sfv/com/d/northridge-yard-sale-sunday-april-26th/7930196358.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/com/d/northridge-yard-sale-sunday-april-26th/7930196358.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/com/d/northridge-yard-sale-sunday-april-26th/7930196358.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:42:27.389Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/com/d/northridge-yard-sale-sunday-april-26th/7930196358.html",
+	"url": "https://losangeles.craigslist.org/sfv/com/d/northridge-yard-sale-sunday-april-26th/7930196358.html"
+}

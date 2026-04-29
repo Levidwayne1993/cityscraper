@@ -1,0 +1,9 @@
+{
+	"id": "D5Gs0K5gvMwSL2J",
+	"json": "{\"id\":\"D5Gs0K5gvMwSL2J\",\"url\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-garage-sale-saturday-am-2pm/7930024218.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-garage-sale-saturday-am-2pm/7930024218.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-garage-sale-saturday-am-2pm/7930024218.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:22:10.000Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/san-clemente-garage-sale-saturday-am-2pm/7930024218.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/san-clemente-garage-sale-saturday-am-2pm/7930024218.html"
+}

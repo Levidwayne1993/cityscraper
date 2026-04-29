@@ -1,0 +1,9 @@
+{
+	"id": "8eThVJE5DPPpQeN",
+	"json": "{\"id\":\"8eThVJE5DPPpQeN\",\"url\":\"https://huntsville.craigslist.org/gms/d/huntsville-great-sale-40-off-at-booth/7930150066.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/huntsville-great-sale-40-off-at-booth/7930150066.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/huntsville-great-sale-40-off-at-booth/7930150066.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:01:57.716Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/huntsville-great-sale-40-off-at-booth/7930150066.html",
+	"url": "https://huntsville.craigslist.org/gms/d/huntsville-great-sale-40-off-at-booth/7930150066.html"
+}

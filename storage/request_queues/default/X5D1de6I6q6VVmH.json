@@ -1,8 +1,8 @@
 {
 	"id": "X5D1de6I6q6VVmH",
-	"json": "{\"id\":\"X5D1de6I6q6VVmH\",\"url\":\"https://huntsville.craigslist.org/search/gms\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"X5D1de6I6q6VVmH\",\"url\":\"https://huntsville.craigslist.org/search/gms\",\"loadedUrl\":\"https://huntsville.craigslist.org/search/gms\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:01:36.364Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://huntsville.craigslist.org/search/gms",
 	"url": "https://huntsville.craigslist.org/search/gms"

@@ -1,0 +1,9 @@
+{
+	"id": "5eHIKJoP6L82U2P",
+	"json": "{\"id\":\"5eHIKJoP6L82U2P\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/castaic-large-estate-sale-vintage/7926098097.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/castaic-large-estate-sale-vintage/7926098097.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/castaic-large-estate-sale-vintage/7926098097.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:37:34.015Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/castaic-large-estate-sale-vintage/7926098097.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/castaic-large-estate-sale-vintage/7926098097.html"
+}

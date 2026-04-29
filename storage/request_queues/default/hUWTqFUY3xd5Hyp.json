@@ -1,0 +1,9 @@
+{
+	"id": "hUWTqFUY3xd5Hyp",
+	"json": "{\"id\":\"hUWTqFUY3xd5Hyp\",\"url\":\"https://macon.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://macon.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517526,
+	"retryCount": 0,
+	"uniqueKey": "https://macon.craigslist.org/search/gms?s=480",
+	"url": "https://macon.craigslist.org/search/gms?s=480"
+}

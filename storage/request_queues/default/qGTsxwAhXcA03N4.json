@@ -1,0 +1,9 @@
+{
+	"id": "qGTsxwAhXcA03N4",
+	"json": "{\"id\":\"qGTsxwAhXcA03N4\",\"url\":\"https://sacramento.craigslist.org/gms/d/davis-garage-sale-today-830-am-to-1230/7930078093.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/davis-garage-sale-today-830-am-to-1230/7930078093.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/davis-garage-sale-today-830-am-to-1230/7930078093.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:40.489Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/davis-garage-sale-today-830-am-to-1230/7930078093.html",
+	"url": "https://sacramento.craigslist.org/gms/d/davis-garage-sale-today-830-am-to-1230/7930078093.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uiXOFDMRHWS3JxY",
+	"json": "{\"id\":\"uiXOFDMRHWS3JxY\",\"url\":\"https://sfbay.craigslist.org/sfc/zip/d/san-francisco-bookstore-closing-estate/7929787015.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/zip/d/san-francisco-bookstore-closing-estate/7929787015.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/zip/d/san-francisco-bookstore-closing-estate/7929787015.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:51.883Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/zip/d/san-francisco-bookstore-closing-estate/7929787015.html",
+	"url": "https://sfbay.craigslist.org/sfc/zip/d/san-francisco-bookstore-closing-estate/7929787015.html"
+}

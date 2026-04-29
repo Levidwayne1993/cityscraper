@@ -1,0 +1,9 @@
+{
+	"id": "akWeBBMvcObw937",
+	"json": "{\"id\":\"akWeBBMvcObw937\",\"url\":\"https://sfbay.craigslist.org/eby/for/d/union-city-moving-sale/7894745910.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/for/d/union-city-moving-sale/7894745910.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/for/d/union-city-moving-sale/7894745910.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:31.623Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/for/d/union-city-moving-sale/7894745910.html",
+	"url": "https://sfbay.craigslist.org/eby/for/d/union-city-moving-sale/7894745910.html"
+}

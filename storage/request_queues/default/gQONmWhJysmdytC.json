@@ -1,0 +1,9 @@
+{
+	"id": "gQONmWhJysmdytC",
+	"json": "{\"id\":\"gQONmWhJysmdytC\",\"url\":\"https://sacramento.craigslist.org/gms/d/roseville-roseville-garage-sale-sunday/7928578857.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/roseville-roseville-garage-sale-sunday/7928578857.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/roseville-roseville-garage-sale-sunday/7928578857.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:52:41.747Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/roseville-roseville-garage-sale-sunday/7928578857.html",
+	"url": "https://sacramento.craigslist.org/gms/d/roseville-roseville-garage-sale-sunday/7928578857.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "9IEiw3D4dgpBgMI",
+	"json": "{\"id\":\"9IEiw3D4dgpBgMI\",\"url\":\"https://slo.craigslist.org/clt/d/morro-bay-moving-sale-vintage-mikasa/7917597161.html\",\"loadedUrl\":\"https://slo.craigslist.org/clt/d/morro-bay-moving-sale-vintage-mikasa/7917597161.html\",\"uniqueKey\":\"https://slo.craigslist.org/clt/d/morro-bay-moving-sale-vintage-mikasa/7917597161.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:49:36.354Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/clt/d/morro-bay-moving-sale-vintage-mikasa/7917597161.html",
+	"url": "https://slo.craigslist.org/clt/d/morro-bay-moving-sale-vintage-mikasa/7917597161.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GEz46Yl5ZiZT7Ms",
+	"json": "{\"id\":\"GEz46Yl5ZiZT7Ms\",\"url\":\"https://hartford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://hartford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://hartford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:07:21.761Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://hartford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

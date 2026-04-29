@@ -1,0 +1,9 @@
+{
+	"id": "9CH19yk2UD6nR5V",
+	"json": "{\"id\":\"9CH19yk2UD6nR5V\",\"url\":\"https://losangeles.craigslist.org/lac/clo/d/los-angeles-moving-sale/7926107676.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/clo/d/los-angeles-moving-sale/7926107676.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/clo/d/los-angeles-moving-sale/7926107676.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:46:07.289Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/clo/d/los-angeles-moving-sale/7926107676.html",
+	"url": "https://losangeles.craigslist.org/lac/clo/d/los-angeles-moving-sale/7926107676.html"
+}

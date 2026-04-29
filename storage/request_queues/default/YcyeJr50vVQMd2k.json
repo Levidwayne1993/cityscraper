@@ -1,0 +1,9 @@
+{
+	"id": "YcyeJr50vVQMd2k",
+	"json": "{\"id\":\"YcyeJr50vVQMd2k\",\"url\":\"https://klamath.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://klamath.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525235,
+	"retryCount": 0,
+	"uniqueKey": "https://klamath.craigslist.org/search/gms?s=480",
+	"url": "https://klamath.craigslist.org/search/gms?s=480"
+}

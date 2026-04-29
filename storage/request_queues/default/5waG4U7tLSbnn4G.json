@@ -1,0 +1,9 @@
+{
+	"id": "5waG4U7tLSbnn4G",
+	"json": "{\"id\":\"5waG4U7tLSbnn4G\",\"url\":\"https://waterloo.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://waterloo.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518643,
+	"retryCount": 0,
+	"uniqueKey": "https://waterloo.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://waterloo.craigslist.org/search/ccc?query=yard+sale"
+}

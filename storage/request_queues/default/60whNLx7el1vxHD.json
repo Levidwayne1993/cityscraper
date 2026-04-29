@@ -1,0 +1,9 @@
+{
+	"id": "60whNLx7el1vxHD",
+	"json": "{\"id\":\"60whNLx7el1vxHD\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-75-homes-harveston-community/7929753426.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-75-homes-harveston-community/7929753426.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-75-homes-harveston-community/7929753426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:17:12.321Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-75-homes-harveston-community/7929753426.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-75-homes-harveston-community/7929753426.html"
+}

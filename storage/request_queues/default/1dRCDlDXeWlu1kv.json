@@ -1,0 +1,9 @@
+{
+	"id": "1dRCDlDXeWlu1kv",
+	"json": "{\"id\":\"1dRCDlDXeWlu1kv\",\"url\":\"https://newhaven.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929248755.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929248755.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929248755.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:07.558Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929248755.html",
+	"url": "https://newhaven.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929248755.html"
+}

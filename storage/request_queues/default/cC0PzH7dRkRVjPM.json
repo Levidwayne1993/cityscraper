@@ -1,0 +1,9 @@
+{
+	"id": "cC0PzH7dRkRVjPM",
+	"json": "{\"id\":\"cC0PzH7dRkRVjPM\",\"url\":\"https://miami.craigslist.org/brw/gms/d/margate-estate-sale-entire-contents/7929981230.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/margate-estate-sale-entire-contents/7929981230.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/margate-estate-sale-entire-contents/7929981230.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:04:17.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/margate-estate-sale-entire-contents/7929981230.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/margate-estate-sale-entire-contents/7929981230.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gR8lshoiqiAtf85",
+	"json": "{\"id\":\"gR8lshoiqiAtf85\",\"url\":\"https://sandiego.craigslist.org/esd/com/d/el-cajon-yard-sale/7930031375.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/com/d/el-cajon-yard-sale/7930031375.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/com/d/el-cajon-yard-sale/7930031375.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:12:21.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/com/d/el-cajon-yard-sale/7930031375.html",
+	"url": "https://sandiego.craigslist.org/esd/com/d/el-cajon-yard-sale/7930031375.html"
+}

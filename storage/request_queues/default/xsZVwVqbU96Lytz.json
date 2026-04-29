@@ -1,0 +1,9 @@
+{
+	"id": "xsZVwVqbU96Lytz",
+	"json": "{\"id\":\"xsZVwVqbU96Lytz\",\"url\":\"https://inlandempire.craigslist.org/gms/d/calimesa-yard-sale-lots-of-tools-toys/7922793968.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/calimesa-yard-sale-lots-of-tools-toys/7922793968.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/calimesa-yard-sale-lots-of-tools-toys/7922793968.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:05:39.678Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/calimesa-yard-sale-lots-of-tools-toys/7922793968.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/calimesa-yard-sale-lots-of-tools-toys/7922793968.html"
+}

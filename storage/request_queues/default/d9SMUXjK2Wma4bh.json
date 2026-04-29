@@ -1,0 +1,9 @@
+{
+	"id": "d9SMUXjK2Wma4bh",
+	"json": "{\"id\":\"d9SMUXjK2Wma4bh\",\"url\":\"https://washingtondc.craigslist.org/doc/gms/d/hyattsville-amazing-yard-sale-happening/7929252618.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/gms/d/hyattsville-amazing-yard-sale-happening/7929252618.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/gms/d/hyattsville-amazing-yard-sale-happening/7929252618.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:26:54.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/gms/d/hyattsville-amazing-yard-sale-happening/7929252618.html",
+	"url": "https://washingtondc.craigslist.org/doc/gms/d/hyattsville-amazing-yard-sale-happening/7929252618.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mVNytjofL0u1P6R",
+	"json": "{\"id\":\"mVNytjofL0u1P6R\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/albany-albany-senior-center-garage-sale/7928753046.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/albany-albany-senior-center-garage-sale/7928753046.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/albany-albany-senior-center-garage-sale/7928753046.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:12.473Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/albany-albany-senior-center-garage-sale/7928753046.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/albany-albany-senior-center-garage-sale/7928753046.html"
+}

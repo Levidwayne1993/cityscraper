@@ -1,0 +1,9 @@
+{
+	"id": "ayfZGD70XH6Zx3f",
+	"json": "{\"id\":\"ayfZGD70XH6Zx3f\",\"url\":\"https://inlandempire.craigslist.org/com/d/redlands-huge-multi-family-yard-sale/7922688354.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/redlands-huge-multi-family-yard-sale/7922688354.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/redlands-huge-multi-family-yard-sale/7922688354.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:16.620Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/redlands-huge-multi-family-yard-sale/7922688354.html",
+	"url": "https://inlandempire.craigslist.org/com/d/redlands-huge-multi-family-yard-sale/7922688354.html"
+}

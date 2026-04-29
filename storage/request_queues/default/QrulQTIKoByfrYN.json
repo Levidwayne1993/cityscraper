@@ -1,0 +1,9 @@
+{
+	"id": "QrulQTIKoByfrYN",
+	"json": "{\"id\":\"QrulQTIKoByfrYN\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sales-lots-of-good-stuff/7927969431.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sales-lots-of-good-stuff/7927969431.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sales-lots-of-good-stuff/7927969431.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:14.904Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-moving-sales-lots-of-good-stuff/7927969431.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-moving-sales-lots-of-good-stuff/7927969431.html"
+}

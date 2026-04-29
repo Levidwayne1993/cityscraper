@@ -1,0 +1,9 @@
+{
+	"id": "MSHGQj5j0X1RXUr",
+	"json": "{\"id\":\"MSHGQj5j0X1RXUr\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-lots-of-stuff/7924014383.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-lots-of-stuff/7924014383.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-lots-of-stuff/7924014383.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:51.229Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-lots-of-stuff/7924014383.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-lots-of-stuff/7924014383.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "7Ng4Pn7u902xamy",
-	"json": "{\"id\":\"7Ng4Pn7u902xamy\",\"url\":\"https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"7Ng4Pn7u902xamy\",\"url\":\"https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:45:30.340Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323558,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://lakeland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

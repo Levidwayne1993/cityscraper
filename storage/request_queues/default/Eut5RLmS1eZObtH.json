@@ -1,0 +1,9 @@
+{
+	"id": "Eut5RLmS1eZObtH",
+	"json": "{\"id\":\"Eut5RLmS1eZObtH\",\"url\":\"https://humboldt.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://humboldt.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://humboldt.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:59:49.386Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://humboldt.craigslist.org/search/ccc?query=garage+sale"
+}

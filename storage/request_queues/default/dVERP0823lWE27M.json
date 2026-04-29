@@ -1,0 +1,9 @@
+{
+	"id": "dVERP0823lWE27M",
+	"json": "{\"id\":\"dVERP0823lWE27M\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-willis-drive-now/7921149733.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-willis-drive-now/7921149733.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-willis-drive-now/7921149733.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:35:36.887Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-willis-drive-now/7921149733.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-willis-drive-now/7921149733.html"
+}

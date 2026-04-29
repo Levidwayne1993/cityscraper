@@ -1,0 +1,9 @@
+{
+	"id": "jVgSqpu8aisUmU8",
+	"json": "{\"id\":\"jVgSqpu8aisUmU8\",\"url\":\"https://slo.craigslist.org/gms/d/atascadero-online-garage-sale/7927841123.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/atascadero-online-garage-sale/7927841123.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/atascadero-online-garage-sale/7927841123.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:28.702Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/atascadero-online-garage-sale/7927841123.html",
+	"url": "https://slo.craigslist.org/gms/d/atascadero-online-garage-sale/7927841123.html"
+}

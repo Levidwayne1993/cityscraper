@@ -1,0 +1,9 @@
+{
+	"id": "3U7Odpk5SBD1WCA",
+	"json": "{\"id\":\"3U7Odpk5SBD1WCA\",\"url\":\"https://iowacity.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://iowacity.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518558,
+	"retryCount": 0,
+	"uniqueKey": "https://iowacity.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://iowacity.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "AYmSjMeC9JPXQ5q",
+	"json": "{\"id\":\"AYmSjMeC9JPXQ5q\",\"url\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-saturday-25/7929797187.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-saturday-25/7929797187.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-saturday-25/7929797187.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:17.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-saturday-25/7929797187.html",
+	"url": "https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-saturday-25/7929797187.html"
+}

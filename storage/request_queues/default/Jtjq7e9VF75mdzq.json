@@ -1,0 +1,9 @@
+{
+	"id": "Jtjq7e9VF75mdzq",
+	"json": "{\"id\":\"Jtjq7e9VF75mdzq\",\"url\":\"https://merced.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://merced.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://merced.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:49:39.238Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/search/gms?s=480",
+	"url": "https://merced.craigslist.org/search/gms?s=480"
+}

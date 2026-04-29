@@ -1,0 +1,9 @@
+{
+	"id": "d57OoJhCzhIzoCg",
+	"json": "{\"id\":\"d57OoJhCzhIzoCg\",\"url\":\"https://jackson.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://jackson.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521129,
+	"retryCount": 0,
+	"uniqueKey": "https://jackson.craigslist.org/search/gms?s=480",
+	"url": "https://jackson.craigslist.org/search/gms?s=480"
+}

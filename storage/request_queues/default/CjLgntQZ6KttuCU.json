@@ -1,0 +1,9 @@
+{
+	"id": "CjLgntQZ6KttuCU",
+	"json": "{\"id\":\"CjLgntQZ6KttuCU\",\"url\":\"https://inlandempire.craigslist.org/gms/d/corona-garage-sale-el-cerrito-community/7928489796.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/corona-garage-sale-el-cerrito-community/7928489796.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/corona-garage-sale-el-cerrito-community/7928489796.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:01.801Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/corona-garage-sale-el-cerrito-community/7928489796.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/corona-garage-sale-el-cerrito-community/7928489796.html"
+}

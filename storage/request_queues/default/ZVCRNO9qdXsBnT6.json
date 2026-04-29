@@ -1,0 +1,9 @@
+{
+	"id": "ZVCRNO9qdXsBnT6",
+	"json": "{\"id\":\"ZVCRNO9qdXsBnT6\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-briargate-garage-sale/7926500593.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-briargate-garage-sale/7926500593.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-briargate-garage-sale/7926500593.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:35.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-briargate-garage-sale/7926500593.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-briargate-garage-sale/7926500593.html"
+}

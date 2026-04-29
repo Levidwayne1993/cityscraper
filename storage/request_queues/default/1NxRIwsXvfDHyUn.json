@@ -1,0 +1,9 @@
+{
+	"id": "1NxRIwsXvfDHyUn",
+	"json": "{\"id\":\"1NxRIwsXvfDHyUn\",\"url\":\"https://slo.craigslist.org/fuo/d/atascadero-moving-sale-complete-home/7929387197.html\",\"loadedUrl\":\"https://slo.craigslist.org/fuo/d/atascadero-moving-sale-complete-home/7929387197.html\",\"uniqueKey\":\"https://slo.craigslist.org/fuo/d/atascadero-moving-sale-complete-home/7929387197.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:49:24.334Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/fuo/d/atascadero-moving-sale-complete-home/7929387197.html",
+	"url": "https://slo.craigslist.org/fuo/d/atascadero-moving-sale-complete-home/7929387197.html"
+}

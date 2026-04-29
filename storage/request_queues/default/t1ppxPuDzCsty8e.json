@@ -1,0 +1,9 @@
+{
+	"id": "t1ppxPuDzCsty8e",
+	"json": "{\"id\":\"t1ppxPuDzCsty8e\",\"url\":\"https://lawton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://lawton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525056,
+	"retryCount": 0,
+	"uniqueKey": "https://lawton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://lawton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

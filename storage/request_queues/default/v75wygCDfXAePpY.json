@@ -1,9 +1,0 @@
-{
-	"id": "v75wygCDfXAePpY",
-	"json": "{\"id\":\"v75wygCDfXAePpY\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Denver-CO.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Denver-CO.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CO\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330620,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Denver-CO.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Denver-CO.html"
-}

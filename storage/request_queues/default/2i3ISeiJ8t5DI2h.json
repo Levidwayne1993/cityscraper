@@ -1,0 +1,9 @@
+{
+	"id": "2i3ISeiJ8t5DI2h",
+	"json": "{\"id\":\"2i3ISeiJ8t5DI2h\",\"url\":\"https://bozeman.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://bozeman.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522553,
+	"retryCount": 0,
+	"uniqueKey": "https://bozeman.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://bozeman.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5bYSClb0xTNk6Of",
+	"json": "{\"id\":\"5bYSClb0xTNk6Of\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Ann-Arbor-MI.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Ann-Arbor-MI.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"MI\",\"yssSlug\":\"Ann-Arbor-MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186531160,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Ann-Arbor-MI.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Ann-Arbor-MI.html"
+}

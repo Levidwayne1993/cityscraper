@@ -1,0 +1,9 @@
+{
+	"id": "ScNRF8eNJSd9kxn",
+	"json": "{\"id\":\"ScNRF8eNJSd9kxn\",\"url\":\"https://skagit.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://skagit.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528038,
+	"retryCount": 0,
+	"uniqueKey": "https://skagit.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://skagit.craigslist.org/search/ccc?query=garage+sale"
+}

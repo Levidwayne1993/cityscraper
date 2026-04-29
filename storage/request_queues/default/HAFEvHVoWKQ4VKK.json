@@ -1,0 +1,9 @@
+{
+	"id": "HAFEvHVoWKQ4VKK",
+	"json": "{\"id\":\"HAFEvHVoWKQ4VKK\",\"url\":\"https://prescott.craigslist.org/hsh/d/prescott-huge-flooring-warehouse-moving/7928159491.html\",\"loadedUrl\":\"https://prescott.craigslist.org/hsh/d/prescott-huge-flooring-warehouse-moving/7928159491.html\",\"uniqueKey\":\"https://prescott.craigslist.org/hsh/d/prescott-huge-flooring-warehouse-moving/7928159491.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:13.550Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/hsh/d/prescott-huge-flooring-warehouse-moving/7928159491.html",
+	"url": "https://prescott.craigslist.org/hsh/d/prescott-huge-flooring-warehouse-moving/7928159491.html"
+}

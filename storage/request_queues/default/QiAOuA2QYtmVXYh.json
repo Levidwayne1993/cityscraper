@@ -1,0 +1,9 @@
+{
+	"id": "QiAOuA2QYtmVXYh",
+	"json": "{\"id\":\"QiAOuA2QYtmVXYh\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-wood-furniture/7929293952.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-wood-furniture/7929293952.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-wood-furniture/7929293952.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:08.957Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/petaluma-wood-furniture/7929293952.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/petaluma-wood-furniture/7929293952.html"
+}

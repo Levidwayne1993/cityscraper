@@ -1,0 +1,9 @@
+{
+	"id": "IIYpzpbHK7dHySt",
+	"json": "{\"id\":\"IIYpzpbHK7dHySt\",\"url\":\"https://fortcollins.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://fortcollins.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fortcollins.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:48:13.736Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/search/gms?s=480",
+	"url": "https://fortcollins.craigslist.org/search/gms?s=480"
+}

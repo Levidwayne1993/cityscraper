@@ -1,0 +1,9 @@
+{
+	"id": "2jipm2BOxjKLrUD",
+	"json": "{\"id\":\"2jipm2BOxjKLrUD\",\"url\":\"https://madison.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://madison.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528396,
+	"retryCount": 0,
+	"uniqueKey": "https://madison.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://madison.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

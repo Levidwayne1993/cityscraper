@@ -1,0 +1,9 @@
+{
+	"id": "HDtJY2wZ1f3Q7bq",
+	"json": "{\"id\":\"HDtJY2wZ1f3Q7bq\",\"url\":\"https://newlondon.craigslist.org/gms/d/oakdale-garage-sale/7928917000.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/oakdale-garage-sale/7928917000.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/oakdale-garage-sale/7928917000.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:02:50.705Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/oakdale-garage-sale/7928917000.html",
+	"url": "https://newlondon.craigslist.org/gms/d/oakdale-garage-sale/7928917000.html"
+}

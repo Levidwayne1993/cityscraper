@@ -1,0 +1,9 @@
+{
+	"id": "jZwHl4y5NVTfLbU",
+	"json": "{\"id\":\"jZwHl4y5NVTfLbU\",\"url\":\"https://jacksonvillenc.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://jacksonvillenc.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523492,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonvillenc.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://jacksonvillenc.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

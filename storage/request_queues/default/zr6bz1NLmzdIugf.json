@@ -1,0 +1,9 @@
+{
+	"id": "zr6bz1NLmzdIugf",
+	"json": "{\"id\":\"zr6bz1NLmzdIugf\",\"url\":\"https://washingtondc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://washingtondc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://washingtondc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:28:14.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://washingtondc.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

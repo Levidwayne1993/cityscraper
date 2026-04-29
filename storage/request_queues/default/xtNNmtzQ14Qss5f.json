@@ -1,0 +1,9 @@
+{
+	"id": "xtNNmtzQ14Qss5f",
+	"json": "{\"id\":\"xtNNmtzQ14Qss5f\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-saticoy-cinnamon-oak/7928494313.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-saticoy-cinnamon-oak/7928494313.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-saticoy-cinnamon-oak/7928494313.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:16.960Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-yard-sale-saticoy-cinnamon-oak/7928494313.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-yard-sale-saticoy-cinnamon-oak/7928494313.html"
+}

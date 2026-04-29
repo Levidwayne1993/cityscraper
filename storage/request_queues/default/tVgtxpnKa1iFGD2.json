@@ -1,0 +1,9 @@
+{
+	"id": "tVgtxpnKa1iFGD2",
+	"json": "{\"id\":\"tVgtxpnKa1iFGD2\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-huge-estate-sale-50-off/7926331219.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-huge-estate-sale-50-off/7926331219.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-huge-estate-sale-50-off/7926331219.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:26.606Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-huge-estate-sale-50-off/7926331219.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-huge-estate-sale-50-off/7926331219.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LHszjfBjP0aB4TX",
+	"json": "{\"id\":\"LHszjfBjP0aB4TX\",\"url\":\"https://lubbock.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://lubbock.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526312,
+	"retryCount": 0,
+	"uniqueKey": "https://lubbock.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://lubbock.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

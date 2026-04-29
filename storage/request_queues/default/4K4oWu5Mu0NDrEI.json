@@ -1,0 +1,9 @@
+{
+	"id": "4K4oWu5Mu0NDrEI",
+	"json": "{\"id\":\"4K4oWu5Mu0NDrEI\",\"url\":\"https://syracuse.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://syracuse.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523322,
+	"retryCount": 0,
+	"uniqueKey": "https://syracuse.craigslist.org/search/gms?s=360",
+	"url": "https://syracuse.craigslist.org/search/gms?s=360"
+}

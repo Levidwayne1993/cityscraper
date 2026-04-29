@@ -1,8 +1,8 @@
 {
 	"id": "QfH8Prn4cOAF9Fs",
-	"json": "{\"id\":\"QfH8Prn4cOAF9Fs\",\"url\":\"https://boulder.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://boulder.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"QfH8Prn4cOAF9Fs\",\"url\":\"https://boulder.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://boulder.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://boulder.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:27:09.601Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323363,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://boulder.craigslist.org/search/gms?s=240",
 	"url": "https://boulder.craigslist.org/search/gms?s=240"

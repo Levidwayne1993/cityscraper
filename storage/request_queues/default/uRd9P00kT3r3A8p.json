@@ -1,0 +1,9 @@
+{
+	"id": "uRd9P00kT3r3A8p",
+	"json": "{\"id\":\"uRd9P00kT3r3A8p\",\"url\":\"https://saltlakecity.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://saltlakecity.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"UT\"}}",
+	"method": "GET",
+	"orderNo": 1777186527682,
+	"retryCount": 0,
+	"uniqueKey": "https://saltlakecity.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://saltlakecity.craigslist.org/search/ccc?query=garage+sale"
+}

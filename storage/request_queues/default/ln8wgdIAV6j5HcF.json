@@ -1,0 +1,9 @@
+{
+	"id": "ln8wgdIAV6j5HcF",
+	"json": "{\"id\":\"ln8wgdIAV6j5HcF\",\"url\":\"https://modesto.craigslist.org/gms/d/riverbank-estate-sale-this-saturday-18/7928451252.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/riverbank-estate-sale-this-saturday-18/7928451252.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/riverbank-estate-sale-this-saturday-18/7928451252.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:00:38.529Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/riverbank-estate-sale-this-saturday-18/7928451252.html",
+	"url": "https://modesto.craigslist.org/gms/d/riverbank-estate-sale-this-saturday-18/7928451252.html"
+}

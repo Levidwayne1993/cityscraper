@@ -1,0 +1,9 @@
+{
+	"id": "kpXtPgDB62ZBvLD",
+	"json": "{\"id\":\"kpXtPgDB62ZBvLD\",\"url\":\"https://stockton.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://stockton.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://stockton.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:36.226Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://stockton.craigslist.org/search/ccc?query=garage+sale"
+}

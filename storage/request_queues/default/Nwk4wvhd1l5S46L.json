@@ -1,0 +1,9 @@
+{
+	"id": "Nwk4wvhd1l5S46L",
+	"json": "{\"id\":\"Nwk4wvhd1l5S46L\",\"url\":\"https://clarksville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://clarksville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186525996,
+	"retryCount": 0,
+	"uniqueKey": "https://clarksville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://clarksville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

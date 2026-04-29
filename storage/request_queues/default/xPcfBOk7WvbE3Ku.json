@@ -1,0 +1,9 @@
+{
+	"id": "xPcfBOk7WvbE3Ku",
+	"json": "{\"id\":\"xPcfBOk7WvbE3Ku\",\"url\":\"https://goldcountry.craigslist.org/gms/d/diamond-springs-fun-fair-rummage-sale/7929429614.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/diamond-springs-fun-fair-rummage-sale/7929429614.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/diamond-springs-fun-fair-rummage-sale/7929429614.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:49:15.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/diamond-springs-fun-fair-rummage-sale/7929429614.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/diamond-springs-fun-fair-rummage-sale/7929429614.html"
+}

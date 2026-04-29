@@ -1,0 +1,9 @@
+{
+	"id": "QR7u0S9iwu7vdfm",
+	"json": "{\"id\":\"QR7u0S9iwu7vdfm\",\"url\":\"https://sfbay.craigslist.org/sfc/jwl/d/san-francisco-all-jewelry-estate-sale/7927173472.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/jwl/d/san-francisco-all-jewelry-estate-sale/7927173472.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/jwl/d/san-francisco-all-jewelry-estate-sale/7927173472.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:52.902Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/jwl/d/san-francisco-all-jewelry-estate-sale/7927173472.html",
+	"url": "https://sfbay.craigslist.org/sfc/jwl/d/san-francisco-all-jewelry-estate-sale/7927173472.html"
+}

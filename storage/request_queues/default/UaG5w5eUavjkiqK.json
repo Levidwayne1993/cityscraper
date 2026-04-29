@@ -1,0 +1,9 @@
+{
+	"id": "UaG5w5eUavjkiqK",
+	"json": "{\"id\":\"UaG5w5eUavjkiqK\",\"url\":\"https://kennewick.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://kennewick.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527940,
+	"retryCount": 0,
+	"uniqueKey": "https://kennewick.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
+	"url": "https://kennewick.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "cuReMSeqzMMevid",
+	"json": "{\"id\":\"cuReMSeqzMMevid\",\"url\":\"https://skagit.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://skagit.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528028,
+	"retryCount": 0,
+	"uniqueKey": "https://skagit.craigslist.org/search/gms?s=480",
+	"url": "https://skagit.craigslist.org/search/gms?s=480"
+}

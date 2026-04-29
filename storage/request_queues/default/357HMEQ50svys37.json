@@ -1,0 +1,9 @@
+{
+	"id": "357HMEQ50svys37",
+	"json": "{\"id\":\"357HMEQ50svys37\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-18/7927086355.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-18/7927086355.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-18/7927086355.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:25:31.605Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-18/7927086355.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-18/7927086355.html"
+}

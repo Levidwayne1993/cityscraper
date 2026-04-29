@@ -1,0 +1,9 @@
+{
+	"id": "gquDX3QfWggrgHZ",
+	"json": "{\"id\":\"gquDX3QfWggrgHZ\",\"url\":\"https://iowacity.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://iowacity.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518557,
+	"retryCount": 0,
+	"uniqueKey": "https://iowacity.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://iowacity.craigslist.org/search/ccc?query=yard+sale"
+}

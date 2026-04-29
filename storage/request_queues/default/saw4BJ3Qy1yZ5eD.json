@@ -1,0 +1,9 @@
+{
+	"id": "saw4BJ3Qy1yZ5eD",
+	"json": "{\"id\":\"saw4BJ3Qy1yZ5eD\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-neighborhood-yard-sale-in/7930033541.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-neighborhood-yard-sale-in/7930033541.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-neighborhood-yard-sale-in/7930033541.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:13:02.875Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-neighborhood-yard-sale-in/7930033541.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-neighborhood-yard-sale-in/7930033541.html"
+}

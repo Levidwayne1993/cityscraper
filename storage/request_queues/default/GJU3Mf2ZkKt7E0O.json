@@ -1,0 +1,9 @@
+{
+	"id": "GJU3Mf2ZkKt7E0O",
+	"json": "{\"id\":\"GJU3Mf2ZkKt7E0O\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-estate-sale-huge-variety/7927616134.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-estate-sale-huge-variety/7927616134.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-estate-sale-huge-variety/7927616134.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:32:12.933Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-estate-sale-huge-variety/7927616134.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-estate-sale-huge-variety/7927616134.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qXNqX5SriNbVyPV",
+	"json": "{\"id\":\"qXNqX5SriNbVyPV\",\"url\":\"https://hanford.craigslist.org/gms/d/hanford-huge-family-garage-yard-sale-in/7929517719.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/hanford-huge-family-garage-yard-sale-in/7929517719.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/hanford-huge-family-garage-yard-sale-in/7929517719.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:53:47.049Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/hanford-huge-family-garage-yard-sale-in/7929517719.html",
+	"url": "https://hanford.craigslist.org/gms/d/hanford-huge-family-garage-yard-sale-in/7929517719.html"
+}

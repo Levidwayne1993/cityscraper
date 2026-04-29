@@ -1,0 +1,9 @@
+{
+	"id": "LSbS34A58BYRIWx",
+	"json": "{\"id\":\"LSbS34A58BYRIWx\",\"url\":\"https://orangecounty.craigslist.org/gms/d/dana-point-south-laguna-garage-sale/7929707767.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/dana-point-south-laguna-garage-sale/7929707767.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/dana-point-south-laguna-garage-sale/7929707767.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:09:23.312Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/dana-point-south-laguna-garage-sale/7929707767.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/dana-point-south-laguna-garage-sale/7929707767.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "B6lwx62qo7gtd3p",
+	"json": "{\"id\":\"B6lwx62qo7gtd3p\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-moving-sale/7930005500.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-moving-sale/7930005500.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-moving-sale/7930005500.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:30:55.130Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-moving-sale/7930005500.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-moving-sale/7930005500.html"
+}

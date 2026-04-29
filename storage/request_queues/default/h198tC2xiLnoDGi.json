@@ -1,0 +1,9 @@
+{
+	"id": "h198tC2xiLnoDGi",
+	"json": "{\"id\":\"h198tC2xiLnoDGi\",\"url\":\"https://santamaria.craigslist.org/gms/d/oceano-grover-beach-estate-sale-by/7928198526.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/oceano-grover-beach-estate-sale-by/7928198526.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/oceano-grover-beach-estate-sale-by/7928198526.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:58.594Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/oceano-grover-beach-estate-sale-by/7928198526.html",
+	"url": "https://santamaria.craigslist.org/gms/d/oceano-grover-beach-estate-sale-by/7928198526.html"
+}

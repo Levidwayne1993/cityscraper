@@ -1,0 +1,9 @@
+{
+	"id": "1OuwFCMr9rDvfzp",
+	"json": "{\"id\":\"1OuwFCMr9rDvfzp\",\"url\":\"https://monterey.craigslist.org/gms/d/soledad-multiple-families-yard-sale/7924040497.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/soledad-multiple-families-yard-sale/7924040497.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/soledad-multiple-families-yard-sale/7924040497.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:03:06.694Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/soledad-multiple-families-yard-sale/7924040497.html",
+	"url": "https://monterey.craigslist.org/gms/d/soledad-multiple-families-yard-sale/7924040497.html"
+}

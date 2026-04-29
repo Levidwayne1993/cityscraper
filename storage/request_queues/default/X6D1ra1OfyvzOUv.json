@@ -1,0 +1,9 @@
+{
+	"id": "X6D1ra1OfyvzOUv",
+	"json": "{\"id\":\"X6D1ra1OfyvzOUv\",\"url\":\"https://cosprings.craigslist.org/gms/d/peyton-garage-sale/7929885089.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/peyton-garage-sale/7929885089.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/peyton-garage-sale/7929885089.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:21.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/peyton-garage-sale/7929885089.html",
+	"url": "https://cosprings.craigslist.org/gms/d/peyton-garage-sale/7929885089.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dJ7jgDxYmNhqPJY",
+	"json": "{\"id\":\"dJ7jgDxYmNhqPJY\",\"url\":\"https://denver.craigslist.org/gms/d/elizabeth-21st-saturday-sale-estate/7922361159.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/elizabeth-21st-saturday-sale-estate/7922361159.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/elizabeth-21st-saturday-sale-estate/7922361159.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:12.534Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/elizabeth-21st-saturday-sale-estate/7922361159.html",
+	"url": "https://denver.craigslist.org/gms/d/elizabeth-21st-saturday-sale-estate/7922361159.html"
+}

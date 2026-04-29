@@ -1,0 +1,9 @@
+{
+	"id": "BjhMKEVDUIzJQOG",
+	"json": "{\"id\":\"BjhMKEVDUIzJQOG\",\"url\":\"https://miami.craigslist.org/brw/fuo/d/fort-lauderdale-estate-style-moving/7925674185.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/fuo/d/fort-lauderdale-estate-style-moving/7925674185.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/fuo/d/fort-lauderdale-estate-style-moving/7925674185.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:18:55.236Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/fuo/d/fort-lauderdale-estate-style-moving/7925674185.html",
+	"url": "https://miami.craigslist.org/brw/fuo/d/fort-lauderdale-estate-style-moving/7925674185.html"
+}

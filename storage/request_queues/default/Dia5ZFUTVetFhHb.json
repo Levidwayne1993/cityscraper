@@ -1,0 +1,9 @@
+{
+	"id": "Dia5ZFUTVetFhHb",
+	"json": "{\"id\":\"Dia5ZFUTVetFhHb\",\"url\":\"https://fingerlakes.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://fingerlakes.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523170,
+	"retryCount": 0,
+	"uniqueKey": "https://fingerlakes.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://fingerlakes.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

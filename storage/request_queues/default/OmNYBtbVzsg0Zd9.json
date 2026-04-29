@@ -1,0 +1,9 @@
+{
+	"id": "OmNYBtbVzsg0Zd9",
+	"json": "{\"id\":\"OmNYBtbVzsg0Zd9\",\"url\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-washer-dryer-moving-sale/7929387445.html\",\"loadedUrl\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-washer-dryer-moving-sale/7929387445.html\",\"uniqueKey\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-washer-dryer-moving-sale/7929387445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:30.056Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/app/d/rehoboth-beach-washer-dryer-moving-sale/7929387445.html",
+	"url": "https://delaware.craigslist.org/app/d/rehoboth-beach-washer-dryer-moving-sale/7929387445.html"
+}

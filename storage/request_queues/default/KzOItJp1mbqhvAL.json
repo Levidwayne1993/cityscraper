@@ -1,0 +1,9 @@
+{
+	"id": "KzOItJp1mbqhvAL",
+	"json": "{\"id\":\"KzOItJp1mbqhvAL\",\"url\":\"https://lakeland.craigslist.org/gms/d/loughman-family-garage-sale-toys-and/7929824947.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/loughman-family-garage-sale-toys-and/7929824947.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/loughman-family-garage-sale-toys-and/7929824947.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:35.026Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/loughman-family-garage-sale-toys-and/7929824947.html",
+	"url": "https://lakeland.craigslist.org/gms/d/loughman-family-garage-sale-toys-and/7929824947.html"
+}

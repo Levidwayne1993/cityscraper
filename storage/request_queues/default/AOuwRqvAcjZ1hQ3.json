@@ -1,0 +1,9 @@
+{
+	"id": "AOuwRqvAcjZ1hQ3",
+	"json": "{\"id\":\"AOuwRqvAcjZ1hQ3\",\"url\":\"https://sacramento.craigslist.org/gms/d/roseville-moving-sale-quality-items/7923723897.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/roseville-moving-sale-quality-items/7923723897.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/roseville-moving-sale-quality-items/7923723897.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:58.214Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/roseville-moving-sale-quality-items/7923723897.html",
+	"url": "https://sacramento.craigslist.org/gms/d/roseville-moving-sale-quality-items/7923723897.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KiAyfdBuOoVm2wC",
+	"json": "{\"id\":\"KiAyfdBuOoVm2wC\",\"url\":\"https://mobile.craigslist.org/gms/d/daphne-historic-malbis-community-yard/7929027668.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/daphne-historic-malbis-community-yard/7929027668.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/daphne-historic-malbis-community-yard/7929027668.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:17.103Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/daphne-historic-malbis-community-yard/7929027668.html",
+	"url": "https://mobile.craigslist.org/gms/d/daphne-historic-malbis-community-yard/7929027668.html"
+}

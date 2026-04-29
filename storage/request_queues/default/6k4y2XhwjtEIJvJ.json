@@ -1,0 +1,9 @@
+{
+	"id": "6k4y2XhwjtEIJvJ",
+	"json": "{\"id\":\"6k4y2XhwjtEIJvJ\",\"url\":\"https://sierravista.craigslist.org/gms/d/hereford-estate-sale/7929104350.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/hereford-estate-sale/7929104350.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/hereford-estate-sale/7929104350.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:52:55.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/hereford-estate-sale/7929104350.html",
+	"url": "https://sierravista.craigslist.org/gms/d/hereford-estate-sale/7929104350.html"
+}

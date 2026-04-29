@@ -1,0 +1,9 @@
+{
+	"id": "I6MOf9V4B4EbHQx",
+	"json": "{\"id\":\"I6MOf9V4B4EbHQx\",\"url\":\"https://delaware.craigslist.org/gms/d/port-penn-community-garage-sale/7926512689.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/port-penn-community-garage-sale/7926512689.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/port-penn-community-garage-sale/7926512689.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:29.014Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/port-penn-community-garage-sale/7926512689.html",
+	"url": "https://delaware.craigslist.org/gms/d/port-penn-community-garage-sale/7926512689.html"
+}

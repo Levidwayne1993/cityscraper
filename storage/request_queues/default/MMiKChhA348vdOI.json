@@ -1,0 +1,9 @@
+{
+	"id": "MMiKChhA348vdOI",
+	"json": "{\"id\":\"MMiKChhA348vdOI\",\"url\":\"https://miami.craigslist.org/brw/com/d/pompano-beach-multiple-families-garage/7922836428.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/com/d/pompano-beach-multiple-families-garage/7922836428.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/com/d/pompano-beach-multiple-families-garage/7922836428.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:58.944Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/com/d/pompano-beach-multiple-families-garage/7922836428.html",
+	"url": "https://miami.craigslist.org/brw/com/d/pompano-beach-multiple-families-garage/7922836428.html"
+}

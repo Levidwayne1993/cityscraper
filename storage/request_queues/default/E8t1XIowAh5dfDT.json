@@ -1,0 +1,9 @@
+{
+	"id": "E8t1XIowAh5dfDT",
+	"json": "{\"id\":\"E8t1XIowAh5dfDT\",\"url\":\"https://richmondin.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://richmondin.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518362,
+	"retryCount": 0,
+	"uniqueKey": "https://richmondin.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://richmondin.craigslist.org/search/sss?query=estate+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CLz5y8h6c1VQDyh",
+	"json": "{\"id\":\"CLz5y8h6c1VQDyh\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/tempe-garage-sale/7930105241.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/tempe-garage-sale/7930105241.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/tempe-garage-sale/7930105241.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:07.878Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/tempe-garage-sale/7930105241.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/tempe-garage-sale/7930105241.html"
+}

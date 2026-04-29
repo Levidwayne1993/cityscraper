@@ -1,0 +1,9 @@
+{
+	"id": "Ff89mGXnYkJM2nR",
+	"json": "{\"id\":\"Ff89mGXnYkJM2nR\",\"url\":\"https://hartford.craigslist.org/vnn/d/vernon-rockville-weekly-garage-sale/7925597672.html\",\"loadedUrl\":\"https://hartford.craigslist.org/vnn/d/vernon-rockville-weekly-garage-sale/7925597672.html\",\"uniqueKey\":\"https://hartford.craigslist.org/vnn/d/vernon-rockville-weekly-garage-sale/7925597672.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:23.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/vnn/d/vernon-rockville-weekly-garage-sale/7925597672.html",
+	"url": "https://hartford.craigslist.org/vnn/d/vernon-rockville-weekly-garage-sale/7925597672.html"
+}

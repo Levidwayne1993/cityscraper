@@ -1,0 +1,9 @@
+{
+	"id": "3ZjDCsslhdFGiFR",
+	"json": "{\"id\":\"3ZjDCsslhdFGiFR\",\"url\":\"https://denver.craigslist.org/gms/d/erie-25-home-neighborhood-garage-sale/7929531517.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/erie-25-home-neighborhood-garage-sale/7929531517.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/erie-25-home-neighborhood-garage-sale/7929531517.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:03.642Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/erie-25-home-neighborhood-garage-sale/7929531517.html",
+	"url": "https://denver.craigslist.org/gms/d/erie-25-home-neighborhood-garage-sale/7929531517.html"
+}

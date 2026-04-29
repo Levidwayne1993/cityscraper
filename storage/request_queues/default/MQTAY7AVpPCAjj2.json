@@ -1,0 +1,9 @@
+{
+	"id": "MQTAY7AVpPCAjj2",
+	"json": "{\"id\":\"MQTAY7AVpPCAjj2\",\"url\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-lop-estate-sale/7921103856.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-lop-estate-sale/7921103856.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-lop-estate-sale/7921103856.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:50:53.095Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/meadow-vista-lop-estate-sale/7921103856.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/meadow-vista-lop-estate-sale/7921103856.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RK3A5vRsp63ZVar",
+	"json": "{\"id\":\"RK3A5vRsp63ZVar\",\"url\":\"https://jacksonville.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://jacksonville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://jacksonville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:06.035Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://jacksonville.craigslist.org/search/ccc?query=garage+sale"
+}

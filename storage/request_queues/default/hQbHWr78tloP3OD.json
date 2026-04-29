@@ -1,0 +1,9 @@
+{
+	"id": "hQbHWr78tloP3OD",
+	"json": "{\"id\":\"hQbHWr78tloP3OD\",\"url\":\"https://skagit.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://skagit.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528036,
+	"retryCount": 0,
+	"uniqueKey": "https://skagit.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://skagit.craigslist.org/search/ccc?query=yard+sale"
+}

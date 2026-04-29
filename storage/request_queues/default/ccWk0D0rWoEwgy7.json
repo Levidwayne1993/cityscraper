@@ -1,0 +1,9 @@
+{
+	"id": "ccWk0D0rWoEwgy7",
+	"json": "{\"id\":\"ccWk0D0rWoEwgy7\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Portland-OR.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Portland-OR.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"OR\",\"yssSlug\":\"Portland-OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186532636,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Portland-OR.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Portland-OR.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "KIy1N5CPgRnpN1z",
-	"json": "{\"id\":\"KIy1N5CPgRnpN1z\",\"url\":\"https://medford.craigslist.org/search/gms\",\"uniqueKey\":\"https://medford.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"KIy1N5CPgRnpN1z\",\"url\":\"https://medford.craigslist.org/search/gms\",\"uniqueKey\":\"https://medford.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
 	"method": "GET",
-	"orderNo": 1777040327575,
+	"orderNo": 1777186525250,
 	"retryCount": 0,
 	"uniqueKey": "https://medford.craigslist.org/search/gms",
 	"url": "https://medford.craigslist.org/search/gms"

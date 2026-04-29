@@ -1,0 +1,9 @@
+{
+	"id": "vslKnLS9bWfztJq",
+	"json": "{\"id\":\"vslKnLS9bWfztJq\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-moving-sale-sunday/7929782475.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-moving-sale-sunday/7929782475.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-moving-sale-sunday/7929782475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:23.812Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-moving-sale-sunday/7929782475.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-moving-sale-sunday/7929782475.html"
+}

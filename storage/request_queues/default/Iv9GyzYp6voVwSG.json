@@ -1,0 +1,9 @@
+{
+	"id": "Iv9GyzYp6voVwSG",
+	"json": "{\"id\":\"Iv9GyzYp6voVwSG\",\"url\":\"https://slo.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://slo.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://slo.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:50:20.138Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://slo.craigslist.org/search/ccc?query=garage+sale"
+}

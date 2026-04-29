@@ -1,8 +1,8 @@
 {
 	"id": "y7HibhNpm3ooZ9p",
-	"json": "{\"id\":\"y7HibhNpm3ooZ9p\",\"url\":\"https://carbondale.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://carbondale.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"y7HibhNpm3ooZ9p\",\"url\":\"https://carbondale.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://carbondale.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
 	"method": "GET",
-	"orderNo": 1777040323899,
+	"orderNo": 1777186518062,
 	"retryCount": 0,
 	"uniqueKey": "https://carbondale.craigslist.org/search/gms?s=240",
 	"url": "https://carbondale.craigslist.org/search/gms?s=240"

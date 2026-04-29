@@ -1,8 +1,8 @@
 {
 	"id": "V80S0pEz9315kDh",
-	"json": "{\"id\":\"V80S0pEz9315kDh\",\"url\":\"https://pensacola.craigslist.org/search/gms\",\"uniqueKey\":\"https://pensacola.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"V80S0pEz9315kDh\",\"url\":\"https://pensacola.craigslist.org/search/gms\",\"loadedUrl\":\"https://pensacola.craigslist.org/search/gms\",\"uniqueKey\":\"https://pensacola.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:38:30.532Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323611,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://pensacola.craigslist.org/search/gms",
 	"url": "https://pensacola.craigslist.org/search/gms"

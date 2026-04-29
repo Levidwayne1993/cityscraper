@@ -1,0 +1,9 @@
+{
+	"id": "NxZZy3MHISsIN1h",
+	"json": "{\"id\":\"NxZZy3MHISsIN1h\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Riverside-CA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Riverside-CA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"Riverside-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530524,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Riverside-CA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Riverside-CA.html"
+}

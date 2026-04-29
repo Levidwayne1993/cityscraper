@@ -1,0 +1,9 @@
+{
+	"id": "BPhavOnehxIzQCo",
+	"json": "{\"id\":\"BPhavOnehxIzQCo\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-garage-sale-march-19th/7922132284.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-garage-sale-march-19th/7922132284.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-garage-sale-march-19th/7922132284.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:08.318Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-garage-sale-march-19th/7922132284.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-garage-sale-march-19th/7922132284.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FTUODIckFIA70AB",
+	"json": "{\"id\":\"FTUODIckFIA70AB\",\"url\":\"https://sarasota.craigslist.org/atq/d/sarasota-garage-yard-sale-15th-st-41/7928029661.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/atq/d/sarasota-garage-yard-sale-15th-st-41/7928029661.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/atq/d/sarasota-garage-yard-sale-15th-st-41/7928029661.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:49:08.090Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/atq/d/sarasota-garage-yard-sale-15th-st-41/7928029661.html",
+	"url": "https://sarasota.craigslist.org/atq/d/sarasota-garage-yard-sale-15th-st-41/7928029661.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "79SOMzSbdGbcHsV",
+	"json": "{\"id\":\"79SOMzSbdGbcHsV\",\"url\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-oceanside-estate-sale/7930013193.html\",\"loadedUrl\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-oceanside-estate-sale/7930013193.html\",\"uniqueKey\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-oceanside-estate-sale/7930013193.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:01:34.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://imperial.craigslist.org/fod/d/ocotillo-ending-oceanside-estate-sale/7930013193.html",
+	"url": "https://imperial.craigslist.org/fod/d/ocotillo-ending-oceanside-estate-sale/7930013193.html"
+}

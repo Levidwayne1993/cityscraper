@@ -1,0 +1,9 @@
+{
+	"id": "Gbyz17nAEdniHR6",
+	"json": "{\"id\":\"Gbyz17nAEdniHR6\",\"url\":\"https://humboldt.craigslist.org/gms/d/samoa-moving-sale/7929914700.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/samoa-moving-sale/7929914700.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/samoa-moving-sale/7929914700.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:55:35.293Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/samoa-moving-sale/7929914700.html",
+	"url": "https://humboldt.craigslist.org/gms/d/samoa-moving-sale/7929914700.html"
+}

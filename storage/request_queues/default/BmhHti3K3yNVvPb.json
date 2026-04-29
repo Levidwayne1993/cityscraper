@@ -1,8 +1,8 @@
 {
 	"id": "BmhHti3K3yNVvPb",
-	"json": "{\"id\":\"BmhHti3K3yNVvPb\",\"url\":\"https://flint.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://flint.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"BmhHti3K3yNVvPb\",\"url\":\"https://flint.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://flint.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
 	"method": "GET",
-	"orderNo": 1777040324829,
+	"orderNo": 1777186520662,
 	"retryCount": 0,
 	"uniqueKey": "https://flint.craigslist.org/search/gms?s=240",
 	"url": "https://flint.craigslist.org/search/gms?s=240"

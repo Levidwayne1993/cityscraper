@@ -1,0 +1,9 @@
+{
+	"id": "vWIWVTGCe0NF0lG",
+	"json": "{\"id\":\"vWIWVTGCe0NF0lG\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Killeen-TX.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Killeen-TX.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TX\",\"yssSlug\":\"Killeen-TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186532865,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Killeen-TX.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Killeen-TX.html"
+}

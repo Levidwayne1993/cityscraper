@@ -1,0 +1,9 @@
+{
+	"id": "AxsG6lPVpUktbSe",
+	"json": "{\"id\":\"AxsG6lPVpUktbSe\",\"url\":\"https://batonrouge.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://batonrouge.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520051,
+	"retryCount": 0,
+	"uniqueKey": "https://batonrouge.craigslist.org/search/gms?s=480",
+	"url": "https://batonrouge.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "QMFOeassQDzeXq6",
+	"json": "{\"id\":\"QMFOeassQDzeXq6\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-2-price-estate-sale/7927538386.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-2-price-estate-sale/7927538386.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-2-price-estate-sale/7927538386.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:25.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-2-price-estate-sale/7927538386.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-2-price-estate-sale/7927538386.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "AN0FXvuzYECvXna",
+	"json": "{\"id\":\"AN0FXvuzYECvXna\",\"url\":\"https://sacramento.craigslist.org/gms/d/herald-ranch-stuff-yard-sale-open-date/7906291076.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/herald-ranch-stuff-yard-sale-open-date/7906291076.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/herald-ranch-stuff-yard-sale-open-date/7906291076.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:47:32.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/herald-ranch-stuff-yard-sale-open-date/7906291076.html",
+	"url": "https://sacramento.craigslist.org/gms/d/herald-ranch-stuff-yard-sale-open-date/7906291076.html"
+}

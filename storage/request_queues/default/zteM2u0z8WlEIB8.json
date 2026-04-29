@@ -1,0 +1,9 @@
+{
+	"id": "zteM2u0z8WlEIB8",
+	"json": "{\"id\":\"zteM2u0z8WlEIB8\",\"url\":\"https://rapidcity.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://rapidcity.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\"}}",
+	"method": "GET",
+	"orderNo": 1777186525927,
+	"retryCount": 0,
+	"uniqueKey": "https://rapidcity.craigslist.org/search/gms?s=360",
+	"url": "https://rapidcity.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Wz1GaxHqaknyW1f",
+	"json": "{\"id\":\"Wz1GaxHqaknyW1f\",\"url\":\"https://chico.craigslist.org/gms/d/chico-494-east-ave-yard-sale/7922713796.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-494-east-ave-yard-sale/7922713796.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-494-east-ave-yard-sale/7922713796.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:31:59.520Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-494-east-ave-yard-sale/7922713796.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-494-east-ave-yard-sale/7922713796.html"
+}

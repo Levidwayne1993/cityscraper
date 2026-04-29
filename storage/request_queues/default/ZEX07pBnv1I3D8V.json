@@ -1,0 +1,9 @@
+{
+	"id": "ZEX07pBnv1I3D8V",
+	"json": "{\"id\":\"ZEX07pBnv1I3D8V\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-office-moving-sale/7928655193.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-office-moving-sale/7928655193.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-office-moving-sale/7928655193.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:19:01.183Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-office-moving-sale/7928655193.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-office-moving-sale/7928655193.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "xZezF5kw93WZ7Xx",
+	"json": "{\"id\":\"xZezF5kw93WZ7Xx\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-rummage-sale-parking-lot-sale/7926996204.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-rummage-sale-parking-lot-sale/7926996204.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-rummage-sale-parking-lot-sale/7926996204.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:03:55.120Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/vista-rummage-sale-parking-lot-sale/7926996204.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/vista-rummage-sale-parking-lot-sale/7926996204.html"
+}

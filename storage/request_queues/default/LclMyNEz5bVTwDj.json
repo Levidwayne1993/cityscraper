@@ -1,0 +1,9 @@
+{
+	"id": "LclMyNEz5bVTwDj",
+	"json": "{\"id\":\"LclMyNEz5bVTwDj\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-am-1pm-in-person-and-auction/7929342387.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-am-1pm-in-person-and-auction/7929342387.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-am-1pm-in-person-and-auction/7929342387.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:58.617Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-am-1pm-in-person-and-auction/7929342387.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-am-1pm-in-person-and-auction/7929342387.html"
+}

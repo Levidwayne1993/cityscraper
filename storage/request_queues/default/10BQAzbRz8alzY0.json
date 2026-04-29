@@ -1,0 +1,9 @@
+{
+	"id": "10BQAzbRz8alzY0",
+	"json": "{\"id\":\"10BQAzbRz8alzY0\",\"url\":\"https://orlando.craigslist.org/gms/d/kissimmee-indian-ridge-neighborhood-sale/7929818655.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/kissimmee-indian-ridge-neighborhood-sale/7929818655.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/kissimmee-indian-ridge-neighborhood-sale/7929818655.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:20:08.171Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/kissimmee-indian-ridge-neighborhood-sale/7929818655.html",
+	"url": "https://orlando.craigslist.org/gms/d/kissimmee-indian-ridge-neighborhood-sale/7929818655.html"
+}

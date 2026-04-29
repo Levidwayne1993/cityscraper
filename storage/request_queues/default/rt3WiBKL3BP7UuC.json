@@ -1,0 +1,9 @@
+{
+	"id": "rt3WiBKL3BP7UuC",
+	"json": "{\"id\":\"rt3WiBKL3BP7UuC\",\"url\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale-in-apple-valley/7926548530.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale-in-apple-valley/7926548530.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale-in-apple-valley/7926548530.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:11:12.842Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/victorville-estate-sale-in-apple-valley/7926548530.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/victorville-estate-sale-in-apple-valley/7926548530.html"
+}

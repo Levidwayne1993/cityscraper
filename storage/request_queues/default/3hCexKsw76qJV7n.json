@@ -1,0 +1,9 @@
+{
+	"id": "3hCexKsw76qJV7n",
+	"json": "{\"id\":\"3hCexKsw76qJV7n\",\"url\":\"https://redding.craigslist.org/gms/d/redding-humble-abode-estate-sales/7928253209.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-humble-abode-estate-sales/7928253209.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-humble-abode-estate-sales/7928253209.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:36:35.129Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-humble-abode-estate-sales/7928253209.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-humble-abode-estate-sales/7928253209.html"
+}

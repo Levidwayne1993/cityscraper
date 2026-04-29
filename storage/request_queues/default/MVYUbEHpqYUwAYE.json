@@ -1,0 +1,9 @@
+{
+	"id": "MVYUbEHpqYUwAYE",
+	"json": "{\"id\":\"MVYUbEHpqYUwAYE\",\"url\":\"https://delaware.craigslist.org/gms/d/elkton-frenchtown-woods-community-yard/7928354286.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/elkton-frenchtown-woods-community-yard/7928354286.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/elkton-frenchtown-woods-community-yard/7928354286.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:52.346Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/elkton-frenchtown-woods-community-yard/7928354286.html",
+	"url": "https://delaware.craigslist.org/gms/d/elkton-frenchtown-woods-community-yard/7928354286.html"
+}

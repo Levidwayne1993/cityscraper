@@ -1,0 +1,9 @@
+{
+	"id": "HAEL0fjIRVxaEyn",
+	"json": "{\"id\":\"HAEL0fjIRVxaEyn\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-april-24-25garage-sale-lots/7929798382.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-april-24-25garage-sale-lots/7929798382.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-april-24-25garage-sale-lots/7929798382.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:44.543Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-april-24-25garage-sale-lots/7929798382.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-april-24-25garage-sale-lots/7929798382.html"
+}

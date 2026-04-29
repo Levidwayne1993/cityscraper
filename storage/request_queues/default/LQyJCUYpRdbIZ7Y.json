@@ -1,0 +1,9 @@
+{
+	"id": "LQyJCUYpRdbIZ7Y",
+	"json": "{\"id\":\"LQyJCUYpRdbIZ7Y\",\"url\":\"https://newhaven.craigslist.org/gms/d/west-haven-big-garage-sale/7930217810.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/west-haven-big-garage-sale/7930217810.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/west-haven-big-garage-sale/7930217810.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:10:21.708Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/west-haven-big-garage-sale/7930217810.html",
+	"url": "https://newhaven.craigslist.org/gms/d/west-haven-big-garage-sale/7930217810.html"
+}

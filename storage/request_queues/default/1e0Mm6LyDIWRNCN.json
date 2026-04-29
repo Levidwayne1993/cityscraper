@@ -1,0 +1,9 @@
+{
+	"id": "1e0Mm6LyDIWRNCN",
+	"json": "{\"id\":\"1e0Mm6LyDIWRNCN\",\"url\":\"https://wichita.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://wichita.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519912,
+	"retryCount": 0,
+	"uniqueKey": "https://wichita.craigslist.org/search/gms?s=360",
+	"url": "https://wichita.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "e8WhbP1tbeMrFIC",
+	"json": "{\"id\":\"e8WhbP1tbeMrFIC\",\"url\":\"https://orlando.craigslist.org/gms/d/oviedo-community-garage-sale-chula/7927017834.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/oviedo-community-garage-sale-chula/7927017834.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/oviedo-community-garage-sale-chula/7927017834.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:20:50.799Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/oviedo-community-garage-sale-chula/7927017834.html",
+	"url": "https://orlando.craigslist.org/gms/d/oviedo-community-garage-sale-chula/7927017834.html"
+}

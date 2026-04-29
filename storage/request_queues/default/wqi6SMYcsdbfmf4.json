@@ -1,0 +1,9 @@
+{
+	"id": "wqi6SMYcsdbfmf4",
+	"json": "{\"id\":\"wqi6SMYcsdbfmf4\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-aloha-garage-yard-sale/7926990473.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-aloha-garage-yard-sale/7926990473.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-aloha-garage-yard-sale/7926990473.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:10:08.759Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-aloha-garage-yard-sale/7926990473.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-aloha-garage-yard-sale/7926990473.html"
+}

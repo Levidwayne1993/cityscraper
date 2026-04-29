@@ -1,0 +1,9 @@
+{
+	"id": "hK7IYZNkgZK6jCd",
+	"json": "{\"id\":\"hK7IYZNkgZK6jCd\",\"url\":\"https://loz.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://loz.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521266,
+	"retryCount": 0,
+	"uniqueKey": "https://loz.craigslist.org/search/gms?s=480",
+	"url": "https://loz.craigslist.org/search/gms?s=480"
+}

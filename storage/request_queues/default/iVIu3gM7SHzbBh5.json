@@ -1,0 +1,9 @@
+{
+	"id": "iVIu3gM7SHzbBh5",
+	"json": "{\"id\":\"iVIu3gM7SHzbBh5\",\"url\":\"https://chico.craigslist.org/gms/d/chico-spring-into-spring-yard-sale/7921846463.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-spring-into-spring-yard-sale/7921846463.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-spring-into-spring-yard-sale/7921846463.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:30:55.671Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-spring-into-spring-yard-sale/7921846463.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-spring-into-spring-yard-sale/7921846463.html"
+}

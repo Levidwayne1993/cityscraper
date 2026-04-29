@@ -1,0 +1,9 @@
+{
+	"id": "UIXiJPYV91hMtqS",
+	"json": "{\"id\":\"UIXiJPYV91hMtqS\",\"url\":\"https://appleton.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://appleton.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528217,
+	"retryCount": 0,
+	"uniqueKey": "https://appleton.craigslist.org/search/gms?s=360",
+	"url": "https://appleton.craigslist.org/search/gms?s=360"
+}

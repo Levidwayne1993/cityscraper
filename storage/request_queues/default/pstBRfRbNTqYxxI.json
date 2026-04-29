@@ -1,8 +1,8 @@
 {
 	"id": "pstBRfRbNTqYxxI",
-	"json": "{\"id\":\"pstBRfRbNTqYxxI\",\"url\":\"https://mankato.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://mankato.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"pstBRfRbNTqYxxI\",\"url\":\"https://mankato.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://mankato.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
 	"method": "GET",
-	"orderNo": 1777040325369,
+	"orderNo": 1777186521014,
 	"retryCount": 0,
 	"uniqueKey": "https://mankato.craigslist.org/search/sss?query=estate+sale",
 	"url": "https://mankato.craigslist.org/search/sss?query=estate+sale"

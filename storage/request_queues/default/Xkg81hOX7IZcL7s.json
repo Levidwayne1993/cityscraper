@@ -1,0 +1,9 @@
+{
+	"id": "Xkg81hOX7IZcL7s",
+	"json": "{\"id\":\"Xkg81hOX7IZcL7s\",\"url\":\"https://stillwater.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://stillwater.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525106,
+	"retryCount": 0,
+	"uniqueKey": "https://stillwater.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://stillwater.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

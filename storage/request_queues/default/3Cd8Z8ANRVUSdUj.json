@@ -1,0 +1,9 @@
+{
+	"id": "3Cd8Z8ANRVUSdUj",
+	"json": "{\"id\":\"3Cd8Z8ANRVUSdUj\",\"url\":\"https://chico.craigslist.org/gms/d/chico-huge-multi-family-yard-sale-chico/7922172519.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-huge-multi-family-yard-sale-chico/7922172519.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-huge-multi-family-yard-sale-chico/7922172519.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: request timed out after 90 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\citys\\\\Documents\\\\cityscraper\\\\node_modules\\\\@apify\\\\src\\\\index.ts:87:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:36.557Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-huge-multi-family-yard-sale-chico/7922172519.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-huge-multi-family-yard-sale-chico/7922172519.html"
+}

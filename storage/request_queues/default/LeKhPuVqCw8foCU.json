@@ -1,0 +1,9 @@
+{
+	"id": "LeKhPuVqCw8foCU",
+	"json": "{\"id\":\"LeKhPuVqCw8foCU\",\"url\":\"https://southflorida.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://southflorida.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777218943634,
+	"retryCount": 0,
+	"uniqueKey": "https://southflorida.craigslist.org/search/gms?s=480",
+	"url": "https://southflorida.craigslist.org/search/gms?s=480"
+}

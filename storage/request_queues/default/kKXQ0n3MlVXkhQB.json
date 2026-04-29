@@ -1,0 +1,9 @@
+{
+	"id": "kKXQ0n3MlVXkhQB",
+	"json": "{\"id\":\"kKXQ0n3MlVXkhQB\",\"url\":\"https://okaloosa.craigslist.org/bpo/d/fort-walton-beach-nautical-yard-sale/7928692369.html\",\"loadedUrl\":\"https://okaloosa.craigslist.org/bpo/d/fort-walton-beach-nautical-yard-sale/7928692369.html\",\"uniqueKey\":\"https://okaloosa.craigslist.org/bpo/d/fort-walton-beach-nautical-yard-sale/7928692369.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:18:07.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/bpo/d/fort-walton-beach-nautical-yard-sale/7928692369.html",
+	"url": "https://okaloosa.craigslist.org/bpo/d/fort-walton-beach-nautical-yard-sale/7928692369.html"
+}

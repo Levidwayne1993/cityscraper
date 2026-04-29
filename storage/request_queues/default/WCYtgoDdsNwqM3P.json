@@ -1,0 +1,9 @@
+{
+	"id": "WCYtgoDdsNwqM3P",
+	"json": "{\"id\":\"WCYtgoDdsNwqM3P\",\"url\":\"https://westslope.craigslist.org/gms/d/loma-yard-sale-multi-family-saturday/7922200035.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/loma-yard-sale-multi-family-saturday/7922200035.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/loma-yard-sale-multi-family-saturday/7922200035.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:19.443Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/loma-yard-sale-multi-family-saturday/7922200035.html",
+	"url": "https://westslope.craigslist.org/gms/d/loma-yard-sale-multi-family-saturday/7922200035.html"
+}

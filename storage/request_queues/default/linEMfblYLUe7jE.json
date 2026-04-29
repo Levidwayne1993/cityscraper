@@ -1,0 +1,9 @@
+{
+	"id": "linEMfblYLUe7jE",
+	"json": "{\"id\":\"linEMfblYLUe7jE\",\"url\":\"https://westslope.craigslist.org/tls/d/grand-junction-moving-sale-lots-of-tools/7926289341.html\",\"loadedUrl\":\"https://westslope.craigslist.org/tls/d/grand-junction-moving-sale-lots-of-tools/7926289341.html\",\"uniqueKey\":\"https://westslope.craigslist.org/tls/d/grand-junction-moving-sale-lots-of-tools/7926289341.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:29.092Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/tls/d/grand-junction-moving-sale-lots-of-tools/7926289341.html",
+	"url": "https://westslope.craigslist.org/tls/d/grand-junction-moving-sale-lots-of-tools/7926289341.html"
+}

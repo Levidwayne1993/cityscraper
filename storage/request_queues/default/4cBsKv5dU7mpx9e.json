@@ -1,0 +1,9 @@
+{
+	"id": "4cBsKv5dU7mpx9e",
+	"json": "{\"id\":\"4cBsKv5dU7mpx9e\",\"url\":\"https://wenatchee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://wenatchee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528061,
+	"retryCount": 0,
+	"uniqueKey": "https://wenatchee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://wenatchee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

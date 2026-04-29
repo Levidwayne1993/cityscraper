@@ -1,0 +1,9 @@
+{
+	"id": "s5codkVam9X0WTc",
+	"json": "{\"id\":\"s5codkVam9X0WTc\",\"url\":\"https://eauclaire.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://eauclaire.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528258,
+	"retryCount": 0,
+	"uniqueKey": "https://eauclaire.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://eauclaire.craigslist.org/search/ccc?query=yard+sale"
+}

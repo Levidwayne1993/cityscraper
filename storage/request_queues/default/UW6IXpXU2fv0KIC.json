@@ -1,0 +1,9 @@
+{
+	"id": "UW6IXpXU2fv0KIC",
+	"json": "{\"id\":\"UW6IXpXU2fv0KIC\",\"url\":\"https://chambana.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://chambana.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518093,
+	"retryCount": 0,
+	"uniqueKey": "https://chambana.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://chambana.craigslist.org/search/ccc?query=garage+sale"
+}

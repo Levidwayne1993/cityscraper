@@ -1,0 +1,9 @@
+{
+	"id": "qKgC7EqFQzDxmUF",
+	"json": "{\"id\":\"qKgC7EqFQzDxmUF\",\"url\":\"https://lakeland.craigslist.org/gms/d/auburndale-estate-sale/7916149737.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/auburndale-estate-sale/7916149737.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/auburndale-estate-sale/7916149737.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:58.232Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/auburndale-estate-sale/7916149737.html",
+	"url": "https://lakeland.craigslist.org/gms/d/auburndale-estate-sale/7916149737.html"
+}

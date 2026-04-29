@@ -1,0 +1,9 @@
+{
+	"id": "AJFi9ZAkNlEVm7H",
+	"json": "{\"id\":\"AJFi9ZAkNlEVm7H\",\"url\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-in-cow-field/7930066501.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-in-cow-field/7930066501.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-in-cow-field/7930066501.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:57:25.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/arcata-yard-sale-in-cow-field/7930066501.html",
+	"url": "https://humboldt.craigslist.org/gms/d/arcata-yard-sale-in-cow-field/7930066501.html"
+}

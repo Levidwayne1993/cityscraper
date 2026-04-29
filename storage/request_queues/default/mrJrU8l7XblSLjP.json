@@ -1,0 +1,9 @@
+{
+	"id": "mrJrU8l7XblSLjP",
+	"json": "{\"id\":\"mrJrU8l7XblSLjP\",\"url\":\"https://sarasota.craigslist.org/gms/d/bradenton-large-garage-sale-th-ave/7927016445.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/bradenton-large-garage-sale-th-ave/7927016445.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/bradenton-large-garage-sale-th-ave/7927016445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:35.748Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/bradenton-large-garage-sale-th-ave/7927016445.html",
+	"url": "https://sarasota.craigslist.org/gms/d/bradenton-large-garage-sale-th-ave/7927016445.html"
+}

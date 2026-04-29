@@ -1,0 +1,9 @@
+{
+	"id": "ZghiZFqBWvOodmO",
+	"json": "{\"id\":\"ZghiZFqBWvOodmO\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-brians-garage-sale/7925237882.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-brians-garage-sale/7925237882.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-brians-garage-sale/7925237882.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:23.072Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-brians-garage-sale/7925237882.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-brians-garage-sale/7925237882.html"
+}

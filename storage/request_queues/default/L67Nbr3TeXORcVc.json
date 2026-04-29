@@ -1,0 +1,9 @@
+{
+	"id": "L67Nbr3TeXORcVc",
+	"json": "{\"id\":\"L67Nbr3TeXORcVc\",\"url\":\"https://ocala.craigslist.org/gms/d/beverly-hills-garage-sale-saturday-and/7922524728.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/beverly-hills-garage-sale-saturday-and/7922524728.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/beverly-hills-garage-sale-saturday-and/7922524728.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:13.309Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/beverly-hills-garage-sale-saturday-and/7922524728.html",
+	"url": "https://ocala.craigslist.org/gms/d/beverly-hills-garage-sale-saturday-and/7922524728.html"
+}

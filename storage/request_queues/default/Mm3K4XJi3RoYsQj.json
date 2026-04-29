@@ -1,0 +1,9 @@
+{
+	"id": "Mm3K4XJi3RoYsQj",
+	"json": "{\"id\":\"Mm3K4XJi3RoYsQj\",\"url\":\"https://jonesboro.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://jonesboro.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://jonesboro.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:17:06.192Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jonesboro.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://jonesboro.craigslist.org/search/ccc?query=yard+sale"
+}

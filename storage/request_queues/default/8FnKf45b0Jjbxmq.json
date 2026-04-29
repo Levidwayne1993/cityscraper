@@ -1,0 +1,9 @@
+{
+	"id": "8FnKf45b0Jjbxmq",
+	"json": "{\"id\":\"8FnKf45b0Jjbxmq\",\"url\":\"https://flagstaff.craigslist.org/gms/d/rimrock-huge-garage-sale/7923587846.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/rimrock-huge-garage-sale/7923587846.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/rimrock-huge-garage-sale/7923587846.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:13.082Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/rimrock-huge-garage-sale/7923587846.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/rimrock-huge-garage-sale/7923587846.html"
+}

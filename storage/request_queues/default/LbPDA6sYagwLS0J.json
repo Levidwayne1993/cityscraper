@@ -1,0 +1,9 @@
+{
+	"id": "LbPDA6sYagwLS0J",
+	"json": "{\"id\":\"LbPDA6sYagwLS0J\",\"url\":\"https://westslope.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://westslope.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://westslope.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:47.933Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://westslope.craigslist.org/search/ccc?query=garage+sale"
+}

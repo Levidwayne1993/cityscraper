@@ -1,0 +1,9 @@
+{
+	"id": "shEObdywYErraPC",
+	"json": "{\"id\":\"shEObdywYErraPC\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/spencerville-large-yardsale-saturday/7926585624.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/spencerville-large-yardsale-saturday/7926585624.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/spencerville-large-yardsale-saturday/7926585624.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:24:53.955Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/spencerville-large-yardsale-saturday/7926585624.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/spencerville-large-yardsale-saturday/7926585624.html"
+}

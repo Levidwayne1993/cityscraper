@@ -1,0 +1,9 @@
+{
+	"id": "MPjY2lKL7hpCgay",
+	"json": "{\"id\":\"MPjY2lKL7hpCgay\",\"url\":\"https://wichitafalls.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://wichitafalls.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527619,
+	"retryCount": 0,
+	"uniqueKey": "https://wichitafalls.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://wichitafalls.craigslist.org/search/ccc?query=yard+sale"
+}

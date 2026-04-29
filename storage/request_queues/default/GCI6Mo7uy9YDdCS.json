@@ -1,0 +1,9 @@
+{
+	"id": "GCI6Mo7uy9YDdCS",
+	"json": "{\"id\":\"GCI6Mo7uy9YDdCS\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-los-gatos-yard-sale-sunday-am/7929259226.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-los-gatos-yard-sale-sunday-am/7929259226.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/los-gatos-los-gatos-yard-sale-sunday-am/7929259226.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:47.609Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/los-gatos-los-gatos-yard-sale-sunday-am/7929259226.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/los-gatos-los-gatos-yard-sale-sunday-am/7929259226.html"
+}

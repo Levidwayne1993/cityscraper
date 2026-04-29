@@ -1,0 +1,9 @@
+{
+	"id": "g3gFWIqt5zEcQ0L",
+	"json": "{\"id\":\"g3gFWIqt5zEcQ0L\",\"url\":\"https://charlestonwv.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://charlestonwv.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528100,
+	"retryCount": 0,
+	"uniqueKey": "https://charlestonwv.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://charlestonwv.craigslist.org/search/ccc?query=garage+sale"
+}

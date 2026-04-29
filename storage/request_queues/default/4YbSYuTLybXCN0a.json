@@ -1,0 +1,9 @@
+{
+	"id": "4YbSYuTLybXCN0a",
+	"json": "{\"id\":\"4YbSYuTLybXCN0a\",\"url\":\"https://texarkana.craigslist.org/gms/d/texarkana-huge-church-sale/7920971935.html\",\"loadedUrl\":\"https://texarkana.craigslist.org/gms/d/texarkana-huge-church-sale/7920971935.html\",\"uniqueKey\":\"https://texarkana.craigslist.org/gms/d/texarkana-huge-church-sale/7920971935.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:20:13.603Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://texarkana.craigslist.org/gms/d/texarkana-huge-church-sale/7920971935.html",
+	"url": "https://texarkana.craigslist.org/gms/d/texarkana-huge-church-sale/7920971935.html"
+}

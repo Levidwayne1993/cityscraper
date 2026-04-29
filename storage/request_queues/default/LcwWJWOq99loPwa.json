@@ -1,0 +1,9 @@
+{
+	"id": "LcwWJWOq99loPwa",
+	"json": "{\"id\":\"LcwWJWOq99loPwa\",\"url\":\"https://chico.craigslist.org/gms/d/chico-garage-yard-sale-multi-family/7928264945.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-garage-yard-sale-multi-family/7928264945.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-garage-yard-sale-multi-family/7928264945.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:29.643Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-garage-yard-sale-multi-family/7928264945.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-garage-yard-sale-multi-family/7928264945.html"
+}

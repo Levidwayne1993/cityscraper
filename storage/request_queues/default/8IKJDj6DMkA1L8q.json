@@ -1,0 +1,9 @@
+{
+	"id": "8IKJDj6DMkA1L8q",
+	"json": "{\"id\":\"8IKJDj6DMkA1L8q\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale-morse-shores/7923614733.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale-morse-shores/7923614733.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale-morse-shores/7923614733.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:59.232Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale-morse-shores/7923614733.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale-morse-shores/7923614733.html"
+}

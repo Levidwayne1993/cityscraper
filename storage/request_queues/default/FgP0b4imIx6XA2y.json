@@ -1,0 +1,9 @@
+{
+	"id": "FgP0b4imIx6XA2y",
+	"json": "{\"id\":\"FgP0b4imIx6XA2y\",\"url\":\"https://slo.craigslist.org/com/d/morro-bay-garage-sale-weekend-of/7928349972.html\",\"loadedUrl\":\"https://slo.craigslist.org/com/d/morro-bay-garage-sale-weekend-of/7928349972.html\",\"uniqueKey\":\"https://slo.craigslist.org/com/d/morro-bay-garage-sale-weekend-of/7928349972.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:50:29.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/com/d/morro-bay-garage-sale-weekend-of/7928349972.html",
+	"url": "https://slo.craigslist.org/com/d/morro-bay-garage-sale-weekend-of/7928349972.html"
+}

@@ -1,9 +1,0 @@
-{
-	"id": "vWZS8eI4Th9JKYx",
-	"json": "{\"id\":\"vWZS8eI4Th9JKYx\",\"url\":\"https://enid.craigslist.org/search/gms\",\"uniqueKey\":\"https://enid.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327459,
-	"retryCount": 0,
-	"uniqueKey": "https://enid.craigslist.org/search/gms",
-	"url": "https://enid.craigslist.org/search/gms"
-}

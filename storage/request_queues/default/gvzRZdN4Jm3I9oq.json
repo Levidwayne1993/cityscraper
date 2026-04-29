@@ -1,0 +1,9 @@
+{
+	"id": "gvzRZdN4Jm3I9oq",
+	"json": "{\"id\":\"gvzRZdN4Jm3I9oq\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/MI/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/MI\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186530065,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/MI",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/MI/"
+}

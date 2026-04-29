@@ -1,0 +1,9 @@
+{
+	"id": "ZH9KeQ05Q2BUuF9",
+	"json": "{\"id\":\"ZH9KeQ05Q2BUuF9\",\"url\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-really-great-yard-sale/7920627319.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-really-great-yard-sale/7920627319.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-really-great-yard-sale/7920627319.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:39.796Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/lake-havasu-city-really-great-yard-sale/7920627319.html",
+	"url": "https://mohave.craigslist.org/gms/d/lake-havasu-city-really-great-yard-sale/7920627319.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "K1xT1yrWGdwqP1K",
+	"json": "{\"id\":\"K1xT1yrWGdwqP1K\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-community-yard-sale/7922520752.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-community-yard-sale/7922520752.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-community-yard-sale/7922520752.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:27.064Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/surprise-community-yard-sale/7922520752.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/surprise-community-yard-sale/7922520752.html"
+}

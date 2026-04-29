@@ -1,9 +1,0 @@
-{
-	"id": "4IHnDKU3fvhjK8c",
-	"json": "{\"id\":\"4IHnDKU3fvhjK8c\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Syracuse-NY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Syracuse-NY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NY\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040332674,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Syracuse-NY.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Syracuse-NY.html"
-}

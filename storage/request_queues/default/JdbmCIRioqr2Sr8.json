@@ -1,0 +1,9 @@
+{
+	"id": "JdbmCIRioqr2Sr8",
+	"json": "{\"id\":\"JdbmCIRioqr2Sr8\",\"url\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-modern-stainless/7929826888.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-modern-stainless/7929826888.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-modern-stainless/7929826888.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:37:24.829Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-modern-stainless/7929826888.html",
+	"url": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-modern-stainless/7929826888.html"
+}

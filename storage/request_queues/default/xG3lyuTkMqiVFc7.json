@@ -1,0 +1,9 @@
+{
+	"id": "xG3lyuTkMqiVFc7",
+	"json": "{\"id\":\"xG3lyuTkMqiVFc7\",\"url\":\"https://losangeles.craigslist.org/ant/gms/d/lancaster-moving-sale/7929883263.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/ant/gms/d/lancaster-moving-sale/7929883263.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/ant/gms/d/lancaster-moving-sale/7929883263.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:34:44.376Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/ant/gms/d/lancaster-moving-sale/7929883263.html",
+	"url": "https://losangeles.craigslist.org/ant/gms/d/lancaster-moving-sale/7929883263.html"
+}

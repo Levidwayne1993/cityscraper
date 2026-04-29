@@ -1,0 +1,9 @@
+{
+	"id": "67GEbWEMBbRMckt",
+	"json": "{\"id\":\"67GEbWEMBbRMckt\",\"url\":\"https://denver.craigslist.org/app/d/denver-complete-queen-bed-bedroom-set/7928575139.html\",\"loadedUrl\":\"https://denver.craigslist.org/app/d/denver-complete-queen-bed-bedroom-set/7928575139.html\",\"uniqueKey\":\"https://denver.craigslist.org/app/d/denver-complete-queen-bed-bedroom-set/7928575139.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:04.401Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/app/d/denver-complete-queen-bed-bedroom-set/7928575139.html",
+	"url": "https://denver.craigslist.org/app/d/denver-complete-queen-bed-bedroom-set/7928575139.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gd6N1blZeC1AXsf",
+	"json": "{\"id\":\"gd6N1blZeC1AXsf\",\"url\":\"https://fresno.craigslist.org/gms/d/selma-huge-yard-sale-days-of-new-items/7923810393.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/selma-huge-yard-sale-days-of-new-items/7923810393.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/selma-huge-yard-sale-days-of-new-items/7923810393.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:41:04.610Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/selma-huge-yard-sale-days-of-new-items/7923810393.html",
+	"url": "https://fresno.craigslist.org/gms/d/selma-huge-yard-sale-days-of-new-items/7923810393.html"
+}

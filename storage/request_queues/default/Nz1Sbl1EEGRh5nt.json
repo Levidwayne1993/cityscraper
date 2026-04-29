@@ -1,0 +1,9 @@
+{
+	"id": "Nz1Sbl1EEGRh5nt",
+	"json": "{\"id\":\"Nz1Sbl1EEGRh5nt\",\"url\":\"https://anchorage.craigslist.org/gms/d/palmer-garage-sale-big-one/7930001325.html\",\"loadedUrl\":\"https://anchorage.craigslist.org/gms/d/palmer-garage-sale-big-one/7930001325.html\",\"uniqueKey\":\"https://anchorage.craigslist.org/gms/d/palmer-garage-sale-big-one/7930001325.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:10:25.032Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/gms/d/palmer-garage-sale-big-one/7930001325.html",
+	"url": "https://anchorage.craigslist.org/gms/d/palmer-garage-sale-big-one/7930001325.html"
+}

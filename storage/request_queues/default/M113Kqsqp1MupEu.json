@@ -1,0 +1,9 @@
+{
+	"id": "M113Kqsqp1MupEu",
+	"json": "{\"id\":\"M113Kqsqp1MupEu\",\"url\":\"https://grandisland.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://grandisland.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522644,
+	"retryCount": 0,
+	"uniqueKey": "https://grandisland.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://grandisland.craigslist.org/search/ccc?query=yard+sale"
+}

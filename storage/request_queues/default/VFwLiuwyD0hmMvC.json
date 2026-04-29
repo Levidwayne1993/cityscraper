@@ -1,0 +1,9 @@
+{
+	"id": "VFwLiuwyD0hmMvC",
+	"json": "{\"id\":\"VFwLiuwyD0hmMvC\",\"url\":\"https://denver.craigslist.org/gms/d/parker-huge-garage-sale/7927053035.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/parker-huge-garage-sale/7927053035.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/parker-huge-garage-sale/7927053035.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:44.872Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/parker-huge-garage-sale/7927053035.html",
+	"url": "https://denver.craigslist.org/gms/d/parker-huge-garage-sale/7927053035.html"
+}

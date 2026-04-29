@@ -1,0 +1,9 @@
+{
+	"id": "3xEiVI6UkryihdC",
+	"json": "{\"id\":\"3xEiVI6UkryihdC\",\"url\":\"https://memphis.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://memphis.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526062,
+	"retryCount": 0,
+	"uniqueKey": "https://memphis.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://memphis.craigslist.org/search/ccc?query=garage+sale"
+}

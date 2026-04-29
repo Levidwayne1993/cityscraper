@@ -1,0 +1,9 @@
+{
+	"id": "ZDXKVccGRQ7eAAV",
+	"json": "{\"id\":\"ZDXKVccGRQ7eAAV\",\"url\":\"https://fortsmith.craigslist.org/gms/d/hodgen-moving-sale-everything-must-go/7930076285.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/hodgen-moving-sale-everything-must-go/7930076285.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/hodgen-moving-sale-everything-must-go/7930076285.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:14:10.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/hodgen-moving-sale-everything-must-go/7930076285.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/hodgen-moving-sale-everything-must-go/7930076285.html"
+}

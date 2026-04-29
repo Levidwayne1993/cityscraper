@@ -1,0 +1,9 @@
+{
+	"id": "HjJiGUA2z3NVCYd",
+	"json": "{\"id\":\"HjJiGUA2z3NVCYd\",\"url\":\"https://orlando.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://orlando.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://orlando.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:19.658Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://orlando.craigslist.org/search/ccc?query=garage+sale"
+}

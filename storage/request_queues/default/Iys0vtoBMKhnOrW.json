@@ -1,0 +1,9 @@
+{
+	"id": "Iys0vtoBMKhnOrW",
+	"json": "{\"id\":\"Iys0vtoBMKhnOrW\",\"url\":\"https://fortcollins.craigslist.org/gms/d/greeley-multiple-family-garage-sale/7929545929.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/greeley-multiple-family-garage-sale/7929545929.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/greeley-multiple-family-garage-sale/7929545929.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:51:53.461Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/greeley-multiple-family-garage-sale/7929545929.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/greeley-multiple-family-garage-sale/7929545929.html"
+}

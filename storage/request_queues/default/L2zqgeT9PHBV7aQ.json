@@ -1,0 +1,9 @@
+{
+	"id": "L2zqgeT9PHBV7aQ",
+	"json": "{\"id\":\"L2zqgeT9PHBV7aQ\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/newark-100/7930057738.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/newark-100/7930057738.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/newark-100/7930057738.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:34.348Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/newark-100/7930057738.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/newark-100/7930057738.html"
+}

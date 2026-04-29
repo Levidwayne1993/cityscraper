@@ -1,0 +1,9 @@
+{
+	"id": "hDKBRS7NwC7eW9c",
+	"json": "{\"id\":\"hDKBRS7NwC7eW9c\",\"url\":\"https://slo.craigslist.org/gms/d/morro-bay-electronics-garage-sale/7922632289.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/morro-bay-electronics-garage-sale/7922632289.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/morro-bay-electronics-garage-sale/7922632289.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:47:33.761Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/morro-bay-electronics-garage-sale/7922632289.html",
+	"url": "https://slo.craigslist.org/gms/d/morro-bay-electronics-garage-sale/7922632289.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ABv0wcexXqaOiPc",
+	"json": "{\"id\":\"ABv0wcexXqaOiPc\",\"url\":\"https://cosprings.craigslist.org/wan/d/fountain-garage-sale-7608-barn-owl-dr/7922600834.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/wan/d/fountain-garage-sale-7608-barn-owl-dr/7922600834.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/wan/d/fountain-garage-sale-7608-barn-owl-dr/7922600834.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:32:47.084Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/wan/d/fountain-garage-sale-7608-barn-owl-dr/7922600834.html",
+	"url": "https://cosprings.craigslist.org/wan/d/fountain-garage-sale-7608-barn-owl-dr/7922600834.html"
+}

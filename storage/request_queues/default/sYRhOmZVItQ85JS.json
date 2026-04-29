@@ -1,0 +1,9 @@
+{
+	"id": "sYRhOmZVItQ85JS",
+	"json": "{\"id\":\"sYRhOmZVItQ85JS\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/pacifica-huge-estate-sale-saturday/7930027927.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/pacifica-huge-estate-sale-saturday/7930027927.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/pacifica-huge-estate-sale-saturday/7930027927.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:17.102Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/pacifica-huge-estate-sale-saturday/7930027927.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/pacifica-huge-estate-sale-saturday/7930027927.html"
+}

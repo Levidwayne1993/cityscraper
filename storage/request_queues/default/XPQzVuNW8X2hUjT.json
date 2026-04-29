@@ -1,0 +1,9 @@
+{
+	"id": "XPQzVuNW8X2hUjT",
+	"json": "{\"id\":\"XPQzVuNW8X2hUjT\",\"url\":\"https://southflorida.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://southflorida.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777218943634,
+	"retryCount": 0,
+	"uniqueKey": "https://southflorida.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://southflorida.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

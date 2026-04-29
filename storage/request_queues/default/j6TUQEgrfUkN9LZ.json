@@ -1,8 +1,8 @@
 {
 	"id": "j6TUQEgrfUkN9LZ",
-	"json": "{\"id\":\"j6TUQEgrfUkN9LZ\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"j6TUQEgrfUkN9LZ\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:00:52.361Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323311,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://siskiyou.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://siskiyou.craigslist.org/search/sss?query=moving+sale"

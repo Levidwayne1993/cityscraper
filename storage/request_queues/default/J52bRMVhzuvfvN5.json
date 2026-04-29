@@ -1,0 +1,9 @@
+{
+	"id": "J52bRMVhzuvfvN5",
+	"json": "{\"id\":\"J52bRMVhzuvfvN5\",\"url\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-24-and-25/7929868867.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-24-and-25/7929868867.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-24-and-25/7929868867.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:36.496Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/englewood-garage-sale-24-and-25/7929868867.html",
+	"url": "https://denver.craigslist.org/gms/d/englewood-garage-sale-24-and-25/7929868867.html"
+}

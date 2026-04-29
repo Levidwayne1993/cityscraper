@@ -1,0 +1,9 @@
+{
+	"id": "fKm0t9YObC0qQNr",
+	"json": "{\"id\":\"fKm0t9YObC0qQNr\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-huge-garage-sale-glendale-75th/7928272843.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-huge-garage-sale-glendale-75th/7928272843.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-huge-garage-sale-glendale-75th/7928272843.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:04.230Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/glendale-huge-garage-sale-glendale-75th/7928272843.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/glendale-huge-garage-sale-glendale-75th/7928272843.html"
+}

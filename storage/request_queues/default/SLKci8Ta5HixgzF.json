@@ -1,0 +1,9 @@
+{
+	"id": "SLKci8Ta5HixgzF",
+	"json": "{\"id\":\"SLKci8Ta5HixgzF\",\"url\":\"https://delaware.craigslist.org/gms/d/dover-yard-sale-saturday-18/7928241878.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/dover-yard-sale-saturday-18/7928241878.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/dover-yard-sale-saturday-18/7928241878.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:47.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/dover-yard-sale-saturday-18/7928241878.html",
+	"url": "https://delaware.craigslist.org/gms/d/dover-yard-sale-saturday-18/7928241878.html"
+}

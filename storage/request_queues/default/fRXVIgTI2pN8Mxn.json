@@ -1,0 +1,9 @@
+{
+	"id": "fRXVIgTI2pN8Mxn",
+	"json": "{\"id\":\"fRXVIgTI2pN8Mxn\",\"url\":\"https://redding.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://redding.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://redding.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:34:42.293Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/search/gms?s=480",
+	"url": "https://redding.craigslist.org/search/gms?s=480"
+}

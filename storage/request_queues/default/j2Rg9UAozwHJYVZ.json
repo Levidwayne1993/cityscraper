@@ -1,0 +1,9 @@
+{
+	"id": "j2Rg9UAozwHJYVZ",
+	"json": "{\"id\":\"j2Rg9UAozwHJYVZ\",\"url\":\"https://stcloud.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://stcloud.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521077,
+	"retryCount": 0,
+	"uniqueKey": "https://stcloud.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://stcloud.craigslist.org/search/ccc?query=yard+sale"
+}

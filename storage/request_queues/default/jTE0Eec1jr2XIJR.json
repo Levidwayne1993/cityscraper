@@ -1,0 +1,9 @@
+{
+	"id": "jTE0Eec1jr2XIJR",
+	"json": "{\"id\":\"jTE0Eec1jr2XIJR\",\"url\":\"https://racine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://racine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528436,
+	"retryCount": 0,
+	"uniqueKey": "https://racine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://racine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

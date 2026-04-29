@@ -1,0 +1,9 @@
+{
+	"id": "2C87GiCr6cT7oKJ",
+	"json": "{\"id\":\"2C87GiCr6cT7oKJ\",\"url\":\"https://sacramento.craigslist.org/gms/d/elk-grove-big-garage-estate-sale/7929963292.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/elk-grove-big-garage-estate-sale/7929963292.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/elk-grove-big-garage-estate-sale/7929963292.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:26.059Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/elk-grove-big-garage-estate-sale/7929963292.html",
+	"url": "https://sacramento.craigslist.org/gms/d/elk-grove-big-garage-estate-sale/7929963292.html"
+}

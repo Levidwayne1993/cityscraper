@@ -1,0 +1,9 @@
+{
+	"id": "8kwjQGe7YNj9dKC",
+	"json": "{\"id\":\"8kwjQGe7YNj9dKC\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/waddell-community-yard-sale/7924068469.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/waddell-community-yard-sale/7924068469.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/waddell-community-yard-sale/7924068469.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:27:40.618Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/waddell-community-yard-sale/7924068469.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/waddell-community-yard-sale/7924068469.html"
+}

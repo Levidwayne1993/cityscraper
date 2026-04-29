@@ -1,0 +1,9 @@
+{
+	"id": "UimAQBjK9Z6yoTx",
+	"json": "{\"id\":\"UimAQBjK9Z6yoTx\",\"url\":\"https://jacksonville.craigslist.org/gms/d/fleming-island-community-yard-sale/7926694365.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/fleming-island-community-yard-sale/7926694365.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/fleming-island-community-yard-sale/7926694365.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:36:47.942Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/fleming-island-community-yard-sale/7926694365.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/fleming-island-community-yard-sale/7926694365.html"
+}

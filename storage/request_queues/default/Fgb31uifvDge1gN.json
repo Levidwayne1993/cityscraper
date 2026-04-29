@@ -1,0 +1,9 @@
+{
+	"id": "Fgb31uifvDge1gN",
+	"json": "{\"id\":\"Fgb31uifvDge1gN\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Springfield-MA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Springfield-MA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"MA\",\"yssSlug\":\"Springfield-MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186531150,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Springfield-MA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Springfield-MA.html"
+}

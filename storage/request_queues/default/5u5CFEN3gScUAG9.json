@@ -1,0 +1,9 @@
+{
+	"id": "5u5CFEN3gScUAG9",
+	"json": "{\"id\":\"5u5CFEN3gScUAG9\",\"url\":\"https://denver.craigslist.org/gms/d/commerce-city-yard-sale-yard-sale-yard/7922665773.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/commerce-city-yard-sale-yard-sale-yard/7922665773.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/commerce-city-yard-sale-yard-sale-yard/7922665773.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:06.227Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/commerce-city-yard-sale-yard-sale-yard/7922665773.html",
+	"url": "https://denver.craigslist.org/gms/d/commerce-city-yard-sale-yard-sale-yard/7922665773.html"
+}

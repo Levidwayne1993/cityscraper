@@ -1,0 +1,9 @@
+{
+	"id": "H5ZMx67QGcfXS9p",
+	"json": "{\"id\":\"H5ZMx67QGcfXS9p\",\"url\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-dresser/7929827313.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-dresser/7929827313.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-dresser/7929827313.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:37:29.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-dresser/7929827313.html",
+	"url": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-dresser/7929827313.html"
+}

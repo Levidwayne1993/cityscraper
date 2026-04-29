@@ -1,0 +1,9 @@
+{
+	"id": "6E7how8A7szAWV6",
+	"json": "{\"id\":\"6E7how8A7szAWV6\",\"url\":\"https://hartford.craigslist.org/gms/d/wolcott-garage-sale-75-forestview-dr/7929844194.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/wolcott-garage-sale-75-forestview-dr/7929844194.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/wolcott-garage-sale-75-forestview-dr/7929844194.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:06:09.559Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/wolcott-garage-sale-75-forestview-dr/7929844194.html",
+	"url": "https://hartford.craigslist.org/gms/d/wolcott-garage-sale-75-forestview-dr/7929844194.html"
+}

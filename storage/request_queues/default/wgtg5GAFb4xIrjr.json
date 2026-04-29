@@ -1,8 +1,8 @@
 {
 	"id": "wgtg5GAFb4xIrjr",
-	"json": "{\"id\":\"wgtg5GAFb4xIrjr\",\"url\":\"https://fayar.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://fayar.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"wgtg5GAFb4xIrjr\",\"url\":\"https://fayar.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://fayar.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://fayar.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:15.077Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323059,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fayar.craigslist.org/search/gms?s=240",
 	"url": "https://fayar.craigslist.org/search/gms?s=240"

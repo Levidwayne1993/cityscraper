@@ -1,0 +1,9 @@
+{
+	"id": "HwrsWpl0iivcU8E",
+	"json": "{\"id\":\"HwrsWpl0iivcU8E\",\"url\":\"https://cfl.craigslist.org/gms/d/avon-park-huge-multi-family-garage-sale/7926493807.html\",\"loadedUrl\":\"https://cfl.craigslist.org/gms/d/avon-park-huge-multi-family-garage-sale/7926493807.html\",\"uniqueKey\":\"https://cfl.craigslist.org/gms/d/avon-park-huge-multi-family-garage-sale/7926493807.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:34:08.152Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cfl.craigslist.org/gms/d/avon-park-huge-multi-family-garage-sale/7926493807.html",
+	"url": "https://cfl.craigslist.org/gms/d/avon-park-huge-multi-family-garage-sale/7926493807.html"
+}

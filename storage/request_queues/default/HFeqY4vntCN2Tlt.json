@@ -1,0 +1,9 @@
+{
+	"id": "HFeqY4vntCN2Tlt",
+	"json": "{\"id\":\"HFeqY4vntCN2Tlt\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/CA/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/CA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528853,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/CA",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/CA/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CfnR8yBayAb03Jt",
+	"json": "{\"id\":\"CfnR8yBayAb03Jt\",\"url\":\"https://minneapolis.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://minneapolis.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521025,
+	"retryCount": 0,
+	"uniqueKey": "https://minneapolis.craigslist.org/search/gms?s=480",
+	"url": "https://minneapolis.craigslist.org/search/gms?s=480"
+}

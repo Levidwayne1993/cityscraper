@@ -253,50 +253,186 @@ function normalizeTime(t: string): string {
   return `${hours}:${minutes} ${period}`;
 }
 
-// ── TIME EXTRACTION (v4.0: now normalizes all times) ──
+// —— TIME EXTRACTION (v4.7 — ENHANCED) ——
+// v4.7 FIXES:
+// 1. NEW: Bare number ranges like "7-2" → "7:00 AM - 2:00 PM"
+//    (yard sales almost always start AM and end PM)
+// 2. NEW: "7am-2pm" without spaces
+// 3. NEW: "7a-2p" shorthand
+// 4. IMPROVED: handles en-dash (–) and em-dash (—) as range separators
 function extractTimes(text: string): { time_start: string | null; time_end: string | null } {
-  const rangeMatch = text.match(/(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))\s*[-–to]+\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))/i);
-  if (rangeMatch) {
+  // Pattern 1: Full range with AM/PM on both sides
+  // "8:00 AM - 2:00 PM", "8AM-2PM", "8am – 2pm", "8a-2p"
+  const fullRange = text.match(
+    /(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM|a|p)\.?)\s*[-–—to]+\s*(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM|a|p)\.?)/i
+  );
+  if (fullRange) {
     return {
-      time_start: normalizeTime(rangeMatch[1].trim()),
-      time_end: normalizeTime(rangeMatch[2].trim()),
+      time_start: normalizeTime(expandTimeSuffix(fullRange[1].trim())),
+      time_end: normalizeTime(expandTimeSuffix(fullRange[2].trim())),
     };
   }
-  const singleMatch = text.match(/(?:starts?\s+(?:at\s+)?|opens?\s+(?:at\s+)?|from\s+)(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))/i);
+
+  // Pattern 2: Range with AM/PM only on end time
+  // "8-2pm", "8 - 2 PM", "7-12pm"
+  const partialRange = text.match(
+    /(\d{1,2}(?::\d{2})?)\s*[-–—to]+\s*(\d{1,2}(?::\d{2})?)\s*(am|pm|AM|PM)/i
+  );
+  if (partialRange) {
+    const endNum = parseInt(partialRange[2]);
+    const startNum = parseInt(partialRange[1]);
+    const endPeriod = partialRange[3].toUpperCase();
+    // If end is PM and start < end, start is likely AM
+    // e.g. "7-2 PM" → 7 AM - 2 PM
+    // But "1-3 PM" → 1 PM - 3 PM (both PM)
+    let startPeriod = endPeriod;
+    if (endPeriod === 'PM' && startNum <= 8 && startNum < endNum) {
+      startPeriod = 'AM';
+    }
+    return {
+      time_start: normalizeTime(partialRange[1].trim() + ' ' + startPeriod),
+      time_end: normalizeTime(partialRange[2].trim() + ' ' + endPeriod),
+    };
+  }
+
+  // Pattern 3: Bare number range like "7-2", "7-12", "8-1"
+  // Yard sales typically start in AM (6-9) and end in PM (12-4)
+  const bareRange = text.match(
+    /\b(\d{1,2})\s*[-–—]\s*(\d{1,2})\b/
+  );
+  if (bareRange) {
+    const startNum = parseInt(bareRange[1]);
+    const endNum = parseInt(bareRange[2]);
+    // Only treat as time if numbers are in reasonable hour range (1-12)
+    if (startNum >= 1 && startNum <= 12 && endNum >= 1 && endNum <= 12) {
+      // Skip if this looks like a date range (e.g. "3-21" where 21 > 12)
+      // Already handled above, but double check
+      if (endNum > 12) {
+        // Not a time range
+      } else {
+        // Yard sale heuristic: start is AM, end is PM (unless both are clearly AM/PM)
+        let startPeriod = 'AM';
+        let endPeriod = 'PM';
+        // If start >= 10 and end is small (1-4), both might be... start AM, end PM still works
+        // If start and end are both in PM range (e.g. 1-3), assume PM
+        if (startNum >= 10 && endNum <= 6) {
+          startPeriod = 'AM';
+          endPeriod = 'PM';
+        } else if (startNum >= 1 && startNum <= 9 && endNum >= 1 && endNum <= 6) {
+          startPeriod = 'AM';
+          endPeriod = 'PM';
+        }
+        return {
+          time_start: normalizeTime(`${startNum} ${startPeriod}`),
+          time_end: normalizeTime(`${endNum} ${endPeriod}`),
+        };
+      }
+    }
+  }
+
+  // Pattern 4: Single time mention
+  // "starts at 8 AM", "opens at 7am", "from 9:00 AM"
+  const singleMatch = text.match(
+    /(?:starts?\s+(?:at\s+)?|opens?\s+(?:at\s+)?|from\s+|@\s*)(\d{1,2}(?::\d{2})?\s*(?:am|pm|AM|PM))/i
+  );
   if (singleMatch) {
     return { time_start: normalizeTime(singleMatch[1].trim()), time_end: null };
   }
+
   return { time_start: null, time_end: null };
 }
 
-// ── DATE EXTRACTION FROM TEXT ──
+// v4.7 NEW: Expand shorthand time suffixes
+// "8a" → "8 AM", "2p" → "2 PM", "8am" → "8 AM" (already works with normalizeTime)
+function expandTimeSuffix(t: string): string {
+  // "8a" or "8a." → "8 AM"
+  let result = t.replace(/(\d)a\.?$/i, '$1 AM');
+  // "2p" or "2p." → "2 PM"  
+  result = result.replace(/(\d)p\.?$/i, '$1 PM');
+  return result;
+}
+
+
+
+// —— DATE EXTRACTION FROM TEXT (v4.7 — FULL REWRITE) ——
+// v4.7 FIXES:
+// 1. NEW: M/D without year (e.g. "3/21") — assumes current year
+// 2. NEW: "Month Day" without year (e.g. "April 18") — assumes current year
+// 3. FIX: M/D-without-year is checked BEFORE day-of-week, so "Saturday 3/21"
+//    correctly returns 3/21 instead of resolving "Saturday" to next Saturday
+// 4. FIX: Day-of-week + M/D combo detection (e.g. "Saturday 3/21 7-2")
+// 5. IMPROVED: Better date validation — rejects impossible dates (month > 12, day > 31)
 function extractDateFromText(text: string): string | null {
-  // v4.2 FIX: ISO dates FIRST (YYYY-MM-DD) — CL descriptions use this format
-  const isoMatch = text.match(/(\d{4}-\d{2}-\d{2})/);
-  if (isoMatch) {
-    const d = new Date(isoMatch[1] + 'T12:00:00');
-    if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
+  const now = new Date();
+  const currentYear = now.getFullYear();
+
+  // Helper: validate and format a date, returns YYYY-MM-DD or null
+  function toDateStr(year: number, month: number, day: number): string | null {
+    if (month < 1 || month > 12 || day < 1 || day > 31) return null;
+    const d = new Date(year, month - 1, day, 12, 0, 0);
+    if (isNaN(d.getTime())) return null;
+    // Verify the date didn't roll over (e.g. Feb 30 → Mar 2)
+    if (d.getMonth() !== month - 1) return null;
+    return d.toISOString().split('T')[0];
   }
-  // "April 18, 2026" or "Apr 18 2026"
+
+  // v4.2: ISO dates FIRST (YYYY-MM-DD) — CL descriptions use this format
+  const isoMatch = text.match(/(\d{4})-(\d{2})-(\d{2})/);
+  if (isoMatch) {
+    const result = toDateStr(parseInt(isoMatch[1]), parseInt(isoMatch[2]), parseInt(isoMatch[3]));
+    if (result) return result;
+  }
+
+  // "April 18, 2026" or "Apr 18 2026" (with year)
   const fullMatch = text.match(/(\w+\s+\d{1,2},?\s+\d{4})/);
   if (fullMatch) {
     const d = new Date(fullMatch[1]);
     if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
   }
-  // "4/18/2026" or "04/18/26"
-  const slashMatch = text.match(/(\d{1,2}\/\d{1,2}\/\d{2,4})/);
-  if (slashMatch) {
-    const d = new Date(slashMatch[1]);
-    if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
+
+  // "4/18/2026" or "04/18/26" (M/D/Y with year)
+  const slashWithYearMatch = text.match(/(\d{1,2})\/(\d{1,2})\/(\d{2,4})/);
+  if (slashWithYearMatch) {
+    let year = parseInt(slashWithYearMatch[3]);
+    if (year < 100) year += 2000; // "26" → 2026
+    const result = toDateStr(year, parseInt(slashWithYearMatch[1]), parseInt(slashWithYearMatch[2]));
+    if (result) return result;
   }
-  // v4.3 NEW: Relative day-of-week parsing ("Saturday", "this Sunday", "next Friday")
+
+  // v4.7 NEW: "3/21" or "03/21" (M/D WITHOUT year) — assumes current year
+  // Must NOT be followed by /\d (which would be M/D/Y caught above)
+  // Must NOT be preceded by $ or other currency indicators
+  const slashNoYearMatch = text.match(/(?<!\d)(\d{1,2})\/(\d{1,2})(?!\/\d)(?!\d)/);
+  if (slashNoYearMatch) {
+    const month = parseInt(slashNoYearMatch[1]);
+    const day = parseInt(slashNoYearMatch[2]);
+    // Sanity check: must look like a date, not a fraction or score
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      const result = toDateStr(currentYear, month, day);
+      if (result) return result;
+    }
+  }
+
+  // v4.7 NEW: "April 18" or "Apr 18" (Month + Day, NO year)
+  const monthNames = 'january|february|march|april|may|june|july|august|september|october|november|december|jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec';
+  const monthDayRegex = new RegExp(`\\b(${monthNames})\\s+(\\d{1,2})(?!\\s*,?\\s*\\d{4})\\b`, 'i');
+  const monthDayMatch = text.match(monthDayRegex);
+  if (monthDayMatch) {
+    // Parse using JS Date with current year
+    const parsed = new Date(`${monthDayMatch[1]} ${monthDayMatch[2]}, ${currentYear}`);
+    if (!isNaN(parsed.getTime())) {
+      return parsed.toISOString().split('T')[0];
+    }
+  }
+
+  // v4.3: Relative day-of-week parsing ("Saturday", "this Sunday", "next Friday")
   // Resolves to the NEXT occurrence of that day from today
+  // NOTE: This is AFTER explicit date patterns so "Saturday 3/21" uses 3/21, not Saturday
   const dayNames = ['sunday','monday','tuesday','wednesday','thursday','friday','saturday'];
   const dayMatch = text.toLowerCase().match(/(?:this\s+|next\s+|happening\s+)?(sunday|monday|tuesday|wednesday|thursday|friday|saturday)/);
   if (dayMatch) {
     const targetDay = dayNames.indexOf(dayMatch[1]);
     if (targetDay >= 0) {
-      const now = new Date();
       const currentDay = now.getDay();
       let daysAhead = targetDay - currentDay;
       if (daysAhead <= 0) daysAhead += 7; // always resolve to future
@@ -305,24 +441,26 @@ function extractDateFromText(text: string): string | null {
       return target.toISOString().split('T')[0];
     }
   }
-  // v4.3 NEW: "today" / "tomorrow" / "this weekend"
+
+  // v4.3: "today" / "tomorrow" / "this weekend"
   const relMatch = text.toLowerCase().match(/\b(today|tomorrow|this weekend)\b/);
   if (relMatch) {
-    const now = new Date();
     if (relMatch[1] === 'today') return now.toISOString().split('T')[0];
     if (relMatch[1] === 'tomorrow') {
-      now.setDate(now.getDate() + 1);
-      return now.toISOString().split('T')[0];
+      const tom = new Date(now);
+      tom.setDate(tom.getDate() + 1);
+      return tom.toISOString().split('T')[0];
     }
     if (relMatch[1] === 'this weekend') {
-      // Resolve to next Saturday
       const currentDay = now.getDay();
       let daysToSat = 6 - currentDay;
       if (daysToSat <= 0) daysToSat += 7;
-      now.setDate(now.getDate() + daysToSat);
-      return now.toISOString().split('T')[0];
+      const sat = new Date(now);
+      sat.setDate(sat.getDate() + daysToSat);
+      return sat.toISOString().split('T')[0];
     }
   }
+
   return null;
 }
 
@@ -2747,6 +2885,3 @@ main().catch((err) => {
   process.exit(1);
 });
 
-// ════════════════════════════════════════════════════════════
-// END OF PART 6/6 — FILE COMPLETE
-// ════════════════════════════════════════════════════════════

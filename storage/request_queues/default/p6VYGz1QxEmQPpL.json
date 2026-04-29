@@ -1,8 +1,8 @@
 {
 	"id": "p6VYGz1QxEmQPpL",
-	"json": "{\"id\":\"p6VYGz1QxEmQPpL\",\"url\":\"https://hanford.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://hanford.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"p6VYGz1QxEmQPpL\",\"url\":\"https://hanford.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://hanford.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://hanford.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:54:23.180Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323149,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://hanford.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://hanford.craigslist.org/search/sss?query=moving+sale"

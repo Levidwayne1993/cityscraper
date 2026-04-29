@@ -1,0 +1,9 @@
+{
+	"id": "X7G8TKQsrYwsHPS",
+	"json": "{\"id\":\"X7G8TKQsrYwsHPS\",\"url\":\"https://jacksonville.craigslist.org/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930204425.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930204425.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930204425.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:34:23.098Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930204425.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930204425.html"
+}

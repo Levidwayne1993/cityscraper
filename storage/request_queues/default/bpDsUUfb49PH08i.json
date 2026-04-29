@@ -1,0 +1,9 @@
+{
+	"id": "bpDsUUfb49PH08i",
+	"json": "{\"id\":\"bpDsUUfb49PH08i\",\"url\":\"https://mansfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://mansfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523837,
+	"retryCount": 0,
+	"uniqueKey": "https://mansfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://mansfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

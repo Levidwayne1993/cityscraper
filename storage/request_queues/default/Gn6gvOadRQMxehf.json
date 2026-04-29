@@ -1,0 +1,9 @@
+{
+	"id": "Gn6gvOadRQMxehf",
+	"json": "{\"id\":\"Gn6gvOadRQMxehf\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/NY/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/NY\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186530134,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/NY",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/NY/"
+}

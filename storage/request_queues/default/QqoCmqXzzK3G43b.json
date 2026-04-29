@@ -1,0 +1,9 @@
+{
+	"id": "QqoCmqXzzK3G43b",
+	"json": "{\"id\":\"QqoCmqXzzK3G43b\",\"url\":\"https://westky.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://westky.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186520044,
+	"retryCount": 0,
+	"uniqueKey": "https://westky.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://westky.craigslist.org/search/ccc?query=yard+sale"
+}

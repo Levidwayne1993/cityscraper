@@ -1,0 +1,9 @@
+{
+	"id": "wn7OD7q7T6I6Kp0",
+	"json": "{\"id\":\"wn7OD7q7T6I6Kp0\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-garage-sale-for-florists-or/7928613652.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-garage-sale-for-florists-or/7928613652.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-garage-sale-for-florists-or/7928613652.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:50.102Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-garage-sale-for-florists-or/7928613652.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-garage-sale-for-florists-or/7928613652.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZHQo9p284AVNA1V",
+	"json": "{\"id\":\"ZHQo9p284AVNA1V\",\"url\":\"https://sacramento.craigslist.org/gms/d/elk-grove-huge-yard-sale-household/7924547535.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/elk-grove-huge-yard-sale-household/7924547535.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/elk-grove-huge-yard-sale-household/7924547535.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:46:24.533Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/elk-grove-huge-yard-sale-household/7924547535.html",
+	"url": "https://sacramento.craigslist.org/gms/d/elk-grove-huge-yard-sale-household/7924547535.html"
+}

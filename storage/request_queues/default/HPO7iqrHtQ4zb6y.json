@@ -1,0 +1,9 @@
+{
+	"id": "HPO7iqrHtQ4zb6y",
+	"json": "{\"id\":\"HPO7iqrHtQ4zb6y\",\"url\":\"https://fortcollins.craigslist.org/gms/d/firestone-garage-sale/7926774141.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/firestone-garage-sale/7926774141.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/firestone-garage-sale/7926774141.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:38.185Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/firestone-garage-sale/7926774141.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/firestone-garage-sale/7926774141.html"
+}

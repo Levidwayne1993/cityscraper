@@ -1,0 +1,9 @@
+{
+	"id": "mDp1QXApfJuslW0",
+	"json": "{\"id\":\"mDp1QXApfJuslW0\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-garage-sale/7930106541.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-garage-sale/7930106541.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-garage-sale/7930106541.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:42.884Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-garage-sale/7930106541.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-garage-sale/7930106541.html"
+}

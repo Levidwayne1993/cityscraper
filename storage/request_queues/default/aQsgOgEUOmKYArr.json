@@ -1,0 +1,9 @@
+{
+	"id": "aQsgOgEUOmKYArr",
+	"json": "{\"id\":\"aQsgOgEUOmKYArr\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/CT/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/CT?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"CT\"}}",
+	"method": "GET",
+	"orderNo": 1777186528868,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/CT?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/CT/?page=4"
+}

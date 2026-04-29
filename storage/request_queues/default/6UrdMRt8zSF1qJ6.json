@@ -1,0 +1,9 @@
+{
+	"id": "6UrdMRt8zSF1qJ6",
+	"json": "{\"id\":\"6UrdMRt8zSF1qJ6\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-cave/7928753477.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-cave/7928753477.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-cave/7928753477.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:05.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-cave/7928753477.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-cave/7928753477.html"
+}

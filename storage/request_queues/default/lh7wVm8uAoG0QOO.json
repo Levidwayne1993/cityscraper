@@ -1,0 +1,9 @@
+{
+	"id": "lh7wVm8uAoG0QOO",
+	"json": "{\"id\":\"lh7wVm8uAoG0QOO\",\"url\":\"https://sfbay.craigslist.org/pen/com/d/south-san-francisco-yard-sale/7923867417.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/com/d/south-san-francisco-yard-sale/7923867417.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/com/d/south-san-francisco-yard-sale/7923867417.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:08.853Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/com/d/south-san-francisco-yard-sale/7923867417.html",
+	"url": "https://sfbay.craigslist.org/pen/com/d/south-san-francisco-yard-sale/7923867417.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YDPd66SBxuqyKtY",
+	"json": "{\"id\":\"YDPd66SBxuqyKtY\",\"url\":\"https://grandisland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://grandisland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522640,
+	"retryCount": 0,
+	"uniqueKey": "https://grandisland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://grandisland.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

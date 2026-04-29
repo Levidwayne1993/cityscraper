@@ -1,0 +1,9 @@
+{
+	"id": "R8lyQPfYhWETA8P",
+	"json": "{\"id\":\"R8lyQPfYhWETA8P\",\"url\":\"https://bgky.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://bgky.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186519941,
+	"retryCount": 0,
+	"uniqueKey": "https://bgky.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://bgky.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "JlO5Tbq5wHx1X51",
-	"json": "{\"id\":\"JlO5Tbq5wHx1X51\",\"url\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"JlO5Tbq5wHx1X51\",\"url\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:09:41.381Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323332,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale"

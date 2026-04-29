@@ -1,0 +1,9 @@
+{
+	"id": "47cS3uHMGJlAi8P",
+	"json": "{\"id\":\"47cS3uHMGJlAi8P\",\"url\":\"https://huntsville.craigslist.org/gms/d/madison-garage-sale-fri-sat-april/7926147950.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/madison-garage-sale-fri-sat-april/7926147950.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/madison-garage-sale-fri-sat-april/7926147950.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:04:24.011Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/madison-garage-sale-fri-sat-april/7926147950.html",
+	"url": "https://huntsville.craigslist.org/gms/d/madison-garage-sale-fri-sat-april/7926147950.html"
+}

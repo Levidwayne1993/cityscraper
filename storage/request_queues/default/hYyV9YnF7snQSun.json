@@ -1,0 +1,9 @@
+{
+	"id": "hYyV9YnF7snQSun",
+	"json": "{\"id\":\"hYyV9YnF7snQSun\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-packed-house-estate-sale/7921310800.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-packed-house-estate-sale/7921310800.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-packed-house-estate-sale/7921310800.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:11.988Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-packed-house-estate-sale/7921310800.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-packed-house-estate-sale/7921310800.html"
+}

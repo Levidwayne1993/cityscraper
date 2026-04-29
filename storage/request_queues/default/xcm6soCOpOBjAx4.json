@@ -1,0 +1,9 @@
+{
+	"id": "xcm6soCOpOBjAx4",
+	"json": "{\"id\":\"xcm6soCOpOBjAx4\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-multi-family-yard-sale/7921121309.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-multi-family-yard-sale/7921121309.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-multi-family-yard-sale/7921121309.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:02:27.022Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-multi-family-yard-sale/7921121309.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-multi-family-yard-sale/7921121309.html"
+}

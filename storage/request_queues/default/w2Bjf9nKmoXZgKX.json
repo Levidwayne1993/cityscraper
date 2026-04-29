@@ -1,9 +1,0 @@
-{
-	"id": "w2Bjf9nKmoXZgKX",
-	"json": "{\"id\":\"w2Bjf9nKmoXZgKX\",\"url\":\"https://www.garagesalefinder.com/sale/Arkansas\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Arkansas\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Arkansas\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330182,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Arkansas",
-	"url": "https://www.garagesalefinder.com/sale/Arkansas"
-}

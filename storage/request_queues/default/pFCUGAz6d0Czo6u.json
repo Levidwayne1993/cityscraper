@@ -1,8 +1,8 @@
 {
 	"id": "pFCUGAz6d0Czo6u",
-	"json": "{\"id\":\"pFCUGAz6d0Czo6u\",\"url\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"pFCUGAz6d0Czo6u\",\"url\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:00.141Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322973,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://flagstaff.craigslist.org/search/sss?query=yard+sale+garage+sale"

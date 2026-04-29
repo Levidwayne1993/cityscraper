@@ -1,0 +1,9 @@
+{
+	"id": "ebLnhuRg5jxYHyO",
+	"json": "{\"id\":\"ebLnhuRg5jxYHyO\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-huge-garage-sale/7930114395.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-huge-garage-sale/7930114395.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-huge-garage-sale/7930114395.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:16:52.016Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/windsor-huge-garage-sale/7930114395.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/windsor-huge-garage-sale/7930114395.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vNbBqIGIMHq0DLN",
+	"json": "{\"id\":\"vNbBqIGIMHq0DLN\",\"url\":\"https://santamaria.craigslist.org/gms/d/pismo-beach-estate-sale-home-garage/7929776736.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/pismo-beach-estate-sale-home-garage/7929776736.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/pismo-beach-estate-sale-home-garage/7929776736.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:21.461Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/pismo-beach-estate-sale-home-garage/7929776736.html",
+	"url": "https://santamaria.craigslist.org/gms/d/pismo-beach-estate-sale-home-garage/7929776736.html"
+}

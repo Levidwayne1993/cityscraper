@@ -1,0 +1,9 @@
+{
+	"id": "QLEU6fUvukPMF7z",
+	"json": "{\"id\":\"QLEU6fUvukPMF7z\",\"url\":\"https://denver.craigslist.org/gms/d/denver-pickers-garage-sale-this/7929187978.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-pickers-garage-sale-this/7929187978.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-pickers-garage-sale-this/7929187978.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:42:35.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-pickers-garage-sale-this/7929187978.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-pickers-garage-sale-this/7929187978.html"
+}

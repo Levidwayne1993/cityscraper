@@ -1,0 +1,9 @@
+{
+	"id": "Xvz2VLc3e6ZA30t",
+	"json": "{\"id\":\"Xvz2VLc3e6ZA30t\",\"url\":\"https://columbus.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://columbus.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523781,
+	"retryCount": 0,
+	"uniqueKey": "https://columbus.craigslist.org/search/gms?s=480",
+	"url": "https://columbus.craigslist.org/search/gms?s=480"
+}

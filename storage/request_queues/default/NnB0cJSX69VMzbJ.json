@@ -1,0 +1,9 @@
+{
+	"id": "NnB0cJSX69VMzbJ",
+	"json": "{\"id\":\"NnB0cJSX69VMzbJ\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-segundos/7925320050.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-segundos/7925320050.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-segundos/7925320050.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:51:53.037Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-segundos/7925320050.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-segundos/7925320050.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Go95GNNBABNr0tE",
+	"json": "{\"id\":\"Go95GNNBABNr0tE\",\"url\":\"https://sacramento.craigslist.org/gms/d/roseville-sport-card-liquidation-sale/7928561004.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/roseville-sport-card-liquidation-sale/7928561004.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/roseville-sport-card-liquidation-sale/7928561004.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:52:37.801Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/roseville-sport-card-liquidation-sale/7928561004.html",
+	"url": "https://sacramento.craigslist.org/gms/d/roseville-sport-card-liquidation-sale/7928561004.html"
+}

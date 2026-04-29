@@ -1,0 +1,9 @@
+{
+	"id": "Uj3yWhfvfBXA4WZ",
+	"json": "{\"id\":\"Uj3yWhfvfBXA4WZ\",\"url\":\"https://sandiego.craigslist.org/ssd/com/d/chula-vista-community-garage-sale/7928558993.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/com/d/chula-vista-community-garage-sale/7928558993.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/com/d/chula-vista-community-garage-sale/7928558993.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:13:07.475Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/com/d/chula-vista-community-garage-sale/7928558993.html",
+	"url": "https://sandiego.craigslist.org/ssd/com/d/chula-vista-community-garage-sale/7928558993.html"
+}

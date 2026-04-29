@@ -1,0 +1,9 @@
+{
+	"id": "LCZh6iSWMe1a9uF",
+	"json": "{\"id\":\"LCZh6iSWMe1a9uF\",\"url\":\"https://chico.craigslist.org/gms/d/chico-super-one-day-only-pop-up-sale/7922544916.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-super-one-day-only-pop-up-sale/7922544916.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-super-one-day-only-pop-up-sale/7922544916.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:18.278Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-super-one-day-only-pop-up-sale/7922544916.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-super-one-day-only-pop-up-sale/7922544916.html"
+}

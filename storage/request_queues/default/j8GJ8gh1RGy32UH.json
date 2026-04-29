@@ -1,0 +1,9 @@
+{
+	"id": "j8GJ8gh1RGy32UH",
+	"json": "{\"id\":\"j8GJ8gh1RGy32UH\",\"url\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-estate-sale/7928252922.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-estate-sale/7928252922.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/pawcatuck-estate-sale/7928252922.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:06.071Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/pawcatuck-estate-sale/7928252922.html",
+	"url": "https://newlondon.craigslist.org/gms/d/pawcatuck-estate-sale/7928252922.html"
+}

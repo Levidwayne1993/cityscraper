@@ -1,0 +1,9 @@
+{
+	"id": "i7rsdBDggEVhalz",
+	"json": "{\"id\":\"i7rsdBDggEVhalz\",\"url\":\"https://charleston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://charleston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525838,
+	"retryCount": 0,
+	"uniqueKey": "https://charleston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://charleston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

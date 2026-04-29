@@ -1,0 +1,9 @@
+{
+	"id": "nTICdTj1kXLhtf3",
+	"json": "{\"id\":\"nTICdTj1kXLhtf3\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/fairfax-huge-moving-sale-this-weekend/7929901182.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/fairfax-huge-moving-sale-this-weekend/7929901182.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/fairfax-huge-moving-sale-this-weekend/7929901182.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:18:02.409Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/fairfax-huge-moving-sale-this-weekend/7929901182.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/fairfax-huge-moving-sale-this-weekend/7929901182.html"
+}

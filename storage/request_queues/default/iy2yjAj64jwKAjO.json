@@ -1,0 +1,9 @@
+{
+	"id": "iy2yjAj64jwKAjO",
+	"json": "{\"id\":\"iy2yjAj64jwKAjO\",\"url\":\"https://daytona.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://daytona.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://daytona.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:58:33.511Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://daytona.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Z5EyDEjE8SlSGQ5",
+	"json": "{\"id\":\"Z5EyDEjE8SlSGQ5\",\"url\":\"https://jacksonville.craigslist.org/grp/d/jacksonville-yard-sale/7920812184.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/grp/d/jacksonville-yard-sale/7920812184.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/grp/d/jacksonville-yard-sale/7920812184.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:56.474Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/grp/d/jacksonville-yard-sale/7920812184.html",
+	"url": "https://jacksonville.craigslist.org/grp/d/jacksonville-yard-sale/7920812184.html"
+}

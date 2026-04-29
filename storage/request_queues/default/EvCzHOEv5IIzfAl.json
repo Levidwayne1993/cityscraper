@@ -1,0 +1,9 @@
+{
+	"id": "EvCzHOEv5IIzfAl",
+	"json": "{\"id\":\"EvCzHOEv5IIzfAl\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-yard-sale-everything-must/7926811315.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-yard-sale-everything-must/7926811315.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-yard-sale-everything-must/7926811315.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:28.089Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-yard-sale-everything-must/7926811315.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-yard-sale-everything-must/7926811315.html"
+}

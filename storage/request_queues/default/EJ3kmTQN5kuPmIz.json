@@ -1,0 +1,9 @@
+{
+	"id": "EJ3kmTQN5kuPmIz",
+	"json": "{\"id\":\"EJ3kmTQN5kuPmIz\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-tool-sale-friday-and/7913328279.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-tool-sale-friday-and/7913328279.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-tool-sale-friday-and/7913328279.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:22.657Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-big-tool-sale-friday-and/7913328279.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-big-tool-sale-friday-and/7913328279.html"
+}

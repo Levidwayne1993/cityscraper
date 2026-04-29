@@ -1,0 +1,9 @@
+{
+	"id": "p821WKIbxW2zj8y",
+	"json": "{\"id\":\"p821WKIbxW2zj8y\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-tower-park-village-community-yard/7926964770.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-tower-park-village-community-yard/7926964770.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-tower-park-village-community-yard/7926964770.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:17.223Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-tower-park-village-community-yard/7926964770.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-tower-park-village-community-yard/7926964770.html"
+}

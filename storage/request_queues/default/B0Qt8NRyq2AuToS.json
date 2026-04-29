@@ -1,0 +1,9 @@
+{
+	"id": "B0Qt8NRyq2AuToS",
+	"json": "{\"id\":\"B0Qt8NRyq2AuToS\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-multifamily-country/7922143478.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-multifamily-country/7922143478.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-multifamily-country/7922143478.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:53:24.878Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-multifamily-country/7922143478.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-multifamily-country/7922143478.html"
+}

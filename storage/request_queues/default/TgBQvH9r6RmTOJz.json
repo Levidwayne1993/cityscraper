@@ -1,0 +1,9 @@
+{
+	"id": "TgBQvH9r6RmTOJz",
+	"json": "{\"id\":\"TgBQvH9r6RmTOJz\",\"url\":\"https://sfbay.craigslist.org/pen/app/d/san-mateo-yard-sale-on-yarddycom/7926094983.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/app/d/san-mateo-yard-sale-on-yarddycom/7926094983.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/app/d/san-mateo-yard-sale-on-yarddycom/7926094983.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:34.643Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/app/d/san-mateo-yard-sale-on-yarddycom/7926094983.html",
+	"url": "https://sfbay.craigslist.org/pen/app/d/san-mateo-yard-sale-on-yarddycom/7926094983.html"
+}

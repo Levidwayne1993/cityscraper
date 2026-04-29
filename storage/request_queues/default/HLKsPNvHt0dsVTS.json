@@ -1,0 +1,9 @@
+{
+	"id": "HLKsPNvHt0dsVTS",
+	"json": "{\"id\":\"HLKsPNvHt0dsVTS\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-three-family-sale/7922554067.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-three-family-sale/7922554067.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-three-family-sale/7922554067.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:53.683Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-three-family-sale/7922554067.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-three-family-sale/7922554067.html"
+}

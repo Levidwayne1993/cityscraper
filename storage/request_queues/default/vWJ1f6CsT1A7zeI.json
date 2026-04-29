@@ -1,0 +1,9 @@
+{
+	"id": "vWJ1f6CsT1A7zeI",
+	"json": "{\"id\":\"vWJ1f6CsT1A7zeI\",\"url\":\"https://sacramento.craigslist.org/gms/d/carmichael-carmichael-yard-sale-is-all/7923882049.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/carmichael-carmichael-yard-sale-is-all/7923882049.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/carmichael-carmichael-yard-sale-is-all/7923882049.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:47:16.765Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/carmichael-carmichael-yard-sale-is-all/7923882049.html",
+	"url": "https://sacramento.craigslist.org/gms/d/carmichael-carmichael-yard-sale-is-all/7923882049.html"
+}

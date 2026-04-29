@@ -1,0 +1,9 @@
+{
+	"id": "Fr4VeJTbRmFFI7H",
+	"json": "{\"id\":\"Fr4VeJTbRmFFI7H\",\"url\":\"https://northplatte.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://northplatte.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522673,
+	"retryCount": 0,
+	"uniqueKey": "https://northplatte.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://northplatte.craigslist.org/search/ccc?query=garage+sale"
+}

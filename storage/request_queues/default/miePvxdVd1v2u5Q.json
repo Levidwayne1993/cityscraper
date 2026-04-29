@@ -1,0 +1,9 @@
+{
+	"id": "miePvxdVd1v2u5Q",
+	"json": "{\"id\":\"miePvxdVd1v2u5Q\",\"url\":\"https://lakeland.craigslist.org/gms/d/avon-park-small-sale-on-sat-and-sun/7929938926.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/avon-park-small-sale-on-sat-and-sun/7929938926.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/avon-park-small-sale-on-sat-and-sun/7929938926.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:35.656Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/avon-park-small-sale-on-sat-and-sun/7929938926.html",
+	"url": "https://lakeland.craigslist.org/gms/d/avon-park-small-sale-on-sat-and-sun/7929938926.html"
+}

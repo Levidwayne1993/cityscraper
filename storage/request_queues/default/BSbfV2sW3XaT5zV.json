@@ -1,0 +1,9 @@
+{
+	"id": "BSbfV2sW3XaT5zV",
+	"json": "{\"id\":\"BSbfV2sW3XaT5zV\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/santa-clarita-estate-sale/7928951925.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/santa-clarita-estate-sale/7928951925.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/santa-clarita-estate-sale/7928951925.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:40:49.038Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/santa-clarita-estate-sale/7928951925.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/santa-clarita-estate-sale/7928951925.html"
+}

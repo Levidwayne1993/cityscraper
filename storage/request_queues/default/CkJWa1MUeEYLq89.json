@@ -1,0 +1,9 @@
+{
+	"id": "CkJWa1MUeEYLq89",
+	"json": "{\"id\":\"CkJWa1MUeEYLq89\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-yard-estate-sale/7921297707.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-yard-estate-sale/7921297707.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-yard-estate-sale/7921297707.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:20:03.108Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-yard-estate-sale/7921297707.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-yard-estate-sale/7921297707.html"
+}

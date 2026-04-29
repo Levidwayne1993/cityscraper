@@ -1,0 +1,9 @@
+{
+	"id": "LqeJ2hzjwJ2C4LH",
+	"json": "{\"id\":\"LqeJ2hzjwJ2C4LH\",\"url\":\"https://lynchburg.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://lynchburg.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527795,
+	"retryCount": 0,
+	"uniqueKey": "https://lynchburg.craigslist.org/search/gms?s=480",
+	"url": "https://lynchburg.craigslist.org/search/gms?s=480"
+}

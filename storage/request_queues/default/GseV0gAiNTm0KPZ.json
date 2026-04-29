@@ -1,0 +1,9 @@
+{
+	"id": "GseV0gAiNTm0KPZ",
+	"json": "{\"id\":\"GseV0gAiNTm0KPZ\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-gigantic-unique-estate-garage/7924107768.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-gigantic-unique-estate-garage/7924107768.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-gigantic-unique-estate-garage/7924107768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:46:11.188Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-gigantic-unique-estate-garage/7924107768.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-gigantic-unique-estate-garage/7924107768.html"
+}

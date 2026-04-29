@@ -1,0 +1,9 @@
+{
+	"id": "iluK7ezYJ1HAkMD",
+	"json": "{\"id\":\"iluK7ezYJ1HAkMD\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-moving-yard-sale-make-an/7926747695.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-moving-yard-sale-make-an/7926747695.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-moving-yard-sale-make-an/7926747695.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:52.330Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/glendale-huge-moving-yard-sale-make-an/7926747695.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/glendale-huge-moving-yard-sale-make-an/7926747695.html"
+}

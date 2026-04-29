@@ -1,0 +1,9 @@
+{
+	"id": "aMdR8aHiDQd31lh",
+	"json": "{\"id\":\"aMdR8aHiDQd31lh\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-ramon-moving-estate-sale-everything/7930036350.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-ramon-moving-estate-sale-everything/7930036350.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-ramon-moving-estate-sale-everything/7930036350.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:13:19.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-ramon-moving-estate-sale-everything/7930036350.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-ramon-moving-estate-sale-everything/7930036350.html"
+}

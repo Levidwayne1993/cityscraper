@@ -1,0 +1,9 @@
+{
+	"id": "JraQSfIktSZ7AH4",
+	"json": "{\"id\":\"JraQSfIktSZ7AH4\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/larkspur-yard-sale-saturday-25/7929996227.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/larkspur-yard-sale-saturday-25/7929996227.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/larkspur-yard-sale-saturday-25/7929996227.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:31.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/larkspur-yard-sale-saturday-25/7929996227.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/larkspur-yard-sale-saturday-25/7929996227.html"
+}

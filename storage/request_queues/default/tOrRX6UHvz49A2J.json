@@ -1,0 +1,9 @@
+{
+	"id": "tOrRX6UHvz49A2J",
+	"json": "{\"id\":\"tOrRX6UHvz49A2J\",\"url\":\"https://orangecounty.craigslist.org/fod/d/la-habra-ending-april-comic-book/7926510073.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/fod/d/la-habra-ending-april-comic-book/7926510073.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/fod/d/la-habra-ending-april-comic-book/7926510073.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:23:04.453Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/fod/d/la-habra-ending-april-comic-book/7926510073.html",
+	"url": "https://orangecounty.craigslist.org/fod/d/la-habra-ending-april-comic-book/7926510073.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2QQQgVgnBvUD5r5",
+	"json": "{\"id\":\"2QQQgVgnBvUD5r5\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-sale-items-still-available/7926750973.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-sale-items-still-available/7926750973.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-sale-items-still-available/7926750973.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:31:57.625Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/woodbridge-sale-items-still-available/7926750973.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/woodbridge-sale-items-still-available/7926750973.html"
+}

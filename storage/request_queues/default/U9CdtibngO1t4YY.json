@@ -1,0 +1,9 @@
+{
+	"id": "U9CdtibngO1t4YY",
+	"json": "{\"id\":\"U9CdtibngO1t4YY\",\"url\":\"https://tucson.craigslist.org/com/d/sahuarita-friday-march-27th-huge-garage/7923505944.html\",\"loadedUrl\":\"https://tucson.craigslist.org/com/d/sahuarita-friday-march-27th-huge-garage/7923505944.html\",\"uniqueKey\":\"https://tucson.craigslist.org/com/d/sahuarita-friday-march-27th-huge-garage/7923505944.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:07:09.498Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/com/d/sahuarita-friday-march-27th-huge-garage/7923505944.html",
+	"url": "https://tucson.craigslist.org/com/d/sahuarita-friday-march-27th-huge-garage/7923505944.html"
+}

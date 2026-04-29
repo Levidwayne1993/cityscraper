@@ -1,0 +1,9 @@
+{
+	"id": "FV8UpagIkoLgaai",
+	"json": "{\"id\":\"FV8UpagIkoLgaai\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale-day-only-saturday/7929975719.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale-day-only-saturday/7929975719.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale-day-only-saturday/7929975719.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:48.586Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-yard-sale-day-only-saturday/7929975719.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-yard-sale-day-only-saturday/7929975719.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "71bdVrmoOZuAIqG",
+	"json": "{\"id\":\"71bdVrmoOZuAIqG\",\"url\":\"https://sfbay.craigslist.org/sby/for/d/san-jose-kenmore-refrigerator-moving/7930074609.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/for/d/san-jose-kenmore-refrigerator-moving/7930074609.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/for/d/san-jose-kenmore-refrigerator-moving/7930074609.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:10.825Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/for/d/san-jose-kenmore-refrigerator-moving/7930074609.html",
+	"url": "https://sfbay.craigslist.org/sby/for/d/san-jose-kenmore-refrigerator-moving/7930074609.html"
+}

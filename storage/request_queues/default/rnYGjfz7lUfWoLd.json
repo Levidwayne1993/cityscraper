@@ -1,9 +1,0 @@
-{
-	"id": "rnYGjfz7lUfWoLd",
-	"json": "{\"id\":\"rnYGjfz7lUfWoLd\",\"url\":\"https://gsalr.com/garage-sales-in/georgia/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/georgia\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"georgia\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334360,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/georgia",
-	"url": "https://gsalr.com/garage-sales-in/georgia/"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "40Byuuh0y06c9Ef",
+	"json": "{\"id\":\"40Byuuh0y06c9Ef\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-everything-must-go/7926673475.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-everything-must-go/7926673475.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-everything-must-go/7926673475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:56.966Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-moving-sale-everything-must-go/7926673475.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-moving-sale-everything-must-go/7926673475.html"
+}

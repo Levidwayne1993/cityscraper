@@ -1,0 +1,9 @@
+{
+	"id": "iT0IHMNFLVQLlsR",
+	"json": "{\"id\":\"iT0IHMNFLVQLlsR\",\"url\":\"https://semo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://semo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521284,
+	"retryCount": 0,
+	"uniqueKey": "https://semo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://semo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

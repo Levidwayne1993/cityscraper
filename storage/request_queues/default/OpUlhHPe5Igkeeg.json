@@ -1,0 +1,9 @@
+{
+	"id": "OpUlhHPe5Igkeeg",
+	"json": "{\"id\":\"OpUlhHPe5Igkeeg\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/GA/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/GA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186529992,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/GA",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/GA/"
+}

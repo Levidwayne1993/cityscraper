@@ -1,9 +1,0 @@
-{
-	"id": "8DeSyMzUCWDTRjb",
-	"json": "{\"id\":\"8DeSyMzUCWDTRjb\",\"url\":\"https://www.garagesalefinder.com/sale/Florida\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Florida\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Florida\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330207,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Florida",
-	"url": "https://www.garagesalefinder.com/sale/Florida"
-}

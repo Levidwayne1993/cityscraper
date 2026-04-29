@@ -1,0 +1,9 @@
+{
+	"id": "9eUoNzGFsnisKmz",
+	"json": "{\"id\":\"9eUoNzGFsnisKmz\",\"url\":\"https://jacksonville.craigslist.org/gms/d/neptune-beach-huge-multiple-garage-sale/7928288968.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/neptune-beach-huge-multiple-garage-sale/7928288968.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/neptune-beach-huge-multiple-garage-sale/7928288968.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:41:52.628Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/neptune-beach-huge-multiple-garage-sale/7928288968.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/neptune-beach-huge-multiple-garage-sale/7928288968.html"
+}

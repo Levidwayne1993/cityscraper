@@ -1,0 +1,9 @@
+{
+	"id": "ThRow0p75Wcgke1",
+	"json": "{\"id\":\"ThRow0p75Wcgke1\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-saturday-to/7928459573.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-saturday-to/7928459573.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-saturday-to/7928459573.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:30.594Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-saturday-to/7928459573.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-garage-sale-estate-saturday-to/7928459573.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UuZ2eNJMSmWCXP4",
+	"json": "{\"id\":\"UuZ2eNJMSmWCXP4\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-huge-sale-antiques-tools/7929553418.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-huge-sale-antiques-tools/7929553418.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-huge-sale-antiques-tools/7929553418.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:55:52.498Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-huge-sale-antiques-tools/7929553418.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-huge-sale-antiques-tools/7929553418.html"
+}

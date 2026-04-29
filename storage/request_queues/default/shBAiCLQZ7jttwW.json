@@ -1,0 +1,9 @@
+{
+	"id": "shBAiCLQZ7jttwW",
+	"json": "{\"id\":\"shBAiCLQZ7jttwW\",\"url\":\"https://flagstaff.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://flagstaff.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:16:53.503Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/search/gms?s=360",
+	"url": "https://flagstaff.craigslist.org/search/gms?s=360"
+}

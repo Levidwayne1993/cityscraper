@@ -1,0 +1,9 @@
+{
+	"id": "m1BxMAHKUmrSo3i",
+	"json": "{\"id\":\"m1BxMAHKUmrSo3i\",\"url\":\"https://inlandempire.craigslist.org/gms/d/riverside-hosting-huge-garage-sale/7927842158.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/riverside-hosting-huge-garage-sale/7927842158.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/riverside-hosting-huge-garage-sale/7927842158.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:14:46.486Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/riverside-hosting-huge-garage-sale/7927842158.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/riverside-hosting-huge-garage-sale/7927842158.html"
+}

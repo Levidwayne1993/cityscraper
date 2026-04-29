@@ -1,0 +1,9 @@
+{
+	"id": "QfNGGEP5Qfckyqy",
+	"json": "{\"id\":\"QfNGGEP5Qfckyqy\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/chandler-community-garage-sale/7922285134.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/chandler-community-garage-sale/7922285134.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/chandler-community-garage-sale/7922285134.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:06.927Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/chandler-community-garage-sale/7922285134.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/chandler-community-garage-sale/7922285134.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "BXhsp0jqyom67Wn",
+	"json": "{\"id\":\"BXhsp0jqyom67Wn\",\"url\":\"https://chambana.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://chambana.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518091,
+	"retryCount": 0,
+	"uniqueKey": "https://chambana.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://chambana.craigslist.org/search/ccc?query=yard+sale"
+}

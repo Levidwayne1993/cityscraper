@@ -1,8 +1,8 @@
 {
 	"id": "y9JrcflEq4Co257",
-	"json": "{\"id\":\"y9JrcflEq4Co257\",\"url\":\"https://yuma.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://yuma.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"y9JrcflEq4Co257\",\"url\":\"https://yuma.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://yuma.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://yuma.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:41.957Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323054,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://yuma.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://yuma.craigslist.org/search/sss?query=moving+sale"

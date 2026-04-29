@@ -1,0 +1,9 @@
+{
+	"id": "waNcG1pBq8RfZao",
+	"json": "{\"id\":\"waNcG1pBq8RfZao\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/mesa-huge-50-houses-yard-sale/7923844704.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/mesa-huge-50-houses-yard-sale/7923844704.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/mesa-huge-50-houses-yard-sale/7923844704.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:39.764Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/mesa-huge-50-houses-yard-sale/7923844704.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/mesa-huge-50-houses-yard-sale/7923844704.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "0r1j3v0Jou2WodB",
+	"json": "{\"id\":\"0r1j3v0Jou2WodB\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-artist-collector-estate-sale/7898310672.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-artist-collector-estate-sale/7898310672.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-artist-collector-estate-sale/7898310672.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:12.151Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-artist-collector-estate-sale/7898310672.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-artist-collector-estate-sale/7898310672.html"
+}

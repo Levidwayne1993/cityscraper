@@ -1,0 +1,9 @@
+{
+	"id": "hpHjVNH5Bj2hKAB",
+	"json": "{\"id\":\"hpHjVNH5Bj2hKAB\",\"url\":\"https://fortcollins.craigslist.org/atq/d/fort-collins-estate-sale-60-years-of/7930152717.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/atq/d/fort-collins-estate-sale-60-years-of/7930152717.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/atq/d/fort-collins-estate-sale-60-years-of/7930152717.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:53:14.070Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/atq/d/fort-collins-estate-sale-60-years-of/7930152717.html",
+	"url": "https://fortcollins.craigslist.org/atq/d/fort-collins-estate-sale-60-years-of/7930152717.html"
+}

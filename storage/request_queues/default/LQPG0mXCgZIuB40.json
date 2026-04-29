@@ -1,0 +1,9 @@
+{
+	"id": "LQPG0mXCgZIuB40",
+	"json": "{\"id\":\"LQPG0mXCgZIuB40\",\"url\":\"https://slo.craigslist.org/gms/d/grover-beach-garage-sale/7922638064.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/grover-beach-garage-sale/7922638064.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/grover-beach-garage-sale/7922638064.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:47:38.995Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/grover-beach-garage-sale/7922638064.html",
+	"url": "https://slo.craigslist.org/gms/d/grover-beach-garage-sale/7922638064.html"
+}

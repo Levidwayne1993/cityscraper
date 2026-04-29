@@ -1,0 +1,9 @@
+{
+	"id": "CUzM6otj3fy8wdE",
+	"json": "{\"id\":\"CUzM6otj3fy8wdE\",\"url\":\"https://kenai.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://kenai.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:14:44.036Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://kenai.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://kenai.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "h7PPNt5m1H01E50",
+	"json": "{\"id\":\"h7PPNt5m1H01E50\",\"url\":\"https://newhaven.craigslist.org/gms/d/stratford-huge-loaded-stratford-estate/7926058381.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/stratford-huge-loaded-stratford-estate/7926058381.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/stratford-huge-loaded-stratford-estate/7926058381.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:09.350Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/stratford-huge-loaded-stratford-estate/7926058381.html",
+	"url": "https://newhaven.craigslist.org/gms/d/stratford-huge-loaded-stratford-estate/7926058381.html"
+}

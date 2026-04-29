@@ -1,0 +1,9 @@
+{
+	"id": "GxZDmTalV4AQ72V",
+	"json": "{\"id\":\"GxZDmTalV4AQ72V\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-garage-sale-saturday/7919591853.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-garage-sale-saturday/7919591853.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-garage-sale-saturday/7919591853.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:15.557Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-garage-sale-saturday/7919591853.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-garage-sale-saturday/7919591853.html"
+}

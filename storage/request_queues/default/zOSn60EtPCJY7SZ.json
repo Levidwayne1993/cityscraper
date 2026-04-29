@@ -1,0 +1,9 @@
+{
+	"id": "zOSn60EtPCJY7SZ",
+	"json": "{\"id\":\"zOSn60EtPCJY7SZ\",\"url\":\"https://pensacola.craigslist.org/clt/d/magnolia-springs-estate-mini-yard-sale/7925192656.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/clt/d/magnolia-springs-estate-mini-yard-sale/7925192656.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/clt/d/magnolia-springs-estate-mini-yard-sale/7925192656.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:44:11.052Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/clt/d/magnolia-springs-estate-mini-yard-sale/7925192656.html",
+	"url": "https://pensacola.craigslist.org/clt/d/magnolia-springs-estate-mini-yard-sale/7925192656.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WI5vnr1OskoOigm",
+	"json": "{\"id\":\"WI5vnr1OskoOigm\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-huge-estate-moving-sale/7923469602.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-huge-estate-moving-sale/7923469602.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-huge-estate-moving-sale/7923469602.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:25:02.874Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-huge-estate-moving-sale/7923469602.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-huge-estate-moving-sale/7923469602.html"
+}

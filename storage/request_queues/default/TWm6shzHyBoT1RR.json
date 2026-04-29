@@ -1,0 +1,9 @@
+{
+	"id": "TWm6shzHyBoT1RR",
+	"json": "{\"id\":\"TWm6shzHyBoT1RR\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-today-sunday-22/7922852237.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-today-sunday-22/7922852237.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-today-sunday-22/7922852237.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:10:52.664Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-today-sunday-22/7922852237.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-today-sunday-22/7922852237.html"
+}

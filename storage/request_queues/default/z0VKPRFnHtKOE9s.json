@@ -1,0 +1,9 @@
+{
+	"id": "z0VKPRFnHtKOE9s",
+	"json": "{\"id\":\"z0VKPRFnHtKOE9s\",\"url\":\"https://anchorage.craigslist.org/fuo/d/anchorage-moving-sale/7923132464.html\",\"loadedUrl\":\"https://anchorage.craigslist.org/fuo/d/anchorage-moving-sale/7923132464.html\",\"uniqueKey\":\"https://anchorage.craigslist.org/fuo/d/anchorage-moving-sale/7923132464.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:22.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/fuo/d/anchorage-moving-sale/7923132464.html",
+	"url": "https://anchorage.craigslist.org/fuo/d/anchorage-moving-sale/7923132464.html"
+}

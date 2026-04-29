@@ -1,0 +1,9 @@
+{
+	"id": "QAES4h04AqFmOHc",
+	"json": "{\"id\":\"QAES4h04AqFmOHc\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-community-garage-sale-the/7926802570.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-community-garage-sale-the/7926802570.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-community-garage-sale-the/7926802570.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:14:13.334Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-community-garage-sale-the/7926802570.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-community-garage-sale-the/7926802570.html"
+}

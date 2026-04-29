@@ -1,0 +1,9 @@
+{
+	"id": "E02k143yqazkn7E",
+	"json": "{\"id\":\"E02k143yqazkn7E\",\"url\":\"https://lakeland.craigslist.org/gms/d/lake-hamilton-okgarage-sale-stuff/7922585897.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lake-hamilton-okgarage-sale-stuff/7922585897.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lake-hamilton-okgarage-sale-stuff/7922585897.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:59.312Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lake-hamilton-okgarage-sale-stuff/7922585897.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lake-hamilton-okgarage-sale-stuff/7922585897.html"
+}

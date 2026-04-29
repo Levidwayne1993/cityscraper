@@ -1,0 +1,9 @@
+{
+	"id": "uyY2OAcW7nhOFjE",
+	"json": "{\"id\":\"uyY2OAcW7nhOFjE\",\"url\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-moving-garage-sale/7928928879.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-moving-garage-sale/7928928879.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-moving-garage-sale/7928928879.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:42:25.954Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/fuo/d/jacksonville-moving-garage-sale/7928928879.html",
+	"url": "https://jacksonville.craigslist.org/fuo/d/jacksonville-moving-garage-sale/7928928879.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "BLxxHVcAJdlVPWX",
+	"json": "{\"id\":\"BLxxHVcAJdlVPWX\",\"url\":\"https://keys.craigslist.org/boa/d/key-colony-beach-2011-everglades-243cc/7925096434.html\",\"loadedUrl\":\"https://keys.craigslist.org/boa/d/key-colony-beach-2011-everglades-243cc/7925096434.html\",\"uniqueKey\":\"https://keys.craigslist.org/boa/d/key-colony-beach-2011-everglades-243cc/7925096434.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:09.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://keys.craigslist.org/boa/d/key-colony-beach-2011-everglades-243cc/7925096434.html",
+	"url": "https://keys.craigslist.org/boa/d/key-colony-beach-2011-everglades-243cc/7925096434.html"
+}

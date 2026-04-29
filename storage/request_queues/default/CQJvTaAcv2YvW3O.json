@@ -1,0 +1,9 @@
+{
+	"id": "CQJvTaAcv2YvW3O",
+	"json": "{\"id\":\"CQJvTaAcv2YvW3O\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sale-check-pictures-obo/7927051480.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sale-check-pictures-obo/7927051480.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-moving-sale-check-pictures-obo/7927051480.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:14.631Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-moving-sale-check-pictures-obo/7927051480.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-moving-sale-check-pictures-obo/7927051480.html"
+}

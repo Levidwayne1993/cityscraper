@@ -1,0 +1,9 @@
+{
+	"id": "o0a7WPyv1L8lLaz",
+	"json": "{\"id\":\"o0a7WPyv1L8lLaz\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-estate-sale-boxed-collections/7925180315.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-estate-sale-boxed-collections/7925180315.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-estate-sale-boxed-collections/7925180315.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:18:46.294Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/lake-worth-estate-sale-boxed-collections/7925180315.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/lake-worth-estate-sale-boxed-collections/7925180315.html"
+}

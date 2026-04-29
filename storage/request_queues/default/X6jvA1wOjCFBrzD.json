@@ -1,0 +1,9 @@
+{
+	"id": "X6jvA1wOjCFBrzD",
+	"json": "{\"id\":\"X6jvA1wOjCFBrzD\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/TN/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/TN?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186530241,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/TN?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/TN/?page=4"
+}

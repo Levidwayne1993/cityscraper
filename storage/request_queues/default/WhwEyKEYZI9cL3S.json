@@ -1,0 +1,9 @@
+{
+	"id": "WhwEyKEYZI9cL3S",
+	"json": "{\"id\":\"WhwEyKEYZI9cL3S\",\"url\":\"https://washingtondc.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://washingtondc.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://washingtondc.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:24:09.694Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/search/gms?s=480",
+	"url": "https://washingtondc.craigslist.org/search/gms?s=480"
+}

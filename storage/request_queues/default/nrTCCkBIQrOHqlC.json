@@ -1,0 +1,9 @@
+{
+	"id": "nrTCCkBIQrOHqlC",
+	"json": "{\"id\":\"nrTCCkBIQrOHqlC\",\"url\":\"https://tucson.craigslist.org/gms/d/cortaro-continental-ranch-garage-sale/7927051310.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/cortaro-continental-ranch-garage-sale/7927051310.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/cortaro-continental-ranch-garage-sale/7927051310.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:04:31.065Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/cortaro-continental-ranch-garage-sale/7927051310.html",
+	"url": "https://tucson.craigslist.org/gms/d/cortaro-continental-ranch-garage-sale/7927051310.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TouJelbtDHTNbSk",
+	"json": "{\"id\":\"TouJelbtDHTNbSk\",\"url\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale-fargo-ave/7930027427.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale-fargo-ave/7930027427.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale-fargo-ave/7930027427.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:53:47.993Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/hanford-yard-sale-fargo-ave/7930027427.html",
+	"url": "https://hanford.craigslist.org/gms/d/hanford-yard-sale-fargo-ave/7930027427.html"
+}

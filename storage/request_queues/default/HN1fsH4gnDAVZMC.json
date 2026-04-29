@@ -1,8 +1,8 @@
 {
 	"id": "HN1fsH4gnDAVZMC",
-	"json": "{\"id\":\"HN1fsH4gnDAVZMC\",\"url\":\"https://phoenix.craigslist.org/search/gms\",\"uniqueKey\":\"https://phoenix.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"HN1fsH4gnDAVZMC\",\"url\":\"https://phoenix.craigslist.org/search/gms\",\"loadedUrl\":\"https://phoenix.craigslist.org/search/gms\",\"uniqueKey\":\"https://phoenix.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:00.843Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322992,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://phoenix.craigslist.org/search/gms",
 	"url": "https://phoenix.craigslist.org/search/gms"

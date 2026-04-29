@@ -1,0 +1,9 @@
+{
+	"id": "JxpAt5L95aLXy5L",
+	"json": "{\"id\":\"JxpAt5L95aLXy5L\",\"url\":\"https://chico.craigslist.org/gms/d/chico-one-day-only-moving-downsizing/7929559395.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-one-day-only-moving-downsizing/7929559395.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-one-day-only-moving-downsizing/7929559395.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:30.737Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-one-day-only-moving-downsizing/7929559395.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-one-day-only-moving-downsizing/7929559395.html"
+}

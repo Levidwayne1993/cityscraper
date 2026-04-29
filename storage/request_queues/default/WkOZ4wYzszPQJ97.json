@@ -1,0 +1,9 @@
+{
+	"id": "WkOZ4wYzszPQJ97",
+	"json": "{\"id\":\"WkOZ4wYzszPQJ97\",\"url\":\"https://stockton.craigslist.org/com/d/stockton-big-yard-sale/7924003175.html\",\"loadedUrl\":\"https://stockton.craigslist.org/com/d/stockton-big-yard-sale/7924003175.html\",\"uniqueKey\":\"https://stockton.craigslist.org/com/d/stockton-big-yard-sale/7924003175.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:26.444Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/com/d/stockton-big-yard-sale/7924003175.html",
+	"url": "https://stockton.craigslist.org/com/d/stockton-big-yard-sale/7924003175.html"
+}

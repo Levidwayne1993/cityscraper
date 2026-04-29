@@ -1,0 +1,9 @@
+{
+	"id": "lOMLWAJ7iCmRXM0",
+	"json": "{\"id\":\"lOMLWAJ7iCmRXM0\",\"url\":\"https://pensacola.craigslist.org/gms/d/pensacola-huge-indoor-yard-sale-at/7925801489.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/pensacola-huge-indoor-yard-sale-at/7925801489.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/pensacola-huge-indoor-yard-sale-at/7925801489.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:41:10.431Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/pensacola-huge-indoor-yard-sale-at/7925801489.html",
+	"url": "https://pensacola.craigslist.org/gms/d/pensacola-huge-indoor-yard-sale-at/7925801489.html"
+}

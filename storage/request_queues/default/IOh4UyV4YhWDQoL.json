@@ -1,0 +1,9 @@
+{
+	"id": "IOh4UyV4YhWDQoL",
+	"json": "{\"id\":\"IOh4UyV4YhWDQoL\",\"url\":\"https://denver.craigslist.org/com/d/denver-yard-sale-with-theme-mothers-day/7930081442.html\",\"loadedUrl\":\"https://denver.craigslist.org/com/d/denver-yard-sale-with-theme-mothers-day/7930081442.html\",\"uniqueKey\":\"https://denver.craigslist.org/com/d/denver-yard-sale-with-theme-mothers-day/7930081442.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:46.503Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/com/d/denver-yard-sale-with-theme-mothers-day/7930081442.html",
+	"url": "https://denver.craigslist.org/com/d/denver-yard-sale-with-theme-mothers-day/7930081442.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "fBGl301RKCOEskO",
+	"json": "{\"id\":\"fBGl301RKCOEskO\",\"url\":\"https://fairbanks.craigslist.org/for/d/fairbanks-moving-sale-fishing-gear-dog/7925521477.html\",\"loadedUrl\":\"https://fairbanks.craigslist.org/for/d/fairbanks-moving-sale-fishing-gear-dog/7925521477.html\",\"uniqueKey\":\"https://fairbanks.craigslist.org/for/d/fairbanks-moving-sale-fishing-gear-dog/7925521477.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:13:22.051Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fairbanks.craigslist.org/for/d/fairbanks-moving-sale-fishing-gear-dog/7925521477.html",
+	"url": "https://fairbanks.craigslist.org/for/d/fairbanks-moving-sale-fishing-gear-dog/7925521477.html"
+}

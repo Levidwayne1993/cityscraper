@@ -1,0 +1,9 @@
+{
+	"id": "YQfzxlVllyPX5OT",
+	"json": "{\"id\":\"YQfzxlVllyPX5OT\",\"url\":\"https://hickory.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://hickory.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523478,
+	"retryCount": 0,
+	"uniqueKey": "https://hickory.craigslist.org/search/gms?s=480",
+	"url": "https://hickory.craigslist.org/search/gms?s=480"
+}

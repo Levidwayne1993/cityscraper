@@ -1,0 +1,9 @@
+{
+	"id": "B2n5YnyjN0ROczM",
+	"json": "{\"id\":\"B2n5YnyjN0ROczM\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/falls-church-big-community-yard-sale/7927970085.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/falls-church-big-community-yard-sale/7927970085.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/falls-church-big-community-yard-sale/7927970085.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:25:46.137Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/falls-church-big-community-yard-sale/7927970085.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/falls-church-big-community-yard-sale/7927970085.html"
+}

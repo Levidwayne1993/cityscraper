@@ -1,0 +1,9 @@
+{
+	"id": "P8dKd5RyNEL07X1",
+	"json": "{\"id\":\"P8dKd5RyNEL07X1\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-huge-garage-sale/7924086194.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-huge-garage-sale/7924086194.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-huge-garage-sale/7924086194.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:54:24.874Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-huge-garage-sale/7924086194.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-huge-garage-sale/7924086194.html"
+}

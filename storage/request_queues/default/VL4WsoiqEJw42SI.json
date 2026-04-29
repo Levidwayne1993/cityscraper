@@ -1,8 +1,8 @@
 {
 	"id": "VL4WsoiqEJw42SI",
-	"json": "{\"id\":\"VL4WsoiqEJw42SI\",\"url\":\"https://siskiyou.craigslist.org/search/gms\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"VL4WsoiqEJw42SI\",\"url\":\"https://siskiyou.craigslist.org/search/gms\",\"loadedUrl\":\"https://siskiyou.craigslist.org/search/gms\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:42.138Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323304,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://siskiyou.craigslist.org/search/gms",
 	"url": "https://siskiyou.craigslist.org/search/gms"

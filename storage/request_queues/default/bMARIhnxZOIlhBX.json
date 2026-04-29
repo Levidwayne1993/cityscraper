@@ -1,0 +1,9 @@
+{
+	"id": "bMARIhnxZOIlhBX",
+	"json": "{\"id\":\"bMARIhnxZOIlhBX\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-moving-sale-one-day-only/7926928665.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-moving-sale-one-day-only/7926928665.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boynton-beach-moving-sale-one-day-only/7926928665.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:17.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-moving-sale-one-day-only/7926928665.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boynton-beach-moving-sale-one-day-only/7926928665.html"
+}

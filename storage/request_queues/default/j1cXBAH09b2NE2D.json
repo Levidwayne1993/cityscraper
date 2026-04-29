@@ -1,0 +1,9 @@
+{
+	"id": "j1cXBAH09b2NE2D",
+	"json": "{\"id\":\"j1cXBAH09b2NE2D\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-home-goods-extravaganza-garage/7923857204.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-home-goods-extravaganza-garage/7923857204.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-home-goods-extravaganza-garage/7923857204.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:43.977Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-home-goods-extravaganza-garage/7923857204.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-home-goods-extravaganza-garage/7923857204.html"
+}

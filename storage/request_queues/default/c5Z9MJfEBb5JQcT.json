@@ -1,0 +1,9 @@
+{
+	"id": "c5Z9MJfEBb5JQcT",
+	"json": "{\"id\":\"c5Z9MJfEBb5JQcT\",\"url\":\"https://mattoon.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://mattoon.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518163,
+	"retryCount": 0,
+	"uniqueKey": "https://mattoon.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://mattoon.craigslist.org/search/ccc?query=yard+sale"
+}

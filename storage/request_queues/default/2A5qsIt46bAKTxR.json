@@ -1,0 +1,9 @@
+{
+	"id": "2A5qsIt46bAKTxR",
+	"json": "{\"id\":\"2A5qsIt46bAKTxR\",\"url\":\"https://lasvegas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://lasvegas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522739,
+	"retryCount": 0,
+	"uniqueKey": "https://lasvegas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://lasvegas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

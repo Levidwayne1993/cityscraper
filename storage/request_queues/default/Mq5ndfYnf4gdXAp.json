@@ -1,0 +1,9 @@
+{
+	"id": "Mq5ndfYnf4gdXAp",
+	"json": "{\"id\":\"Mq5ndfYnf4gdXAp\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-leave-it-to-lynn-estate-sale/7929686269.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-leave-it-to-lynn-estate-sale/7929686269.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-leave-it-to-lynn-estate-sale/7929686269.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:56.535Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/brentwood-leave-it-to-lynn-estate-sale/7929686269.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/brentwood-leave-it-to-lynn-estate-sale/7929686269.html"
+}

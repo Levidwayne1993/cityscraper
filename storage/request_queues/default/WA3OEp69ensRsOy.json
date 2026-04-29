@@ -1,0 +1,9 @@
+{
+	"id": "WA3OEp69ensRsOy",
+	"json": "{\"id\":\"WA3OEp69ensRsOy\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Washington-DC.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Washington-DC.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"DC\",\"yssSlug\":\"Washington-DC\"}}",
+	"method": "GET",
+	"orderNo": 1777186530686,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Washington-DC.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Washington-DC.html"
+}

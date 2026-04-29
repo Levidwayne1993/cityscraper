@@ -1,0 +1,9 @@
+{
+	"id": "A9AJ4t4OobjGIIR",
+	"json": "{\"id\":\"A9AJ4t4OobjGIIR\",\"url\":\"https://chico.craigslist.org/gms/d/chico-chico-garage-sale-big-and-cheap/7929947886.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-chico-garage-sale-big-and-cheap/7929947886.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-chico-garage-sale-big-and-cheap/7929947886.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:36:56.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-chico-garage-sale-big-and-cheap/7929947886.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-chico-garage-sale-big-and-cheap/7929947886.html"
+}

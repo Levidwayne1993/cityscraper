@@ -1,0 +1,9 @@
+{
+	"id": "HcSShsrywHrHNhY",
+	"json": "{\"id\":\"HcSShsrywHrHNhY\",\"url\":\"https://cosprings.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://cosprings.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://cosprings.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:11.895Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://cosprings.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "G0u7JIF5wPkIhWO",
+	"json": "{\"id\":\"G0u7JIF5wPkIhWO\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-estate-sale-saturday-830am-1pm/7926436668.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-estate-sale-saturday-830am-1pm/7926436668.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-estate-sale-saturday-830am-1pm/7926436668.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:37:39.635Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-estate-sale-saturday-830am-1pm/7926436668.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-estate-sale-saturday-830am-1pm/7926436668.html"
+}

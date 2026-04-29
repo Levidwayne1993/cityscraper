@@ -1,0 +1,9 @@
+{
+	"id": "bsqyUXKflfqb2Xk",
+	"json": "{\"id\":\"bsqyUXKflfqb2Xk\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-garage-sale-all-items-must-go/7921630928.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-garage-sale-all-items-must-go/7921630928.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-garage-sale-all-items-must-go/7921630928.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:01.710Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/oceanside-garage-sale-all-items-must-go/7921630928.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/oceanside-garage-sale-all-items-must-go/7921630928.html"
+}

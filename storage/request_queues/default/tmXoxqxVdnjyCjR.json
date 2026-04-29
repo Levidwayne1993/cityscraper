@@ -1,0 +1,9 @@
+{
+	"id": "tmXoxqxVdnjyCjR",
+	"json": "{\"id\":\"tmXoxqxVdnjyCjR\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-sunday-pm/7928311996.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-sunday-pm/7928311996.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-sunday-pm/7928311996.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:28.995Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-sunday-pm/7928311996.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-sunday-pm/7928311996.html"
+}

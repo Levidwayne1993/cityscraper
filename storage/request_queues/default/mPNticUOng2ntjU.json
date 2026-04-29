@@ -1,0 +1,9 @@
+{
+	"id": "mPNticUOng2ntjU",
+	"json": "{\"id\":\"mPNticUOng2ntjU\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-south-park-multi-family-yard/7925439217.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-south-park-multi-family-yard/7925439217.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-south-park-multi-family-yard/7925439217.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:19.002Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-south-park-multi-family-yard/7925439217.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-south-park-multi-family-yard/7925439217.html"
+}

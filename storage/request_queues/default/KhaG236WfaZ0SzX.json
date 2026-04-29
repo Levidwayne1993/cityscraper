@@ -1,0 +1,9 @@
+{
+	"id": "KhaG236WfaZ0SzX",
+	"json": "{\"id\":\"KhaG236WfaZ0SzX\",\"url\":\"https://miami.craigslist.org/brw/com/d/fort-lauderdale-huge-yard-sale-best-of/7921509759.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/com/d/fort-lauderdale-huge-yard-sale-best-of/7921509759.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/com/d/fort-lauderdale-huge-yard-sale-best-of/7921509759.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:28.700Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/com/d/fort-lauderdale-huge-yard-sale-best-of/7921509759.html",
+	"url": "https://miami.craigslist.org/brw/com/d/fort-lauderdale-huge-yard-sale-best-of/7921509759.html"
+}

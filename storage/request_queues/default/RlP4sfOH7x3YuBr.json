@@ -1,0 +1,9 @@
+{
+	"id": "RlP4sfOH7x3YuBr",
+	"json": "{\"id\":\"RlP4sfOH7x3YuBr\",\"url\":\"https://chico.craigslist.org/gms/d/artois-yard-sale-and-vegetable-plant/7924276570.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/artois-yard-sale-and-vegetable-plant/7924276570.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/artois-yard-sale-and-vegetable-plant/7924276570.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:01.577Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/artois-yard-sale-and-vegetable-plant/7924276570.html",
+	"url": "https://chico.craigslist.org/gms/d/artois-yard-sale-and-vegetable-plant/7924276570.html"
+}

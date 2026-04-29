@@ -1,0 +1,9 @@
+{
+	"id": "Vvq9Pwivj2ThPGm",
+	"json": "{\"id\":\"Vvq9Pwivj2ThPGm\",\"url\":\"https://littlerock.craigslist.org/gms/d/bryant-garage-sale-of-everything-sat/7911776654.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/bryant-garage-sale-of-everything-sat/7911776654.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/bryant-garage-sale-of-everything-sat/7911776654.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:53.971Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/bryant-garage-sale-of-everything-sat/7911776654.html",
+	"url": "https://littlerock.craigslist.org/gms/d/bryant-garage-sale-of-everything-sat/7911776654.html"
+}

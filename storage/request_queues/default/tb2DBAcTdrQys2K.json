@@ -1,0 +1,9 @@
+{
+	"id": "tb2DBAcTdrQys2K",
+	"json": "{\"id\":\"tb2DBAcTdrQys2K\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Fort-Worth-TX.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Fort-Worth-TX.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TX\",\"yssSlug\":\"Fort-Worth-TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186532833,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Fort-Worth-TX.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Fort-Worth-TX.html"
+}

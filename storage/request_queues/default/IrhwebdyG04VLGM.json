@@ -1,0 +1,9 @@
+{
+	"id": "IrhwebdyG04VLGM",
+	"json": "{\"id\":\"IrhwebdyG04VLGM\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-yard-sale/7927215421.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-yard-sale/7927215421.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-yard-sale/7927215421.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:54.644Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/jupiter-yard-sale/7927215421.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/jupiter-yard-sale/7927215421.html"
+}

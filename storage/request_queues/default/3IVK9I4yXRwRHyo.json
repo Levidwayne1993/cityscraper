@@ -1,0 +1,9 @@
+{
+	"id": "3IVK9I4yXRwRHyo",
+	"json": "{\"id\":\"3IVK9I4yXRwRHyo\",\"url\":\"https://norfolk.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://norfolk.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527834,
+	"retryCount": 0,
+	"uniqueKey": "https://norfolk.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://norfolk.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

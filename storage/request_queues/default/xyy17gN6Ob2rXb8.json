@@ -1,0 +1,9 @@
+{
+	"id": "xyy17gN6Ob2rXb8",
+	"json": "{\"id\":\"xyy17gN6Ob2rXb8\",\"url\":\"https://juneau.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://juneau.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://juneau.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:16:14.733Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://juneau.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://juneau.craigslist.org/search/ccc?query=garage+sale"
+}

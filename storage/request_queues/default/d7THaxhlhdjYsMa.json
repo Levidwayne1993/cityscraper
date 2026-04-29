@@ -1,0 +1,9 @@
+{
+	"id": "d7THaxhlhdjYsMa",
+	"json": "{\"id\":\"d7THaxhlhdjYsMa\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-east-mesa/7929983175.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-east-mesa/7929983175.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-east-mesa/7929983175.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:17.416Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-east-mesa/7929983175.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-east-mesa/7929983175.html"
+}

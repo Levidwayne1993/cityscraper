@@ -1,0 +1,9 @@
+{
+	"id": "MIoHGtY7TJ1WXRt",
+	"json": "{\"id\":\"MIoHGtY7TJ1WXRt\",\"url\":\"https://phoenix.craigslist.org/nph/com/d/glendale-huge-moving-yard-sale-sunday/7926746051.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/com/d/glendale-huge-moving-yard-sale-sunday/7926746051.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/com/d/glendale-huge-moving-yard-sale-sunday/7926746051.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:13.331Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/com/d/glendale-huge-moving-yard-sale-sunday/7926746051.html",
+	"url": "https://phoenix.craigslist.org/nph/com/d/glendale-huge-moving-yard-sale-sunday/7926746051.html"
+}

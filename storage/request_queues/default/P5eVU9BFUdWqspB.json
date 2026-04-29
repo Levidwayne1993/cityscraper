@@ -1,0 +1,9 @@
+{
+	"id": "P5eVU9BFUdWqspB",
+	"json": "{\"id\":\"P5eVU9BFUdWqspB\",\"url\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-huge-garage-sale-2794/7930060533.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-huge-garage-sale-2794/7930060533.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-huge-garage-sale-2794/7930060533.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:40.104Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/el-dorado-hills-huge-garage-sale-2794/7930060533.html",
+	"url": "https://sacramento.craigslist.org/gms/d/el-dorado-hills-huge-garage-sale-2794/7930060533.html"
+}

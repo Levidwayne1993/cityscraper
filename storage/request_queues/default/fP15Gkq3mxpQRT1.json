@@ -1,0 +1,9 @@
+{
+	"id": "fP15Gkq3mxpQRT1",
+	"json": "{\"id\":\"fP15Gkq3mxpQRT1\",\"url\":\"https://www.estatesales.net/estate-sales/North-Carolina\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/North-Carolina\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"North-Carolina\"}}",
+	"method": "GET",
+	"orderNo": 1777186528728,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/North-Carolina",
+	"url": "https://www.estatesales.net/estate-sales/North-Carolina"
+}

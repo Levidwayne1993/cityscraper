@@ -1,0 +1,9 @@
+{
+	"id": "f29JfRQ17vcl7ns",
+	"json": "{\"id\":\"f29JfRQ17vcl7ns\",\"url\":\"https://inlandempire.craigslist.org/gms/d/sugarloaf-garage-sale-many-free-items/7930025249.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/sugarloaf-garage-sale-many-free-items/7930025249.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/sugarloaf-garage-sale-many-free-items/7930025249.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:15.269Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/sugarloaf-garage-sale-many-free-items/7930025249.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/sugarloaf-garage-sale-many-free-items/7930025249.html"
+}

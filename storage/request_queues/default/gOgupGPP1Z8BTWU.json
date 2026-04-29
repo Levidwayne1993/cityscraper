@@ -1,8 +1,8 @@
 {
 	"id": "gOgupGPP1Z8BTWU",
-	"json": "{\"id\":\"gOgupGPP1Z8BTWU\",\"url\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"gOgupGPP1Z8BTWU\",\"url\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:11:00.731Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323224,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale"

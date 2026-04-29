@@ -1,0 +1,9 @@
+{
+	"id": "eRXOeCIflMEM975",
+	"json": "{\"id\":\"eRXOeCIflMEM975\",\"url\":\"https://miami.craigslist.org/brw/fuo/d/boca-raton-moving-sale-it-all-has-to-go/7925133334.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/fuo/d/boca-raton-moving-sale-it-all-has-to-go/7925133334.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/fuo/d/boca-raton-moving-sale-it-all-has-to-go/7925133334.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:34.259Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/fuo/d/boca-raton-moving-sale-it-all-has-to-go/7925133334.html",
+	"url": "https://miami.craigslist.org/brw/fuo/d/boca-raton-moving-sale-it-all-has-to-go/7925133334.html"
+}

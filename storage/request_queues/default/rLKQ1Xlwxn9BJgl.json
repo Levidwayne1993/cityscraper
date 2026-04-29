@@ -1,0 +1,9 @@
+{
+	"id": "rLKQ1Xlwxn9BJgl",
+	"json": "{\"id\":\"rLKQ1Xlwxn9BJgl\",\"url\":\"https://fortcollins.craigslist.org/gms/d/loveland-moving-estate-sale/7922145031.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/loveland-moving-estate-sale/7922145031.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/loveland-moving-estate-sale/7922145031.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:38.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/loveland-moving-estate-sale/7922145031.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/loveland-moving-estate-sale/7922145031.html"
+}

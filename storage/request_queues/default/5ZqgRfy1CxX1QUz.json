@@ -1,0 +1,9 @@
+{
+	"id": "5ZqgRfy1CxX1QUz",
+	"json": "{\"id\":\"5ZqgRfy1CxX1QUz\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-curated-vintage-and-estate/7928644622.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-curated-vintage-and-estate/7928644622.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-curated-vintage-and-estate/7928644622.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:55.137Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-curated-vintage-and-estate/7928644622.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-curated-vintage-and-estate/7928644622.html"
+}

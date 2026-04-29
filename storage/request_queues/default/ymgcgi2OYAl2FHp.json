@@ -1,0 +1,9 @@
+{
+	"id": "ymgcgi2OYAl2FHp",
+	"json": "{\"id\":\"ymgcgi2OYAl2FHp\",\"url\":\"https://orangecounty.craigslist.org/gms/d/fullerton-stuff-you-didnt-know-you/7922512267.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/fullerton-stuff-you-didnt-know-you/7922512267.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/fullerton-stuff-you-didnt-know-you/7922512267.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:12:03.609Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/fullerton-stuff-you-didnt-know-you/7922512267.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/fullerton-stuff-you-didnt-know-you/7922512267.html"
+}

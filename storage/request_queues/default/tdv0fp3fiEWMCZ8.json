@@ -1,0 +1,9 @@
+{
+	"id": "tdv0fp3fiEWMCZ8",
+	"json": "{\"id\":\"tdv0fp3fiEWMCZ8\",\"url\":\"https://inlandempire.craigslist.org/com/d/riverside-huge-community-garage-sale/7926729985.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/riverside-huge-community-garage-sale/7926729985.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/riverside-huge-community-garage-sale/7926729985.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:18:29.377Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/riverside-huge-community-garage-sale/7926729985.html",
+	"url": "https://inlandempire.craigslist.org/com/d/riverside-huge-community-garage-sale/7926729985.html"
+}

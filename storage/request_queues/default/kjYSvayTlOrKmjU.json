@@ -1,0 +1,9 @@
+{
+	"id": "kjYSvayTlOrKmjU",
+	"json": "{\"id\":\"kjYSvayTlOrKmjU\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-estate-sale-sat-11th-6412/7926771703.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-estate-sale-sat-11th-6412/7926771703.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-estate-sale-sat-11th-6412/7926771703.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:16.421Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-estate-sale-sat-11th-6412/7926771703.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-estate-sale-sat-11th-6412/7926771703.html"
+}

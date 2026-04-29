@@ -1,0 +1,9 @@
+{
+	"id": "x9XUwttN0btD0Tb",
+	"json": "{\"id\":\"x9XUwttN0btD0Tb\",\"url\":\"https://orangecounty.craigslist.org/clt/d/stanton-garage-sale/7928571735.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/clt/d/stanton-garage-sale/7928571735.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/clt/d/stanton-garage-sale/7928571735.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:22:44.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/clt/d/stanton-garage-sale/7928571735.html",
+	"url": "https://orangecounty.craigslist.org/clt/d/stanton-garage-sale/7928571735.html"
+}

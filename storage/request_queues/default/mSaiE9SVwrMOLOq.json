@@ -1,0 +1,9 @@
+{
+	"id": "mSaiE9SVwrMOLOq",
+	"json": "{\"id\":\"mSaiE9SVwrMOLOq\",\"url\":\"https://zanesville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://zanesville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186525041,
+	"retryCount": 0,
+	"uniqueKey": "https://zanesville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://zanesville.craigslist.org/search/ccc?query=yard+sale"
+}

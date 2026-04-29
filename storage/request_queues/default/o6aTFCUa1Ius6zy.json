@@ -1,0 +1,9 @@
+{
+	"id": "o6aTFCUa1Ius6zy",
+	"json": "{\"id\":\"o6aTFCUa1Ius6zy\",\"url\":\"https://charleston.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://charleston.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525841,
+	"retryCount": 0,
+	"uniqueKey": "https://charleston.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://charleston.craigslist.org/search/ccc?query=yard+sale"
+}

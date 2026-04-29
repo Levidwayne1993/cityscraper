@@ -1,0 +1,9 @@
+{
+	"id": "pnU4ghMgtoua8Z4",
+	"json": "{\"id\":\"pnU4ghMgtoua8Z4\",\"url\":\"https://chico.craigslist.org/gms/d/oroville-huge-barn-sale-yard-sale-rain/7926540158.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/oroville-huge-barn-sale-yard-sale-rain/7926540158.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/oroville-huge-barn-sale-yard-sale-rain/7926540158.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:26.165Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/oroville-huge-barn-sale-yard-sale-rain/7926540158.html",
+	"url": "https://chico.craigslist.org/gms/d/oroville-huge-barn-sale-yard-sale-rain/7926540158.html"
+}

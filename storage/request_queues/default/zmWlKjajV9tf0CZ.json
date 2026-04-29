@@ -1,0 +1,9 @@
+{
+	"id": "zmWlKjajV9tf0CZ",
+	"json": "{\"id\":\"zmWlKjajV9tf0CZ\",\"url\":\"https://denver.craigslist.org/gms/d/brighton-multi-family-yard-sale/7930072537.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/brighton-multi-family-yard-sale/7930072537.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/brighton-multi-family-yard-sale/7930072537.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:57.236Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/brighton-multi-family-yard-sale/7930072537.html",
+	"url": "https://denver.craigslist.org/gms/d/brighton-multi-family-yard-sale/7930072537.html"
+}

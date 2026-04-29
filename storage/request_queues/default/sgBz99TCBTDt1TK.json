@@ -1,0 +1,9 @@
+{
+	"id": "sgBz99TCBTDt1TK",
+	"json": "{\"id\":\"sgBz99TCBTDt1TK\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Detroit-MI.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Detroit-MI.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"MI\",\"yssSlug\":\"Detroit-MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186531166,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Detroit-MI.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Detroit-MI.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "jZuHrg4iHaEYO8t",
+	"json": "{\"id\":\"jZuHrg4iHaEYO8t\",\"url\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-thousand-oaks-yard-sale/7925508435.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-thousand-oaks-yard-sale/7925508435.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-thousand-oaks-yard-sale/7925508435.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:25.900Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/thousand-oaks-thousand-oaks-yard-sale/7925508435.html",
+	"url": "https://ventura.craigslist.org/gms/d/thousand-oaks-thousand-oaks-yard-sale/7925508435.html"
+}

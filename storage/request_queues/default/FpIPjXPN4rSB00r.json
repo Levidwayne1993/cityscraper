@@ -1,0 +1,9 @@
+{
+	"id": "FpIPjXPN4rSB00r",
+	"json": "{\"id\":\"FpIPjXPN4rSB00r\",\"url\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-huge-neighborhood/7929407608.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-huge-neighborhood/7929407608.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-huge-neighborhood/7929407608.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:24.971Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/huntington-beach-huge-neighborhood/7929407608.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/huntington-beach-huge-neighborhood/7929407608.html"
+}

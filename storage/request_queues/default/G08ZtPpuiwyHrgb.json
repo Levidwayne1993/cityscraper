@@ -1,0 +1,9 @@
+{
+	"id": "G08ZtPpuiwyHrgb",
+	"json": "{\"id\":\"G08ZtPpuiwyHrgb\",\"url\":\"https://prescott.craigslist.org/gms/d/chino-valley-paulden-flea-market/7928182278.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/chino-valley-paulden-flea-market/7928182278.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/chino-valley-paulden-flea-market/7928182278.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:14.734Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/chino-valley-paulden-flea-market/7928182278.html",
+	"url": "https://prescott.craigslist.org/gms/d/chino-valley-paulden-flea-market/7928182278.html"
+}

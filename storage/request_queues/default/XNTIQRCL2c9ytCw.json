@@ -1,0 +1,9 @@
+{
+	"id": "XNTIQRCL2c9ytCw",
+	"json": "{\"id\":\"XNTIQRCL2c9ytCw\",\"url\":\"https://chico.craigslist.org/gms/d/stirling-city-estate-sale-antiques/7930164002.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/stirling-city-estate-sale-antiques/7930164002.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/stirling-city-estate-sale-antiques/7930164002.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:27:44.229Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/stirling-city-estate-sale-antiques/7930164002.html",
+	"url": "https://chico.craigslist.org/gms/d/stirling-city-estate-sale-antiques/7930164002.html"
+}

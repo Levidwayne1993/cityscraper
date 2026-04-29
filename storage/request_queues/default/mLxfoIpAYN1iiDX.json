@@ -1,0 +1,9 @@
+{
+	"id": "mLxfoIpAYN1iiDX",
+	"json": "{\"id\":\"mLxfoIpAYN1iiDX\",\"url\":\"https://newlondon.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://newlondon.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:18.821Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://newlondon.craigslist.org/search/ccc?query=garage+sale"
+}

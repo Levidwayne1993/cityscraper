@@ -1,0 +1,9 @@
+{
+	"id": "hB27RdCNr34qQmv",
+	"json": "{\"id\":\"hB27RdCNr34qQmv\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-indoor-church-sale/7929514883.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-indoor-church-sale/7929514883.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-indoor-church-sale/7929514883.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:58:16.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-indoor-church-sale/7929514883.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-indoor-church-sale/7929514883.html"
+}

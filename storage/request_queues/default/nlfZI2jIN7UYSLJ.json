@@ -1,0 +1,9 @@
+{
+	"id": "nlfZI2jIN7UYSLJ",
+	"json": "{\"id\":\"nlfZI2jIN7UYSLJ\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/DE/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/DE\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"DE\"}}",
+	"method": "GET",
+	"orderNo": 1777186528870,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/DE",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/DE/"
+}

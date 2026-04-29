@@ -1,0 +1,9 @@
+{
+	"id": "M1w2y6GkC2S4gQf",
+	"json": "{\"id\":\"M1w2y6GkC2S4gQf\",\"url\":\"https://ventura.craigslist.org/gms/d/port-hueneme-garage-sale/7929906588.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/port-hueneme-garage-sale/7929906588.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/port-hueneme-garage-sale/7929906588.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:47.117Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/port-hueneme-garage-sale/7929906588.html",
+	"url": "https://ventura.craigslist.org/gms/d/port-hueneme-garage-sale/7929906588.html"
+}

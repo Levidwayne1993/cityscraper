@@ -1,0 +1,9 @@
+{
+	"id": "UnPuX5bt7HgmfWl",
+	"json": "{\"id\":\"UnPuX5bt7HgmfWl\",\"url\":\"https://tuscaloosa.craigslist.org/gms/d/tuscaloosa-huge-yard-sale-tmrrw-28/7918083490.html\",\"loadedUrl\":\"https://tuscaloosa.craigslist.org/gms/d/tuscaloosa-huge-yard-sale-tmrrw-28/7918083490.html\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/gms/d/tuscaloosa-huge-yard-sale-tmrrw-28/7918083490.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:09:28.791Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscaloosa.craigslist.org/gms/d/tuscaloosa-huge-yard-sale-tmrrw-28/7918083490.html",
+	"url": "https://tuscaloosa.craigslist.org/gms/d/tuscaloosa-huge-yard-sale-tmrrw-28/7918083490.html"
+}

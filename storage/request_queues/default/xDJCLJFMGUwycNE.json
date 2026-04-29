@@ -1,0 +1,9 @@
+{
+	"id": "xDJCLJFMGUwycNE",
+	"json": "{\"id\":\"xDJCLJFMGUwycNE\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-huge-garage-sale-april-25/7929980769.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-huge-garage-sale-april-25/7929980769.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/el-mirage-huge-garage-sale-april-25/7929980769.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:34.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/el-mirage-huge-garage-sale-april-25/7929980769.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/el-mirage-huge-garage-sale-april-25/7929980769.html"
+}

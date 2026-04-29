@@ -1,0 +1,9 @@
+{
+	"id": "C0cVFWYfBkckrC6",
+	"json": "{\"id\":\"C0cVFWYfBkckrC6\",\"url\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-zipcode/7927114071.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-zipcode/7927114071.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-zipcode/7927114071.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:26.685Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-zipcode/7927114071.html",
+	"url": "https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-zipcode/7927114071.html"
+}

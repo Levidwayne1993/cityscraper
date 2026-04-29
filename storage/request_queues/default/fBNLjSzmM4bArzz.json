@@ -1,0 +1,9 @@
+{
+	"id": "fBNLjSzmM4bArzz",
+	"json": "{\"id\":\"fBNLjSzmM4bArzz\",\"url\":\"https://westslope.craigslist.org/gms/d/montrose-garage-salessat-apr-25th10am/7928853916.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/montrose-garage-salessat-apr-25th10am/7928853916.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/montrose-garage-salessat-apr-25th10am/7928853916.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:33.551Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/montrose-garage-salessat-apr-25th10am/7928853916.html",
+	"url": "https://westslope.craigslist.org/gms/d/montrose-garage-salessat-apr-25th10am/7928853916.html"
+}

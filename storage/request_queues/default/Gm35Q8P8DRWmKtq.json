@@ -1,0 +1,9 @@
+{
+	"id": "Gm35Q8P8DRWmKtq",
+	"json": "{\"id\":\"Gm35Q8P8DRWmKtq\",\"url\":\"https://anchorage.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://anchorage.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:27.277Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://anchorage.craigslist.org/search/ccc?query=yard+sale"
+}

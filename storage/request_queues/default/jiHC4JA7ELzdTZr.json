@@ -1,0 +1,9 @@
+{
+	"id": "jiHC4JA7ELzdTZr",
+	"json": "{\"id\":\"jiHC4JA7ELzdTZr\",\"url\":\"https://bend.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://bend.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525158,
+	"retryCount": 0,
+	"uniqueKey": "https://bend.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://bend.craigslist.org/search/ccc?query=yard+sale"
+}

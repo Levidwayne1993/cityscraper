@@ -1,0 +1,9 @@
+{
+	"id": "Nuq8lPvj5pAGlJC",
+	"json": "{\"id\":\"Nuq8lPvj5pAGlJC\",\"url\":\"https://tucson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://tucson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://tucson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:03:31.503Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://tucson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

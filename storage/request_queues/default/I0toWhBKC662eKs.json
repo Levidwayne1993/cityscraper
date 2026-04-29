@@ -1,0 +1,9 @@
+{
+	"id": "I0toWhBKC662eKs",
+	"json": "{\"id\":\"I0toWhBKC662eKs\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/phoenix-huge-family-garage-sale-march/7920693926.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/phoenix-huge-family-garage-sale-march/7920693926.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/phoenix-huge-family-garage-sale-march/7920693926.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:50.584Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/phoenix-huge-family-garage-sale-march/7920693926.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/phoenix-huge-family-garage-sale-march/7920693926.html"
+}

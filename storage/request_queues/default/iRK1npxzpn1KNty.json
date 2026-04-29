@@ -1,0 +1,9 @@
+{
+	"id": "iRK1npxzpn1KNty",
+	"json": "{\"id\":\"iRK1npxzpn1KNty\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-garden-bradford-creek-community/7928070178.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-garden-bradford-creek-community/7928070178.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-garden-bradford-creek-community/7928070178.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:33:33.931Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-garden-bradford-creek-community/7928070178.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-garden-bradford-creek-community/7928070178.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qT1QoH4QzDNABdL",
+	"json": "{\"id\":\"qT1QoH4QzDNABdL\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-heritage-mobile-home-community/7929351114.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-heritage-mobile-home-community/7929351114.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-heritage-mobile-home-community/7929351114.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:47.689Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-heritage-mobile-home-community/7929351114.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-heritage-mobile-home-community/7929351114.html"
+}

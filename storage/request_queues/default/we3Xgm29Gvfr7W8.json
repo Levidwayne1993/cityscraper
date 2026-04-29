@@ -1,9 +1,0 @@
-{
-	"id": "we3Xgm29Gvfr7W8",
-	"json": "{\"id\":\"we3Xgm29Gvfr7W8\",\"url\":\"https://ashtabula.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://ashtabula.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327312,
-	"retryCount": 0,
-	"uniqueKey": "https://ashtabula.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
-	"url": "https://ashtabula.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
-}

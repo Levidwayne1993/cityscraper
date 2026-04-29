@@ -1,0 +1,9 @@
+{
+	"id": "OBybLsGJyFqC0Qm",
+	"json": "{\"id\":\"OBybLsGJyFqC0Qm\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/sonoma-garage-sale/7930079525.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/sonoma-garage-sale/7930079525.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/sonoma-garage-sale/7930079525.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:12.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/sonoma-garage-sale/7930079525.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/sonoma-garage-sale/7930079525.html"
+}

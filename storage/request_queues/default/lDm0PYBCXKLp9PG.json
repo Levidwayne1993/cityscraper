@@ -1,0 +1,9 @@
+{
+	"id": "lDm0PYBCXKLp9PG",
+	"json": "{\"id\":\"lDm0PYBCXKLp9PG\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale/7928427358.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale/7928427358.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale/7928427358.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:40:52.181Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale/7928427358.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale/7928427358.html"
+}

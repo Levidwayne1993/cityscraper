@@ -1,0 +1,9 @@
+{
+	"id": "YLUepYZu7elrfs2",
+	"json": "{\"id\":\"YLUepYZu7elrfs2\",\"url\":\"https://lehighvalley.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://lehighvalley.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525500,
+	"retryCount": 0,
+	"uniqueKey": "https://lehighvalley.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://lehighvalley.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

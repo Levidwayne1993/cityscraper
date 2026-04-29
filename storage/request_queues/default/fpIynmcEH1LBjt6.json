@@ -1,0 +1,9 @@
+{
+	"id": "fpIynmcEH1LBjt6",
+	"json": "{\"id\":\"fpIynmcEH1LBjt6\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-cherry-knolls-estate-sale/7928217414.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-cherry-knolls-estate-sale/7928217414.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-cherry-knolls-estate-sale/7928217414.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:41.825Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-cherry-knolls-estate-sale/7928217414.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-cherry-knolls-estate-sale/7928217414.html"
+}

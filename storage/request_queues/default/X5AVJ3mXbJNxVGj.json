@@ -1,0 +1,9 @@
+{
+	"id": "X5AVJ3mXbJNxVGj",
+	"json": "{\"id\":\"X5AVJ3mXbJNxVGj\",\"url\":\"https://palmsprings.craigslist.org/gms/d/indio-desert-trace-community-sale/7922043497.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/indio-desert-trace-community-sale/7922043497.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/indio-desert-trace-community-sale/7922043497.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:31:16.913Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/indio-desert-trace-community-sale/7922043497.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/indio-desert-trace-community-sale/7922043497.html"
+}

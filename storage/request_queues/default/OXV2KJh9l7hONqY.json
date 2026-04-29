@@ -1,0 +1,9 @@
+{
+	"id": "OXV2KJh9l7hONqY",
+	"json": "{\"id\":\"OXV2KJh9l7hONqY\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-sale-by-cyndi-807-solano-drive/7929811788.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-sale-by-cyndi-807-solano-drive/7929811788.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-sale-by-cyndi-807-solano-drive/7929811788.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:24:23.503Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-sale-by-cyndi-807-solano-drive/7929811788.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-sale-by-cyndi-807-solano-drive/7929811788.html"
+}

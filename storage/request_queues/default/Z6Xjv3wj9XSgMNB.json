@@ -1,0 +1,9 @@
+{
+	"id": "Z6Xjv3wj9XSgMNB",
+	"json": "{\"id\":\"Z6Xjv3wj9XSgMNB\",\"url\":\"https://salina.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://salina.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186518719,
+	"retryCount": 0,
+	"uniqueKey": "https://salina.craigslist.org/search/gms?s=360",
+	"url": "https://salina.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SVTnH1aCeMqT1ln",
+	"json": "{\"id\":\"SVTnH1aCeMqT1ln\",\"url\":\"https://stockton.craigslist.org/gms/d/tracy-multi-family-garage-sale/7928150907.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/tracy-multi-family-garage-sale/7928150907.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/tracy-multi-family-garage-sale/7928150907.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:54.907Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/tracy-multi-family-garage-sale/7928150907.html",
+	"url": "https://stockton.craigslist.org/gms/d/tracy-multi-family-garage-sale/7928150907.html"
+}

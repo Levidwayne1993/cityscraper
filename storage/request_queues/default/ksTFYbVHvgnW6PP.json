@@ -1,0 +1,9 @@
+{
+	"id": "ksTFYbVHvgnW6PP",
+	"json": "{\"id\":\"ksTFYbVHvgnW6PP\",\"url\":\"https://ocala.craigslist.org/gms/d/summerfield-moving-sale-everything-must/7922166483.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/summerfield-moving-sale-everything-must/7922166483.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/summerfield-moving-sale-everything-must/7922166483.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:00.266Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/summerfield-moving-sale-everything-must/7922166483.html",
+	"url": "https://ocala.craigslist.org/gms/d/summerfield-moving-sale-everything-must/7922166483.html"
+}

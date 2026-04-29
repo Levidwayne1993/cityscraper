@@ -1,0 +1,9 @@
+{
+	"id": "BFA4carHS1zWLhd",
+	"json": "{\"id\":\"BFA4carHS1zWLhd\",\"url\":\"https://daytona.craigslist.org/for/d/deland-moving-sale-selling-in-bulk-neg/7921977807.html\",\"loadedUrl\":\"https://daytona.craigslist.org/for/d/deland-moving-sale-selling-in-bulk-neg/7921977807.html\",\"uniqueKey\":\"https://daytona.craigslist.org/for/d/deland-moving-sale-selling-in-bulk-neg/7921977807.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:00:39.786Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/for/d/deland-moving-sale-selling-in-bulk-neg/7921977807.html",
+	"url": "https://daytona.craigslist.org/for/d/deland-moving-sale-selling-in-bulk-neg/7921977807.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EozWVDr3TyRixar",
+	"json": "{\"id\":\"EozWVDr3TyRixar\",\"url\":\"https://jacksonville.craigslist.org/com/d/jacksonville-community-garage-sale/7929784236.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/com/d/jacksonville-community-garage-sale/7929784236.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/com/d/jacksonville-community-garage-sale/7929784236.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:45:02.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/com/d/jacksonville-community-garage-sale/7929784236.html",
+	"url": "https://jacksonville.craigslist.org/com/d/jacksonville-community-garage-sale/7929784236.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GngjlyrCnp14bqZ",
+	"json": "{\"id\":\"GngjlyrCnp14bqZ\",\"url\":\"https://orangecounty.craigslist.org/ele/d/la-habra-ww2-star-wars-picture-moving/7930002625.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/ele/d/la-habra-ww2-star-wars-picture-moving/7930002625.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/ele/d/la-habra-ww2-star-wars-picture-moving/7930002625.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:31.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/ele/d/la-habra-ww2-star-wars-picture-moving/7930002625.html",
+	"url": "https://orangecounty.craigslist.org/ele/d/la-habra-ww2-star-wars-picture-moving/7930002625.html"
+}

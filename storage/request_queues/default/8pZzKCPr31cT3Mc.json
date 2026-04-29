@@ -1,0 +1,9 @@
+{
+	"id": "8pZzKCPr31cT3Mc",
+	"json": "{\"id\":\"8pZzKCPr31cT3Mc\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Joliet-IL.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Joliet-IL.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"IL\",\"yssSlug\":\"Joliet-IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186530870,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Joliet-IL.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Joliet-IL.html"
+}

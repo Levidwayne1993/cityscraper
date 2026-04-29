@@ -1,0 +1,9 @@
+{
+	"id": "bMXrLKpM3HgM15R",
+	"json": "{\"id\":\"bMXrLKpM3HgM15R\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale-2744-quincy/7921143190.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale-2744-quincy/7921143190.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale-2744-quincy/7921143190.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:19:43.568Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-yard-sale-2744-quincy/7921143190.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-yard-sale-2744-quincy/7921143190.html"
+}

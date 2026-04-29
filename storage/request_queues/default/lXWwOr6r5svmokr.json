@@ -1,0 +1,9 @@
+{
+	"id": "lXWwOr6r5svmokr",
+	"json": "{\"id\":\"lXWwOr6r5svmokr\",\"url\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-huge-fundraiser-yard/7923280081.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-huge-fundraiser-yard/7923280081.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-huge-fundraiser-yard/7923280081.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:02:49.293Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/owens-cross-roads-huge-fundraiser-yard/7923280081.html",
+	"url": "https://huntsville.craigslist.org/gms/d/owens-cross-roads-huge-fundraiser-yard/7923280081.html"
+}

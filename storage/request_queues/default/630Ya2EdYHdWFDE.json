@@ -1,0 +1,9 @@
+{
+	"id": "630Ya2EdYHdWFDE",
+	"json": "{\"id\":\"630Ya2EdYHdWFDE\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/boyes-hot-springs-sonoma-garage-sale/7929563757.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/boyes-hot-springs-sonoma-garage-sale/7929563757.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/boyes-hot-springs-sonoma-garage-sale/7929563757.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:55.012Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/boyes-hot-springs-sonoma-garage-sale/7929563757.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/boyes-hot-springs-sonoma-garage-sale/7929563757.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "lCYhZnUUCg0ms1I",
+	"json": "{\"id\":\"lCYhZnUUCg0ms1I\",\"url\":\"https://up.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://up.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520931,
+	"retryCount": 0,
+	"uniqueKey": "https://up.craigslist.org/search/gms?s=360",
+	"url": "https://up.craigslist.org/search/gms?s=360"
+}

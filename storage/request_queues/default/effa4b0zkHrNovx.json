@@ -1,0 +1,9 @@
+{
+	"id": "effa4b0zkHrNovx",
+	"json": "{\"id\":\"effa4b0zkHrNovx\",\"url\":\"https://farmington.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://farmington.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522888,
+	"retryCount": 0,
+	"uniqueKey": "https://farmington.craigslist.org/search/gms?s=360",
+	"url": "https://farmington.craigslist.org/search/gms?s=360"
+}

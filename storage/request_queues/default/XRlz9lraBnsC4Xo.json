@@ -1,8 +1,8 @@
 {
 	"id": "XRlz9lraBnsC4Xo",
-	"json": "{\"id\":\"XRlz9lraBnsC4Xo\",\"url\":\"https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"XRlz9lraBnsC4Xo\",\"url\":\"https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
 	"method": "GET",
-	"orderNo": 1777040327769,
+	"orderNo": 1777186525772,
 	"retryCount": 0,
 	"uniqueKey": "https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://pennstate.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

@@ -1,0 +1,9 @@
+{
+	"id": "6J1ZDA4w0Ul1LCG",
+	"json": "{\"id\":\"6J1ZDA4w0Ul1LCG\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale-friday-saturday/7923784941.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale-friday-saturday/7923784941.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale-friday-saturday/7923784941.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:29.563Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale-friday-saturday/7923784941.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale-friday-saturday/7923784941.html"
+}

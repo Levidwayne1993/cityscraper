@@ -1,0 +1,9 @@
+{
+	"id": "OUFUHDxn2gY7VDU",
+	"json": "{\"id\":\"OUFUHDxn2gY7VDU\",\"url\":\"https://sarasota.craigslist.org/gms/d/osprey-garage-sale-everything-must-go/7926237964.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/osprey-garage-sale-everything-must-go/7926237964.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/osprey-garage-sale-everything-must-go/7926237964.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:50:44.210Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/osprey-garage-sale-everything-must-go/7926237964.html",
+	"url": "https://sarasota.craigslist.org/gms/d/osprey-garage-sale-everything-must-go/7926237964.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZL1kaUBO39TnLfN",
+	"json": "{\"id\":\"ZL1kaUBO39TnLfN\",\"url\":\"https://pueblo.craigslist.org/gms/d/trinidad-estate-yard-sale/7929394641.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/trinidad-estate-yard-sale/7929394641.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/trinidad-estate-yard-sale/7929394641.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:56:24.562Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/trinidad-estate-yard-sale/7929394641.html",
+	"url": "https://pueblo.craigslist.org/gms/d/trinidad-estate-yard-sale/7929394641.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SsFHzKUCOf8G0H5",
+	"json": "{\"id\":\"SsFHzKUCOf8G0H5\",\"url\":\"https://ventura.craigslist.org/gms/d/granada-hills-updated-yard-sale-call/7926988469.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/granada-hills-updated-yard-sale-call/7926988469.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/granada-hills-updated-yard-sale-call/7926988469.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:09:15.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/granada-hills-updated-yard-sale-call/7926988469.html",
+	"url": "https://ventura.craigslist.org/gms/d/granada-hills-updated-yard-sale-call/7926988469.html"
+}

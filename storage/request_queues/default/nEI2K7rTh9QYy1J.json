@@ -1,0 +1,9 @@
+{
+	"id": "nEI2K7rTh9QYy1J",
+	"json": "{\"id\":\"nEI2K7rTh9QYy1J\",\"url\":\"https://williamsport.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://williamsport.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525796,
+	"retryCount": 0,
+	"uniqueKey": "https://williamsport.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://williamsport.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MwY3SJrCA9sR1Mt",
+	"json": "{\"id\":\"MwY3SJrCA9sR1Mt\",\"url\":\"https://eastco.craigslist.org/gms/d/log-lane-village-garage-sale/7929471897.html\",\"loadedUrl\":\"https://eastco.craigslist.org/gms/d/log-lane-village-garage-sale/7929471897.html\",\"uniqueKey\":\"https://eastco.craigslist.org/gms/d/log-lane-village-garage-sale/7929471897.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:47:34.473Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://eastco.craigslist.org/gms/d/log-lane-village-garage-sale/7929471897.html",
+	"url": "https://eastco.craigslist.org/gms/d/log-lane-village-garage-sale/7929471897.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KNXqvXd9YEstDXG",
+	"json": "{\"id\":\"KNXqvXd9YEstDXG\",\"url\":\"https://brunswick.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://brunswick.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517503,
+	"retryCount": 0,
+	"uniqueKey": "https://brunswick.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://brunswick.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1MyzIYYjMFfcwC7",
+	"json": "{\"id\":\"1MyzIYYjMFfcwC7\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Springfield-IL.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Springfield-IL.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"IL\",\"yssSlug\":\"Springfield-IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186530894,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Springfield-IL.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Springfield-IL.html"
+}

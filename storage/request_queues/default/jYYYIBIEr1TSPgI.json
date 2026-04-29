@@ -1,9 +1,0 @@
-{
-	"id": "jYYYIBIEr1TSPgI",
-	"json": "{\"id\":\"jYYYIBIEr1TSPgI\",\"url\":\"https://fortworth.craigslist.org/search/gms\",\"uniqueKey\":\"https://fortworth.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040328034,
-	"retryCount": 0,
-	"uniqueKey": "https://fortworth.craigslist.org/search/gms",
-	"url": "https://fortworth.craigslist.org/search/gms"
-}

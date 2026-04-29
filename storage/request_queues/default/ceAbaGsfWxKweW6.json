@@ -1,0 +1,9 @@
+{
+	"id": "ceAbaGsfWxKweW6",
+	"json": "{\"id\":\"ceAbaGsfWxKweW6\",\"url\":\"https://desmoines.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://desmoines.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518440,
+	"retryCount": 0,
+	"uniqueKey": "https://desmoines.craigslist.org/search/gms?s=360",
+	"url": "https://desmoines.craigslist.org/search/gms?s=360"
+}

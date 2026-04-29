@@ -1,8 +1,8 @@
 {
 	"id": "bDiARM9Q97UV48L",
-	"json": "{\"id\":\"bDiARM9Q97UV48L\",\"url\":\"https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"bDiARM9Q97UV48L\",\"url\":\"https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:17.905Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323378,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://denver.craigslist.org/search/sss?query=yard+sale+garage+sale"

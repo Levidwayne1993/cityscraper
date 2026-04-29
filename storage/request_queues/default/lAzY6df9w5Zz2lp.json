@@ -1,0 +1,9 @@
+{
+	"id": "lAzY6df9w5Zz2lp",
+	"json": "{\"id\":\"lAzY6df9w5Zz2lp\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-get-ready-for-summer/7929936554.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-get-ready-for-summer/7929936554.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-get-ready-for-summer/7929936554.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:01.609Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-get-ready-for-summer/7929936554.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-get-ready-for-summer/7929936554.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TyrrgiSh3KhxJCP",
+	"json": "{\"id\":\"TyrrgiSh3KhxJCP\",\"url\":\"https://slo.craigslist.org/com/d/morro-bay-yard-sale-470-las-vegas-st/7922411758.html\",\"loadedUrl\":\"https://slo.craigslist.org/com/d/morro-bay-yard-sale-470-las-vegas-st/7922411758.html\",\"uniqueKey\":\"https://slo.craigslist.org/com/d/morro-bay-yard-sale-470-las-vegas-st/7922411758.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:50:01.733Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/com/d/morro-bay-yard-sale-470-las-vegas-st/7922411758.html",
+	"url": "https://slo.craigslist.org/com/d/morro-bay-yard-sale-470-las-vegas-st/7922411758.html"
+}

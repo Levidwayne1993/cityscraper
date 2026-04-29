@@ -1,0 +1,9 @@
+{
+	"id": "UyG2S0ykYLXJrYu",
+	"json": "{\"id\":\"UyG2S0ykYLXJrYu\",\"url\":\"https://denver.craigslist.org/gms/d/parker-garage-sale-antiques-tools-toys/7926272263.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/parker-garage-sale-antiques-tools-toys/7926272263.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/parker-garage-sale-antiques-tools-toys/7926272263.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:02.134Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/parker-garage-sale-antiques-tools-toys/7926272263.html",
+	"url": "https://denver.craigslist.org/gms/d/parker-garage-sale-antiques-tools-toys/7926272263.html"
+}

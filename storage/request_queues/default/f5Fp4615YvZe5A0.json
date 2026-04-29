@@ -1,0 +1,9 @@
+{
+	"id": "f5Fp4615YvZe5A0",
+	"json": "{\"id\":\"f5Fp4615YvZe5A0\",\"url\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-sale-saturday-may-2nd/7929383718.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-sale-saturday-may-2nd/7929383718.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-sale-saturday-may-2nd/7929383718.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:38.723Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/gms/d/naples-moving-sale-saturday-may-2nd/7929383718.html",
+	"url": "https://fortmyers.craigslist.org/col/gms/d/naples-moving-sale-saturday-may-2nd/7929383718.html"
+}

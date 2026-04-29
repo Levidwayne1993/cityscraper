@@ -1,0 +1,9 @@
+{
+	"id": "3By9fQwZTeWETaA",
+	"json": "{\"id\":\"3By9fQwZTeWETaA\",\"url\":\"https://albuquerque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://albuquerque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522865,
+	"retryCount": 0,
+	"uniqueKey": "https://albuquerque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://albuquerque.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

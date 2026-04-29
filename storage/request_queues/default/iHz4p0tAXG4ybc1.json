@@ -1,0 +1,9 @@
+{
+	"id": "iHz4p0tAXG4ybc1",
+	"json": "{\"id\":\"iHz4p0tAXG4ybc1\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-rain-or-shine/7926675818.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-rain-or-shine/7926675818.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-rain-or-shine/7926675818.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:54.853Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-rain-or-shine/7926675818.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-rain-or-shine/7926675818.html"
+}

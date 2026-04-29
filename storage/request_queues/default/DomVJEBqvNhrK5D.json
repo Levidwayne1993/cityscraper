@@ -1,0 +1,9 @@
+{
+	"id": "DomVJEBqvNhrK5D",
+	"json": "{\"id\":\"DomVJEBqvNhrK5D\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-community-wide-yard-sale-30/7926628245.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-community-wide-yard-sale-30/7926628245.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-community-wide-yard-sale-30/7926628245.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:48.973Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-community-wide-yard-sale-30/7926628245.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-community-wide-yard-sale-30/7926628245.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "r3cT5BlaRgLpso4",
+	"json": "{\"id\":\"r3cT5BlaRgLpso4\",\"url\":\"https://chico.craigslist.org/gms/d/oroville-big-yard-sale-bass-ct/7921092144.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/oroville-big-yard-sale-bass-ct/7921092144.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/oroville-big-yard-sale-bass-ct/7921092144.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:30:44.513Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/oroville-big-yard-sale-bass-ct/7921092144.html",
+	"url": "https://chico.craigslist.org/gms/d/oroville-big-yard-sale-bass-ct/7921092144.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MYvnyNKFGvlxM6y",
+	"json": "{\"id\":\"MYvnyNKFGvlxM6y\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Oxnard-CA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Oxnard-CA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"Oxnard-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530516,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Oxnard-CA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Oxnard-CA.html"
+}

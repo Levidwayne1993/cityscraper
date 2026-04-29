@@ -1,0 +1,9 @@
+{
+	"id": "uyRAEiwilJ5Jwzb",
+	"json": "{\"id\":\"uyRAEiwilJ5Jwzb\",\"url\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-ikea-bed/7928697282.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-ikea-bed/7928697282.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-ikea-bed/7928697282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:25.385Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-ikea-bed/7928697282.html",
+	"url": "https://sfbay.craigslist.org/sfc/fuo/d/fremont-moving-sale-price-drop-ikea-bed/7928697282.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "95QcEIsX8wj0HF1",
+	"json": "{\"id\":\"95QcEIsX8wj0HF1\",\"url\":\"https://merced.craigslist.org/gms/d/winton-yard-sale/7925299391.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/winton-yard-sale/7925299391.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/winton-yard-sale/7925299391.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:50:23.579Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/winton-yard-sale/7925299391.html",
+	"url": "https://merced.craigslist.org/gms/d/winton-yard-sale/7925299391.html"
+}

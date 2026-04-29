@@ -1,0 +1,9 @@
+{
+	"id": "V9OtIxkBTFyDd6y",
+	"json": "{\"id\":\"V9OtIxkBTFyDd6y\",\"url\":\"https://chico.craigslist.org/gms/d/chico-25-cents-all-must-go-1pm-2yard/7924081030.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-25-cents-all-must-go-1pm-2yard/7924081030.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-25-cents-all-must-go-1pm-2yard/7924081030.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:32:59.679Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-25-cents-all-must-go-1pm-2yard/7924081030.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-25-cents-all-must-go-1pm-2yard/7924081030.html"
+}

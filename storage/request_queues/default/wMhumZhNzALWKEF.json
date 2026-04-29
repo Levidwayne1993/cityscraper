@@ -1,0 +1,9 @@
+{
+	"id": "wMhumZhNzALWKEF",
+	"json": "{\"id\":\"wMhumZhNzALWKEF\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/tujunga-yard-sale/7926924643.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/tujunga-yard-sale/7926924643.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/tujunga-yard-sale/7926924643.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:26:27.562Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/tujunga-yard-sale/7926924643.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/tujunga-yard-sale/7926924643.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WyRXB91whVE3PwS",
+	"json": "{\"id\":\"WyRXB91whVE3PwS\",\"url\":\"https://ventura.craigslist.org/clo/d/simi-valley-garage-sale-in-simi-valley/7930025682.html\",\"loadedUrl\":\"https://ventura.craigslist.org/clo/d/simi-valley-garage-sale-in-simi-valley/7930025682.html\",\"uniqueKey\":\"https://ventura.craigslist.org/clo/d/simi-valley-garage-sale-in-simi-valley/7930025682.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:31.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/clo/d/simi-valley-garage-sale-in-simi-valley/7930025682.html",
+	"url": "https://ventura.craigslist.org/clo/d/simi-valley-garage-sale-in-simi-valley/7930025682.html"
+}

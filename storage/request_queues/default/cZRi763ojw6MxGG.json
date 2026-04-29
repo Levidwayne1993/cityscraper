@@ -1,0 +1,9 @@
+{
+	"id": "cZRi763ojw6MxGG",
+	"json": "{\"id\":\"cZRi763ojw6MxGG\",\"url\":\"https://cincinnati.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://cincinnati.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523758,
+	"retryCount": 0,
+	"uniqueKey": "https://cincinnati.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://cincinnati.craigslist.org/search/ccc?query=garage+sale"
+}

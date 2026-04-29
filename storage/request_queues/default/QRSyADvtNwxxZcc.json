@@ -1,0 +1,9 @@
+{
+	"id": "QRSyADvtNwxxZcc",
+	"json": "{\"id\":\"QRSyADvtNwxxZcc\",\"url\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-whirlpool-refrigerator/7929391095.html\",\"loadedUrl\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-whirlpool-refrigerator/7929391095.html\",\"uniqueKey\":\"https://delaware.craigslist.org/app/d/rehoboth-beach-whirlpool-refrigerator/7929391095.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:33.299Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/app/d/rehoboth-beach-whirlpool-refrigerator/7929391095.html",
+	"url": "https://delaware.craigslist.org/app/d/rehoboth-beach-whirlpool-refrigerator/7929391095.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "C504vaNnxR5PrXl",
+	"json": "{\"id\":\"C504vaNnxR5PrXl\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-southside/7929757404.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-southside/7929757404.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-southside/7929757404.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:56:32.388Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-southside/7929757404.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-southside/7929757404.html"
+}

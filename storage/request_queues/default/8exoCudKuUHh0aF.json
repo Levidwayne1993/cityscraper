@@ -1,8 +1,8 @@
 {
 	"id": "8exoCudKuUHh0aF",
-	"json": "{\"id\":\"8exoCudKuUHh0aF\",\"url\":\"https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"8exoCudKuUHh0aF\",\"url\":\"https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:43:36.329Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323252,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://sacramento.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

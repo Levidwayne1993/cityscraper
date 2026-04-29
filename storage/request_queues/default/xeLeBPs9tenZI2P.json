@@ -1,0 +1,9 @@
+{
+	"id": "xeLeBPs9tenZI2P",
+	"json": "{\"id\":\"xeLeBPs9tenZI2P\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-huge-yard-sale-with-multiple/7921062204.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-huge-yard-sale-with-multiple/7921062204.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-huge-yard-sale-with-multiple/7921062204.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:02:37.222Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-huge-yard-sale-with-multiple/7921062204.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-huge-yard-sale-with-multiple/7921062204.html"
+}

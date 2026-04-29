@@ -1,0 +1,9 @@
+{
+	"id": "KCUyRzJT3R2Jd8w",
+	"json": "{\"id\":\"KCUyRzJT3R2Jd8w\",\"url\":\"https://ventura.craigslist.org/com/d/ojai-yard-sale-saturday/7925418397.html\",\"loadedUrl\":\"https://ventura.craigslist.org/com/d/ojai-yard-sale-saturday/7925418397.html\",\"uniqueKey\":\"https://ventura.craigslist.org/com/d/ojai-yard-sale-saturday/7925418397.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:32.975Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/com/d/ojai-yard-sale-saturday/7925418397.html",
+	"url": "https://ventura.craigslist.org/com/d/ojai-yard-sale-saturday/7925418397.html"
+}

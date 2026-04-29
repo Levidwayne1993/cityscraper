@@ -1,0 +1,9 @@
+{
+	"id": "r7ryWzbm3LzAm8B",
+	"json": "{\"id\":\"r7ryWzbm3LzAm8B\",\"url\":\"https://morgantown.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://morgantown.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528160,
+	"retryCount": 0,
+	"uniqueKey": "https://morgantown.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://morgantown.craigslist.org/search/ccc?query=yard+sale"
+}

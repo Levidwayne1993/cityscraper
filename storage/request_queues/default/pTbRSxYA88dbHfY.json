@@ -1,0 +1,9 @@
+{
+	"id": "pTbRSxYA88dbHfY",
+	"json": "{\"id\":\"pTbRSxYA88dbHfY\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-estate-sale-kendall/7921092047.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-estate-sale-kendall/7921092047.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-estate-sale-kendall/7921092047.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:17:53.459Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-estate-sale-kendall/7921092047.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-estate-sale-kendall/7921092047.html"
+}

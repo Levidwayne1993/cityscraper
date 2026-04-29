@@ -1,0 +1,9 @@
+{
+	"id": "AcXiDOthuj8lplO",
+	"json": "{\"id\":\"AcXiDOthuj8lplO\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-moving-sale-huge-must-go/7922335729.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-moving-sale-huge-must-go/7922335729.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-moving-sale-huge-must-go/7922335729.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:34.550Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-moving-sale-huge-must-go/7922335729.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-moving-sale-huge-must-go/7922335729.html"
+}

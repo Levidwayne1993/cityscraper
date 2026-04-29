@@ -1,0 +1,9 @@
+{
+	"id": "DzAo8cLxQSNdfzw",
+	"json": "{\"id\":\"DzAo8cLxQSNdfzw\",\"url\":\"https://sfbay.craigslist.org/eby/com/d/concord-garage-sale-on-grant-st-and/7928462723.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/com/d/concord-garage-sale-on-grant-st-and/7928462723.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/com/d/concord-garage-sale-on-grant-st-and/7928462723.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:41:01.714Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/com/d/concord-garage-sale-on-grant-st-and/7928462723.html",
+	"url": "https://sfbay.craigslist.org/eby/com/d/concord-garage-sale-on-grant-st-and/7928462723.html"
+}

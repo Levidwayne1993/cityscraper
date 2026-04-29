@@ -1,0 +1,9 @@
+{
+	"id": "rbSQB9BTyYUt0Z8",
+	"json": "{\"id\":\"rbSQB9BTyYUt0Z8\",\"url\":\"https://orlando.craigslist.org/gms/d/oviedo-huge-garage-sale-11-aloma-woods/7926313925.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/oviedo-huge-garage-sale-11-aloma-woods/7926313925.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/oviedo-huge-garage-sale-11-aloma-woods/7926313925.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:25:07.989Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/oviedo-huge-garage-sale-11-aloma-woods/7926313925.html",
+	"url": "https://orlando.craigslist.org/gms/d/oviedo-huge-garage-sale-11-aloma-woods/7926313925.html"
+}

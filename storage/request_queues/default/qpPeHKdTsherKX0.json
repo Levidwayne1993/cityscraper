@@ -1,0 +1,9 @@
+{
+	"id": "qpPeHKdTsherKX0",
+	"json": "{\"id\":\"qpPeHKdTsherKX0\",\"url\":\"https://washingtondc.craigslist.org/mld/com/d/laurel-laurel-4th-of-july-committee/7923941397.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/com/d/laurel-laurel-4th-of-july-committee/7923941397.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/com/d/laurel-laurel-4th-of-july-committee/7923941397.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:36.242Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/com/d/laurel-laurel-4th-of-july-committee/7923941397.html",
+	"url": "https://washingtondc.craigslist.org/mld/com/d/laurel-laurel-4th-of-july-committee/7923941397.html"
+}

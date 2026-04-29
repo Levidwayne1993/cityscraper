@@ -1,0 +1,9 @@
+{
+	"id": "KOxtCLdzG9iYwPE",
+	"json": "{\"id\":\"KOxtCLdzG9iYwPE\",\"url\":\"https://orlando.craigslist.org/com/d/orlando-huge-garage-sale-collectors-home/7926398764.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/orlando-huge-garage-sale-collectors-home/7926398764.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/orlando-huge-garage-sale-collectors-home/7926398764.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:27.054Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/orlando-huge-garage-sale-collectors-home/7926398764.html",
+	"url": "https://orlando.craigslist.org/com/d/orlando-huge-garage-sale-collectors-home/7926398764.html"
+}

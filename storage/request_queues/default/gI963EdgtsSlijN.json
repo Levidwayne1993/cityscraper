@@ -1,0 +1,9 @@
+{
+	"id": "gI963EdgtsSlijN",
+	"json": "{\"id\":\"gI963EdgtsSlijN\",\"url\":\"https://orangecounty.craigslist.org/com/d/santa-ana-community-yard-sale/7923777208.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/com/d/santa-ana-community-yard-sale/7923777208.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/com/d/santa-ana-community-yard-sale/7923777208.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:24:48.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/com/d/santa-ana-community-yard-sale/7923777208.html",
+	"url": "https://orangecounty.craigslist.org/com/d/santa-ana-community-yard-sale/7923777208.html"
+}

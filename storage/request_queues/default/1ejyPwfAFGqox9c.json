@@ -1,0 +1,9 @@
+{
+	"id": "1ejyPwfAFGqox9c",
+	"json": "{\"id\":\"1ejyPwfAFGqox9c\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-more-day-inside-moving/7926954637.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-more-day-inside-moving/7926954637.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-more-day-inside-moving/7926954637.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:46.621Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-more-day-inside-moving/7926954637.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-more-day-inside-moving/7926954637.html"
+}

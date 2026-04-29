@@ -1,9 +1,0 @@
-{
-	"id": "9fMr7iiY1GmFQHI",
-	"json": "{\"id\":\"9fMr7iiY1GmFQHI\",\"url\":\"https://www.garagesalefinder.com/sale/Nevada\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Nevada\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Nevada\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330305,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Nevada",
-	"url": "https://www.garagesalefinder.com/sale/Nevada"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "BzTqFirF1wV1KQl",
+	"json": "{\"id\":\"BzTqFirF1wV1KQl\",\"url\":\"https://redding.craigslist.org/gms/d/redding-estate-sale/7925002868.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-estate-sale/7925002868.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-estate-sale/7925002868.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:37:38.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-estate-sale/7925002868.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-estate-sale/7925002868.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IzS2zR9elX1LjEq",
+	"json": "{\"id\":\"IzS2zR9elX1LjEq\",\"url\":\"https://flagstaff.craigslist.org/gms/d/clarkdale-yard-sale-960-calle-figueroa/7925437061.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/clarkdale-yard-sale-960-calle-figueroa/7925437061.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/clarkdale-yard-sale-960-calle-figueroa/7925437061.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:12.151Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/clarkdale-yard-sale-960-calle-figueroa/7925437061.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/clarkdale-yard-sale-960-calle-figueroa/7925437061.html"
+}

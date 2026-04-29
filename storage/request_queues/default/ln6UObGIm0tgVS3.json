@@ -1,0 +1,9 @@
+{
+	"id": "ln6UObGIm0tgVS3",
+	"json": "{\"id\":\"ln6UObGIm0tgVS3\",\"url\":\"https://gulfport.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://gulfport.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521084,
+	"retryCount": 0,
+	"uniqueKey": "https://gulfport.craigslist.org/search/gms?s=360",
+	"url": "https://gulfport.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Qfv6znu9shP4JM4",
+	"json": "{\"id\":\"Qfv6znu9shP4JM4\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-garage-sale-yard-sale/7926770721.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-garage-sale-yard-sale/7926770721.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-garage-sale-yard-sale/7926770721.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:08.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/campbell-garage-sale-yard-sale/7926770721.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/campbell-garage-sale-yard-sale/7926770721.html"
+}

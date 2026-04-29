@@ -1,0 +1,9 @@
+{
+	"id": "TSXiXcbx9c0AKMl",
+	"json": "{\"id\":\"TSXiXcbx9c0AKMl\",\"url\":\"https://cosprings.craigslist.org/gms/d/peyton-yard-sale/7930132775.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/peyton-yard-sale/7930132775.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/peyton-yard-sale/7930132775.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:31:06.536Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/peyton-yard-sale/7930132775.html",
+	"url": "https://cosprings.craigslist.org/gms/d/peyton-yard-sale/7930132775.html"
+}

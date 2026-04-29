@@ -1,0 +1,9 @@
+{
+	"id": "v72U06167DO0Eyj",
+	"json": "{\"id\":\"v72U06167DO0Eyj\",\"url\":\"https://newlondon.craigslist.org/gms/d/norwich-you-dont-wanna-miss-this-yard/7929906926.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/norwich-you-dont-wanna-miss-this-yard/7929906926.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/norwich-you-dont-wanna-miss-this-yard/7929906926.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:59.180Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/norwich-you-dont-wanna-miss-this-yard/7929906926.html",
+	"url": "https://newlondon.craigslist.org/gms/d/norwich-you-dont-wanna-miss-this-yard/7929906926.html"
+}

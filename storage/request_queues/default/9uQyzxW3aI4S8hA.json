@@ -1,0 +1,9 @@
+{
+	"id": "9uQyzxW3aI4S8hA",
+	"json": "{\"id\":\"9uQyzxW3aI4S8hA\",\"url\":\"https://lakeland.craigslist.org/gms/d/polk-city-garage-sale/7920814900.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/polk-city-garage-sale/7920814900.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/polk-city-garage-sale/7920814900.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:14.602Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/polk-city-garage-sale/7920814900.html",
+	"url": "https://lakeland.craigslist.org/gms/d/polk-city-garage-sale/7920814900.html"
+}

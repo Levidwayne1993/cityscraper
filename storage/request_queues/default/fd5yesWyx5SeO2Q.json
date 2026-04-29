@@ -1,0 +1,9 @@
+{
+	"id": "fd5yesWyx5SeO2Q",
+	"json": "{\"id\":\"fd5yesWyx5SeO2Q\",\"url\":\"https://losangeles.craigslist.org/lac/atq/d/pasadena-furniture-estate-sale-pasadena/7926753290.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/atq/d/pasadena-furniture-estate-sale-pasadena/7926753290.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/atq/d/pasadena-furniture-estate-sale-pasadena/7926753290.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:39:08.101Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/atq/d/pasadena-furniture-estate-sale-pasadena/7926753290.html",
+	"url": "https://losangeles.craigslist.org/lac/atq/d/pasadena-furniture-estate-sale-pasadena/7926753290.html"
+}

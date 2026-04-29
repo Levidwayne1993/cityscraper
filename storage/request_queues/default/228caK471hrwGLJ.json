@@ -1,0 +1,9 @@
+{
+	"id": "228caK471hrwGLJ",
+	"json": "{\"id\":\"228caK471hrwGLJ\",\"url\":\"https://orlando.craigslist.org/gms/d/oviedo-garage-sale-5805-oak-lake-trail/7927034740.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/oviedo-garage-sale-5805-oak-lake-trail/7927034740.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/oviedo-garage-sale-5805-oak-lake-trail/7927034740.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:32:56.409Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/oviedo-garage-sale-5805-oak-lake-trail/7927034740.html",
+	"url": "https://orlando.craigslist.org/gms/d/oviedo-garage-sale-5805-oak-lake-trail/7927034740.html"
+}

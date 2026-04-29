@@ -1,0 +1,9 @@
+{
+	"id": "dZvwkFPyaMbiCyn",
+	"json": "{\"id\":\"dZvwkFPyaMbiCyn\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Dallas-TX.html?page=4\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Dallas-TX.html?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TX\",\"yssSlug\":\"Dallas-TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186532820,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Dallas-TX.html?page=4",
+	"url": "https://www.yardsalesearch.com/yard-sales/Dallas-TX.html?page=4"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "AgUiQ5ArC1nD8J3",
+	"json": "{\"id\":\"AgUiQ5ArC1nD8J3\",\"url\":\"https://losangeles.craigslist.org/wst/com/d/san-pedro-yard-sale-holy-trinity-san/7928685512.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/com/d/san-pedro-yard-sale-holy-trinity-san/7928685512.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/com/d/san-pedro-yard-sale-holy-trinity-san/7928685512.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:42:11.705Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/com/d/san-pedro-yard-sale-holy-trinity-san/7928685512.html",
+	"url": "https://losangeles.craigslist.org/wst/com/d/san-pedro-yard-sale-holy-trinity-san/7928685512.html"
+}

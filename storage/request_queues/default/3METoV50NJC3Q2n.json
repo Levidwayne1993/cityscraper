@@ -1,0 +1,9 @@
+{
+	"id": "3METoV50NJC3Q2n",
+	"json": "{\"id\":\"3METoV50NJC3Q2n\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-day-yard-sale-in-copperfield/7930027361.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-day-yard-sale-in-copperfield/7930027361.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-day-yard-sale-in-copperfield/7930027361.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:53.469Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-day-yard-sale-in-copperfield/7930027361.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-day-yard-sale-in-copperfield/7930027361.html"
+}

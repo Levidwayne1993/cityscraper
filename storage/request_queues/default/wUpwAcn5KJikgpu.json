@@ -1,0 +1,9 @@
+{
+	"id": "wUpwAcn5KJikgpu",
+	"json": "{\"id\":\"wUpwAcn5KJikgpu\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-huge-liquidation-sale-this/7927994449.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-huge-liquidation-sale-this/7927994449.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-huge-liquidation-sale-this/7927994449.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:33:26.118Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-huge-liquidation-sale-this/7927994449.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-huge-liquidation-sale-this/7927994449.html"
+}

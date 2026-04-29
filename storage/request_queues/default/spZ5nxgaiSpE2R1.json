@@ -1,0 +1,9 @@
+{
+	"id": "spZ5nxgaiSpE2R1",
+	"json": "{\"id\":\"spZ5nxgaiSpE2R1\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-huge-yard-sale-on-sunday-april/7927089071.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-huge-yard-sale-on-sunday-april/7927089071.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-huge-yard-sale-on-sunday-april/7927089071.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:00:10.431Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/ramona-huge-yard-sale-on-sunday-april/7927089071.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/ramona-huge-yard-sale-on-sunday-april/7927089071.html"
+}

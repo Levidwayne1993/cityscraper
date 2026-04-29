@@ -1,0 +1,9 @@
+{
+	"id": "kt8aSjZOUsyUfan",
+	"json": "{\"id\":\"kt8aSjZOUsyUfan\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/VA/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/VA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530277,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/VA",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/VA/"
+}

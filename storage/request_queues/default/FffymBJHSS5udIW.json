@@ -1,0 +1,9 @@
+{
+	"id": "FffymBJHSS5udIW",
+	"json": "{\"id\":\"FffymBJHSS5udIW\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-capri-avenue-community-yard/7923032109.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-capri-avenue-community-yard/7923032109.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-capri-avenue-community-yard/7923032109.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:46:55.565Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-capri-avenue-community-yard/7923032109.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-capri-avenue-community-yard/7923032109.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "B7TjtrX5tsFVNlA",
+	"json": "{\"id\":\"B7TjtrX5tsFVNlA\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-hickory-creek/7928529984.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-hickory-creek/7928529984.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-hickory-creek/7928529984.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:42:16.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-hickory-creek/7928529984.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-hickory-creek/7928529984.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Jypuap9ThVtDIxB",
+	"json": "{\"id\":\"Jypuap9ThVtDIxB\",\"url\":\"https://denver.craigslist.org/clt/d/denver-collectors-jackpot-estate-sale/7921097503.html\",\"loadedUrl\":\"https://denver.craigslist.org/clt/d/denver-collectors-jackpot-estate-sale/7921097503.html\",\"uniqueKey\":\"https://denver.craigslist.org/clt/d/denver-collectors-jackpot-estate-sale/7921097503.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:23.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/clt/d/denver-collectors-jackpot-estate-sale/7921097503.html",
+	"url": "https://denver.craigslist.org/clt/d/denver-collectors-jackpot-estate-sale/7921097503.html"
+}

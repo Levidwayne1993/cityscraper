@@ -1,0 +1,9 @@
+{
+	"id": "JuI6QLhObkQHjko",
+	"json": "{\"id\":\"JuI6QLhObkQHjko\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-tools-garage-estate-sale/7922506828.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-tools-garage-estate-sale/7922506828.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-tools-garage-estate-sale/7922506828.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:10:32.205Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-tools-garage-estate-sale/7922506828.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-tools-garage-estate-sale/7922506828.html"
+}

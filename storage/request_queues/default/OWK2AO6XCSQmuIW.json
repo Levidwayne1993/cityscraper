@@ -1,0 +1,9 @@
+{
+	"id": "OWK2AO6XCSQmuIW",
+	"json": "{\"id\":\"OWK2AO6XCSQmuIW\",\"url\":\"https://inlandempire.craigslist.org/gms/d/riverside-wood-street-garage-sale/7929574008.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/riverside-wood-street-garage-sale/7929574008.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/riverside-wood-street-garage-sale/7929574008.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:30.748Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/riverside-wood-street-garage-sale/7929574008.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/riverside-wood-street-garage-sale/7929574008.html"
+}

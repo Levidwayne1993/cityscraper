@@ -1,0 +1,9 @@
+{
+	"id": "6KeygiGvJDdO24T",
+	"json": "{\"id\":\"6KeygiGvJDdO24T\",\"url\":\"https://ventura.craigslist.org/gms/d/camarillo-sat-7am-to-noon-camarillo/7930035338.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/camarillo-sat-7am-to-noon-camarillo/7930035338.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/camarillo-sat-7am-to-noon-camarillo/7930035338.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:13:07.401Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/camarillo-sat-7am-to-noon-camarillo/7930035338.html",
+	"url": "https://ventura.craigslist.org/gms/d/camarillo-sat-7am-to-noon-camarillo/7930035338.html"
+}

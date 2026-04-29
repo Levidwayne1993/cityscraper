@@ -1,0 +1,9 @@
+{
+	"id": "zFBLSljIGbhXaRH",
+	"json": "{\"id\":\"zFBLSljIGbhXaRH\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-moving-sale-in-napa/7929331778.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-moving-sale-in-napa/7929331778.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-moving-sale-in-napa/7929331778.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:46.223Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/petaluma-moving-sale-in-napa/7929331778.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/petaluma-moving-sale-in-napa/7929331778.html"
+}

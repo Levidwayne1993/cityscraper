@@ -1,0 +1,9 @@
+{
+	"id": "jUyHKfGUAOQn6zi",
+	"json": "{\"id\":\"jUyHKfGUAOQn6zi\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-huge-multi-family-garage-sale/7928238749.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-huge-multi-family-garage-sale/7928238749.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-huge-multi-family-garage-sale/7928238749.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:50.493Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/phoenix-huge-multi-family-garage-sale/7928238749.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/phoenix-huge-multi-family-garage-sale/7928238749.html"
+}

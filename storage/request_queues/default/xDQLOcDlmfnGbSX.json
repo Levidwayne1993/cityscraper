@@ -1,8 +1,8 @@
 {
 	"id": "xDQLOcDlmfnGbSX",
-	"json": "{\"id\":\"xDQLOcDlmfnGbSX\",\"url\":\"https://hartford.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://hartford.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"xDQLOcDlmfnGbSX\",\"url\":\"https://hartford.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://hartford.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://hartford.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:06:40.750Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323443,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://hartford.craigslist.org/search/gms?s=240",
 	"url": "https://hartford.craigslist.org/search/gms?s=240"

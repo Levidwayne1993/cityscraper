@@ -1,0 +1,9 @@
+{
+	"id": "6sDULfDg1QQA2ei",
+	"json": "{\"id\":\"6sDULfDg1QQA2ei\",\"url\":\"https://visalia.craigslist.org/gms/d/farmersville-moving-sale/7928262069.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/farmersville-moving-sale/7928262069.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/farmersville-moving-sale/7928262069.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:21:51.371Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/farmersville-moving-sale/7928262069.html",
+	"url": "https://visalia.craigslist.org/gms/d/farmersville-moving-sale/7928262069.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "3mMi3lXNX0k52jL",
+	"json": "{\"id\":\"3mMi3lXNX0k52jL\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-estate-sale/7924025839.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-estate-sale/7924025839.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-estate-sale/7924025839.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:41:46.330Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-estate-sale/7924025839.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-estate-sale/7924025839.html"
+}

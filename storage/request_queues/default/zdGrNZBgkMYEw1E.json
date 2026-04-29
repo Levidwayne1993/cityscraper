@@ -1,0 +1,9 @@
+{
+	"id": "zdGrNZBgkMYEw1E",
+	"json": "{\"id\":\"zdGrNZBgkMYEw1E\",\"url\":\"https://oneonta.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://oneonta.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523261,
+	"retryCount": 0,
+	"uniqueKey": "https://oneonta.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://oneonta.craigslist.org/search/ccc?query=garage+sale"
+}

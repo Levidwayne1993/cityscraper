@@ -1,0 +1,9 @@
+{
+	"id": "Zt8SQ7JAE6LjLwI",
+	"json": "{\"id\":\"Zt8SQ7JAE6LjLwI\",\"url\":\"https://sandiego.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://sandiego.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:12:30.117Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://sandiego.craigslist.org/search/ccc?query=garage+sale"
+}

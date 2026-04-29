@@ -1,0 +1,9 @@
+{
+	"id": "uH4e5pxNQdjFDiF",
+	"json": "{\"id\":\"uH4e5pxNQdjFDiF\",\"url\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale/7928274248.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale/7928274248.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale/7928274248.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:15:39.128Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/redlands-moving-sale/7928274248.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/redlands-moving-sale/7928274248.html"
+}

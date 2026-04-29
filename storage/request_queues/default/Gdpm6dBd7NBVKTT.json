@@ -1,0 +1,9 @@
+{
+	"id": "Gdpm6dBd7NBVKTT",
+	"json": "{\"id\":\"Gdpm6dBd7NBVKTT\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-multi-family-garage-sale-sat/7930011445.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-multi-family-garage-sale-sat/7930011445.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-multi-family-garage-sale-sat/7930011445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:00.257Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-multi-family-garage-sale-sat/7930011445.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-multi-family-garage-sale-sat/7930011445.html"
+}

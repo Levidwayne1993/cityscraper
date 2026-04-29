@@ -1,0 +1,9 @@
+{
+	"id": "A8TP4IHkFzrWumf",
+	"json": "{\"id\":\"A8TP4IHkFzrWumf\",\"url\":\"https://denver.craigslist.org/fod/d/littleton-online-only-estate-sale/7926977321.html\",\"loadedUrl\":\"https://denver.craigslist.org/fod/d/littleton-online-only-estate-sale/7926977321.html\",\"uniqueKey\":\"https://denver.craigslist.org/fod/d/littleton-online-only-estate-sale/7926977321.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:37.406Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/fod/d/littleton-online-only-estate-sale/7926977321.html",
+	"url": "https://denver.craigslist.org/fod/d/littleton-online-only-estate-sale/7926977321.html"
+}

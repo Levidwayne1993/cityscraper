@@ -1,0 +1,9 @@
+{
+	"id": "PFRWMawkiELWQi7",
+	"json": "{\"id\":\"PFRWMawkiELWQi7\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale-berry-meadow-way/7920759943.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale-berry-meadow-way/7920759943.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale-berry-meadow-way/7920759943.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:21:30.761Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale-berry-meadow-way/7920759943.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale-berry-meadow-way/7920759943.html"
+}

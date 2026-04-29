@@ -1,0 +1,9 @@
+{
+	"id": "kvluHlT0TILDaOv",
+	"json": "{\"id\":\"kvluHlT0TILDaOv\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-big-family-garage-sale/7926994027.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-big-family-garage-sale/7926994027.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-big-family-garage-sale/7926994027.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:36.247Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-big-family-garage-sale/7926994027.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-big-family-garage-sale/7926994027.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2xBhOGQOnwhMHfT",
+	"json": "{\"id\":\"2xBhOGQOnwhMHfT\",\"url\":\"https://denver.craigslist.org/fuo/d/brighton-estate-sale-in-brighton-co/7930006676.html\",\"loadedUrl\":\"https://denver.craigslist.org/fuo/d/brighton-estate-sale-in-brighton-co/7930006676.html\",\"uniqueKey\":\"https://denver.craigslist.org/fuo/d/brighton-estate-sale-in-brighton-co/7930006676.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:20.405Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/fuo/d/brighton-estate-sale-in-brighton-co/7930006676.html",
+	"url": "https://denver.craigslist.org/fuo/d/brighton-estate-sale-in-brighton-co/7930006676.html"
+}

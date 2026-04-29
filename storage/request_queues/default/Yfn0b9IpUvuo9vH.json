@@ -1,0 +1,9 @@
+{
+	"id": "Yfn0b9IpUvuo9vH",
+	"json": "{\"id\":\"Yfn0b9IpUvuo9vH\",\"url\":\"https://houma.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://houma.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520094,
+	"retryCount": 0,
+	"uniqueKey": "https://houma.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://houma.craigslist.org/search/ccc?query=yard+sale"
+}

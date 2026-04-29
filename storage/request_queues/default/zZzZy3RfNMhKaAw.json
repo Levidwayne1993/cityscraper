@@ -1,8 +1,8 @@
 {
 	"id": "zZzZy3RfNMhKaAw",
-	"json": "{\"id\":\"zZzZy3RfNMhKaAw\",\"url\":\"https://fairbanks.craigslist.org/search/gms\",\"uniqueKey\":\"https://fairbanks.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"zZzZy3RfNMhKaAw\",\"url\":\"https://fairbanks.craigslist.org/search/gms\",\"loadedUrl\":\"https://fairbanks.craigslist.org/search/gms\",\"uniqueKey\":\"https://fairbanks.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:47.347Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322943,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fairbanks.craigslist.org/search/gms",
 	"url": "https://fairbanks.craigslist.org/search/gms"

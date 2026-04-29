@@ -1,0 +1,9 @@
+{
+	"id": "IN8HCwcuC2UZ2S4",
+	"json": "{\"id\":\"IN8HCwcuC2UZ2S4\",\"url\":\"https://nwct.craigslist.org/gms/d/bristol-tag-sale-saturday-april-18th/7920852099.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/bristol-tag-sale-saturday-april-18th/7920852099.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/bristol-tag-sale-saturday-april-18th/7920852099.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:16.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/bristol-tag-sale-saturday-april-18th/7920852099.html",
+	"url": "https://nwct.craigslist.org/gms/d/bristol-tag-sale-saturday-april-18th/7920852099.html"
+}

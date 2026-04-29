@@ -1,0 +1,9 @@
+{
+	"id": "TK3TD4kcift813o",
+	"json": "{\"id\":\"TK3TD4kcift813o\",\"url\":\"https://fortlauderdale.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://fortlauderdale.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://fortlauderdale.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:25.759Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortlauderdale.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://fortlauderdale.craigslist.org/search/ccc?query=yard+sale"
+}

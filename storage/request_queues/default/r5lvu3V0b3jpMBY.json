@@ -1,0 +1,9 @@
+{
+	"id": "r5lvu3V0b3jpMBY",
+	"json": "{\"id\":\"r5lvu3V0b3jpMBY\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-kitchen/7928560979.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-kitchen/7928560979.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-kitchen/7928560979.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:52:31.545Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-kitchen/7928560979.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-kitchen/7928560979.html"
+}

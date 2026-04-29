@@ -1,8 +1,8 @@
 {
 	"id": "7EFFZC1EZVs3aIq",
-	"json": "{\"id\":\"7EFFZC1EZVs3aIq\",\"url\":\"https://fortsmith.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fortsmith.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"7EFFZC1EZVs3aIq\",\"url\":\"https://fortsmith.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://fortsmith.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fortsmith.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:14:12.815Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323069,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fortsmith.craigslist.org/search/gms?s=120",
 	"url": "https://fortsmith.craigslist.org/search/gms?s=120"

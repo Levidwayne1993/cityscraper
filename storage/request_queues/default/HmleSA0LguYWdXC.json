@@ -1,0 +1,9 @@
+{
+	"id": "HmleSA0LguYWdXC",
+	"json": "{\"id\":\"HmleSA0LguYWdXC\",\"url\":\"https://merced.craigslist.org/gms/d/mariposa-mariposa-yard-sale-lots-of/7926478550.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/mariposa-mariposa-yard-sale-lots-of/7926478550.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/mariposa-mariposa-yard-sale-lots-of/7926478550.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:50:28.160Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/mariposa-mariposa-yard-sale-lots-of/7926478550.html",
+	"url": "https://merced.craigslist.org/gms/d/mariposa-mariposa-yard-sale-lots-of/7926478550.html"
+}

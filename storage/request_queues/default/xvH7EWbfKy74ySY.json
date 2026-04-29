@@ -1,0 +1,9 @@
+{
+	"id": "xvH7EWbfKy74ySY",
+	"json": "{\"id\":\"xvH7EWbfKy74ySY\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale/7920020475.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale/7920020475.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale/7920020475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:37.923Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale/7920020475.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale/7920020475.html"
+}

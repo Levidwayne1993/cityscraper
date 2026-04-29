@@ -1,0 +1,9 @@
+{
+	"id": "YBPyLODwGowOpo4",
+	"json": "{\"id\":\"YBPyLODwGowOpo4\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale/7929391729.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale/7929391729.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale/7929391729.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:14:45.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale/7929391729.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-huge-garage-sale/7929391729.html"
+}

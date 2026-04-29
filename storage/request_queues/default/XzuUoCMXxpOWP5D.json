@@ -1,0 +1,9 @@
+{
+	"id": "XzuUoCMXxpOWP5D",
+	"json": "{\"id\":\"XzuUoCMXxpOWP5D\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-saturday-18th-730am/7928226792.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-saturday-18th-730am/7928226792.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-saturday-18th-730am/7928226792.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:40.655Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-garage-sale-saturday-18th-730am/7928226792.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-garage-sale-saturday-18th-730am/7928226792.html"
+}

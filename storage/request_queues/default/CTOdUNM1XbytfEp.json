@@ -1,0 +1,9 @@
+{
+	"id": "CTOdUNM1XbytfEp",
+	"json": "{\"id\":\"CTOdUNM1XbytfEp\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-garage-sale-multifamily/7930021002.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-garage-sale-multifamily/7930021002.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-garage-sale-multifamily/7930021002.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:42.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/union-city-garage-sale-multifamily/7930021002.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/union-city-garage-sale-multifamily/7930021002.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WceSufAQs6N8OEn",
+	"json": "{\"id\":\"WceSufAQs6N8OEn\",\"url\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-garage-sale/7922326250.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-garage-sale/7922326250.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/meadow-vista-garage-sale/7922326250.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:50:09.646Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/meadow-vista-garage-sale/7922326250.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/meadow-vista-garage-sale/7922326250.html"
+}

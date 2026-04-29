@@ -1,0 +1,9 @@
+{
+	"id": "LSGx0rbgeMp1NpR",
+	"json": "{\"id\":\"LSGx0rbgeMp1NpR\",\"url\":\"https://erie.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://erie.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525446,
+	"retryCount": 0,
+	"uniqueKey": "https://erie.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://erie.craigslist.org/search/ccc?query=yard+sale"
+}

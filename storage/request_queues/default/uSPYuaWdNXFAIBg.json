@@ -1,0 +1,9 @@
+{
+	"id": "uSPYuaWdNXFAIBg",
+	"json": "{\"id\":\"uSPYuaWdNXFAIBg\",\"url\":\"https://sarasota.craigslist.org/fod/d/venice-swfl-downsizing-auction/7927239533.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/fod/d/venice-swfl-downsizing-auction/7927239533.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/fod/d/venice-swfl-downsizing-auction/7927239533.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:50:27.481Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/fod/d/venice-swfl-downsizing-auction/7927239533.html",
+	"url": "https://sarasota.craigslist.org/fod/d/venice-swfl-downsizing-auction/7927239533.html"
+}

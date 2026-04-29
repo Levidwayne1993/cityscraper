@@ -1,0 +1,9 @@
+{
+	"id": "QqlHgHLq19ry3bc",
+	"json": "{\"id\":\"QqlHgHLq19ry3bc\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-moving-sale-saturday/7928456332.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-moving-sale-saturday/7928456332.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-moving-sale-saturday/7928456332.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:25:25.442Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-moving-sale-saturday/7928456332.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-moving-sale-saturday/7928456332.html"
+}

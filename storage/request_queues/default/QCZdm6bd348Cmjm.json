@@ -1,0 +1,9 @@
+{
+	"id": "QCZdm6bd348Cmjm",
+	"json": "{\"id\":\"QCZdm6bd348Cmjm\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/AL/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/AL\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"AL\"}}",
+	"method": "GET",
+	"orderNo": 1777186528828,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/AL",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/AL/"
+}

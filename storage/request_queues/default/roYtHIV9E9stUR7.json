@@ -1,0 +1,9 @@
+{
+	"id": "roYtHIV9E9stUR7",
+	"json": "{\"id\":\"roYtHIV9E9stUR7\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-huge-multifamily-sale/7929981285.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-huge-multifamily-sale/7929981285.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-huge-multifamily-sale/7929981285.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:11:14.734Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/escondido-huge-multifamily-sale/7929981285.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/escondido-huge-multifamily-sale/7929981285.html"
+}

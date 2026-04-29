@@ -1,0 +1,9 @@
+{
+	"id": "RVX3FCpnLip7sTF",
+	"json": "{\"id\":\"RVX3FCpnLip7sTF\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-community-wide-yard-sale/7927334239.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-community-wide-yard-sale/7927334239.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-community-wide-yard-sale/7927334239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:00:25.930Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-community-wide-yard-sale/7927334239.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-community-wide-yard-sale/7927334239.html"
+}

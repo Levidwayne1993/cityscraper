@@ -1,0 +1,9 @@
+{
+	"id": "r9zfkoDmnVJuulL",
+	"json": "{\"id\":\"r9zfkoDmnVJuulL\",\"url\":\"https://kenai.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://kenai.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://kenai.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:13:53.214Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://kenai.craigslist.org/search/gms?s=480",
+	"url": "https://kenai.craigslist.org/search/gms?s=480"
+}

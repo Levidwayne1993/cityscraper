@@ -1,0 +1,9 @@
+{
+	"id": "JcP4Bjr0GGrl3Lx",
+	"json": "{\"id\":\"JcP4Bjr0GGrl3Lx\",\"url\":\"https://delaware.craigslist.org/gms/d/nassau-estate-sale/7925449577.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/nassau-estate-sale/7925449577.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/nassau-estate-sale/7925449577.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:33.122Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/nassau-estate-sale/7925449577.html",
+	"url": "https://delaware.craigslist.org/gms/d/nassau-estate-sale/7925449577.html"
+}

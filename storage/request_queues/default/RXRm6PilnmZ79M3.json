@@ -1,0 +1,9 @@
+{
+	"id": "RXRm6PilnmZ79M3",
+	"json": "{\"id\":\"RXRm6PilnmZ79M3\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-ahwatukee-moving-out-of-country/7929207591.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-ahwatukee-moving-out-of-country/7929207591.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/phoenix-ahwatukee-moving-out-of-country/7929207591.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:15.441Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/phoenix-ahwatukee-moving-out-of-country/7929207591.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/phoenix-ahwatukee-moving-out-of-country/7929207591.html"
+}

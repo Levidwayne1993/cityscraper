@@ -1,0 +1,9 @@
+{
+	"id": "uqCqDTRdM5I6VKq",
+	"json": "{\"id\":\"uqCqDTRdM5I6VKq\",\"url\":\"https://pensacola.craigslist.org/gms/d/pensacola-yardsale-6/7920932482.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/pensacola-yardsale-6/7920932482.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/pensacola-yardsale-6/7920932482.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:42:33.280Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/pensacola-yardsale-6/7920932482.html",
+	"url": "https://pensacola.craigslist.org/gms/d/pensacola-yardsale-6/7920932482.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LSXSi5SfEi0V2VB",
+	"json": "{\"id\":\"LSXSi5SfEi0V2VB\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/apache-junction-yard-sale/7925250679.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/apache-junction-yard-sale/7925250679.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/apache-junction-yard-sale/7925250679.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:28:30.948Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/apache-junction-yard-sale/7925250679.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/apache-junction-yard-sale/7925250679.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "tkIL66P9AQ49gUg",
+	"json": "{\"id\":\"tkIL66P9AQ49gUg\",\"url\":\"https://orangecounty.craigslist.org/gms/d/laguna-niguel-laguna-niguel-community/7929951469.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/laguna-niguel-laguna-niguel-community/7929951469.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/laguna-niguel-laguna-niguel-community/7929951469.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:10.273Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/laguna-niguel-laguna-niguel-community/7929951469.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/laguna-niguel-laguna-niguel-community/7929951469.html"
+}

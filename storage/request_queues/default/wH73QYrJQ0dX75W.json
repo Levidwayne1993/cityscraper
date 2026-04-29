@@ -1,0 +1,9 @@
+{
+	"id": "wH73QYrJQ0dX75W",
+	"json": "{\"id\":\"wH73QYrJQ0dX75W\",\"url\":\"https://spacecoast.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://spacecoast.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777218267131,
+	"retryCount": 0,
+	"uniqueKey": "https://spacecoast.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://spacecoast.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "6TcRfaTLMJsABYe",
+	"json": "{\"id\":\"6TcRfaTLMJsABYe\",\"url\":\"https://sacramento.craigslist.org/com/d/sacramento-yard-sale-saturday-only/7928549192.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/com/d/sacramento-yard-sale-saturday-only/7928549192.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/com/d/sacramento-yard-sale-saturday-only/7928549192.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:56.321Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/com/d/sacramento-yard-sale-saturday-only/7928549192.html",
+	"url": "https://sacramento.craigslist.org/com/d/sacramento-yard-sale-saturday-only/7928549192.html"
+}

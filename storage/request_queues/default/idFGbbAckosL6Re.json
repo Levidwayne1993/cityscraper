@@ -1,0 +1,9 @@
+{
+	"id": "idFGbbAckosL6Re",
+	"json": "{\"id\":\"idFGbbAckosL6Re\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-yard-sale/7923477480.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-yard-sale/7923477480.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-yard-sale/7923477480.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:35.203Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-yard-sale/7923477480.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-yard-sale/7923477480.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HmDv7RAVC3EbqhU",
+	"json": "{\"id\":\"HmDv7RAVC3EbqhU\",\"url\":\"https://blacksburg.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://blacksburg.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527823,
+	"retryCount": 0,
+	"uniqueKey": "https://blacksburg.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://blacksburg.craigslist.org/search/ccc?query=yard+sale"
+}

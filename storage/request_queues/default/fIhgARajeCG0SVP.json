@@ -1,0 +1,9 @@
+{
+	"id": "fIhgARajeCG0SVP",
+	"json": "{\"id\":\"fIhgARajeCG0SVP\",\"url\":\"https://humboldt.craigslist.org/gms/d/crescent-city-storage-sale/7921536070.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/crescent-city-storage-sale/7921536070.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/crescent-city-storage-sale/7921536070.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:08.852Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/crescent-city-storage-sale/7921536070.html",
+	"url": "https://humboldt.craigslist.org/gms/d/crescent-city-storage-sale/7921536070.html"
+}

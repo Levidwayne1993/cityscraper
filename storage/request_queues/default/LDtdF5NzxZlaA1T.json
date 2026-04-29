@@ -1,0 +1,9 @@
+{
+	"id": "LDtdF5NzxZlaA1T",
+	"json": "{\"id\":\"LDtdF5NzxZlaA1T\",\"url\":\"https://olympic.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://olympic.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527995,
+	"retryCount": 0,
+	"uniqueKey": "https://olympic.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://olympic.craigslist.org/search/ccc?query=garage+sale"
+}

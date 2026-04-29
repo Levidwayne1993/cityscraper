@@ -1,0 +1,9 @@
+{
+	"id": "C4uZ2pSZ0SwwqRR",
+	"json": "{\"id\":\"C4uZ2pSZ0SwwqRR\",\"url\":\"https://fortmyers.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://fortmyers.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fortmyers.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:21:56.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/search/gms?s=480",
+	"url": "https://fortmyers.craigslist.org/search/gms?s=480"
+}

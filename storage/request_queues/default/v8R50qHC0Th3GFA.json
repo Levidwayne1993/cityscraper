@@ -1,0 +1,9 @@
+{
+	"id": "v8R50qHC0Th3GFA",
+	"json": "{\"id\":\"v8R50qHC0Th3GFA\",\"url\":\"https://prescott.craigslist.org/gms/d/cottonwood-estate-sale/7923378640.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/cottonwood-estate-sale/7923378640.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/cottonwood-estate-sale/7923378640.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:43.413Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/cottonwood-estate-sale/7923378640.html",
+	"url": "https://prescott.craigslist.org/gms/d/cottonwood-estate-sale/7923378640.html"
+}

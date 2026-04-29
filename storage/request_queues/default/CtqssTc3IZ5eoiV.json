@@ -1,0 +1,9 @@
+{
+	"id": "CtqssTc3IZ5eoiV",
+	"json": "{\"id\":\"CtqssTc3IZ5eoiV\",\"url\":\"https://inlandempire.craigslist.org/gms/d/winchester-huge-family-yard-sale-today/7920817597.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/winchester-huge-family-yard-sale-today/7920817597.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/winchester-huge-family-yard-sale-today/7920817597.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:04:11.170Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/winchester-huge-family-yard-sale-today/7920817597.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/winchester-huge-family-yard-sale-today/7920817597.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vE202XrF6HckYWr",
+	"json": "{\"id\":\"vE202XrF6HckYWr\",\"url\":\"https://sacramento.craigslist.org/gms/d/galt-huge-garage-salerain-or-shine/7926756894.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/galt-huge-garage-salerain-or-shine/7926756894.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/galt-huge-garage-salerain-or-shine/7926756894.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:44:40.880Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/galt-huge-garage-salerain-or-shine/7926756894.html",
+	"url": "https://sacramento.craigslist.org/gms/d/galt-huge-garage-salerain-or-shine/7926756894.html"
+}

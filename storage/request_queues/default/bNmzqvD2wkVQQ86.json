@@ -1,0 +1,9 @@
+{
+	"id": "bNmzqvD2wkVQQ86",
+	"json": "{\"id\":\"bNmzqvD2wkVQQ86\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-old-retired-must-go-yard-sale/7923583893.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-old-retired-must-go-yard-sale/7923583893.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-old-retired-must-go-yard-sale/7923583893.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:40:52.143Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-old-retired-must-go-yard-sale/7923583893.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-old-retired-must-go-yard-sale/7923583893.html"
+}

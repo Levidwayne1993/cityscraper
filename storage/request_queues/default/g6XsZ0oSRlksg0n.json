@@ -1,0 +1,9 @@
+{
+	"id": "g6XsZ0oSRlksg0n",
+	"json": "{\"id\":\"g6XsZ0oSRlksg0n\",\"url\":\"https://pensacola.craigslist.org/gms/d/cantonment-garage-sale/7923343623.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/cantonment-garage-sale/7923343623.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/cantonment-garage-sale/7923343623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:43:02.092Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/cantonment-garage-sale/7923343623.html",
+	"url": "https://pensacola.craigslist.org/gms/d/cantonment-garage-sale/7923343623.html"
+}

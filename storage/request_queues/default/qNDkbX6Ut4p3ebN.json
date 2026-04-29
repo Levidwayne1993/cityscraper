@@ -1,0 +1,9 @@
+{
+	"id": "qNDkbX6Ut4p3ebN",
+	"json": "{\"id\":\"qNDkbX6Ut4p3ebN\",\"url\":\"https://sacramento.craigslist.org/gms/d/lincoln-garage-sale-advance-sale/7917366829.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/lincoln-garage-sale-advance-sale/7917366829.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/lincoln-garage-sale-advance-sale/7917366829.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:15.121Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/lincoln-garage-sale-advance-sale/7917366829.html",
+	"url": "https://sacramento.craigslist.org/gms/d/lincoln-garage-sale-advance-sale/7917366829.html"
+}

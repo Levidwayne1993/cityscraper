@@ -1,0 +1,9 @@
+{
+	"id": "6qYww0DwnplxaHH",
+	"json": "{\"id\":\"6qYww0DwnplxaHH\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-everything-must-go/7929811824.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-everything-must-go/7929811824.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-everything-must-go/7929811824.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:53.996Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-everything-must-go/7929811824.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-everything-must-go/7929811824.html"
+}

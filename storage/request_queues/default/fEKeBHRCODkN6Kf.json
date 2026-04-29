@@ -1,0 +1,9 @@
+{
+	"id": "fEKeBHRCODkN6Kf",
+	"json": "{\"id\":\"fEKeBHRCODkN6Kf\",\"url\":\"https://denver.craigslist.org/gms/d/denver-garage-estate-sale-congress-park/7928429526.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-garage-estate-sale-congress-park/7928429526.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-garage-estate-sale-congress-park/7928429526.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:48.486Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-garage-estate-sale-congress-park/7928429526.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-garage-estate-sale-congress-park/7928429526.html"
+}

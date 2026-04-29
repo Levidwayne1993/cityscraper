@@ -1,9 +1,0 @@
-{
-	"id": "5WR4rB5kumM0Eb2",
-	"json": "{\"id\":\"5WR4rB5kumM0Eb2\",\"url\":\"https://enid.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://enid.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327470,
-	"retryCount": 0,
-	"uniqueKey": "https://enid.craigslist.org/search/sss?query=moving+sale",
-	"url": "https://enid.craigslist.org/search/sss?query=moving+sale"
-}

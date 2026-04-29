@@ -1,9 +1,0 @@
-{
-	"id": "c0OFbBlVmJToY7y",
-	"json": "{\"id\":\"c0OFbBlVmJToY7y\",\"url\":\"https://enid.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://enid.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327465,
-	"retryCount": 0,
-	"uniqueKey": "https://enid.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
-	"url": "https://enid.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "Qrj1eMDVn8uDC5K",
+	"json": "{\"id\":\"Qrj1eMDVn8uDC5K\",\"url\":\"https://losangeles.craigslist.org/sfv/fuo/d/van-nuys-moving-sale-everything-must-go/7929980039.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/fuo/d/van-nuys-moving-sale-everything-must-go/7929980039.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/fuo/d/van-nuys-moving-sale-everything-must-go/7929980039.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:45:19.958Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/fuo/d/van-nuys-moving-sale-everything-must-go/7929980039.html",
+	"url": "https://losangeles.craigslist.org/sfv/fuo/d/van-nuys-moving-sale-everything-must-go/7929980039.html"
+}

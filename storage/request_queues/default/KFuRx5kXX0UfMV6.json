@@ -1,0 +1,9 @@
+{
+	"id": "KFuRx5kXX0UfMV6",
+	"json": "{\"id\":\"KFuRx5kXX0UfMV6\",\"url\":\"https://sarasota.craigslist.org/gms/d/tallevast-estate-sale/7923790197.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/tallevast-estate-sale/7923790197.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/tallevast-estate-sale/7923790197.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:45.404Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/tallevast-estate-sale/7923790197.html",
+	"url": "https://sarasota.craigslist.org/gms/d/tallevast-estate-sale/7923790197.html"
+}

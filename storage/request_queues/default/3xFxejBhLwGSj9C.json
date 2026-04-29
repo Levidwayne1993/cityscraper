@@ -1,0 +1,9 @@
+{
+	"id": "3xFxejBhLwGSj9C",
+	"json": "{\"id\":\"3xFxejBhLwGSj9C\",\"url\":\"https://daytona.craigslist.org/for/d/deland-downsizing-moving/7917465539.html\",\"loadedUrl\":\"https://daytona.craigslist.org/for/d/deland-downsizing-moving/7917465539.html\",\"uniqueKey\":\"https://daytona.craigslist.org/for/d/deland-downsizing-moving/7917465539.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:00:55.016Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/for/d/deland-downsizing-moving/7917465539.html",
+	"url": "https://daytona.craigslist.org/for/d/deland-downsizing-moving/7917465539.html"
+}

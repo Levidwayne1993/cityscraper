@@ -1,0 +1,9 @@
+{
+	"id": "AI6toSLLbwxDSgE",
+	"json": "{\"id\":\"AI6toSLLbwxDSgE\",\"url\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-april-4th-8am-4pm-rancho/7924841270.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-april-4th-8am-4pm-rancho/7924841270.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ojai-yard-sale-april-4th-8am-4pm-rancho/7924841270.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:22.201Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ojai-yard-sale-april-4th-8am-4pm-rancho/7924841270.html",
+	"url": "https://ventura.craigslist.org/gms/d/ojai-yard-sale-april-4th-8am-4pm-rancho/7924841270.html"
+}

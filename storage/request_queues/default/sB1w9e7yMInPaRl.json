@@ -1,0 +1,9 @@
+{
+	"id": "sB1w9e7yMInPaRl",
+	"json": "{\"id\":\"sB1w9e7yMInPaRl\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930202732.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930202732.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930202732.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:04:38.187Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930202732.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-sale-sun-26th-10am-3pm/7930202732.html"
+}

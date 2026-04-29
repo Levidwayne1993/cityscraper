@@ -1,0 +1,9 @@
+{
+	"id": "rTRs94tNlONjIKf",
+	"json": "{\"id\":\"rTRs94tNlONjIKf\",\"url\":\"https://rockies.craigslist.org/hsh/d/frisco-moving-sale-frisco-co/7925463819.html\",\"loadedUrl\":\"https://rockies.craigslist.org/hsh/d/frisco-moving-sale-frisco-co/7925463819.html\",\"uniqueKey\":\"https://rockies.craigslist.org/hsh/d/frisco-moving-sale-frisco-co/7925463819.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:21.062Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://rockies.craigslist.org/hsh/d/frisco-moving-sale-frisco-co/7925463819.html",
+	"url": "https://rockies.craigslist.org/hsh/d/frisco-moving-sale-frisco-co/7925463819.html"
+}

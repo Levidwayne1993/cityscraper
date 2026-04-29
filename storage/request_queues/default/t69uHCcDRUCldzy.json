@@ -1,0 +1,9 @@
+{
+	"id": "t69uHCcDRUCldzy",
+	"json": "{\"id\":\"t69uHCcDRUCldzy\",\"url\":\"https://gadsden.craigslist.org/gms/d/anniston-yard-sale/7922620092.html\",\"loadedUrl\":\"https://gadsden.craigslist.org/gms/d/anniston-yard-sale/7922620092.html\",\"uniqueKey\":\"https://gadsden.craigslist.org/gms/d/anniston-yard-sale/7922620092.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:00:45.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gadsden.craigslist.org/gms/d/anniston-yard-sale/7922620092.html",
+	"url": "https://gadsden.craigslist.org/gms/d/anniston-yard-sale/7922620092.html"
+}

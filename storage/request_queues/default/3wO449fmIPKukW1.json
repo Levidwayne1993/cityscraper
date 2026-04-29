@@ -1,0 +1,9 @@
+{
+	"id": "3wO449fmIPKukW1",
+	"json": "{\"id\":\"3wO449fmIPKukW1\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/sunnyvale-giant-yard-sale-am-1pm/7928019194.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/sunnyvale-giant-yard-sale-am-1pm/7928019194.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/sunnyvale-giant-yard-sale-am-1pm/7928019194.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:17.313Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/sunnyvale-giant-yard-sale-am-1pm/7928019194.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/sunnyvale-giant-yard-sale-am-1pm/7928019194.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "dIN775EBqpsZdb1",
-	"json": "{\"id\":\"dIN775EBqpsZdb1\",\"url\":\"https://ocala.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://ocala.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"dIN775EBqpsZdb1\",\"url\":\"https://ocala.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://ocala.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://ocala.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:58:08.324Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323582,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://ocala.craigslist.org/search/gms?s=240",
 	"url": "https://ocala.craigslist.org/search/gms?s=240"

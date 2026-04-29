@@ -1,0 +1,9 @@
+{
+	"id": "KEmVRBs0m8zUupX",
+	"json": "{\"id\":\"KEmVRBs0m8zUupX\",\"url\":\"https://mobile.craigslist.org/fuo/d/mobile-moving-sale/7923847120.html\",\"loadedUrl\":\"https://mobile.craigslist.org/fuo/d/mobile-moving-sale/7923847120.html\",\"uniqueKey\":\"https://mobile.craigslist.org/fuo/d/mobile-moving-sale/7923847120.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:34.566Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/fuo/d/mobile-moving-sale/7923847120.html",
+	"url": "https://mobile.craigslist.org/fuo/d/mobile-moving-sale/7923847120.html"
+}

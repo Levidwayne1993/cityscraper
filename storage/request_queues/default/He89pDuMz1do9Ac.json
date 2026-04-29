@@ -1,0 +1,9 @@
+{
+	"id": "He89pDuMz1do9Ac",
+	"json": "{\"id\":\"He89pDuMz1do9Ac\",\"url\":\"https://inlandempire.craigslist.org/gms/d/menifee-menifee-garage-sale-for/7930026190.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/menifee-menifee-garage-sale-for/7930026190.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/menifee-menifee-garage-sale-for/7930026190.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:17:35.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/menifee-menifee-garage-sale-for/7930026190.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/menifee-menifee-garage-sale-for/7930026190.html"
+}

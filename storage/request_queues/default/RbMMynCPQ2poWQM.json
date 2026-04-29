@@ -1,0 +1,9 @@
+{
+	"id": "RbMMynCPQ2poWQM",
+	"json": "{\"id\":\"RbMMynCPQ2poWQM\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-5666-delcliff-cir/7924141309.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-5666-delcliff-cir/7924141309.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-5666-delcliff-cir/7924141309.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:43:56.432Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-5666-delcliff-cir/7924141309.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-5666-delcliff-cir/7924141309.html"
+}

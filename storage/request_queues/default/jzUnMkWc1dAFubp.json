@@ -1,8 +1,8 @@
 {
 	"id": "jzUnMkWc1dAFubp",
-	"json": "{\"id\":\"jzUnMkWc1dAFubp\",\"url\":\"https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"jzUnMkWc1dAFubp\",\"url\":\"https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:21:24.008Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323110,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://bakersfield.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

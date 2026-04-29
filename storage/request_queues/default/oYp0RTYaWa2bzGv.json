@@ -1,0 +1,9 @@
+{
+	"id": "oYp0RTYaWa2bzGv",
+	"json": "{\"id\":\"oYp0RTYaWa2bzGv\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-huge-moving-sale/7929343555.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-huge-moving-sale/7929343555.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-huge-moving-sale/7929343555.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:34.616Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-huge-moving-sale/7929343555.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-huge-moving-sale/7929343555.html"
+}

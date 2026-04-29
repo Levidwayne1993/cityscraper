@@ -1,0 +1,9 @@
+{
+	"id": "iIwXyk056vvNuaZ",
+	"json": "{\"id\":\"iIwXyk056vvNuaZ\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-clearing-out-the/7928634328.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-clearing-out-the/7928634328.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-clearing-out-the/7928634328.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:34:45.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-clearing-out-the/7928634328.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-clearing-out-the/7928634328.html"
+}

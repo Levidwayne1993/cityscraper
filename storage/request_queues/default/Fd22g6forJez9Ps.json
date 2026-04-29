@@ -1,0 +1,9 @@
+{
+	"id": "Fd22g6forJez9Ps",
+	"json": "{\"id\":\"Fd22g6forJez9Ps\",\"url\":\"https://newhaven.craigslist.org/ele/d/new-haven-new-samsung-50-uhd-4k-smart/7907692803.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/ele/d/new-haven-new-samsung-50-uhd-4k-smart/7907692803.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/ele/d/new-haven-new-samsung-50-uhd-4k-smart/7907692803.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:16.480Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/ele/d/new-haven-new-samsung-50-uhd-4k-smart/7907692803.html",
+	"url": "https://newhaven.craigslist.org/ele/d/new-haven-new-samsung-50-uhd-4k-smart/7907692803.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uJt2LxMgOAjz3sN",
+	"json": "{\"id\":\"uJt2LxMgOAjz3sN\",\"url\":\"https://minneapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://minneapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521031,
+	"retryCount": 0,
+	"uniqueKey": "https://minneapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://minneapolis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

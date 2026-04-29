@@ -1,0 +1,9 @@
+{
+	"id": "exK1kjvRYIwqQwQ",
+	"json": "{\"id\":\"exK1kjvRYIwqQwQ\",\"url\":\"https://redding.craigslist.org/gms/d/redding-estate-sale-today-only-from-to/7930083429.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-estate-sale-today-only-from-to/7930083429.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-estate-sale-today-only-from-to/7930083429.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:38:17.143Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-estate-sale-today-only-from-to/7930083429.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-estate-sale-today-only-from-to/7930083429.html"
+}

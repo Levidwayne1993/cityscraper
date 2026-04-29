@@ -1,0 +1,9 @@
+{
+	"id": "QTpBIIsxh1QABcI",
+	"json": "{\"id\":\"QTpBIIsxh1QABcI\",\"url\":\"https://santamaria.craigslist.org/gms/d/lompoc-yard-sale-329-f-st/7920783214.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/lompoc-yard-sale-329-f-st/7920783214.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/lompoc-yard-sale-329-f-st/7920783214.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:32.010Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/lompoc-yard-sale-329-f-st/7920783214.html",
+	"url": "https://santamaria.craigslist.org/gms/d/lompoc-yard-sale-329-f-st/7920783214.html"
+}

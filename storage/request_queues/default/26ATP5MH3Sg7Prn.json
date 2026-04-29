@@ -1,0 +1,9 @@
+{
+	"id": "26ATP5MH3Sg7Prn",
+	"json": "{\"id\":\"26ATP5MH3Sg7Prn\",\"url\":\"https://bozeman.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://bozeman.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186521440,
+	"retryCount": 0,
+	"uniqueKey": "https://bozeman.craigslist.org/search/gms?s=360",
+	"url": "https://bozeman.craigslist.org/search/gms?s=360"
+}

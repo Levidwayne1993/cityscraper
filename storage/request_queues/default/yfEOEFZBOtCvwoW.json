@@ -1,0 +1,9 @@
+{
+	"id": "yfEOEFZBOtCvwoW",
+	"json": "{\"id\":\"yfEOEFZBOtCvwoW\",\"url\":\"https://redding.craigslist.org/clt/d/cottonwood-garage-estate-sale/7923210099.html\",\"loadedUrl\":\"https://redding.craigslist.org/clt/d/cottonwood-garage-estate-sale/7923210099.html\",\"uniqueKey\":\"https://redding.craigslist.org/clt/d/cottonwood-garage-estate-sale/7923210099.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:38:08.437Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/clt/d/cottonwood-garage-estate-sale/7923210099.html",
+	"url": "https://redding.craigslist.org/clt/d/cottonwood-garage-estate-sale/7923210099.html"
+}

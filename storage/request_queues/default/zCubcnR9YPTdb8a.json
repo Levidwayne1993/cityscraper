@@ -1,0 +1,9 @@
+{
+	"id": "zCubcnR9YPTdb8a",
+	"json": "{\"id\":\"zCubcnR9YPTdb8a\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-garage-sale-april-24-25/7929563213.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-garage-sale-april-24-25/7929563213.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-garage-sale-april-24-25/7929563213.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:38.319Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/healdsburg-garage-sale-april-24-25/7929563213.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/healdsburg-garage-sale-april-24-25/7929563213.html"
+}

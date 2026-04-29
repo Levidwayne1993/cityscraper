@@ -1,8 +1,8 @@
 {
 	"id": "u5l3SqLW91Hj8CK",
-	"json": "{\"id\":\"u5l3SqLW91Hj8CK\",\"url\":\"https://richmond.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://richmond.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"u5l3SqLW91Hj8CK\",\"url\":\"https://richmond.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://richmond.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
 	"method": "GET",
-	"orderNo": 1777040324136,
+	"orderNo": 1777186527843,
 	"retryCount": 0,
 	"uniqueKey": "https://richmond.craigslist.org/search/gms?s=120",
 	"url": "https://richmond.craigslist.org/search/gms?s=120"

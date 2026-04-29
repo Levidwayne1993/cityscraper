@@ -1,0 +1,9 @@
+{
+	"id": "duV5NSyKEouJf53",
+	"json": "{\"id\":\"duV5NSyKEouJf53\",\"url\":\"https://kenai.craigslist.org/gms/d/soldotna-moving-sale-april-24th-26th/7929555507.html\",\"loadedUrl\":\"https://kenai.craigslist.org/gms/d/soldotna-moving-sale-april-24th-26th/7929555507.html\",\"uniqueKey\":\"https://kenai.craigslist.org/gms/d/soldotna-moving-sale-april-24th-26th/7929555507.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:13:33.249Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://kenai.craigslist.org/gms/d/soldotna-moving-sale-april-24th-26th/7929555507.html",
+	"url": "https://kenai.craigslist.org/gms/d/soldotna-moving-sale-april-24th-26th/7929555507.html"
+}

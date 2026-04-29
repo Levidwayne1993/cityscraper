@@ -1,0 +1,9 @@
+{
+	"id": "v3JPESIQaXNOc5t",
+	"json": "{\"id\":\"v3JPESIQaXNOc5t\",\"url\":\"https://orangecounty.craigslist.org/gms/d/fullerton-awesome-multi-family-garage/7922447150.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/fullerton-awesome-multi-family-garage/7922447150.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/fullerton-awesome-multi-family-garage/7922447150.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:12:01.986Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/fullerton-awesome-multi-family-garage/7922447150.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/fullerton-awesome-multi-family-garage/7922447150.html"
+}

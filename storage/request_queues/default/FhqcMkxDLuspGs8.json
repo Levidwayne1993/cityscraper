@@ -1,0 +1,9 @@
+{
+	"id": "FhqcMkxDLuspGs8",
+	"json": "{\"id\":\"FhqcMkxDLuspGs8\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-807-reddick-st/7930006369.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-807-reddick-st/7930006369.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-807-reddick-st/7930006369.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:55:19.280Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-807-reddick-st/7930006369.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale-807-reddick-st/7930006369.html"
+}

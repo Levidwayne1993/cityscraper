@@ -1,0 +1,9 @@
+{
+	"id": "pA5D17PVznrCxSY",
+	"json": "{\"id\":\"pA5D17PVznrCxSY\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-10am-14/7921122074.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-10am-14/7921122074.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-10am-14/7921122074.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:34.858Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-10am-14/7921122074.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-10am-14/7921122074.html"
+}

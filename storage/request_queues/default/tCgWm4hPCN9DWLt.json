@@ -1,0 +1,9 @@
+{
+	"id": "tCgWm4hPCN9DWLt",
+	"json": "{\"id\":\"tCgWm4hPCN9DWLt\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-garage-sale-sat-25th-sun-26th/7930022133.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-garage-sale-sat-25th-sun-26th/7930022133.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-garage-sale-sat-25th-sun-26th/7930022133.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:59.585Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/antioch-garage-sale-sat-25th-sun-26th/7930022133.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/antioch-garage-sale-sat-25th-sun-26th/7930022133.html"
+}

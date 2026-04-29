@@ -1,0 +1,9 @@
+{
+	"id": "pSCQtxMjYXsl772",
+	"json": "{\"id\":\"pSCQtxMjYXsl772\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-community-flea-market-today/7928529574.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-community-flea-market-today/7928529574.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-community-flea-market-today/7928529574.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:26.487Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-community-flea-market-today/7928529574.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-community-flea-market-today/7928529574.html"
+}

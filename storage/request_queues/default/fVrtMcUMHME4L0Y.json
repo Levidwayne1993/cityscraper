@@ -1,0 +1,9 @@
+{
+	"id": "fVrtMcUMHME4L0Y",
+	"json": "{\"id\":\"fVrtMcUMHME4L0Y\",\"url\":\"https://sandiego.craigslist.org/nsd/for/d/san-diego-cuban-art-collection-pre/7894896098.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/for/d/san-diego-cuban-art-collection-pre/7894896098.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/for/d/san-diego-cuban-art-collection-pre/7894896098.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:35.794Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/for/d/san-diego-cuban-art-collection-pre/7894896098.html",
+	"url": "https://sandiego.craigslist.org/nsd/for/d/san-diego-cuban-art-collection-pre/7894896098.html"
+}

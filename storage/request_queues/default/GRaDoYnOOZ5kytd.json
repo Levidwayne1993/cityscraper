@@ -1,0 +1,9 @@
+{
+	"id": "GRaDoYnOOZ5kytd",
+	"json": "{\"id\":\"GRaDoYnOOZ5kytd\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-warehouse-sale/7929959876.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-warehouse-sale/7929959876.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-warehouse-sale/7929959876.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:00.257Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-warehouse-sale/7929959876.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-warehouse-sale/7929959876.html"
+}

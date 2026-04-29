@@ -1,0 +1,9 @@
+{
+	"id": "kLdzcs8KVd4u6um",
+	"json": "{\"id\":\"kLdzcs8KVd4u6um\",\"url\":\"https://milwaukee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://milwaukee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528416,
+	"retryCount": 0,
+	"uniqueKey": "https://milwaukee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://milwaukee.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

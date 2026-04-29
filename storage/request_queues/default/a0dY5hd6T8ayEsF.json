@@ -1,8 +1,8 @@
 {
 	"id": "a0dY5hd6T8ayEsF",
-	"json": "{\"id\":\"a0dY5hd6T8ayEsF\",\"url\":\"https://tucson.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://tucson.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"a0dY5hd6T8ayEsF\",\"url\":\"https://tucson.craigslist.org/search/sss?query=estate+sale\",\"loadedUrl\":\"https://tucson.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://tucson.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:03:32.057Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323041,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://tucson.craigslist.org/search/sss?query=estate+sale",
 	"url": "https://tucson.craigslist.org/search/sss?query=estate+sale"

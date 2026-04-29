@@ -1,0 +1,9 @@
+{
+	"id": "LdeSZ1hU8QrzOJi",
+	"json": "{\"id\":\"LdeSZ1hU8QrzOJi\",\"url\":\"https://grandrapids.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://grandrapids.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520710,
+	"retryCount": 0,
+	"uniqueKey": "https://grandrapids.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://grandrapids.craigslist.org/search/ccc?query=garage+sale"
+}

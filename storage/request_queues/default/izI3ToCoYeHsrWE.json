@@ -1,0 +1,9 @@
+{
+	"id": "izI3ToCoYeHsrWE",
+	"json": "{\"id\":\"izI3ToCoYeHsrWE\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale-estate-sale/7928260551.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale-estate-sale/7928260551.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale-estate-sale/7928260551.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:50.335Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-garage-sale-estate-sale/7928260551.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-garage-sale-estate-sale/7928260551.html"
+}

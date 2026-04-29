@@ -1,0 +1,9 @@
+{
+	"id": "uEixvQCY1kDQnvz",
+	"json": "{\"id\":\"uEixvQCY1kDQnvz\",\"url\":\"https://lehighvalley.craigslist.org/search/gms\",\"uniqueKey\":\"https://lehighvalley.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525494,
+	"retryCount": 0,
+	"uniqueKey": "https://lehighvalley.craigslist.org/search/gms",
+	"url": "https://lehighvalley.craigslist.org/search/gms"
+}

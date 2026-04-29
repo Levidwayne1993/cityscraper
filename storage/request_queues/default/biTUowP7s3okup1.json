@@ -1,0 +1,9 @@
+{
+	"id": "biTUowP7s3okup1",
+	"json": "{\"id\":\"biTUowP7s3okup1\",\"url\":\"https://rapidcity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://rapidcity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\"}}",
+	"method": "GET",
+	"orderNo": 1777186525932,
+	"retryCount": 0,
+	"uniqueKey": "https://rapidcity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://rapidcity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

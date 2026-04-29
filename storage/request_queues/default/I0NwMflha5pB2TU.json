@@ -1,0 +1,9 @@
+{
+	"id": "I0NwMflha5pB2TU",
+	"json": "{\"id\":\"I0NwMflha5pB2TU\",\"url\":\"https://denver.craigslist.org/gms/d/broomfield-mckay-landing-community/7930208178.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/broomfield-mckay-landing-community/7930208178.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/broomfield-mckay-landing-community/7930208178.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:29.499Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/broomfield-mckay-landing-community/7930208178.html",
+	"url": "https://denver.craigslist.org/gms/d/broomfield-mckay-landing-community/7930208178.html"
+}

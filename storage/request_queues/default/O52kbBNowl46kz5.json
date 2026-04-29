@@ -1,0 +1,9 @@
+{
+	"id": "O52kbBNowl46kz5",
+	"json": "{\"id\":\"O52kbBNowl46kz5\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/novato-garage-sale-novato-frid-sat-am/7929885936.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/novato-garage-sale-novato-frid-sat-am/7929885936.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/novato-garage-sale-novato-frid-sat-am/7929885936.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:37:35.493Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/novato-garage-sale-novato-frid-sat-am/7929885936.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/novato-garage-sale-novato-frid-sat-am/7929885936.html"
+}

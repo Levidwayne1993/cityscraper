@@ -1,0 +1,9 @@
+{
+	"id": "lfO5G6CO8dvc46M",
+	"json": "{\"id\":\"lfO5G6CO8dvc46M\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-tuslawilla/7925768337.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-tuslawilla/7925768337.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-tuslawilla/7925768337.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:32:00.546Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-tuslawilla/7925768337.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-tuslawilla/7925768337.html"
+}

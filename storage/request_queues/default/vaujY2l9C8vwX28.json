@@ -1,0 +1,9 @@
+{
+	"id": "vaujY2l9C8vwX28",
+	"json": "{\"id\":\"vaujY2l9C8vwX28\",\"url\":\"https://catskills.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://catskills.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523112,
+	"retryCount": 0,
+	"uniqueKey": "https://catskills.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://catskills.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

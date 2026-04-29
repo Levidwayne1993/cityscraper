@@ -1,0 +1,9 @@
+{
+	"id": "QXtHNG83tx5esPr",
+	"json": "{\"id\":\"QXtHNG83tx5esPr\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/chatsworth-womens-mens-and-teens/7928659418.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/chatsworth-womens-mens-and-teens/7928659418.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/chatsworth-womens-mens-and-teens/7928659418.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:24:27.131Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/chatsworth-womens-mens-and-teens/7928659418.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/chatsworth-womens-mens-and-teens/7928659418.html"
+}

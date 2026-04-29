@@ -1,0 +1,9 @@
+{
+	"id": "EST76mzmhO6wY2q",
+	"json": "{\"id\":\"EST76mzmhO6wY2q\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/burlingame-circle-of-st-pauls-gigantic/7930057639.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/burlingame-circle-of-st-pauls-gigantic/7930057639.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/burlingame-circle-of-st-pauls-gigantic/7930057639.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:53.310Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/burlingame-circle-of-st-pauls-gigantic/7930057639.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/burlingame-circle-of-st-pauls-gigantic/7930057639.html"
+}

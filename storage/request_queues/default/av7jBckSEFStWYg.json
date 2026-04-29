@@ -1,0 +1,9 @@
+{
+	"id": "av7jBckSEFStWYg",
+	"json": "{\"id\":\"av7jBckSEFStWYg\",\"url\":\"https://sierravista.craigslist.org/fuo/d/hereford-indoor-moving-sale/7909255101.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/fuo/d/hereford-indoor-moving-sale/7909255101.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/fuo/d/hereford-indoor-moving-sale/7909255101.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:53:37.902Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/fuo/d/hereford-indoor-moving-sale/7909255101.html",
+	"url": "https://sierravista.craigslist.org/fuo/d/hereford-indoor-moving-sale/7909255101.html"
+}

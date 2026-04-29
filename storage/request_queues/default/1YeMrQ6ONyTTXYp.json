@@ -1,8 +1,8 @@
 {
 	"id": "1YeMrQ6ONyTTXYp",
-	"json": "{\"id\":\"1YeMrQ6ONyTTXYp\",\"url\":\"https://pensacola.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://pensacola.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"1YeMrQ6ONyTTXYp\",\"url\":\"https://pensacola.craigslist.org/search/sss?query=estate+sale\",\"loadedUrl\":\"https://pensacola.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://pensacola.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:42:17.760Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323617,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://pensacola.craigslist.org/search/sss?query=estate+sale",
 	"url": "https://pensacola.craigslist.org/search/sss?query=estate+sale"

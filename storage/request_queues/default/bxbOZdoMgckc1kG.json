@@ -1,0 +1,9 @@
+{
+	"id": "bxbOZdoMgckc1kG",
+	"json": "{\"id\":\"bxbOZdoMgckc1kG\",\"url\":\"https://merced.craigslist.org/gms/d/merced-garage-sale/7921115087.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/merced-garage-sale/7921115087.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/merced-garage-sale/7921115087.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:51:23.035Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/merced-garage-sale/7921115087.html",
+	"url": "https://merced.craigslist.org/gms/d/merced-garage-sale/7921115087.html"
+}

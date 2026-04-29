@@ -1,0 +1,9 @@
+{
+	"id": "pngKNfEavTZ6ksM",
+	"json": "{\"id\":\"pngKNfEavTZ6ksM\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-garage-sale-today/7927055064.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-garage-sale-today/7927055064.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-garage-sale-today/7927055064.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:02:46.740Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-garage-sale-today/7927055064.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-garage-sale-today/7927055064.html"
+}

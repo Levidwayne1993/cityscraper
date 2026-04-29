@@ -1,0 +1,9 @@
+{
+	"id": "yu7mTdXv4q3ezat",
+	"json": "{\"id\":\"yu7mTdXv4q3ezat\",\"url\":\"https://inlandempire.craigslist.org/gms/d/hemet-estate-sale-in-hemet-by-friends/7922359434.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/hemet-estate-sale-in-hemet-by-friends/7922359434.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/hemet-estate-sale-in-hemet-by-friends/7922359434.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:10:22.130Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/hemet-estate-sale-in-hemet-by-friends/7922359434.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/hemet-estate-sale-in-hemet-by-friends/7922359434.html"
+}

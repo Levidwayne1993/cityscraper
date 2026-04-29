@@ -1,8 +1,8 @@
 {
 	"id": "07DqqE7zrWsaDni",
-	"json": "{\"id\":\"07DqqE7zrWsaDni\",\"url\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"07DqqE7zrWsaDni\",\"url\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:10:33.301Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322934,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://anchorage.craigslist.org/search/gms?s=240",
 	"url": "https://anchorage.craigslist.org/search/gms?s=240"

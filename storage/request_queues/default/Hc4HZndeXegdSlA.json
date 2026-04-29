@@ -1,0 +1,9 @@
+{
+	"id": "Hc4HZndeXegdSlA",
+	"json": "{\"id\":\"Hc4HZndeXegdSlA\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/el-cerrito-estate-sale-in-richmond/7926200187.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/el-cerrito-estate-sale-in-richmond/7926200187.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/el-cerrito-estate-sale-in-richmond/7926200187.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:30:59.533Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/el-cerrito-estate-sale-in-richmond/7926200187.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/el-cerrito-estate-sale-in-richmond/7926200187.html"
+}

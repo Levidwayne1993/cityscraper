@@ -1,0 +1,9 @@
+{
+	"id": "gBhbsHqIxPrkFTf",
+	"json": "{\"id\":\"gBhbsHqIxPrkFTf\",\"url\":\"https://juneau.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://juneau.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://juneau.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:15:13.893Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://juneau.craigslist.org/search/gms?s=360",
+	"url": "https://juneau.craigslist.org/search/gms?s=360"
+}

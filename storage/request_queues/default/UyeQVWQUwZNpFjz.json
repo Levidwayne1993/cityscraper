@@ -1,0 +1,9 @@
+{
+	"id": "UyeQVWQUwZNpFjz",
+	"json": "{\"id\":\"UyeQVWQUwZNpFjz\",\"url\":\"https://sierravista.craigslist.org/cto/d/saint-david-moving-sale-1987-firebird/7925970609.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/cto/d/saint-david-moving-sale-1987-firebird/7925970609.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/cto/d/saint-david-moving-sale-1987-firebird/7925970609.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:53:28.443Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/cto/d/saint-david-moving-sale-1987-firebird/7925970609.html",
+	"url": "https://sierravista.craigslist.org/cto/d/saint-david-moving-sale-1987-firebird/7925970609.html"
+}

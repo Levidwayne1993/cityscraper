@@ -1,0 +1,9 @@
+{
+	"id": "6Y966JY54OmoqB7",
+	"json": "{\"id\":\"6Y966JY54OmoqB7\",\"url\":\"https://orangecounty.craigslist.org/gms/d/laguna-woods-garage-sale/7912344462.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/laguna-woods-garage-sale/7912344462.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/laguna-woods-garage-sale/7912344462.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:24.835Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/laguna-woods-garage-sale/7912344462.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/laguna-woods-garage-sale/7912344462.html"
+}

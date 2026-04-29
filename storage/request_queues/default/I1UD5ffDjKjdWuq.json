@@ -1,0 +1,9 @@
+{
+	"id": "I1UD5ffDjKjdWuq",
+	"json": "{\"id\":\"I1UD5ffDjKjdWuq\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/monrovia-yard-sale-monrovia/7928272842.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/monrovia-yard-sale-monrovia/7928272842.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/monrovia-yard-sale-monrovia/7928272842.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:29:57.962Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/monrovia-yard-sale-monrovia/7928272842.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/monrovia-yard-sale-monrovia/7928272842.html"
+}

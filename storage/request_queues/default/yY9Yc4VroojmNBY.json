@@ -1,0 +1,9 @@
+{
+	"id": "yY9Yc4VroojmNBY",
+	"json": "{\"id\":\"yY9Yc4VroojmNBY\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-big-yard-sale-sat-march-21/7921127109.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-big-yard-sale-sat-march-21/7921127109.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-big-yard-sale-sat-march-21/7921127109.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:10:02.566Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-big-yard-sale-sat-march-21/7921127109.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-big-yard-sale-sat-march-21/7921127109.html"
+}

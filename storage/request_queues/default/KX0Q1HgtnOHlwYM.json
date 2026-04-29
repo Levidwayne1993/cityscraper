@@ -1,0 +1,9 @@
+{
+	"id": "KX0Q1HgtnOHlwYM",
+	"json": "{\"id\":\"KX0Q1HgtnOHlwYM\",\"url\":\"https://mobile.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://mobile.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://mobile.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:20.559Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://mobile.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

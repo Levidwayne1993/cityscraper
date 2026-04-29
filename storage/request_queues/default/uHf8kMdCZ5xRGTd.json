@@ -1,0 +1,9 @@
+{
+	"id": "uHf8kMdCZ5xRGTd",
+	"json": "{\"id\":\"uHf8kMdCZ5xRGTd\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-garage-sale-broadway-dr/7924110181.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-garage-sale-broadway-dr/7924110181.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-garage-sale-broadway-dr/7924110181.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:03:48.781Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-garage-sale-broadway-dr/7924110181.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-garage-sale-broadway-dr/7924110181.html"
+}

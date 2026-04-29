@@ -1,0 +1,9 @@
+{
+	"id": "bp8KMupwdeMCwtO",
+	"json": "{\"id\":\"bp8KMupwdeMCwtO\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-mccormick-ranch/7928265860.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-mccormick-ranch/7928265860.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-mccormick-ranch/7928265860.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:34:33.328Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-mccormick-ranch/7928265860.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-mccormick-ranch/7928265860.html"
+}

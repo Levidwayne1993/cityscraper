@@ -1,0 +1,9 @@
+{
+	"id": "GvrAqmvjsnM3OxQ",
+	"json": "{\"id\":\"GvrAqmvjsnM3OxQ\",\"url\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-moving-sale/7928384816.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-moving-sale/7928384816.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-moving-sale/7928384816.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:51:36.068Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/fort-collins-moving-sale/7928384816.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/fort-collins-moving-sale/7928384816.html"
+}

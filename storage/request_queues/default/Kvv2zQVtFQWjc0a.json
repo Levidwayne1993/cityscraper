@@ -1,0 +1,9 @@
+{
+	"id": "Kvv2zQVtFQWjc0a",
+	"json": "{\"id\":\"Kvv2zQVtFQWjc0a\",\"url\":\"https://humboldt.craigslist.org/hsh/d/fortuna-moving-sale/7927146537.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/hsh/d/fortuna-moving-sale/7927146537.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/hsh/d/fortuna-moving-sale/7927146537.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:59:17.607Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/hsh/d/fortuna-moving-sale/7927146537.html",
+	"url": "https://humboldt.craigslist.org/hsh/d/fortuna-moving-sale/7927146537.html"
+}

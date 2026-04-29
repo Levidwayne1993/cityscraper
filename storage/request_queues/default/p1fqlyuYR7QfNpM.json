@@ -1,0 +1,9 @@
+{
+	"id": "p1fqlyuYR7QfNpM",
+	"json": "{\"id\":\"p1fqlyuYR7QfNpM\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-community-yard-sale/7928442562.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-community-yard-sale/7928442562.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-community-yard-sale/7928442562.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:00:36.212Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-community-yard-sale/7928442562.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-community-yard-sale/7928442562.html"
+}

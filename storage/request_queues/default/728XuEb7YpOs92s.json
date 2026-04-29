@@ -1,0 +1,9 @@
+{
+	"id": "728XuEb7YpOs92s",
+	"json": "{\"id\":\"728XuEb7YpOs92s\",\"url\":\"https://chico.craigslist.org/gms/d/paradise-yard-sale-today/7922610269.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/paradise-yard-sale-today/7922610269.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/paradise-yard-sale-today/7922610269.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:31:55.042Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/paradise-yard-sale-today/7922610269.html",
+	"url": "https://chico.craigslist.org/gms/d/paradise-yard-sale-today/7922610269.html"
+}

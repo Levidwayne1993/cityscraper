@@ -1,0 +1,9 @@
+{
+	"id": "VvLXh6puHgKcL8j",
+	"json": "{\"id\":\"VvLXh6puHgKcL8j\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/pasadena-moving-sale/7929556914.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/pasadena-moving-sale/7929556914.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/pasadena-moving-sale/7929556914.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:24:24.114Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/pasadena-moving-sale/7929556914.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/pasadena-moving-sale/7929556914.html"
+}

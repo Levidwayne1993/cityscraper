@@ -1,0 +1,9 @@
+{
+	"id": "5R2tKt8DClAqTO6",
+	"json": "{\"id\":\"5R2tKt8DClAqTO6\",\"url\":\"https://palmsprings.craigslist.org/com/d/palm-springs-big-yard-sale-today-sat-11/7927048808.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/com/d/palm-springs-big-yard-sale-today-sat-11/7927048808.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/com/d/palm-springs-big-yard-sale-today-sat-11/7927048808.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:30:47.597Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/com/d/palm-springs-big-yard-sale-today-sat-11/7927048808.html",
+	"url": "https://palmsprings.craigslist.org/com/d/palm-springs-big-yard-sale-today-sat-11/7927048808.html"
+}

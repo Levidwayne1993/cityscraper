@@ -1,0 +1,9 @@
+{
+	"id": "1mnrf9uG5VrH12B",
+	"json": "{\"id\":\"1mnrf9uG5VrH12B\",\"url\":\"https://orlando.craigslist.org/com/d/orlando-yard-sale/7929738950.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/orlando-yard-sale/7929738950.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/orlando-yard-sale/7929738950.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:08.845Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/orlando-yard-sale/7929738950.html",
+	"url": "https://orlando.craigslist.org/com/d/orlando-yard-sale/7929738950.html"
+}

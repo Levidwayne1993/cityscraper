@@ -1,0 +1,9 @@
+{
+	"id": "Mg9D5mqfUEUUznR",
+	"json": "{\"id\":\"Mg9D5mqfUEUUznR\",\"url\":\"https://delaware.craigslist.org/gms/d/wilmington-newts-estate-sale/7925054063.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/wilmington-newts-estate-sale/7925054063.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/wilmington-newts-estate-sale/7925054063.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:18:27.114Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/wilmington-newts-estate-sale/7925054063.html",
+	"url": "https://delaware.craigslist.org/gms/d/wilmington-newts-estate-sale/7925054063.html"
+}

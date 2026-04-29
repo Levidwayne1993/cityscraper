@@ -1,0 +1,9 @@
+{
+	"id": "Nie6ObjLe4UbDle",
+	"json": "{\"id\":\"Nie6ObjLe4UbDle\",\"url\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-macys/7929830935.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-macys/7929830935.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-macys/7929830935.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:37:32.748Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-macys/7929830935.html",
+	"url": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-solid-wood-macys/7929830935.html"
+}

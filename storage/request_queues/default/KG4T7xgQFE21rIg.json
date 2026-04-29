@@ -1,0 +1,9 @@
+{
+	"id": "KG4T7xgQFE21rIg",
+	"json": "{\"id\":\"KG4T7xgQFE21rIg\",\"url\":\"https://inlandempire.craigslist.org/com/d/patton-community-yard-sale-on-march-in/7922062330.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/patton-community-yard-sale-on-march-in/7922062330.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/patton-community-yard-sale-on-march-in/7922062330.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:11.448Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/patton-community-yard-sale-on-march-in/7922062330.html",
+	"url": "https://inlandempire.craigslist.org/com/d/patton-community-yard-sale-on-march-in/7922062330.html"
+}

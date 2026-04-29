@@ -1,0 +1,9 @@
+{
+	"id": "ZCz3wGXKPdd5LuU",
+	"json": "{\"id\":\"ZCz3wGXKPdd5LuU\",\"url\":\"https://reading.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://reading.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525734,
+	"retryCount": 0,
+	"uniqueKey": "https://reading.craigslist.org/search/gms?s=360",
+	"url": "https://reading.craigslist.org/search/gms?s=360"
+}

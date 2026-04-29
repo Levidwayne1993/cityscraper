@@ -1,0 +1,9 @@
+{
+	"id": "kwTwAAsOCh1xzXT",
+	"json": "{\"id\":\"kwTwAAsOCh1xzXT\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-moving-estate-home/7928871426.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-moving-estate-home/7928871426.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/sebastopol-moving-estate-home/7928871426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:16:00.525Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-moving-estate-home/7928871426.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/sebastopol-moving-estate-home/7928871426.html"
+}

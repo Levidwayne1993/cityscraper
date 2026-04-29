@@ -1,0 +1,9 @@
+{
+	"id": "zpugx0cyvHsH6q3",
+	"json": "{\"id\":\"zpugx0cyvHsH6q3\",\"url\":\"https://inlandempire.craigslist.org/gms/d/murrieta-big-garage-sale-today-tools-ac/7928565716.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/murrieta-big-garage-sale-today-tools-ac/7928565716.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/murrieta-big-garage-sale-today-tools-ac/7928565716.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:26.182Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/murrieta-big-garage-sale-today-tools-ac/7928565716.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/murrieta-big-garage-sale-today-tools-ac/7928565716.html"
+}

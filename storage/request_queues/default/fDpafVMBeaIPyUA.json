@@ -1,0 +1,9 @@
+{
+	"id": "fDpafVMBeaIPyUA",
+	"json": "{\"id\":\"fDpafVMBeaIPyUA\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-sale-moving-sale-and-quite/7929889321.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-sale-moving-sale-and-quite/7929889321.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-sale-moving-sale-and-quite/7929889321.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:56.018Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/queen-creek-sale-moving-sale-and-quite/7929889321.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/queen-creek-sale-moving-sale-and-quite/7929889321.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2ZhABOHE9af8xwc",
+	"json": "{\"id\":\"2ZhABOHE9af8xwc\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-fantastic-garage-sale-fri-1-sat/7930218869.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-fantastic-garage-sale-fri-1-sat/7930218869.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-fantastic-garage-sale-fri-1-sat/7930218869.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:57.441Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-fantastic-garage-sale-fri-1-sat/7930218869.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-fantastic-garage-sale-fri-1-sat/7930218869.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UdxNjkGr1bTfgku",
+	"json": "{\"id\":\"UdxNjkGr1bTfgku\",\"url\":\"https://mobile.craigslist.org/gms/d/theodore-garage-sale-6561-sandra-dr/7928489396.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/theodore-garage-sale-6561-sandra-dr/7928489396.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/theodore-garage-sale-6561-sandra-dr/7928489396.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:03.905Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/theodore-garage-sale-6561-sandra-dr/7928489396.html",
+	"url": "https://mobile.craigslist.org/gms/d/theodore-garage-sale-6561-sandra-dr/7928489396.html"
+}

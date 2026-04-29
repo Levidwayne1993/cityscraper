@@ -1,0 +1,9 @@
+{
+	"id": "K7GlP7efqVfXhv5",
+	"json": "{\"id\":\"K7GlP7efqVfXhv5\",\"url\":\"https://denver.craigslist.org/gms/d/denver-1295-cody-st-lakewood-yard-sale/7922577410.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-1295-cody-st-lakewood-yard-sale/7922577410.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-1295-cody-st-lakewood-yard-sale/7922577410.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:52.916Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-1295-cody-st-lakewood-yard-sale/7922577410.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-1295-cody-st-lakewood-yard-sale/7922577410.html"
+}

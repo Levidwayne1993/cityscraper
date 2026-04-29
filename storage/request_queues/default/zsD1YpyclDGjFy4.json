@@ -1,0 +1,9 @@
+{
+	"id": "zsD1YpyclDGjFy4",
+	"json": "{\"id\":\"zsD1YpyclDGjFy4\",\"url\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-huge-yard-sale-today/7924697211.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-huge-yard-sale-today/7924697211.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-huge-yard-sale-today/7924697211.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:18.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/com/d/deerfield-beach-huge-yard-sale-today/7924697211.html",
+	"url": "https://miami.craigslist.org/brw/com/d/deerfield-beach-huge-yard-sale-today/7924697211.html"
+}

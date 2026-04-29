@@ -1,0 +1,9 @@
+{
+	"id": "49A2Ef9M2TnfJKV",
+	"json": "{\"id\":\"49A2Ef9M2TnfJKV\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/scottsdale-huge-yard-sale/7926581475.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/scottsdale-huge-yard-sale/7926581475.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/scottsdale-huge-yard-sale/7926581475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:04.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/scottsdale-huge-yard-sale/7926581475.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/scottsdale-huge-yard-sale/7926581475.html"
+}

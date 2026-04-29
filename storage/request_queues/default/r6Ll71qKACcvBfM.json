@@ -1,0 +1,9 @@
+{
+	"id": "r6Ll71qKACcvBfM",
+	"json": "{\"id\":\"r6Ll71qKACcvBfM\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-estate-sale-everything-must/7928432590.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-estate-sale-everything-must/7928432590.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/queen-creek-estate-sale-everything-must/7928432590.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:34:39.165Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/queen-creek-estate-sale-everything-must/7928432590.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/queen-creek-estate-sale-everything-must/7928432590.html"
+}

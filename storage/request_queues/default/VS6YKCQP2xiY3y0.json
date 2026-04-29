@@ -1,0 +1,9 @@
+{
+	"id": "VS6YKCQP2xiY3y0",
+	"json": "{\"id\":\"VS6YKCQP2xiY3y0\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-830ortega-garage-sale/7923802513.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-830ortega-garage-sale/7923802513.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-830ortega-garage-sale/7923802513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:39:25.951Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-830ortega-garage-sale/7923802513.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-830ortega-garage-sale/7923802513.html"
+}

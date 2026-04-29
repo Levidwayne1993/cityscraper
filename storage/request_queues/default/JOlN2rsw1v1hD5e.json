@@ -1,0 +1,9 @@
+{
+	"id": "JOlN2rsw1v1hD5e",
+	"json": "{\"id\":\"JOlN2rsw1v1hD5e\",\"url\":\"https://sarasota.craigslist.org/gms/d/ellenton-whitney-meadows-community-sale/7925850342.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/ellenton-whitney-meadows-community-sale/7925850342.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/ellenton-whitney-meadows-community-sale/7925850342.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:20.715Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/ellenton-whitney-meadows-community-sale/7925850342.html",
+	"url": "https://sarasota.craigslist.org/gms/d/ellenton-whitney-meadows-community-sale/7925850342.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "rDxUOgNz96K947A",
+	"json": "{\"id\":\"rDxUOgNz96K947A\",\"url\":\"https://lincoln.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://lincoln.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522650,
+	"retryCount": 0,
+	"uniqueKey": "https://lincoln.craigslist.org/search/gms?s=480",
+	"url": "https://lincoln.craigslist.org/search/gms?s=480"
+}

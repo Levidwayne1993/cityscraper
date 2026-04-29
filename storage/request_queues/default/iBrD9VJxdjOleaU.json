@@ -1,0 +1,9 @@
+{
+	"id": "iBrD9VJxdjOleaU",
+	"json": "{\"id\":\"iBrD9VJxdjOleaU\",\"url\":\"https://cosprings.craigslist.org/fuo/d/colorado-springs-high-end-estate-sale/7918643930.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/fuo/d/colorado-springs-high-end-estate-sale/7918643930.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/fuo/d/colorado-springs-high-end-estate-sale/7918643930.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:04.595Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/fuo/d/colorado-springs-high-end-estate-sale/7918643930.html",
+	"url": "https://cosprings.craigslist.org/fuo/d/colorado-springs-high-end-estate-sale/7918643930.html"
+}

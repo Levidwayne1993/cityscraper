@@ -1,0 +1,9 @@
+{
+	"id": "ATlBIlb2MoawWPQ",
+	"json": "{\"id\":\"ATlBIlb2MoawWPQ\",\"url\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-large-tufted/7929825339.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-large-tufted/7929825339.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-large-tufted/7929825339.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:37:17.400Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-large-tufted/7929825339.html",
+	"url": "https://sfbay.craigslist.org/eby/fuo/d/fremont-moving-sale-large-tufted/7929825339.html"
+}

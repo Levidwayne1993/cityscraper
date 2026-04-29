@@ -1,0 +1,9 @@
+{
+	"id": "KI8CEkurhDN9FDm",
+	"json": "{\"id\":\"KI8CEkurhDN9FDm\",\"url\":\"https://redding.craigslist.org/spo/d/redding-moving-sale-stepper-by-sunny/7918621362.html\",\"loadedUrl\":\"https://redding.craigslist.org/spo/d/redding-moving-sale-stepper-by-sunny/7918621362.html\",\"uniqueKey\":\"https://redding.craigslist.org/spo/d/redding-moving-sale-stepper-by-sunny/7918621362.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:39:02.556Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/spo/d/redding-moving-sale-stepper-by-sunny/7918621362.html",
+	"url": "https://redding.craigslist.org/spo/d/redding-moving-sale-stepper-by-sunny/7918621362.html"
+}

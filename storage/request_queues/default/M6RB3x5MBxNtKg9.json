@@ -1,0 +1,9 @@
+{
+	"id": "M6RB3x5MBxNtKg9",
+	"json": "{\"id\":\"M6RB3x5MBxNtKg9\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-estate-sale/7926871830.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-estate-sale/7926871830.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-estate-sale/7926871830.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:31.761Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-estate-sale/7926871830.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-estate-sale/7926871830.html"
+}

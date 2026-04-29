@@ -1,0 +1,9 @@
+{
+	"id": "JZ1EOyjJO7o3zvl",
+	"json": "{\"id\":\"JZ1EOyjJO7o3zvl\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Charleston-WV.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Charleston-WV.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WV\",\"yssSlug\":\"Charleston-WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186533085,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Charleston-WV.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Charleston-WV.html"
+}

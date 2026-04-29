@@ -1,0 +1,9 @@
+{
+	"id": "ieGn3AWOelcxaoT",
+	"json": "{\"id\":\"ieGn3AWOelcxaoT\",\"url\":\"https://newyork.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://newyork.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523246,
+	"retryCount": 0,
+	"uniqueKey": "https://newyork.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://newyork.craigslist.org/search/ccc?query=yard+sale"
+}

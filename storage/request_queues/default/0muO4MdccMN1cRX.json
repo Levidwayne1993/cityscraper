@@ -1,0 +1,9 @@
+{
+	"id": "0muO4MdccMN1cRX",
+	"json": "{\"id\":\"0muO4MdccMN1cRX\",\"url\":\"https://laredo.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://laredo.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526301,
+	"retryCount": 0,
+	"uniqueKey": "https://laredo.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://laredo.craigslist.org/search/ccc?query=yard+sale"
+}

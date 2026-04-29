@@ -1,0 +1,9 @@
+{
+	"id": "hYqoQvLZLNq91D9",
+	"json": "{\"id\":\"hYqoQvLZLNq91D9\",\"url\":\"https://showlow.craigslist.org/fuo/d/show-low-moving-sale-saturday-march-am/7923198768.html\",\"loadedUrl\":\"https://showlow.craigslist.org/fuo/d/show-low-moving-sale-saturday-march-am/7923198768.html\",\"uniqueKey\":\"https://showlow.craigslist.org/fuo/d/show-low-moving-sale-saturday-march-am/7923198768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:01.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/fuo/d/show-low-moving-sale-saturday-march-am/7923198768.html",
+	"url": "https://showlow.craigslist.org/fuo/d/show-low-moving-sale-saturday-march-am/7923198768.html"
+}

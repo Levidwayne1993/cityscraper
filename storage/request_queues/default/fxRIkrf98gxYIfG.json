@@ -1,9 +1,0 @@
-{
-	"id": "fxRIkrf98gxYIfG",
-	"json": "{\"id\":\"fxRIkrf98gxYIfG\",\"url\":\"https://gsalr.com/garage-sales-in/maryland/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/maryland\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"maryland\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334390,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/maryland",
-	"url": "https://gsalr.com/garage-sales-in/maryland/"
-}

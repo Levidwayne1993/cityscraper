@@ -1,0 +1,9 @@
+{
+	"id": "VSzLBCxRU84H5Me",
+	"json": "{\"id\":\"VSzLBCxRU84H5Me\",\"url\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale-rawson-rd-red-bluff/7922139577.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale-rawson-rd-red-bluff/7922139577.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale-rawson-rd-red-bluff/7922139577.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:31:19.688Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/proberta-yard-sale-rawson-rd-red-bluff/7922139577.html",
+	"url": "https://chico.craigslist.org/gms/d/proberta-yard-sale-rawson-rd-red-bluff/7922139577.html"
+}

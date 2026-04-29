@@ -1,0 +1,9 @@
+{
+	"id": "jIzHIUKKDz9Z9LI",
+	"json": "{\"id\":\"jIzHIUKKDz9Z9LI\",\"url\":\"https://www.estatesales.net/estate-sales/New-Mexico?page=5\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/New-Mexico?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"New-Mexico\"}}",
+	"method": "GET",
+	"orderNo": 1777186528721,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/New-Mexico?page=5",
+	"url": "https://www.estatesales.net/estate-sales/New-Mexico?page=5"
+}

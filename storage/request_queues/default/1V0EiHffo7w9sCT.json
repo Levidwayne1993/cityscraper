@@ -1,0 +1,9 @@
+{
+	"id": "1V0EiHffo7w9sCT",
+	"json": "{\"id\":\"1V0EiHffo7w9sCT\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-community-spring-garage-sale/7927463025.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-community-spring-garage-sale/7927463025.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-community-spring-garage-sale/7927463025.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:34.141Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-community-spring-garage-sale/7927463025.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-community-spring-garage-sale/7927463025.html"
+}

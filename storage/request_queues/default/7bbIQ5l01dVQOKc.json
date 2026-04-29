@@ -1,0 +1,9 @@
+{
+	"id": "7bbIQ5l01dVQOKc",
+	"json": "{\"id\":\"7bbIQ5l01dVQOKc\",\"url\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-estate-and-yard-sale/7921116823.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-estate-and-yard-sale/7921116823.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-estate-and-yard-sale/7921116823.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:09:58.876Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/thousand-oaks-estate-and-yard-sale/7921116823.html",
+	"url": "https://ventura.craigslist.org/gms/d/thousand-oaks-estate-and-yard-sale/7921116823.html"
+}

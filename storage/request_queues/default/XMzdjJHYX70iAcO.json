@@ -1,0 +1,9 @@
+{
+	"id": "XMzdjJHYX70iAcO",
+	"json": "{\"id\":\"XMzdjJHYX70iAcO\",\"url\":\"https://imperial.craigslist.org/gms/d/el-centro-venta-de-garage-garage-sale/7928035589.html\",\"loadedUrl\":\"https://imperial.craigslist.org/gms/d/el-centro-venta-de-garage-garage-sale/7928035589.html\",\"uniqueKey\":\"https://imperial.craigslist.org/gms/d/el-centro-venta-de-garage-garage-sale/7928035589.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:01:42.778Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://imperial.craigslist.org/gms/d/el-centro-venta-de-garage-garage-sale/7928035589.html",
+	"url": "https://imperial.craigslist.org/gms/d/el-centro-venta-de-garage-garage-sale/7928035589.html"
+}

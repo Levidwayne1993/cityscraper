@@ -1,0 +1,9 @@
+{
+	"id": "tEBNTuaBJa0kKvK",
+	"json": "{\"id\":\"tEBNTuaBJa0kKvK\",\"url\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-moving-sale/7930068310.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-moving-sale/7930068310.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-moving-sale/7930068310.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:08:41.727Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/huntington-beach-moving-sale/7930068310.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/huntington-beach-moving-sale/7930068310.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gCRpPU8zpZSvVbo",
+	"json": "{\"id\":\"gCRpPU8zpZSvVbo\",\"url\":\"https://sfbay.craigslist.org/eby/atq/d/san-leandro-estate-sale/7927816903.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/atq/d/san-leandro-estate-sale/7927816903.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/atq/d/san-leandro-estate-sale/7927816903.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:32:28.734Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/atq/d/san-leandro-estate-sale/7927816903.html",
+	"url": "https://sfbay.craigslist.org/eby/atq/d/san-leandro-estate-sale/7927816903.html"
+}

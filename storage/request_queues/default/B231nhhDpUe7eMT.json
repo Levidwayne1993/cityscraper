@@ -1,0 +1,9 @@
+{
+	"id": "B231nhhDpUe7eMT",
+	"json": "{\"id\":\"B231nhhDpUe7eMT\",\"url\":\"https://inlandempire.craigslist.org/com/d/murrieta-yard-sale/7922437628.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/murrieta-yard-sale/7922437628.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/murrieta-yard-sale/7922437628.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:16.733Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/murrieta-yard-sale/7922437628.html",
+	"url": "https://inlandempire.craigslist.org/com/d/murrieta-yard-sale/7922437628.html"
+}

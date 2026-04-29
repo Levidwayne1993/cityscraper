@@ -1,0 +1,9 @@
+{
+	"id": "a6ItsDo8By4Co9r",
+	"json": "{\"id\":\"a6ItsDo8By4Co9r\",\"url\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale/7924803548.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale/7924803548.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/proberta-yard-sale/7924803548.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:06.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/proberta-yard-sale/7924803548.html",
+	"url": "https://chico.craigslist.org/gms/d/proberta-yard-sale/7924803548.html"
+}

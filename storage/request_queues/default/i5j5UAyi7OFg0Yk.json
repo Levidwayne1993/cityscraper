@@ -1,0 +1,9 @@
+{
+	"id": "i5j5UAyi7OFg0Yk",
+	"json": "{\"id\":\"i5j5UAyi7OFg0Yk\",\"url\":\"https://boulder.craigslist.org/gms/d/longmont-boulder-one-day-blue-moon/7926743285.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/longmont-boulder-one-day-blue-moon/7926743285.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/longmont-boulder-one-day-blue-moon/7926743285.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:28:45.049Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/longmont-boulder-one-day-blue-moon/7926743285.html",
+	"url": "https://boulder.craigslist.org/gms/d/longmont-boulder-one-day-blue-moon/7926743285.html"
+}

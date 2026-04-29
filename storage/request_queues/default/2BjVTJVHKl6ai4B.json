@@ -1,0 +1,9 @@
+{
+	"id": "2BjVTJVHKl6ai4B",
+	"json": "{\"id\":\"2BjVTJVHKl6ai4B\",\"url\":\"https://www.estatesales.net/estate-sales/Colorado?page=2\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/Colorado?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Colorado\"}}",
+	"method": "GET",
+	"orderNo": 1777186528568,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/Colorado?page=2",
+	"url": "https://www.estatesales.net/estate-sales/Colorado?page=2"
+}

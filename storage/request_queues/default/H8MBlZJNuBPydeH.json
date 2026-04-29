@@ -1,0 +1,9 @@
+{
+	"id": "H8MBlZJNuBPydeH",
+	"json": "{\"id\":\"H8MBlZJNuBPydeH\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-yard-sale-this-weekend-all/7925776128.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-yard-sale-this-weekend-all/7925776128.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-yard-sale-this-weekend-all/7925776128.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:19.156Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-big-yard-sale-this-weekend-all/7925776128.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-big-yard-sale-this-weekend-all/7925776128.html"
+}

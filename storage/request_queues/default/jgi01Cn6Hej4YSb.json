@@ -1,0 +1,9 @@
+{
+	"id": "jgi01Cn6Hej4YSb",
+	"json": "{\"id\":\"jgi01Cn6Hej4YSb\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Fresno-CA.html?page=3\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Fresno-CA.html?page=3\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"Fresno-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530455,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Fresno-CA.html?page=3",
+	"url": "https://www.yardsalesearch.com/yard-sales/Fresno-CA.html?page=3"
+}

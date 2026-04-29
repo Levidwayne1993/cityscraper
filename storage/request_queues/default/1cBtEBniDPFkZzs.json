@@ -1,0 +1,9 @@
+{
+	"id": "1cBtEBniDPFkZzs",
+	"json": "{\"id\":\"1cBtEBniDPFkZzs\",\"url\":\"https://delaware.craigslist.org/gms/d/millsboro-garage-sale-saturday-vines/7930058793.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/millsboro-garage-sale-saturday-vines/7930058793.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/millsboro-garage-sale-saturday-vines/7930058793.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:37.369Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/millsboro-garage-sale-saturday-vines/7930058793.html",
+	"url": "https://delaware.craigslist.org/gms/d/millsboro-garage-sale-saturday-vines/7930058793.html"
+}

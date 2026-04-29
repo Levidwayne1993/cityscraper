@@ -1,0 +1,9 @@
+{
+	"id": "zAhFgl5Xw1F2e5t",
+	"json": "{\"id\":\"zAhFgl5Xw1F2e5t\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/national-city-garage-moving-sale/7908090581.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/national-city-garage-moving-sale/7908090581.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/national-city-garage-moving-sale/7908090581.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:58:03.090Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/national-city-garage-moving-sale/7908090581.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/national-city-garage-moving-sale/7908090581.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PWJtNDEm03L8NQc",
+	"json": "{\"id\":\"PWJtNDEm03L8NQc\",\"url\":\"https://indianapolis.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://indianapolis.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518297,
+	"retryCount": 0,
+	"uniqueKey": "https://indianapolis.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://indianapolis.craigslist.org/search/ccc?query=garage+sale"
+}

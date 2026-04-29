@@ -1,0 +1,9 @@
+{
+	"id": "1T52dZW3wzcHrD8",
+	"json": "{\"id\":\"1T52dZW3wzcHrD8\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-yard-sale-near/7920821907.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-yard-sale-near/7920821907.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-yard-sale-near/7920821907.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:02:28.716Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-multi-family-yard-sale-near/7920821907.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-multi-family-yard-sale-near/7920821907.html"
+}

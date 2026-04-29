@@ -1,0 +1,9 @@
+{
+	"id": "541iIJz204QHH7K",
+	"json": "{\"id\":\"541iIJz204QHH7K\",\"url\":\"https://cosprings.craigslist.org/gms/d/cochiti-lake-cochiti-lake-spring-garage/7928159571.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/cochiti-lake-cochiti-lake-spring-garage/7928159571.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/cochiti-lake-cochiti-lake-spring-garage/7928159571.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:55.890Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/cochiti-lake-cochiti-lake-spring-garage/7928159571.html",
+	"url": "https://cosprings.craigslist.org/gms/d/cochiti-lake-cochiti-lake-spring-garage/7928159571.html"
+}

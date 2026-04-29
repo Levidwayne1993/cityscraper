@@ -1,0 +1,9 @@
+{
+	"id": "9d0HzdiaG4E7TL7",
+	"json": "{\"id\":\"9d0HzdiaG4E7TL7\",\"url\":\"https://newlondon.craigslist.org/gms/d/jewett-city-yard-sale/7923732623.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/jewett-city-yard-sale/7923732623.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/jewett-city-yard-sale/7923732623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:23.691Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/jewett-city-yard-sale/7923732623.html",
+	"url": "https://newlondon.craigslist.org/gms/d/jewett-city-yard-sale/7923732623.html"
+}

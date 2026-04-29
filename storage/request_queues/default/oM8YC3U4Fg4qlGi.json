@@ -1,0 +1,9 @@
+{
+	"id": "oM8YC3U4Fg4qlGi",
+	"json": "{\"id\":\"oM8YC3U4Fg4qlGi\",\"url\":\"https://martinsburg.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://martinsburg.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528137,
+	"retryCount": 0,
+	"uniqueKey": "https://martinsburg.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://martinsburg.craigslist.org/search/ccc?query=yard+sale"
+}

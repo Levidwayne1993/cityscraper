@@ -1,0 +1,9 @@
+{
+	"id": "u4ICyQuepLRU5Mq",
+	"json": "{\"id\":\"u4ICyQuepLRU5Mq\",\"url\":\"https://prescott.craigslist.org/atq/d/prescott-huge-estate-sale-everything-is/7928267885.html\",\"loadedUrl\":\"https://prescott.craigslist.org/atq/d/prescott-huge-estate-sale-everything-is/7928267885.html\",\"uniqueKey\":\"https://prescott.craigslist.org/atq/d/prescott-huge-estate-sale-everything-is/7928267885.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:49:06.333Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/atq/d/prescott-huge-estate-sale-everything-is/7928267885.html",
+	"url": "https://prescott.craigslist.org/atq/d/prescott-huge-estate-sale-everything-is/7928267885.html"
+}

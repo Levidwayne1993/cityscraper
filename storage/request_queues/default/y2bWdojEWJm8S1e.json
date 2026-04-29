@@ -1,0 +1,9 @@
+{
+	"id": "y2bWdojEWJm8S1e",
+	"json": "{\"id\":\"y2bWdojEWJm8S1e\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-mini-block-yard-sale/7928453183.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-mini-block-yard-sale/7928453183.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-mini-block-yard-sale/7928453183.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:26.402Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/watsonville-mini-block-yard-sale/7928453183.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/watsonville-mini-block-yard-sale/7928453183.html"
+}

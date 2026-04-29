@@ -1,0 +1,9 @@
+{
+	"id": "TIQ9v2SosxbJMji",
+	"json": "{\"id\":\"TIQ9v2SosxbJMji\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-saturday-april-11/7925795559.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-saturday-april-11/7925795559.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-saturday-april-11/7925795559.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:11:37.329Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-saturday-april-11/7925795559.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-garage-sale-saturday-april-11/7925795559.html"
+}

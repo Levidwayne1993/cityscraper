@@ -1,0 +1,9 @@
+{
+	"id": "EAYVf8io4aoYsn4",
+	"json": "{\"id\":\"EAYVf8io4aoYsn4\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/AZ/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/AZ\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"AZ\"}}",
+	"method": "GET",
+	"orderNo": 1777186528839,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/AZ",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/AZ/"
+}

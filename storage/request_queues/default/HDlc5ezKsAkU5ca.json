@@ -1,0 +1,9 @@
+{
+	"id": "HDlc5ezKsAkU5ca",
+	"json": "{\"id\":\"HDlc5ezKsAkU5ca\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Manchester-NH.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Manchester-NH.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NH\",\"yssSlug\":\"Manchester-NH\"}}",
+	"method": "GET",
+	"orderNo": 1777186532401,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Manchester-NH.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Manchester-NH.html"
+}

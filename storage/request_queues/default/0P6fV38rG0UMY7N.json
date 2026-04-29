@@ -1,0 +1,9 @@
+{
+	"id": "0P6fV38rG0UMY7N",
+	"json": "{\"id\":\"0P6fV38rG0UMY7N\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-multi-household-yard-sale/7928650270.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-multi-household-yard-sale/7928650270.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-multi-household-yard-sale/7928650270.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:55:00.048Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-multi-household-yard-sale/7928650270.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-multi-household-yard-sale/7928650270.html"
+}

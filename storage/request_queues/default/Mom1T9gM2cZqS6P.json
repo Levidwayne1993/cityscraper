@@ -1,0 +1,9 @@
+{
+	"id": "Mom1T9gM2cZqS6P",
+	"json": "{\"id\":\"Mom1T9gM2cZqS6P\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale/7922584581.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale/7922584581.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale/7922584581.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:19.883Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-garage-sale/7922584581.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-garage-sale/7922584581.html"
+}

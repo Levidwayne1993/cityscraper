@@ -1,0 +1,9 @@
+{
+	"id": "g3ovl3ndGin7aCQ",
+	"json": "{\"id\":\"g3ovl3ndGin7aCQ\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-garage-sale/7928239390.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-garage-sale/7928239390.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-garage-sale/7928239390.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:10:13.092Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-garage-sale/7928239390.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-garage-sale/7928239390.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SF0St5fXhLW2pVU",
+	"json": "{\"id\":\"SF0St5fXhLW2pVU\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/san-diego-2nd-annual-neighborhood/7929927608.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/san-diego-2nd-annual-neighborhood/7929927608.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/san-diego-2nd-annual-neighborhood/7929927608.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:10:39.111Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/san-diego-2nd-annual-neighborhood/7929927608.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/san-diego-2nd-annual-neighborhood/7929927608.html"
+}

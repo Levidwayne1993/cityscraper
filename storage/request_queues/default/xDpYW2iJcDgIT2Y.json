@@ -1,0 +1,9 @@
+{
+	"id": "xDpYW2iJcDgIT2Y",
+	"json": "{\"id\":\"xDpYW2iJcDgIT2Y\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale-friday-march-13th-to/7920911291.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale-friday-march-13th-to/7920911291.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-yard-sale-friday-march-13th-to/7920911291.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:02:22.537Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-yard-sale-friday-march-13th-to/7920911291.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-yard-sale-friday-march-13th-to/7920911291.html"
+}

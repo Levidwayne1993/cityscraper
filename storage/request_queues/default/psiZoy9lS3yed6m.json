@@ -1,0 +1,9 @@
+{
+	"id": "psiZoy9lS3yed6m",
+	"json": "{\"id\":\"psiZoy9lS3yed6m\",\"url\":\"https://lakeland.craigslist.org/gms/d/mulberry-yard-sale/7924204213.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/mulberry-yard-sale/7924204213.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/mulberry-yard-sale/7924204213.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:46:31.746Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/mulberry-yard-sale/7924204213.html",
+	"url": "https://lakeland.craigslist.org/gms/d/mulberry-yard-sale/7924204213.html"
+}

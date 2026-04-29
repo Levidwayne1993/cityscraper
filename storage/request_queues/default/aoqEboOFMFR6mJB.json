@@ -1,0 +1,9 @@
+{
+	"id": "aoqEboOFMFR6mJB",
+	"json": "{\"id\":\"aoqEboOFMFR6mJB\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-100-estate-sale-everyday-100/7925319798.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-100-estate-sale-everyday-100/7925319798.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-100-estate-sale-everyday-100/7925319798.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:01.720Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-100-estate-sale-everyday-100/7925319798.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-100-estate-sale-everyday-100/7925319798.html"
+}

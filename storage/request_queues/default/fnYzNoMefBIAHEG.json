@@ -1,0 +1,9 @@
+{
+	"id": "fnYzNoMefBIAHEG",
+	"json": "{\"id\":\"fnYzNoMefBIAHEG\",\"url\":\"https://hartford.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929246408.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929246408.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929246408.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:01.730Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929246408.html",
+	"url": "https://hartford.craigslist.org/gms/d/south-britain-estate-sale-southbury-ct/7929246408.html"
+}

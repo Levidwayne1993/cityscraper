@@ -1,0 +1,9 @@
+{
+	"id": "KKtNfENgucK1iTJ",
+	"json": "{\"id\":\"KKtNfENgucK1iTJ\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Seattle-WA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Seattle-WA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WA\",\"yssSlug\":\"Seattle-WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186533060,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Seattle-WA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Seattle-WA.html"
+}

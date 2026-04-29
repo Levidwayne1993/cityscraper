@@ -1,0 +1,9 @@
+{
+	"id": "PsFAMTqPl4KvA6G",
+	"json": "{\"id\":\"PsFAMTqPl4KvA6G\",\"url\":\"https://hartford.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554543.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554543.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554543.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:07:50.037Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554543.html",
+	"url": "https://hartford.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554543.html"
+}

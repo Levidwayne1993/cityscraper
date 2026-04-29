@@ -1,0 +1,9 @@
+{
+	"id": "QMZxnJK9dVJbGWZ",
+	"json": "{\"id\":\"QMZxnJK9dVJbGWZ\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-moving-garage-sale-6320/7926712358.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-moving-garage-sale-6320/7926712358.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-moving-garage-sale-6320/7926712358.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:59.703Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-moving-garage-sale-6320/7926712358.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-moving-garage-sale-6320/7926712358.html"
+}

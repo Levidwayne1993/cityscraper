@@ -1,0 +1,9 @@
+{
+	"id": "ngtS1XV8F1xQ9nC",
+	"json": "{\"id\":\"ngtS1XV8F1xQ9nC\",\"url\":\"https://sfbay.craigslist.org/sfc/atq/d/san-francisco-estate-sale-art/7914490983.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/atq/d/san-francisco-estate-sale-art/7914490983.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/atq/d/san-francisco-estate-sale-art/7914490983.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:53.855Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/atq/d/san-francisco-estate-sale-art/7914490983.html",
+	"url": "https://sfbay.craigslist.org/sfc/atq/d/san-francisco-estate-sale-art/7914490983.html"
+}

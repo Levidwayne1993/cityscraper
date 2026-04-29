@@ -1,8 +1,8 @@
 {
 	"id": "owy4MGFstWPs9iw",
-	"json": "{\"id\":\"owy4MGFstWPs9iw\",\"url\":\"https://fayar.craigslist.org/search/gms\",\"uniqueKey\":\"https://fayar.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"owy4MGFstWPs9iw\",\"url\":\"https://fayar.craigslist.org/search/gms\",\"loadedUrl\":\"https://fayar.craigslist.org/search/gms\",\"uniqueKey\":\"https://fayar.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:46.899Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323055,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fayar.craigslist.org/search/gms",
 	"url": "https://fayar.craigslist.org/search/gms"

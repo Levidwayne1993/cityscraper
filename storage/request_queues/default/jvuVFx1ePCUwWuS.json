@@ -1,0 +1,9 @@
+{
+	"id": "jvuVFx1ePCUwWuS",
+	"json": "{\"id\":\"jvuVFx1ePCUwWuS\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-yard-sale/7928789759.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-yard-sale/7928789759.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-yard-sale/7928789759.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:44:45.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-yard-sale/7928789759.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-yard-sale/7928789759.html"
+}

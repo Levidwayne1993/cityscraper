@@ -1,0 +1,9 @@
+{
+	"id": "9S1UA2Nb8d3O7cf",
+	"json": "{\"id\":\"9S1UA2Nb8d3O7cf\",\"url\":\"https://lehighvalley.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://lehighvalley.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525508,
+	"retryCount": 0,
+	"uniqueKey": "https://lehighvalley.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://lehighvalley.craigslist.org/search/sss?query=estate+sale"
+}

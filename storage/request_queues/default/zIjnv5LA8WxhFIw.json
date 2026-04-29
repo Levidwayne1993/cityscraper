@@ -1,0 +1,9 @@
+{
+	"id": "zIjnv5LA8WxhFIw",
+	"json": "{\"id\":\"zIjnv5LA8WxhFIw\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-multi-family-garage-sale/7929153895.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-multi-family-garage-sale/7929153895.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-multi-family-garage-sale/7929153895.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:19.346Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/surprise-multi-family-garage-sale/7929153895.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/surprise-multi-family-garage-sale/7929153895.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HgILpBMU6ATXMyJ",
+	"json": "{\"id\":\"HgILpBMU6ATXMyJ\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-multi-family-garage-sale/7929985408.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-multi-family-garage-sale/7929985408.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-multi-family-garage-sale/7929985408.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:45:25.910Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-multi-family-garage-sale/7929985408.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-multi-family-garage-sale/7929985408.html"
+}

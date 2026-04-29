@@ -1,0 +1,9 @@
+{
+	"id": "lLJ7hbgtQNJ3qKG",
+	"json": "{\"id\":\"lLJ7hbgtQNJ3qKG\",\"url\":\"https://fortmyers.craigslist.org/col/gms/d/naples-garage-sale-fishing-pole-cart/7920303231.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/gms/d/naples-garage-sale-fishing-pole-cart/7920303231.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/gms/d/naples-garage-sale-fishing-pole-cart/7920303231.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:24:26.215Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/gms/d/naples-garage-sale-fishing-pole-cart/7920303231.html",
+	"url": "https://fortmyers.craigslist.org/col/gms/d/naples-garage-sale-fishing-pole-cart/7920303231.html"
+}

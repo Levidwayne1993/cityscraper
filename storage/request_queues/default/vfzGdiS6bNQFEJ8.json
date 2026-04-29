@@ -1,0 +1,9 @@
+{
+	"id": "vfzGdiS6bNQFEJ8",
+	"json": "{\"id\":\"vfzGdiS6bNQFEJ8\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/novato-estate-sale-everything-free/7928869960.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/novato-estate-sale-everything-free/7928869960.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/novato-estate-sale-everything-free/7928869960.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:06.884Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/novato-estate-sale-everything-free/7928869960.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/novato-estate-sale-everything-free/7928869960.html"
+}

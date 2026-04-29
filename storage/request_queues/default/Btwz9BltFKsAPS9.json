@@ -1,8 +1,8 @@
 {
 	"id": "Btwz9BltFKsAPS9",
-	"json": "{\"id\":\"Btwz9BltFKsAPS9\",\"url\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Btwz9BltFKsAPS9\",\"url\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
 	"method": "GET",
-	"orderNo": 1777040325344,
+	"orderNo": 1777186520990,
 	"retryCount": 0,
 	"uniqueKey": "https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

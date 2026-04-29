@@ -1,0 +1,9 @@
+{
+	"id": "31Ss3mW8hPZyEGN",
+	"json": "{\"id\":\"31Ss3mW8hPZyEGN\",\"url\":\"https://worcester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://worcester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520541,
+	"retryCount": 0,
+	"uniqueKey": "https://worcester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://worcester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ok2Ejw7AjQY1s5Q",
+	"json": "{\"id\":\"ok2Ejw7AjQY1s5Q\",\"url\":\"https://orlando.craigslist.org/fuo/d/saint-cloud-moving-out-sale/7915187504.html\",\"loadedUrl\":\"https://orlando.craigslist.org/fuo/d/saint-cloud-moving-out-sale/7915187504.html\",\"uniqueKey\":\"https://orlando.craigslist.org/fuo/d/saint-cloud-moving-out-sale/7915187504.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:34:08.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/fuo/d/saint-cloud-moving-out-sale/7915187504.html",
+	"url": "https://orlando.craigslist.org/fuo/d/saint-cloud-moving-out-sale/7915187504.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "onrVevRm5dI5rJV",
+	"json": "{\"id\":\"onrVevRm5dI5rJV\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-cleaning-out-the-house-estate/7927729579.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-cleaning-out-the-house-estate/7927729579.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-cleaning-out-the-house-estate/7927729579.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:00:28.505Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-cleaning-out-the-house-estate/7927729579.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-cleaning-out-the-house-estate/7927729579.html"
+}

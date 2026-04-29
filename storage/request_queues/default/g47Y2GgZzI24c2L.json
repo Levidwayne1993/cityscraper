@@ -1,0 +1,9 @@
+{
+	"id": "g47Y2GgZzI24c2L",
+	"json": "{\"id\":\"g47Y2GgZzI24c2L\",\"url\":\"https://sacramento.craigslist.org/for/d/rio-linda-natomas-estate-sale-last-day/7924291173.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/for/d/rio-linda-natomas-estate-sale-last-day/7924291173.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/for/d/rio-linda-natomas-estate-sale-last-day/7924291173.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:48:20.811Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/for/d/rio-linda-natomas-estate-sale-last-day/7924291173.html",
+	"url": "https://sacramento.craigslist.org/for/d/rio-linda-natomas-estate-sale-last-day/7924291173.html"
+}

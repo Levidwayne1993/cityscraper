@@ -1,0 +1,9 @@
+{
+	"id": "16W2x8m6ZDbtnXc",
+	"json": "{\"id\":\"16W2x8m6ZDbtnXc\",\"url\":\"https://merced.craigslist.org/gms/d/merced-yard-sale-14/7921108565.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/merced-yard-sale-14/7921108565.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/merced-yard-sale-14/7921108565.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:49:48.323Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/merced-yard-sale-14/7921108565.html",
+	"url": "https://merced.craigslist.org/gms/d/merced-yard-sale-14/7921108565.html"
+}

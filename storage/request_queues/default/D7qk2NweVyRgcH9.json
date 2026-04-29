@@ -1,8 +1,8 @@
 {
 	"id": "D7qk2NweVyRgcH9",
-	"json": "{\"id\":\"D7qk2NweVyRgcH9\",\"url\":\"https://flagstaff.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"D7qk2NweVyRgcH9\",\"url\":\"https://flagstaff.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://flagstaff.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:03.979Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322980,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://flagstaff.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://flagstaff.craigslist.org/search/sss?query=moving+sale"

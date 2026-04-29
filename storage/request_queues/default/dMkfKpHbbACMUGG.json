@@ -1,0 +1,9 @@
+{
+	"id": "dMkfKpHbbACMUGG",
+	"json": "{\"id\":\"dMkfKpHbbACMUGG\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-mesa-brown-and-crismon/7928222213.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-mesa-brown-and-crismon/7928222213.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-mesa-brown-and-crismon/7928222213.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:41.952Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-mesa-brown-and-crismon/7928222213.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-garage-sale-mesa-brown-and-crismon/7928222213.html"
+}

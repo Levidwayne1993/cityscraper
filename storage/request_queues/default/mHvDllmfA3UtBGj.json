@@ -1,0 +1,9 @@
+{
+	"id": "mHvDllmfA3UtBGj",
+	"json": "{\"id\":\"mHvDllmfA3UtBGj\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-community-garage-sale-event/7929578769.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-community-garage-sale-event/7929578769.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/oceanside-community-garage-sale-event/7929578769.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:09:43.425Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/oceanside-community-garage-sale-event/7929578769.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/oceanside-community-garage-sale-event/7929578769.html"
+}

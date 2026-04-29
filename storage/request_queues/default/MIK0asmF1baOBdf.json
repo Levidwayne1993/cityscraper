@@ -1,0 +1,9 @@
+{
+	"id": "MIK0asmF1baOBdf",
+	"json": "{\"id\":\"MIK0asmF1baOBdf\",\"url\":\"https://williamsport.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://williamsport.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525786,
+	"retryCount": 0,
+	"uniqueKey": "https://williamsport.craigslist.org/search/gms?s=480",
+	"url": "https://williamsport.craigslist.org/search/gms?s=480"
+}

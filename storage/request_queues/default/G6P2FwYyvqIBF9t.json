@@ -1,0 +1,9 @@
+{
+	"id": "G6P2FwYyvqIBF9t",
+	"json": "{\"id\":\"G6P2FwYyvqIBF9t\",\"url\":\"https://ventura.craigslist.org/gms/d/port-hueneme-cbc-base-yard-sale/7924043964.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/port-hueneme-cbc-base-yard-sale/7924043964.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/port-hueneme-cbc-base-yard-sale/7924043964.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:22.805Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/port-hueneme-cbc-base-yard-sale/7924043964.html",
+	"url": "https://ventura.craigslist.org/gms/d/port-hueneme-cbc-base-yard-sale/7924043964.html"
+}

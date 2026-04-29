@@ -1,9 +1,0 @@
-{
-	"id": "P3AibLBSNwPN0By",
-	"json": "{\"id\":\"P3AibLBSNwPN0By\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Yonkers-NY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Yonkers-NY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NY\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040332681,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Yonkers-NY.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Yonkers-NY.html"
-}

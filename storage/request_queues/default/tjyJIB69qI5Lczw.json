@@ -1,0 +1,9 @@
+{
+	"id": "tjyJIB69qI5Lczw",
+	"json": "{\"id\":\"tjyJIB69qI5Lczw\",\"url\":\"https://amarillo.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://amarillo.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526110,
+	"retryCount": 0,
+	"uniqueKey": "https://amarillo.craigslist.org/search/gms?s=360",
+	"url": "https://amarillo.craigslist.org/search/gms?s=360"
+}

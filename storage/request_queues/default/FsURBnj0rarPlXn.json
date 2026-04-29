@@ -1,0 +1,9 @@
+{
+	"id": "FsURBnj0rarPlXn",
+	"json": "{\"id\":\"FsURBnj0rarPlXn\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale/7923881000.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale/7923881000.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-yard-sale/7923881000.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:32.230Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-yard-sale/7923881000.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-yard-sale/7923881000.html"
+}

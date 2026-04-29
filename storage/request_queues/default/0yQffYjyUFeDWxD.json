@@ -1,0 +1,9 @@
+{
+	"id": "0yQffYjyUFeDWxD",
+	"json": "{\"id\":\"0yQffYjyUFeDWxD\",\"url\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale/7928931137.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale/7928931137.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/victorville-estate-sale/7928931137.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:02:15.257Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/victorville-estate-sale/7928931137.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/victorville-estate-sale/7928931137.html"
+}

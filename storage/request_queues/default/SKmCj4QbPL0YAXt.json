@@ -1,0 +1,9 @@
+{
+	"id": "SKmCj4QbPL0YAXt",
+	"json": "{\"id\":\"SKmCj4QbPL0YAXt\",\"url\":\"https://dothan.craigslist.org/gms/d/malvern-multi-family-yard-sale-with/7927868591.html\",\"loadedUrl\":\"https://dothan.craigslist.org/gms/d/malvern-multi-family-yard-sale-with/7927868591.html\",\"uniqueKey\":\"https://dothan.craigslist.org/gms/d/malvern-multi-family-yard-sale-with/7927868591.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:58:22.444Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://dothan.craigslist.org/gms/d/malvern-multi-family-yard-sale-with/7927868591.html",
+	"url": "https://dothan.craigslist.org/gms/d/malvern-multi-family-yard-sale-with/7927868591.html"
+}

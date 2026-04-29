@@ -1,0 +1,9 @@
+{
+	"id": "d0PJJya7blEOLiM",
+	"json": "{\"id\":\"d0PJJya7blEOLiM\",\"url\":\"https://newlondon.craigslist.org/gms/d/groton-contents-of-home-sale-38-roberts/7929852330.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/groton-contents-of-home-sale-38-roberts/7929852330.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/groton-contents-of-home-sale-38-roberts/7929852330.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:02:40.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/groton-contents-of-home-sale-38-roberts/7929852330.html",
+	"url": "https://newlondon.craigslist.org/gms/d/groton-contents-of-home-sale-38-roberts/7929852330.html"
+}

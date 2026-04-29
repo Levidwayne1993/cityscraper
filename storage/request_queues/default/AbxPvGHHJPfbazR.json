@@ -1,0 +1,9 @@
+{
+	"id": "AbxPvGHHJPfbazR",
+	"json": "{\"id\":\"AbxPvGHHJPfbazR\",\"url\":\"https://auburn.craigslist.org/for/d/opelika-moving-sale/7930011092.html\",\"loadedUrl\":\"https://auburn.craigslist.org/for/d/opelika-moving-sale/7930011092.html\",\"uniqueKey\":\"https://auburn.craigslist.org/for/d/opelika-moving-sale/7930011092.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:56:14.711Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://auburn.craigslist.org/for/d/opelika-moving-sale/7930011092.html",
+	"url": "https://auburn.craigslist.org/for/d/opelika-moving-sale/7930011092.html"
+}

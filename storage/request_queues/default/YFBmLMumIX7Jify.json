@@ -1,0 +1,9 @@
+{
+	"id": "YFBmLMumIX7Jify",
+	"json": "{\"id\":\"YFBmLMumIX7Jify\",\"url\":\"https://sheboygan.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://sheboygan.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528467,
+	"retryCount": 0,
+	"uniqueKey": "https://sheboygan.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://sheboygan.craigslist.org/search/ccc?query=garage+sale"
+}

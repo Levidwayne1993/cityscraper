@@ -1,0 +1,9 @@
+{
+	"id": "nEuM1Hn3d9gtrHC",
+	"json": "{\"id\":\"nEuM1Hn3d9gtrHC\",\"url\":\"https://salem.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://salem.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525366,
+	"retryCount": 0,
+	"uniqueKey": "https://salem.craigslist.org/search/gms?s=360",
+	"url": "https://salem.craigslist.org/search/gms?s=360"
+}

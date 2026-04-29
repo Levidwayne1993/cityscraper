@@ -1,0 +1,9 @@
+{
+	"id": "GgPVxnQt7Q7lxoH",
+	"json": "{\"id\":\"GgPVxnQt7Q7lxoH\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-alert-estate-sale/7927869487.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-alert-estate-sale/7927869487.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-alert-estate-sale/7927869487.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:14:34.027Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-alert-estate-sale/7927869487.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-alert-estate-sale/7927869487.html"
+}

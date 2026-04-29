@@ -1,0 +1,9 @@
+{
+	"id": "GOvxVe8KDcPrg93",
+	"json": "{\"id\":\"GOvxVe8KDcPrg93\",\"url\":\"https://fresno.craigslist.org/gms/d/parlier-indoor-garage-sale/7927237426.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/parlier-indoor-garage-sale/7927237426.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/parlier-indoor-garage-sale/7927237426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:47:21.112Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/parlier-indoor-garage-sale/7927237426.html",
+	"url": "https://fresno.craigslist.org/gms/d/parlier-indoor-garage-sale/7927237426.html"
+}

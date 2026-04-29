@@ -1,0 +1,9 @@
+{
+	"id": "MmSVyNmkeHGNd6e",
+	"json": "{\"id\":\"MmSVyNmkeHGNd6e\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-yard-sale-watsonville/7930098431.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-yard-sale-watsonville/7930098431.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-yard-sale-watsonville/7930098431.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:11.010Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/freedom-huge-yard-sale-watsonville/7930098431.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/freedom-huge-yard-sale-watsonville/7930098431.html"
+}

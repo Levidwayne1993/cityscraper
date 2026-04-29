@@ -1,0 +1,9 @@
+{
+	"id": "UiAGiKm6lAYJM5i",
+	"json": "{\"id\":\"UiAGiKm6lAYJM5i\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-yard-sale/7924074158.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-yard-sale/7924074158.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-yard-sale/7924074158.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:07.419Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-yard-sale/7924074158.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-yard-sale/7924074158.html"
+}

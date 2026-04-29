@@ -1,0 +1,9 @@
+{
+	"id": "9vmRFpK9Uk5iMdW",
+	"json": "{\"id\":\"9vmRFpK9Uk5iMdW\",\"url\":\"https://redding.craigslist.org/gms/d/redding-the-woodlandss-apartments/7922677662.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-the-woodlandss-apartments/7922677662.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-the-woodlandss-apartments/7922677662.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:35:36.783Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-the-woodlandss-apartments/7922677662.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-the-woodlandss-apartments/7922677662.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mgYH1lcwLoNR7E6",
+	"json": "{\"id\":\"mgYH1lcwLoNR7E6\",\"url\":\"https://charlottesville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://charlottesville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527736,
+	"retryCount": 0,
+	"uniqueKey": "https://charlottesville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://charlottesville.craigslist.org/search/ccc?query=yard+sale"
+}

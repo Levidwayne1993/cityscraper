@@ -1,0 +1,9 @@
+{
+	"id": "WXMe6TaU1o3KADA",
+	"json": "{\"id\":\"WXMe6TaU1o3KADA\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-whats-left-is/7929792851.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-whats-left-is/7929792851.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-whats-left-is/7929792851.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:27:57.093Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-whats-left-is/7929792851.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-whats-left-is/7929792851.html"
+}

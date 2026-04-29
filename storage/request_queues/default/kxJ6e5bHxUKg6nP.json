@@ -1,0 +1,9 @@
+{
+	"id": "kxJ6e5bHxUKg6nP",
+	"json": "{\"id\":\"kxJ6e5bHxUKg6nP\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale/7921155490.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale/7921155490.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale/7921155490.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:43.722Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale/7921155490.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-garage-sale/7921155490.html"
+}

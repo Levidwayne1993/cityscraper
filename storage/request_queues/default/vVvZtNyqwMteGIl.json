@@ -1,0 +1,9 @@
+{
+	"id": "vVvZtNyqwMteGIl",
+	"json": "{\"id\":\"vVvZtNyqwMteGIl\",\"url\":\"https://plattsburgh.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://plattsburgh.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523280,
+	"retryCount": 0,
+	"uniqueKey": "https://plattsburgh.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://plattsburgh.craigslist.org/search/ccc?query=garage+sale"
+}

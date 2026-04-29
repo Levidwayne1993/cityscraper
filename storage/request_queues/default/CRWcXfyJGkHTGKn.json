@@ -1,0 +1,9 @@
+{
+	"id": "CRWcXfyJGkHTGKn",
+	"json": "{\"id\":\"CRWcXfyJGkHTGKn\",\"url\":\"https://fairbanks.craigslist.org/gms/d/fairbanks-moving-sale/7921311794.html\",\"loadedUrl\":\"https://fairbanks.craigslist.org/gms/d/fairbanks-moving-sale/7921311794.html\",\"uniqueKey\":\"https://fairbanks.craigslist.org/gms/d/fairbanks-moving-sale/7921311794.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:12:18.802Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fairbanks.craigslist.org/gms/d/fairbanks-moving-sale/7921311794.html",
+	"url": "https://fairbanks.craigslist.org/gms/d/fairbanks-moving-sale/7921311794.html"
+}

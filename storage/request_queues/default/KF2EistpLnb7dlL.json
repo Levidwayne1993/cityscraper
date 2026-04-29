@@ -1,0 +1,9 @@
+{
+	"id": "KF2EistpLnb7dlL",
+	"json": "{\"id\":\"KF2EistpLnb7dlL\",\"url\":\"https://boise.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://boise.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186517987,
+	"retryCount": 0,
+	"uniqueKey": "https://boise.craigslist.org/search/gms?s=480",
+	"url": "https://boise.craigslist.org/search/gms?s=480"
+}

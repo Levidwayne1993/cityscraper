@@ -1,0 +1,9 @@
+{
+	"id": "XA1rFDI8L7UnUPy",
+	"json": "{\"id\":\"XA1rFDI8L7UnUPy\",\"url\":\"https://stlouis.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://stlouis.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521403,
+	"retryCount": 0,
+	"uniqueKey": "https://stlouis.craigslist.org/search/gms?s=480",
+	"url": "https://stlouis.craigslist.org/search/gms?s=480"
+}

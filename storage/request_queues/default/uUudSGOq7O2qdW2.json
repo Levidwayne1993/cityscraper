@@ -1,0 +1,9 @@
+{
+	"id": "uUudSGOq7O2qdW2",
+	"json": "{\"id\":\"uUudSGOq7O2qdW2\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-villa-luxe-santa-maria/7927537850.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-villa-luxe-santa-maria/7927537850.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-villa-luxe-santa-maria/7927537850.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:45.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-villa-luxe-santa-maria/7927537850.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-villa-luxe-santa-maria/7927537850.html"
+}

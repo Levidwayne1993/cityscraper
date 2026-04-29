@@ -1,0 +1,9 @@
+{
+	"id": "GXkBKV3VVYbieBB",
+	"json": "{\"id\":\"GXkBKV3VVYbieBB\",\"url\":\"https://www.estatesales.net/estate-sales/New-Jersey\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/New-Jersey\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"New-Jersey\"}}",
+	"method": "GET",
+	"orderNo": 1777186528712,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/New-Jersey",
+	"url": "https://www.estatesales.net/estate-sales/New-Jersey"
+}

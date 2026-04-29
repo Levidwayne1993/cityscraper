@@ -1,0 +1,9 @@
+{
+	"id": "liwzJEPfHFrBSrH",
+	"json": "{\"id\":\"liwzJEPfHFrBSrH\",\"url\":\"https://annarbor.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://annarbor.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520573,
+	"retryCount": 0,
+	"uniqueKey": "https://annarbor.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://annarbor.craigslist.org/search/ccc?query=yard+sale"
+}

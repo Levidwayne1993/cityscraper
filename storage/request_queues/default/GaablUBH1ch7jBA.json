@@ -1,0 +1,9 @@
+{
+	"id": "GaablUBH1ch7jBA",
+	"json": "{\"id\":\"GaablUBH1ch7jBA\",\"url\":\"https://inlandempire.craigslist.org/gms/d/murrieta-huge-community-garage-sale/7928540935.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/murrieta-huge-community-garage-sale/7928540935.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/murrieta-huge-community-garage-sale/7928540935.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:17.512Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/murrieta-huge-community-garage-sale/7928540935.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/murrieta-huge-community-garage-sale/7928540935.html"
+}

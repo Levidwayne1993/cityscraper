@@ -1,0 +1,9 @@
+{
+	"id": "3BYgpU2LOqjsABJ",
+	"json": "{\"id\":\"3BYgpU2LOqjsABJ\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-final-weekend-garage-sale/7926729876.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-final-weekend-garage-sale/7926729876.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-final-weekend-garage-sale/7926729876.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:26.129Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-final-weekend-garage-sale/7926729876.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-final-weekend-garage-sale/7926729876.html"
+}

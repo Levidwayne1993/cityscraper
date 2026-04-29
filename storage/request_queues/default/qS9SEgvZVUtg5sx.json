@@ -1,0 +1,9 @@
+{
+	"id": "qS9SEgvZVUtg5sx",
+	"json": "{\"id\":\"qS9SEgvZVUtg5sx\",\"url\":\"https://fortcollins.craigslist.org/gms/d/greeley-lynnes-ez-errands-estate-sales/7923125007.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/greeley-lynnes-ez-errands-estate-sales/7923125007.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/greeley-lynnes-ez-errands-estate-sales/7923125007.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:50:29.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/greeley-lynnes-ez-errands-estate-sales/7923125007.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/greeley-lynnes-ez-errands-estate-sales/7923125007.html"
+}

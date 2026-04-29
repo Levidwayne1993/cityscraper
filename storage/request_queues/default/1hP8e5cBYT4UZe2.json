@@ -1,0 +1,9 @@
+{
+	"id": "1hP8e5cBYT4UZe2",
+	"json": "{\"id\":\"1hP8e5cBYT4UZe2\",\"url\":\"https://parkersburg.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://parkersburg.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528178,
+	"retryCount": 0,
+	"uniqueKey": "https://parkersburg.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://parkersburg.craigslist.org/search/ccc?query=garage+sale"
+}

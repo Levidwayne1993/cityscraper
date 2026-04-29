@@ -1,0 +1,9 @@
+{
+	"id": "ZibQl8vG5ZyR2Nn",
+	"json": "{\"id\":\"ZibQl8vG5ZyR2Nn\",\"url\":\"https://prescott.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://prescott.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://prescott.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:49:15.714Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://prescott.craigslist.org/search/ccc?query=yard+sale"
+}

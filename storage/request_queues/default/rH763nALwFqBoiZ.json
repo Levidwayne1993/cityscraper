@@ -1,0 +1,9 @@
+{
+	"id": "rH763nALwFqBoiZ",
+	"json": "{\"id\":\"rH763nALwFqBoiZ\",\"url\":\"https://washingtondc.craigslist.org/doc/zip/d/washington-estate-sale-in-washington-dc/7927260815.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/zip/d/washington-estate-sale-in-washington-dc/7927260815.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/zip/d/washington-estate-sale-in-washington-dc/7927260815.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:31:29.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/zip/d/washington-estate-sale-in-washington-dc/7927260815.html",
+	"url": "https://washingtondc.craigslist.org/doc/zip/d/washington-estate-sale-in-washington-dc/7927260815.html"
+}

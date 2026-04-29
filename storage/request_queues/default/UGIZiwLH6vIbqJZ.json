@@ -1,0 +1,9 @@
+{
+	"id": "UGIZiwLH6vIbqJZ",
+	"json": "{\"id\":\"UGIZiwLH6vIbqJZ\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-saturday-garage-sale-visalia/7928266064.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-saturday-garage-sale-visalia/7928266064.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-saturday-garage-sale-visalia/7928266064.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:21:48.695Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-saturday-garage-sale-visalia/7928266064.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-saturday-garage-sale-visalia/7928266064.html"
+}

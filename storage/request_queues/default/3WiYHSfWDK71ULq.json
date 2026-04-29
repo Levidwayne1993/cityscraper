@@ -1,0 +1,9 @@
+{
+	"id": "3WiYHSfWDK71ULq",
+	"json": "{\"id\":\"3WiYHSfWDK71ULq\",\"url\":\"https://modesto.craigslist.org/gms/d/riverbank-awsome-yard-sale/7921175752.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/riverbank-awsome-yard-sale/7921175752.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/riverbank-awsome-yard-sale/7921175752.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:53:04.462Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/riverbank-awsome-yard-sale/7921175752.html",
+	"url": "https://modesto.craigslist.org/gms/d/riverbank-awsome-yard-sale/7921175752.html"
+}

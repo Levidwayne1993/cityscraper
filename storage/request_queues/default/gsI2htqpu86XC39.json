@@ -1,0 +1,9 @@
+{
+	"id": "gsI2htqpu86XC39",
+	"json": "{\"id\":\"gsI2htqpu86XC39\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-multi-household-yard-sale/7930026211.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-multi-household-yard-sale/7930026211.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-multi-household-yard-sale/7930026211.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:34.239Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-multi-household-yard-sale/7930026211.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-multi-household-yard-sale/7930026211.html"
+}

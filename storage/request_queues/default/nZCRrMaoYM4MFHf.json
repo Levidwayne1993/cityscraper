@@ -1,0 +1,9 @@
+{
+	"id": "nZCRrMaoYM4MFHf",
+	"json": "{\"id\":\"nZCRrMaoYM4MFHf\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Medford-OR.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Medford-OR.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"OR\",\"yssSlug\":\"Medford-OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186532630,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Medford-OR.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Medford-OR.html"
+}

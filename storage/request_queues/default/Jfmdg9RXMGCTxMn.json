@@ -1,0 +1,9 @@
+{
+	"id": "Jfmdg9RXMGCTxMn",
+	"json": "{\"id\":\"Jfmdg9RXMGCTxMn\",\"url\":\"https://lakecharles.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://lakecharles.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520111,
+	"retryCount": 0,
+	"uniqueKey": "https://lakecharles.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://lakecharles.craigslist.org/search/ccc?query=yard+sale"
+}

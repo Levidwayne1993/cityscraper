@@ -1,0 +1,9 @@
+{
+	"id": "frBQJTbWFhoE8r6",
+	"json": "{\"id\":\"frBQJTbWFhoE8r6\",\"url\":\"https://springfieldil.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://springfieldil.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518217,
+	"retryCount": 0,
+	"uniqueKey": "https://springfieldil.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://springfieldil.craigslist.org/search/ccc?query=garage+sale"
+}

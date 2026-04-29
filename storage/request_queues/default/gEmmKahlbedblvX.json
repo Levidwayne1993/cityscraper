@@ -1,0 +1,9 @@
+{
+	"id": "gEmmKahlbedblvX",
+	"json": "{\"id\":\"gEmmKahlbedblvX\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/valley-farms-estate-yard-sale/7921171000.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/valley-farms-estate-yard-sale/7921171000.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/valley-farms-estate-yard-sale/7921171000.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:46.431Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/valley-farms-estate-yard-sale/7921171000.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/valley-farms-estate-yard-sale/7921171000.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XMVc8nSFVi9Hi8S",
+	"json": "{\"id\":\"XMVc8nSFVi9Hi8S\",\"url\":\"https://washingtondc.craigslist.org/mld/fuo/d/fort-washington-moving-sale/7927397431.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/fuo/d/fort-washington-moving-sale/7927397431.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/fuo/d/fort-washington-moving-sale/7927397431.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:29:16.251Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/fuo/d/fort-washington-moving-sale/7927397431.html",
+	"url": "https://washingtondc.craigslist.org/mld/fuo/d/fort-washington-moving-sale/7927397431.html"
+}

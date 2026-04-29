@@ -1,0 +1,9 @@
+{
+	"id": "9YNcisQcqk1sgwE",
+	"json": "{\"id\":\"9YNcisQcqk1sgwE\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-pokmon-cards-pressure/7921268342.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-pokmon-cards-pressure/7921268342.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-yard-sale-pokmon-cards-pressure/7921268342.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:10:06.711Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-yard-sale-pokmon-cards-pressure/7921268342.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-yard-sale-pokmon-cards-pressure/7921268342.html"
+}

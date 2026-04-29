@@ -1,0 +1,9 @@
+{
+	"id": "O4GjJAJ60sWkQMK",
+	"json": "{\"id\":\"O4GjJAJ60sWkQMK\",\"url\":\"https://meadville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://meadville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525529,
+	"retryCount": 0,
+	"uniqueKey": "https://meadville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://meadville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

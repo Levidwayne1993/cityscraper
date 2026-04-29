@@ -1,0 +1,9 @@
+{
+	"id": "PpozYmUBej4mBE5",
+	"json": "{\"id\":\"PpozYmUBej4mBE5\",\"url\":\"https://merced.craigslist.org/gms/d/merced-estate-sale-some-items-will-be/7929969397.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/merced-estate-sale-some-items-will-be/7929969397.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/merced-estate-sale-some-items-will-be/7929969397.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:52:05.631Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/merced-estate-sale-some-items-will-be/7929969397.html",
+	"url": "https://merced.craigslist.org/gms/d/merced-estate-sale-some-items-will-be/7929969397.html"
+}

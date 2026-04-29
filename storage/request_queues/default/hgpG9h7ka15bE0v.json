@@ -1,0 +1,9 @@
+{
+	"id": "hgpG9h7ka15bE0v",
+	"json": "{\"id\":\"hgpG9h7ka15bE0v\",\"url\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-yard-sale-prospect-257/7925325862.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-yard-sale-prospect-257/7925325862.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-yard-sale-prospect-257/7925325862.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:26.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/san-bernardino-yard-sale-prospect-257/7925325862.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/san-bernardino-yard-sale-prospect-257/7925325862.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "lmAP34kNW8oAbqs",
-	"json": "{\"id\":\"lmAP34kNW8oAbqs\",\"url\":\"https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"lmAP34kNW8oAbqs\",\"url\":\"https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:16:25.648Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323078,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://jonesboro.craigslist.org/search/sss?query=yard+sale+garage+sale"

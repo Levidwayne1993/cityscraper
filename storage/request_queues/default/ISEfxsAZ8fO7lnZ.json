@@ -1,0 +1,9 @@
+{
+	"id": "ISEfxsAZ8fO7lnZ",
+	"json": "{\"id\":\"ISEfxsAZ8fO7lnZ\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-yard-sale/7928494478.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-yard-sale/7928494478.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-yard-sale/7928494478.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:00:44.271Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-yard-sale/7928494478.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-yard-sale/7928494478.html"
+}

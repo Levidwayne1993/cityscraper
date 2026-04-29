@@ -1,0 +1,9 @@
+{
+	"id": "Jnx5thW5W5SCzN5",
+	"json": "{\"id\":\"Jnx5thW5W5SCzN5\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-huge-garage-sale/7928582213.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-huge-garage-sale/7928582213.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-huge-garage-sale/7928582213.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:52:54.338Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-huge-garage-sale/7928582213.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-huge-garage-sale/7928582213.html"
+}

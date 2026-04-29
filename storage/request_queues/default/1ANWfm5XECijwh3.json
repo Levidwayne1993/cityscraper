@@ -1,0 +1,9 @@
+{
+	"id": "1ANWfm5XECijwh3",
+	"json": "{\"id\":\"1ANWfm5XECijwh3\",\"url\":\"https://denver.craigslist.org/zip/d/denver-free-everything-free-after/7930226455.html\",\"loadedUrl\":\"https://denver.craigslist.org/zip/d/denver-free-everything-free-after/7930226455.html\",\"uniqueKey\":\"https://denver.craigslist.org/zip/d/denver-free-everything-free-after/7930226455.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:27.016Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/zip/d/denver-free-everything-free-after/7930226455.html",
+	"url": "https://denver.craigslist.org/zip/d/denver-free-everything-free-after/7930226455.html"
+}

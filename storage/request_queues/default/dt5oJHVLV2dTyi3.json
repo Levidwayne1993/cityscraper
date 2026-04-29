@@ -1,0 +1,9 @@
+{
+	"id": "dt5oJHVLV2dTyi3",
+	"json": "{\"id\":\"dt5oJHVLV2dTyi3\",\"url\":\"https://inlandempire.craigslist.org/gms/d/menifee-garage-sale-vista-way-starts/7928160188.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/menifee-garage-sale-vista-way-starts/7928160188.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/menifee-garage-sale-vista-way-starts/7928160188.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:17:01.424Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/menifee-garage-sale-vista-way-starts/7928160188.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/menifee-garage-sale-vista-way-starts/7928160188.html"
+}

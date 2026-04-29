@@ -1,0 +1,9 @@
+{
+	"id": "5Kr1OUEkFkAarxM",
+	"json": "{\"id\":\"5Kr1OUEkFkAarxM\",\"url\":\"https://salem.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://salem.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525381,
+	"retryCount": 0,
+	"uniqueKey": "https://salem.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://salem.craigslist.org/search/ccc?query=garage+sale"
+}

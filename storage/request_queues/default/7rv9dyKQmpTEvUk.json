@@ -1,0 +1,9 @@
+{
+	"id": "7rv9dyKQmpTEvUk",
+	"json": "{\"id\":\"7rv9dyKQmpTEvUk\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-awesome-yard-sale/7928506573.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-awesome-yard-sale/7928506573.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-awesome-yard-sale/7928506573.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:22.667Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-awesome-yard-sale/7928506573.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-awesome-yard-sale/7928506573.html"
+}

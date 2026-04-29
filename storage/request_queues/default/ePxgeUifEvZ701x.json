@@ -1,0 +1,9 @@
+{
+	"id": "ePxgeUifEvZ701x",
+	"json": "{\"id\":\"ePxgeUifEvZ701x\",\"url\":\"https://monroe.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://monroe.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520127,
+	"retryCount": 0,
+	"uniqueKey": "https://monroe.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://monroe.craigslist.org/search/ccc?query=yard+sale"
+}

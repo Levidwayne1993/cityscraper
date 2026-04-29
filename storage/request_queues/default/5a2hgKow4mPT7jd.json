@@ -1,0 +1,9 @@
+{
+	"id": "5a2hgKow4mPT7jd",
+	"json": "{\"id\":\"5a2hgKow4mPT7jd\",\"url\":\"https://redding.craigslist.org/gms/d/redding-community-wide-yard-sale/7927071434.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-community-wide-yard-sale/7927071434.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-community-wide-yard-sale/7927071434.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:36:26.130Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-community-wide-yard-sale/7927071434.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-community-wide-yard-sale/7927071434.html"
+}

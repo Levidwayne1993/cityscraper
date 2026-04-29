@@ -1,0 +1,9 @@
+{
+	"id": "UxHmp6Vb2jsoxDq",
+	"json": "{\"id\":\"UxHmp6Vb2jsoxDq\",\"url\":\"https://bozeman.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://bozeman.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522552,
+	"retryCount": 0,
+	"uniqueKey": "https://bozeman.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://bozeman.craigslist.org/search/ccc?query=yard+sale"
+}

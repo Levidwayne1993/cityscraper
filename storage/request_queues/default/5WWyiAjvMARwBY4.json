@@ -1,0 +1,9 @@
+{
+	"id": "5WWyiAjvMARwBY4",
+	"json": "{\"id\":\"5WWyiAjvMARwBY4\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-moving-sale-in-northeast/7926234440.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-moving-sale-in-northeast/7926234440.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-moving-sale-in-northeast/7926234440.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:45.521Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-moving-sale-in-northeast/7926234440.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-moving-sale-in-northeast/7926234440.html"
+}

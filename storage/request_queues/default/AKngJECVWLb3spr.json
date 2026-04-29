@@ -1,0 +1,9 @@
+{
+	"id": "AKngJECVWLb3spr",
+	"json": "{\"id\":\"AKngJECVWLb3spr\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Warwick-RI.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Warwick-RI.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"RI\",\"yssSlug\":\"Warwick-RI\"}}",
+	"method": "GET",
+	"orderNo": 1777186532692,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Warwick-RI.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Warwick-RI.html"
+}

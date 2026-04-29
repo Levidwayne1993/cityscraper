@@ -1,0 +1,9 @@
+{
+	"id": "Vh5xUtAifBwgabP",
+	"json": "{\"id\":\"Vh5xUtAifBwgabP\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hollywood-garage-sale-sat-am-12pm/7929863833.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hollywood-garage-sale-sat-am-12pm/7929863833.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hollywood-garage-sale-sat-am-12pm/7929863833.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:44:34.757Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/north-hollywood-garage-sale-sat-am-12pm/7929863833.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/north-hollywood-garage-sale-sat-am-12pm/7929863833.html"
+}

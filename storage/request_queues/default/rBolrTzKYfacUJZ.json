@@ -1,0 +1,9 @@
+{
+	"id": "rBolrTzKYfacUJZ",
+	"json": "{\"id\":\"rBolrTzKYfacUJZ\",\"url\":\"https://yubasutter.craigslist.org/gms/d/antelope-heritage-placer-vineyards/7929206909.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/antelope-heritage-placer-vineyards/7929206909.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/antelope-heritage-placer-vineyards/7929206909.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:25:34.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/antelope-heritage-placer-vineyards/7929206909.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/antelope-heritage-placer-vineyards/7929206909.html"
+}

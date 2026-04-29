@@ -1,0 +1,9 @@
+{
+	"id": "NXwFJMWXnI02TAr",
+	"json": "{\"id\":\"NXwFJMWXnI02TAr\",\"url\":\"https://missoula.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://missoula.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522621,
+	"retryCount": 0,
+	"uniqueKey": "https://missoula.craigslist.org/search/gms?s=480",
+	"url": "https://missoula.craigslist.org/search/gms?s=480"
+}

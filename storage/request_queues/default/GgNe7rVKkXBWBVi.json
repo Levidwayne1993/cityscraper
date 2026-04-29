@@ -1,0 +1,9 @@
+{
+	"id": "GgNe7rVKkXBWBVi",
+	"json": "{\"id\":\"GgNe7rVKkXBWBVi\",\"url\":\"https://slo.craigslist.org/gms/d/pismo-beach-50-off-estate-sale-pismo/7928460234.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/pismo-beach-50-off-estate-sale-pismo/7928460234.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/pismo-beach-50-off-estate-sale-pismo/7928460234.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:44:19.527Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/pismo-beach-50-off-estate-sale-pismo/7928460234.html",
+	"url": "https://slo.craigslist.org/gms/d/pismo-beach-50-off-estate-sale-pismo/7928460234.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GFwhZKeBsIzyrk4",
+	"json": "{\"id\":\"GFwhZKeBsIzyrk4\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-sale-in-pacific/7930220578.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-sale-in-pacific/7930220578.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-sale-in-pacific/7930220578.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:20:40.116Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-sale-in-pacific/7930220578.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-sale-in-pacific/7930220578.html"
+}

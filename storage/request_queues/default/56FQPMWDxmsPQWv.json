@@ -1,0 +1,9 @@
+{
+	"id": "56FQPMWDxmsPQWv",
+	"json": "{\"id\":\"56FQPMWDxmsPQWv\",\"url\":\"https://denver.craigslist.org/gms/d/denver-lakehurst-west-garage-sales/7929802631.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-lakehurst-west-garage-sales/7929802631.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-lakehurst-west-garage-sales/7929802631.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:23.529Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-lakehurst-west-garage-sales/7929802631.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-lakehurst-west-garage-sales/7929802631.html"
+}

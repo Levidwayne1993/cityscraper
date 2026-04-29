@@ -1,0 +1,9 @@
+{
+	"id": "ab0JAQfELOBPjlw",
+	"json": "{\"id\":\"ab0JAQfELOBPjlw\",\"url\":\"https://easttexas.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://easttexas.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526223,
+	"retryCount": 0,
+	"uniqueKey": "https://easttexas.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://easttexas.craigslist.org/search/ccc?query=garage+sale"
+}

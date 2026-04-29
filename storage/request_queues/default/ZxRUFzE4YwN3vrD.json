@@ -1,0 +1,9 @@
+{
+	"id": "ZxRUFzE4YwN3vrD",
+	"json": "{\"id\":\"ZxRUFzE4YwN3vrD\",\"url\":\"https://losangeles.craigslist.org/lac/gms/d/monterey-park-estate-sale-garage-sale/7930142053.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/gms/d/monterey-park-estate-sale-garage-sale/7930142053.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/gms/d/monterey-park-estate-sale-garage-sale/7930142053.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:21:08.673Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/gms/d/monterey-park-estate-sale-garage-sale/7930142053.html",
+	"url": "https://losangeles.craigslist.org/lac/gms/d/monterey-park-estate-sale-garage-sale/7930142053.html"
+}

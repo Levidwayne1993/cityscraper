@@ -1,0 +1,9 @@
+{
+	"id": "Nh6vEwofDmWctSh",
+	"json": "{\"id\":\"Nh6vEwofDmWctSh\",\"url\":\"https://prescott.craigslist.org/wan/d/prescott-valley-huge-garage-sale/7923811506.html\",\"loadedUrl\":\"https://prescott.craigslist.org/wan/d/prescott-valley-huge-garage-sale/7923811506.html\",\"uniqueKey\":\"https://prescott.craigslist.org/wan/d/prescott-valley-huge-garage-sale/7923811506.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:52.332Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/wan/d/prescott-valley-huge-garage-sale/7923811506.html",
+	"url": "https://prescott.craigslist.org/wan/d/prescott-valley-huge-garage-sale/7923811506.html"
+}

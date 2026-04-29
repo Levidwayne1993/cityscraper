@@ -1,0 +1,9 @@
+{
+	"id": "58p6V9NnpYnB5W8",
+	"json": "{\"id\":\"58p6V9NnpYnB5W8\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/la-jolla-la-jolla-70s-gem-estate-sale/7929830585.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/la-jolla-la-jolla-70s-gem-estate-sale/7929830585.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/la-jolla-la-jolla-70s-gem-estate-sale/7929830585.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:10:33.101Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/la-jolla-la-jolla-70s-gem-estate-sale/7929830585.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/la-jolla-la-jolla-70s-gem-estate-sale/7929830585.html"
+}

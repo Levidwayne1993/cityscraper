@@ -1,0 +1,9 @@
+{
+	"id": "sYQngthhCsCXba1",
+	"json": "{\"id\":\"sYQngthhCsCXba1\",\"url\":\"https://gainesville.craigslist.org/gms/d/alachua-garage-sale-in-alachua-fl/7926966477.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/alachua-garage-sale-in-alachua-fl/7926966477.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/alachua-garage-sale-in-alachua-fl/7926966477.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:31:49.763Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/alachua-garage-sale-in-alachua-fl/7926966477.html",
+	"url": "https://gainesville.craigslist.org/gms/d/alachua-garage-sale-in-alachua-fl/7926966477.html"
+}

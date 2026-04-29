@@ -1,0 +1,9 @@
+{
+	"id": "JlPkEUIAgKdgawA",
+	"json": "{\"id\":\"JlPkEUIAgKdgawA\",\"url\":\"https://littlerock.craigslist.org/gms/d/north-little-rock-nlr-moving-sale/7923721893.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/north-little-rock-nlr-moving-sale/7923721893.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/north-little-rock-nlr-moving-sale/7923721893.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:47.699Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/north-little-rock-nlr-moving-sale/7923721893.html",
+	"url": "https://littlerock.craigslist.org/gms/d/north-little-rock-nlr-moving-sale/7923721893.html"
+}

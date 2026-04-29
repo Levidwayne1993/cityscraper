@@ -1,0 +1,9 @@
+{
+	"id": "xMPwjWaoa8H2929",
+	"json": "{\"id\":\"xMPwjWaoa8H2929\",\"url\":\"https://cosprings.craigslist.org/gms/d/peyton-badlands-treasures-garage-sale/7921532634.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/peyton-badlands-treasures-garage-sale/7921532634.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/peyton-badlands-treasures-garage-sale/7921532634.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:31:51.549Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/peyton-badlands-treasures-garage-sale/7921532634.html",
+	"url": "https://cosprings.craigslist.org/gms/d/peyton-badlands-treasures-garage-sale/7921532634.html"
+}

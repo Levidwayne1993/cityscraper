@@ -1,0 +1,9 @@
+{
+	"id": "Y3jaLLLyHFatImr",
+	"json": "{\"id\":\"Y3jaLLLyHFatImr\",\"url\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-littletons-community-sale/7928526207.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-littletons-community-sale/7928526207.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/san-bernardino-littletons-community-sale/7928526207.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:08:20.216Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/san-bernardino-littletons-community-sale/7928526207.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/san-bernardino-littletons-community-sale/7928526207.html"
+}

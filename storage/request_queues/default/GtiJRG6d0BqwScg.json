@@ -1,0 +1,9 @@
+{
+	"id": "GtiJRG6d0BqwScg",
+	"json": "{\"id\":\"GtiJRG6d0BqwScg\",\"url\":\"https://westslope.craigslist.org/gms/d/durango-moving-sale/7921227887.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/durango-moving-sale/7921227887.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/durango-moving-sale/7921227887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:00:59.381Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/durango-moving-sale/7921227887.html",
+	"url": "https://westslope.craigslist.org/gms/d/durango-moving-sale/7921227887.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "0c5n21ddpsF9XrR",
+	"json": "{\"id\":\"0c5n21ddpsF9XrR\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-moving-sale-everything-must/7928445073.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-moving-sale-everything-must/7928445073.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-moving-sale-everything-must/7928445073.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:59.481Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-moving-sale-everything-must/7928445073.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-moving-sale-everything-must/7928445073.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nBOgCGOJ5LUzqNn",
+	"json": "{\"id\":\"nBOgCGOJ5LUzqNn\",\"url\":\"https://sacramento.craigslist.org/gms/d/folsom-driveway-garage-yard-sale/7930032537.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/folsom-driveway-garage-yard-sale/7930032537.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/folsom-driveway-garage-yard-sale/7930032537.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:47:51.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/folsom-driveway-garage-yard-sale/7930032537.html",
+	"url": "https://sacramento.craigslist.org/gms/d/folsom-driveway-garage-yard-sale/7930032537.html"
+}

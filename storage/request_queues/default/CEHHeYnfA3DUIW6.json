@@ -1,0 +1,9 @@
+{
+	"id": "CEHHeYnfA3DUIW6",
+	"json": "{\"id\":\"CEHHeYnfA3DUIW6\",\"url\":\"https://delaware.craigslist.org/gms/d/millsboro-millsboro-delaware-baywood/7925179675.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/millsboro-millsboro-delaware-baywood/7925179675.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/millsboro-millsboro-delaware-baywood/7925179675.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:40.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/millsboro-millsboro-delaware-baywood/7925179675.html",
+	"url": "https://delaware.craigslist.org/gms/d/millsboro-millsboro-delaware-baywood/7925179675.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "brvzjGtGDyT24ju",
+	"json": "{\"id\":\"brvzjGtGDyT24ju\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-huge-garage-sale/7929578877.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-huge-garage-sale/7929578877.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-huge-garage-sale/7929578877.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:02.604Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-huge-garage-sale/7929578877.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-huge-garage-sale/7929578877.html"
+}

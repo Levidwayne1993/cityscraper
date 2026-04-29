@@ -1,8 +1,8 @@
 {
 	"id": "H5z3OfAdGedxjzn",
-	"json": "{\"id\":\"H5z3OfAdGedxjzn\",\"url\":\"https://santabarbara.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://santabarbara.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"H5z3OfAdGedxjzn\",\"url\":\"https://santabarbara.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://santabarbara.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://santabarbara.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:51:03.069Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323289,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://santabarbara.craigslist.org/search/gms?s=120",
 	"url": "https://santabarbara.craigslist.org/search/gms?s=120"

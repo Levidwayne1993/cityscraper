@@ -1,0 +1,9 @@
+{
+	"id": "CGE479vDH76fyMy",
+	"json": "{\"id\":\"CGE479vDH76fyMy\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/VT/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/VT\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"VT\"}}",
+	"method": "GET",
+	"orderNo": 1777186530270,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/VT",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/VT/"
+}

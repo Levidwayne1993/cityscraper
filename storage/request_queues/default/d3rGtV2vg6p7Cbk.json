@@ -1,0 +1,9 @@
+{
+	"id": "d3rGtV2vg6p7Cbk",
+	"json": "{\"id\":\"d3rGtV2vg6p7Cbk\",\"url\":\"https://goldcountry.craigslist.org/gms/d/auburn-amazing-yard-sale-priced-to-sell/7923750297.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/auburn-amazing-yard-sale-priced-to-sell/7923750297.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/auburn-amazing-yard-sale-priced-to-sell/7923750297.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:50:12.389Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/auburn-amazing-yard-sale-priced-to-sell/7923750297.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/auburn-amazing-yard-sale-priced-to-sell/7923750297.html"
+}

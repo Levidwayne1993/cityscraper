@@ -1,0 +1,9 @@
+{
+	"id": "8qt8UXImekNDA6H",
+	"json": "{\"id\":\"8qt8UXImekNDA6H\",\"url\":\"https://orlando.craigslist.org/gms/d/windermere-garage-sale-everything-must/7928247207.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/windermere-garage-sale-everything-must/7928247207.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/windermere-garage-sale-everything-must/7928247207.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:33:41.845Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/windermere-garage-sale-everything-must/7928247207.html",
+	"url": "https://orlando.craigslist.org/gms/d/windermere-garage-sale-everything-must/7928247207.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "0Y2k5fwErpGUpoz",
+	"json": "{\"id\":\"0Y2k5fwErpGUpoz\",\"url\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-saturday-april-11th/7926689048.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-saturday-april-11th/7926689048.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-saturday-april-11th/7926689048.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:19.633Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-garage-sale-saturday-april-11th/7926689048.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-garage-sale-saturday-april-11th/7926689048.html"
+}

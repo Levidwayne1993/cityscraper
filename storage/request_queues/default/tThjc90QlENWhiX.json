@@ -1,0 +1,9 @@
+{
+	"id": "tThjc90QlENWhiX",
+	"json": "{\"id\":\"tThjc90QlENWhiX\",\"url\":\"https://easternshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://easternshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520288,
+	"retryCount": 0,
+	"uniqueKey": "https://easternshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://easternshore.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

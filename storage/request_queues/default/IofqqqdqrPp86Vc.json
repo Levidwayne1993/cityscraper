@@ -1,0 +1,9 @@
+{
+	"id": "IofqqqdqrPp86Vc",
+	"json": "{\"id\":\"IofqqqdqrPp86Vc\",\"url\":\"https://sierravista.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://sierravista.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://sierravista.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:30.964Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/search/gms?s=480",
+	"url": "https://sierravista.craigslist.org/search/gms?s=480"
+}

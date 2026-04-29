@@ -1,0 +1,9 @@
+{
+	"id": "Qd7ugN9IaFOOCxX",
+	"json": "{\"id\":\"Qd7ugN9IaFOOCxX\",\"url\":\"https://orlando.craigslist.org/clo/d/oviedo-womens-clothes-size-medium-coats/7927255046.html\",\"loadedUrl\":\"https://orlando.craigslist.org/clo/d/oviedo-womens-clothes-size-medium-coats/7927255046.html\",\"uniqueKey\":\"https://orlando.craigslist.org/clo/d/oviedo-womens-clothes-size-medium-coats/7927255046.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:31:12.943Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/clo/d/oviedo-womens-clothes-size-medium-coats/7927255046.html",
+	"url": "https://orlando.craigslist.org/clo/d/oviedo-womens-clothes-size-medium-coats/7927255046.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "k0lgqeFeuNdOxRu",
+	"json": "{\"id\":\"k0lgqeFeuNdOxRu\",\"url\":\"https://losangeles.craigslist.org/lac/gms/d/temecula-75-homes-harveston-community/7929755542.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/gms/d/temecula-75-homes-harveston-community/7929755542.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/gms/d/temecula-75-homes-harveston-community/7929755542.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:44:16.209Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/gms/d/temecula-75-homes-harveston-community/7929755542.html",
+	"url": "https://losangeles.craigslist.org/lac/gms/d/temecula-75-homes-harveston-community/7929755542.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PbHXmEUMCMfL1Pt",
+	"json": "{\"id\":\"PbHXmEUMCMfL1Pt\",\"url\":\"https://westslope.craigslist.org/gms/d/durango-estate-sale-everything-must-go/7927874404.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/durango-estate-sale-everything-must-go/7927874404.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/durango-estate-sale-everything-must-go/7927874404.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:00:41.388Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/durango-estate-sale-everything-must-go/7927874404.html",
+	"url": "https://westslope.craigslist.org/gms/d/durango-estate-sale-everything-must-go/7927874404.html"
+}

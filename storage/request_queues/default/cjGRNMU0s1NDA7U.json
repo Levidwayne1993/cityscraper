@@ -1,0 +1,9 @@
+{
+	"id": "cjGRNMU0s1NDA7U",
+	"json": "{\"id\":\"cjGRNMU0s1NDA7U\",\"url\":\"https://newlondon.craigslist.org/gms/d/coventry-tag-sale-coventry-ct-142/7926403264.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/coventry-tag-sale-coventry-ct-142/7926403264.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/coventry-tag-sale-coventry-ct-142/7926403264.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:33.694Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/coventry-tag-sale-coventry-ct-142/7926403264.html",
+	"url": "https://newlondon.craigslist.org/gms/d/coventry-tag-sale-coventry-ct-142/7926403264.html"
+}

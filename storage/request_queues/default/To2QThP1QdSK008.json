@@ -1,0 +1,9 @@
+{
+	"id": "To2QThP1QdSK008",
+	"json": "{\"id\":\"To2QThP1QdSK008\",\"url\":\"https://janesville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://janesville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528293,
+	"retryCount": 0,
+	"uniqueKey": "https://janesville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://janesville.craigslist.org/search/ccc?query=garage+sale"
+}

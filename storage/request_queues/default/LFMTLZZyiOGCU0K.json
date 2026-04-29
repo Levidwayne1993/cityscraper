@@ -1,8 +1,8 @@
 {
 	"id": "LFMTLZZyiOGCU0K",
-	"json": "{\"id\":\"LFMTLZZyiOGCU0K\",\"url\":\"https://denver.craigslist.org/search/gms\",\"uniqueKey\":\"https://denver.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"LFMTLZZyiOGCU0K\",\"url\":\"https://denver.craigslist.org/search/gms\",\"loadedUrl\":\"https://denver.craigslist.org/search/gms\",\"uniqueKey\":\"https://denver.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:24.356Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323377,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://denver.craigslist.org/search/gms",
 	"url": "https://denver.craigslist.org/search/gms"

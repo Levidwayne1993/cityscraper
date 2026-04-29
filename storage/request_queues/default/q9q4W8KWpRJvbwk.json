@@ -1,0 +1,9 @@
+{
+	"id": "q9q4W8KWpRJvbwk",
+	"json": "{\"id\":\"q9q4W8KWpRJvbwk\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-45th-st/7920847771.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-45th-st/7920847771.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-45th-st/7920847771.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:48.066Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-garage-sale-45th-st/7920847771.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-garage-sale-45th-st/7920847771.html"
+}

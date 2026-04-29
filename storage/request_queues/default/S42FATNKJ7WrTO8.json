@@ -1,8 +1,8 @@
 {
 	"id": "S42FATNKJ7WrTO8",
-	"json": "{\"id\":\"S42FATNKJ7WrTO8\",\"url\":\"https://inlandempire.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"S42FATNKJ7WrTO8\",\"url\":\"https://inlandempire.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://inlandempire.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:40.842Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323173,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://inlandempire.craigslist.org/search/gms?s=240",
 	"url": "https://inlandempire.craigslist.org/search/gms?s=240"

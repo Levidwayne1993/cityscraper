@@ -1,0 +1,9 @@
+{
+	"id": "LZCNbEe24fU1Om0",
+	"json": "{\"id\":\"LZCNbEe24fU1Om0\",\"url\":\"https://elpaso.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://elpaso.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526229,
+	"retryCount": 0,
+	"uniqueKey": "https://elpaso.craigslist.org/search/gms?s=480",
+	"url": "https://elpaso.craigslist.org/search/gms?s=480"
+}

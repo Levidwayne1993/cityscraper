@@ -1,0 +1,9 @@
+{
+	"id": "g9PkbM4LOdyT9A3",
+	"json": "{\"id\":\"g9PkbM4LOdyT9A3\",\"url\":\"https://fayar.craigslist.org/gms/d/springdale-construction-sale-garage/7927559435.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/springdale-construction-sale-garage/7927559435.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/springdale-construction-sale-garage/7927559435.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:59.487Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/springdale-construction-sale-garage/7927559435.html",
+	"url": "https://fayar.craigslist.org/gms/d/springdale-construction-sale-garage/7927559435.html"
+}

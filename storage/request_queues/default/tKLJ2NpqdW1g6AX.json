@@ -1,8 +1,8 @@
 {
 	"id": "tKLJ2NpqdW1g6AX",
-	"json": "{\"id\":\"tKLJ2NpqdW1g6AX\",\"url\":\"https://mobile.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://mobile.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"tKLJ2NpqdW1g6AX\",\"url\":\"https://mobile.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://mobile.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://mobile.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:26.808Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322901,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://mobile.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://mobile.craigslist.org/search/sss?query=moving+sale"

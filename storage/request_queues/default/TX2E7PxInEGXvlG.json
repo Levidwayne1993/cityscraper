@@ -1,0 +1,9 @@
+{
+	"id": "TX2E7PxInEGXvlG",
+	"json": "{\"id\":\"TX2E7PxInEGXvlG\",\"url\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-family-garage-sale/7928441704.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-family-garage-sale/7928441704.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-family-garage-sale/7928441704.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:47.296Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/fountain-valley-family-garage-sale/7928441704.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/fountain-valley-family-garage-sale/7928441704.html"
+}

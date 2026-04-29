@@ -1,0 +1,9 @@
+{
+	"id": "GYUuKYzLFmBj7b2",
+	"json": "{\"id\":\"GYUuKYzLFmBj7b2\",\"url\":\"https://sarasota.craigslist.org/fuo/d/sarasota-modern-office-furniture-estate/7926870569.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/fuo/d/sarasota-modern-office-furniture-estate/7926870569.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/fuo/d/sarasota-modern-office-furniture-estate/7926870569.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:50:32.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/fuo/d/sarasota-modern-office-furniture-estate/7926870569.html",
+	"url": "https://sarasota.craigslist.org/fuo/d/sarasota-modern-office-furniture-estate/7926870569.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "6GZJwtD8jrEHm26",
+	"json": "{\"id\":\"6GZJwtD8jrEHm26\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-greenhaven-sat-18/7928340056.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-greenhaven-sat-18/7928340056.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-greenhaven-sat-18/7928340056.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:45:31.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-greenhaven-sat-18/7928340056.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-greenhaven-sat-18/7928340056.html"
+}

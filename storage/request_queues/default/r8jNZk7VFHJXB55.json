@@ -1,0 +1,9 @@
+{
+	"id": "r8jNZk7VFHJXB55",
+	"json": "{\"id\":\"r8jNZk7VFHJXB55\",\"url\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:15:22.297Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://orangecounty.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

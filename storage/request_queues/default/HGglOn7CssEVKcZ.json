@@ -1,0 +1,9 @@
+{
+	"id": "HGglOn7CssEVKcZ",
+	"json": "{\"id\":\"HGglOn7CssEVKcZ\",\"url\":\"https://denver.craigslist.org/gms/d/denver-not-yard-sale-yard-sale-more/7927229407.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-not-yard-sale-yard-sale-more/7927229407.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-not-yard-sale-yard-sale-more/7927229407.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:14.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-not-yard-sale-yard-sale-more/7927229407.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-not-yard-sale-yard-sale-more/7927229407.html"
+}

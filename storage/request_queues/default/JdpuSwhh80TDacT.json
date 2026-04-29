@@ -1,0 +1,9 @@
+{
+	"id": "JdpuSwhh80TDacT",
+	"json": "{\"id\":\"JdpuSwhh80TDacT\",\"url\":\"https://sacramento.craigslist.org/bab/d/sacramento-moving-sale-kids-stuff/7928384491.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/bab/d/sacramento-moving-sale-kids-stuff/7928384491.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/bab/d/sacramento-moving-sale-kids-stuff/7928384491.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:51:39.524Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/bab/d/sacramento-moving-sale-kids-stuff/7928384491.html",
+	"url": "https://sacramento.craigslist.org/bab/d/sacramento-moving-sale-kids-stuff/7928384491.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "sVGygSKOFSkcKif",
+	"json": "{\"id\":\"sVGygSKOFSkcKif\",\"url\":\"https://neworleans.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://neworleans.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520135,
+	"retryCount": 0,
+	"uniqueKey": "https://neworleans.craigslist.org/search/gms?s=480",
+	"url": "https://neworleans.craigslist.org/search/gms?s=480"
+}

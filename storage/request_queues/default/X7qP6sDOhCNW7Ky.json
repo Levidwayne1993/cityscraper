@@ -1,0 +1,9 @@
+{
+	"id": "X7qP6sDOhCNW7Ky",
+	"json": "{\"id\":\"X7qP6sDOhCNW7Ky\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-garage-sale/7927006977.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-garage-sale/7927006977.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-garage-sale/7927006977.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:04:21.742Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-multi-family-garage-sale/7927006977.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-multi-family-garage-sale/7927006977.html"
+}

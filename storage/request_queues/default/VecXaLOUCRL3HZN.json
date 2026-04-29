@@ -1,0 +1,9 @@
+{
+	"id": "VecXaLOUCRL3HZN",
+	"json": "{\"id\":\"VecXaLOUCRL3HZN\",\"url\":\"https://newhaven.craigslist.org/gms/d/waterbury-waterbury-tag-sale-prices/7927077144.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/waterbury-waterbury-tag-sale-prices/7927077144.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/waterbury-waterbury-tag-sale-prices/7927077144.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:17.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/waterbury-waterbury-tag-sale-prices/7927077144.html",
+	"url": "https://newhaven.craigslist.org/gms/d/waterbury-waterbury-tag-sale-prices/7927077144.html"
+}

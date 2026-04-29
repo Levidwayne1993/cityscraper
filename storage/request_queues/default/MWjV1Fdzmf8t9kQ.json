@@ -1,0 +1,9 @@
+{
+	"id": "MWjV1Fdzmf8t9kQ",
+	"json": "{\"id\":\"MWjV1Fdzmf8t9kQ\",\"url\":\"https://delaware.craigslist.org/fuo/d/wilmington-estate-sale-online-auction/7930051993.html\",\"loadedUrl\":\"https://delaware.craigslist.org/fuo/d/wilmington-estate-sale-online-auction/7930051993.html\",\"uniqueKey\":\"https://delaware.craigslist.org/fuo/d/wilmington-estate-sale-online-auction/7930051993.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:01.868Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/fuo/d/wilmington-estate-sale-online-auction/7930051993.html",
+	"url": "https://delaware.craigslist.org/fuo/d/wilmington-estate-sale-online-auction/7930051993.html"
+}

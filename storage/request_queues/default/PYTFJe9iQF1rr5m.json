@@ -1,8 +1,8 @@
 {
 	"id": "PYTFJe9iQF1rr5m",
-	"json": "{\"id\":\"PYTFJe9iQF1rr5m\",\"url\":\"https://chico.craigslist.org/search/gms\",\"uniqueKey\":\"https://chico.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"PYTFJe9iQF1rr5m\",\"url\":\"https://chico.craigslist.org/search/gms\",\"loadedUrl\":\"https://chico.craigslist.org/search/gms\",\"uniqueKey\":\"https://chico.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:27:40.577Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323115,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://chico.craigslist.org/search/gms",
 	"url": "https://chico.craigslist.org/search/gms"

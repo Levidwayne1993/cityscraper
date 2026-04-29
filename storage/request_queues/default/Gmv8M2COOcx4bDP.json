@@ -1,0 +1,9 @@
+{
+	"id": "Gmv8M2COOcx4bDP",
+	"json": "{\"id\":\"Gmv8M2COOcx4bDP\",\"url\":\"https://sandiego.craigslist.org/csd/tls/d/san-diego-estate-sale-of-tools-levels/7922889658.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/tls/d/san-diego-estate-sale-of-tools-levels/7922889658.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/tls/d/san-diego-estate-sale-of-tools-levels/7922889658.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:46.216Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/tls/d/san-diego-estate-sale-of-tools-levels/7922889658.html",
+	"url": "https://sandiego.craigslist.org/csd/tls/d/san-diego-estate-sale-of-tools-levels/7922889658.html"
+}

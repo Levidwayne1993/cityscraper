@@ -1,0 +1,9 @@
+{
+	"id": "gN87QDFZtmEdchw",
+	"json": "{\"id\":\"gN87QDFZtmEdchw\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-garage-sales/7929886424.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-garage-sales/7929886424.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-garage-sales/7929886424.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:41.268Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-garage-sales/7929886424.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-garage-sales/7929886424.html"
+}

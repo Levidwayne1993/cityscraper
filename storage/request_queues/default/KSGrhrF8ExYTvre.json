@@ -1,0 +1,9 @@
+{
+	"id": "KSGrhrF8ExYTvre",
+	"json": "{\"id\":\"KSGrhrF8ExYTvre\",\"url\":\"https://slo.craigslist.org/gms/d/morro-bay-wee-shack-parking-lot-sale/7928748154.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/morro-bay-wee-shack-parking-lot-sale/7928748154.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/morro-bay-wee-shack-parking-lot-sale/7928748154.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:41:27.818Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/morro-bay-wee-shack-parking-lot-sale/7928748154.html",
+	"url": "https://slo.craigslist.org/gms/d/morro-bay-wee-shack-parking-lot-sale/7928748154.html"
+}

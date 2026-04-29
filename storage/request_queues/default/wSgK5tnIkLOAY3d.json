@@ -1,0 +1,9 @@
+{
+	"id": "wSgK5tnIkLOAY3d",
+	"json": "{\"id\":\"wSgK5tnIkLOAY3d\",\"url\":\"https://swva.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://swva.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527883,
+	"retryCount": 0,
+	"uniqueKey": "https://swva.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://swva.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

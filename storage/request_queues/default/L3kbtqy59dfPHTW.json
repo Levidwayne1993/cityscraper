@@ -1,0 +1,9 @@
+{
+	"id": "L3kbtqy59dfPHTW",
+	"json": "{\"id\":\"L3kbtqy59dfPHTW\",\"url\":\"https://sacramento.craigslist.org/gms/d/west-sacramento-garage-sale-southport/7929915695.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/west-sacramento-garage-sale-southport/7929915695.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/west-sacramento-garage-sale-southport/7929915695.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:07.923Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/west-sacramento-garage-sale-southport/7929915695.html",
+	"url": "https://sacramento.craigslist.org/gms/d/west-sacramento-garage-sale-southport/7929915695.html"
+}

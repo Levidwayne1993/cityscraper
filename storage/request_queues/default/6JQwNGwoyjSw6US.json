@@ -1,0 +1,9 @@
+{
+	"id": "6JQwNGwoyjSw6US",
+	"json": "{\"id\":\"6JQwNGwoyjSw6US\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/napa-la-dolce-vita-pop-up/7928797741.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/napa-la-dolce-vita-pop-up/7928797741.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/napa-la-dolce-vita-pop-up/7928797741.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:15.596Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/napa-la-dolce-vita-pop-up/7928797741.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/napa-la-dolce-vita-pop-up/7928797741.html"
+}

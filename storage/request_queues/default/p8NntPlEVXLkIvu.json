@@ -1,0 +1,9 @@
+{
+	"id": "p8NntPlEVXLkIvu",
+	"json": "{\"id\":\"p8NntPlEVXLkIvu\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale/7924590792.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale/7924590792.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale/7924590792.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:53.737Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale/7924590792.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale/7924590792.html"
+}

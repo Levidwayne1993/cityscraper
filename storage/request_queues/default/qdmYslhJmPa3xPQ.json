@@ -1,9 +1,0 @@
-{
-	"id": "qdmYslhJmPa3xPQ",
-	"json": "{\"id\":\"qdmYslhJmPa3xPQ\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Burlington-VT.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Burlington-VT.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"VT\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334167,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Burlington-VT.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Burlington-VT.html"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "0ejZd5z5ULPXUCT",
+	"json": "{\"id\":\"0ejZd5z5ULPXUCT\",\"url\":\"https://fredericksburg.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fredericksburg.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527760,
+	"retryCount": 0,
+	"uniqueKey": "https://fredericksburg.craigslist.org/search/gms?s=480",
+	"url": "https://fredericksburg.craigslist.org/search/gms?s=480"
+}

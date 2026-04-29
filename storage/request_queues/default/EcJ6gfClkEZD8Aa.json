@@ -1,0 +1,9 @@
+{
+	"id": "EcJ6gfClkEZD8Aa",
+	"json": "{\"id\":\"EcJ6gfClkEZD8Aa\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-saturday-am/7929989426.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-saturday-am/7929989426.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-saturday-am/7929989426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:02:48.564Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-garage-sale-saturday-am/7929989426.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-garage-sale-saturday-am/7929989426.html"
+}

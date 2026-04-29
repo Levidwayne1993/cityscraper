@@ -1,0 +1,9 @@
+{
+	"id": "9M2KPkDnYBhv1uq",
+	"json": "{\"id\":\"9M2KPkDnYBhv1uq\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-valley-center-estate-sale/7929323860.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-valley-center-estate-sale/7929323860.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-valley-center-estate-sale/7929323860.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:36.348Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/valley-center-valley-center-estate-sale/7929323860.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/valley-center-valley-center-estate-sale/7929323860.html"
+}

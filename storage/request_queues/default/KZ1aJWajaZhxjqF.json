@@ -1,0 +1,9 @@
+{
+	"id": "KZ1aJWajaZhxjqF",
+	"json": "{\"id\":\"KZ1aJWajaZhxjqF\",\"url\":\"https://phoenix.craigslist.org/evl/for/d/tempe-garage-sale-yard-sale/7921125939.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/for/d/tempe-garage-sale-yard-sale/7921125939.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/for/d/tempe-garage-sale-yard-sale/7921125939.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:17.945Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/for/d/tempe-garage-sale-yard-sale/7921125939.html",
+	"url": "https://phoenix.craigslist.org/evl/for/d/tempe-garage-sale-yard-sale/7921125939.html"
+}

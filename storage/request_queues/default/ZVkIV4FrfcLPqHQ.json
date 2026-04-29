@@ -1,0 +1,9 @@
+{
+	"id": "ZVkIV4FrfcLPqHQ",
+	"json": "{\"id\":\"ZVkIV4FrfcLPqHQ\",\"url\":\"https://santamaria.craigslist.org/gms/d/nipomo-black-lake-estate-sale-price/7926867423.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/nipomo-black-lake-estate-sale-price/7926867423.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/nipomo-black-lake-estate-sale-price/7926867423.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:40.848Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/nipomo-black-lake-estate-sale-price/7926867423.html",
+	"url": "https://santamaria.craigslist.org/gms/d/nipomo-black-lake-estate-sale-price/7926867423.html"
+}

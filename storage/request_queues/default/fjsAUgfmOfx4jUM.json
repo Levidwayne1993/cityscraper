@@ -1,0 +1,9 @@
+{
+	"id": "fjsAUgfmOfx4jUM",
+	"json": "{\"id\":\"fjsAUgfmOfx4jUM\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/el-segundo-multi-family-garage-sale-sat/7929712977.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/el-segundo-multi-family-garage-sale-sat/7929712977.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/el-segundo-multi-family-garage-sale-sat/7929712977.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:43:51.292Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/el-segundo-multi-family-garage-sale-sat/7929712977.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/el-segundo-multi-family-garage-sale-sat/7929712977.html"
+}

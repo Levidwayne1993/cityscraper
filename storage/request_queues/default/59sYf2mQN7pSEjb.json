@@ -1,0 +1,9 @@
+{
+	"id": "59sYf2mQN7pSEjb",
+	"json": "{\"id\":\"59sYf2mQN7pSEjb\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-saturday-9am-4pm/7928496183.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-saturday-9am-4pm/7928496183.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-saturday-9am-4pm/7928496183.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:05:40.468Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-saturday-9am-4pm/7928496183.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-saturday-9am-4pm/7928496183.html"
+}

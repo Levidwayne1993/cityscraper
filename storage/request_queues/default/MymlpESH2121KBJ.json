@@ -1,8 +1,8 @@
 {
 	"id": "MymlpESH2121KBJ",
-	"json": "{\"id\":\"MymlpESH2121KBJ\",\"url\":\"https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"MymlpESH2121KBJ\",\"url\":\"https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:04:07.032Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323318,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://stockton.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

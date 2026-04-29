@@ -1,0 +1,9 @@
+{
+	"id": "7ie5hdcG3gfoEpq",
+	"json": "{\"id\":\"7ie5hdcG3gfoEpq\",\"url\":\"https://goldcountry.craigslist.org/gms/d/soulsbyville-estate-sale/7928264606.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/soulsbyville-estate-sale/7928264606.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/soulsbyville-estate-sale/7928264606.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:52:12.347Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/soulsbyville-estate-sale/7928264606.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/soulsbyville-estate-sale/7928264606.html"
+}

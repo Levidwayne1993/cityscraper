@@ -1,0 +1,9 @@
+{
+	"id": "Ss2LYl3l7n7hv4E",
+	"json": "{\"id\":\"Ss2LYl3l7n7hv4E\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/el-sobrante-yard-sale-clearing-out-el/7929727991.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/el-sobrante-yard-sale-clearing-out-el/7929727991.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/el-sobrante-yard-sale-clearing-out-el/7929727991.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:09.181Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/el-sobrante-yard-sale-clearing-out-el/7929727991.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/el-sobrante-yard-sale-clearing-out-el/7929727991.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wabbu1Q1ZvW6RdI",
+	"json": "{\"id\":\"wabbu1Q1ZvW6RdI\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-yard-sale/7920835800.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-yard-sale/7920835800.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-yard-sale/7920835800.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:02.426Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-yard-sale/7920835800.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-multi-family-yard-sale/7920835800.html"
+}

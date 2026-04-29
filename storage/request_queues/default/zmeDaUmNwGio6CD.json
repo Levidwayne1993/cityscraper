@@ -1,0 +1,9 @@
+{
+	"id": "zmeDaUmNwGio6CD",
+	"json": "{\"id\":\"zmeDaUmNwGio6CD\",\"url\":\"https://slo.craigslist.org/gms/d/oceano-saturday-garage-sale-april-18/7924848667.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/oceano-saturday-garage-sale-april-18/7924848667.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/oceano-saturday-garage-sale-april-18/7924848667.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:44.485Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/oceano-saturday-garage-sale-april-18/7924848667.html",
+	"url": "https://slo.craigslist.org/gms/d/oceano-saturday-garage-sale-april-18/7924848667.html"
+}

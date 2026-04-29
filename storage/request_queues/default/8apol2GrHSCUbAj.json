@@ -1,0 +1,9 @@
+{
+	"id": "8apol2GrHSCUbAj",
+	"json": "{\"id\":\"8apol2GrHSCUbAj\",\"url\":\"https://denver.craigslist.org/gms/d/denver-new-and-almost-new-furniture/7928223933.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-new-and-almost-new-furniture/7928223933.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-new-and-almost-new-furniture/7928223933.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:09.026Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-new-and-almost-new-furniture/7928223933.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-new-and-almost-new-furniture/7928223933.html"
+}

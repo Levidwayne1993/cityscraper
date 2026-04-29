@@ -1,0 +1,9 @@
+{
+	"id": "Bm2cWCatgQ7bF5j",
+	"json": "{\"id\":\"Bm2cWCatgQ7bF5j\",\"url\":\"https://merced.craigslist.org/gms/d/atwater-decorators-garage-sale/7923874816.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/atwater-decorators-garage-sale/7923874816.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/atwater-decorators-garage-sale/7923874816.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:51:51.322Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/atwater-decorators-garage-sale/7923874816.html",
+	"url": "https://merced.craigslist.org/gms/d/atwater-decorators-garage-sale/7923874816.html"
+}

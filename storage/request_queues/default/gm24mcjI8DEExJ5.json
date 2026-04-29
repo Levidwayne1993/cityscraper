@@ -1,0 +1,9 @@
+{
+	"id": "gm24mcjI8DEExJ5",
+	"json": "{\"id\":\"gm24mcjI8DEExJ5\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale/7926993515.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale/7926993515.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale/7926993515.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:49.203Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale/7926993515.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale/7926993515.html"
+}

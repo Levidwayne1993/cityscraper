@@ -1,0 +1,9 @@
+{
+	"id": "3kdTt6VJYseAcbE",
+	"json": "{\"id\":\"3kdTt6VJYseAcbE\",\"url\":\"https://goldcountry.craigslist.org/gms/d/el-dorado-hills-big-serrano-garage-sale/7929563282.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/el-dorado-hills-big-serrano-garage-sale/7929563282.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/el-dorado-hills-big-serrano-garage-sale/7929563282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:51:41.648Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/el-dorado-hills-big-serrano-garage-sale/7929563282.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/el-dorado-hills-big-serrano-garage-sale/7929563282.html"
+}

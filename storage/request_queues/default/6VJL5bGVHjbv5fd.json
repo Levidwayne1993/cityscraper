@@ -1,0 +1,9 @@
+{
+	"id": "6VJL5bGVHjbv5fd",
+	"json": "{\"id\":\"6VJL5bGVHjbv5fd\",\"url\":\"https://goldcountry.craigslist.org/gms/d/grizzly-flats-estate-sale-everything/7927105654.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/grizzly-flats-estate-sale-everything/7927105654.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/grizzly-flats-estate-sale-everything/7927105654.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:52:07.777Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/grizzly-flats-estate-sale-everything/7927105654.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/grizzly-flats-estate-sale-everything/7927105654.html"
+}

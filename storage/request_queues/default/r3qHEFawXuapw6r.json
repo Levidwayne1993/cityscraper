@@ -1,0 +1,9 @@
+{
+	"id": "r3qHEFawXuapw6r",
+	"json": "{\"id\":\"r3qHEFawXuapw6r\",\"url\":\"https://siouxfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://siouxfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\"}}",
+	"method": "GET",
+	"orderNo": 1777186525950,
+	"retryCount": 0,
+	"uniqueKey": "https://siouxfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://siouxfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

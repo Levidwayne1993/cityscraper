@@ -1,0 +1,9 @@
+{
+	"id": "hqV9DNesztKZAoe",
+	"json": "{\"id\":\"hqV9DNesztKZAoe\",\"url\":\"https://anchorage.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://anchorage.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:02.879Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://anchorage.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

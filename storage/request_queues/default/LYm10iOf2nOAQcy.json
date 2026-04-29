@@ -1,0 +1,9 @@
+{
+	"id": "LYm10iOf2nOAQcy",
+	"json": "{\"id\":\"LYm10iOf2nOAQcy\",\"url\":\"https://fortsmith.craigslist.org/gms/d/mcalester-garage-sale-mcalester-ok/7926804954.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/mcalester-garage-sale-mcalester-ok/7926804954.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/mcalester-garage-sale-mcalester-ok/7926804954.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:15:45.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/mcalester-garage-sale-mcalester-ok/7926804954.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/mcalester-garage-sale-mcalester-ok/7926804954.html"
+}

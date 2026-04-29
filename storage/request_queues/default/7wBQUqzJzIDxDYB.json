@@ -1,0 +1,9 @@
+{
+	"id": "7wBQUqzJzIDxDYB",
+	"json": "{\"id\":\"7wBQUqzJzIDxDYB\",\"url\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-sale/7929774424.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-sale/7929774424.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-sale/7929774424.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:50:07.471Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/loveland-garage-sale/7929774424.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/loveland-garage-sale/7929774424.html"
+}

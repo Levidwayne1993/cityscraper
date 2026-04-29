@@ -1,0 +1,9 @@
+{
+	"id": "fZDN9I8u1GfOisJ",
+	"json": "{\"id\":\"fZDN9I8u1GfOisJ\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-huge-garage-sale-come-and/7926438500.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-huge-garage-sale-come-and/7926438500.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-huge-garage-sale-come-and/7926438500.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:40:28.802Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-huge-garage-sale-come-and/7926438500.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-huge-garage-sale-come-and/7926438500.html"
+}

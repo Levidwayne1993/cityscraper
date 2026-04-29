@@ -1,0 +1,9 @@
+{
+	"id": "Z9N6xW43I5xStQN",
+	"json": "{\"id\":\"Z9N6xW43I5xStQN\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-garage-sale-tools-clothes-home/7927032214.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-garage-sale-tools-clothes-home/7927032214.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-garage-sale-tools-clothes-home/7927032214.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:41.540Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-garage-sale-tools-clothes-home/7927032214.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-garage-sale-tools-clothes-home/7927032214.html"
+}

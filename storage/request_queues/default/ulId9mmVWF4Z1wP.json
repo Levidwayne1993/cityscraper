@@ -1,0 +1,9 @@
+{
+	"id": "ulId9mmVWF4Z1wP",
+	"json": "{\"id\":\"ulId9mmVWF4Z1wP\",\"url\":\"https://washingtondc.craigslist.org/nva/com/d/arlington-yard-sale/7928307404.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/com/d/arlington-yard-sale/7928307404.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/com/d/arlington-yard-sale/7928307404.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:50.863Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/com/d/arlington-yard-sale/7928307404.html",
+	"url": "https://washingtondc.craigslist.org/nva/com/d/arlington-yard-sale/7928307404.html"
+}

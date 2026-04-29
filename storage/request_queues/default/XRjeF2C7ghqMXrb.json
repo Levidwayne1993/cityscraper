@@ -1,0 +1,9 @@
+{
+	"id": "XRjeF2C7ghqMXrb",
+	"json": "{\"id\":\"XRjeF2C7ghqMXrb\",\"url\":\"https://sandiego.craigslist.org/csd/boa/d/bellevue-estate-sale-35-custom-king-cat/7922266688.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/boa/d/bellevue-estate-sale-35-custom-king-cat/7922266688.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/boa/d/bellevue-estate-sale-35-custom-king-cat/7922266688.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:41.042Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/boa/d/bellevue-estate-sale-35-custom-king-cat/7922266688.html",
+	"url": "https://sandiego.craigslist.org/csd/boa/d/bellevue-estate-sale-35-custom-king-cat/7922266688.html"
+}

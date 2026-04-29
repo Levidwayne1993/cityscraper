@@ -1,0 +1,9 @@
+{
+	"id": "QDIDG5uOU1VECmQ",
+	"json": "{\"id\":\"QDIDG5uOU1VECmQ\",\"url\":\"https://modesto.craigslist.org/gms/d/waterford-saturday-14-garage-sale/7921098071.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/waterford-saturday-14-garage-sale/7921098071.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/waterford-saturday-14-garage-sale/7921098071.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:57:28.145Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/waterford-saturday-14-garage-sale/7921098071.html",
+	"url": "https://modesto.craigslist.org/gms/d/waterford-saturday-14-garage-sale/7921098071.html"
+}

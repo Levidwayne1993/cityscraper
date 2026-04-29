@@ -1,0 +1,9 @@
+{
+	"id": "Uno2KbUiSVYdOS2",
+	"json": "{\"id\":\"Uno2KbUiSVYdOS2\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/azusa-moving-sale/7899926895.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/azusa-moving-sale/7899926895.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/azusa-moving-sale/7899926895.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:19:01.651Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/azusa-moving-sale/7899926895.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/azusa-moving-sale/7899926895.html"
+}

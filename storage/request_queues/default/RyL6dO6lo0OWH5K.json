@@ -1,0 +1,9 @@
+{
+	"id": "RyL6dO6lo0OWH5K",
+	"json": "{\"id\":\"RyL6dO6lo0OWH5K\",\"url\":\"https://nwct.craigslist.org/gms/d/torrington-garage-sale/7927078887.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/torrington-garage-sale/7927078887.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/torrington-garage-sale/7927078887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:40.141Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/torrington-garage-sale/7927078887.html",
+	"url": "https://nwct.craigslist.org/gms/d/torrington-garage-sale/7927078887.html"
+}

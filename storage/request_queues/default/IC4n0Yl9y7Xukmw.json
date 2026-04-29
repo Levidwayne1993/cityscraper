@@ -1,0 +1,9 @@
+{
+	"id": "IC4n0Yl9y7Xukmw",
+	"json": "{\"id\":\"IC4n0Yl9y7Xukmw\",\"url\":\"https://merced.craigslist.org/for/d/merced-estate-sale-merced-calif/7926106446.html\",\"loadedUrl\":\"https://merced.craigslist.org/for/d/merced-estate-sale-merced-calif/7926106446.html\",\"uniqueKey\":\"https://merced.craigslist.org/for/d/merced-estate-sale-merced-calif/7926106446.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:51:25.144Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/for/d/merced-estate-sale-merced-calif/7926106446.html",
+	"url": "https://merced.craigslist.org/for/d/merced-estate-sale-merced-calif/7926106446.html"
+}

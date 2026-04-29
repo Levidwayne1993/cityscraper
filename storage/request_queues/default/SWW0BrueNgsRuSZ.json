@@ -1,0 +1,9 @@
+{
+	"id": "SWW0BrueNgsRuSZ",
+	"json": "{\"id\":\"SWW0BrueNgsRuSZ\",\"url\":\"https://tucson.craigslist.org/gms/d/marana-gigantic-clearance-yard-sale/7926322148.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/marana-gigantic-clearance-yard-sale/7926322148.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/marana-gigantic-clearance-yard-sale/7926322148.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:59:37.011Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/marana-gigantic-clearance-yard-sale/7926322148.html",
+	"url": "https://tucson.craigslist.org/gms/d/marana-gigantic-clearance-yard-sale/7926322148.html"
+}

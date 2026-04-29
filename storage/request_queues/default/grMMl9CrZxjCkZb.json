@@ -1,0 +1,9 @@
+{
+	"id": "grMMl9CrZxjCkZb",
+	"json": "{\"id\":\"grMMl9CrZxjCkZb\",\"url\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-yard-sale-april-1st-2026/7924683752.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-yard-sale-april-1st-2026/7924683752.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/com/d/deerfield-beach-yard-sale-april-1st-2026/7924683752.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:19.489Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/com/d/deerfield-beach-yard-sale-april-1st-2026/7924683752.html",
+	"url": "https://miami.craigslist.org/brw/com/d/deerfield-beach-yard-sale-april-1st-2026/7924683752.html"
+}

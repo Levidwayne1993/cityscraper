@@ -1,8 +1,8 @@
 {
 	"id": "j5tKFHDVr5uIP9K",
-	"json": "{\"id\":\"j5tKFHDVr5uIP9K\",\"url\":\"https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"j5tKFHDVr5uIP9K\",\"url\":\"https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:36.287Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323060,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://fayar.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

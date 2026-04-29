@@ -1,0 +1,9 @@
+{
+	"id": "UD1Cul4YKh0GLAj",
+	"json": "{\"id\":\"UD1Cul4YKh0GLAj\",\"url\":\"https://daytona.craigslist.org/bfs/d/flagler-beach-big-moving-sale-records/7906831610.html\",\"loadedUrl\":\"https://daytona.craigslist.org/bfs/d/flagler-beach-big-moving-sale-records/7906831610.html\",\"uniqueKey\":\"https://daytona.craigslist.org/bfs/d/flagler-beach-big-moving-sale-records/7906831610.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:00:30.893Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/bfs/d/flagler-beach-big-moving-sale-records/7906831610.html",
+	"url": "https://daytona.craigslist.org/bfs/d/flagler-beach-big-moving-sale-records/7906831610.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "amOEBmjsOi7aaJk",
+	"json": "{\"id\":\"amOEBmjsOi7aaJk\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-saturday-march-14th/7921027229.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-saturday-march-14th/7921027229.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-saturday-march-14th/7921027229.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:55:39.219Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-saturday-march-14th/7921027229.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-saturday-march-14th/7921027229.html"
+}

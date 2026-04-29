@@ -1,0 +1,9 @@
+{
+	"id": "1mr2GmRThq8JmMe",
+	"json": "{\"id\":\"1mr2GmRThq8JmMe\",\"url\":\"https://fortcollins.craigslist.org/gms/d/greeley-1964-chevelle-malibu-guy-estate/7923483898.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/greeley-1964-chevelle-malibu-guy-estate/7923483898.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/greeley-1964-chevelle-malibu-guy-estate/7923483898.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:48:40.214Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/greeley-1964-chevelle-malibu-guy-estate/7923483898.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/greeley-1964-chevelle-malibu-guy-estate/7923483898.html"
+}

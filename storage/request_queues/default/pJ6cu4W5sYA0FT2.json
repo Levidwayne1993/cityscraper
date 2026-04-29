@@ -1,0 +1,9 @@
+{
+	"id": "pJ6cu4W5sYA0FT2",
+	"json": "{\"id\":\"pJ6cu4W5sYA0FT2\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-williamsburg-community-yard-sale/7922131676.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-williamsburg-community-yard-sale/7922131676.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-williamsburg-community-yard-sale/7922131676.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:22:57.268Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-williamsburg-community-yard-sale/7922131676.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-williamsburg-community-yard-sale/7922131676.html"
+}

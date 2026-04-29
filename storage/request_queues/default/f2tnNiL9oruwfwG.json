@@ -1,0 +1,9 @@
+{
+	"id": "f2tnNiL9oruwfwG",
+	"json": "{\"id\":\"f2tnNiL9oruwfwG\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-big-barn-sale/7924979547.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-big-barn-sale/7924979547.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-big-barn-sale/7924979547.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:16.428Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-big-barn-sale/7924979547.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-big-barn-sale/7924979547.html"
+}

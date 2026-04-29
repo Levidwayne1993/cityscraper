@@ -1,0 +1,9 @@
+{
+	"id": "uOeBLZraIHAMZwY",
+	"json": "{\"id\":\"uOeBLZraIHAMZwY\",\"url\":\"https://inlandempire.craigslist.org/gms/d/menifee-estate-sale-menifee/7927490623.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/menifee-estate-sale-menifee/7927490623.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/menifee-estate-sale-menifee/7927490623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:11:33.957Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/menifee-estate-sale-menifee/7927490623.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/menifee-estate-sale-menifee/7927490623.html"
+}

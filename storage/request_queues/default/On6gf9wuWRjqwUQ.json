@@ -1,0 +1,9 @@
+{
+	"id": "On6gf9wuWRjqwUQ",
+	"json": "{\"id\":\"On6gf9wuWRjqwUQ\",\"url\":\"https://chattanooga.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://chattanooga.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186525977,
+	"retryCount": 0,
+	"uniqueKey": "https://chattanooga.craigslist.org/search/gms?s=480",
+	"url": "https://chattanooga.craigslist.org/search/gms?s=480"
+}

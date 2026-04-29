@@ -1,0 +1,9 @@
+{
+	"id": "cie7ZxmrmfSw63f",
+	"json": "{\"id\":\"cie7ZxmrmfSw63f\",\"url\":\"https://inlandempire.craigslist.org/gms/d/redlands-family-garage-sale-1212/7927006492.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/redlands-family-garage-sale-1212/7927006492.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/redlands-family-garage-sale-1212/7927006492.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:14:34.932Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/redlands-family-garage-sale-1212/7927006492.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/redlands-family-garage-sale-1212/7927006492.html"
+}

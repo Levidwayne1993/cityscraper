@@ -1,0 +1,9 @@
+{
+	"id": "QRlDjzukHDQMprn",
+	"json": "{\"id\":\"QRlDjzukHDQMprn\",\"url\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-th-street-eureka/7928065787.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-th-street-eureka/7928065787.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-th-street-eureka/7928065787.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:56:05.876Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/eureka-yard-sale-th-street-eureka/7928065787.html",
+	"url": "https://humboldt.craigslist.org/gms/d/eureka-yard-sale-th-street-eureka/7928065787.html"
+}

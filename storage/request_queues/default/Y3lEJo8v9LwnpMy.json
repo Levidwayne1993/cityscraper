@@ -1,0 +1,9 @@
+{
+	"id": "Y3lEJo8v9LwnpMy",
+	"json": "{\"id\":\"Y3lEJo8v9LwnpMy\",\"url\":\"https://ocala.craigslist.org/gms/d/lecanto-citrus-county-garage-sale/7928480666.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/lecanto-citrus-county-garage-sale/7928480666.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/lecanto-citrus-county-garage-sale/7928480666.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:26.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/lecanto-citrus-county-garage-sale/7928480666.html",
+	"url": "https://ocala.craigslist.org/gms/d/lecanto-citrus-county-garage-sale/7928480666.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LW7Z82aqxIN9MVG",
+	"json": "{\"id\":\"LW7Z82aqxIN9MVG\",\"url\":\"https://brunswick.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://brunswick.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517490,
+	"retryCount": 0,
+	"uniqueKey": "https://brunswick.craigslist.org/search/gms?s=360",
+	"url": "https://brunswick.craigslist.org/search/gms?s=360"
+}

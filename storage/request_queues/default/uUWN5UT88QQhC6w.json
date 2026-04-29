@@ -1,0 +1,9 @@
+{
+	"id": "uUWN5UT88QQhC6w",
+	"json": "{\"id\":\"uUWN5UT88QQhC6w\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-barrington-ridge-community/7929401751.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-barrington-ridge-community/7929401751.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-barrington-ridge-community/7929401751.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:56.150Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-barrington-ridge-community/7929401751.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-barrington-ridge-community/7929401751.html"
+}

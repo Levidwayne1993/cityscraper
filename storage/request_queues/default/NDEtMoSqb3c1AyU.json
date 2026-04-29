@@ -1,0 +1,9 @@
+{
+	"id": "NDEtMoSqb3c1AyU",
+	"json": "{\"id\":\"NDEtMoSqb3c1AyU\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-5306-silvergate-st-yard-sale/7930034153.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-5306-silvergate-st-yard-sale/7930034153.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-5306-silvergate-st-yard-sale/7930034153.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:24:04.215Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-5306-silvergate-st-yard-sale/7930034153.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-5306-silvergate-st-yard-sale/7930034153.html"
+}

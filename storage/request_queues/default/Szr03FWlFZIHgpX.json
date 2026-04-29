@@ -1,0 +1,9 @@
+{
+	"id": "Szr03FWlFZIHgpX",
+	"json": "{\"id\":\"Szr03FWlFZIHgpX\",\"url\":\"https://blacksburg.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://blacksburg.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527824,
+	"retryCount": 0,
+	"uniqueKey": "https://blacksburg.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://blacksburg.craigslist.org/search/ccc?query=garage+sale"
+}

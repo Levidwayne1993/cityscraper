@@ -1,0 +1,9 @@
+{
+	"id": "N8KOvYumbN77UQU",
+	"json": "{\"id\":\"N8KOvYumbN77UQU\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-10-year-garage-sale-clean-out/7926769074.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-10-year-garage-sale-clean-out/7926769074.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-10-year-garage-sale-clean-out/7926769074.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:41.899Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-10-year-garage-sale-clean-out/7926769074.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-10-year-garage-sale-clean-out/7926769074.html"
+}

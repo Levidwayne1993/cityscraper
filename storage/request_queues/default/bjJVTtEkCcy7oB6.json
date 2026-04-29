@@ -1,0 +1,9 @@
+{
+	"id": "bjJVTtEkCcy7oB6",
+	"json": "{\"id\":\"bjJVTtEkCcy7oB6\",\"url\":\"https://fortsmith.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://fortsmith.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://fortsmith.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:15:45.408Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://fortsmith.craigslist.org/search/ccc?query=yard+sale"
+}

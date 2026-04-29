@@ -1,0 +1,9 @@
+{
+	"id": "jGxxb3bWEnCsc0k",
+	"json": "{\"id\":\"jGxxb3bWEnCsc0k\",\"url\":\"https://delaware.craigslist.org/com/d/selbyville-community-yard-sale-estuary/7926689691.html\",\"loadedUrl\":\"https://delaware.craigslist.org/com/d/selbyville-community-yard-sale-estuary/7926689691.html\",\"uniqueKey\":\"https://delaware.craigslist.org/com/d/selbyville-community-yard-sale-estuary/7926689691.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:40.947Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/com/d/selbyville-community-yard-sale-estuary/7926689691.html",
+	"url": "https://delaware.craigslist.org/com/d/selbyville-community-yard-sale-estuary/7926689691.html"
+}

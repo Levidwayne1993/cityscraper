@@ -1,0 +1,9 @@
+{
+	"id": "IMhUZdScXD7bB3D",
+	"json": "{\"id\":\"IMhUZdScXD7bB3D\",\"url\":\"https://miami.craigslist.org/brw/gms/d/pembroke-pines-yard-sale/7930038320.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/pembroke-pines-yard-sale/7930038320.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/pembroke-pines-yard-sale/7930038320.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:10:06.614Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/pembroke-pines-yard-sale/7930038320.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/pembroke-pines-yard-sale/7930038320.html"
+}

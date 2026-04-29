@@ -1,0 +1,9 @@
+{
+	"id": "ln3PwdHu0i3TxAz",
+	"json": "{\"id\":\"ln3PwdHu0i3TxAz\",\"url\":\"https://chico.craigslist.org/gms/d/palermo-yard-sale-oroville/7921120796.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/palermo-yard-sale-oroville/7921120796.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/palermo-yard-sale-oroville/7921120796.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:30:47.289Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/palermo-yard-sale-oroville/7921120796.html",
+	"url": "https://chico.craigslist.org/gms/d/palermo-yard-sale-oroville/7921120796.html"
+}

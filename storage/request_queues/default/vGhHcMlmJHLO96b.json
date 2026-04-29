@@ -1,8 +1,8 @@
 {
 	"id": "vGhHcMlmJHLO96b",
-	"json": "{\"id\":\"vGhHcMlmJHLO96b\",\"url\":\"https://humboldt.craigslist.org/search/gms\",\"uniqueKey\":\"https://humboldt.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"vGhHcMlmJHLO96b\",\"url\":\"https://humboldt.craigslist.org/search/gms\",\"loadedUrl\":\"https://humboldt.craigslist.org/search/gms\",\"uniqueKey\":\"https://humboldt.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:55:07.976Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323150,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://humboldt.craigslist.org/search/gms",
 	"url": "https://humboldt.craigslist.org/search/gms"

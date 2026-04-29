@@ -1,0 +1,9 @@
+{
+	"id": "U9fG6ljQdMyuoZA",
+	"json": "{\"id\":\"U9fG6ljQdMyuoZA\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-furniture-and-more/7924802985.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-furniture-and-more/7924802985.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-furniture-and-more/7924802985.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:22.067Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-furniture-and-more/7924802985.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-furniture-and-more/7924802985.html"
+}

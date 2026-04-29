@@ -1,0 +1,9 @@
+{
+	"id": "U0kvZVWvvfeTWle",
+	"json": "{\"id\":\"U0kvZVWvvfeTWle\",\"url\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-soon/7929453630.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-soon/7929453630.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/gms/d/naples-moving-soon/7929453630.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:21:22.434Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/gms/d/naples-moving-soon/7929453630.html",
+	"url": "https://fortmyers.craigslist.org/col/gms/d/naples-moving-soon/7929453630.html"
+}

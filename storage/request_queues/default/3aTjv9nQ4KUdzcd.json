@@ -1,0 +1,9 @@
+{
+	"id": "3aTjv9nQ4KUdzcd",
+	"json": "{\"id\":\"3aTjv9nQ4KUdzcd\",\"url\":\"https://bgky.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://bgky.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186519935,
+	"retryCount": 0,
+	"uniqueKey": "https://bgky.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://bgky.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TG9UnshLtNZK14E",
+	"json": "{\"id\":\"TG9UnshLtNZK14E\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-huge-estate-sale/7930052718.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-huge-estate-sale/7930052718.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-huge-estate-sale/7930052718.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:37.554Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-huge-estate-sale/7930052718.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-huge-estate-sale/7930052718.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RgXQ4oEz2S9lBky",
+	"json": "{\"id\":\"RgXQ4oEz2S9lBky\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-community-garage-sale-sat/7929969525.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-community-garage-sale-sat/7929969525.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-community-garage-sale-sat/7929969525.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:43.138Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-community-garage-sale-sat/7929969525.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-community-garage-sale-sat/7929969525.html"
+}

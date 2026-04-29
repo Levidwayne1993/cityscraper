@@ -1,0 +1,9 @@
+{
+	"id": "zhooaywYBHdadE9",
+	"json": "{\"id\":\"zhooaywYBHdadE9\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-with-pokemon/7922573278.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-with-pokemon/7922573278.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-with-pokemon/7922573278.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:52.759Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-with-pokemon/7922573278.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-with-pokemon/7922573278.html"
+}

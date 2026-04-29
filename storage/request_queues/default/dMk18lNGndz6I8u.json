@@ -1,0 +1,9 @@
+{
+	"id": "dMk18lNGndz6I8u",
+	"json": "{\"id\":\"dMk18lNGndz6I8u\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-toyota-camry-1998-2000/7928218248.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-toyota-camry-1998-2000/7928218248.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-toyota-camry-1998-2000/7928218248.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:02.937Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-toyota-camry-1998-2000/7928218248.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-toyota-camry-1998-2000/7928218248.html"
+}

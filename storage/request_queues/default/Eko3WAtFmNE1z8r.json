@@ -1,0 +1,9 @@
+{
+	"id": "Eko3WAtFmNE1z8r",
+	"json": "{\"id\":\"Eko3WAtFmNE1z8r\",\"url\":\"https://mohave.craigslist.org/gms/d/bullhead-city-estate-salelite/7930219313.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/bullhead-city-estate-salelite/7930219313.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/bullhead-city-estate-salelite/7930219313.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:12.737Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/bullhead-city-estate-salelite/7930219313.html",
+	"url": "https://mohave.craigslist.org/gms/d/bullhead-city-estate-salelite/7930219313.html"
+}

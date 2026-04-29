@@ -1,0 +1,9 @@
+{
+	"id": "PvHYQR9uiwHRoqK",
+	"json": "{\"id\":\"PvHYQR9uiwHRoqK\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale/7926197123.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale/7926197123.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale/7926197123.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:42:54.609Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-yard-sale/7926197123.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-yard-sale/7926197123.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "diNPlUiJ04vwvmu",
+	"json": "{\"id\":\"diNPlUiJ04vwvmu\",\"url\":\"https://fayar.craigslist.org/gms/d/rogers-woods-creek-neighborhood-garage/7928927562.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/rogers-woods-creek-neighborhood-garage/7928927562.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/rogers-woods-creek-neighborhood-garage/7928927562.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:05.074Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/rogers-woods-creek-neighborhood-garage/7928927562.html",
+	"url": "https://fayar.craigslist.org/gms/d/rogers-woods-creek-neighborhood-garage/7928927562.html"
+}

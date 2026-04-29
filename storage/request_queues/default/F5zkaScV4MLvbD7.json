@@ -1,0 +1,9 @@
+{
+	"id": "F5zkaScV4MLvbD7",
+	"json": "{\"id\":\"F5zkaScV4MLvbD7\",\"url\":\"https://mendocino.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://mendocino.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://mendocino.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:27.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://mendocino.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

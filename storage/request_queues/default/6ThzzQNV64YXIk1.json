@@ -1,0 +1,9 @@
+{
+	"id": "6ThzzQNV64YXIk1",
+	"json": "{\"id\":\"6ThzzQNV64YXIk1\",\"url\":\"https://neworleans.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://neworleans.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520140,
+	"retryCount": 0,
+	"uniqueKey": "https://neworleans.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://neworleans.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

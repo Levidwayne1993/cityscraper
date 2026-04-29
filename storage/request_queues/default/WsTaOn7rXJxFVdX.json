@@ -1,0 +1,9 @@
+{
+	"id": "WsTaOn7rXJxFVdX",
+	"json": "{\"id\":\"WsTaOn7rXJxFVdX\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-fab-40s-garage-sale/7928404382.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-fab-40s-garage-sale/7928404382.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-fab-40s-garage-sale/7928404382.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:51:52.989Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-fab-40s-garage-sale/7928404382.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-fab-40s-garage-sale/7928404382.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "7XYGz6GOqlTkyrF",
+	"json": "{\"id\":\"7XYGz6GOqlTkyrF\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-sat-sun-am-1pm/7929548488.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-sat-sun-am-1pm/7929548488.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-sat-sun-am-1pm/7929548488.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:16.487Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-sat-sun-am-1pm/7929548488.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-sat-sun-am-1pm/7929548488.html"
+}

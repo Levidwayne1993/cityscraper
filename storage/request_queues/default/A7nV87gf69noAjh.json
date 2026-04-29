@@ -1,0 +1,9 @@
+{
+	"id": "A7nV87gf69noAjh",
+	"json": "{\"id\":\"A7nV87gf69noAjh\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-estate-sale-today-college-area/7925315180.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-estate-sale-today-college-area/7925315180.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-estate-sale-today-college-area/7925315180.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:00:11.399Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-estate-sale-today-college-area/7925315180.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-estate-sale-today-college-area/7925315180.html"
+}

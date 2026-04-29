@@ -1,0 +1,9 @@
+{
+	"id": "9gik8b4KY5YoP03",
+	"json": "{\"id\":\"9gik8b4KY5YoP03\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Tulsa-OK.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Tulsa-OK.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"OK\",\"yssSlug\":\"Tulsa-OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186532610,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Tulsa-OK.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Tulsa-OK.html"
+}

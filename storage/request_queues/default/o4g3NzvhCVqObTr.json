@@ -1,0 +1,9 @@
+{
+	"id": "o4g3NzvhCVqObTr",
+	"json": "{\"id\":\"o4g3NzvhCVqObTr\",\"url\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-saturday-and/7923919234.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-saturday-and/7923919234.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-saturday-and/7923919234.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:27.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-saturday-and/7923919234.html",
+	"url": "https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-saturday-and/7923919234.html"
+}

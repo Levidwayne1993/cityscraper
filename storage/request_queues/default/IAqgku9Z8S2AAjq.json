@@ -1,0 +1,9 @@
+{
+	"id": "IAqgku9Z8S2AAjq",
+	"json": "{\"id\":\"IAqgku9Z8S2AAjq\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/AK/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/AK\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"AK\"}}",
+	"method": "GET",
+	"orderNo": 1777186528834,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/AK",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/AK/"
+}

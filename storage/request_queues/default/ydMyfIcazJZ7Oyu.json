@@ -1,0 +1,9 @@
+{
+	"id": "ydMyfIcazJZ7Oyu",
+	"json": "{\"id\":\"ydMyfIcazJZ7Oyu\",\"url\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale-saturday-28-lots/7924035112.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale-saturday-28-lots/7924035112.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale-saturday-28-lots/7924035112.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:43:07.311Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/atascadero-yard-sale-saturday-28-lots/7924035112.html",
+	"url": "https://slo.craigslist.org/gms/d/atascadero-yard-sale-saturday-28-lots/7924035112.html"
+}

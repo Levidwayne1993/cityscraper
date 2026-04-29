@@ -1,8 +1,8 @@
 {
 	"id": "rnSlV9REetkYpMr",
-	"json": "{\"id\":\"rnSlV9REetkYpMr\",\"url\":\"https://anchorage.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"rnSlV9REetkYpMr\",\"url\":\"https://anchorage.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://anchorage.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://anchorage.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:14.546Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322941,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://anchorage.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://anchorage.craigslist.org/search/sss?query=moving+sale"

@@ -1,0 +1,9 @@
+{
+	"id": "A0u1bTHRzMJluk8",
+	"json": "{\"id\":\"A0u1bTHRzMJluk8\",\"url\":\"https://nwct.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://nwct.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://nwct.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:15:52.575Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://nwct.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "2q5R5FHqC5bn01a",
-	"json": "{\"id\":\"2q5R5FHqC5bn01a\",\"url\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"2q5R5FHqC5bn01a\",\"url\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:18:55.755Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323473,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

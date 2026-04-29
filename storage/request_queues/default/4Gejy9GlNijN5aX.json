@@ -1,0 +1,9 @@
+{
+	"id": "4Gejy9GlNijN5aX",
+	"json": "{\"id\":\"4Gejy9GlNijN5aX\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-moving-yard-sale/7930073143.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-moving-yard-sale/7930073143.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-moving-yard-sale/7930073143.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:18:52.921Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-moving-yard-sale/7930073143.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-moving-yard-sale/7930073143.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1xsUGVMbd0PrVzZ",
+	"json": "{\"id\":\"1xsUGVMbd0PrVzZ\",\"url\":\"https://keys.craigslist.org/gms/d/big-pine-key-largest-yard-sale-ending/7926797295.html\",\"loadedUrl\":\"https://keys.craigslist.org/gms/d/big-pine-key-largest-yard-sale-ending/7926797295.html\",\"uniqueKey\":\"https://keys.craigslist.org/gms/d/big-pine-key-largest-yard-sale-ending/7926797295.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:02:23.823Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://keys.craigslist.org/gms/d/big-pine-key-largest-yard-sale-ending/7926797295.html",
+	"url": "https://keys.craigslist.org/gms/d/big-pine-key-largest-yard-sale-ending/7926797295.html"
+}

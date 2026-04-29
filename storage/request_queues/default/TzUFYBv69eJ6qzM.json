@@ -1,0 +1,9 @@
+{
+	"id": "TzUFYBv69eJ6qzM",
+	"json": "{\"id\":\"TzUFYBv69eJ6qzM\",\"url\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-estate-sale/7922636588.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-estate-sale/7922636588.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-estate-sale/7922636588.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:10:39.763Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/lake-elsinore-estate-sale/7922636588.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/lake-elsinore-estate-sale/7922636588.html"
+}

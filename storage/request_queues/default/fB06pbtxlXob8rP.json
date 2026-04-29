@@ -1,0 +1,9 @@
+{
+	"id": "fB06pbtxlXob8rP",
+	"json": "{\"id\":\"fB06pbtxlXob8rP\",\"url\":\"https://phoenix.craigslist.org/evl/clt/d/tempe-estate-sale-geisha-samurai/7903603475.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/clt/d/tempe-estate-sale-geisha-samurai/7903603475.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/clt/d/tempe-estate-sale-geisha-samurai/7903603475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:36:21.380Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/clt/d/tempe-estate-sale-geisha-samurai/7903603475.html",
+	"url": "https://phoenix.craigslist.org/evl/clt/d/tempe-estate-sale-geisha-samurai/7903603475.html"
+}

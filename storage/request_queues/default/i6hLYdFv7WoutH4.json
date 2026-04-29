@@ -1,0 +1,9 @@
+{
+	"id": "i6hLYdFv7WoutH4",
+	"json": "{\"id\":\"i6hLYdFv7WoutH4\",\"url\":\"https://eastidaho.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://eastidaho.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518010,
+	"retryCount": 0,
+	"uniqueKey": "https://eastidaho.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://eastidaho.craigslist.org/search/ccc?query=garage+sale"
+}

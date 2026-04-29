@@ -1,0 +1,9 @@
+{
+	"id": "qeF75xjLl4JukIz",
+	"json": "{\"id\":\"qeF75xjLl4JukIz\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-estate-sale-april/7929800401.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-estate-sale-april/7929800401.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-estate-sale-april/7929800401.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:33.258Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/vallejo-estate-sale-april/7929800401.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/vallejo-estate-sale-april/7929800401.html"
+}

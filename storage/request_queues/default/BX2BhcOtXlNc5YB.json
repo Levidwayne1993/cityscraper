@@ -1,0 +1,9 @@
+{
+	"id": "BX2BhcOtXlNc5YB",
+	"json": "{\"id\":\"BX2BhcOtXlNc5YB\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-liquidation-sale/7925510762.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-liquidation-sale/7925510762.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-liquidation-sale/7925510762.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:19.943Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-liquidation-sale/7925510762.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-liquidation-sale/7925510762.html"
+}

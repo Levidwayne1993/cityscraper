@@ -1,0 +1,9 @@
+{
+	"id": "nUgsMXpUnTXt0nK",
+	"json": "{\"id\":\"nUgsMXpUnTXt0nK\",\"url\":\"https://tuscaloosa.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://tuscaloosa.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:09:59.961Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscaloosa.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://tuscaloosa.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CI3VR7jv3z32xuz",
+	"json": "{\"id\":\"CI3VR7jv3z32xuz\",\"url\":\"https://fayar.craigslist.org/gms/d/springdale-moving-sale-downsizing/7926556096.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/springdale-moving-sale-downsizing/7926556096.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/springdale-moving-sale-downsizing/7926556096.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:53.955Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/springdale-moving-sale-downsizing/7926556096.html",
+	"url": "https://fayar.craigslist.org/gms/d/springdale-moving-sale-downsizing/7926556096.html"
+}

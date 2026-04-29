@@ -1,0 +1,9 @@
+{
+	"id": "IoGDWhX2QBCVYdH",
+	"json": "{\"id\":\"IoGDWhX2QBCVYdH\",\"url\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-huge-multi-family-garage/7920894571.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-huge-multi-family-garage/7920894571.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/cathedral-city-huge-multi-family-garage/7920894571.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:30:54.506Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/cathedral-city-huge-multi-family-garage/7920894571.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/cathedral-city-huge-multi-family-garage/7920894571.html"
+}

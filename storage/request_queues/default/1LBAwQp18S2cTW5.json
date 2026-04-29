@@ -1,0 +1,9 @@
+{
+	"id": "1LBAwQp18S2cTW5",
+	"json": "{\"id\":\"1LBAwQp18S2cTW5\",\"url\":\"https://denver.craigslist.org/gms/d/castle-rock-lg-50-inch-led-4k-uhd-ai/7929967587.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/castle-rock-lg-50-inch-led-4k-uhd-ai/7929967587.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/castle-rock-lg-50-inch-led-4k-uhd-ai/7929967587.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:04.569Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/castle-rock-lg-50-inch-led-4k-uhd-ai/7929967587.html",
+	"url": "https://denver.craigslist.org/gms/d/castle-rock-lg-50-inch-led-4k-uhd-ai/7929967587.html"
+}

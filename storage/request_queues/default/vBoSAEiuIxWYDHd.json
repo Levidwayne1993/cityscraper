@@ -1,0 +1,9 @@
+{
+	"id": "vBoSAEiuIxWYDHd",
+	"json": "{\"id\":\"vBoSAEiuIxWYDHd\",\"url\":\"https://gainesville.craigslist.org/gms/d/high-springs-huge-yard-sale-saturday/7922556237.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/high-springs-huge-yard-sale-saturday/7922556237.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/high-springs-huge-yard-sale-saturday/7922556237.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:30:05.385Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/high-springs-huge-yard-sale-saturday/7922556237.html",
+	"url": "https://gainesville.craigslist.org/gms/d/high-springs-huge-yard-sale-saturday/7922556237.html"
+}

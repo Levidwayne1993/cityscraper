@@ -1,0 +1,9 @@
+{
+	"id": "auSkgBTFNfP2DUV",
+	"json": "{\"id\":\"auSkgBTFNfP2DUV\",\"url\":\"https://gainesville.craigslist.org/gms/d/cross-city-huge-tag-sale/7921173703.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/cross-city-huge-tag-sale/7921173703.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/cross-city-huge-tag-sale/7921173703.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:31:15.142Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/cross-city-huge-tag-sale/7921173703.html",
+	"url": "https://gainesville.craigslist.org/gms/d/cross-city-huge-tag-sale/7921173703.html"
+}

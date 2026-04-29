@@ -1,0 +1,9 @@
+{
+	"id": "bVYLsaf4d03ZPh5",
+	"json": "{\"id\":\"bVYLsaf4d03ZPh5\",\"url\":\"https://newhaven.craigslist.org/gms/d/centerbrook-estate-sale-19-deep-river/7925264337.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/centerbrook-estate-sale-19-deep-river/7925264337.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/centerbrook-estate-sale-19-deep-river/7925264337.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:51.551Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/centerbrook-estate-sale-19-deep-river/7925264337.html",
+	"url": "https://newhaven.craigslist.org/gms/d/centerbrook-estate-sale-19-deep-river/7925264337.html"
+}

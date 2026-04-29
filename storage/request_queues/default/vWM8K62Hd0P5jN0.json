@@ -1,0 +1,9 @@
+{
+	"id": "vWM8K62Hd0P5jN0",
+	"json": "{\"id\":\"vWM8K62Hd0P5jN0\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-buenos-precios-de-cambio-de/7930088840.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-buenos-precios-de-cambio-de/7930088840.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-buenos-precios-de-cambio-de/7930088840.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:28.986Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hialeah-buenos-precios-de-cambio-de/7930088840.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hialeah-buenos-precios-de-cambio-de/7930088840.html"
+}

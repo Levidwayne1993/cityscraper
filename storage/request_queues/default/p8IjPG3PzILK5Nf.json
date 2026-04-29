@@ -1,0 +1,9 @@
+{
+	"id": "p8IjPG3PzILK5Nf",
+	"json": "{\"id\":\"p8IjPG3PzILK5Nf\",\"url\":\"https://huntsville.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://huntsville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:04:05.180Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://huntsville.craigslist.org/search/ccc?query=yard+sale"
+}

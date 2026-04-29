@@ -1,0 +1,9 @@
+{
+	"id": "09Rlc1LmI03F50j",
+	"json": "{\"id\":\"09Rlc1LmI03F50j\",\"url\":\"https://denver.craigslist.org/gms/d/henderson-free-desktop-flexispot/7929486157.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/henderson-free-desktop-flexispot/7929486157.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/henderson-free-desktop-flexispot/7929486157.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:01.345Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/henderson-free-desktop-flexispot/7929486157.html",
+	"url": "https://denver.craigslist.org/gms/d/henderson-free-desktop-flexispot/7929486157.html"
+}

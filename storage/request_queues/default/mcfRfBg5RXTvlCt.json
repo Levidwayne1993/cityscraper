@@ -1,0 +1,9 @@
+{
+	"id": "mcfRfBg5RXTvlCt",
+	"json": "{\"id\":\"mcfRfBg5RXTvlCt\",\"url\":\"https://midland.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://midland.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526344,
+	"retryCount": 0,
+	"uniqueKey": "https://midland.craigslist.org/search/gms?s=360",
+	"url": "https://midland.craigslist.org/search/gms?s=360"
+}

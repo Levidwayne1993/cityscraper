@@ -1,9 +1,0 @@
-{
-	"id": "HyemQNRinkZnORt",
-	"json": "{\"id\":\"HyemQNRinkZnORt\",\"url\":\"https://www.garagesalefinder.com/sale/New-York\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/New-York\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"New York\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330325,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/New-York",
-	"url": "https://www.garagesalefinder.com/sale/New-York"
-}

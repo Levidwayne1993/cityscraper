@@ -1,0 +1,9 @@
+{
+	"id": "obOtfFnixFP9FVi",
+	"json": "{\"id\":\"obOtfFnixFP9FVi\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/lehigh-acres-lehigh-acres-flea-market/7929598761.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/lehigh-acres-lehigh-acres-flea-market/7929598761.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/lehigh-acres-lehigh-acres-flea-market/7929598761.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:28:14.100Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/lehigh-acres-lehigh-acres-flea-market/7929598761.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/lehigh-acres-lehigh-acres-flea-market/7929598761.html"
+}

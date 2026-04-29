@@ -1,9 +1,0 @@
-{
-	"id": "Lfu1k3FYejfnZyJ",
-	"json": "{\"id\":\"Lfu1k3FYejfnZyJ\",\"url\":\"https://www.garagesalefinder.com/sale/Massachusetts\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Massachusetts\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Massachusetts\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330269,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Massachusetts",
-	"url": "https://www.garagesalefinder.com/sale/Massachusetts"
-}

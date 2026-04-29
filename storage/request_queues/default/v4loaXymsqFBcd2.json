@@ -1,0 +1,9 @@
+{
+	"id": "v4loaXymsqFBcd2",
+	"json": "{\"id\":\"v4loaXymsqFBcd2\",\"url\":\"https://annarbor.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://annarbor.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520564,
+	"retryCount": 0,
+	"uniqueKey": "https://annarbor.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://annarbor.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

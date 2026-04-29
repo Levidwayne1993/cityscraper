@@ -1,0 +1,9 @@
+{
+	"id": "FClIPPWAR7DLZXT",
+	"json": "{\"id\":\"FClIPPWAR7DLZXT\",\"url\":\"https://mendocino.craigslist.org/gms/d/ukiah-garage-sale-fifty-years-of-hopes/7928807779.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/ukiah-garage-sale-fifty-years-of-hopes/7928807779.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/ukiah-garage-sale-fifty-years-of-hopes/7928807779.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:47:08.655Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/ukiah-garage-sale-fifty-years-of-hopes/7928807779.html",
+	"url": "https://mendocino.craigslist.org/gms/d/ukiah-garage-sale-fifty-years-of-hopes/7928807779.html"
+}

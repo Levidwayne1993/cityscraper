@@ -1,0 +1,9 @@
+{
+	"id": "w06kvAS0cfN2AnQ",
+	"json": "{\"id\":\"w06kvAS0cfN2AnQ\",\"url\":\"https://worcester.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://worcester.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520530,
+	"retryCount": 0,
+	"uniqueKey": "https://worcester.craigslist.org/search/gms?s=360",
+	"url": "https://worcester.craigslist.org/search/gms?s=360"
+}

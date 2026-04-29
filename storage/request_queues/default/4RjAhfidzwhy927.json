@@ -1,0 +1,9 @@
+{
+	"id": "4RjAhfidzwhy927",
+	"json": "{\"id\":\"4RjAhfidzwhy927\",\"url\":\"https://mohave.craigslist.org/gms/d/golden-valley-huge-garage-yard-sale/7923685689.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/golden-valley-huge-garage-yard-sale/7923685689.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/golden-valley-huge-garage-yard-sale/7923685689.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:18.095Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/golden-valley-huge-garage-yard-sale/7923685689.html",
+	"url": "https://mohave.craigslist.org/gms/d/golden-valley-huge-garage-yard-sale/7923685689.html"
+}

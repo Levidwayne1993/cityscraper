@@ -1,0 +1,9 @@
+{
+	"id": "mn57zuUFAaQivKE",
+	"json": "{\"id\":\"mn57zuUFAaQivKE\",\"url\":\"https://washingtondc.craigslist.org/doc/msg/d/centreville-moving-sale-kawai-cx/7928853839.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/msg/d/centreville-moving-sale-kawai-cx/7928853839.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/msg/d/centreville-moving-sale-kawai-cx/7928853839.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:29:55.297Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/msg/d/centreville-moving-sale-kawai-cx/7928853839.html",
+	"url": "https://washingtondc.craigslist.org/doc/msg/d/centreville-moving-sale-kawai-cx/7928853839.html"
+}

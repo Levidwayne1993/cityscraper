@@ -1,0 +1,9 @@
+{
+	"id": "3Ou6pI8j9Df7fTP",
+	"json": "{\"id\":\"3Ou6pI8j9Df7fTP\",\"url\":\"https://westmd.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://westmd.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520401,
+	"retryCount": 0,
+	"uniqueKey": "https://westmd.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://westmd.craigslist.org/search/ccc?query=yard+sale"
+}

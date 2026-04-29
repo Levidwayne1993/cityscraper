@@ -1,0 +1,9 @@
+{
+	"id": "9VHBFZSp7Hjk8xP",
+	"json": "{\"id\":\"9VHBFZSp7Hjk8xP\",\"url\":\"https://www.estatesales.net/estate-sales/New-York\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/New-York\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"New-York\"}}",
+	"method": "GET",
+	"orderNo": 1777186528722,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/New-York",
+	"url": "https://www.estatesales.net/estate-sales/New-York"
+}

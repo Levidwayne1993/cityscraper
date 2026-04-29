@@ -1,0 +1,9 @@
+{
+	"id": "T8us1Wsg8ijmWNA",
+	"json": "{\"id\":\"T8us1Wsg8ijmWNA\",\"url\":\"https://delaware.craigslist.org/gms/d/delaware-city-annual-yard-sale/7929930562.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/delaware-city-annual-yard-sale/7929930562.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/delaware-city-annual-yard-sale/7929930562.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:12.819Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/delaware-city-annual-yard-sale/7929930562.html",
+	"url": "https://delaware.craigslist.org/gms/d/delaware-city-annual-yard-sale/7929930562.html"
+}

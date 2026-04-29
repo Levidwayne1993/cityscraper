@@ -1,0 +1,9 @@
+{
+	"id": "BMo8od9S6iCdrtL",
+	"json": "{\"id\":\"BMo8od9S6iCdrtL\",\"url\":\"https://lacrosse.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://lacrosse.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528325,
+	"retryCount": 0,
+	"uniqueKey": "https://lacrosse.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://lacrosse.craigslist.org/search/ccc?query=yard+sale"
+}

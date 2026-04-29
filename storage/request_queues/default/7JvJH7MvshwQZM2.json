@@ -1,0 +1,9 @@
+{
+	"id": "7JvJH7MvshwQZM2",
+	"json": "{\"id\":\"7JvJH7MvshwQZM2\",\"url\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-saturday-april-25th/7929804435.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-saturday-april-25th/7929804435.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/arcata-yard-sale-saturday-april-25th/7929804435.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:57:13.198Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/arcata-yard-sale-saturday-april-25th/7929804435.html",
+	"url": "https://humboldt.craigslist.org/gms/d/arcata-yard-sale-saturday-april-25th/7929804435.html"
+}

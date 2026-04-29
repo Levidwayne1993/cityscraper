@@ -1,0 +1,9 @@
+{
+	"id": "9ApSHug0QeneImx",
+	"json": "{\"id\":\"9ApSHug0QeneImx\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-large-community-yard-sale/7929863553.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-large-community-yard-sale/7929863553.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-large-community-yard-sale/7929863553.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:23:52.891Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-large-community-yard-sale/7929863553.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-large-community-yard-sale/7929863553.html"
+}

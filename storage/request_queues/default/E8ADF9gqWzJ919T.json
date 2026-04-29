@@ -1,0 +1,9 @@
+{
+	"id": "E8ADF9gqWzJ919T",
+	"json": "{\"id\":\"E8ADF9gqWzJ919T\",\"url\":\"https://billings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://billings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186521430,
+	"retryCount": 0,
+	"uniqueKey": "https://billings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://billings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

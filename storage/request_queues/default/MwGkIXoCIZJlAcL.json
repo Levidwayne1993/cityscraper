@@ -1,0 +1,9 @@
+{
+	"id": "MwGkIXoCIZJlAcL",
+	"json": "{\"id\":\"MwGkIXoCIZJlAcL\",\"url\":\"https://porthuron.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://porthuron.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520872,
+	"retryCount": 0,
+	"uniqueKey": "https://porthuron.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://porthuron.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

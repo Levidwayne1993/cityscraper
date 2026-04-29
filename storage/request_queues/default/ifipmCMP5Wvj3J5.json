@@ -1,0 +1,9 @@
+{
+	"id": "ifipmCMP5Wvj3J5",
+	"json": "{\"id\":\"ifipmCMP5Wvj3J5\",\"url\":\"https://pensacola.craigslist.org/hsh/d/pensacola-yard-sale-saturday-april-am/7927645767.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/hsh/d/pensacola-yard-sale-saturday-april-am/7927645767.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/hsh/d/pensacola-yard-sale-saturday-april-am/7927645767.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:43:06.277Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/hsh/d/pensacola-yard-sale-saturday-april-am/7927645767.html",
+	"url": "https://pensacola.craigslist.org/hsh/d/pensacola-yard-sale-saturday-april-am/7927645767.html"
+}

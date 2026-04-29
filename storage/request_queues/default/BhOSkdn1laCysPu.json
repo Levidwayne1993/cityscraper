@@ -1,0 +1,9 @@
+{
+	"id": "BhOSkdn1laCysPu",
+	"json": "{\"id\":\"BhOSkdn1laCysPu\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/emeryville-moving-sale-saturday-25/7930037718.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/emeryville-moving-sale-saturday-25/7930037718.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/emeryville-moving-sale-saturday-25/7930037718.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:54.539Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/emeryville-moving-sale-saturday-25/7930037718.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/emeryville-moving-sale-saturday-25/7930037718.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YyFI7ZR4IpqIf12",
+	"json": "{\"id\":\"YyFI7ZR4IpqIf12\",\"url\":\"https://burlington.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://burlington.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VT\"}}",
+	"method": "GET",
+	"orderNo": 1777186527708,
+	"retryCount": 0,
+	"uniqueKey": "https://burlington.craigslist.org/search/gms?s=480",
+	"url": "https://burlington.craigslist.org/search/gms?s=480"
+}

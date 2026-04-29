@@ -1,0 +1,9 @@
+{
+	"id": "AQSOuFfcstyo0hd",
+	"json": "{\"id\":\"AQSOuFfcstyo0hd\",\"url\":\"https://nwct.craigslist.org/gms/d/torrington-huge-barn-tag-sale-harwinton/7927819347.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/torrington-huge-barn-tag-sale-harwinton/7927819347.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/torrington-huge-barn-tag-sale-harwinton/7927819347.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:44.747Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/torrington-huge-barn-tag-sale-harwinton/7927819347.html",
+	"url": "https://nwct.craigslist.org/gms/d/torrington-huge-barn-tag-sale-harwinton/7927819347.html"
+}

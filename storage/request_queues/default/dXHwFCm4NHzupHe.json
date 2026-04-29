@@ -1,0 +1,9 @@
+{
+	"id": "dXHwFCm4NHzupHe",
+	"json": "{\"id\":\"dXHwFCm4NHzupHe\",\"url\":\"https://gadsden.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://gadsden.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:01:31.157Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gadsden.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://gadsden.craigslist.org/search/ccc?query=yard+sale"
+}

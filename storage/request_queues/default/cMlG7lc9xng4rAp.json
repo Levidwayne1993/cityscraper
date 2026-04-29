@@ -1,0 +1,9 @@
+{
+	"id": "cMlG7lc9xng4rAp",
+	"json": "{\"id\":\"cMlG7lc9xng4rAp\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-multi-family-estate-sale/7923727166.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-multi-family-estate-sale/7923727166.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-multi-family-estate-sale/7923727166.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:39.559Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-multi-family-estate-sale/7923727166.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-multi-family-estate-sale/7923727166.html"
+}

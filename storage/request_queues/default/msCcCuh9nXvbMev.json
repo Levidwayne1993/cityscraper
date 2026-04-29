@@ -1,0 +1,9 @@
+{
+	"id": "msCcCuh9nXvbMev",
+	"json": "{\"id\":\"msCcCuh9nXvbMev\",\"url\":\"https://miami.craigslist.org/mdc/atq/d/miami-beach-moving-sale/7927462752.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/atq/d/miami-beach-moving-sale/7927462752.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/atq/d/miami-beach-moving-sale/7927462752.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:00.653Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/atq/d/miami-beach-moving-sale/7927462752.html",
+	"url": "https://miami.craigslist.org/mdc/atq/d/miami-beach-moving-sale/7927462752.html"
+}

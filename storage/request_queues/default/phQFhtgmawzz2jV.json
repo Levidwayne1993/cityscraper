@@ -1,0 +1,9 @@
+{
+	"id": "phQFhtgmawzz2jV",
+	"json": "{\"id\":\"phQFhtgmawzz2jV\",\"url\":\"https://sacramento.craigslist.org/gms/d/newcastle-estate-sale-donation-based/7928172677.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/newcastle-estate-sale-donation-based/7928172677.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/newcastle-estate-sale-donation-based/7928172677.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:34.771Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/newcastle-estate-sale-donation-based/7928172677.html",
+	"url": "https://sacramento.craigslist.org/gms/d/newcastle-estate-sale-donation-based/7928172677.html"
+}

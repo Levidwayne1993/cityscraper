@@ -1,0 +1,9 @@
+{
+	"id": "3po0gFkAZDfY7qy",
+	"json": "{\"id\":\"3po0gFkAZDfY7qy\",\"url\":\"https://stjoseph.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://stjoseph.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521389,
+	"retryCount": 0,
+	"uniqueKey": "https://stjoseph.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://stjoseph.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "8aj54hguU8OI74D",
-	"json": "{\"id\":\"8aj54hguU8OI74D\",\"url\":\"https://visalia.craigslist.org/search/gms\",\"uniqueKey\":\"https://visalia.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"8aj54hguU8OI74D\",\"url\":\"https://visalia.craigslist.org/search/gms\",\"loadedUrl\":\"https://visalia.craigslist.org/search/gms\",\"uniqueKey\":\"https://visalia.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:18:39.351Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323340,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://visalia.craigslist.org/search/gms",
 	"url": "https://visalia.craigslist.org/search/gms"

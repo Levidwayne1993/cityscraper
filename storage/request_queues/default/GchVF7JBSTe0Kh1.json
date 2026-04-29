@@ -1,0 +1,9 @@
+{
+	"id": "GchVF7JBSTe0Kh1",
+	"json": "{\"id\":\"GchVF7JBSTe0Kh1\",\"url\":\"https://chico.craigslist.org/gms/d/paradise-antiques-silver-coins-knives/7925419795.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/paradise-antiques-silver-coins-knives/7925419795.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/paradise-antiques-silver-coins-knives/7925419795.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:29:14.320Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/paradise-antiques-silver-coins-knives/7925419795.html",
+	"url": "https://chico.craigslist.org/gms/d/paradise-antiques-silver-coins-knives/7925419795.html"
+}

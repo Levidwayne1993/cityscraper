@@ -1,0 +1,9 @@
+{
+	"id": "yoxpIyIW2NH6wUs",
+	"json": "{\"id\":\"yoxpIyIW2NH6wUs\",\"url\":\"https://tucson.craigslist.org/gms/d/cortaro-estate-sale-dutch-digger/7920901927.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/cortaro-estate-sale-dutch-digger/7920901927.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/cortaro-estate-sale-dutch-digger/7920901927.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:03:43.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/cortaro-estate-sale-dutch-digger/7920901927.html",
+	"url": "https://tucson.craigslist.org/gms/d/cortaro-estate-sale-dutch-digger/7920901927.html"
+}

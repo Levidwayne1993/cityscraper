@@ -1,0 +1,9 @@
+{
+	"id": "Xs4li0pqkLyV313",
+	"json": "{\"id\":\"Xs4li0pqkLyV313\",\"url\":\"https://sarasota.craigslist.org/gms/d/north-port-multi-family-yard-sale/7920945196.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/north-port-multi-family-yard-sale/7920945196.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/north-port-multi-family-yard-sale/7920945196.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:45:54.118Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/north-port-multi-family-yard-sale/7920945196.html",
+	"url": "https://sarasota.craigslist.org/gms/d/north-port-multi-family-yard-sale/7920945196.html"
+}

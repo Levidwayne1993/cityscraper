@@ -1,0 +1,9 @@
+{
+	"id": "LjwgUCkslELRsHw",
+	"json": "{\"id\":\"LjwgUCkslELRsHw\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-falcon-garage-sale-2/7927031072.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-falcon-garage-sale-2/7927031072.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-falcon-garage-sale-2/7927031072.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:54.617Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-falcon-garage-sale-2/7927031072.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-falcon-garage-sale-2/7927031072.html"
+}

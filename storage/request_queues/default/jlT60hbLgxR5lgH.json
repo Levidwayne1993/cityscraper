@@ -1,0 +1,9 @@
+{
+	"id": "jlT60hbLgxR5lgH",
+	"json": "{\"id\":\"jlT60hbLgxR5lgH\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale/7929576910.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale/7929576910.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale/7929576910.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:33:24.771Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale/7929576910.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale/7929576910.html"
+}

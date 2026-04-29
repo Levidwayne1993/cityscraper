@@ -1,0 +1,9 @@
+{
+	"id": "FOa2OiCJUjMNa36",
+	"json": "{\"id\":\"FOa2OiCJUjMNa36\",\"url\":\"https://pueblo.craigslist.org/zip/d/boone-freemoving-everything-must-go/7928852386.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/zip/d/boone-freemoving-everything-must-go/7928852386.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/zip/d/boone-freemoving-everything-must-go/7928852386.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:39.934Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/zip/d/boone-freemoving-everything-must-go/7928852386.html",
+	"url": "https://pueblo.craigslist.org/zip/d/boone-freemoving-everything-must-go/7928852386.html"
+}

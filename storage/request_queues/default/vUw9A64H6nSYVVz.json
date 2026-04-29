@@ -1,0 +1,9 @@
+{
+	"id": "vUw9A64H6nSYVVz",
+	"json": "{\"id\":\"vUw9A64H6nSYVVz\",\"url\":\"https://jacksonville.craigslist.org/gms/d/orange-park-half-price-starting-sat-2pm/7922380324.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/orange-park-half-price-starting-sat-2pm/7922380324.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/orange-park-half-price-starting-sat-2pm/7922380324.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:24.262Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/orange-park-half-price-starting-sat-2pm/7922380324.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/orange-park-half-price-starting-sat-2pm/7922380324.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "QYm318NGQw1h8zF",
+	"json": "{\"id\":\"QYm318NGQw1h8zF\",\"url\":\"https://hartford.craigslist.org/gms/d/cheshire-glass-antiques-vintage/7926311442.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/cheshire-glass-antiques-vintage/7926311442.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/cheshire-glass-antiques-vintage/7926311442.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:07:30.184Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/cheshire-glass-antiques-vintage/7926311442.html",
+	"url": "https://hartford.craigslist.org/gms/d/cheshire-glass-antiques-vintage/7926311442.html"
+}

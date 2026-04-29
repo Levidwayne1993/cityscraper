@@ -1,0 +1,9 @@
+{
+	"id": "bbApEWH1CLHrthS",
+	"json": "{\"id\":\"bbApEWH1CLHrthS\",\"url\":\"https://imperial.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://imperial.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://imperial.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:00:21.992Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://imperial.craigslist.org/search/gms?s=480",
+	"url": "https://imperial.craigslist.org/search/gms?s=480"
+}

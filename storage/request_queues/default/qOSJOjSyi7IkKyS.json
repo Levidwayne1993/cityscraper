@@ -1,0 +1,9 @@
+{
+	"id": "qOSJOjSyi7IkKyS",
+	"json": "{\"id\":\"qOSJOjSyi7IkKyS\",\"url\":\"https://denver.craigslist.org/gms/d/denver-free-day-estate-sale-everything/7928045628.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-free-day-estate-sale-everything/7928045628.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-free-day-estate-sale-everything/7928045628.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:42.650Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-free-day-estate-sale-everything/7928045628.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-free-day-estate-sale-everything/7928045628.html"
+}

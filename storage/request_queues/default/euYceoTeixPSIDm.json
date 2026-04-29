@@ -1,0 +1,9 @@
+{
+	"id": "euYceoTeixPSIDm",
+	"json": "{\"id\":\"euYceoTeixPSIDm\",\"url\":\"https://annapolis.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://annapolis.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520256,
+	"retryCount": 0,
+	"uniqueKey": "https://annapolis.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://annapolis.craigslist.org/search/ccc?query=yard+sale"
+}

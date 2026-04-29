@@ -1,0 +1,9 @@
+{
+	"id": "nPpdnjgvCp3pqsb",
+	"json": "{\"id\":\"nPpdnjgvCp3pqsb\",\"url\":\"https://pensacola.craigslist.org/gms/d/navarre-easter-spring-garage-sale-2437/7924517070.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/navarre-easter-spring-garage-sale-2437/7924517070.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/navarre-easter-spring-garage-sale-2437/7924517070.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:43:19.058Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/navarre-easter-spring-garage-sale-2437/7924517070.html",
+	"url": "https://pensacola.craigslist.org/gms/d/navarre-easter-spring-garage-sale-2437/7924517070.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zawd0RDIY7FObe6",
+	"json": "{\"id\":\"zawd0RDIY7FObe6\",\"url\":\"https://youngstown.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://youngstown.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186525016,
+	"retryCount": 0,
+	"uniqueKey": "https://youngstown.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://youngstown.craigslist.org/search/ccc?query=yard+sale"
+}

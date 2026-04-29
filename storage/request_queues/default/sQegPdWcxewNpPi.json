@@ -1,0 +1,9 @@
+{
+	"id": "sQegPdWcxewNpPi",
+	"json": "{\"id\":\"sQegPdWcxewNpPi\",\"url\":\"https://slo.craigslist.org/gms/d/arroyo-grande-yard-sale/7924028569.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/arroyo-grande-yard-sale/7924028569.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/arroyo-grande-yard-sale/7924028569.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:43:04.592Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/arroyo-grande-yard-sale/7924028569.html",
+	"url": "https://slo.craigslist.org/gms/d/arroyo-grande-yard-sale/7924028569.html"
+}

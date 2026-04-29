@@ -1,0 +1,9 @@
+{
+	"id": "Dph0DI714Z7DqxJ",
+	"json": "{\"id\":\"Dph0DI714Z7DqxJ\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-yard-sale/7923285249.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-yard-sale/7923285249.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-yard-sale/7923285249.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:32:00.196Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-yard-sale/7923285249.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-yard-sale/7923285249.html"
+}

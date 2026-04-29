@@ -1,0 +1,9 @@
+{
+	"id": "FiD20TKUks7E6C5",
+	"json": "{\"id\":\"FiD20TKUks7E6C5\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/OR/?page=5\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/OR?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186530212,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/OR?page=5",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/OR/?page=5"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SIln2TkAMYBD4BJ",
+	"json": "{\"id\":\"SIln2TkAMYBD4BJ\",\"url\":\"https://fayar.craigslist.org/gms/d/springdale-garage-sale/7923852113.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/springdale-garage-sale/7923852113.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/springdale-garage-sale/7923852113.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:43.537Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/springdale-garage-sale/7923852113.html",
+	"url": "https://fayar.craigslist.org/gms/d/springdale-garage-sale/7923852113.html"
+}

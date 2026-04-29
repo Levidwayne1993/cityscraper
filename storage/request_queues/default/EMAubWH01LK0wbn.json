@@ -1,0 +1,9 @@
+{
+	"id": "EMAubWH01LK0wbn",
+	"json": "{\"id\":\"EMAubWH01LK0wbn\",\"url\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-multi-family-garage/7928531544.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-multi-family-garage/7928531544.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-multi-family-garage/7928531544.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:12.742Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-multi-family-garage/7928531544.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-multi-family-garage/7928531544.html"
+}

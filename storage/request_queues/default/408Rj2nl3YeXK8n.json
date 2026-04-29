@@ -1,0 +1,9 @@
+{
+	"id": "408Rj2nl3YeXK8n",
+	"json": "{\"id\":\"408Rj2nl3YeXK8n\",\"url\":\"https://battlecreek.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://battlecreek.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520594,
+	"retryCount": 0,
+	"uniqueKey": "https://battlecreek.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://battlecreek.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

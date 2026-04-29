@@ -1,0 +1,9 @@
+{
+	"id": "bK9J711krUA34LH",
+	"json": "{\"id\":\"bK9J711krUA34LH\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-big-garage-sale/7930006797.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-big-garage-sale/7930006797.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-big-garage-sale/7930006797.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:58:51.641Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-big-garage-sale/7930006797.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-big-garage-sale/7930006797.html"
+}

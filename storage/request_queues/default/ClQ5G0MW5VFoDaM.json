@@ -1,0 +1,9 @@
+{
+	"id": "ClQ5G0MW5VFoDaM",
+	"json": "{\"id\":\"ClQ5G0MW5VFoDaM\",\"url\":\"https://fortmyers.craigslist.org/col/com/d/naples-yard-sale/7928480279.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/com/d/naples-yard-sale/7928480279.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/com/d/naples-yard-sale/7928480279.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:25:52.934Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/com/d/naples-yard-sale/7928480279.html",
+	"url": "https://fortmyers.craigslist.org/col/com/d/naples-yard-sale/7928480279.html"
+}

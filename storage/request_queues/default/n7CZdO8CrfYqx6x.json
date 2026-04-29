@@ -1,0 +1,9 @@
+{
+	"id": "n7CZdO8CrfYqx6x",
+	"json": "{\"id\":\"n7CZdO8CrfYqx6x\",\"url\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-sunday-april-26th/7929916115.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-sunday-april-26th/7929916115.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-sunday-april-26th/7929916115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:51.661Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/englewood-garage-sale-sunday-april-26th/7929916115.html",
+	"url": "https://denver.craigslist.org/gms/d/englewood-garage-sale-sunday-april-26th/7929916115.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "f0oJ5l9mtpZAZCo",
+	"json": "{\"id\":\"f0oJ5l9mtpZAZCo\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/glendale-community-garage-sale-march/7922551947.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/glendale-community-garage-sale-march/7922551947.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/glendale-community-garage-sale-march/7922551947.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:14.110Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/glendale-community-garage-sale-march/7922551947.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/glendale-community-garage-sale-march/7922551947.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "7MN20tCrih9fZ0x",
+	"json": "{\"id\":\"7MN20tCrih9fZ0x\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-sunday-garage-sale/7928708646.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-sunday-garage-sale/7928708646.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-sunday-garage-sale/7928708646.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:12.365Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-sunday-garage-sale/7928708646.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-sunday-garage-sale/7928708646.html"
+}

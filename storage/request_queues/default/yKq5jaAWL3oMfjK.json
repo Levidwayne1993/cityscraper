@@ -1,0 +1,9 @@
+{
+	"id": "yKq5jaAWL3oMfjK",
+	"json": "{\"id\":\"yKq5jaAWL3oMfjK\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-8am-1pm-saturday/7930038324.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-8am-1pm-saturday/7930038324.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-8am-1pm-saturday/7930038324.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:02:33.908Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-8am-1pm-saturday/7930038324.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-yard-sale-8am-1pm-saturday/7930038324.html"
+}

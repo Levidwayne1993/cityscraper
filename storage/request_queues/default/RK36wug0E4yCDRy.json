@@ -1,0 +1,9 @@
+{
+	"id": "RK36wug0E4yCDRy",
+	"json": "{\"id\":\"RK36wug0E4yCDRy\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-garage-give-away-everything-must/7930217545.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-garage-give-away-everything-must/7930217545.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-garage-give-away-everything-must/7930217545.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:01.310Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-garage-give-away-everything-must/7930217545.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-garage-give-away-everything-must/7930217545.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nS1gcQBH0177ptb",
+	"json": "{\"id\":\"nS1gcQBH0177ptb\",\"url\":\"https://columbia.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://columbia.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525846,
+	"retryCount": 0,
+	"uniqueKey": "https://columbia.craigslist.org/search/gms?s=360",
+	"url": "https://columbia.craigslist.org/search/gms?s=360"
+}

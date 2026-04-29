@@ -1,0 +1,9 @@
+{
+	"id": "OpZzjS99TmSYEk7",
+	"json": "{\"id\":\"OpZzjS99TmSYEk7\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-st-sacramento/7930079980.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-st-sacramento/7930079980.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-st-sacramento/7930079980.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:47:29.538Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-st-sacramento/7930079980.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-yard-sale-st-sacramento/7930079980.html"
+}

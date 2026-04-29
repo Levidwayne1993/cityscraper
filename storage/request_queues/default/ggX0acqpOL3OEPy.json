@@ -1,0 +1,9 @@
+{
+	"id": "ggX0acqpOL3OEPy",
+	"json": "{\"id\":\"ggX0acqpOL3OEPy\",\"url\":\"https://prescott.craigslist.org/gms/d/chino-valley-big-estate-sale-2-0ff-today/7927036470.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/chino-valley-big-estate-sale-2-0ff-today/7927036470.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/chino-valley-big-estate-sale-2-0ff-today/7927036470.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:49:05.223Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/chino-valley-big-estate-sale-2-0ff-today/7927036470.html",
+	"url": "https://prescott.craigslist.org/gms/d/chino-valley-big-estate-sale-2-0ff-today/7927036470.html"
+}

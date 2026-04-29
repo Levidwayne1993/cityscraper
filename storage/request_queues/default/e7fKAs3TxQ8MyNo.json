@@ -1,0 +1,9 @@
+{
+	"id": "e7fKAs3TxQ8MyNo",
+	"json": "{\"id\":\"e7fKAs3TxQ8MyNo\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/reseda-smurf-family-yard-sale-the/7928203997.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/reseda-smurf-family-yard-sale-the/7928203997.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/reseda-smurf-family-yard-sale-the/7928203997.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:29:08.143Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/reseda-smurf-family-yard-sale-the/7928203997.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/reseda-smurf-family-yard-sale-the/7928203997.html"
+}

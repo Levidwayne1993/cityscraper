@@ -1,0 +1,9 @@
+{
+	"id": "0bo0rtOSuMxp4dG",
+	"json": "{\"id\":\"0bo0rtOSuMxp4dG\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-country-place-neighborhood-sale/7928458102.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-country-place-neighborhood-sale/7928458102.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-country-place-neighborhood-sale/7928458102.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:33.679Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-country-place-neighborhood-sale/7928458102.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-country-place-neighborhood-sale/7928458102.html"
+}

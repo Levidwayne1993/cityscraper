@@ -1,0 +1,9 @@
+{
+	"id": "anwCoKz8HUCa6EY",
+	"json": "{\"id\":\"anwCoKz8HUCa6EY\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Spokane-WA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Spokane-WA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WA\",\"yssSlug\":\"Spokane-WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186533065,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Spokane-WA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Spokane-WA.html"
+}

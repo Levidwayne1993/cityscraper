@@ -1,0 +1,9 @@
+{
+	"id": "oKkrVQX2jcvz0nI",
+	"json": "{\"id\":\"oKkrVQX2jcvz0nI\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-huge-north-redondo-garage/7928428895.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-huge-north-redondo-garage/7928428895.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-huge-north-redondo-garage/7928428895.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:30:11.161Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/redondo-beach-huge-north-redondo-garage/7928428895.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/redondo-beach-huge-north-redondo-garage/7928428895.html"
+}

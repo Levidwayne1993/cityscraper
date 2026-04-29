@@ -1,0 +1,9 @@
+{
+	"id": "waeCWqoaR1UD8bg",
+	"json": "{\"id\":\"waeCWqoaR1UD8bg\",\"url\":\"https://delaware.craigslist.org/gms/d/wilmington-yard-sale-wilmington-arden/7926284620.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/wilmington-yard-sale-wilmington-arden/7926284620.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/wilmington-yard-sale-wilmington-arden/7926284620.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:26.261Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/wilmington-yard-sale-wilmington-arden/7926284620.html",
+	"url": "https://delaware.craigslist.org/gms/d/wilmington-yard-sale-wilmington-arden/7926284620.html"
+}

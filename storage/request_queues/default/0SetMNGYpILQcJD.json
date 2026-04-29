@@ -1,0 +1,9 @@
+{
+	"id": "0SetMNGYpILQcJD",
+	"json": "{\"id\":\"0SetMNGYpILQcJD\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-today-friday/7929816766.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-today-friday/7929816766.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-today-friday/7929816766.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:37:44.882Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-today-friday/7929816766.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-today-friday/7929816766.html"
+}

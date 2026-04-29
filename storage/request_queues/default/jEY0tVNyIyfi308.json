@@ -1,8 +1,8 @@
 {
 	"id": "jEY0tVNyIyfi308",
-	"json": "{\"id\":\"jEY0tVNyIyfi308\",\"url\":\"https://delaware.craigslist.org/search/gms\",\"uniqueKey\":\"https://delaware.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"jEY0tVNyIyfi308\",\"url\":\"https://delaware.craigslist.org/search/gms\",\"loadedUrl\":\"https://delaware.craigslist.org/search/gms\",\"uniqueKey\":\"https://delaware.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:17:21.672Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323468,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://delaware.craigslist.org/search/gms",
 	"url": "https://delaware.craigslist.org/search/gms"

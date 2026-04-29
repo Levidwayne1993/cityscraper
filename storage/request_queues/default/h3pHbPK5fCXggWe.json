@@ -1,0 +1,9 @@
+{
+	"id": "h3pHbPK5fCXggWe",
+	"json": "{\"id\":\"h3pHbPK5fCXggWe\",\"url\":\"https://monroe.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://monroe.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520117,
+	"retryCount": 0,
+	"uniqueKey": "https://monroe.craigslist.org/search/gms?s=360",
+	"url": "https://monroe.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZCSI8HnhJnriE4o",
+	"json": "{\"id\":\"ZCSI8HnhJnriE4o\",\"url\":\"https://fayar.craigslist.org/gms/d/gentry-garage-sale/7929777254.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/gentry-garage-sale/7929777254.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/gentry-garage-sale/7929777254.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:13:22.301Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/gentry-garage-sale/7929777254.html",
+	"url": "https://fayar.craigslist.org/gms/d/gentry-garage-sale/7929777254.html"
+}

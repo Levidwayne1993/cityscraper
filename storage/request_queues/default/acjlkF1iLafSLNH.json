@@ -1,0 +1,9 @@
+{
+	"id": "acjlkF1iLafSLNH",
+	"json": "{\"id\":\"acjlkF1iLafSLNH\",\"url\":\"https://flagstaff.craigslist.org/gms/d/sedona-garage-sale-sedona-uptown-one/7924006546.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/sedona-garage-sale-sedona-uptown-one/7924006546.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/sedona-garage-sale-sedona-uptown-one/7924006546.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:21.966Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/sedona-garage-sale-sedona-uptown-one/7924006546.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/sedona-garage-sale-sedona-uptown-one/7924006546.html"
+}

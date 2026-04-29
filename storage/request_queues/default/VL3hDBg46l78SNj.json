@@ -1,0 +1,9 @@
+{
+	"id": "VL3hDBg46l78SNj",
+	"json": "{\"id\":\"VL3hDBg46l78SNj\",\"url\":\"https://richmondin.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://richmondin.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518363,
+	"retryCount": 0,
+	"uniqueKey": "https://richmondin.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://richmondin.craigslist.org/search/sss?query=moving+sale"
+}

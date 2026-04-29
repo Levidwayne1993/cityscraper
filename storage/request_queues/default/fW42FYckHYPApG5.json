@@ -1,0 +1,9 @@
+{
+	"id": "fW42FYckHYPApG5",
+	"json": "{\"id\":\"fW42FYckHYPApG5\",\"url\":\"https://orangecounty.craigslist.org/gms/d/anaheim-mega-huge-day-yard-sale/7919419171.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/anaheim-mega-huge-day-yard-sale/7919419171.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/anaheim-mega-huge-day-yard-sale/7919419171.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:15.065Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/anaheim-mega-huge-day-yard-sale/7919419171.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/anaheim-mega-huge-day-yard-sale/7919419171.html"
+}

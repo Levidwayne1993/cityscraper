@@ -1,0 +1,9 @@
+{
+	"id": "sTpp3aYgdRzdDtf",
+	"json": "{\"id\":\"sTpp3aYgdRzdDtf\",\"url\":\"https://newhaven.craigslist.org/gms/d/guilford-tag-sale-bicycles-by-appt-only/7929604026.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/guilford-tag-sale-bicycles-by-appt-only/7929604026.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/guilford-tag-sale-bicycles-by-appt-only/7929604026.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:26.257Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/guilford-tag-sale-bicycles-by-appt-only/7929604026.html",
+	"url": "https://newhaven.craigslist.org/gms/d/guilford-tag-sale-bicycles-by-appt-only/7929604026.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PWAoPYOvmCdanL0",
+	"json": "{\"id\":\"PWAoPYOvmCdanL0\",\"url\":\"https://stockton.craigslist.org/gms/d/manteca-sunshine-farm-estate-sale/7927813560.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/manteca-sunshine-farm-estate-sale/7927813560.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/manteca-sunshine-farm-estate-sale/7927813560.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:04:40.512Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/manteca-sunshine-farm-estate-sale/7927813560.html",
+	"url": "https://stockton.craigslist.org/gms/d/manteca-sunshine-farm-estate-sale/7927813560.html"
+}

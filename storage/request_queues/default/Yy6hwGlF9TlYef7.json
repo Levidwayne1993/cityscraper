@@ -1,0 +1,9 @@
+{
+	"id": "Yy6hwGlF9TlYef7",
+	"json": "{\"id\":\"Yy6hwGlF9TlYef7\",\"url\":\"https://orlando.craigslist.org/gms/d/casselberry-the-ultimate-garage-sale/7928025946.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/casselberry-the-ultimate-garage-sale/7928025946.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/casselberry-the-ultimate-garage-sale/7928025946.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:33:29.050Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/casselberry-the-ultimate-garage-sale/7928025946.html",
+	"url": "https://orlando.craigslist.org/gms/d/casselberry-the-ultimate-garage-sale/7928025946.html"
+}

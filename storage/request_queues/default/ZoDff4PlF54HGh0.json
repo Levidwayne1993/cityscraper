@@ -1,0 +1,9 @@
+{
+	"id": "ZoDff4PlF54HGh0",
+	"json": "{\"id\":\"ZoDff4PlF54HGh0\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-yard-sale-santa-monica-mcm/7930028988.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-yard-sale-santa-monica-mcm/7930028988.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-yard-sale-santa-monica-mcm/7930028988.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:35:34.264Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/santa-monica-yard-sale-santa-monica-mcm/7930028988.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/santa-monica-yard-sale-santa-monica-mcm/7930028988.html"
+}

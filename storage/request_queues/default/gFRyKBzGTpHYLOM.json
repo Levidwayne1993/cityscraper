@@ -1,0 +1,9 @@
+{
+	"id": "gFRyKBzGTpHYLOM",
+	"json": "{\"id\":\"gFRyKBzGTpHYLOM\",\"url\":\"https://inlandempire.craigslist.org/fuo/d/murrieta-estate-sale-april-4th-5th/7924828975.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/fuo/d/murrieta-estate-sale-april-4th-5th/7924828975.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/fuo/d/murrieta-estate-sale-april-4th-5th/7924828975.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:10:54.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/fuo/d/murrieta-estate-sale-april-4th-5th/7924828975.html",
+	"url": "https://inlandempire.craigslist.org/fuo/d/murrieta-estate-sale-april-4th-5th/7924828975.html"
+}

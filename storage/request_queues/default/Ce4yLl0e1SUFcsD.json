@@ -1,0 +1,9 @@
+{
+	"id": "Ce4yLl0e1SUFcsD",
+	"json": "{\"id\":\"Ce4yLl0e1SUFcsD\",\"url\":\"https://sandiego.craigslist.org/csd/com/d/santee-huge-50-family-community-yard/7923956349.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/com/d/santee-huge-50-family-community-yard/7923956349.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/com/d/santee-huge-50-family-community-yard/7923956349.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:12:07.391Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/com/d/santee-huge-50-family-community-yard/7923956349.html",
+	"url": "https://sandiego.craigslist.org/csd/com/d/santee-huge-50-family-community-yard/7923956349.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "w4uDOrv0gCJHPP1",
+	"json": "{\"id\":\"w4uDOrv0gCJHPP1\",\"url\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk-and-hutch/7919761513.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk-and-hutch/7919761513.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk-and-hutch/7919761513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:00.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk-and-hutch/7919761513.html",
+	"url": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk-and-hutch/7919761513.html"
+}

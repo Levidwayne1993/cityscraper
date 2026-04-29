@@ -1,0 +1,9 @@
+{
+	"id": "qJ1PG2CcXJHwrvH",
+	"json": "{\"id\":\"qJ1PG2CcXJHwrvH\",\"url\":\"https://siskiyou.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://siskiyou.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:13.357Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://siskiyou.craigslist.org/search/ccc?query=yard+sale"
+}

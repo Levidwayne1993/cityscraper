@@ -1,0 +1,9 @@
+{
+	"id": "jNxj79OYHlPovad",
+	"json": "{\"id\":\"jNxj79OYHlPovad\",\"url\":\"https://ventura.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://ventura.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://ventura.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:09:34.869Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/search/gms?s=480",
+	"url": "https://ventura.craigslist.org/search/gms?s=480"
+}

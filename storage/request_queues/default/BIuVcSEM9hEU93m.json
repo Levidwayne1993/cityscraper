@@ -1,0 +1,9 @@
+{
+	"id": "BIuVcSEM9hEU93m",
+	"json": "{\"id\":\"BIuVcSEM9hEU93m\",\"url\":\"https://modesto.craigslist.org/gms/d/ripon-estate-and-antique-sale/7929587067.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/ripon-estate-and-antique-sale/7929587067.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/ripon-estate-and-antique-sale/7929587067.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:00:45.411Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/ripon-estate-and-antique-sale/7929587067.html",
+	"url": "https://modesto.craigslist.org/gms/d/ripon-estate-and-antique-sale/7929587067.html"
+}

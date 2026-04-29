@@ -1,0 +1,9 @@
+{
+	"id": "kLAmub0CY1jBwNi",
+	"json": "{\"id\":\"kLAmub0CY1jBwNi\",\"url\":\"https://fayar.craigslist.org/gms/d/cave-springs-rogers-moving-sale-bellview/7923394502.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/cave-springs-rogers-moving-sale-bellview/7923394502.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/cave-springs-rogers-moving-sale-bellview/7923394502.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:47.621Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/cave-springs-rogers-moving-sale-bellview/7923394502.html",
+	"url": "https://fayar.craigslist.org/gms/d/cave-springs-rogers-moving-sale-bellview/7923394502.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "tkcerpSHqlK2fA7",
+	"json": "{\"id\":\"tkcerpSHqlK2fA7\",\"url\":\"https://chattanooga.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://chattanooga.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186525986,
+	"retryCount": 0,
+	"uniqueKey": "https://chattanooga.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://chattanooga.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "xDj5xGF7IiS5Hq4",
+	"json": "{\"id\":\"xDj5xGF7IiS5Hq4\",\"url\":\"https://hickory.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://hickory.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523482,
+	"retryCount": 0,
+	"uniqueKey": "https://hickory.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://hickory.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EIFxMts1Q7S8OWL",
+	"json": "{\"id\":\"EIFxMts1Q7S8OWL\",\"url\":\"https://lasvegas.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://lasvegas.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522742,
+	"retryCount": 0,
+	"uniqueKey": "https://lasvegas.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://lasvegas.craigslist.org/search/ccc?query=yard+sale"
+}

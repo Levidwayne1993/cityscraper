@@ -1,0 +1,9 @@
+{
+	"id": "vLmWHkEHG6JgZEb",
+	"json": "{\"id\":\"vLmWHkEHG6JgZEb\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-9am-sunday-april-26/7929825901.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-9am-sunday-april-26/7929825901.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-9am-sunday-april-26/7929825901.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:44:51.992Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-9am-sunday-april-26/7929825901.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-9am-sunday-april-26/7929825901.html"
+}

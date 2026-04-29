@@ -1,0 +1,9 @@
+{
+	"id": "vmMkJReacJHSqiq",
+	"json": "{\"id\":\"vmMkJReacJHSqiq\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Nashville-TN.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Nashville-TN.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TN\",\"yssSlug\":\"Nashville-TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186532766,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Nashville-TN.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Nashville-TN.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "kIqgnlVK997nhzE",
+	"json": "{\"id\":\"kIqgnlVK997nhzE\",\"url\":\"https://fayar.craigslist.org/gms/d/rogers-garage-sale-sat-25-sun-26/7930094116.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/rogers-garage-sale-sat-25-sun-26/7930094116.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/rogers-garage-sale-sat-25-sun-26/7930094116.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:10.058Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/rogers-garage-sale-sat-25-sun-26/7930094116.html",
+	"url": "https://fayar.craigslist.org/gms/d/rogers-garage-sale-sat-25-sun-26/7930094116.html"
+}

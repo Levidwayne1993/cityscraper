@@ -1,0 +1,9 @@
+{
+	"id": "sk9NSsmu4oS1AKE",
+	"json": "{\"id\":\"sk9NSsmu4oS1AKE\",\"url\":\"https://humboldt.craigslist.org/gms/d/eureka-family-yard-sale/7923801053.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/eureka-family-yard-sale/7923801053.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/eureka-family-yard-sale/7923801053.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:56:50.818Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/eureka-family-yard-sale/7923801053.html",
+	"url": "https://humboldt.craigslist.org/gms/d/eureka-family-yard-sale/7923801053.html"
+}

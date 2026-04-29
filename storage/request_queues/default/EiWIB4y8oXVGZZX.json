@@ -1,0 +1,9 @@
+{
+	"id": "EiWIB4y8oXVGZZX",
+	"json": "{\"id\":\"EiWIB4y8oXVGZZX\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-floor-lamps-good-condition-25/7927558759.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-floor-lamps-good-condition-25/7927558759.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-floor-lamps-good-condition-25/7927558759.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:46.395Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/berkeley-floor-lamps-good-condition-25/7927558759.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/berkeley-floor-lamps-good-condition-25/7927558759.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dwDaXh5ki6KRCMo",
+	"json": "{\"id\":\"dwDaXh5ki6KRCMo\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-weekend-community-garage-sale/7930083971.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-weekend-community-garage-sale/7930083971.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-weekend-community-garage-sale/7930083971.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:07.705Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-weekend-community-garage-sale/7930083971.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-weekend-community-garage-sale/7930083971.html"
+}

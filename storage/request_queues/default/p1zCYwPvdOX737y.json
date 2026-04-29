@@ -1,0 +1,9 @@
+{
+	"id": "p1zCYwPvdOX737y",
+	"json": "{\"id\":\"p1zCYwPvdOX737y\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/RI/?page=5\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/RI?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"RI\"}}",
+	"method": "GET",
+	"orderNo": 1777186530225,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/RI?page=5",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/RI/?page=5"
+}

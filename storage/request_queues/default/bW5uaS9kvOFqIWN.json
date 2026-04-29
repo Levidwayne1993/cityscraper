@@ -1,0 +1,9 @@
+{
+	"id": "bW5uaS9kvOFqIWN",
+	"json": "{\"id\":\"bW5uaS9kvOFqIWN\",\"url\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-saturday-18th/7927617562.html\",\"loadedUrl\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-saturday-18th/7927617562.html\",\"uniqueKey\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-saturday-18th/7927617562.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:44.946Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/com/d/stockton-garage-sale-saturday-18th/7927617562.html",
+	"url": "https://stockton.craigslist.org/com/d/stockton-garage-sale-saturday-18th/7927617562.html"
+}

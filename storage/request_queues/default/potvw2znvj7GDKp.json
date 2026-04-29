@@ -1,0 +1,9 @@
+{
+	"id": "potvw2znvj7GDKp",
+	"json": "{\"id\":\"potvw2znvj7GDKp\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-final-one-day-blowout-sunday-4pm/7929281395.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-final-one-day-blowout-sunday-4pm/7929281395.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-final-one-day-blowout-sunday-4pm/7929281395.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:04:43.984Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-final-one-day-blowout-sunday-4pm/7929281395.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-final-one-day-blowout-sunday-4pm/7929281395.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yJqE2ud1yuABjpc",
+	"json": "{\"id\":\"yJqE2ud1yuABjpc\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-yard-sale-today-9am2pm/7930096091.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-yard-sale-today-9am2pm/7930096091.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-yard-sale-today-9am2pm/7930096091.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:09.773Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/pittsburg-yard-sale-today-9am2pm/7930096091.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/pittsburg-yard-sale-today-9am2pm/7930096091.html"
+}

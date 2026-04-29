@@ -1,0 +1,9 @@
+{
+	"id": "YAcIAKMBTKZWefi",
+	"json": "{\"id\":\"YAcIAKMBTKZWefi\",\"url\":\"https://mendocino.craigslist.org/gms/d/the-sea-ranch-grandma-shirleys-gualala/7922521473.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/the-sea-ranch-grandma-shirleys-gualala/7922521473.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/the-sea-ranch-grandma-shirleys-gualala/7922521473.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:01.303Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/the-sea-ranch-grandma-shirleys-gualala/7922521473.html",
+	"url": "https://mendocino.craigslist.org/gms/d/the-sea-ranch-grandma-shirleys-gualala/7922521473.html"
+}

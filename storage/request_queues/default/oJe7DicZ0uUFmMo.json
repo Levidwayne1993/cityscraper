@@ -1,0 +1,9 @@
+{
+	"id": "oJe7DicZ0uUFmMo",
+	"json": "{\"id\":\"oJe7DicZ0uUFmMo\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-moving-sale-en-san-carlos-ca/7927113468.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-moving-sale-en-san-carlos-ca/7927113468.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-carlos-moving-sale-en-san-carlos-ca/7927113468.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:30.517Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-moving-sale-en-san-carlos-ca/7927113468.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-carlos-moving-sale-en-san-carlos-ca/7927113468.html"
+}

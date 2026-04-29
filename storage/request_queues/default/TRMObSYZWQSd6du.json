@@ -1,0 +1,9 @@
+{
+	"id": "TRMObSYZWQSd6du",
+	"json": "{\"id\":\"TRMObSYZWQSd6du\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-yard-sale/7923529892.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-yard-sale/7923529892.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-yard-sale/7923529892.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:50.281Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-yard-sale/7923529892.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-yard-sale/7923529892.html"
+}

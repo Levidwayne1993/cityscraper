@@ -1,0 +1,9 @@
+{
+	"id": "Aa3Bz3jMl7l3l4Y",
+	"json": "{\"id\":\"Aa3Bz3jMl7l3l4Y\",\"url\":\"https://buffalo.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://buffalo.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523086,
+	"retryCount": 0,
+	"uniqueKey": "https://buffalo.craigslist.org/search/gms?s=480",
+	"url": "https://buffalo.craigslist.org/search/gms?s=480"
+}

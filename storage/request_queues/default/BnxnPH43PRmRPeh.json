@@ -1,0 +1,9 @@
+{
+	"id": "BnxnPH43PRmRPeh",
+	"json": "{\"id\":\"BnxnPH43PRmRPeh\",\"url\":\"https://sfbay.craigslist.org/nby/com/d/sebastopol-rummage-sale-april-th-8am-2pm/7927003234.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/com/d/sebastopol-rummage-sale-april-th-8am-2pm/7927003234.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/com/d/sebastopol-rummage-sale-april-th-8am-2pm/7927003234.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:10.428Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/com/d/sebastopol-rummage-sale-april-th-8am-2pm/7927003234.html",
+	"url": "https://sfbay.craigslist.org/nby/com/d/sebastopol-rummage-sale-april-th-8am-2pm/7927003234.html"
+}

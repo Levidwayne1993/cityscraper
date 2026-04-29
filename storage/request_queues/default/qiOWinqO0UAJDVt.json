@@ -1,0 +1,9 @@
+{
+	"id": "qiOWinqO0UAJDVt",
+	"json": "{\"id\":\"qiOWinqO0UAJDVt\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-yard-sale-fundraiser/7920866879.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-yard-sale-fundraiser/7920866879.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-yard-sale-fundraiser/7920866879.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:10.972Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-yard-sale-fundraiser/7920866879.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-yard-sale-fundraiser/7920866879.html"
+}

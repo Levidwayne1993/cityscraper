@@ -1,0 +1,9 @@
+{
+	"id": "g61rEt7JJXzP3Yz",
+	"json": "{\"id\":\"g61rEt7JJXzP3Yz\",\"url\":\"https://olympic.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://olympic.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527994,
+	"retryCount": 0,
+	"uniqueKey": "https://olympic.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://olympic.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XZttgRgJjD5b31w",
+	"json": "{\"id\":\"XZttgRgJjD5b31w\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/queen-creek-yard-sale-tools-household/7925318220.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/queen-creek-yard-sale-tools-household/7925318220.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/queen-creek-yard-sale-tools-household/7925318220.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:57.802Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/queen-creek-yard-sale-tools-household/7925318220.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/queen-creek-yard-sale-tools-household/7925318220.html"
+}

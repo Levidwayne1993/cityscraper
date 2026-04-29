@@ -1,0 +1,9 @@
+{
+	"id": "pvPQQw9sInSYxMP",
+	"json": "{\"id\":\"pvPQQw9sInSYxMP\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-big-yard-garage-sale-south-of/7922062070.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-big-yard-garage-sale-south-of/7922062070.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-big-yard-garage-sale-south-of/7922062070.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:21.495Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-big-yard-garage-sale-south-of/7922062070.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-big-yard-garage-sale-south-of/7922062070.html"
+}

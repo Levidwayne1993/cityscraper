@@ -1,0 +1,9 @@
+{
+	"id": "uP3EjzrKQKi4JsX",
+	"json": "{\"id\":\"uP3EjzrKQKi4JsX\",\"url\":\"https://phoenix.craigslist.org/nph/atq/d/phoenix-moving-sale-antique-musket/7925704003.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/atq/d/phoenix-moving-sale-antique-musket/7925704003.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/atq/d/phoenix-moving-sale-antique-musket/7925704003.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:11.631Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/atq/d/phoenix-moving-sale-antique-musket/7925704003.html",
+	"url": "https://phoenix.craigslist.org/nph/atq/d/phoenix-moving-sale-antique-musket/7925704003.html"
+}

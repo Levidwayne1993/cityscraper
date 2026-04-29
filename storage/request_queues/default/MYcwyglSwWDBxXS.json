@@ -1,0 +1,9 @@
+{
+	"id": "MYcwyglSwWDBxXS",
+	"json": "{\"id\":\"MYcwyglSwWDBxXS\",\"url\":\"https://phoenix.craigslist.org/evl/fuo/d/tempe-furniture-moving-sale-cabinets/7903127108.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/fuo/d/tempe-furniture-moving-sale-cabinets/7903127108.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/fuo/d/tempe-furniture-moving-sale-cabinets/7903127108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:15.398Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/fuo/d/tempe-furniture-moving-sale-cabinets/7903127108.html",
+	"url": "https://phoenix.craigslist.org/evl/fuo/d/tempe-furniture-moving-sale-cabinets/7903127108.html"
+}

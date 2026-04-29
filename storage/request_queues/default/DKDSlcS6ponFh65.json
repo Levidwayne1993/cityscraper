@@ -1,0 +1,9 @@
+{
+	"id": "DKDSlcS6ponFh65",
+	"json": "{\"id\":\"DKDSlcS6ponFh65\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-easter-sunday-garage/7925701531.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-easter-sunday-garage/7925701531.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-easter-sunday-garage/7925701531.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:50.196Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-easter-sunday-garage/7925701531.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-easter-sunday-garage/7925701531.html"
+}

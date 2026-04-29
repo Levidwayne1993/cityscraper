@@ -1,0 +1,9 @@
+{
+	"id": "LWhsyK7x3waQQDc",
+	"json": "{\"id\":\"LWhsyK7x3waQQDc\",\"url\":\"https://miami.craigslist.org/brw/app/d/fort-lauderdale-moving-sale-everything/7928307313.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/app/d/fort-lauderdale-moving-sale-everything/7928307313.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/app/d/fort-lauderdale-moving-sale-everything/7928307313.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:37.400Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/app/d/fort-lauderdale-moving-sale-everything/7928307313.html",
+	"url": "https://miami.craigslist.org/brw/app/d/fort-lauderdale-moving-sale-everything/7928307313.html"
+}

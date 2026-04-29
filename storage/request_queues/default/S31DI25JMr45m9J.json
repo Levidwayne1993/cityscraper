@@ -1,0 +1,9 @@
+{
+	"id": "S31DI25JMr45m9J",
+	"json": "{\"id\":\"S31DI25JMr45m9J\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-fair-oaks-mega-garage/7928168697.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-fair-oaks-mega-garage/7928168697.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-fair-oaks-mega-garage/7928168697.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:46.040Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-fair-oaks-mega-garage/7928168697.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-fair-oaks-mega-garage/7928168697.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "kjAkll53tSymnLd",
-	"json": "{\"id\":\"kjAkll53tSymnLd\",\"url\":\"https://gadsden.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"kjAkll53tSymnLd\",\"url\":\"https://gadsden.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://gadsden.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:01:22.020Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://gadsden.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://gadsden.craigslist.org/search/sss?query=moving+sale"

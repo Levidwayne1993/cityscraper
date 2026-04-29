@@ -1,0 +1,9 @@
+{
+	"id": "11D61QZs3fiMvvF",
+	"json": "{\"id\":\"11D61QZs3fiMvvF\",\"url\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-single-family-huge/7929551024.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-single-family-huge/7929551024.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/owens-cross-roads-single-family-huge/7929551024.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:04:39.176Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/owens-cross-roads-single-family-huge/7929551024.html",
+	"url": "https://huntsville.craigslist.org/gms/d/owens-cross-roads-single-family-huge/7929551024.html"
+}

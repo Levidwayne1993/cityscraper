@@ -1,0 +1,9 @@
+{
+	"id": "2comDwaap7H6eiL",
+	"json": "{\"id\":\"2comDwaap7H6eiL\",\"url\":\"https://modesto.craigslist.org/gms/d/turlock-car-port-sale/7925204344.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/turlock-car-port-sale/7925204344.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/turlock-car-port-sale/7925204344.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:59:49.242Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/turlock-car-port-sale/7925204344.html",
+	"url": "https://modesto.craigslist.org/gms/d/turlock-car-port-sale/7925204344.html"
+}

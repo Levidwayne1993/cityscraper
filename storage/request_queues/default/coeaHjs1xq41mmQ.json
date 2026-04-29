@@ -1,0 +1,9 @@
+{
+	"id": "coeaHjs1xq41mmQ",
+	"json": "{\"id\":\"coeaHjs1xq41mmQ\",\"url\":\"https://orangecounty.craigslist.org/com/d/dana-point-marlborough-seaside-estates/7927835448.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/com/d/dana-point-marlborough-seaside-estates/7927835448.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/com/d/dana-point-marlborough-seaside-estates/7927835448.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:26:15.800Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/com/d/dana-point-marlborough-seaside-estates/7927835448.html",
+	"url": "https://orangecounty.craigslist.org/com/d/dana-point-marlborough-seaside-estates/7927835448.html"
+}

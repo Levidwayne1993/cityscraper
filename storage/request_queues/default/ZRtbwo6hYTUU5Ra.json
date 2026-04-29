@@ -1,0 +1,9 @@
+{
+	"id": "ZRtbwo6hYTUU5Ra",
+	"json": "{\"id\":\"ZRtbwo6hYTUU5Ra\",\"url\":\"https://visalia.craigslist.org/grd/d/exeter-misc-garden-and-horse-tack-for/7929338082.html\",\"loadedUrl\":\"https://visalia.craigslist.org/grd/d/exeter-misc-garden-and-horse-tack-for/7929338082.html\",\"uniqueKey\":\"https://visalia.craigslist.org/grd/d/exeter-misc-garden-and-horse-tack-for/7929338082.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:22:33.386Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/grd/d/exeter-misc-garden-and-horse-tack-for/7929338082.html",
+	"url": "https://visalia.craigslist.org/grd/d/exeter-misc-garden-and-horse-tack-for/7929338082.html"
+}

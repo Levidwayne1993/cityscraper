@@ -1,0 +1,9 @@
+{
+	"id": "RD2PcwQ3UKlyq6K",
+	"json": "{\"id\":\"RD2PcwQ3UKlyq6K\",\"url\":\"https://boulder.craigslist.org/gms/d/hygiene-family-moving-sale-electonics/7930016075.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/hygiene-family-moving-sale-electonics/7930016075.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/hygiene-family-moving-sale-electonics/7930016075.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:29:49.615Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/hygiene-family-moving-sale-electonics/7930016075.html",
+	"url": "https://boulder.craigslist.org/gms/d/hygiene-family-moving-sale-electonics/7930016075.html"
+}

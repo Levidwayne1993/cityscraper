@@ -1,8 +1,8 @@
 {
 	"id": "Z53WPy9bKGJQnMc",
-	"json": "{\"id\":\"Z53WPy9bKGJQnMc\",\"url\":\"https://newlondon.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Z53WPy9bKGJQnMc\",\"url\":\"https://newlondon.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://newlondon.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:03.207Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323434,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://newlondon.craigslist.org/search/gms?s=240",
 	"url": "https://newlondon.craigslist.org/search/gms?s=240"

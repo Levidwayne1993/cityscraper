@@ -1,0 +1,9 @@
+{
+	"id": "dTDAvReV0iZJunJ",
+	"json": "{\"id\":\"dTDAvReV0iZJunJ\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-temecula-10-and-11/7926754175.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-temecula-10-and-11/7926754175.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-temecula-10-and-11/7926754175.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:14:10.641Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-temecula-10-and-11/7926754175.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-temecula-10-and-11/7926754175.html"
+}

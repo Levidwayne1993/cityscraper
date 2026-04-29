@@ -1,0 +1,9 @@
+{
+	"id": "TLxpmklkpah7Bes",
+	"json": "{\"id\":\"TLxpmklkpah7Bes\",\"url\":\"https://treasure.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://treasure.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777186517366,
+	"retryCount": 0,
+	"uniqueKey": "https://treasure.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://treasure.craigslist.org/search/ccc?query=yard+sale"
+}

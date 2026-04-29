@@ -1,0 +1,9 @@
+{
+	"id": "4nhr3ixoHxj4H0p",
+	"json": "{\"id\":\"4nhr3ixoHxj4H0p\",\"url\":\"https://washingtondc.craigslist.org/doc/gms/d/clinton-mega-multi-family-sale-saturday/7926988509.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/gms/d/clinton-mega-multi-family-sale-saturday/7926988509.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/gms/d/clinton-mega-multi-family-sale-saturday/7926988509.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:29:05.589Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/gms/d/clinton-mega-multi-family-sale-saturday/7926988509.html",
+	"url": "https://washingtondc.craigslist.org/doc/gms/d/clinton-mega-multi-family-sale-saturday/7926988509.html"
+}

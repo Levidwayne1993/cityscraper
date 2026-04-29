@@ -1,0 +1,9 @@
+{
+	"id": "eGo3rJckCJ1eF4l",
+	"json": "{\"id\":\"eGo3rJckCJ1eF4l\",\"url\":\"https://inlandempire.craigslist.org/gms/d/murrieta-moving-garage-sale/7927930830.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/murrieta-moving-garage-sale/7927930830.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/murrieta-moving-garage-sale/7927930830.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:14:50.686Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/murrieta-moving-garage-sale/7927930830.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/murrieta-moving-garage-sale/7927930830.html"
+}

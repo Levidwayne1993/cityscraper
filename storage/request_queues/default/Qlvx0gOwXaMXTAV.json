@@ -1,0 +1,9 @@
+{
+	"id": "Qlvx0gOwXaMXTAV",
+	"json": "{\"id\":\"Qlvx0gOwXaMXTAV\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-big-garage-sale/7929777115.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-big-garage-sale/7929777115.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-big-garage-sale/7929777115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:47:59.271Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-big-garage-sale/7929777115.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-big-garage-sale/7929777115.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "73ZJDxzuwhInqCx",
+	"json": "{\"id\":\"73ZJDxzuwhInqCx\",\"url\":\"https://hartford.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://hartford.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://hartford.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:05.212Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://hartford.craigslist.org/search/ccc?query=yard+sale"
+}

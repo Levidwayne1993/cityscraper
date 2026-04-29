@@ -1,0 +1,9 @@
+{
+	"id": "IKI9yK59IzQcSM1",
+	"json": "{\"id\":\"IKI9yK59IzQcSM1\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-garage-sale/7930012918.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-garage-sale/7930012918.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-garage-sale/7930012918.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:12.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/dublin-garage-sale/7930012918.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/dublin-garage-sale/7930012918.html"
+}

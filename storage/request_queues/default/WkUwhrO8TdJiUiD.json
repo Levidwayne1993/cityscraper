@@ -1,0 +1,9 @@
+{
+	"id": "WkUwhrO8TdJiUiD",
+	"json": "{\"id\":\"WkUwhrO8TdJiUiD\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale/7929796659.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale/7929796659.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-yard-sale/7929796659.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:52.216Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-yard-sale/7929796659.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-yard-sale/7929796659.html"
+}

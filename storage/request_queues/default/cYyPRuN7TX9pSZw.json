@@ -1,0 +1,9 @@
+{
+	"id": "cYyPRuN7TX9pSZw",
+	"json": "{\"id\":\"cYyPRuN7TX9pSZw\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-multi-cottage-yard-sale/7924058784.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-multi-cottage-yard-sale/7924058784.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-multi-cottage-yard-sale/7924058784.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:51:35.446Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-multi-cottage-yard-sale/7924058784.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-multi-cottage-yard-sale/7924058784.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CkQONSKIbEmQ42Z",
+	"json": "{\"id\":\"CkQONSKIbEmQ42Z\",\"url\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-treadmill/7926473717.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-treadmill/7926473717.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-treadmill/7926473717.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:46.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-treadmill/7926473717.html",
+	"url": "https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-treadmill/7926473717.html"
+}

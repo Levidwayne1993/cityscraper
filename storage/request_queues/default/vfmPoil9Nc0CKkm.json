@@ -1,0 +1,9 @@
+{
+	"id": "vfmPoil9Nc0CKkm",
+	"json": "{\"id\":\"vfmPoil9Nc0CKkm\",\"url\":\"https://losangeles.craigslist.org/lgb/gms/d/downey-yard-sale/7928270627.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lgb/gms/d/downey-yard-sale/7928270627.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lgb/gms/d/downey-yard-sale/7928270627.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:29:55.340Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lgb/gms/d/downey-yard-sale/7928270627.html",
+	"url": "https://losangeles.craigslist.org/lgb/gms/d/downey-yard-sale/7928270627.html"
+}

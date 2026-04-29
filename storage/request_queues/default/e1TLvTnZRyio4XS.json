@@ -1,0 +1,9 @@
+{
+	"id": "e1TLvTnZRyio4XS",
+	"json": "{\"id\":\"e1TLvTnZRyio4XS\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-18/7928487466.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-18/7928487466.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-18/7928487466.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:36.197Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-18/7928487466.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-moving-sale-18/7928487466.html"
+}

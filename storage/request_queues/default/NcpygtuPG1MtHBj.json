@@ -1,0 +1,9 @@
+{
+	"id": "NcpygtuPG1MtHBj",
+	"json": "{\"id\":\"NcpygtuPG1MtHBj\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-1835-bonforte-big-day-garage/7920692174.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-1835-bonforte-big-day-garage/7920692174.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-1835-bonforte-big-day-garage/7920692174.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:04.849Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-1835-bonforte-big-day-garage/7920692174.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-1835-bonforte-big-day-garage/7920692174.html"
+}

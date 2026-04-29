@@ -1,0 +1,9 @@
+{
+	"id": "89Us1R4w3GaJwla",
+	"json": "{\"id\":\"89Us1R4w3GaJwla\",\"url\":\"https://ventura.craigslist.org/gms/d/newbury-park-ketl-mtn-gear-parking-lot/7929980346.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/newbury-park-ketl-mtn-gear-parking-lot/7929980346.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/newbury-park-ketl-mtn-gear-parking-lot/7929980346.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:08:15.693Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/newbury-park-ketl-mtn-gear-parking-lot/7929980346.html",
+	"url": "https://ventura.craigslist.org/gms/d/newbury-park-ketl-mtn-gear-parking-lot/7929980346.html"
+}

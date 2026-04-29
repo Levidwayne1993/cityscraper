@@ -1,8 +1,8 @@
 {
 	"id": "nJ4z3vX3MPhN3S1",
-	"json": "{\"id\":\"nJ4z3vX3MPhN3S1\",\"url\":\"https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"nJ4z3vX3MPhN3S1\",\"url\":\"https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
 	"method": "GET",
-	"orderNo": 1777040327615,
+	"orderNo": 1777186525372,
 	"retryCount": 0,
 	"uniqueKey": "https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://salem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

@@ -1,0 +1,9 @@
+{
+	"id": "bxzYuqBRZPKihSa",
+	"json": "{\"id\":\"bxzYuqBRZPKihSa\",\"url\":\"https://rockford.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://rockford.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518196,
+	"retryCount": 0,
+	"uniqueKey": "https://rockford.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://rockford.craigslist.org/search/ccc?query=yard+sale"
+}

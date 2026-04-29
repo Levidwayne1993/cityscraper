@@ -1,0 +1,9 @@
+{
+	"id": "hoEW1C4vpJVnFmq",
+	"json": "{\"id\":\"hoEW1C4vpJVnFmq\",\"url\":\"https://kennewick.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://kennewick.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527936,
+	"retryCount": 0,
+	"uniqueKey": "https://kennewick.craigslist.org/search/gms?s=240",
+	"url": "https://kennewick.craigslist.org/search/gms?s=240"
+}

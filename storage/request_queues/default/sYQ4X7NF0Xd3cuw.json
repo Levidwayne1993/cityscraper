@@ -1,0 +1,9 @@
+{
+	"id": "sYQ4X7NF0Xd3cuw",
+	"json": "{\"id\":\"sYQ4X7NF0Xd3cuw\",\"url\":\"https://monterey.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://monterey.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://monterey.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:08:07.156Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://monterey.craigslist.org/search/ccc?query=yard+sale"
+}

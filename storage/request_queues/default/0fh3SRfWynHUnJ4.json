@@ -1,0 +1,9 @@
+{
+	"id": "0fh3SRfWynHUnJ4",
+	"json": "{\"id\":\"0fh3SRfWynHUnJ4\",\"url\":\"https://sfbay.craigslist.org/nby/clt/d/mill-valley-an-estate-sale-art/7917812725.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/clt/d/mill-valley-an-estate-sale-art/7917812725.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/clt/d/mill-valley-an-estate-sale-art/7917812725.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:43.230Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/clt/d/mill-valley-an-estate-sale-art/7917812725.html",
+	"url": "https://sfbay.craigslist.org/nby/clt/d/mill-valley-an-estate-sale-art/7917812725.html"
+}

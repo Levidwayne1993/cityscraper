@@ -1,0 +1,9 @@
+{
+	"id": "YWXMuKbuv9rrR5Q",
+	"json": "{\"id\":\"YWXMuKbuv9rrR5Q\",\"url\":\"https://fresno.craigslist.org/fuo/d/parlier-moving-sale-furniture-bundle/7921863259.html\",\"loadedUrl\":\"https://fresno.craigslist.org/fuo/d/parlier-moving-sale-furniture-bundle/7921863259.html\",\"uniqueKey\":\"https://fresno.craigslist.org/fuo/d/parlier-moving-sale-furniture-bundle/7921863259.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:47:07.836Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/fuo/d/parlier-moving-sale-furniture-bundle/7921863259.html",
+	"url": "https://fresno.craigslist.org/fuo/d/parlier-moving-sale-furniture-bundle/7921863259.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XZb2RQyMVmFwOzR",
+	"json": "{\"id\":\"XZb2RQyMVmFwOzR\",\"url\":\"https://losangeles.craigslist.org/sgv/fuo/d/pasadena-new-rattan-furniture-for-home/7925418880.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/fuo/d/pasadena-new-rattan-furniture-for-home/7925418880.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/fuo/d/pasadena-new-rattan-furniture-for-home/7925418880.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:45:09.016Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/fuo/d/pasadena-new-rattan-furniture-for-home/7925418880.html",
+	"url": "https://losangeles.craigslist.org/sgv/fuo/d/pasadena-new-rattan-furniture-for-home/7925418880.html"
+}

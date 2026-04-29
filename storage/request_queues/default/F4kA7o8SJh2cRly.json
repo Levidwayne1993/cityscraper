@@ -1,0 +1,9 @@
+{
+	"id": "F4kA7o8SJh2cRly",
+	"json": "{\"id\":\"F4kA7o8SJh2cRly\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-moving-sale/7928258815.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-moving-sale/7928258815.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-moving-sale/7928258815.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:37:58.746Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-moving-sale/7928258815.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-moving-sale/7928258815.html"
+}

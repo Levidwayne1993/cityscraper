@@ -1,0 +1,9 @@
+{
+	"id": "SzSbgzlOkemOhGl",
+	"json": "{\"id\":\"SzSbgzlOkemOhGl\",\"url\":\"https://jacksonville.craigslist.org/gms/d/orange-park-yard-sale/7926927257.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/orange-park-yard-sale/7926927257.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/orange-park-yard-sale/7926927257.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:36:38.930Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/orange-park-yard-sale/7926927257.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/orange-park-yard-sale/7926927257.html"
+}

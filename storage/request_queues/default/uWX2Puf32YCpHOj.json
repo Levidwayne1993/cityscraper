@@ -1,0 +1,9 @@
+{
+	"id": "uWX2Puf32YCpHOj",
+	"json": "{\"id\":\"uWX2Puf32YCpHOj\",\"url\":\"https://washingtondc.craigslist.org/nva/com/d/fairfax-station-barrington-community/7928950044.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/com/d/fairfax-station-barrington-community/7928950044.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/com/d/fairfax-station-barrington-community/7928950044.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:40.219Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/com/d/fairfax-station-barrington-community/7928950044.html",
+	"url": "https://washingtondc.craigslist.org/nva/com/d/fairfax-station-barrington-community/7928950044.html"
+}

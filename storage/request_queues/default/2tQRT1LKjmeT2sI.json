@@ -1,0 +1,9 @@
+{
+	"id": "2tQRT1LKjmeT2sI",
+	"json": "{\"id\":\"2tQRT1LKjmeT2sI\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-mega-yard-sale-new-items-sat/7930125847.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-mega-yard-sale-new-items-sat/7930125847.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-mega-yard-sale-new-items-sat/7930125847.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:54.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-mega-yard-sale-new-items-sat/7930125847.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-mega-yard-sale-new-items-sat/7930125847.html"
+}

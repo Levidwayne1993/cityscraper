@@ -1,0 +1,9 @@
+{
+	"id": "Aea4upP3yuFrU4X",
+	"json": "{\"id\":\"Aea4upP3yuFrU4X\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-were-having-huge-garage-and/7928442199.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-were-having-huge-garage-and/7928442199.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-were-having-huge-garage-and/7928442199.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:27.704Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/dublin-were-having-huge-garage-and/7928442199.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/dublin-were-having-huge-garage-and/7928442199.html"
+}

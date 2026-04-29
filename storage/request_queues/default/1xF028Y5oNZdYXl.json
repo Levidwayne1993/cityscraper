@@ -1,0 +1,9 @@
+{
+	"id": "1xF028Y5oNZdYXl",
+	"json": "{\"id\":\"1xF028Y5oNZdYXl\",\"url\":\"https://miami.craigslist.org/mdc/tls/d/miami-new-moving-sale-ti-conn-8-inch/7926412986.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/tls/d/miami-new-moving-sale-ti-conn-8-inch/7926412986.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/tls/d/miami-new-moving-sale-ti-conn-8-inch/7926412986.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:11:56.474Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/tls/d/miami-new-moving-sale-ti-conn-8-inch/7926412986.html",
+	"url": "https://miami.craigslist.org/mdc/tls/d/miami-new-moving-sale-ti-conn-8-inch/7926412986.html"
+}

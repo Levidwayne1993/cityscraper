@@ -1,0 +1,9 @@
+{
+	"id": "P9HrHhrcd0dsGTW",
+	"json": "{\"id\":\"P9HrHhrcd0dsGTW\",\"url\":\"https://sfbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://sfbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://sfbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:30:29.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://sfbay.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

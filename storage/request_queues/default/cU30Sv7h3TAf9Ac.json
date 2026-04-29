@@ -1,0 +1,9 @@
+{
+	"id": "cU30Sv7h3TAf9Ac",
+	"json": "{\"id\":\"cU30Sv7h3TAf9Ac\",\"url\":\"https://daytona.craigslist.org/gms/d/port-orange-multi-family-yard-sale/7928150516.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/port-orange-multi-family-yard-sale/7928150516.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/port-orange-multi-family-yard-sale/7928150516.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:54:22.380Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/port-orange-multi-family-yard-sale/7928150516.html",
+	"url": "https://daytona.craigslist.org/gms/d/port-orange-multi-family-yard-sale/7928150516.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GuwyVcqJ2X8c1e5",
+	"json": "{\"id\":\"GuwyVcqJ2X8c1e5\",\"url\":\"https://denver.craigslist.org/gms/d/broomfield-broadlands-garage-sale/7929745808.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/broomfield-broadlands-garage-sale/7929745808.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/broomfield-broadlands-garage-sale/7929745808.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:13.906Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/broomfield-broadlands-garage-sale/7929745808.html",
+	"url": "https://denver.craigslist.org/gms/d/broomfield-broadlands-garage-sale/7929745808.html"
+}

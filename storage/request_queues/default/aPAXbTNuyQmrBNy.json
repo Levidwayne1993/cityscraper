@@ -1,0 +1,9 @@
+{
+	"id": "aPAXbTNuyQmrBNy",
+	"json": "{\"id\":\"aPAXbTNuyQmrBNy\",\"url\":\"https://chico.craigslist.org/gms/d/chico-april-showers-indoor-yard-sale/7924922744.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-april-showers-indoor-yard-sale/7924922744.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-april-showers-indoor-yard-sale/7924922744.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:15.220Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-april-showers-indoor-yard-sale/7924922744.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-april-showers-indoor-yard-sale/7924922744.html"
+}

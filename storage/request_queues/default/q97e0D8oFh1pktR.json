@@ -1,0 +1,9 @@
+{
+	"id": "q97e0D8oFh1pktR",
+	"json": "{\"id\":\"q97e0D8oFh1pktR\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-springs-massive-garage-sale/7926013376.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-springs-massive-garage-sale/7926013376.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-springs-massive-garage-sale/7926013376.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:24:56.868Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-springs-massive-garage-sale/7926013376.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-springs-massive-garage-sale/7926013376.html"
+}

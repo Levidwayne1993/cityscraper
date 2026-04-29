@@ -1,0 +1,9 @@
+{
+	"id": "OM9ITlMjI2FrBTb",
+	"json": "{\"id\":\"OM9ITlMjI2FrBTb\",\"url\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-yard-sale-21/7922447195.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-yard-sale-21/7922447195.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/flagstaff-yard-sale-21/7922447195.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:04.294Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/flagstaff-yard-sale-21/7922447195.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/flagstaff-yard-sale-21/7922447195.html"
+}

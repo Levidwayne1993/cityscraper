@@ -1,0 +1,9 @@
+{
+	"id": "FpNmMVIISkoFZXN",
+	"json": "{\"id\":\"FpNmMVIISkoFZXN\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-not-to-be-missed/7922469927.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-not-to-be-missed/7922469927.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-not-to-be-missed/7922469927.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:01.719Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-not-to-be-missed/7922469927.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-yard-sale-not-to-be-missed/7922469927.html"
+}

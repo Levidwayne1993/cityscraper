@@ -1,0 +1,9 @@
+{
+	"id": "IZKjjeKQCvVC9ZP",
+	"json": "{\"id\":\"IZKjjeKQCvVC9ZP\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sunday-26th-11am-cool/7929495442.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sunday-26th-11am-cool/7929495442.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sunday-26th-11am-cool/7929495442.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:19.776Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sunday-26th-11am-cool/7929495442.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-sunday-26th-11am-cool/7929495442.html"
+}

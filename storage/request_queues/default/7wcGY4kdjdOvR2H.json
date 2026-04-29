@@ -1,0 +1,9 @@
+{
+	"id": "7wcGY4kdjdOvR2H",
+	"json": "{\"id\":\"7wcGY4kdjdOvR2H\",\"url\":\"https://pensacola.craigslist.org/gms/d/pensacola-garage-sale-fri-march-20-and/7922292683.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/pensacola-garage-sale-fri-march-20-and/7922292683.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/pensacola-garage-sale-fri-march-20-and/7922292683.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:42:54.990Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/pensacola-garage-sale-fri-march-20-and/7922292683.html",
+	"url": "https://pensacola.craigslist.org/gms/d/pensacola-garage-sale-fri-march-20-and/7922292683.html"
+}

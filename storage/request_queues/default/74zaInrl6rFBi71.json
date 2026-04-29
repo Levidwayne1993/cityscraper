@@ -1,0 +1,9 @@
+{
+	"id": "74zaInrl6rFBi71",
+	"json": "{\"id\":\"74zaInrl6rFBi71\",\"url\":\"https://toledo.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://toledo.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523873,
+	"retryCount": 0,
+	"uniqueKey": "https://toledo.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://toledo.craigslist.org/search/ccc?query=garage+sale"
+}

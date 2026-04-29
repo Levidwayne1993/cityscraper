@@ -1,0 +1,9 @@
+{
+	"id": "jMxK6q0RdTtuG1u",
+	"json": "{\"id\":\"jMxK6q0RdTtuG1u\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-super-yard-sale/7929751618.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-super-yard-sale/7929751618.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-super-yard-sale/7929751618.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:55:47.084Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-super-yard-sale/7929751618.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-super-yard-sale/7929751618.html"
+}

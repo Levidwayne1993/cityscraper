@@ -1,0 +1,9 @@
+{
+	"id": "ETUFSYJ1vF4V07e",
+	"json": "{\"id\":\"ETUFSYJ1vF4V07e\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-yard-sale/7923776722.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-yard-sale/7923776722.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-yard-sale/7923776722.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:27:16.322Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-springs-yard-sale/7923776722.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-springs-yard-sale/7923776722.html"
+}

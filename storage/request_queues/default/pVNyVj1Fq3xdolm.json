@@ -1,0 +1,9 @@
+{
+	"id": "pVNyVj1Fq3xdolm",
+	"json": "{\"id\":\"pVNyVj1Fq3xdolm\",\"url\":\"https://newlondon.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928853009.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928853009.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928853009.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:02:59.492Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928853009.html",
+	"url": "https://newlondon.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928853009.html"
+}

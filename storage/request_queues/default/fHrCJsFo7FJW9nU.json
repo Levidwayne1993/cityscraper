@@ -1,0 +1,9 @@
+{
+	"id": "fHrCJsFo7FJW9nU",
+	"json": "{\"id\":\"fHrCJsFo7FJW9nU\",\"url\":\"https://pensacola.craigslist.org/gms/d/gonzalez-mini-estate-sale/7929213254.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/gonzalez-mini-estate-sale/7929213254.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/gonzalez-mini-estate-sale/7929213254.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:44:15.880Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/gonzalez-mini-estate-sale/7929213254.html",
+	"url": "https://pensacola.craigslist.org/gms/d/gonzalez-mini-estate-sale/7929213254.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "w56sy13QyWsKCBI",
+	"json": "{\"id\":\"w56sy13QyWsKCBI\",\"url\":\"https://yubasutter.craigslist.org/gms/d/live-oak-huge-yard-sale/7930095470.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/live-oak-huge-yard-sale/7930095470.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/live-oak-huge-yard-sale/7930095470.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:24:44.702Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/live-oak-huge-yard-sale/7930095470.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/live-oak-huge-yard-sale/7930095470.html"
+}

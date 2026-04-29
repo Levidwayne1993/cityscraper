@@ -1,0 +1,9 @@
+{
+	"id": "xYn6B0EHVWYv5hT",
+	"json": "{\"id\":\"xYn6B0EHVWYv5hT\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-huge-day-multi-family-yard-sale/7927763162.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-huge-day-multi-family-yard-sale/7927763162.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-huge-day-multi-family-yard-sale/7927763162.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:59.643Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-huge-day-multi-family-yard-sale/7927763162.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-huge-day-multi-family-yard-sale/7927763162.html"
+}

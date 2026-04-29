@@ -1,0 +1,9 @@
+{
+	"id": "D0wpqooIPbJD3Rh",
+	"json": "{\"id\":\"D0wpqooIPbJD3Rh\",\"url\":\"https://keys.craigslist.org/grp/d/tavernier-yard-sale-every-saturday/7925574452.html\",\"loadedUrl\":\"https://keys.craigslist.org/grp/d/tavernier-yard-sale-every-saturday/7925574452.html\",\"uniqueKey\":\"https://keys.craigslist.org/grp/d/tavernier-yard-sale-every-saturday/7925574452.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:29.346Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://keys.craigslist.org/grp/d/tavernier-yard-sale-every-saturday/7925574452.html",
+	"url": "https://keys.craigslist.org/grp/d/tavernier-yard-sale-every-saturday/7925574452.html"
+}

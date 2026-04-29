@@ -1,0 +1,9 @@
+{
+	"id": "3BgR8YV3hqVQz6L",
+	"json": "{\"id\":\"3BgR8YV3hqVQz6L\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale-mcgregor-woods/7927865263.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale-mcgregor-woods/7927865263.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale-mcgregor-woods/7927865263.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:23:38.355Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale-mcgregor-woods/7927865263.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale-mcgregor-woods/7927865263.html"
+}

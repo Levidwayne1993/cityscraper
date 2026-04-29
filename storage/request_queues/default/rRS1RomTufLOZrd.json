@@ -1,0 +1,9 @@
+{
+	"id": "rRS1RomTufLOZrd",
+	"json": "{\"id\":\"rRS1RomTufLOZrd\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-sunday-we-are-moving-estate/7922588340.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-sunday-we-are-moving-estate/7922588340.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/encinitas-sunday-we-are-moving-estate/7922588340.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:25.511Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/encinitas-sunday-we-are-moving-estate/7922588340.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/encinitas-sunday-we-are-moving-estate/7922588340.html"
+}

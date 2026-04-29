@@ -1,0 +1,9 @@
+{
+	"id": "QygVq1E0EuYVkbg",
+	"json": "{\"id\":\"QygVq1E0EuYVkbg\",\"url\":\"https://tucson.craigslist.org/pet/d/tucson-reptile-supply-yard-sale-this/7930016208.html\",\"loadedUrl\":\"https://tucson.craigslist.org/pet/d/tucson-reptile-supply-yard-sale-this/7930016208.html\",\"uniqueKey\":\"https://tucson.craigslist.org/pet/d/tucson-reptile-supply-yard-sale-this/7930016208.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:07:48.522Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/pet/d/tucson-reptile-supply-yard-sale-this/7930016208.html",
+	"url": "https://tucson.craigslist.org/pet/d/tucson-reptile-supply-yard-sale-this/7930016208.html"
+}

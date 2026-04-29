@@ -1,0 +1,9 @@
+{
+	"id": "uTFPp8kq0r9hUHW",
+	"json": "{\"id\":\"uTFPp8kq0r9hUHW\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-kendall-lakes-estate-sale-and/7926597100.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-kendall-lakes-estate-sale-and/7926597100.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-kendall-lakes-estate-sale-and/7926597100.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:17:31.150Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-kendall-lakes-estate-sale-and/7926597100.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-kendall-lakes-estate-sale-and/7926597100.html"
+}

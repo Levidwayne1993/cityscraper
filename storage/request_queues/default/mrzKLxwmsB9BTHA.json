@@ -1,0 +1,9 @@
+{
+	"id": "mrzKLxwmsB9BTHA",
+	"json": "{\"id\":\"mrzKLxwmsB9BTHA\",\"url\":\"https://humboldt.craigslist.org/gms/d/cutten-half-off-sunday-26-estate-sale/7928884614.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/cutten-half-off-sunday-26-estate-sale/7928884614.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/cutten-half-off-sunday-26-estate-sale/7928884614.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:56:11.789Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/cutten-half-off-sunday-26-estate-sale/7928884614.html",
+	"url": "https://humboldt.craigslist.org/gms/d/cutten-half-off-sunday-26-estate-sale/7928884614.html"
+}

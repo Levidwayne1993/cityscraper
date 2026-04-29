@@ -1,0 +1,9 @@
+{
+	"id": "u7mtX8tnK9ElGoO",
+	"json": "{\"id\":\"u7mtX8tnK9ElGoO\",\"url\":\"https://washingtondc.craigslist.org/mld/for/d/suburb-maryland-fac-large-community/7928482112.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/for/d/suburb-maryland-fac-large-community/7928482112.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/for/d/suburb-maryland-fac-large-community/7928482112.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:27:49.918Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/for/d/suburb-maryland-fac-large-community/7928482112.html",
+	"url": "https://washingtondc.craigslist.org/mld/for/d/suburb-maryland-fac-large-community/7928482112.html"
+}

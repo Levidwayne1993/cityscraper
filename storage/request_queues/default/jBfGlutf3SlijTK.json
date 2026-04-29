@@ -1,0 +1,9 @@
+{
+	"id": "jBfGlutf3SlijTK",
+	"json": "{\"id\":\"jBfGlutf3SlijTK\",\"url\":\"https://ocala.craigslist.org/gms/d/ocala-yard-garage-moving-sale/7922450413.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/ocala-yard-garage-moving-sale/7922450413.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/ocala-yard-garage-moving-sale/7922450413.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:58:55.956Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/ocala-yard-garage-moving-sale/7922450413.html",
+	"url": "https://ocala.craigslist.org/gms/d/ocala-yard-garage-moving-sale/7922450413.html"
+}

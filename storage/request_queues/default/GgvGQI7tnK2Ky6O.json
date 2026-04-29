@@ -1,0 +1,9 @@
+{
+	"id": "GgvGQI7tnK2Ky6O",
+	"json": "{\"id\":\"GgvGQI7tnK2Ky6O\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-large-garage-sale/7929862580.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-large-garage-sale/7929862580.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-large-garage-sale/7929862580.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:28.665Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-large-garage-sale/7929862580.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-large-garage-sale/7929862580.html"
+}

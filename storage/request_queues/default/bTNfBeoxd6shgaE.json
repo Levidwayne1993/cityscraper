@@ -1,0 +1,9 @@
+{
+	"id": "bTNfBeoxd6shgaE",
+	"json": "{\"id\":\"bTNfBeoxd6shgaE\",\"url\":\"https://denver.craigslist.org/gms/d/parker-moving-sale-tons-of-furniture/7921640731.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/parker-moving-sale-tons-of-furniture/7921640731.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/parker-moving-sale-tons-of-furniture/7921640731.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:38.929Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/parker-moving-sale-tons-of-furniture/7921640731.html",
+	"url": "https://denver.craigslist.org/gms/d/parker-moving-sale-tons-of-furniture/7921640731.html"
+}

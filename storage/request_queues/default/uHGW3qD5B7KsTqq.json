@@ -1,0 +1,9 @@
+{
+	"id": "uHGW3qD5B7KsTqq",
+	"json": "{\"id\":\"uHGW3qD5B7KsTqq\",\"url\":\"https://santabarbara.craigslist.org/gms/d/goleta-estate-sale-april-18th/7927364846.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/goleta-estate-sale-april-18th/7927364846.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/goleta-estate-sale-april-18th/7927364846.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:20.781Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/goleta-estate-sale-april-18th/7927364846.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/goleta-estate-sale-april-18th/7927364846.html"
+}

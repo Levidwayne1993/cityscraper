@@ -1,0 +1,9 @@
+{
+	"id": "C9qyhZVwvVGZIF4",
+	"json": "{\"id\":\"C9qyhZVwvVGZIF4\",\"url\":\"https://montgomery.craigslist.org/gms/d/montgomery-multi-home-closeout-and/7923351561.html\",\"loadedUrl\":\"https://montgomery.craigslist.org/gms/d/montgomery-multi-home-closeout-and/7923351561.html\",\"uniqueKey\":\"https://montgomery.craigslist.org/gms/d/montgomery-multi-home-closeout-and/7923351561.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:08:24.150Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://montgomery.craigslist.org/gms/d/montgomery-multi-home-closeout-and/7923351561.html",
+	"url": "https://montgomery.craigslist.org/gms/d/montgomery-multi-home-closeout-and/7923351561.html"
+}

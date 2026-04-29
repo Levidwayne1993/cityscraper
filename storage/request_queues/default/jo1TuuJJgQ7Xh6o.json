@@ -1,0 +1,9 @@
+{
+	"id": "jo1TuuJJgQ7Xh6o",
+	"json": "{\"id\":\"jo1TuuJJgQ7Xh6o\",\"url\":\"https://jacksonvillenc.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://jacksonvillenc.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523488,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonvillenc.craigslist.org/search/gms?s=120",
+	"url": "https://jacksonvillenc.craigslist.org/search/gms?s=120"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XDglKwP80oJo7ew",
+	"json": "{\"id\":\"XDglKwP80oJo7ew\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/descanso-closing-sale-hi-end/7927806855.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/descanso-closing-sale-hi-end/7927806855.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/descanso-closing-sale-hi-end/7927806855.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:07.620Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/descanso-closing-sale-hi-end/7927806855.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/descanso-closing-sale-hi-end/7927806855.html"
+}

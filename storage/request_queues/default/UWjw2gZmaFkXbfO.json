@@ -1,0 +1,9 @@
+{
+	"id": "UWjw2gZmaFkXbfO",
+	"json": "{\"id\":\"UWjw2gZmaFkXbfO\",\"url\":\"https://newlondon.craigslist.org/gms/d/moodus-garage-tag-sale/7929370739.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/moodus-garage-tag-sale/7929370739.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/moodus-garage-tag-sale/7929370739.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:48.726Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/moodus-garage-tag-sale/7929370739.html",
+	"url": "https://newlondon.craigslist.org/gms/d/moodus-garage-tag-sale/7929370739.html"
+}

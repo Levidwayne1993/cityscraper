@@ -1,0 +1,9 @@
+{
+	"id": "ThH8jXYTlXYzYAB",
+	"json": "{\"id\":\"ThH8jXYTlXYzYAB\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-spring-cleaning-garage/7927835419.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-spring-cleaning-garage/7927835419.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-spring-cleaning-garage/7927835419.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:30.381Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-huge-spring-cleaning-garage/7927835419.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-huge-spring-cleaning-garage/7927835419.html"
+}

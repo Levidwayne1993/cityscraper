@@ -1,0 +1,9 @@
+{
+	"id": "GiFLqd6wKDzR8hn",
+	"json": "{\"id\":\"GiFLqd6wKDzR8hn\",\"url\":\"https://sfbay.craigslist.org/pen/art/d/daly-city-art-and-artifacts-estate-sale/7928865546.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/art/d/daly-city-art-and-artifacts-estate-sale/7928865546.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/art/d/daly-city-art-and-artifacts-estate-sale/7928865546.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:33.466Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/art/d/daly-city-art-and-artifacts-estate-sale/7928865546.html",
+	"url": "https://sfbay.craigslist.org/pen/art/d/daly-city-art-and-artifacts-estate-sale/7928865546.html"
+}

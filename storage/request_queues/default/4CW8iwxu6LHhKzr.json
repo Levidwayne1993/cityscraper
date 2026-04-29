@@ -1,0 +1,9 @@
+{
+	"id": "4CW8iwxu6LHhKzr",
+	"json": "{\"id\":\"4CW8iwxu6LHhKzr\",\"url\":\"https://modesto.craigslist.org/gms/d/riverbank-yard-sales-in-oakdale/7926899198.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/riverbank-yard-sales-in-oakdale/7926899198.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/riverbank-yard-sales-in-oakdale/7926899198.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:55:58.192Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/riverbank-yard-sales-in-oakdale/7926899198.html",
+	"url": "https://modesto.craigslist.org/gms/d/riverbank-yard-sales-in-oakdale/7926899198.html"
+}

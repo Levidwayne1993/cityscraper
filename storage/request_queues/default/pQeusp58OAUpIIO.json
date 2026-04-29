@@ -1,0 +1,9 @@
+{
+	"id": "pQeusp58OAUpIIO",
+	"json": "{\"id\":\"pQeusp58OAUpIIO\",\"url\":\"https://fortcollins.craigslist.org/gms/d/evans-garage-moving-sale-friday-april/7929791964.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/evans-garage-moving-sale-friday-april/7929791964.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/evans-garage-moving-sale-friday-april/7929791964.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:05.813Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/evans-garage-moving-sale-friday-april/7929791964.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/evans-garage-moving-sale-friday-april/7929791964.html"
+}

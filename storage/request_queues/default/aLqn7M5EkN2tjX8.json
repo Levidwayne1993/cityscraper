@@ -1,0 +1,9 @@
+{
+	"id": "aLqn7M5EkN2tjX8",
+	"json": "{\"id\":\"aLqn7M5EkN2tjX8\",\"url\":\"https://denver.craigslist.org/gms/d/denver-update-cancel-for-weather-garage/7929792698.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-update-cancel-for-weather-garage/7929792698.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-update-cancel-for-weather-garage/7929792698.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:06.479Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-update-cancel-for-weather-garage/7929792698.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-update-cancel-for-weather-garage/7929792698.html"
+}

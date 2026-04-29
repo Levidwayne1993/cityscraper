@@ -1,0 +1,9 @@
+{
+	"id": "VX09qpbBZJZghFb",
+	"json": "{\"id\":\"VX09qpbBZJZghFb\",\"url\":\"https://lakecharles.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://lakecharles.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520106,
+	"retryCount": 0,
+	"uniqueKey": "https://lakecharles.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://lakecharles.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Mow9PixSm7efp5Z",
+	"json": "{\"id\":\"Mow9PixSm7efp5Z\",\"url\":\"https://bellingham.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://bellingham.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527932,
+	"retryCount": 0,
+	"uniqueKey": "https://bellingham.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://bellingham.craigslist.org/search/ccc?query=garage+sale"
+}

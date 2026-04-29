@@ -1,0 +1,9 @@
+{
+	"id": "FCfRsoj3WedBcS1",
+	"json": "{\"id\":\"FCfRsoj3WedBcS1\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-garage-sale-friday-saturday/7929798169.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-garage-sale-friday-saturday/7929798169.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-garage-sale-friday-saturday/7929798169.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:21:10.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-garage-sale-friday-saturday/7929798169.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-garage-sale-friday-saturday/7929798169.html"
+}

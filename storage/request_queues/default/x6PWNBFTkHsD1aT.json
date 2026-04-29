@@ -1,0 +1,9 @@
+{
+	"id": "x6PWNBFTkHsD1aT",
+	"json": "{\"id\":\"x6PWNBFTkHsD1aT\",\"url\":\"https://newhaven.craigslist.org/gms/d/new-haven-picker-estate-sale-everything/7928034935.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/new-haven-picker-estate-sale-everything/7928034935.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/new-haven-picker-estate-sale-everything/7928034935.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:03.981Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/new-haven-picker-estate-sale-everything/7928034935.html",
+	"url": "https://newhaven.craigslist.org/gms/d/new-haven-picker-estate-sale-everything/7928034935.html"
+}

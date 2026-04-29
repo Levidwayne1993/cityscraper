@@ -1,8 +1,8 @@
 {
 	"id": "cj3yiWbA2P0hiN0",
-	"json": "{\"id\":\"cj3yiWbA2P0hiN0\",\"url\":\"https://stockton.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://stockton.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"cj3yiWbA2P0hiN0\",\"url\":\"https://stockton.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://stockton.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://stockton.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:02:11.025Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323316,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://stockton.craigslist.org/search/gms?s=240",
 	"url": "https://stockton.craigslist.org/search/gms?s=240"

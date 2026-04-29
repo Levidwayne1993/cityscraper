@@ -1,0 +1,9 @@
+{
+	"id": "1y94y1EBRpQqdxe",
+	"json": "{\"id\":\"1y94y1EBRpQqdxe\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-glen-eagle-community-yard-sale/7929007810.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-glen-eagle-community-yard-sale/7929007810.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-glen-eagle-community-yard-sale/7929007810.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:44:46.073Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-glen-eagle-community-yard-sale/7929007810.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-glen-eagle-community-yard-sale/7929007810.html"
+}

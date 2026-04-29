@@ -1,0 +1,9 @@
+{
+	"id": "WTF1C9m8X5Zelt9",
+	"json": "{\"id\":\"WTF1C9m8X5Zelt9\",\"url\":\"https://inlandempire.craigslist.org/gms/d/bryn-mawr-well-stocked-garage-sale/7925527491.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/bryn-mawr-well-stocked-garage-sale/7925527491.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/bryn-mawr-well-stocked-garage-sale/7925527491.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:39.880Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/bryn-mawr-well-stocked-garage-sale/7925527491.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/bryn-mawr-well-stocked-garage-sale/7925527491.html"
+}

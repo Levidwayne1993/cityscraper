@@ -1,0 +1,9 @@
+{
+	"id": "5rRfsA4gTGiPt7J",
+	"json": "{\"id\":\"5rRfsA4gTGiPt7J\",\"url\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-neighborhood-garage/7928325318.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-neighborhood-garage/7928325318.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-neighborhood-garage/7928325318.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:16:47.968Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/huntington-beach-neighborhood-garage/7928325318.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/huntington-beach-neighborhood-garage/7928325318.html"
+}

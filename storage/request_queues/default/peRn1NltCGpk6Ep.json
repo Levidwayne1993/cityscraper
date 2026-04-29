@@ -1,0 +1,9 @@
+{
+	"id": "peRn1NltCGpk6Ep",
+	"json": "{\"id\":\"peRn1NltCGpk6Ep\",\"url\":\"https://prescott.craigslist.org/gms/d/cornville-estate-sale-online-only/7925196022.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/cornville-estate-sale-online-only/7925196022.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/cornville-estate-sale-online-only/7925196022.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:57.364Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/cornville-estate-sale-online-only/7925196022.html",
+	"url": "https://prescott.craigslist.org/gms/d/cornville-estate-sale-online-only/7925196022.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "u9Lzl2tfb7gEhb0",
+	"json": "{\"id\":\"u9Lzl2tfb7gEhb0\",\"url\":\"https://modesto.craigslist.org/gms/d/oakdale-multi-family-yard-sale/7925315126.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/oakdale-multi-family-yard-sale/7925315126.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/oakdale-multi-family-yard-sale/7925315126.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:54:25.593Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/oakdale-multi-family-yard-sale/7925315126.html",
+	"url": "https://modesto.craigslist.org/gms/d/oakdale-multi-family-yard-sale/7925315126.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "oLWtfPhuiP2UZos",
+	"json": "{\"id\":\"oLWtfPhuiP2UZos\",\"url\":\"https://prescott.craigslist.org/gms/d/cottonwood-yard-sale-located-in-park/7926761063.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/cottonwood-yard-sale-located-in-park/7926761063.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/cottonwood-yard-sale-located-in-park/7926761063.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:46:10.971Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/cottonwood-yard-sale-located-in-park/7926761063.html",
+	"url": "https://prescott.craigslist.org/gms/d/cottonwood-yard-sale-located-in-park/7926761063.html"
+}

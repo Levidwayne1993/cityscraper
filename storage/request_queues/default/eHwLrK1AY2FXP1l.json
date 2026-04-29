@@ -1,0 +1,9 @@
+{
+	"id": "eHwLrK1AY2FXP1l",
+	"json": "{\"id\":\"eHwLrK1AY2FXP1l\",\"url\":\"https://reno.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://reno.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522755,
+	"retryCount": 0,
+	"uniqueKey": "https://reno.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://reno.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

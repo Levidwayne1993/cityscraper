@@ -1,0 +1,9 @@
+{
+	"id": "NpGC0PcbcL6pYG9",
+	"json": "{\"id\":\"NpGC0PcbcL6pYG9\",\"url\":\"https://westslope.craigslist.org/fuo/d/durango-custom-stainless-steel-dining/7920361704.html\",\"loadedUrl\":\"https://westslope.craigslist.org/fuo/d/durango-custom-stainless-steel-dining/7920361704.html\",\"uniqueKey\":\"https://westslope.craigslist.org/fuo/d/durango-custom-stainless-steel-dining/7920361704.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:29.342Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/fuo/d/durango-custom-stainless-steel-dining/7920361704.html",
+	"url": "https://westslope.craigslist.org/fuo/d/durango-custom-stainless-steel-dining/7920361704.html"
+}

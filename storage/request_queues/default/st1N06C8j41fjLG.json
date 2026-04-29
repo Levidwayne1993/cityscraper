@@ -1,0 +1,9 @@
+{
+	"id": "st1N06C8j41fjLG",
+	"json": "{\"id\":\"st1N06C8j41fjLG\",\"url\":\"https://miami.craigslist.org/pbc/fuo/d/delray-beach-moving-saleeverything-must/7920641549.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/fuo/d/delray-beach-moving-saleeverything-must/7920641549.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/fuo/d/delray-beach-moving-saleeverything-must/7920641549.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:14:29.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/fuo/d/delray-beach-moving-saleeverything-must/7920641549.html",
+	"url": "https://miami.craigslist.org/pbc/fuo/d/delray-beach-moving-saleeverything-must/7920641549.html"
+}

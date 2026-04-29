@@ -1,0 +1,9 @@
+{
+	"id": "ONo8I1XFpWEYGXh",
+	"json": "{\"id\":\"ONo8I1XFpWEYGXh\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-moving-sale/7928750218.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-moving-sale/7928750218.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-moving-sale/7928750218.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:21.204Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-garage-moving-sale/7928750218.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-garage-moving-sale/7928750218.html"
+}

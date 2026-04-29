@@ -1,0 +1,9 @@
+{
+	"id": "iujTI9tUPsa3qCm",
+	"json": "{\"id\":\"iujTI9tUPsa3qCm\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-final-estate-sale-all-must/7928496836.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-final-estate-sale-all-must/7928496836.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-desert-final-estate-sale-all-must/7928496836.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:30:32.198Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-desert-final-estate-sale-all-must/7928496836.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-desert-final-estate-sale-all-must/7928496836.html"
+}

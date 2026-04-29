@@ -1,0 +1,9 @@
+{
+	"id": "rhO0lywPjFk6FP0",
+	"json": "{\"id\":\"rhO0lywPjFk6FP0\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-estate-sale-515-sierra-prieta/7928020359.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-estate-sale-515-sierra-prieta/7928020359.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-estate-sale-515-sierra-prieta/7928020359.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:49:03.437Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-estate-sale-515-sierra-prieta/7928020359.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-estate-sale-515-sierra-prieta/7928020359.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vrCu7gLBqnzB1Ho",
+	"json": "{\"id\":\"vrCu7gLBqnzB1Ho\",\"url\":\"https://orlando.craigslist.org/gms/d/sanford-garage-sale/7929993328.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/sanford-garage-sale/7929993328.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/sanford-garage-sale/7929993328.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:34:57.066Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/sanford-garage-sale/7929993328.html",
+	"url": "https://orlando.craigslist.org/gms/d/sanford-garage-sale/7929993328.html"
+}

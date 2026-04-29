@@ -1,0 +1,9 @@
+{
+	"id": "J8doiYTdUb9IyPI",
+	"json": "{\"id\":\"J8doiYTdUb9IyPI\",\"url\":\"https://santabarbara.craigslist.org/gms/d/goleta-large-estate-sale-sat-am/7929708223.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/goleta-large-estate-sale-sat-am/7929708223.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/goleta-large-estate-sale-sat-am/7929708223.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:28.138Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/goleta-large-estate-sale-sat-am/7929708223.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/goleta-large-estate-sale-sat-am/7929708223.html"
+}

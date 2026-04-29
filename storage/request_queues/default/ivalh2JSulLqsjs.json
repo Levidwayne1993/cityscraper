@@ -1,0 +1,9 @@
+{
+	"id": "ivalh2JSulLqsjs",
+	"json": "{\"id\":\"ivalh2JSulLqsjs\",\"url\":\"https://newlondon.craigslist.org/gms/d/baltic-moving-sale/7929928260.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/baltic-moving-sale/7929928260.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/baltic-moving-sale/7929928260.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:02:31.070Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/baltic-moving-sale/7929928260.html",
+	"url": "https://newlondon.craigslist.org/gms/d/baltic-moving-sale/7929928260.html"
+}

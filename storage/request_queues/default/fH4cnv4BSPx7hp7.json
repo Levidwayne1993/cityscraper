@@ -1,0 +1,9 @@
+{
+	"id": "fH4cnv4BSPx7hp7",
+	"json": "{\"id\":\"fH4cnv4BSPx7hp7\",\"url\":\"https://daytona.craigslist.org/gms/d/port-orange-garage-sale/7927780452.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/port-orange-garage-sale/7927780452.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/port-orange-garage-sale/7927780452.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:59:54.028Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/port-orange-garage-sale/7927780452.html",
+	"url": "https://daytona.craigslist.org/gms/d/port-orange-garage-sale/7927780452.html"
+}

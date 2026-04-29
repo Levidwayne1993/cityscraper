@@ -1,0 +1,9 @@
+{
+	"id": "EIGM9tnnuUDu4G7",
+	"json": "{\"id\":\"EIGM9tnnuUDu4G7\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-huge-community-yard-sale/7930066404.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-huge-community-yard-sale/7930066404.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-huge-community-yard-sale/7930066404.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:13:07.405Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-huge-community-yard-sale/7930066404.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-huge-community-yard-sale/7930066404.html"
+}

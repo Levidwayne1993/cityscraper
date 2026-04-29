@@ -1,0 +1,9 @@
+{
+	"id": "m5ph9YAXiXadLYB",
+	"json": "{\"id\":\"m5ph9YAXiXadLYB\",\"url\":\"https://sacramento.craigslist.org/gms/d/folsom-two-family-garage-sales/7930003340.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/folsom-two-family-garage-sales/7930003340.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/folsom-two-family-garage-sales/7930003340.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:26.018Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/folsom-two-family-garage-sales/7930003340.html",
+	"url": "https://sacramento.craigslist.org/gms/d/folsom-two-family-garage-sales/7930003340.html"
+}

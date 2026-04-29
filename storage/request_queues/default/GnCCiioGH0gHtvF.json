@@ -1,0 +1,9 @@
+{
+	"id": "GnCCiioGH0gHtvF",
+	"json": "{\"id\":\"GnCCiioGH0gHtvF\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/hollister-estate-sale-1890-victorian/7926638966.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/hollister-estate-sale-1890-victorian/7926638966.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/hollister-estate-sale-1890-victorian/7926638966.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:11.944Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/hollister-estate-sale-1890-victorian/7926638966.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/hollister-estate-sale-1890-victorian/7926638966.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "eDVp315pMcSMdeD",
+	"json": "{\"id\":\"eDVp315pMcSMdeD\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/northridge-yard-sale-shoes-clothes/7928049839.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/northridge-yard-sale-shoes-clothes/7928049839.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/northridge-yard-sale-shoes-clothes/7928049839.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:28:42.905Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/northridge-yard-sale-shoes-clothes/7928049839.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/northridge-yard-sale-shoes-clothes/7928049839.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hWhVBza9xrXGQit",
+	"json": "{\"id\":\"hWhVBza9xrXGQit\",\"url\":\"https://denver.craigslist.org/gms/d/englewood-huge-20-family-garage-sale/7930098752.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/englewood-huge-20-family-garage-sale/7930098752.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/englewood-huge-20-family-garage-sale/7930098752.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:40.174Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/englewood-huge-20-family-garage-sale/7930098752.html",
+	"url": "https://denver.craigslist.org/gms/d/englewood-huge-20-family-garage-sale/7930098752.html"
+}

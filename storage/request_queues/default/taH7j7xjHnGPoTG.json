@@ -1,0 +1,9 @@
+{
+	"id": "taH7j7xjHnGPoTG",
+	"json": "{\"id\":\"taH7j7xjHnGPoTG\",\"url\":\"https://sacramento.craigslist.org/gms/d/north-highlands-newly-married-blending/7929791526.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/north-highlands-newly-married-blending/7929791526.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/north-highlands-newly-married-blending/7929791526.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:41:31.202Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/north-highlands-newly-married-blending/7929791526.html",
+	"url": "https://sacramento.craigslist.org/gms/d/north-highlands-newly-married-blending/7929791526.html"
+}

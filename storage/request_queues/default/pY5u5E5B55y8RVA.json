@@ -1,0 +1,9 @@
+{
+	"id": "pY5u5E5B55y8RVA",
+	"json": "{\"id\":\"pY5u5E5B55y8RVA\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/la-mesa-multi-family-yard-sale/7928361426.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/la-mesa-multi-family-yard-sale/7928361426.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/la-mesa-multi-family-yard-sale/7928361426.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:00:34.196Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/la-mesa-multi-family-yard-sale/7928361426.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/la-mesa-multi-family-yard-sale/7928361426.html"
+}

@@ -1,9 +1,0 @@
-{
-	"id": "75BdefUrOalZEin",
-	"json": "{\"id\":\"75BdefUrOalZEin\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Fort-Collins-CO.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Fort-Collins-CO.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CO\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330638,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Fort-Collins-CO.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Fort-Collins-CO.html"
-}

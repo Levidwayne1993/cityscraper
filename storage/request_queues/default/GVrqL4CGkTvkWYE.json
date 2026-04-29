@@ -1,8 +1,8 @@
 {
 	"id": "GVrqL4CGkTvkWYE",
-	"json": "{\"id\":\"GVrqL4CGkTvkWYE\",\"url\":\"https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"GVrqL4CGkTvkWYE\",\"url\":\"https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
 	"method": "GET",
-	"orderNo": 1777040324596,
+	"orderNo": 1777186518325,
 	"retryCount": 0,
 	"uniqueKey": "https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://lafayette.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

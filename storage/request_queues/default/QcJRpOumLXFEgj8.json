@@ -1,0 +1,9 @@
+{
+	"id": "QcJRpOumLXFEgj8",
+	"json": "{\"id\":\"QcJRpOumLXFEgj8\",\"url\":\"https://ventura.craigslist.org/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929528330.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929528330.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929528330.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:39.315Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929528330.html",
+	"url": "https://ventura.craigslist.org/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929528330.html"
+}

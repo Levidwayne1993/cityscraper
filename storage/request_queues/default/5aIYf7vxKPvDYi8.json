@@ -1,0 +1,9 @@
+{
+	"id": "5aIYf7vxKPvDYi8",
+	"json": "{\"id\":\"5aIYf7vxKPvDYi8\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929497003.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929497003.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929497003.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:33:05.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929497003.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/agoura-hills-huge-yard-sale-hillrise-dr/7929497003.html"
+}

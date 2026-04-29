@@ -1,0 +1,9 @@
+{
+	"id": "uyFVbKgPu8NCba0",
+	"json": "{\"id\":\"uyFVbKgPu8NCba0\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-san-marcos/7930051790.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-san-marcos/7930051790.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-san-marcos/7930051790.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:15.917Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-san-marcos/7930051790.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-san-marcos/7930051790.html"
+}

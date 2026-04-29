@@ -1,0 +1,9 @@
+{
+	"id": "OYtPg4rxAUsmV5t",
+	"json": "{\"id\":\"OYtPg4rxAUsmV5t\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale-nw-arvada-candelas/7928948237.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale-nw-arvada-candelas/7928948237.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale-nw-arvada-candelas/7928948237.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:42:26.721Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-moving-sale-nw-arvada-candelas/7928948237.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-moving-sale-nw-arvada-candelas/7928948237.html"
+}

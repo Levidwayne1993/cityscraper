@@ -1,0 +1,9 @@
+{
+	"id": "f9FdlhCLUW2ORE1",
+	"json": "{\"id\":\"f9FdlhCLUW2ORE1\",\"url\":\"https://ventura.craigslist.org/atq/d/ventura-30-off-estate-sale/7922928347.html\",\"loadedUrl\":\"https://ventura.craigslist.org/atq/d/ventura-30-off-estate-sale/7922928347.html\",\"uniqueKey\":\"https://ventura.craigslist.org/atq/d/ventura-30-off-estate-sale/7922928347.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:14:31.949Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/atq/d/ventura-30-off-estate-sale/7922928347.html",
+	"url": "https://ventura.craigslist.org/atq/d/ventura-30-off-estate-sale/7922928347.html"
+}

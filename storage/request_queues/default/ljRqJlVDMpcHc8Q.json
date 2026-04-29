@@ -1,0 +1,9 @@
+{
+	"id": "ljRqJlVDMpcHc8Q",
+	"json": "{\"id\":\"ljRqJlVDMpcHc8Q\",\"url\":\"https://montgomery.craigslist.org/gms/d/wetumpka-multi-family-garage-sale-18/7927980817.html\",\"loadedUrl\":\"https://montgomery.craigslist.org/gms/d/wetumpka-multi-family-garage-sale-18/7927980817.html\",\"uniqueKey\":\"https://montgomery.craigslist.org/gms/d/wetumpka-multi-family-garage-sale-18/7927980817.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:08:29.250Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://montgomery.craigslist.org/gms/d/wetumpka-multi-family-garage-sale-18/7927980817.html",
+	"url": "https://montgomery.craigslist.org/gms/d/wetumpka-multi-family-garage-sale-18/7927980817.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "z6mtPadG9Ya7RKM",
+	"json": "{\"id\":\"z6mtPadG9Ya7RKM\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-sale-and-am-pm/7929535527.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-sale-and-am-pm/7929535527.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-sale-and-am-pm/7929535527.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:51.595Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-sale-and-am-pm/7929535527.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-sale-and-am-pm/7929535527.html"
+}

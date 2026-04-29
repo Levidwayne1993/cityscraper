@@ -1,0 +1,9 @@
+{
+	"id": "0QvCoOIe6LC0u0U",
+	"json": "{\"id\":\"0QvCoOIe6LC0u0U\",\"url\":\"https://hartford.craigslist.org/gms/d/collinsville-pop-up-sidewalk-sale/7926420179.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/collinsville-pop-up-sidewalk-sale/7926420179.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/collinsville-pop-up-sidewalk-sale/7926420179.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:45.886Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/collinsville-pop-up-sidewalk-sale/7926420179.html",
+	"url": "https://hartford.craigslist.org/gms/d/collinsville-pop-up-sidewalk-sale/7926420179.html"
+}

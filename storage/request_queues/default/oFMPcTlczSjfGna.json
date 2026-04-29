@@ -1,0 +1,9 @@
+{
+	"id": "oFMPcTlczSjfGna",
+	"json": "{\"id\":\"oFMPcTlczSjfGna\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-yard-sale/7923646277.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-yard-sale/7923646277.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-yard-sale/7923646277.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:26.648Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-yard-sale/7923646277.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-yard-sale/7923646277.html"
+}

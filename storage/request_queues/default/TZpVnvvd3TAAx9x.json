@@ -1,0 +1,9 @@
+{
+	"id": "TZpVnvvd3TAAx9x",
+	"json": "{\"id\":\"TZpVnvvd3TAAx9x\",\"url\":\"https://lincoln.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://lincoln.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522659,
+	"retryCount": 0,
+	"uniqueKey": "https://lincoln.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://lincoln.craigslist.org/search/ccc?query=garage+sale"
+}

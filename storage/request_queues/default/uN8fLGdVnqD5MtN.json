@@ -1,0 +1,9 @@
+{
+	"id": "uN8fLGdVnqD5MtN",
+	"json": "{\"id\":\"uN8fLGdVnqD5MtN\",\"url\":\"https://muskegon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://muskegon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520841,
+	"retryCount": 0,
+	"uniqueKey": "https://muskegon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://muskegon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

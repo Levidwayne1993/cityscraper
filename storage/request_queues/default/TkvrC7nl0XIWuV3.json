@@ -1,0 +1,9 @@
+{
+	"id": "TkvrC7nl0XIWuV3",
+	"json": "{\"id\":\"TkvrC7nl0XIWuV3\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-estate-sale-part/7921104979.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-estate-sale-part/7921104979.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-estate-sale-part/7921104979.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:21:39.468Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-estate-sale-part/7921104979.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-estate-sale-part/7921104979.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "rc1rIiZTCzpOsFO",
+	"json": "{\"id\":\"rc1rIiZTCzpOsFO\",\"url\":\"https://gainesville.craigslist.org/gms/d/gainesville-yard-sale/7928154237.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/gainesville-yard-sale/7928154237.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/gainesville-yard-sale/7928154237.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:30:20.623Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/gainesville-yard-sale/7928154237.html",
+	"url": "https://gainesville.craigslist.org/gms/d/gainesville-yard-sale/7928154237.html"
+}

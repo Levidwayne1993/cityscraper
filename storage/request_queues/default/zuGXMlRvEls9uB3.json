@@ -1,0 +1,9 @@
+{
+	"id": "zuGXMlRvEls9uB3",
+	"json": "{\"id\":\"zuGXMlRvEls9uB3\",\"url\":\"https://modesto.craigslist.org/gms/d/riverbank-huge-yard-sale-riverbank/7925543172.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/riverbank-huge-yard-sale-riverbank/7925543172.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/riverbank-huge-yard-sale-riverbank/7925543172.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:54:47.127Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/riverbank-huge-yard-sale-riverbank/7925543172.html",
+	"url": "https://modesto.craigslist.org/gms/d/riverbank-huge-yard-sale-riverbank/7925543172.html"
+}

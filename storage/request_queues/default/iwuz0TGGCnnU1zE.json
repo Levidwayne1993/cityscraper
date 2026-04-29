@@ -1,0 +1,9 @@
+{
+	"id": "iwuz0TGGCnnU1zE",
+	"json": "{\"id\":\"iwuz0TGGCnnU1zE\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-about-16-potted-plants-for/7930165318.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-about-16-potted-plants-for/7930165318.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-about-16-potted-plants-for/7930165318.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:54.264Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-about-16-potted-plants-for/7930165318.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-about-16-potted-plants-for/7930165318.html"
+}

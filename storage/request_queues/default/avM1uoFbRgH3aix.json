@@ -1,0 +1,9 @@
+{
+	"id": "avM1uoFbRgH3aix",
+	"json": "{\"id\":\"avM1uoFbRgH3aix\",\"url\":\"https://evansville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://evansville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518261,
+	"retryCount": 0,
+	"uniqueKey": "https://evansville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://evansville.craigslist.org/search/ccc?query=yard+sale"
+}

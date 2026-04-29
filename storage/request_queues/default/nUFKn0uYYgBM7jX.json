@@ -1,0 +1,9 @@
+{
+	"id": "nUFKn0uYYgBM7jX",
+	"json": "{\"id\":\"nUFKn0uYYgBM7jX\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lower-haight-yard-sale/7928691169.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lower-haight-yard-sale/7928691169.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lower-haight-yard-sale/7928691169.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:27:12.590Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lower-haight-yard-sale/7928691169.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lower-haight-yard-sale/7928691169.html"
+}

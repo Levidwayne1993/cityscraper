@@ -1,0 +1,9 @@
+{
+	"id": "P3iWGCJ3FwtS0kz",
+	"json": "{\"id\":\"P3iWGCJ3FwtS0kz\",\"url\":\"https://maine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://maine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ME\"}}",
+	"method": "GET",
+	"orderNo": 1777186520226,
+	"retryCount": 0,
+	"uniqueKey": "https://maine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://maine.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

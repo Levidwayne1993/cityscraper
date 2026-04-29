@@ -1,0 +1,9 @@
+{
+	"id": "MxJZcLf9H98m00l",
+	"json": "{\"id\":\"MxJZcLf9H98m00l\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-moving-sale-nw-cape/7923212055.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-moving-sale-nw-cape/7923212055.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-moving-sale-nw-cape/7923212055.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:26:48.150Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-moving-sale-nw-cape/7923212055.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-moving-sale-nw-cape/7923212055.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "JPcFEbuVsttXCux",
+	"json": "{\"id\":\"JPcFEbuVsttXCux\",\"url\":\"https://wichitafalls.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://wichitafalls.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527611,
+	"retryCount": 0,
+	"uniqueKey": "https://wichitafalls.craigslist.org/search/gms?s=480",
+	"url": "https://wichitafalls.craigslist.org/search/gms?s=480"
+}

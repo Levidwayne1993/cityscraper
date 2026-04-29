@@ -1,0 +1,9 @@
+{
+	"id": "RS9QAWTKCey4dOD",
+	"json": "{\"id\":\"RS9QAWTKCey4dOD\",\"url\":\"https://meadville.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://meadville.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525520,
+	"retryCount": 0,
+	"uniqueKey": "https://meadville.craigslist.org/search/gms?s=480",
+	"url": "https://meadville.craigslist.org/search/gms?s=480"
+}

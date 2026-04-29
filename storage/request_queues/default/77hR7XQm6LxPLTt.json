@@ -1,0 +1,9 @@
+{
+	"id": "77hR7XQm6LxPLTt",
+	"json": "{\"id\":\"77hR7XQm6LxPLTt\",\"url\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-estate-moving-sale/7927829554.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-estate-moving-sale/7927829554.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-estate-moving-sale/7927829554.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:13.817Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/lake-havasu-city-estate-moving-sale/7927829554.html",
+	"url": "https://mohave.craigslist.org/gms/d/lake-havasu-city-estate-moving-sale/7927829554.html"
+}

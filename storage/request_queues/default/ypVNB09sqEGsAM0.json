@@ -1,0 +1,9 @@
+{
+	"id": "ypVNB09sqEGsAM0",
+	"json": "{\"id\":\"ypVNB09sqEGsAM0\",\"url\":\"https://sfbay.craigslist.org/nby/fuo/d/novato-moving-sale/7930079565.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/fuo/d/novato-moving-sale/7930079565.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/fuo/d/novato-moving-sale/7930079565.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:15.013Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/fuo/d/novato-moving-sale/7930079565.html",
+	"url": "https://sfbay.craigslist.org/nby/fuo/d/novato-moving-sale/7930079565.html"
+}

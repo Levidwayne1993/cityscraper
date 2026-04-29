@@ -1,0 +1,9 @@
+{
+	"id": "x0AhRP9KY8gdwRX",
+	"json": "{\"id\":\"x0AhRP9KY8gdwRX\",\"url\":\"https://sfbay.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://sfbay.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://sfbay.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:05.648Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://sfbay.craigslist.org/search/ccc?query=yard+sale"
+}

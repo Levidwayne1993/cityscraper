@@ -1,0 +1,9 @@
+{
+	"id": "l9o2R70xfiKxBb9",
+	"json": "{\"id\":\"l9o2R70xfiKxBb9\",\"url\":\"https://orangecounty.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://orangecounty.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:24:55.493Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://orangecounty.craigslist.org/search/ccc?query=garage+sale"
+}

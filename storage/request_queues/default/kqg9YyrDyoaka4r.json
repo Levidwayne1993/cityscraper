@@ -1,0 +1,9 @@
+{
+	"id": "kqg9YyrDyoaka4r",
+	"json": "{\"id\":\"kqg9YyrDyoaka4r\",\"url\":\"https://inlandempire.craigslist.org/gms/d/barstow-yard-sale/7924346017.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/barstow-yard-sale/7924346017.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/barstow-yard-sale/7924346017.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:17.879Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/barstow-yard-sale/7924346017.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/barstow-yard-sale/7924346017.html"
+}

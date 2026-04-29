@@ -1,0 +1,9 @@
+{
+	"id": "FGSjmzEXMOVxtgF",
+	"json": "{\"id\":\"FGSjmzEXMOVxtgF\",\"url\":\"https://westslope.craigslist.org/gms/d/clifton-big-yard-sale/7928024493.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/clifton-big-yard-sale/7928024493.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/clifton-big-yard-sale/7928024493.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:00:02.323Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/clifton-big-yard-sale/7928024493.html",
+	"url": "https://westslope.craigslist.org/gms/d/clifton-big-yard-sale/7928024493.html"
+}

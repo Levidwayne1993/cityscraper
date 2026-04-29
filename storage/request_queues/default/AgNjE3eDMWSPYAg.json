@@ -1,0 +1,9 @@
+{
+	"id": "AgNjE3eDMWSPYAg",
+	"json": "{\"id\":\"AgNjE3eDMWSPYAg\",\"url\":\"https://denver.craigslist.org/gms/d/brighton-yard-sale-303-north-6th-ave-in/7922285902.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/brighton-yard-sale-303-north-6th-ave-in/7922285902.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/brighton-yard-sale-303-north-6th-ave-in/7922285902.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:51.315Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/brighton-yard-sale-303-north-6th-ave-in/7922285902.html",
+	"url": "https://denver.craigslist.org/gms/d/brighton-yard-sale-303-north-6th-ave-in/7922285902.html"
+}

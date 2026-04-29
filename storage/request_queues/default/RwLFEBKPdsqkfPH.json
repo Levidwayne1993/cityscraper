@@ -1,0 +1,9 @@
+{
+	"id": "RwLFEBKPdsqkfPH",
+	"json": "{\"id\":\"RwLFEBKPdsqkfPH\",\"url\":\"https://fortcollins.craigslist.org/gms/d/evans-yard-sales-in-belair-neighborhood/7929561449.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/evans-yard-sales-in-belair-neighborhood/7929561449.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/evans-yard-sales-in-belair-neighborhood/7929561449.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:50:00.012Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/evans-yard-sales-in-belair-neighborhood/7929561449.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/evans-yard-sales-in-belair-neighborhood/7929561449.html"
+}

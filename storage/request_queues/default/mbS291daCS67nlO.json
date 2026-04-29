@@ -1,0 +1,9 @@
+{
+	"id": "mbS291daCS67nlO",
+	"json": "{\"id\":\"mbS291daCS67nlO\",\"url\":\"https://ventura.craigslist.org/gms/d/newbury-park-garage-sale-via-camino-in/7928267816.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/newbury-park-garage-sale-via-camino-in/7928267816.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/newbury-park-garage-sale-via-camino-in/7928267816.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:49.015Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/newbury-park-garage-sale-via-camino-in/7928267816.html",
+	"url": "https://ventura.craigslist.org/gms/d/newbury-park-garage-sale-via-camino-in/7928267816.html"
+}

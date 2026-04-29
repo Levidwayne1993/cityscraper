@@ -1,0 +1,9 @@
+{
+	"id": "DytQ5VhsMz7bY7B",
+	"json": "{\"id\":\"DytQ5VhsMz7bY7B\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-collectable-art-posters/7927181595.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-collectable-art-posters/7927181595.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-collectable-art-posters/7927181595.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:51.412Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-collectable-art-posters/7927181595.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-collectable-art-posters/7927181595.html"
+}

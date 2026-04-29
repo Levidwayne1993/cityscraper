@@ -1,0 +1,9 @@
+{
+	"id": "qPwDrTd1r3h0qZj",
+	"json": "{\"id\":\"qPwDrTd1r3h0qZj\",\"url\":\"https://carbondale.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://carbondale.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518075,
+	"retryCount": 0,
+	"uniqueKey": "https://carbondale.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://carbondale.craigslist.org/search/ccc?query=yard+sale"
+}

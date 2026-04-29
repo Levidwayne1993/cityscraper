@@ -1,0 +1,9 @@
+{
+	"id": "Y71KJ4ApZtznw7t",
+	"json": "{\"id\":\"Y71KJ4ApZtznw7t\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Santa-Rosa-CA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Santa-Rosa-CA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"Santa-Rosa-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530574,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Santa-Rosa-CA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Santa-Rosa-CA.html"
+}

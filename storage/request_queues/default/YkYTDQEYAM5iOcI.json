@@ -1,0 +1,9 @@
+{
+	"id": "YkYTDQEYAM5iOcI",
+	"json": "{\"id\":\"YkYTDQEYAM5iOcI\",\"url\":\"https://humboldt.craigslist.org/gms/d/fields-landing-toy-garage-sale/7925613048.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/fields-landing-toy-garage-sale/7925613048.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/fields-landing-toy-garage-sale/7925613048.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:43.493Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/fields-landing-toy-garage-sale/7925613048.html",
+	"url": "https://humboldt.craigslist.org/gms/d/fields-landing-toy-garage-sale/7925613048.html"
+}

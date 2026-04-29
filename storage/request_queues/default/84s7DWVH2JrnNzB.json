@@ -1,0 +1,9 @@
+{
+	"id": "84s7DWVH2JrnNzB",
+	"json": "{\"id\":\"84s7DWVH2JrnNzB\",\"url\":\"https://siskiyou.craigslist.org/gms/d/yreka-huge-estate-sale/7928325293.html\",\"loadedUrl\":\"https://siskiyou.craigslist.org/gms/d/yreka-huge-estate-sale/7928325293.html\",\"uniqueKey\":\"https://siskiyou.craigslist.org/gms/d/yreka-huge-estate-sale/7928325293.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:00:56.396Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/gms/d/yreka-huge-estate-sale/7928325293.html",
+	"url": "https://siskiyou.craigslist.org/gms/d/yreka-huge-estate-sale/7928325293.html"
+}

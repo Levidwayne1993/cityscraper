@@ -1,0 +1,9 @@
+{
+	"id": "kafeizIsV36BqHx",
+	"json": "{\"id\":\"kafeizIsV36BqHx\",\"url\":\"https://mohave.craigslist.org/gms/d/hualapai-yard-sale-april-4th-9am-3pm/7925313726.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/hualapai-yard-sale-april-4th-9am-3pm/7925313726.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/hualapai-yard-sale-april-4th-9am-3pm/7925313726.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:20:01.059Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/hualapai-yard-sale-april-4th-9am-3pm/7925313726.html",
+	"url": "https://mohave.craigslist.org/gms/d/hualapai-yard-sale-april-4th-9am-3pm/7925313726.html"
+}

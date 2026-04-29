@@ -1,0 +1,9 @@
+{
+	"id": "XE9Kh1IR47C4nxe",
+	"json": "{\"id\":\"XE9Kh1IR47C4nxe\",\"url\":\"https://scranton.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://scranton.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525752,
+	"retryCount": 0,
+	"uniqueKey": "https://scranton.craigslist.org/search/gms?s=480",
+	"url": "https://scranton.craigslist.org/search/gms?s=480"
+}

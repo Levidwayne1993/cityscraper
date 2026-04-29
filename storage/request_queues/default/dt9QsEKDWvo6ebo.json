@@ -1,0 +1,9 @@
+{
+	"id": "dt9QsEKDWvo6ebo",
+	"json": "{\"id\":\"dt9QsEKDWvo6ebo\",\"url\":\"https://chico.craigslist.org/gms/d/biggs-biggs-yard-sale-vintage-clothes/7922579660.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/biggs-biggs-yard-sale-vintage-clothes/7922579660.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/biggs-biggs-yard-sale-vintage-clothes/7922579660.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:31:49.521Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/biggs-biggs-yard-sale-vintage-clothes/7922579660.html",
+	"url": "https://chico.craigslist.org/gms/d/biggs-biggs-yard-sale-vintage-clothes/7922579660.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "irjSjQ1cMzrvFd8",
+	"json": "{\"id\":\"irjSjQ1cMzrvFd8\",\"url\":\"https://modesto.craigslist.org/gms/d/turlock-multi-family-yard-sale/7928259645.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/turlock-multi-family-yard-sale/7928259645.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/turlock-multi-family-yard-sale/7928259645.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:55:33.183Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/turlock-multi-family-yard-sale/7928259645.html",
+	"url": "https://modesto.craigslist.org/gms/d/turlock-multi-family-yard-sale/7928259645.html"
+}

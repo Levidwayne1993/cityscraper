@@ -1,0 +1,9 @@
+{
+	"id": "5OHnXWAGWPy7Fw4",
+	"json": "{\"id\":\"5OHnXWAGWPy7Fw4\",\"url\":\"https://winstonsalem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://winstonsalem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523566,
+	"retryCount": 0,
+	"uniqueKey": "https://winstonsalem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://winstonsalem.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5Z9LPcnuHJ5kaBz",
+	"json": "{\"id\":\"5Z9LPcnuHJ5kaBz\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-april-25th-and-26th-sale/7929988040.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-april-25th-and-26th-sale/7929988040.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-april-25th-and-26th-sale/7929988040.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:55:08.648Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-april-25th-and-26th-sale/7929988040.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-april-25th-and-26th-sale/7929988040.html"
+}

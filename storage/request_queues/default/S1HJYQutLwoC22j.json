@@ -1,0 +1,9 @@
+{
+	"id": "S1HJYQutLwoC22j",
+	"json": "{\"id\":\"S1HJYQutLwoC22j\",\"url\":\"https://ocala.craigslist.org/fuo/d/ocala-furniture-moving-sale-ocala-fl/7930027295.html\",\"loadedUrl\":\"https://ocala.craigslist.org/fuo/d/ocala-furniture-moving-sale-ocala-fl/7930027295.html\",\"uniqueKey\":\"https://ocala.craigslist.org/fuo/d/ocala-furniture-moving-sale-ocala-fl/7930027295.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:25.009Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/fuo/d/ocala-furniture-moving-sale-ocala-fl/7930027295.html",
+	"url": "https://ocala.craigslist.org/fuo/d/ocala-furniture-moving-sale-ocala-fl/7930027295.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "s0f7pSxVWGa2lHM",
+	"json": "{\"id\":\"s0f7pSxVWGa2lHM\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-huge-three-family-yard-sale-sat/7922552210.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-huge-three-family-yard-sale-sat/7922552210.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-huge-three-family-yard-sale-sat/7922552210.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:02:47.537Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-huge-three-family-yard-sale-sat/7922552210.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-huge-three-family-yard-sale-sat/7922552210.html"
+}

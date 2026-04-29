@@ -1,0 +1,9 @@
+{
+	"id": "t0Kl1oD1fp8YO4n",
+	"json": "{\"id\":\"t0Kl1oD1fp8YO4n\",\"url\":\"https://inlandempire.craigslist.org/gms/d/moreno-valley-moreno-valley-garage-sale/7925573513.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/moreno-valley-moreno-valley-garage-sale/7925573513.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/moreno-valley-moreno-valley-garage-sale/7925573513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:12:54.986Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/moreno-valley-moreno-valley-garage-sale/7925573513.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/moreno-valley-moreno-valley-garage-sale/7925573513.html"
+}

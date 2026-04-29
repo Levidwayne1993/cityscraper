@@ -1,0 +1,9 @@
+{
+	"id": "ZtPClhSTyhtNQZX",
+	"json": "{\"id\":\"ZtPClhSTyhtNQZX\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-moving-sale-30-off/7900985132.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-moving-sale-30-off/7900985132.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-moving-sale-30-off/7900985132.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:40:28.582Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-moving-sale-30-off/7900985132.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-moving-sale-30-off/7900985132.html"
+}

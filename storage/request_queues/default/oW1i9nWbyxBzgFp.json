@@ -1,8 +1,8 @@
 {
 	"id": "oW1i9nWbyxBzgFp",
-	"json": "{\"id\":\"oW1i9nWbyxBzgFp\",\"url\":\"https://juneau.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://juneau.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"oW1i9nWbyxBzgFp\",\"url\":\"https://juneau.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://juneau.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://juneau.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:15:13.632Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322964,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://juneau.craigslist.org/search/gms?s=120",
 	"url": "https://juneau.craigslist.org/search/gms?s=120"

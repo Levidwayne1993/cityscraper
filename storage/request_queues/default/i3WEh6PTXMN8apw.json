@@ -1,0 +1,9 @@
+{
+	"id": "i3WEh6PTXMN8apw",
+	"json": "{\"id\":\"i3WEh6PTXMN8apw\",\"url\":\"https://slo.craigslist.org/gms/d/atascadero-moving-estate-sale/7925992177.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/atascadero-moving-estate-sale/7925992177.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/atascadero-moving-estate-sale/7925992177.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:46:08.591Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/atascadero-moving-estate-sale/7925992177.html",
+	"url": "https://slo.craigslist.org/gms/d/atascadero-moving-estate-sale/7925992177.html"
+}

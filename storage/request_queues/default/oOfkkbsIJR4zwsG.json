@@ -1,0 +1,9 @@
+{
+	"id": "oOfkkbsIJR4zwsG",
+	"json": "{\"id\":\"oOfkkbsIJR4zwsG\",\"url\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-kids-things-tool/7927039684.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-kids-things-tool/7927039684.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/englewood-garage-sale-kids-things-tool/7927039684.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:37.842Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/englewood-garage-sale-kids-things-tool/7927039684.html",
+	"url": "https://denver.craigslist.org/gms/d/englewood-garage-sale-kids-things-tool/7927039684.html"
+}

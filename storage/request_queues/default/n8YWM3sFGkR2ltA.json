@@ -1,0 +1,9 @@
+{
+	"id": "n8YWM3sFGkR2ltA",
+	"json": "{\"id\":\"n8YWM3sFGkR2ltA\",\"url\":\"https://humboldt.craigslist.org/gms/d/fortuna-fortuna-garage-sale/7921168743.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/fortuna-fortuna-garage-sale/7921168743.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/fortuna-fortuna-garage-sale/7921168743.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:09.465Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/fortuna-fortuna-garage-sale/7921168743.html",
+	"url": "https://humboldt.craigslist.org/gms/d/fortuna-fortuna-garage-sale/7921168743.html"
+}

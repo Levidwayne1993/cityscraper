@@ -1,0 +1,9 @@
+{
+	"id": "o5kprs78Ya6fJNu",
+	"json": "{\"id\":\"o5kprs78Ya6fJNu\",\"url\":\"https://sacramento.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://sacramento.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://sacramento.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:43:32.269Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/search/gms?s=360",
+	"url": "https://sacramento.craigslist.org/search/gms?s=360"
+}

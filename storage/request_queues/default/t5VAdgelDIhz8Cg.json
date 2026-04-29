@@ -1,0 +1,9 @@
+{
+	"id": "t5VAdgelDIhz8Cg",
+	"json": "{\"id\":\"t5VAdgelDIhz8Cg\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/la-puente-yard-sale/7925465770.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/la-puente-yard-sale/7925465770.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/la-puente-yard-sale/7925465770.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:25:20.880Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/la-puente-yard-sale/7925465770.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/la-puente-yard-sale/7925465770.html"
+}

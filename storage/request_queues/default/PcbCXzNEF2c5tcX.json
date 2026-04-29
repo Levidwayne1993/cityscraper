@@ -1,0 +1,9 @@
+{
+	"id": "PcbCXzNEF2c5tcX",
+	"json": "{\"id\":\"PcbCXzNEF2c5tcX\",\"url\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-multi-family-huge-yard/7922662585.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-multi-family-huge-yard/7922662585.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/lake-elsinore-multi-family-huge-yard/7922662585.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:05:34.469Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/lake-elsinore-multi-family-huge-yard/7922662585.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/lake-elsinore-multi-family-huge-yard/7922662585.html"
+}

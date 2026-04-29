@@ -1,0 +1,9 @@
+{
+	"id": "RtV878ax1X4FXO5",
+	"json": "{\"id\":\"RtV878ax1X4FXO5\",\"url\":\"https://oklahomacity.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://oklahomacity.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525078,
+	"retryCount": 0,
+	"uniqueKey": "https://oklahomacity.craigslist.org/search/gms?s=480",
+	"url": "https://oklahomacity.craigslist.org/search/gms?s=480"
+}

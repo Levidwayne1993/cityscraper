@@ -1,0 +1,9 @@
+{
+	"id": "V2MUKmwrsCCG4m2",
+	"json": "{\"id\":\"V2MUKmwrsCCG4m2\",\"url\":\"https://orlando.craigslist.org/gms/d/windermere-extravaganza-garage-sale/7929515995.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/windermere-extravaganza-garage-sale/7929515995.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/windermere-extravaganza-garage-sale/7929515995.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:27:54.948Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/windermere-extravaganza-garage-sale/7929515995.html",
+	"url": "https://orlando.craigslist.org/gms/d/windermere-extravaganza-garage-sale/7929515995.html"
+}

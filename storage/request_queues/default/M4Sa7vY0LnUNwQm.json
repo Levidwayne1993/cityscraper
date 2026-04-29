@@ -1,0 +1,9 @@
+{
+	"id": "M4Sa7vY0LnUNwQm",
+	"json": "{\"id\":\"M4Sa7vY0LnUNwQm\",\"url\":\"https://ksu.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://ksu.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186518675,
+	"retryCount": 0,
+	"uniqueKey": "https://ksu.craigslist.org/search/sss?query=yard+sale+garage+sale",
+	"url": "https://ksu.craigslist.org/search/sss?query=yard+sale+garage+sale"
+}

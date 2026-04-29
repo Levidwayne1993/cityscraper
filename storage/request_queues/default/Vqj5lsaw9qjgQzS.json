@@ -1,0 +1,9 @@
+{
+	"id": "Vqj5lsaw9qjgQzS",
+	"json": "{\"id\":\"Vqj5lsaw9qjgQzS\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-big-yard-sale-lots-of-good-stuff/7922561564.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-big-yard-sale-lots-of-good-stuff/7922561564.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-big-yard-sale-lots-of-good-stuff/7922561564.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:45:19.314Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-big-yard-sale-lots-of-good-stuff/7922561564.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-big-yard-sale-lots-of-good-stuff/7922561564.html"
+}

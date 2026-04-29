@@ -1,0 +1,9 @@
+{
+	"id": "Qb7S4HNxodkPZ07",
+	"json": "{\"id\":\"Qb7S4HNxodkPZ07\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-everything-must-go/7928007972.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-everything-must-go/7928007972.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-everything-must-go/7928007972.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:28:38.349Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-everything-must-go/7928007972.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-everything-must-go/7928007972.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VC5C4A3bJqhHxkd",
+	"json": "{\"id\":\"VC5C4A3bJqhHxkd\",\"url\":\"https://santabarbara.craigslist.org/gms/d/goleta-yard-sale-25/7929787305.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/goleta-yard-sale-25/7929787305.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/goleta-yard-sale-25/7929787305.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:52:14.568Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/goleta-yard-sale-25/7929787305.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/goleta-yard-sale-25/7929787305.html"
+}

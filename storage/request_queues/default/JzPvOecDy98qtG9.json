@@ -1,0 +1,9 @@
+{
+	"id": "JzPvOecDy98qtG9",
+	"json": "{\"id\":\"JzPvOecDy98qtG9\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-north-valley/7928264820.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-north-valley/7928264820.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-north-valley/7928264820.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:01.159Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-north-valley/7928264820.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-north-valley/7928264820.html"
+}

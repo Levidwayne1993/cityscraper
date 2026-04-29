@@ -1,0 +1,9 @@
+{
+	"id": "DNIkggDderG4mji",
+	"json": "{\"id\":\"DNIkggDderG4mji\",\"url\":\"https://sacramento.craigslist.org/gms/d/galt-big-multi-family-yard-sale/7924065540.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/galt-big-multi-family-yard-sale/7924065540.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/galt-big-multi-family-yard-sale/7924065540.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:43:40.176Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/galt-big-multi-family-yard-sale/7924065540.html",
+	"url": "https://sacramento.craigslist.org/gms/d/galt-big-multi-family-yard-sale/7924065540.html"
+}

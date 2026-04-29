@@ -1,0 +1,9 @@
+{
+	"id": "4pP16AKJWbAHPkf",
+	"json": "{\"id\":\"4pP16AKJWbAHPkf\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-community-yard-sale/7928149631.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-community-yard-sale/7928149631.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-community-yard-sale/7928149631.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:23.286Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/glendale-community-yard-sale/7928149631.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/glendale-community-yard-sale/7928149631.html"
+}

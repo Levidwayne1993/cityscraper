@@ -1,0 +1,9 @@
+{
+	"id": "oRkwGDM6XqgTF6f",
+	"json": "{\"id\":\"oRkwGDM6XqgTF6f\",\"url\":\"https://chico.craigslist.org/gms/d/oroville-huge-yard-sale/7920779461.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/oroville-huge-yard-sale/7920779461.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/oroville-huge-yard-sale/7920779461.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:30:25.672Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/oroville-huge-yard-sale/7920779461.html",
+	"url": "https://chico.craigslist.org/gms/d/oroville-huge-yard-sale/7920779461.html"
+}

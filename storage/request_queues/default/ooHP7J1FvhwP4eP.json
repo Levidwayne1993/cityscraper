@@ -1,0 +1,9 @@
+{
+	"id": "ooHP7J1FvhwP4eP",
+	"json": "{\"id\":\"ooHP7J1FvhwP4eP\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-spring-cleaning-garage-sale/7928047095.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-spring-cleaning-garage-sale/7928047095.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-spring-cleaning-garage-sale/7928047095.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:21.088Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-spring-cleaning-garage-sale/7928047095.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-spring-cleaning-garage-sale/7928047095.html"
+}

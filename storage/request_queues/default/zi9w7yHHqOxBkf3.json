@@ -1,0 +1,9 @@
+{
+	"id": "zi9w7yHHqOxBkf3",
+	"json": "{\"id\":\"zi9w7yHHqOxBkf3\",\"url\":\"https://sandiego.craigslist.org/nsd/for/d/oceanside-moving-sale-aluminium-box/7927573596.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/for/d/oceanside-moving-sale-aluminium-box/7927573596.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/for/d/oceanside-moving-sale-aluminium-box/7927573596.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:17.770Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/for/d/oceanside-moving-sale-aluminium-box/7927573596.html",
+	"url": "https://sandiego.craigslist.org/nsd/for/d/oceanside-moving-sale-aluminium-box/7927573596.html"
+}

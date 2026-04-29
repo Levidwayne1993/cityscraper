@@ -1,0 +1,9 @@
+{
+	"id": "6k6a6kdF2ncFSXk",
+	"json": "{\"id\":\"6k6a6kdF2ncFSXk\",\"url\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-sat-yard-sale-fountain/7925526763.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-sat-yard-sale-fountain/7925526763.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/fountain-valley-sat-yard-sale-fountain/7925526763.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:04.596Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/fountain-valley-sat-yard-sale-fountain/7925526763.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/fountain-valley-sat-yard-sale-fountain/7925526763.html"
+}

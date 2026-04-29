@@ -1,0 +1,9 @@
+{
+	"id": "3bYDFRTJn68S32b",
+	"json": "{\"id\":\"3bYDFRTJn68S32b\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-cave-creek-days/7929932711.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-cave-creek-days/7929932711.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-cave-creek-days/7929932711.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:05.721Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-cave-creek-days/7929932711.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/scottsdale-estate-sale-cave-creek-days/7929932711.html"
+}

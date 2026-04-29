@@ -1,0 +1,9 @@
+{
+	"id": "3q8XtWZhAypecrg",
+	"json": "{\"id\":\"3q8XtWZhAypecrg\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-moving-sale/7923282621.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-moving-sale/7923282621.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-moving-sale/7923282621.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:57:54.760Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-moving-sale/7923282621.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-moving-sale/7923282621.html"
+}

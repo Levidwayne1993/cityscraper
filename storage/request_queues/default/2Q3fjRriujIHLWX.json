@@ -1,0 +1,9 @@
+{
+	"id": "2Q3fjRriujIHLWX",
+	"json": "{\"id\":\"2Q3fjRriujIHLWX\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale-at-first-and-ashlan/7928348227.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale-at-first-and-ashlan/7928348227.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-block-sale-at-first-and-ashlan/7928348227.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:43:51.969Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-block-sale-at-first-and-ashlan/7928348227.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-block-sale-at-first-and-ashlan/7928348227.html"
+}

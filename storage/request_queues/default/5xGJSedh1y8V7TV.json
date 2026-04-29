@@ -1,0 +1,9 @@
+{
+	"id": "5xGJSedh1y8V7TV",
+	"json": "{\"id\":\"5xGJSedh1y8V7TV\",\"url\":\"https://inlandempire.craigslist.org/gms/d/corona-estate-sale-everything-must-go/7926976121.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/corona-estate-sale-everything-must-go/7926976121.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/corona-estate-sale-everything-must-go/7926976121.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:11:49.385Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/corona-estate-sale-everything-must-go/7926976121.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/corona-estate-sale-everything-must-go/7926976121.html"
+}

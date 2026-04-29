@@ -1,0 +1,9 @@
+{
+	"id": "fxQRAjmmRB3p31K",
+	"json": "{\"id\":\"fxQRAjmmRB3p31K\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-huge-moving-sale-in/7929833063.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-huge-moving-sale-in/7929833063.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-huge-moving-sale-in/7929833063.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:06.328Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-huge-moving-sale-in/7929833063.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-huge-moving-sale-in/7929833063.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "aAEDXkG1KKZ63oH",
+	"json": "{\"id\":\"aAEDXkG1KKZ63oH\",\"url\":\"https://nwct.craigslist.org/gms/d/roxbury-sat-sun-26-roxbury-tag-sale/7929766786.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/roxbury-sat-sun-26-roxbury-tag-sale/7929766786.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/roxbury-sat-sun-26-roxbury-tag-sale/7929766786.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:55.135Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/roxbury-sat-sun-26-roxbury-tag-sale/7929766786.html",
+	"url": "https://nwct.craigslist.org/gms/d/roxbury-sat-sun-26-roxbury-tag-sale/7929766786.html"
+}

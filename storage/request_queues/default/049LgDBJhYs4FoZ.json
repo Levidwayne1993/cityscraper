@@ -1,0 +1,9 @@
+{
+	"id": "049LgDBJhYs4FoZ",
+	"json": "{\"id\":\"049LgDBJhYs4FoZ\",\"url\":\"https://yuma.craigslist.org/gms/d/bard-estate-sale-winterhaven-ca/7922856587.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/bard-estate-sale-winterhaven-ca/7922856587.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/bard-estate-sale-winterhaven-ca/7922856587.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:02.266Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/bard-estate-sale-winterhaven-ca/7922856587.html",
+	"url": "https://yuma.craigslist.org/gms/d/bard-estate-sale-winterhaven-ca/7922856587.html"
+}

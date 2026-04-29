@@ -1,0 +1,9 @@
+{
+	"id": "L0VJErygtidoeUj",
+	"json": "{\"id\":\"L0VJErygtidoeUj\",\"url\":\"https://keys.craigslist.org/gms/d/tavernier-garage-sale/7928391836.html\",\"loadedUrl\":\"https://keys.craigslist.org/gms/d/tavernier-garage-sale/7928391836.html\",\"uniqueKey\":\"https://keys.craigslist.org/gms/d/tavernier-garage-sale/7928391836.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:16.367Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://keys.craigslist.org/gms/d/tavernier-garage-sale/7928391836.html",
+	"url": "https://keys.craigslist.org/gms/d/tavernier-garage-sale/7928391836.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Xgm8DkkU6vMoZHq",
+	"json": "{\"id\":\"Xgm8DkkU6vMoZHq\",\"url\":\"https://kansascity.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://kansascity.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521246,
+	"retryCount": 0,
+	"uniqueKey": "https://kansascity.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://kansascity.craigslist.org/search/ccc?query=garage+sale"
+}

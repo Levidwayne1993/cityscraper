@@ -1,0 +1,9 @@
+{
+	"id": "U5iycL31X2Um7Pk",
+	"json": "{\"id\":\"U5iycL31X2Um7Pk\",\"url\":\"https://inlandempire.craigslist.org/msg/d/redlands-estate-sale-vintage-fender/7924115791.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/msg/d/redlands-estate-sale-vintage-fender/7924115791.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/msg/d/redlands-estate-sale-vintage-fender/7924115791.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:11:52.915Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/msg/d/redlands-estate-sale-vintage-fender/7924115791.html",
+	"url": "https://inlandempire.craigslist.org/msg/d/redlands-estate-sale-vintage-fender/7924115791.html"
+}

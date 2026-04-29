@@ -1,0 +1,9 @@
+{
+	"id": "nVbmTH4A8xnfK0z",
+	"json": "{\"id\":\"nVbmTH4A8xnfK0z\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-ironwood-village-community/7928488653.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-ironwood-village-community/7928488653.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-ironwood-village-community/7928488653.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:46.722Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-ironwood-village-community/7928488653.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-ironwood-village-community/7928488653.html"
+}

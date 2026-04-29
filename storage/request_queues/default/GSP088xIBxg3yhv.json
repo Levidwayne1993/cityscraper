@@ -1,0 +1,9 @@
+{
+	"id": "GSP088xIBxg3yhv",
+	"json": "{\"id\":\"GSP088xIBxg3yhv\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-massive-moving-sale/7928712543.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-massive-moving-sale/7928712543.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-massive-moving-sale/7928712543.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:03.410Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-massive-moving-sale/7928712543.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-massive-moving-sale/7928712543.html"
+}

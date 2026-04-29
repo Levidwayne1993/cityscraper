@@ -1,0 +1,9 @@
+{
+	"id": "nAVj7YBA58g1Z5x",
+	"json": "{\"id\":\"nAVj7YBA58g1Z5x\",\"url\":\"https://pensacola.craigslist.org/gms/d/milton-huge-garage-sale/7926298777.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/milton-huge-garage-sale/7926298777.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/milton-huge-garage-sale/7926298777.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:43:29.806Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/milton-huge-garage-sale/7926298777.html",
+	"url": "https://pensacola.craigslist.org/gms/d/milton-huge-garage-sale/7926298777.html"
+}

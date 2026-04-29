@@ -1,0 +1,9 @@
+{
+	"id": "MNG16qbuVg5fvbx",
+	"json": "{\"id\":\"MNG16qbuVg5fvbx\",\"url\":\"https://visalia.craigslist.org/gms/d/tulare-big-yard-sale/7920951862.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/tulare-big-yard-sale/7920951862.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/tulare-big-yard-sale/7920951862.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:20:28.604Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/tulare-big-yard-sale/7920951862.html",
+	"url": "https://visalia.craigslist.org/gms/d/tulare-big-yard-sale/7920951862.html"
+}

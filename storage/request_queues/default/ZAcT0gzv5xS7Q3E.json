@@ -1,0 +1,9 @@
+{
+	"id": "ZAcT0gzv5xS7Q3E",
+	"json": "{\"id\":\"ZAcT0gzv5xS7Q3E\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/torrance-torrance-antique-fair-sun-am/7928833624.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/torrance-torrance-antique-fair-sun-am/7928833624.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/torrance-torrance-antique-fair-sun-am/7928833624.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:19:22.844Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/torrance-torrance-antique-fair-sun-am/7928833624.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/torrance-torrance-antique-fair-sun-am/7928833624.html"
+}

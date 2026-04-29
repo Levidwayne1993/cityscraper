@@ -1,8 +1,8 @@
 {
 	"id": "kyOh6IHGZWonUwp",
-	"json": "{\"id\":\"kyOh6IHGZWonUwp\",\"url\":\"https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"kyOh6IHGZWonUwp\",\"url\":\"https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
 	"method": "GET",
-	"orderNo": 1777040329674,
+	"orderNo": 1777186528077,
 	"retryCount": 0,
 	"uniqueKey": "https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://yakima.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

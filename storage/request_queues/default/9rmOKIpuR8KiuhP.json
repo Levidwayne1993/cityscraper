@@ -1,0 +1,9 @@
+{
+	"id": "9rmOKIpuR8KiuhP",
+	"json": "{\"id\":\"9rmOKIpuR8KiuhP\",\"url\":\"https://slo.craigslist.org/gms/d/paso-robles-estate-sale/7929884298.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/paso-robles-estate-sale/7929884298.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/paso-robles-estate-sale/7929884298.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:46:55.178Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/paso-robles-estate-sale/7929884298.html",
+	"url": "https://slo.craigslist.org/gms/d/paso-robles-estate-sale/7929884298.html"
+}

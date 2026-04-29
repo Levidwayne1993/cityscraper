@@ -1,0 +1,9 @@
+{
+	"id": "aNDCxeTA9SBkubv",
+	"json": "{\"id\":\"aNDCxeTA9SBkubv\",\"url\":\"https://visalia.craigslist.org/com/d/visalia-garage-sale-april-3rd-and-4th/7925093323.html\",\"loadedUrl\":\"https://visalia.craigslist.org/com/d/visalia-garage-sale-april-3rd-and-4th/7925093323.html\",\"uniqueKey\":\"https://visalia.craigslist.org/com/d/visalia-garage-sale-april-3rd-and-4th/7925093323.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:22:58.510Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/com/d/visalia-garage-sale-april-3rd-and-4th/7925093323.html",
+	"url": "https://visalia.craigslist.org/com/d/visalia-garage-sale-april-3rd-and-4th/7925093323.html"
+}

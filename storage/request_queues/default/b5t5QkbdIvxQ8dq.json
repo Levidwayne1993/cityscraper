@@ -1,0 +1,9 @@
+{
+	"id": "b5t5QkbdIvxQ8dq",
+	"json": "{\"id\":\"b5t5QkbdIvxQ8dq\",\"url\":\"https://fresno.craigslist.org/wan/d/fresno-we-pick-up-your-estate-sales/7921413040.html\",\"loadedUrl\":\"https://fresno.craigslist.org/wan/d/fresno-we-pick-up-your-estate-sales/7921413040.html\",\"uniqueKey\":\"https://fresno.craigslist.org/wan/d/fresno-we-pick-up-your-estate-sales/7921413040.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:45:30.593Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/wan/d/fresno-we-pick-up-your-estate-sales/7921413040.html",
+	"url": "https://fresno.craigslist.org/wan/d/fresno-we-pick-up-your-estate-sales/7921413040.html"
+}

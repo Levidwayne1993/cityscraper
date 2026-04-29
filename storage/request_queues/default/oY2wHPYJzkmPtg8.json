@@ -1,0 +1,9 @@
+{
+	"id": "oY2wHPYJzkmPtg8",
+	"json": "{\"id\":\"oY2wHPYJzkmPtg8\",\"url\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-high-end-tems-and/7924818679.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-high-end-tems-and/7924818679.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-high-end-tems-and/7924818679.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:55.110Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-high-end-tems-and/7924818679.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-high-end-tems-and/7924818679.html"
+}

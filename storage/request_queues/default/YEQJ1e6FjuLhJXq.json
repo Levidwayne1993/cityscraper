@@ -1,0 +1,9 @@
+{
+	"id": "YEQJ1e6FjuLhJXq",
+	"json": "{\"id\":\"YEQJ1e6FjuLhJXq\",\"url\":\"https://rockies.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://rockies.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://rockies.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:53:39.579Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://rockies.craigslist.org/search/gms?s=480",
+	"url": "https://rockies.craigslist.org/search/gms?s=480"
+}

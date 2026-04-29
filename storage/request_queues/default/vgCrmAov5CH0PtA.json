@@ -1,0 +1,9 @@
+{
+	"id": "vgCrmAov5CH0PtA",
+	"json": "{\"id\":\"vgCrmAov5CH0PtA\",\"url\":\"https://denver.craigslist.org/gms/d/denver-huge-family-yard-sale/7926186000.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-huge-family-yard-sale/7926186000.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-huge-family-yard-sale/7926186000.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:51.881Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-huge-family-yard-sale/7926186000.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-huge-family-yard-sale/7926186000.html"
+}

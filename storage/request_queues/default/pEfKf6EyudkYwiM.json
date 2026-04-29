@@ -1,0 +1,9 @@
+{
+	"id": "pEfKf6EyudkYwiM",
+	"json": "{\"id\":\"pEfKf6EyudkYwiM\",\"url\":\"https://clarksville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://clarksville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186525999,
+	"retryCount": 0,
+	"uniqueKey": "https://clarksville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://clarksville.craigslist.org/search/ccc?query=yard+sale"
+}

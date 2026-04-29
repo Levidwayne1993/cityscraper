@@ -1,0 +1,9 @@
+{
+	"id": "TtApiClSUnRsiGy",
+	"json": "{\"id\":\"TtApiClSUnRsiGy\",\"url\":\"https://inlandempire.craigslist.org/gms/d/redlands-yard-sale-sat-march-28th-8am/7924029391.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/redlands-yard-sale-sat-march-28th-8am/7924029391.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/redlands-yard-sale-sat-march-28th-8am/7924029391.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:04.194Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/redlands-yard-sale-sat-march-28th-8am/7924029391.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/redlands-yard-sale-sat-march-28th-8am/7924029391.html"
+}

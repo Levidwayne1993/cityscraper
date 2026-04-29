@@ -1,0 +1,9 @@
+{
+	"id": "kE2FFbrHuE2en9O",
+	"json": "{\"id\":\"kE2FFbrHuE2en9O\",\"url\":\"https://washingtondc.craigslist.org/nva/ele/d/annandale-audiophile-estate-sale-lots/7925933775.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/ele/d/annandale-audiophile-estate-sale-lots/7925933775.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/ele/d/annandale-audiophile-estate-sale-lots/7925933775.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:32:23.099Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/ele/d/annandale-audiophile-estate-sale-lots/7925933775.html",
+	"url": "https://washingtondc.craigslist.org/nva/ele/d/annandale-audiophile-estate-sale-lots/7925933775.html"
+}

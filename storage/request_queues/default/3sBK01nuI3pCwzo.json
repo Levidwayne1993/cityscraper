@@ -1,0 +1,9 @@
+{
+	"id": "3sBK01nuI3pCwzo",
+	"json": "{\"id\":\"3sBK01nuI3pCwzo\",\"url\":\"https://frederick.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://frederick.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520301,
+	"retryCount": 0,
+	"uniqueKey": "https://frederick.craigslist.org/search/gms?s=360",
+	"url": "https://frederick.craigslist.org/search/gms?s=360"
+}

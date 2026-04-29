@@ -1,0 +1,9 @@
+{
+	"id": "ZHIMaBF4rvnbmyI",
+	"json": "{\"id\":\"ZHIMaBF4rvnbmyI\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Phoenix-AZ.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Phoenix-AZ.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"AZ\",\"yssSlug\":\"Phoenix-AZ\"}}",
+	"method": "GET",
+	"orderNo": 1777186530374,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Phoenix-AZ.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/Phoenix-AZ.html?page=2"
+}

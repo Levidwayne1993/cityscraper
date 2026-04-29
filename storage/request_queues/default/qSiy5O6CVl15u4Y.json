@@ -1,0 +1,9 @@
+{
+	"id": "qSiy5O6CVl15u4Y",
+	"json": "{\"id\":\"qSiy5O6CVl15u4Y\",\"url\":\"https://modesto.craigslist.org/gms/d/ceres-large-yard-sale-with-variety-of/7928305299.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/ceres-large-yard-sale-with-variety-of/7928305299.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/ceres-large-yard-sale-with-variety-of/7928305299.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:55:46.034Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/ceres-large-yard-sale-with-variety-of/7928305299.html",
+	"url": "https://modesto.craigslist.org/gms/d/ceres-large-yard-sale-with-variety-of/7928305299.html"
+}

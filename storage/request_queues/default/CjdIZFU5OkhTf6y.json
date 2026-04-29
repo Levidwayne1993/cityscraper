@@ -1,0 +1,9 @@
+{
+	"id": "CjdIZFU5OkhTf6y",
+	"json": "{\"id\":\"CjdIZFU5OkhTf6y\",\"url\":\"https://sandiego.craigslist.org/nsd/com/d/escondido-garage-sale-am-812-lochwood/7925546832.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/com/d/escondido-garage-sale-am-812-lochwood/7925546832.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/com/d/escondido-garage-sale-am-812-lochwood/7925546832.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:12:04.824Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/com/d/escondido-garage-sale-am-812-lochwood/7925546832.html",
+	"url": "https://sandiego.craigslist.org/nsd/com/d/escondido-garage-sale-am-812-lochwood/7925546832.html"
+}

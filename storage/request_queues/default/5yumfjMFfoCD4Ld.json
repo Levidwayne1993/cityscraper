@@ -1,0 +1,9 @@
+{
+	"id": "5yumfjMFfoCD4Ld",
+	"json": "{\"id\":\"5yumfjMFfoCD4Ld\",\"url\":\"https://richmond.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://richmond.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527856,
+	"retryCount": 0,
+	"uniqueKey": "https://richmond.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://richmond.craigslist.org/search/ccc?query=yard+sale"
+}

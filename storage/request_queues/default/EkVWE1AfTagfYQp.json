@@ -1,0 +1,9 @@
+{
+	"id": "EkVWE1AfTagfYQp",
+	"json": "{\"id\":\"EkVWE1AfTagfYQp\",\"url\":\"https://ventura.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://ventura.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://ventura.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:22.738Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://ventura.craigslist.org/search/ccc?query=yard+sale"
+}

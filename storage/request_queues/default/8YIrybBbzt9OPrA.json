@@ -1,0 +1,9 @@
+{
+	"id": "8YIrybBbzt9OPrA",
+	"json": "{\"id\":\"8YIrybBbzt9OPrA\",\"url\":\"https://utica.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://utica.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523340,
+	"retryCount": 0,
+	"uniqueKey": "https://utica.craigslist.org/search/gms?s=360",
+	"url": "https://utica.craigslist.org/search/gms?s=360"
+}

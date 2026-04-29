@@ -1,0 +1,9 @@
+{
+	"id": "Bx84zbluojKRhFE",
+	"json": "{\"id\":\"Bx84zbluojKRhFE\",\"url\":\"https://meadville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://meadville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525533,
+	"retryCount": 0,
+	"uniqueKey": "https://meadville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://meadville.craigslist.org/search/ccc?query=yard+sale"
+}

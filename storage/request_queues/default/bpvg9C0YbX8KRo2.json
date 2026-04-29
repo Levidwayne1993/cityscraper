@@ -1,0 +1,9 @@
+{
+	"id": "bpvg9C0YbX8KRo2",
+	"json": "{\"id\":\"bpvg9C0YbX8KRo2\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-huge-moving-garage-yard-sale/7928467516.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-huge-moving-garage-yard-sale/7928467516.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/dublin-huge-moving-garage-yard-sale/7928467516.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:35.641Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/dublin-huge-moving-garage-yard-sale/7928467516.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/dublin-huge-moving-garage-yard-sale/7928467516.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1NCyAwL9t7JPEvy",
+	"json": "{\"id\":\"1NCyAwL9t7JPEvy\",\"url\":\"https://sarasota.craigslist.org/gms/d/bradenton-rummage-sale/7929564026.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/bradenton-rummage-sale/7929564026.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\"}}",
+	"method": "GET",
+	"orderNo": -1777218943634,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/bradenton-rummage-sale/7929564026.html",
+	"url": "https://sarasota.craigslist.org/gms/d/bradenton-rummage-sale/7929564026.html"
+}

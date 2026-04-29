@@ -1,0 +1,9 @@
+{
+	"id": "MdUIvIK4B4SGIpN",
+	"json": "{\"id\":\"MdUIvIK4B4SGIpN\",\"url\":\"https://huntsville.craigslist.org/gms/d/decatur-yard-sale-multi-family/7926082690.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/decatur-yard-sale-multi-family/7926082690.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/decatur-yard-sale-multi-family/7926082690.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:03:05.535Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/decatur-yard-sale-multi-family/7926082690.html",
+	"url": "https://huntsville.craigslist.org/gms/d/decatur-yard-sale-multi-family/7926082690.html"
+}

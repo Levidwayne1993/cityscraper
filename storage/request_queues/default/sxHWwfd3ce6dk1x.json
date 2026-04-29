@@ -1,0 +1,9 @@
+{
+	"id": "sxHWwfd3ce6dk1x",
+	"json": "{\"id\":\"sxHWwfd3ce6dk1x\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-saturday/7930027879.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-saturday/7930027879.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-saturday/7930027879.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:55:08.132Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-saturday/7930027879.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-saturday/7930027879.html"
+}

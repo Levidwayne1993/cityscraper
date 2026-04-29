@@ -1,0 +1,9 @@
+{
+	"id": "vn9vyBrOZddcLdw",
+	"json": "{\"id\":\"vn9vyBrOZddcLdw\",\"url\":\"https://miami.craigslist.org/brw/gms/d/hollywood-huge-multi-family-sale/7927006202.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/hollywood-huge-multi-family-sale/7927006202.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/hollywood-huge-multi-family-sale/7927006202.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:29.474Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/hollywood-huge-multi-family-sale/7927006202.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/hollywood-huge-multi-family-sale/7927006202.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Q5iZ2rOzDak90gm",
+	"json": "{\"id\":\"Q5iZ2rOzDak90gm\",\"url\":\"https://phoenix.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://phoenix.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://phoenix.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:28.072Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://phoenix.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

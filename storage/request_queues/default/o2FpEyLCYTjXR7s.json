@@ -1,0 +1,9 @@
+{
+	"id": "o2FpEyLCYTjXR7s",
+	"json": "{\"id\":\"o2FpEyLCYTjXR7s\",\"url\":\"https://mobile.craigslist.org/gms/d/mobile-huge-multi-family-yard-sale/7922900059.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/mobile-huge-multi-family-yard-sale/7922900059.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/mobile-huge-multi-family-yard-sale/7922900059.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:05:26.056Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/mobile-huge-multi-family-yard-sale/7922900059.html",
+	"url": "https://mobile.craigslist.org/gms/d/mobile-huge-multi-family-yard-sale/7922900059.html"
+}

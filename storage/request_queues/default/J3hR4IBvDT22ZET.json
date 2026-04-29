@@ -1,0 +1,9 @@
+{
+	"id": "J3hR4IBvDT22ZET",
+	"json": "{\"id\":\"J3hR4IBvDT22ZET\",\"url\":\"https://spokane.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://spokane.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528051,
+	"retryCount": 0,
+	"uniqueKey": "https://spokane.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://spokane.craigslist.org/search/ccc?query=yard+sale"
+}

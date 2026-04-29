@@ -1,0 +1,9 @@
+{
+	"id": "OKVB67bM7sKqQUI",
+	"json": "{\"id\":\"OKVB67bM7sKqQUI\",\"url\":\"https://kenosha.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://kenosha.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528310,
+	"retryCount": 0,
+	"uniqueKey": "https://kenosha.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://kenosha.craigslist.org/search/ccc?query=garage+sale"
+}

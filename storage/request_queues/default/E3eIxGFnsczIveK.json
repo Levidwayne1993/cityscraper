@@ -1,0 +1,9 @@
+{
+	"id": "E3eIxGFnsczIveK",
+	"json": "{\"id\":\"E3eIxGFnsczIveK\",\"url\":\"https://chico.craigslist.org/gms/d/paradise-multi-vendor-yard-sale-at-the/7925298866.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/paradise-multi-vendor-yard-sale-at-the/7925298866.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/paradise-multi-vendor-yard-sale-at-the/7925298866.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:19.878Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/paradise-multi-vendor-yard-sale-at-the/7925298866.html",
+	"url": "https://chico.craigslist.org/gms/d/paradise-multi-vendor-yard-sale-at-the/7925298866.html"
+}

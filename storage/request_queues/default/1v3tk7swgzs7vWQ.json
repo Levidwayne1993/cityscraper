@@ -1,0 +1,9 @@
+{
+	"id": "1v3tk7swgzs7vWQ",
+	"json": "{\"id\":\"1v3tk7swgzs7vWQ\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-warehouse-full/7928047370.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-warehouse-full/7928047370.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-warehouse-full/7928047370.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:32:48.910Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-warehouse-full/7928047370.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-leandro-estate-sale-warehouse-full/7928047370.html"
+}

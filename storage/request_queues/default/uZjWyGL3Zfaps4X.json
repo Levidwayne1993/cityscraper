@@ -1,0 +1,9 @@
+{
+	"id": "uZjWyGL3Zfaps4X",
+	"json": "{\"id\":\"uZjWyGL3Zfaps4X\",\"url\":\"https://jacksonville.craigslist.org/gms/d/saint-augustine-heritage-park-community/7925762096.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/saint-augustine-heritage-park-community/7925762096.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/saint-augustine-heritage-park-community/7925762096.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:40:38.507Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/saint-augustine-heritage-park-community/7925762096.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/saint-augustine-heritage-park-community/7925762096.html"
+}

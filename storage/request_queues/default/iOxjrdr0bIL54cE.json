@@ -1,0 +1,9 @@
+{
+	"id": "iOxjrdr0bIL54cE",
+	"json": "{\"id\":\"iOxjrdr0bIL54cE\",\"url\":\"https://visalia.craigslist.org/gms/d/pixley-estate-sale-mid-century-modern/7929558736.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/pixley-estate-sale-mid-century-modern/7929558736.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/pixley-estate-sale-mid-century-modern/7929558736.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:19:06.483Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/pixley-estate-sale-mid-century-modern/7929558736.html",
+	"url": "https://visalia.craigslist.org/gms/d/pixley-estate-sale-mid-century-modern/7929558736.html"
+}

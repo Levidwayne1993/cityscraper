@@ -1,0 +1,9 @@
+{
+	"id": "yntWdJYlmcZYsuT",
+	"json": "{\"id\":\"yntWdJYlmcZYsuT\",\"url\":\"https://jacksonville.craigslist.org/for/d/jacksonville-moving-sale/7918121121.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/for/d/jacksonville-moving-sale/7918121121.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/for/d/jacksonville-moving-sale/7918121121.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:42:35.554Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/for/d/jacksonville-moving-sale/7918121121.html",
+	"url": "https://jacksonville.craigslist.org/for/d/jacksonville-moving-sale/7918121121.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YGI6f1bn3MKLG0r",
+	"json": "{\"id\":\"YGI6f1bn3MKLG0r\",\"url\":\"https://janesville.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://janesville.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528283,
+	"retryCount": 0,
+	"uniqueKey": "https://janesville.craigslist.org/search/gms?s=480",
+	"url": "https://janesville.craigslist.org/search/gms?s=480"
+}

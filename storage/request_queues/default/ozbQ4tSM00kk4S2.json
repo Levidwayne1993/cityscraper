@@ -1,0 +1,9 @@
+{
+	"id": "ozbQ4tSM00kk4S2",
+	"json": "{\"id\":\"ozbQ4tSM00kk4S2\",\"url\":\"https://ocala.craigslist.org/bik/d/inglis-moving-sale-fully-modified/7922796539.html\",\"loadedUrl\":\"https://ocala.craigslist.org/bik/d/inglis-moving-sale-fully-modified/7922796539.html\",\"uniqueKey\":\"https://ocala.craigslist.org/bik/d/inglis-moving-sale-fully-modified/7922796539.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:15.717Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/bik/d/inglis-moving-sale-fully-modified/7922796539.html",
+	"url": "https://ocala.craigslist.org/bik/d/inglis-moving-sale-fully-modified/7922796539.html"
+}

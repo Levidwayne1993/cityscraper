@@ -1,0 +1,9 @@
+{
+	"id": "DJI3qF6Tffdug5r",
+	"json": "{\"id\":\"DJI3qF6Tffdug5r\",\"url\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-ficus-tree-in-pot/7922812129.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-ficus-tree-in-pot/7922812129.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-ficus-tree-in-pot/7922812129.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:11:57.873Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-ficus-tree-in-pot/7922812129.html",
+	"url": "https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-ficus-tree-in-pot/7922812129.html"
+}

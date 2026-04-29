@@ -1,0 +1,9 @@
+{
+	"id": "erDAafoxmd6v9Oi",
+	"json": "{\"id\":\"erDAafoxmd6v9Oi\",\"url\":\"https://merced.craigslist.org/gms/d/merced-multi-family-court-yard-sale/7924807773.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/merced-multi-family-court-yard-sale/7924807773.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/merced-multi-family-court-yard-sale/7924807773.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:50:15.877Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/merced-multi-family-court-yard-sale/7924807773.html",
+	"url": "https://merced.craigslist.org/gms/d/merced-multi-family-court-yard-sale/7924807773.html"
+}

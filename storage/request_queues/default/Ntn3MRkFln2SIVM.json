@@ -1,0 +1,9 @@
+{
+	"id": "Ntn3MRkFln2SIVM",
+	"json": "{\"id\":\"Ntn3MRkFln2SIVM\",\"url\":\"https://gainesville.craigslist.org/com/d/newberry-huge-yard-sale/7921591501.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/com/d/newberry-huge-yard-sale/7921591501.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/com/d/newberry-huge-yard-sale/7921591501.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:32:20.844Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/com/d/newberry-huge-yard-sale/7921591501.html",
+	"url": "https://gainesville.craigslist.org/com/d/newberry-huge-yard-sale/7921591501.html"
+}

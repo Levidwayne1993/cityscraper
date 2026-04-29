@@ -1,0 +1,9 @@
+{
+	"id": "BvDD8AGLsSJnJDu",
+	"json": "{\"id\":\"BvDD8AGLsSJnJDu\",\"url\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-sale/7927995505.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-sale/7927995505.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-sale/7927995505.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:15.002Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/stratford-estate-sale/7927995505.html",
+	"url": "https://newhaven.craigslist.org/gms/d/stratford-estate-sale/7927995505.html"
+}

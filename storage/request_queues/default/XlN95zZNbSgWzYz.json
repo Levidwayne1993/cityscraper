@@ -1,0 +1,9 @@
+{
+	"id": "XlN95zZNbSgWzYz",
+	"json": "{\"id\":\"XlN95zZNbSgWzYz\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-50-off-huge-estate-sale-sunday/7921174966.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-50-off-huge-estate-sale-sunday/7921174966.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-50-off-huge-estate-sale-sunday/7921174966.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:14.965Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-50-off-huge-estate-sale-sunday/7921174966.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-50-off-huge-estate-sale-sunday/7921174966.html"
+}

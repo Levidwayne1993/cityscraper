@@ -1,0 +1,9 @@
+{
+	"id": "CsBbu2hqpOGUyAI",
+	"json": "{\"id\":\"CsBbu2hqpOGUyAI\",\"url\":\"https://sfbay.craigslist.org/sby/com/d/santa-clara-huge-yard-sale/7930122642.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/com/d/santa-clara-huge-yard-sale/7930122642.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/com/d/santa-clara-huge-yard-sale/7930122642.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:27.232Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/com/d/santa-clara-huge-yard-sale/7930122642.html",
+	"url": "https://sfbay.craigslist.org/sby/com/d/santa-clara-huge-yard-sale/7930122642.html"
+}

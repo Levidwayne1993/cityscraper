@@ -1,0 +1,9 @@
+{
+	"id": "AYkDWO17i0acEUK",
+	"json": "{\"id\":\"AYkDWO17i0acEUK\",\"url\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-with-foods/7930013179.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-with-foods/7930013179.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-with-foods/7930013179.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:33.593Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-with-foods/7930013179.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/buena-park-garage-sale-with-foods/7930013179.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UgWH7HkLA7XoydL",
+	"json": "{\"id\":\"UgWH7HkLA7XoydL\",\"url\":\"https://detroit.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://detroit.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520635,
+	"retryCount": 0,
+	"uniqueKey": "https://detroit.craigslist.org/search/gms?s=480",
+	"url": "https://detroit.craigslist.org/search/gms?s=480"
+}

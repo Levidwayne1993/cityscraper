@@ -1,0 +1,9 @@
+{
+	"id": "QDf9SNr3iiVi2nC",
+	"json": "{\"id\":\"QDf9SNr3iiVi2nC\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/ventura-closing-blowout-sale-sat-sun-11/7929713689.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/ventura-closing-blowout-sale-sat-sun-11/7929713689.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/ventura-closing-blowout-sale-sat-sun-11/7929713689.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:24:23.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/ventura-closing-blowout-sale-sat-sun-11/7929713689.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/ventura-closing-blowout-sale-sat-sun-11/7929713689.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "78GfADUbS2M6Z9r",
+	"json": "{\"id\":\"78GfADUbS2M6Z9r\",\"url\":\"https://rochester.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://rochester.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523316,
+	"retryCount": 0,
+	"uniqueKey": "https://rochester.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://rochester.craigslist.org/search/ccc?query=yard+sale"
+}

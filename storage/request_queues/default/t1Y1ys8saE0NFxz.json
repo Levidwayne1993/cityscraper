@@ -1,0 +1,9 @@
+{
+	"id": "t1Y1ys8saE0NFxz",
+	"json": "{\"id\":\"t1Y1ys8saE0NFxz\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-rancho-primero-community/7929214182.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-rancho-primero-community/7929214182.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-rancho-primero-community/7929214182.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:27.686Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-rancho-primero-community/7929214182.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-rancho-primero-community/7929214182.html"
+}

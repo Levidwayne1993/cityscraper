@@ -1,0 +1,9 @@
+{
+	"id": "T52Nl0GNv3jZ1XV",
+	"json": "{\"id\":\"T52Nl0GNv3jZ1XV\",\"url\":\"https://sfbay.craigslist.org/eby/hsh/d/san-ramon-19-estate-sale-mohawk-cir-san/7928668432.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/hsh/d/san-ramon-19-estate-sale-mohawk-cir-san/7928668432.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/hsh/d/san-ramon-19-estate-sale-mohawk-cir-san/7928668432.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:58.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/hsh/d/san-ramon-19-estate-sale-mohawk-cir-san/7928668432.html",
+	"url": "https://sfbay.craigslist.org/eby/hsh/d/san-ramon-19-estate-sale-mohawk-cir-san/7928668432.html"
+}

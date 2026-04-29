@@ -1,0 +1,9 @@
+{
+	"id": "8foNMB9nJ8gXWu1",
+	"json": "{\"id\":\"8foNMB9nJ8gXWu1\",\"url\":\"https://delaware.craigslist.org/gms/d/millsboro-alderleaf-meadows-community/7928749270.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/millsboro-alderleaf-meadows-community/7928749270.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/millsboro-alderleaf-meadows-community/7928749270.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:17:40.106Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/millsboro-alderleaf-meadows-community/7928749270.html",
+	"url": "https://delaware.craigslist.org/gms/d/millsboro-alderleaf-meadows-community/7928749270.html"
+}

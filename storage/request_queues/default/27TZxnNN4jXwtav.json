@@ -1,0 +1,9 @@
+{
+	"id": "27TZxnNN4jXwtav",
+	"json": "{\"id\":\"27TZxnNN4jXwtav\",\"url\":\"https://northmiss.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://northmiss.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521166,
+	"retryCount": 0,
+	"uniqueKey": "https://northmiss.craigslist.org/search/gms?s=360",
+	"url": "https://northmiss.craigslist.org/search/gms?s=360"
+}

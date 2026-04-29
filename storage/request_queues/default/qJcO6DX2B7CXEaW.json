@@ -1,0 +1,9 @@
+{
+	"id": "qJcO6DX2B7CXEaW",
+	"json": "{\"id\":\"qJcO6DX2B7CXEaW\",\"url\":\"https://fayar.craigslist.org/gms/d/cave-springs-neighborhood-wide-fall/7929310634.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/cave-springs-neighborhood-wide-fall/7929310634.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/cave-springs-neighborhood-wide-fall/7929310634.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:04.727Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/cave-springs-neighborhood-wide-fall/7929310634.html",
+	"url": "https://fayar.craigslist.org/gms/d/cave-springs-neighborhood-wide-fall/7929310634.html"
+}

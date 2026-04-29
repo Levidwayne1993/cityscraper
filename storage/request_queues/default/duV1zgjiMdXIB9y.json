@@ -1,0 +1,9 @@
+{
+	"id": "duV1zgjiMdXIB9y",
+	"json": "{\"id\":\"duV1zgjiMdXIB9y\",\"url\":\"https://sfbay.craigslist.org/scz/fuo/d/watsonville-person-workstation-desks/7900440205.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/fuo/d/watsonville-person-workstation-desks/7900440205.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/fuo/d/watsonville-person-workstation-desks/7900440205.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:11.346Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/fuo/d/watsonville-person-workstation-desks/7900440205.html",
+	"url": "https://sfbay.craigslist.org/scz/fuo/d/watsonville-person-workstation-desks/7900440205.html"
+}

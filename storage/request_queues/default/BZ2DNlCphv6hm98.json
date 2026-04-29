@@ -1,0 +1,9 @@
+{
+	"id": "BZ2DNlCphv6hm98",
+	"json": "{\"id\":\"BZ2DNlCphv6hm98\",\"url\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-couch-loveseat-sofa/7919755826.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-couch-loveseat-sofa/7919755826.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-couch-loveseat-sofa/7919755826.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:05.042Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-couch-loveseat-sofa/7919755826.html",
+	"url": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-couch-loveseat-sofa/7919755826.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "02OWI6Y969eGZQ8",
+	"json": "{\"id\":\"02OWI6Y969eGZQ8\",\"url\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-sun-april-5th/7925802876.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-sun-april-5th/7925802876.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-sun-april-5th/7925802876.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:42.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-sun-april-5th/7925802876.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/hesperia-yard-sale-sun-april-5th/7925802876.html"
+}

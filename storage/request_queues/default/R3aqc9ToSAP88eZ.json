@@ -1,0 +1,9 @@
+{
+	"id": "R3aqc9ToSAP88eZ",
+	"json": "{\"id\":\"R3aqc9ToSAP88eZ\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-yard-sale/7929733892.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-yard-sale/7929733892.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-yard-sale/7929733892.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:27:53.530Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/aptos-yard-sale/7929733892.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/aptos-yard-sale/7929733892.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zyLcaseptJ1qN0J",
+	"json": "{\"id\":\"zyLcaseptJ1qN0J\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/cloverdale-yard-and-garage-sale/7929114326.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/cloverdale-yard-and-garage-sale/7929114326.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/cloverdale-yard-and-garage-sale/7929114326.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:29.079Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/cloverdale-yard-and-garage-sale/7929114326.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/cloverdale-yard-and-garage-sale/7929114326.html"
+}

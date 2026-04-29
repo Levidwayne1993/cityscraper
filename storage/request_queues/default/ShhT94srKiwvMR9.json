@@ -1,0 +1,9 @@
+{
+	"id": "ShhT94srKiwvMR9",
+	"json": "{\"id\":\"ShhT94srKiwvMR9\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-garage-sale/7929966293.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-garage-sale/7929966293.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-garage-sale/7929966293.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:41.063Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-garage-sale/7929966293.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-garage-sale/7929966293.html"
+}

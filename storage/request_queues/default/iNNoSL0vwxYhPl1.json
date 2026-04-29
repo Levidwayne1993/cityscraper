@@ -1,0 +1,9 @@
+{
+	"id": "iNNoSL0vwxYhPl1",
+	"json": "{\"id\":\"iNNoSL0vwxYhPl1\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-encino-estate-sale/7927130327.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-encino-estate-sale/7927130327.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-encino-estate-sale/7927130327.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:38:16.760Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-encino-estate-sale/7927130327.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-encino-estate-sale/7927130327.html"
+}

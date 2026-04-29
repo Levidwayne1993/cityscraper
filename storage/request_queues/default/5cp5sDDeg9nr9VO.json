@@ -1,0 +1,9 @@
+{
+	"id": "5cp5sDDeg9nr9VO",
+	"json": "{\"id\":\"5cp5sDDeg9nr9VO\",\"url\":\"https://brainerd.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://brainerd.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520978,
+	"retryCount": 0,
+	"uniqueKey": "https://brainerd.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://brainerd.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HA3k06kGnGZr4LL",
+	"json": "{\"id\":\"HA3k06kGnGZr4LL\",\"url\":\"https://delaware.craigslist.org/gms/d/cherry-hill-garage-estate-sale-25-off/7913899170.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/cherry-hill-garage-estate-sale-25-off/7913899170.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/cherry-hill-garage-estate-sale-25-off/7913899170.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:57.659Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/cherry-hill-garage-estate-sale-25-off/7913899170.html",
+	"url": "https://delaware.craigslist.org/gms/d/cherry-hill-garage-estate-sale-25-off/7913899170.html"
+}

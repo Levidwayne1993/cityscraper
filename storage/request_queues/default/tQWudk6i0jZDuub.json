@@ -1,0 +1,9 @@
+{
+	"id": "tQWudk6i0jZDuub",
+	"json": "{\"id\":\"tQWudk6i0jZDuub\",\"url\":\"https://sfbay.craigslist.org/pen/fuo/d/los-altos-virtual-garage-sale-furniture/7910659501.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/fuo/d/los-altos-virtual-garage-sale-furniture/7910659501.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/fuo/d/los-altos-virtual-garage-sale-furniture/7910659501.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:55.840Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/fuo/d/los-altos-virtual-garage-sale-furniture/7910659501.html",
+	"url": "https://sfbay.craigslist.org/pen/fuo/d/los-altos-virtual-garage-sale-furniture/7910659501.html"
+}

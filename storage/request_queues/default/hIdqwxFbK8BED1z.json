@@ -1,0 +1,9 @@
+{
+	"id": "hIdqwxFbK8BED1z",
+	"json": "{\"id\":\"hIdqwxFbK8BED1z\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-giant-garage-sale/7929742699.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-giant-garage-sale/7929742699.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-giant-garage-sale/7929742699.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:44:05.893Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-giant-garage-sale/7929742699.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-giant-garage-sale/7929742699.html"
+}

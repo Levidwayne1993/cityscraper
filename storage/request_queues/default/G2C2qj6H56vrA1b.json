@@ -1,0 +1,9 @@
+{
+	"id": "G2C2qj6H56vrA1b",
+	"json": "{\"id\":\"G2C2qj6H56vrA1b\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-large-collectible-and/7929402198.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-large-collectible-and/7929402198.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-large-collectible-and/7929402198.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:15.840Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-large-collectible-and/7929402198.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-large-collectible-and/7929402198.html"
+}

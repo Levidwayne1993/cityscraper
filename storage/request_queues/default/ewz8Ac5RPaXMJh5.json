@@ -1,8 +1,8 @@
 {
 	"id": "ewz8Ac5RPaXMJh5",
-	"json": "{\"id\":\"ewz8Ac5RPaXMJh5\",\"url\":\"https://tucson.craigslist.org/search/gms\",\"uniqueKey\":\"https://tucson.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"ewz8Ac5RPaXMJh5\",\"url\":\"https://tucson.craigslist.org/search/gms\",\"loadedUrl\":\"https://tucson.craigslist.org/search/gms\",\"uniqueKey\":\"https://tucson.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:53:47.751Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323034,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://tucson.craigslist.org/search/gms",
 	"url": "https://tucson.craigslist.org/search/gms"

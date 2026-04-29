@@ -1,0 +1,9 @@
+{
+	"id": "laVbCJ5iu9vQVIw",
+	"json": "{\"id\":\"laVbCJ5iu9vQVIw\",\"url\":\"https://slo.craigslist.org/gms/d/morro-bay-early-huge-garage-salestarts/7921696582.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/morro-bay-early-huge-garage-salestarts/7921696582.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/morro-bay-early-huge-garage-salestarts/7921696582.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:47:13.660Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/morro-bay-early-huge-garage-salestarts/7921696582.html",
+	"url": "https://slo.craigslist.org/gms/d/morro-bay-early-huge-garage-salestarts/7921696582.html"
+}

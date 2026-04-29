@@ -1,0 +1,9 @@
+{
+	"id": "jmBo4Q9y4okqLMV",
+	"json": "{\"id\":\"jmBo4Q9y4okqLMV\",\"url\":\"https://slo.craigslist.org/gms/d/cayucos-snack-shop-yard-sale-in-cayucos/7922760624.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/cayucos-snack-shop-yard-sale-in-cayucos/7922760624.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/cayucos-snack-shop-yard-sale-in-cayucos/7922760624.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:42:39.445Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/cayucos-snack-shop-yard-sale-in-cayucos/7922760624.html",
+	"url": "https://slo.craigslist.org/gms/d/cayucos-snack-shop-yard-sale-in-cayucos/7922760624.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gg7NPeNiLf6YG7c",
+	"json": "{\"id\":\"gg7NPeNiLf6YG7c\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale-28th-29th-8am-5pm/7921103705.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale-28th-29th-8am-5pm/7921103705.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale-28th-29th-8am-5pm/7921103705.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:40.673Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-moving-sale-28th-29th-8am-5pm/7921103705.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-moving-sale-28th-29th-8am-5pm/7921103705.html"
+}

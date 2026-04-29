@@ -1,0 +1,9 @@
+{
+	"id": "4V6sXQKmmcn7ufL",
+	"json": "{\"id\":\"4V6sXQKmmcn7ufL\",\"url\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-yard-sale-saturday-tierra/7920939702.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-yard-sale-saturday-tierra/7920939702.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-yard-sale-saturday-tierra/7920939702.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:45.383Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/sierra-vista-yard-sale-saturday-tierra/7920939702.html",
+	"url": "https://sierravista.craigslist.org/gms/d/sierra-vista-yard-sale-saturday-tierra/7920939702.html"
+}

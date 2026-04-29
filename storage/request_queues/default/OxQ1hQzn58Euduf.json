@@ -1,8 +1,8 @@
 {
 	"id": "OxQ1hQzn58Euduf",
-	"json": "{\"id\":\"OxQ1hQzn58Euduf\",\"url\":\"https://sandiego.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"OxQ1hQzn58Euduf\",\"url\":\"https://sandiego.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://sandiego.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:58:14.232Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323260,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sandiego.craigslist.org/search/gms?s=240",
 	"url": "https://sandiego.craigslist.org/search/gms?s=240"

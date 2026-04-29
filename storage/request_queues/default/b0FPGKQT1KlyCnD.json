@@ -1,0 +1,9 @@
+{
+	"id": "b0FPGKQT1KlyCnD",
+	"json": "{\"id\":\"b0FPGKQT1KlyCnD\",\"url\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-everything-must-go/7925661116.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-everything-must-go/7925661116.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-everything-must-go/7925661116.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:54:09.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-everything-must-go/7925661116.html",
+	"url": "https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-everything-must-go/7925661116.html"
+}

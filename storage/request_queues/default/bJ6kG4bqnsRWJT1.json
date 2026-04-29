@@ -1,0 +1,9 @@
+{
+	"id": "bJ6kG4bqnsRWJT1",
+	"json": "{\"id\":\"bJ6kG4bqnsRWJT1\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Memphis-TN.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Memphis-TN.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TN\",\"yssSlug\":\"Memphis-TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186532757,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Memphis-TN.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Memphis-TN.html"
+}

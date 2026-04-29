@@ -1,0 +1,9 @@
+{
+	"id": "P07WO5VLD64xBd1",
+	"json": "{\"id\":\"P07WO5VLD64xBd1\",\"url\":\"https://kirksville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://kirksville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521260,
+	"retryCount": 0,
+	"uniqueKey": "https://kirksville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://kirksville.craigslist.org/search/ccc?query=garage+sale"
+}

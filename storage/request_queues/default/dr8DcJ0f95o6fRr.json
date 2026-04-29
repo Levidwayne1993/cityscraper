@@ -1,0 +1,9 @@
+{
+	"id": "dr8DcJ0f95o6fRr",
+	"json": "{\"id\":\"dr8DcJ0f95o6fRr\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-large-moving-sale-sunday/7929205211.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-large-moving-sale-sunday/7929205211.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-large-moving-sale-sunday/7929205211.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:56:03.375Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-large-moving-sale-sunday/7929205211.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/imperial-beach-large-moving-sale-sunday/7929205211.html"
+}

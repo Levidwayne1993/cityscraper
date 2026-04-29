@@ -1,0 +1,9 @@
+{
+	"id": "A5DAps0TIiV5PeV",
+	"json": "{\"id\":\"A5DAps0TIiV5PeV\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-next-weekend-cherry-knolls/7929861086.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-next-weekend-cherry-knolls/7929861086.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-next-weekend-cherry-knolls/7929861086.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:31.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-next-weekend-cherry-knolls/7929861086.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-next-weekend-cherry-knolls/7929861086.html"
+}

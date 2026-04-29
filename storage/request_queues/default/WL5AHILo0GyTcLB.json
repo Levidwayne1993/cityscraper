@@ -1,0 +1,9 @@
+{
+	"id": "WL5AHILo0GyTcLB",
+	"json": "{\"id\":\"WL5AHILo0GyTcLB\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-getting-rid-of-dads/7922812462.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-getting-rid-of-dads/7922812462.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-getting-rid-of-dads/7922812462.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:56:01.073Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-getting-rid-of-dads/7922812462.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-yard-sale-getting-rid-of-dads/7922812462.html"
+}

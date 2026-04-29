@@ -1,0 +1,9 @@
+{
+	"id": "yYttnMOXIswUe46",
+	"json": "{\"id\":\"yYttnMOXIswUe46\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-yard-sale-tools/7928277121.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-yard-sale-tools/7928277121.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-yard-sale-tools/7928277121.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:34.639Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-yard-sale-tools/7928277121.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-yard-sale-tools/7928277121.html"
+}

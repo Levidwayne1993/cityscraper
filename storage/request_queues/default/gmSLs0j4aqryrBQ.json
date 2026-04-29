@@ -1,0 +1,9 @@
+{
+	"id": "gmSLs0j4aqryrBQ",
+	"json": "{\"id\":\"gmSLs0j4aqryrBQ\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-neighborhood-sale-cherry/7929114051.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-neighborhood-sale-cherry/7929114051.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-neighborhood-sale-cherry/7929114051.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:32.054Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-neighborhood-sale-cherry/7929114051.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-neighborhood-sale-cherry/7929114051.html"
+}

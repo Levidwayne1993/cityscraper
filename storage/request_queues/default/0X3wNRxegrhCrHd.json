@@ -1,0 +1,9 @@
+{
+	"id": "0X3wNRxegrhCrHd",
+	"json": "{\"id\":\"0X3wNRxegrhCrHd\",\"url\":\"https://modesto.craigslist.org/gms/d/turlock-huge-garage-sale/7928332792.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/turlock-huge-garage-sale/7928332792.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/turlock-huge-garage-sale/7928332792.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:58:49.953Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/turlock-huge-garage-sale/7928332792.html",
+	"url": "https://modesto.craigslist.org/gms/d/turlock-huge-garage-sale/7928332792.html"
+}

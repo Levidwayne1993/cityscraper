@@ -1,0 +1,9 @@
+{
+	"id": "WntmWyF3ciTmX8R",
+	"json": "{\"id\":\"WntmWyF3ciTmX8R\",\"url\":\"https://jacksonville.craigslist.org/gms/d/orange-park-huge-garage-sales/7928196381.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/orange-park-huge-garage-sales/7928196381.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/orange-park-huge-garage-sales/7928196381.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:41:40.689Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/orange-park-huge-garage-sales/7928196381.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/orange-park-huge-garage-sales/7928196381.html"
+}

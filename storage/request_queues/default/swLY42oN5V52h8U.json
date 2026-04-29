@@ -1,0 +1,9 @@
+{
+	"id": "swLY42oN5V52h8U",
+	"json": "{\"id\":\"swLY42oN5V52h8U\",\"url\":\"https://westslope.craigslist.org/for/d/durango-estate-liquidation-sale/7929395081.html\",\"loadedUrl\":\"https://westslope.craigslist.org/for/d/durango-estate-liquidation-sale/7929395081.html\",\"uniqueKey\":\"https://westslope.craigslist.org/for/d/durango-estate-liquidation-sale/7929395081.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:00:51.098Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/for/d/durango-estate-liquidation-sale/7929395081.html",
+	"url": "https://westslope.craigslist.org/for/d/durango-estate-liquidation-sale/7929395081.html"
+}

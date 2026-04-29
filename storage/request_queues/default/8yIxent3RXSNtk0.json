@@ -1,0 +1,9 @@
+{
+	"id": "8yIxent3RXSNtk0",
+	"json": "{\"id\":\"8yIxent3RXSNtk0\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-yard-sale-saturday-25/7929880021.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-yard-sale-saturday-25/7929880021.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/watsonville-yard-sale-saturday-25/7929880021.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:16.755Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/watsonville-yard-sale-saturday-25/7929880021.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/watsonville-yard-sale-saturday-25/7929880021.html"
+}

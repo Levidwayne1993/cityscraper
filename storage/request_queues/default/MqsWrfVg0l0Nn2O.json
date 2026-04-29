@@ -1,8 +1,8 @@
 {
 	"id": "MqsWrfVg0l0Nn2O",
-	"json": "{\"id\":\"MqsWrfVg0l0Nn2O\",\"url\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"MqsWrfVg0l0Nn2O\",\"url\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:48.703Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323120,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

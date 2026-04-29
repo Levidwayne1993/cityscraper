@@ -1,0 +1,9 @@
+{
+	"id": "8O23rQQzGfYl7Lo",
+	"json": "{\"id\":\"8O23rQQzGfYl7Lo\",\"url\":\"https://orlando.craigslist.org/gms/d/apopka-garage-sale/7927879345.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/apopka-garage-sale/7927879345.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/apopka-garage-sale/7927879345.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:33:18.906Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/apopka-garage-sale/7927879345.html",
+	"url": "https://orlando.craigslist.org/gms/d/apopka-garage-sale/7927879345.html"
+}

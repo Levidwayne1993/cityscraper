@@ -1,0 +1,9 @@
+{
+	"id": "h2RLAQxJjFs36hD",
+	"json": "{\"id\":\"h2RLAQxJjFs36hD\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-yard-sale/7928444097.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-yard-sale/7928444097.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-yard-sale/7928444097.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:52:06.847Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-yard-sale/7928444097.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-yard-sale/7928444097.html"
+}

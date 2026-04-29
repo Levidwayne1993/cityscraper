@@ -1,8 +1,8 @@
 {
 	"id": "5qPDpoOSANl8W4J",
-	"json": "{\"id\":\"5qPDpoOSANl8W4J\",\"url\":\"https://fortlauderdale.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fortlauderdale.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"5qPDpoOSANl8W4J\",\"url\":\"https://fortlauderdale.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://fortlauderdale.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://fortlauderdale.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:06:15.968Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323513,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fortlauderdale.craigslist.org/search/gms?s=120",
 	"url": "https://fortlauderdale.craigslist.org/search/gms?s=120"

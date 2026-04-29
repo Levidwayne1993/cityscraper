@@ -1,0 +1,9 @@
+{
+	"id": "lKnNdiO75knwhJE",
+	"json": "{\"id\":\"lKnNdiO75knwhJE\",\"url\":\"https://yuma.craigslist.org/gms/d/somerton-garage-sale-like-new-items/7925704716.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/somerton-garage-sale-like-new-items/7925704716.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/somerton-garage-sale-like-new-items/7925704716.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:36.238Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/somerton-garage-sale-like-new-items/7925704716.html",
+	"url": "https://yuma.craigslist.org/gms/d/somerton-garage-sale-like-new-items/7925704716.html"
+}

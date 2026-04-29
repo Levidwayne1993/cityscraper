@@ -1,0 +1,9 @@
+{
+	"id": "uWEwsynzc8JBdT3",
+	"json": "{\"id\":\"uWEwsynzc8JBdT3\",\"url\":\"https://chico.craigslist.org/gms/d/vina-moving-sale/7929454787.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/vina-moving-sale/7929454787.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/vina-moving-sale/7929454787.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:36:53.683Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/vina-moving-sale/7929454787.html",
+	"url": "https://chico.craigslist.org/gms/d/vina-moving-sale/7929454787.html"
+}

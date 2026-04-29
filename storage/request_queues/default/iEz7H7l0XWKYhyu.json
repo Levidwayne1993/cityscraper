@@ -1,0 +1,9 @@
+{
+	"id": "iEz7H7l0XWKYhyu",
+	"json": "{\"id\":\"iEz7H7l0XWKYhyu\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-ctbids-online-auction-picasso-pl/7929939977.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-ctbids-online-auction-picasso-pl/7929939977.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-ctbids-online-auction-picasso-pl/7929939977.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:55:34.744Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-ctbids-online-auction-picasso-pl/7929939977.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-ctbids-online-auction-picasso-pl/7929939977.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "iTfzc6f1V0YmVqH",
+	"json": "{\"id\":\"iTfzc6f1V0YmVqH\",\"url\":\"https://fortmyers.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://fortmyers.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://fortmyers.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:25:38.132Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://fortmyers.craigslist.org/search/ccc?query=yard+sale"
+}

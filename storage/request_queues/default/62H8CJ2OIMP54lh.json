@@ -1,8 +1,8 @@
 {
 	"id": "62H8CJ2OIMP54lh",
-	"json": "{\"id\":\"62H8CJ2OIMP54lh\",\"url\":\"https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"62H8CJ2OIMP54lh\",\"url\":\"https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:14:08.939Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322953,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://kenai.craigslist.org/search/sss?query=yard+sale+garage+sale"

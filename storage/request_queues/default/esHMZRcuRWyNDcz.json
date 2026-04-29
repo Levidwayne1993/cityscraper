@@ -1,0 +1,9 @@
+{
+	"id": "esHMZRcuRWyNDcz",
+	"json": "{\"id\":\"esHMZRcuRWyNDcz\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-art-craft-and-bake-sale/7930200108.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-art-craft-and-bake-sale/7930200108.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-art-craft-and-bake-sale/7930200108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:00.872Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/oakland-art-craft-and-bake-sale/7930200108.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/oakland-art-craft-and-bake-sale/7930200108.html"
+}

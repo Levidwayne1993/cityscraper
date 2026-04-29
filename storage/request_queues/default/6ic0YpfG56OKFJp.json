@@ -1,0 +1,9 @@
+{
+	"id": "6ic0YpfG56OKFJp",
+	"json": "{\"id\":\"6ic0YpfG56OKFJp\",\"url\":\"https://kenosha.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://kenosha.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528303,
+	"retryCount": 0,
+	"uniqueKey": "https://kenosha.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
+	"url": "https://kenosha.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
+}

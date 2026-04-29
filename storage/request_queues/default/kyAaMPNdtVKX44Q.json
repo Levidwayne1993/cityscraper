@@ -1,0 +1,9 @@
+{
+	"id": "kyAaMPNdtVKX44Q",
+	"json": "{\"id\":\"kyAaMPNdtVKX44Q\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Irving-TX.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Irving-TX.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TX\",\"yssSlug\":\"Irving-TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186532859,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Irving-TX.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Irving-TX.html"
+}

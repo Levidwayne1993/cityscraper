@@ -1,0 +1,9 @@
+{
+	"id": "fzMYS9WOTLS1GCH",
+	"json": "{\"id\":\"fzMYS9WOTLS1GCH\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-1565-shadow-ridge-cr-sarasota/7925262356.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-1565-shadow-ridge-cr-sarasota/7925262356.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-1565-shadow-ridge-cr-sarasota/7925262356.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:52:08.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-1565-shadow-ridge-cr-sarasota/7925262356.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-1565-shadow-ridge-cr-sarasota/7925262356.html"
+}

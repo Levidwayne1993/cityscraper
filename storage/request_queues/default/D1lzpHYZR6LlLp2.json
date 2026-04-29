@@ -1,0 +1,9 @@
+{
+	"id": "D1lzpHYZR6LlLp2",
+	"json": "{\"id\":\"D1lzpHYZR6LlLp2\",\"url\":\"https://pensacola.craigslist.org/gms/d/pensacola-yard-sale-extended-to-sunday/7930186257.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/pensacola-yard-sale-extended-to-sunday/7930186257.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/pensacola-yard-sale-extended-to-sunday/7930186257.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:38:54.896Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/pensacola-yard-sale-extended-to-sunday/7930186257.html",
+	"url": "https://pensacola.craigslist.org/gms/d/pensacola-yard-sale-extended-to-sunday/7930186257.html"
+}

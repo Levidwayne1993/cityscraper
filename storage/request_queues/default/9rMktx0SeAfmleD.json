@@ -1,8 +1,8 @@
 {
 	"id": "9rMktx0SeAfmleD",
-	"json": "{\"id\":\"9rMktx0SeAfmleD\",\"url\":\"https://nwct.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://nwct.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"9rMktx0SeAfmleD\",\"url\":\"https://nwct.craigslist.org/search/sss?query=estate+sale\",\"loadedUrl\":\"https://nwct.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://nwct.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:05.347Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323466,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://nwct.craigslist.org/search/sss?query=estate+sale",
 	"url": "https://nwct.craigslist.org/search/sss?query=estate+sale"

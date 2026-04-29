@@ -1,0 +1,9 @@
+{
+	"id": "73aFjkfVaZ59yfD",
+	"json": "{\"id\":\"73aFjkfVaZ59yfD\",\"url\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-park-wide-yard-sale/7929469979.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-park-wide-yard-sale/7929469979.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-park-wide-yard-sale/7929469979.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:08:49.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-park-wide-yard-sale/7929469979.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-park-wide-yard-sale/7929469979.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pVre8FTDKDwFXQD",
+	"json": "{\"id\":\"pVre8FTDKDwFXQD\",\"url\":\"https://lafayette.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://lafayette.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518321,
+	"retryCount": 0,
+	"uniqueKey": "https://lafayette.craigslist.org/search/gms?s=480",
+	"url": "https://lafayette.craigslist.org/search/gms?s=480"
+}

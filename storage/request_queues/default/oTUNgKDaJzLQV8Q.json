@@ -1,0 +1,9 @@
+{
+	"id": "oTUNgKDaJzLQV8Q",
+	"json": "{\"id\":\"oTUNgKDaJzLQV8Q\",\"url\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:15.006Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://delaware.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "H0nYobX0xwEn8Zu",
+	"json": "{\"id\":\"H0nYobX0xwEn8Zu\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-family-yard-sale-going-on-were/7922662838.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-family-yard-sale-going-on-were/7922662838.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-family-yard-sale-going-on-were/7922662838.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:16.340Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-family-yard-sale-going-on-were/7922662838.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-family-yard-sale-going-on-were/7922662838.html"
+}

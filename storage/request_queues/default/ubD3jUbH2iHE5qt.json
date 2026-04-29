@@ -1,0 +1,9 @@
+{
+	"id": "ubD3jUbH2iHE5qt",
+	"json": "{\"id\":\"ubD3jUbH2iHE5qt\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/PA/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/PA\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530214,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/PA",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/PA/"
+}

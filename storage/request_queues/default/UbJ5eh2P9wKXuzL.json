@@ -1,0 +1,9 @@
+{
+	"id": "UbJ5eh2P9wKXuzL",
+	"json": "{\"id\":\"UbJ5eh2P9wKXuzL\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-moving-sale/7924060679.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-moving-sale/7924060679.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-moving-sale/7924060679.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:26:51.209Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-moving-sale/7924060679.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-moving-sale/7924060679.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "cnsw3kqWxdK4zhc",
+	"json": "{\"id\":\"cnsw3kqWxdK4zhc\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-santa-clara-city-wide-yard/7925749651.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-santa-clara-city-wide-yard/7925749651.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-santa-clara-city-wide-yard/7925749651.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:27.540Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-santa-clara-city-wide-yard/7925749651.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-santa-clara-city-wide-yard/7925749651.html"
+}

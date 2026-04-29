@@ -1,0 +1,9 @@
+{
+	"id": "xeq8cQWXXQdBj2g",
+	"json": "{\"id\":\"xeq8cQWXXQdBj2g\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Scranton-PA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Scranton-PA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"PA\",\"yssSlug\":\"Scranton-PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186532681,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Scranton-PA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Scranton-PA.html"
+}

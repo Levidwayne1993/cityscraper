@@ -1,0 +1,9 @@
+{
+	"id": "VkYtqLxWRrOEr8z",
+	"json": "{\"id\":\"VkYtqLxWRrOEr8z\",\"url\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-moving-sale-179-walnut-tree/7926548099.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-moving-sale-179-walnut-tree/7926548099.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-moving-sale-179-walnut-tree/7926548099.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:57.279Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/sandy-hook-moving-sale-179-walnut-tree/7926548099.html",
+	"url": "https://newhaven.craigslist.org/gms/d/sandy-hook-moving-sale-179-walnut-tree/7926548099.html"
+}

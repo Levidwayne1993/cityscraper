@@ -1,0 +1,9 @@
+{
+	"id": "blJhv0zj6vJYpwe",
+	"json": "{\"id\":\"blJhv0zj6vJYpwe\",\"url\":\"https://charleston.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://charleston.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525832,
+	"retryCount": 0,
+	"uniqueKey": "https://charleston.craigslist.org/search/gms?s=360",
+	"url": "https://charleston.craigslist.org/search/gms?s=360"
+}

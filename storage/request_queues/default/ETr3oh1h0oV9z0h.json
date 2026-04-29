@@ -1,0 +1,9 @@
+{
+	"id": "ETr3oh1h0oV9z0h",
+	"json": "{\"id\":\"ETr3oh1h0oV9z0h\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Boston-MA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Boston-MA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"MA\",\"yssSlug\":\"Boston-MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186531128,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Boston-MA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Boston-MA.html"
+}

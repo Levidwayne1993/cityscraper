@@ -1,0 +1,9 @@
+{
+	"id": "Nxv9BY9nnVoSTV6",
+	"json": "{\"id\":\"Nxv9BY9nnVoSTV6\",\"url\":\"https://pennstate.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://pennstate.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525769,
+	"retryCount": 0,
+	"uniqueKey": "https://pennstate.craigslist.org/search/gms?s=480",
+	"url": "https://pennstate.craigslist.org/search/gms?s=480"
+}

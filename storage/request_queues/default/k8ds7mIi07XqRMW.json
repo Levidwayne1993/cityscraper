@@ -1,0 +1,9 @@
+{
+	"id": "k8ds7mIi07XqRMW",
+	"json": "{\"id\":\"k8ds7mIi07XqRMW\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-estate-sale/7927561131.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-estate-sale/7927561131.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-estate-sale/7927561131.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:26.256Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-estate-sale/7927561131.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-yard-sale-estate-sale/7927561131.html"
+}

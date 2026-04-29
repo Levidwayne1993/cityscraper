@@ -1,0 +1,9 @@
+{
+	"id": "ezbjl77XdjXBfuK",
+	"json": "{\"id\":\"ezbjl77XdjXBfuK\",\"url\":\"https://nwct.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://nwct.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://nwct.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:17:15.520Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://nwct.craigslist.org/search/ccc?query=yard+sale"
+}

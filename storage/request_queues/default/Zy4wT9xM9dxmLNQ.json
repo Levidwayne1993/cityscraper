@@ -1,0 +1,9 @@
+{
+	"id": "Zy4wT9xM9dxmLNQ",
+	"json": "{\"id\":\"Zy4wT9xM9dxmLNQ\",\"url\":\"https://cosprings.craigslist.org/gms/d/fresno-multi-family-garage-sale/7930073389.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/fresno-multi-family-garage-sale/7930073389.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/fresno-multi-family-garage-sale/7930073389.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:37.453Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/fresno-multi-family-garage-sale/7930073389.html",
+	"url": "https://cosprings.craigslist.org/gms/d/fresno-multi-family-garage-sale/7930073389.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qGGPQV9zmln0VCk",
+	"json": "{\"id\":\"qGGPQV9zmln0VCk\",\"url\":\"https://jackson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://jackson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521135,
+	"retryCount": 0,
+	"uniqueKey": "https://jackson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://jackson.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

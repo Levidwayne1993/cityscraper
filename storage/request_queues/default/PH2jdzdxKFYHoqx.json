@@ -1,0 +1,9 @@
+{
+	"id": "PH2jdzdxKFYHoqx",
+	"json": "{\"id\":\"PH2jdzdxKFYHoqx\",\"url\":\"https://kansascity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://kansascity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521241,
+	"retryCount": 0,
+	"uniqueKey": "https://kansascity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://kansascity.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

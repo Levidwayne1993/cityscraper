@@ -1,0 +1,9 @@
+{
+	"id": "QEODUSXlK4TwBNt",
+	"json": "{\"id\":\"QEODUSXlK4TwBNt\",\"url\":\"https://newhaven.craigslist.org/gms/d/stratford-cec-church-sale/7929833442.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/stratford-cec-church-sale/7929833442.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/stratford-cec-church-sale/7929833442.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:13.916Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/stratford-cec-church-sale/7929833442.html",
+	"url": "https://newhaven.craigslist.org/gms/d/stratford-cec-church-sale/7929833442.html"
+}

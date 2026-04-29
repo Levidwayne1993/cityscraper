@@ -1,0 +1,9 @@
+{
+	"id": "a89DIcoWzHFlPzl",
+	"json": "{\"id\":\"a89DIcoWzHFlPzl\",\"url\":\"https://okaloosa.craigslist.org/gms/d/destin-yard-sale-destin/7921047312.html\",\"loadedUrl\":\"https://okaloosa.craigslist.org/gms/d/destin-yard-sale-destin/7921047312.html\",\"uniqueKey\":\"https://okaloosa.craigslist.org/gms/d/destin-yard-sale-destin/7921047312.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:17:16.594Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/gms/d/destin-yard-sale-destin/7921047312.html",
+	"url": "https://okaloosa.craigslist.org/gms/d/destin-yard-sale-destin/7921047312.html"
+}

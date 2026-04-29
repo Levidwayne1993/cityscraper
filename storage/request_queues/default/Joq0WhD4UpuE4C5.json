@@ -1,0 +1,9 @@
+{
+	"id": "Joq0WhD4UpuE4C5",
+	"json": "{\"id\":\"Joq0WhD4UpuE4C5\",\"url\":\"https://ocala.craigslist.org/gms/d/ocala-moveing-sale/7930012639.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/ocala-moveing-sale/7930012639.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/ocala-moveing-sale/7930012639.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:19.336Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/ocala-moveing-sale/7930012639.html",
+	"url": "https://ocala.craigslist.org/gms/d/ocala-moveing-sale/7930012639.html"
+}

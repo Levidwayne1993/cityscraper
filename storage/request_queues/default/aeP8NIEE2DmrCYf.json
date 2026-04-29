@@ -1,0 +1,9 @@
+{
+	"id": "aeP8NIEE2DmrCYf",
+	"json": "{\"id\":\"aeP8NIEE2DmrCYf\",\"url\":\"https://orangecounty.craigslist.org/gms/d/san-juan-capistrano-garage-sale/7929755907.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/san-juan-capistrano-garage-sale/7929755907.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/san-juan-capistrano-garage-sale/7929755907.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:20:08.665Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/san-juan-capistrano-garage-sale/7929755907.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/san-juan-capistrano-garage-sale/7929755907.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "y5yUngRu5tcPBIl",
+	"json": "{\"id\":\"y5yUngRu5tcPBIl\",\"url\":\"https://savannah.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://savannah.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517574,
+	"retryCount": 0,
+	"uniqueKey": "https://savannah.craigslist.org/search/gms?s=360",
+	"url": "https://savannah.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uuDQf8YjacnsYl5",
+	"json": "{\"id\":\"uuDQf8YjacnsYl5\",\"url\":\"https://stcloud.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://stcloud.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521071,
+	"retryCount": 0,
+	"uniqueKey": "https://stcloud.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://stcloud.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

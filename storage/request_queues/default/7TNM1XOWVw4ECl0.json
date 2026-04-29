@@ -1,0 +1,9 @@
+{
+	"id": "7TNM1XOWVw4ECl0",
+	"json": "{\"id\":\"7TNM1XOWVw4ECl0\",\"url\":\"https://newlondon.craigslist.org/gms/d/new-london-moving-sale/7922513357.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/new-london-moving-sale/7922513357.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/new-london-moving-sale/7922513357.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:36.851Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/new-london-moving-sale/7922513357.html",
+	"url": "https://newlondon.craigslist.org/gms/d/new-london-moving-sale/7922513357.html"
+}

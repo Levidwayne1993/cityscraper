@@ -1,0 +1,9 @@
+{
+	"id": "cisj3y5mjXvC9Pr",
+	"json": "{\"id\":\"cisj3y5mjXvC9Pr\",\"url\":\"https://meridian.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://meridian.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521147,
+	"retryCount": 0,
+	"uniqueKey": "https://meridian.craigslist.org/search/gms?s=360",
+	"url": "https://meridian.craigslist.org/search/gms?s=360"
+}

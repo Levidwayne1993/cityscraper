@@ -1,0 +1,9 @@
+{
+	"id": "KhMiA5XI7k4SJy9",
+	"json": "{\"id\":\"KhMiA5XI7k4SJy9\",\"url\":\"https://fortcollins.craigslist.org/gms/d/cheyenne-garage-sale-everything-has-to/7927083787.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/cheyenne-garage-sale-everything-has-to/7927083787.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/cheyenne-garage-sale-everything-has-to/7927083787.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:51:34.187Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/cheyenne-garage-sale-everything-has-to/7927083787.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/cheyenne-garage-sale-everything-has-to/7927083787.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZoexdjTGQHO1lbe",
+	"json": "{\"id\":\"ZoexdjTGQHO1lbe\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-sunday-april-12-yard-sale/7927211868.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-sunday-april-12-yard-sale/7927211868.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-sunday-april-12-yard-sale/7927211868.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:27:16.703Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-sunday-april-12-yard-sale/7927211868.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-sunday-april-12-yard-sale/7927211868.html"
+}

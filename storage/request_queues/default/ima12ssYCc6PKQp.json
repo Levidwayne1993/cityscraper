@@ -1,0 +1,9 @@
+{
+	"id": "ima12ssYCc6PKQp",
+	"json": "{\"id\":\"ima12ssYCc6PKQp\",\"url\":\"https://ventura.craigslist.org/gms/d/newbury-park-estate-sale-newbury-park/7929781826.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/newbury-park-estate-sale-newbury-park/7929781826.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/newbury-park-estate-sale-newbury-park/7929781826.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:08:30.501Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/newbury-park-estate-sale-newbury-park/7929781826.html",
+	"url": "https://ventura.craigslist.org/gms/d/newbury-park-estate-sale-newbury-park/7929781826.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wIYco6FeCpv1gO9",
+	"json": "{\"id\":\"wIYco6FeCpv1gO9\",\"url\":\"https://monterey.craigslist.org/fuo/d/carmel-huge-moving-sale/7922146480.html\",\"loadedUrl\":\"https://monterey.craigslist.org/fuo/d/carmel-huge-moving-sale/7922146480.html\",\"uniqueKey\":\"https://monterey.craigslist.org/fuo/d/carmel-huge-moving-sale/7922146480.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:06:19.487Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/fuo/d/carmel-huge-moving-sale/7922146480.html",
+	"url": "https://monterey.craigslist.org/fuo/d/carmel-huge-moving-sale/7922146480.html"
+}

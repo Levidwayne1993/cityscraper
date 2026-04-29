@@ -1,0 +1,9 @@
+{
+	"id": "xKOtnsr6W6hcgSF",
+	"json": "{\"id\":\"xKOtnsr6W6hcgSF\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-fri-sat/7929303675.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-fri-sat/7929303675.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-fri-sat/7929303675.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:24:11.193Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-fri-sat/7929303675.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-fri-sat/7929303675.html"
+}

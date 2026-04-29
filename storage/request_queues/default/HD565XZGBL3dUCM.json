@@ -1,0 +1,9 @@
+{
+	"id": "HD565XZGBL3dUCM",
+	"json": "{\"id\":\"HD565XZGBL3dUCM\",\"url\":\"https://texoma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://texoma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527574,
+	"retryCount": 0,
+	"uniqueKey": "https://texoma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://texoma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

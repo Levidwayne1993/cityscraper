@@ -1,0 +1,9 @@
+{
+	"id": "uy7H2uRg7K6E2A3",
+	"json": "{\"id\":\"uy7H2uRg7K6E2A3\",\"url\":\"https://goldcountry.craigslist.org/fuo/d/nevada-city-moving-sale/7921884733.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/fuo/d/nevada-city-moving-sale/7921884733.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/fuo/d/nevada-city-moving-sale/7921884733.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:51:00.736Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/fuo/d/nevada-city-moving-sale/7921884733.html",
+	"url": "https://goldcountry.craigslist.org/fuo/d/nevada-city-moving-sale/7921884733.html"
+}

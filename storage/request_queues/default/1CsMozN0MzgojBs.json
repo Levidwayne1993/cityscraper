@@ -1,0 +1,9 @@
+{
+	"id": "1CsMozN0MzgojBs",
+	"json": "{\"id\":\"1CsMozN0MzgojBs\",\"url\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-large-patio/7922812295.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-large-patio/7922812295.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-large-patio/7922812295.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:11:56.060Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-large-patio/7922812295.html",
+	"url": "https://sandiego.craigslist.org/csd/grd/d/san-diego-moving-sale-large-patio/7922812295.html"
+}

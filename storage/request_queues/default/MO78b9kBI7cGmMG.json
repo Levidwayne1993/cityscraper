@@ -1,0 +1,9 @@
+{
+	"id": "MO78b9kBI7cGmMG",
+	"json": "{\"id\":\"MO78b9kBI7cGmMG\",\"url\":\"https://cleveland.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://cleveland.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523763,
+	"retryCount": 0,
+	"uniqueKey": "https://cleveland.craigslist.org/search/gms?s=360",
+	"url": "https://cleveland.craigslist.org/search/gms?s=360"
+}

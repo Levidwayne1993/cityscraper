@@ -1,0 +1,9 @@
+{
+	"id": "05fVYW1tkYFovOu",
+	"json": "{\"id\":\"05fVYW1tkYFovOu\",\"url\":\"https://phoenix.craigslist.org/nph/hsh/d/scottsdale-estate-sale/7926700130.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/hsh/d/scottsdale-estate-sale/7926700130.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/hsh/d/scottsdale-estate-sale/7926700130.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:57.917Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/hsh/d/scottsdale-estate-sale/7926700130.html",
+	"url": "https://phoenix.craigslist.org/nph/hsh/d/scottsdale-estate-sale/7926700130.html"
+}

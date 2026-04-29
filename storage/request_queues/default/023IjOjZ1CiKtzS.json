@@ -1,0 +1,9 @@
+{
+	"id": "023IjOjZ1CiKtzS",
+	"json": "{\"id\":\"023IjOjZ1CiKtzS\",\"url\":\"https://peoria.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://peoria.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518169,
+	"retryCount": 0,
+	"uniqueKey": "https://peoria.craigslist.org/search/gms?s=360",
+	"url": "https://peoria.craigslist.org/search/gms?s=360"
+}

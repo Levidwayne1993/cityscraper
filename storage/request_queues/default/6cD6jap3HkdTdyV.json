@@ -1,0 +1,9 @@
+{
+	"id": "6cD6jap3HkdTdyV",
+	"json": "{\"id\":\"6cD6jap3HkdTdyV\",\"url\":\"https://washingtondc.craigslist.org/mld/fuo/d/suburb-maryland-fac-bed-custom-made/7920148007.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/fuo/d/suburb-maryland-fac-bed-custom-made/7920148007.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/fuo/d/suburb-maryland-fac-bed-custom-made/7920148007.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:23.987Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/fuo/d/suburb-maryland-fac-bed-custom-made/7920148007.html",
+	"url": "https://washingtondc.craigslist.org/mld/fuo/d/suburb-maryland-fac-bed-custom-made/7920148007.html"
+}

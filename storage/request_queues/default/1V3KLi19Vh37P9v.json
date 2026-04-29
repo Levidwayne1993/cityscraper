@@ -1,0 +1,9 @@
+{
+	"id": "1V3KLi19Vh37P9v",
+	"json": "{\"id\":\"1V3KLi19Vh37P9v\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale/7929820865.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale/7929820865.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale/7929820865.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:59.077Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale/7929820865.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-huge-yard-sale/7929820865.html"
+}

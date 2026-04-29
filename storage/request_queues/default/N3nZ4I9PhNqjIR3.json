@@ -1,0 +1,9 @@
+{
+	"id": "N3nZ4I9PhNqjIR3",
+	"json": "{\"id\":\"N3nZ4I9PhNqjIR3\",\"url\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-tag-sale-sat-14/7921030534.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-tag-sale-sat-14/7921030534.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/stratford-estate-tag-sale-sat-14/7921030534.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:40.981Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/stratford-estate-tag-sale-sat-14/7921030534.html",
+	"url": "https://newhaven.craigslist.org/gms/d/stratford-estate-tag-sale-sat-14/7921030534.html"
+}

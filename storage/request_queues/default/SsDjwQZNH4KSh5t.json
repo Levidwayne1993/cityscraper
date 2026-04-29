@@ -1,0 +1,9 @@
+{
+	"id": "SsDjwQZNH4KSh5t",
+	"json": "{\"id\":\"SsDjwQZNH4KSh5t\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-huge-moving/7922585059.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-huge-moving/7922585059.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-huge-moving/7922585059.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:59.437Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-huge-moving/7922585059.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-yard-sale-huge-moving/7922585059.html"
+}

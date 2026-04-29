@@ -1,8 +1,8 @@
 {
 	"id": "k2Ev5YqpXwBLiE8",
-	"json": "{\"id\":\"k2Ev5YqpXwBLiE8\",\"url\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"k2Ev5YqpXwBLiE8\",\"url\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:07:20.386Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323326,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://susanville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

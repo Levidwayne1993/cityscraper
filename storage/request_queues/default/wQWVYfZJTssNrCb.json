@@ -1,9 +1,0 @@
-{
-	"id": "wQWVYfZJTssNrCb",
-	"json": "{\"id\":\"wQWVYfZJTssNrCb\",\"url\":\"https://www.garagesalefinder.com/sale/North-Carolina\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/North-Carolina\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"North Carolina\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330331,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/North-Carolina",
-	"url": "https://www.garagesalefinder.com/sale/North-Carolina"
-}

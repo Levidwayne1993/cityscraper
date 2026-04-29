@@ -1,0 +1,9 @@
+{
+	"id": "RVH2LaWcrGjCDKH",
+	"json": "{\"id\":\"RVH2LaWcrGjCDKH\",\"url\":\"https://zanesville.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://zanesville.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186525026,
+	"retryCount": 0,
+	"uniqueKey": "https://zanesville.craigslist.org/search/gms?s=480",
+	"url": "https://zanesville.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "l4zcmSmnrSbZA4d",
+	"json": "{\"id\":\"l4zcmSmnrSbZA4d\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-huge-garage-sale/7929928987.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-huge-garage-sale/7929928987.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/campbell-huge-garage-sale/7929928987.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:23.535Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/campbell-huge-garage-sale/7929928987.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/campbell-huge-garage-sale/7929928987.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "iQBNpI9wFY1yWoz",
+	"json": "{\"id\":\"iQBNpI9wFY1yWoz\",\"url\":\"https://ventura.craigslist.org/gms/d/camarillo-yard-sale-fri-sat/7928292232.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/camarillo-yard-sale-fri-sat/7928292232.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/camarillo-yard-sale-fri-sat/7928292232.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:59.239Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/camarillo-yard-sale-fri-sat/7928292232.html",
+	"url": "https://ventura.craigslist.org/gms/d/camarillo-yard-sale-fri-sat/7928292232.html"
+}

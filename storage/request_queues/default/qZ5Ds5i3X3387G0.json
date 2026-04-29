@@ -1,0 +1,9 @@
+{
+	"id": "qZ5Ds5i3X3387G0",
+	"json": "{\"id\":\"qZ5Ds5i3X3387G0\",\"url\":\"https://showlow.craigslist.org/clt/d/concho-estate-sale/7927996115.html\",\"loadedUrl\":\"https://showlow.craigslist.org/clt/d/concho-estate-sale/7927996115.html\",\"uniqueKey\":\"https://showlow.craigslist.org/clt/d/concho-estate-sale/7927996115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:04.206Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/clt/d/concho-estate-sale/7927996115.html",
+	"url": "https://showlow.craigslist.org/clt/d/concho-estate-sale/7927996115.html"
+}

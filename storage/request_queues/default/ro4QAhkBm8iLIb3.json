@@ -1,0 +1,9 @@
+{
+	"id": "ro4QAhkBm8iLIb3",
+	"json": "{\"id\":\"ro4QAhkBm8iLIb3\",\"url\":\"https://fortmyers.craigslist.org/chl/com/d/port-charlotte-am-garage-sale/7921397349.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/com/d/port-charlotte-am-garage-sale/7921397349.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/com/d/port-charlotte-am-garage-sale/7921397349.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:25:44.212Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/com/d/port-charlotte-am-garage-sale/7921397349.html",
+	"url": "https://fortmyers.craigslist.org/chl/com/d/port-charlotte-am-garage-sale/7921397349.html"
+}

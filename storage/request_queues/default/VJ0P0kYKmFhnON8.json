@@ -1,0 +1,9 @@
+{
+	"id": "VJ0P0kYKmFhnON8",
+	"json": "{\"id\":\"VJ0P0kYKmFhnON8\",\"url\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale-sat-9am-to-1pm/7929471703.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale-sat-9am-to-1pm/7929471703.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale-sat-9am-to-1pm/7929471703.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:55:07.074Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/solvang-garage-sale-sat-9am-to-1pm/7929471703.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/solvang-garage-sale-sat-9am-to-1pm/7929471703.html"
+}

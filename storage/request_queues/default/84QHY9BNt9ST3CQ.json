@@ -1,0 +1,9 @@
+{
+	"id": "84QHY9BNt9ST3CQ",
+	"json": "{\"id\":\"84QHY9BNt9ST3CQ\",\"url\":\"https://hiltonhead.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://hiltonhead.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525895,
+	"retryCount": 0,
+	"uniqueKey": "https://hiltonhead.craigslist.org/search/gms?s=480",
+	"url": "https://hiltonhead.craigslist.org/search/gms?s=480"
+}

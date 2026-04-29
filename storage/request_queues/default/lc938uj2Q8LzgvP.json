@@ -1,0 +1,9 @@
+{
+	"id": "lc938uj2Q8LzgvP",
+	"json": "{\"id\":\"lc938uj2Q8LzgvP\",\"url\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-huge-house-sale-today-24/7928077832.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-huge-house-sale-today-24/7928077832.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-huge-house-sale-today-24/7928077832.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:18.704Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/coral-springs-huge-house-sale-today-24/7928077832.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/coral-springs-huge-house-sale-today-24/7928077832.html"
+}

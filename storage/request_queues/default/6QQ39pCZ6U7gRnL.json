@@ -1,0 +1,9 @@
+{
+	"id": "6QQ39pCZ6U7gRnL",
+	"json": "{\"id\":\"6QQ39pCZ6U7gRnL\",\"url\":\"https://goldcountry.craigslist.org/gms/d/cedar-ridge-multi-family-estate-sale/7929416844.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/cedar-ridge-multi-family-estate-sale/7929416844.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/cedar-ridge-multi-family-estate-sale/7929416844.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:52:11.384Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/cedar-ridge-multi-family-estate-sale/7929416844.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/cedar-ridge-multi-family-estate-sale/7929416844.html"
+}

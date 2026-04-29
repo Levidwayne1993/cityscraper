@@ -1,0 +1,9 @@
+{
+	"id": "Wpwh591ZLe3G7Lm",
+	"json": "{\"id\":\"Wpwh591ZLe3G7Lm\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-garage-sale/7930029550.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-garage-sale/7930029550.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-garage-sale/7930029550.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:23.967Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-garage-sale/7930029550.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-garage-sale/7930029550.html"
+}

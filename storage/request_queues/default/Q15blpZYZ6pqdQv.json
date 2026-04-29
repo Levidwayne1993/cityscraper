@@ -1,0 +1,9 @@
+{
+	"id": "Q15blpZYZ6pqdQv",
+	"json": "{\"id\":\"Q15blpZYZ6pqdQv\",\"url\":\"https://merced.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7921265623.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7921265623.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7921265623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:51:39.329Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7921265623.html",
+	"url": "https://merced.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7921265623.html"
+}

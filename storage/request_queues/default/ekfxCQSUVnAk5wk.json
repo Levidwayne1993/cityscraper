@@ -1,0 +1,9 @@
+{
+	"id": "ekfxCQSUVnAk5wk",
+	"json": "{\"id\":\"ekfxCQSUVnAk5wk\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-ps-vr-tv-apple-tv/7925539475.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-ps-vr-tv-apple-tv/7925539475.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-ps-vr-tv-apple-tv/7925539475.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:11.947Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-ps-vr-tv-apple-tv/7925539475.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/berkeley-moving-sale-ps-vr-tv-apple-tv/7925539475.html"
+}

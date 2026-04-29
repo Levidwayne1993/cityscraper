@@ -1,0 +1,9 @@
+{
+	"id": "oAKGYCWJ2eTAxOA",
+	"json": "{\"id\":\"oAKGYCWJ2eTAxOA\",\"url\":\"https://inlandempire.craigslist.org/fuo/d/corona-moving-sale-must-sell-like-new/7930126033.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/fuo/d/corona-moving-sale-must-sell-like-new/7930126033.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/fuo/d/corona-moving-sale-must-sell-like-new/7930126033.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:17:45.761Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/fuo/d/corona-moving-sale-must-sell-like-new/7930126033.html",
+	"url": "https://inlandempire.craigslist.org/fuo/d/corona-moving-sale-must-sell-like-new/7930126033.html"
+}

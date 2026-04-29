@@ -1,0 +1,9 @@
+{
+	"id": "eCzb8YvpH6xTI9R",
+	"json": "{\"id\":\"eCzb8YvpH6xTI9R\",\"url\":\"https://ventura.craigslist.org/com/d/simi-valley-garage-sale-today-tomorrow/7922476424.html\",\"loadedUrl\":\"https://ventura.craigslist.org/com/d/simi-valley-garage-sale-today-tomorrow/7922476424.html\",\"uniqueKey\":\"https://ventura.craigslist.org/com/d/simi-valley-garage-sale-today-tomorrow/7922476424.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:18:39.245Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/com/d/simi-valley-garage-sale-today-tomorrow/7922476424.html",
+	"url": "https://ventura.craigslist.org/com/d/simi-valley-garage-sale-today-tomorrow/7922476424.html"
+}

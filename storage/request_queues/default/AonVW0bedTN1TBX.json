@@ -1,0 +1,9 @@
+{
+	"id": "AonVW0bedTN1TBX",
+	"json": "{\"id\":\"AonVW0bedTN1TBX\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/MN/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/MN?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186530074,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/MN?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/MN/?page=4"
+}

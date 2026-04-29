@@ -1,0 +1,9 @@
+{
+	"id": "pKhsgnA3mDCxXV3",
+	"json": "{\"id\":\"pKhsgnA3mDCxXV3\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-multi-family-garage-sale-stork/7927611194.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-multi-family-garage-sale-stork/7927611194.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-multi-family-garage-sale-stork/7927611194.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:12.648Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-multi-family-garage-sale-stork/7927611194.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-multi-family-garage-sale-stork/7927611194.html"
+}

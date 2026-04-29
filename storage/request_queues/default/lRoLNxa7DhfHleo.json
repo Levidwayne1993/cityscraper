@@ -1,0 +1,9 @@
+{
+	"id": "lRoLNxa7DhfHleo",
+	"json": "{\"id\":\"lRoLNxa7DhfHleo\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale/7922413573.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale/7922413573.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale/7922413573.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:26:18.757Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale/7922413573.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale/7922413573.html"
+}

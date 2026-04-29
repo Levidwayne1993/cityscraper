@@ -1,8 +1,8 @@
 {
 	"id": "S1ZfsEUfmbxz8YN",
-	"json": "{\"id\":\"S1ZfsEUfmbxz8YN\",\"url\":\"https://roseburg.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://roseburg.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"S1ZfsEUfmbxz8YN\",\"url\":\"https://roseburg.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://roseburg.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
 	"method": "GET",
-	"orderNo": 1777040327604,
+	"orderNo": 1777186525336,
 	"retryCount": 0,
 	"uniqueKey": "https://roseburg.craigslist.org/search/gms?s=120",
 	"url": "https://roseburg.craigslist.org/search/gms?s=120"

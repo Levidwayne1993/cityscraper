@@ -1,9 +1,0 @@
-{
-	"id": "wc6jUh1mRAxmo3f",
-	"json": "{\"id\":\"wc6jUh1mRAxmo3f\",\"url\":\"https://www.garagesalefinder.com/sale/California\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/California\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"California\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330187,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/California",
-	"url": "https://www.garagesalefinder.com/sale/California"
-}

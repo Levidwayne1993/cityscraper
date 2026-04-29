@@ -1,0 +1,9 @@
+{
+	"id": "m3tyRn7LsiR7UkJ",
+	"json": "{\"id\":\"m3tyRn7LsiR7UkJ\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-mission-bazaar-garage-sale/7929802887.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-mission-bazaar-garage-sale/7929802887.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-mission-bazaar-garage-sale/7929802887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:13:50.242Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-mission-bazaar-garage-sale/7929802887.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-mission-bazaar-garage-sale/7929802887.html"
+}

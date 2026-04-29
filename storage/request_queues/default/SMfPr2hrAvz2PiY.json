@@ -1,0 +1,9 @@
+{
+	"id": "SMfPr2hrAvz2PiY",
+	"json": "{\"id\":\"SMfPr2hrAvz2PiY\",\"url\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-craft-sale/7929511336.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-craft-sale/7929511336.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/loveland-garage-craft-sale/7929511336.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:47:58.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/loveland-garage-craft-sale/7929511336.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/loveland-garage-craft-sale/7929511336.html"
+}

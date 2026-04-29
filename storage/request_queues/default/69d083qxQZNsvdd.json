@@ -1,0 +1,9 @@
+{
+	"id": "69d083qxQZNsvdd",
+	"json": "{\"id\":\"69d083qxQZNsvdd\",\"url\":\"https://flint.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://flint.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520680,
+	"retryCount": 0,
+	"uniqueKey": "https://flint.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://flint.craigslist.org/search/ccc?query=garage+sale"
+}

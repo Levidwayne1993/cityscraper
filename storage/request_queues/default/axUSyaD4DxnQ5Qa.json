@@ -1,0 +1,9 @@
+{
+	"id": "axUSyaD4DxnQ5Qa",
+	"json": "{\"id\":\"axUSyaD4DxnQ5Qa\",\"url\":\"https://orlando.craigslist.org/gms/d/kissimmee-free-moving-sale-today-only/7929663052.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/kissimmee-free-moving-sale-today-only/7929663052.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/kissimmee-free-moving-sale-today-only/7929663052.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:28:07.492Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/kissimmee-free-moving-sale-today-only/7929663052.html",
+	"url": "https://orlando.craigslist.org/gms/d/kissimmee-free-moving-sale-today-only/7929663052.html"
+}

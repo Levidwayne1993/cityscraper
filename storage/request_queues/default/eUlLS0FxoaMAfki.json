@@ -1,0 +1,9 @@
+{
+	"id": "eUlLS0FxoaMAfki",
+	"json": "{\"id\":\"eUlLS0FxoaMAfki\",\"url\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-moving-sale/7928555581.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-moving-sale/7928555581.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/thousand-oaks-moving-sale/7928555581.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:06.396Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/thousand-oaks-moving-sale/7928555581.html",
+	"url": "https://ventura.craigslist.org/gms/d/thousand-oaks-moving-sale/7928555581.html"
+}

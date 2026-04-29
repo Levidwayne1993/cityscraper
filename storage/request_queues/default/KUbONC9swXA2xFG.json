@@ -1,0 +1,9 @@
+{
+	"id": "KUbONC9swXA2xFG",
+	"json": "{\"id\":\"KUbONC9swXA2xFG\",\"url\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:51.036Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://chico.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

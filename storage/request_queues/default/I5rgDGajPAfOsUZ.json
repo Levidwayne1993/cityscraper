@@ -1,0 +1,9 @@
+{
+	"id": "I5rgDGajPAfOsUZ",
+	"json": "{\"id\":\"I5rgDGajPAfOsUZ\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-of-william-billy/7928931017.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-of-william-billy/7928931017.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-of-william-billy/7928931017.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:20:33.855Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-of-william-billy/7928931017.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/los-angeles-estate-of-william-billy/7928931017.html"
+}

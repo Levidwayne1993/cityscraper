@@ -1,0 +1,9 @@
+{
+	"id": "i7vFTOc5ebTdOM5",
+	"json": "{\"id\":\"i7vFTOc5ebTdOM5\",\"url\":\"https://tricities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://tricities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526086,
+	"retryCount": 0,
+	"uniqueKey": "https://tricities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://tricities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

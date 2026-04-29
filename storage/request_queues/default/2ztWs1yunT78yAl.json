@@ -1,0 +1,9 @@
+{
+	"id": "2ztWs1yunT78yAl",
+	"json": "{\"id\":\"2ztWs1yunT78yAl\",\"url\":\"https://ocala.craigslist.org/gms/d/wildwood-garage-sale/7929624526.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/wildwood-garage-sale/7929624526.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/wildwood-garage-sale/7929624526.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:09.374Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/wildwood-garage-sale/7929624526.html",
+	"url": "https://ocala.craigslist.org/gms/d/wildwood-garage-sale/7929624526.html"
+}

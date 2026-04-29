@@ -1,0 +1,9 @@
+{
+	"id": "f609PlfU09P2ec1",
+	"json": "{\"id\":\"f609PlfU09P2ec1\",\"url\":\"https://natchez.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://natchez.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521185,
+	"retryCount": 0,
+	"uniqueKey": "https://natchez.craigslist.org/search/gms?s=360",
+	"url": "https://natchez.craigslist.org/search/gms?s=360"
+}

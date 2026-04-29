@@ -1,0 +1,9 @@
+{
+	"id": "m4BOrZWgRehpzAU",
+	"json": "{\"id\":\"m4BOrZWgRehpzAU\",\"url\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-multifamily-garage/7922027821.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-multifamily-garage/7922027821.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-multifamily-garage/7922027821.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:31:14.243Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/desert-hot-springs-multifamily-garage/7922027821.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/desert-hot-springs-multifamily-garage/7922027821.html"
+}

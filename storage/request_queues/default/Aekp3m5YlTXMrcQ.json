@@ -1,0 +1,9 @@
+{
+	"id": "Aekp3m5YlTXMrcQ",
+	"json": "{\"id\":\"Aekp3m5YlTXMrcQ\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-yard-sale-in-windsor-ca-or-less/7930025527.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-yard-sale-in-windsor-ca-or-less/7930025527.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/windsor-yard-sale-in-windsor-ca-or-less/7930025527.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:48.039Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/windsor-yard-sale-in-windsor-ca-or-less/7930025527.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/windsor-yard-sale-in-windsor-ca-or-less/7930025527.html"
+}

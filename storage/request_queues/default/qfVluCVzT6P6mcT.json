@@ -1,0 +1,9 @@
+{
+	"id": "qfVluCVzT6P6mcT",
+	"json": "{\"id\":\"qfVluCVzT6P6mcT\",\"url\":\"https://www.estatesales.net/estate-sales/California\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/California\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"California\"}}",
+	"method": "GET",
+	"orderNo": 1777186528560,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/California",
+	"url": "https://www.estatesales.net/estate-sales/California"
+}

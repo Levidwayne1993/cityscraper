@@ -1,8 +1,8 @@
 {
 	"id": "DdG4No4UOI8IC2D",
-	"json": "{\"id\":\"DdG4No4UOI8IC2D\",\"url\":\"https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"DdG4No4UOI8IC2D\",\"url\":\"https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:04:25.427Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323220,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://monterey.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

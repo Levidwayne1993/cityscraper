@@ -1,0 +1,9 @@
+{
+	"id": "CWGf2aH7orMqpPL",
+	"json": "{\"id\":\"CWGf2aH7orMqpPL\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-palm-spring-garage-sale/7929460987.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-palm-spring-garage-sale/7929460987.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-palm-spring-garage-sale/7929460987.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:25:15.443Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-springs-palm-spring-garage-sale/7929460987.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-springs-palm-spring-garage-sale/7929460987.html"
+}

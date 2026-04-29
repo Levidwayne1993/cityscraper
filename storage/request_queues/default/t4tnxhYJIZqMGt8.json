@@ -1,0 +1,9 @@
+{
+	"id": "t4tnxhYJIZqMGt8",
+	"json": "{\"id\":\"t4tnxhYJIZqMGt8\",\"url\":\"https://littlerock.craigslist.org/gms/d/little-rock-moving-sale/7928536049.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/little-rock-moving-sale/7928536049.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/little-rock-moving-sale/7928536049.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:47.019Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/little-rock-moving-sale/7928536049.html",
+	"url": "https://littlerock.craigslist.org/gms/d/little-rock-moving-sale/7928536049.html"
+}

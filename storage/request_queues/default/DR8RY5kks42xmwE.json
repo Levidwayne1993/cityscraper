@@ -1,0 +1,9 @@
+{
+	"id": "DR8RY5kks42xmwE",
+	"json": "{\"id\":\"DR8RY5kks42xmwE\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-electronics-sale-ps-vr-tvs/7927191271.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-electronics-sale-ps-vr-tvs/7927191271.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-electronics-sale-ps-vr-tvs/7927191271.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:04.796Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/berkeley-electronics-sale-ps-vr-tvs/7927191271.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/berkeley-electronics-sale-ps-vr-tvs/7927191271.html"
+}

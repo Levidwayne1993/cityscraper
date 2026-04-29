@@ -1,0 +1,9 @@
+{
+	"id": "FEFOJPj0UT9kur2",
+	"json": "{\"id\":\"FEFOJPj0UT9kur2\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-leftovers/7928981549.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-leftovers/7928981549.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-leftovers/7928981549.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:41.739Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-leftovers/7928981549.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-leftovers/7928981549.html"
+}

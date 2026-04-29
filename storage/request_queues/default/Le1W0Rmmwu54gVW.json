@@ -1,0 +1,9 @@
+{
+	"id": "Le1W0Rmmwu54gVW",
+	"json": "{\"id\":\"Le1W0Rmmwu54gVW\",\"url\":\"https://lakeland.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://lakeland.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://lakeland.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:50.662Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://lakeland.craigslist.org/search/ccc?query=yard+sale"
+}

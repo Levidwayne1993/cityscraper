@@ -1,0 +1,9 @@
+{
+	"id": "N71Fv1SE8EUEiOy",
+	"json": "{\"id\":\"N71Fv1SE8EUEiOy\",\"url\":\"https://sanangelo.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://sanangelo.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526398,
+	"retryCount": 0,
+	"uniqueKey": "https://sanangelo.craigslist.org/search/gms?s=480",
+	"url": "https://sanangelo.craigslist.org/search/gms?s=480"
+}

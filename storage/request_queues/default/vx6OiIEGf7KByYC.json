@@ -1,0 +1,9 @@
+{
+	"id": "vx6OiIEGf7KByYC",
+	"json": "{\"id\":\"vx6OiIEGf7KByYC\",\"url\":\"https://ocala.craigslist.org/gms/d/the-villages-whole-block-garage-sale/7928805132.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/the-villages-whole-block-garage-sale/7928805132.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/the-villages-whole-block-garage-sale/7928805132.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:07.433Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/the-villages-whole-block-garage-sale/7928805132.html",
+	"url": "https://ocala.craigslist.org/gms/d/the-villages-whole-block-garage-sale/7928805132.html"
+}

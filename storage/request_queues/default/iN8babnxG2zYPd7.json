@@ -1,0 +1,9 @@
+{
+	"id": "iN8babnxG2zYPd7",
+	"json": "{\"id\":\"iN8babnxG2zYPd7\",\"url\":\"https://inlandempire.craigslist.org/gms/d/mira-loma-yard-sale-in-eastvale/7924044416.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/mira-loma-yard-sale-in-eastvale/7924044416.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/mira-loma-yard-sale-in-eastvale/7924044416.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:06:00.952Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/mira-loma-yard-sale-in-eastvale/7924044416.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/mira-loma-yard-sale-in-eastvale/7924044416.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "OPTujJT6F9Fzw7l",
+	"json": "{\"id\":\"OPTujJT6F9Fzw7l\",\"url\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale-saturday-april-24/7929948690.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale-saturday-april-24/7929948690.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale-saturday-april-24/7929948690.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:57.494Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/camarillo-garage-sale-saturday-april-24/7929948690.html",
+	"url": "https://ventura.craigslist.org/gms/d/camarillo-garage-sale-saturday-april-24/7929948690.html"
+}

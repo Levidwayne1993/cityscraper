@@ -1,0 +1,9 @@
+{
+	"id": "TtwxZ7kQRgbxcp3",
+	"json": "{\"id\":\"TtwxZ7kQRgbxcp3\",\"url\":\"https://orangecounty.craigslist.org/hsh/d/garden-grove-big-garage-yard-sale/7924026718.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/hsh/d/garden-grove-big-garage-yard-sale/7924026718.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/hsh/d/garden-grove-big-garage-yard-sale/7924026718.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:11.576Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/hsh/d/garden-grove-big-garage-yard-sale/7924026718.html",
+	"url": "https://orangecounty.craigslist.org/hsh/d/garden-grove-big-garage-yard-sale/7924026718.html"
+}

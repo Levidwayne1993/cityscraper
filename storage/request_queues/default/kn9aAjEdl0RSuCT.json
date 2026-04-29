@@ -1,0 +1,9 @@
+{
+	"id": "kn9aAjEdl0RSuCT",
+	"json": "{\"id\":\"kn9aAjEdl0RSuCT\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-huge-yard-sale-thur-sat/7929506050.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-huge-yard-sale-thur-sat/7929506050.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-huge-yard-sale-thur-sat/7929506050.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:52.508Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-huge-yard-sale-thur-sat/7929506050.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-huge-yard-sale-thur-sat/7929506050.html"
+}

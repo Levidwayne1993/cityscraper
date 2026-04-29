@@ -1,0 +1,9 @@
+{
+	"id": "7EO94MuXHNwRkFQ",
+	"json": "{\"id\":\"7EO94MuXHNwRkFQ\",\"url\":\"https://richmondin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://richmondin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518360,
+	"retryCount": 0,
+	"uniqueKey": "https://richmondin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://richmondin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

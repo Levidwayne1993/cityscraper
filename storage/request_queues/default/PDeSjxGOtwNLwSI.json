@@ -1,0 +1,9 @@
+{
+	"id": "PDeSjxGOtwNLwSI",
+	"json": "{\"id\":\"PDeSjxGOtwNLwSI\",\"url\":\"https://santabarbara.craigslist.org/gms/d/buellton-estate-sale/7929238600.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/buellton-estate-sale/7929238600.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/buellton-estate-sale/7929238600.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:37.559Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/buellton-estate-sale/7929238600.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/buellton-estate-sale/7929238600.html"
+}

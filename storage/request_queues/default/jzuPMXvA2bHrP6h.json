@@ -1,0 +1,9 @@
+{
+	"id": "jzuPMXvA2bHrP6h",
+	"json": "{\"id\":\"jzuPMXvA2bHrP6h\",\"url\":\"https://elko.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://elko.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522723,
+	"retryCount": 0,
+	"uniqueKey": "https://elko.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://elko.craigslist.org/search/ccc?query=yard+sale"
+}

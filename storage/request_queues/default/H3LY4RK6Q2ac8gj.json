@@ -1,0 +1,9 @@
+{
+	"id": "H3LY4RK6Q2ac8gj",
+	"json": "{\"id\":\"H3LY4RK6Q2ac8gj\",\"url\":\"https://modesto.craigslist.org/gms/d/turlock-yard-sale/7921104616.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/turlock-yard-sale/7921104616.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/turlock-yard-sale/7921104616.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:52:54.004Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/turlock-yard-sale/7921104616.html",
+	"url": "https://modesto.craigslist.org/gms/d/turlock-yard-sale/7921104616.html"
+}

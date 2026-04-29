@@ -1,0 +1,9 @@
+{
+	"id": "om7hzaCIIReHMre",
+	"json": "{\"id\":\"om7hzaCIIReHMre\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-unique-garage-sale-mcm/7929787973.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-unique-garage-sale-mcm/7929787973.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-unique-garage-sale-mcm/7929787973.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:28:26.133Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-unique-garage-sale-mcm/7929787973.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/punta-gorda-unique-garage-sale-mcm/7929787973.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "bPOg1o1UFl8AZUQ",
+	"json": "{\"id\":\"bPOg1o1UFl8AZUQ\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-everything/7926667991.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-everything/7926667991.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-everything/7926667991.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:43.061Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-everything/7926667991.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-garage-sale-everything/7926667991.html"
+}

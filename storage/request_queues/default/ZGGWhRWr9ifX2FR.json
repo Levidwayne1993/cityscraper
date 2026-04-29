@@ -1,0 +1,9 @@
+{
+	"id": "ZGGWhRWr9ifX2FR",
+	"json": "{\"id\":\"ZGGWhRWr9ifX2FR\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale-pv-fri-sat-am/7923781450.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale-pv-fri-sat-am/7923781450.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale-pv-fri-sat-am/7923781450.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:43.206Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale-pv-fri-sat-am/7923781450.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale-pv-fri-sat-am/7923781450.html"
+}

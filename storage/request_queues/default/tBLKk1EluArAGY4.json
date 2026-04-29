@@ -1,0 +1,9 @@
+{
+	"id": "tBLKk1EluArAGY4",
+	"json": "{\"id\":\"tBLKk1EluArAGY4\",\"url\":\"https://tuscaloosa.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://tuscaloosa.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:09:09.840Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tuscaloosa.craigslist.org/search/gms?s=480",
+	"url": "https://tuscaloosa.craigslist.org/search/gms?s=480"
+}

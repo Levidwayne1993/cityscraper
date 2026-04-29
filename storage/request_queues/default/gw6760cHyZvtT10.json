@@ -1,0 +1,9 @@
+{
+	"id": "gw6760cHyZvtT10",
+	"json": "{\"id\":\"gw6760cHyZvtT10\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-day-three-of-totally/7930182851.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-day-three-of-totally/7930182851.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-day-three-of-totally/7930182851.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:02.645Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-day-three-of-totally/7930182851.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-day-three-of-totally/7930182851.html"
+}

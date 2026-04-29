@@ -1,9 +1,0 @@
-{
-	"id": "C0FbpitRtIbJXXr",
-	"json": "{\"id\":\"C0FbpitRtIbJXXr\",\"url\":\"https://tippecanoe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://tippecanoe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040323967,
-	"retryCount": 0,
-	"uniqueKey": "https://tippecanoe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
-	"url": "https://tippecanoe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"
-}

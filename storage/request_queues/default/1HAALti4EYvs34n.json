@@ -1,0 +1,9 @@
+{
+	"id": "1HAALti4EYvs34n",
+	"json": "{\"id\":\"1HAALti4EYvs34n\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-moving-sale-miscellaneous-yard/7926512519.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-moving-sale-miscellaneous-yard/7926512519.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-moving-sale-miscellaneous-yard/7926512519.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:33.349Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-moving-sale-miscellaneous-yard/7926512519.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-moving-sale-miscellaneous-yard/7926512519.html"
+}

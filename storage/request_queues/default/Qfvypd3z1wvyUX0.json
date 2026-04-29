@@ -1,0 +1,9 @@
+{
+	"id": "Qfvypd3z1wvyUX0",
+	"json": "{\"id\":\"Qfvypd3z1wvyUX0\",\"url\":\"https://losangeles.craigslist.org/sfv/com/d/santa-clarita-huge-garage-sale-saturday/7930004011.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/com/d/santa-clarita-huge-garage-sale-saturday/7930004011.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/com/d/santa-clarita-huge-garage-sale-saturday/7930004011.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:47:32.166Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/com/d/santa-clarita-huge-garage-sale-saturday/7930004011.html",
+	"url": "https://losangeles.craigslist.org/sfv/com/d/santa-clarita-huge-garage-sale-saturday/7930004011.html"
+}

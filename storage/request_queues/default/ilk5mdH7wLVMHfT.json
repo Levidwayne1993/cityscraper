@@ -1,0 +1,9 @@
+{
+	"id": "ilk5mdH7wLVMHfT",
+	"json": "{\"id\":\"ilk5mdH7wLVMHfT\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/SC/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/SC\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186530226,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/SC",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/SC/"
+}

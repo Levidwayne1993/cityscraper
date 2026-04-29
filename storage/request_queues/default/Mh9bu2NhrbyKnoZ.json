@@ -1,0 +1,9 @@
+{
+	"id": "Mh9bu2NhrbyKnoZ",
+	"json": "{\"id\":\"Mh9bu2NhrbyKnoZ\",\"url\":\"https://newhaven.craigslist.org/gms/d/milford-big-tag-sale/7926301974.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/milford-big-tag-sale/7926301974.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/milford-big-tag-sale/7926301974.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:10.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/milford-big-tag-sale/7926301974.html",
+	"url": "https://newhaven.craigslist.org/gms/d/milford-big-tag-sale/7926301974.html"
+}

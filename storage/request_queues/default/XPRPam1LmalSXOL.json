@@ -1,0 +1,9 @@
+{
+	"id": "XPRPam1LmalSXOL",
+	"json": "{\"id\":\"XPRPam1LmalSXOL\",\"url\":\"https://fortcollins.craigslist.org/gms/d/log-lane-village-garage-sale/7929469280.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/log-lane-village-garage-sale/7929469280.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/log-lane-village-garage-sale/7929469280.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:53:14.008Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/log-lane-village-garage-sale/7929469280.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/log-lane-village-garage-sale/7929469280.html"
+}

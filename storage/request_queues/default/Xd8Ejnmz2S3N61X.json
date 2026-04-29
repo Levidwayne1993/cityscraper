@@ -1,0 +1,9 @@
+{
+	"id": "Xd8Ejnmz2S3N61X",
+	"json": "{\"id\":\"Xd8Ejnmz2S3N61X\",\"url\":\"https://slo.craigslist.org/gms/d/harmony-multi-family-sale-cambria/7923486138.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/harmony-multi-family-sale-cambria/7923486138.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/harmony-multi-family-sale-cambria/7923486138.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:42:54.198Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/harmony-multi-family-sale-cambria/7923486138.html",
+	"url": "https://slo.craigslist.org/gms/d/harmony-multi-family-sale-cambria/7923486138.html"
+}

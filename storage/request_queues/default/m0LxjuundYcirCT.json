@@ -1,0 +1,9 @@
+{
+	"id": "m0LxjuundYcirCT",
+	"json": "{\"id\":\"m0LxjuundYcirCT\",\"url\":\"https://roseburg.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://roseburg.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525340,
+	"retryCount": 0,
+	"uniqueKey": "https://roseburg.craigslist.org/search/gms?s=480",
+	"url": "https://roseburg.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "eYEnxgU4CTO2PeD",
+	"json": "{\"id\":\"eYEnxgU4CTO2PeD\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-neighborhood-yard-sale/7927174668.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-neighborhood-yard-sale/7927174668.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-neighborhood-yard-sale/7927174668.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:36:56.144Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-neighborhood-yard-sale/7927174668.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-neighborhood-yard-sale/7927174668.html"
+}

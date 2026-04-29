@@ -1,0 +1,9 @@
+{
+	"id": "SeYSGzE9Q7kdxNH",
+	"json": "{\"id\":\"SeYSGzE9Q7kdxNH\",\"url\":\"https://knoxville.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://knoxville.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526047,
+	"retryCount": 0,
+	"uniqueKey": "https://knoxville.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://knoxville.craigslist.org/search/ccc?query=yard+sale"
+}

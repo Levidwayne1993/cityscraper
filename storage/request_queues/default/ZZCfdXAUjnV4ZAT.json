@@ -1,0 +1,9 @@
+{
+	"id": "ZZCfdXAUjnV4ZAT",
+	"json": "{\"id\":\"ZZCfdXAUjnV4ZAT\",\"url\":\"https://newyork.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://newyork.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523236,
+	"retryCount": 0,
+	"uniqueKey": "https://newyork.craigslist.org/search/gms?s=360",
+	"url": "https://newyork.craigslist.org/search/gms?s=360"
+}

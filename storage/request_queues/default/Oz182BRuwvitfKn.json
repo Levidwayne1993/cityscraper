@@ -1,0 +1,9 @@
+{
+	"id": "Oz182BRuwvitfKn",
+	"json": "{\"id\":\"Oz182BRuwvitfKn\",\"url\":\"https://fredericksburg.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://fredericksburg.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527772,
+	"retryCount": 0,
+	"uniqueKey": "https://fredericksburg.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://fredericksburg.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CENA7eoEstoRd3Z",
+	"json": "{\"id\":\"CENA7eoEstoRd3Z\",\"url\":\"https://honolulu.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://honolulu.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"HI\"}}",
+	"method": "GET",
+	"orderNo": 1777186517982,
+	"retryCount": 0,
+	"uniqueKey": "https://honolulu.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://honolulu.craigslist.org/search/ccc?query=garage+sale"
+}

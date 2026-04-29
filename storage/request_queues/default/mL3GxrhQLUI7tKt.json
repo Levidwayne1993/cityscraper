@@ -1,0 +1,9 @@
+{
+	"id": "mL3GxrhQLUI7tKt",
+	"json": "{\"id\":\"mL3GxrhQLUI7tKt\",\"url\":\"https://fresno.craigslist.org/gms/d/kingsburg-estate-sale-in-kingsburg/7929558220.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/kingsburg-estate-sale-in-kingsburg/7929558220.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/kingsburg-estate-sale-in-kingsburg/7929558220.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:46:52.059Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/kingsburg-estate-sale-in-kingsburg/7929558220.html",
+	"url": "https://fresno.craigslist.org/gms/d/kingsburg-estate-sale-in-kingsburg/7929558220.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KyEe5AGBD8q3Rgn",
+	"json": "{\"id\":\"KyEe5AGBD8q3Rgn\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-devine-dr-annual-sale/7929834645.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-devine-dr-annual-sale/7929834645.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-devine-dr-annual-sale/7929834645.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:35.654Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-devine-dr-annual-sale/7929834645.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-devine-dr-annual-sale/7929834645.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "AtoMvJaRAW0zPdQ",
+	"json": "{\"id\":\"AtoMvJaRAW0zPdQ\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-moving-sale/7930024648.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-moving-sale/7930024648.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/antioch-moving-sale/7930024648.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:31.995Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/antioch-moving-sale/7930024648.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/antioch-moving-sale/7930024648.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1T8RgOjvOiDWMgv",
+	"json": "{\"id\":\"1T8RgOjvOiDWMgv\",\"url\":\"https://orlando.craigslist.org/gms/d/lake-mary-garage-sale-this-saturday-am/7926944418.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/lake-mary-garage-sale-this-saturday-am/7926944418.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/lake-mary-garage-sale-this-saturday-am/7926944418.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:25:54.116Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/lake-mary-garage-sale-this-saturday-am/7926944418.html",
+	"url": "https://orlando.craigslist.org/gms/d/lake-mary-garage-sale-this-saturday-am/7926944418.html"
+}

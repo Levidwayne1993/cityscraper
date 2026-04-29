@@ -1,0 +1,9 @@
+{
+	"id": "6JTE34yut6V8dFJ",
+	"json": "{\"id\":\"6JTE34yut6V8dFJ\",\"url\":\"https://lakeland.craigslist.org/gms/d/bartow-755-bearcreek-drive/7930149140.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/bartow-755-bearcreek-drive/7930149140.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/bartow-755-bearcreek-drive/7930149140.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:45.584Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/bartow-755-bearcreek-drive/7930149140.html",
+	"url": "https://lakeland.craigslist.org/gms/d/bartow-755-bearcreek-drive/7930149140.html"
+}

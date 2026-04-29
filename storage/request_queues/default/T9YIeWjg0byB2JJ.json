@@ -1,0 +1,9 @@
+{
+	"id": "T9YIeWjg0byB2JJ",
+	"json": "{\"id\":\"T9YIeWjg0byB2JJ\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale/7915070605.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale/7915070605.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-garage-sale/7915070605.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:02:02.010Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-garage-sale/7915070605.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-garage-sale/7915070605.html"
+}

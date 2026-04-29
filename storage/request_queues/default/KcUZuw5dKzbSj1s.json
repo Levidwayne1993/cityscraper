@@ -1,0 +1,9 @@
+{
+	"id": "KcUZuw5dKzbSj1s",
+	"json": "{\"id\":\"KcUZuw5dKzbSj1s\",\"url\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-talegas-neighborhood-yard/7927313194.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-talegas-neighborhood-yard/7927313194.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/san-clemente-talegas-neighborhood-yard/7927313194.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:30.069Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/san-clemente-talegas-neighborhood-yard/7927313194.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/san-clemente-talegas-neighborhood-yard/7927313194.html"
+}

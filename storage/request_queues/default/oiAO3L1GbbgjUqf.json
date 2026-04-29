@@ -1,0 +1,9 @@
+{
+	"id": "oiAO3L1GbbgjUqf",
+	"json": "{\"id\":\"oiAO3L1GbbgjUqf\",\"url\":\"https://denver.craigslist.org/fuo/d/littleton-estate-sale/7928750202.html\",\"loadedUrl\":\"https://denver.craigslist.org/fuo/d/littleton-estate-sale/7928750202.html\",\"uniqueKey\":\"https://denver.craigslist.org/fuo/d/littleton-estate-sale/7928750202.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:50.876Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/fuo/d/littleton-estate-sale/7928750202.html",
+	"url": "https://denver.craigslist.org/fuo/d/littleton-estate-sale/7928750202.html"
+}

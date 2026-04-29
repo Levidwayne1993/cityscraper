@@ -1,0 +1,9 @@
+{
+	"id": "DHsEf01Mf2O5EJL",
+	"json": "{\"id\":\"DHsEf01Mf2O5EJL\",\"url\":\"https://westslope.craigslist.org/pts/d/grand-junction-bear-automotive-yard/7922544961.html\",\"loadedUrl\":\"https://westslope.craigslist.org/pts/d/grand-junction-bear-automotive-yard/7922544961.html\",\"uniqueKey\":\"https://westslope.craigslist.org/pts/d/grand-junction-bear-automotive-yard/7922544961.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:19.545Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/pts/d/grand-junction-bear-automotive-yard/7922544961.html",
+	"url": "https://westslope.craigslist.org/pts/d/grand-junction-bear-automotive-yard/7922544961.html"
+}

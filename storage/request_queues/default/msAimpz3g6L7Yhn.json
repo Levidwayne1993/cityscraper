@@ -1,0 +1,9 @@
+{
+	"id": "msAimpz3g6L7Yhn",
+	"json": "{\"id\":\"msAimpz3g6L7Yhn\",\"url\":\"https://sacramento.craigslist.org/gms/d/rancho-cordova-estate-sale-saturday/7930050269.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/rancho-cordova-estate-sale-saturday/7930050269.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/rancho-cordova-estate-sale-saturday/7930050269.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:25.871Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/rancho-cordova-estate-sale-saturday/7930050269.html",
+	"url": "https://sacramento.craigslist.org/gms/d/rancho-cordova-estate-sale-saturday/7930050269.html"
+}

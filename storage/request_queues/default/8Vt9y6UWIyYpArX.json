@@ -1,9 +1,0 @@
-{
-	"id": "8Vt9y6UWIyYpArX",
-	"json": "{\"id\":\"8Vt9y6UWIyYpArX\",\"url\":\"https://www.estatesales.net/Connecticut?page=4\",\"uniqueKey\":\"https://www.estatesales.net/Connecticut?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Connecticut\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040329899,
-	"retryCount": 0,
-	"uniqueKey": "https://www.estatesales.net/Connecticut?page=4",
-	"url": "https://www.estatesales.net/Connecticut?page=4"
-}

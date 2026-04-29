@@ -1,0 +1,9 @@
+{
+	"id": "KHqiDrUNlqZUrTH",
+	"json": "{\"id\":\"KHqiDrUNlqZUrTH\",\"url\":\"https://nacogdoches.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://nacogdoches.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526373,
+	"retryCount": 0,
+	"uniqueKey": "https://nacogdoches.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://nacogdoches.craigslist.org/search/ccc?query=yard+sale"
+}

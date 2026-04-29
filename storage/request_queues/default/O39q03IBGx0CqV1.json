@@ -1,0 +1,9 @@
+{
+	"id": "O39q03IBGx0CqV1",
+	"json": "{\"id\":\"O39q03IBGx0CqV1\",\"url\":\"https://easttexas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://easttexas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526219,
+	"retryCount": 0,
+	"uniqueKey": "https://easttexas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://easttexas.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

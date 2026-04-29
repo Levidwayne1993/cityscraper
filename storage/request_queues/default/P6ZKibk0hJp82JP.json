@@ -1,0 +1,9 @@
+{
+	"id": "P6ZKibk0hJp82JP",
+	"json": "{\"id\":\"P6ZKibk0hJp82JP\",\"url\":\"https://bakersfield.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://bakersfield.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://bakersfield.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:21:07.215Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/search/gms?s=360",
+	"url": "https://bakersfield.craigslist.org/search/gms?s=360"
+}

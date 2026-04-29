@@ -1,0 +1,9 @@
+{
+	"id": "SOAqD51rMH6zjfR",
+	"json": "{\"id\":\"SOAqD51rMH6zjfR\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/novato-sale/7930143903.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/novato-sale/7930143903.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/novato-sale/7930143903.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:36.752Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/novato-sale/7930143903.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/novato-sale/7930143903.html"
+}

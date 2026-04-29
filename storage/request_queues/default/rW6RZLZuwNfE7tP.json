@@ -1,0 +1,9 @@
+{
+	"id": "rW6RZLZuwNfE7tP",
+	"json": "{\"id\":\"rW6RZLZuwNfE7tP\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-ending-soon/7930151617.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-ending-soon/7930151617.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-garage-sale-ending-soon/7930151617.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:18:34.420Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-garage-sale-ending-soon/7930151617.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-garage-sale-ending-soon/7930151617.html"
+}

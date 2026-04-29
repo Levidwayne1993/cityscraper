@@ -1,0 +1,9 @@
+{
+	"id": "d6qHMzOxHhOJZ8I",
+	"json": "{\"id\":\"d6qHMzOxHhOJZ8I\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Greenville-SC.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Greenville-SC.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"SC\",\"yssSlug\":\"Greenville-SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186532708,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Greenville-SC.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Greenville-SC.html"
+}

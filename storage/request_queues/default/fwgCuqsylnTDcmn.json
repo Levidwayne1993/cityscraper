@@ -1,0 +1,9 @@
+{
+	"id": "fwgCuqsylnTDcmn",
+	"json": "{\"id\":\"fwgCuqsylnTDcmn\",\"url\":\"https://washingtondc.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://washingtondc.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://washingtondc.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:30.662Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://washingtondc.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hfJ3h3NmPmU90db",
+	"json": "{\"id\":\"hfJ3h3NmPmU90db\",\"url\":\"https://showlow.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://showlow.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://showlow.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:49:46.468Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/search/gms?s=360",
+	"url": "https://showlow.craigslist.org/search/gms?s=360"
+}

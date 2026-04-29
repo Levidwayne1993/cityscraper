@@ -1,0 +1,9 @@
+{
+	"id": "J2kbtJ2JJMwIMyS",
+	"json": "{\"id\":\"J2kbtJ2JJMwIMyS\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-village/7925387373.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-village/7925387373.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-village/7925387373.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:58:12.379Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-village/7925387373.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-village/7925387373.html"
+}

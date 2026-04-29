@@ -1,0 +1,9 @@
+{
+	"id": "yiBYP5QYAJXRINd",
+	"json": "{\"id\":\"yiBYP5QYAJXRINd\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-garage-yard-sale-household/7922558084.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-garage-yard-sale-household/7922558084.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-garage-yard-sale-household/7922558084.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:26:51.849Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/avondale-garage-yard-sale-household/7922558084.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/avondale-garage-yard-sale-household/7922558084.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Qg9pVVdb02p42wB",
+	"json": "{\"id\":\"Qg9pVVdb02p42wB\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-estate-sale-estate/7928185275.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-estate-sale-estate/7928185275.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-estate-sale-estate/7928185275.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:42.944Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-estate-sale-estate/7928185275.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-estate-sale-estate/7928185275.html"
+}

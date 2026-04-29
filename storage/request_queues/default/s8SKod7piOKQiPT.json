@@ -1,0 +1,9 @@
+{
+	"id": "s8SKod7piOKQiPT",
+	"json": "{\"id\":\"s8SKod7piOKQiPT\",\"url\":\"https://jacksonville.craigslist.org/gms/d/callahan-garage-sale-saturday-28-march/7922499573.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/callahan-garage-sale-saturday-28-march/7922499573.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/callahan-garage-sale-saturday-28-march/7922499573.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:38:54.052Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/callahan-garage-sale-saturday-28-march/7922499573.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/callahan-garage-sale-saturday-28-march/7922499573.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "6YGRICOBDP9REaV",
+	"json": "{\"id\":\"6YGRICOBDP9REaV\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-massive-estate-sale/7928305047.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-massive-estate-sale/7928305047.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/gilroy-massive-estate-sale/7928305047.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:06.831Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/gilroy-massive-estate-sale/7928305047.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/gilroy-massive-estate-sale/7928305047.html"
+}

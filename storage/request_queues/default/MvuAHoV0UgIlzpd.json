@@ -1,0 +1,9 @@
+{
+	"id": "MvuAHoV0UgIlzpd",
+	"json": "{\"id\":\"MvuAHoV0UgIlzpd\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/millbrae-estate-sale/7928024239.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/millbrae-estate-sale/7928024239.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/millbrae-estate-sale/7928024239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:23.616Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/millbrae-estate-sale/7928024239.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/millbrae-estate-sale/7928024239.html"
+}

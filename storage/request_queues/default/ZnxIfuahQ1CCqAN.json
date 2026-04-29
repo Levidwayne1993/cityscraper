@@ -1,0 +1,9 @@
+{
+	"id": "ZnxIfuahQ1CCqAN",
+	"json": "{\"id\":\"ZnxIfuahQ1CCqAN\",\"url\":\"https://denver.craigslist.org/grd/d/lafayette-moving-sale-new-in-box-grow/7906932306.html\",\"loadedUrl\":\"https://denver.craigslist.org/grd/d/lafayette-moving-sale-new-in-box-grow/7906932306.html\",\"uniqueKey\":\"https://denver.craigslist.org/grd/d/lafayette-moving-sale-new-in-box-grow/7906932306.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:13.595Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/grd/d/lafayette-moving-sale-new-in-box-grow/7906932306.html",
+	"url": "https://denver.craigslist.org/grd/d/lafayette-moving-sale-new-in-box-grow/7906932306.html"
+}

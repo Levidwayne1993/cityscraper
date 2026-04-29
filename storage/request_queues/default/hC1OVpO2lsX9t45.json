@@ -1,0 +1,9 @@
+{
+	"id": "hC1OVpO2lsX9t45",
+	"json": "{\"id\":\"hC1OVpO2lsX9t45\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-multifamily-garage-sale-9809/7929769410.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-multifamily-garage-sale-9809/7929769410.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-multifamily-garage-sale-9809/7929769410.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:43:18.885Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-multifamily-garage-sale-9809/7929769410.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-multifamily-garage-sale-9809/7929769410.html"
+}

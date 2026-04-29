@@ -1,0 +1,9 @@
+{
+	"id": "f0hDvfGMZaWGKXh",
+	"json": "{\"id\":\"f0hDvfGMZaWGKXh\",\"url\":\"https://chico.craigslist.org/gms/d/chico-yard-sale-966-vallombrosa-ave/7930026778.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-yard-sale-966-vallombrosa-ave/7930026778.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-yard-sale-966-vallombrosa-ave/7930026778.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: request timed out after 90 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\citys\\\\Documents\\\\cityscraper\\\\node_modules\\\\@apify\\\\src\\\\index.ts:87:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:34:39.309Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-yard-sale-966-vallombrosa-ave/7930026778.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-yard-sale-966-vallombrosa-ave/7930026778.html"
+}

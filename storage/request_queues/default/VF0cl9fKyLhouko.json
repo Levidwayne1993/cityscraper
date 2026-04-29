@@ -1,0 +1,9 @@
+{
+	"id": "VF0cl9fKyLhouko",
+	"json": "{\"id\":\"VF0cl9fKyLhouko\",\"url\":\"https://dothan.craigslist.org/gms/d/dothan-garage-driveway-sale-apache/7921083018.html\",\"loadedUrl\":\"https://dothan.craigslist.org/gms/d/dothan-garage-driveway-sale-apache/7921083018.html\",\"uniqueKey\":\"https://dothan.craigslist.org/gms/d/dothan-garage-driveway-sale-apache/7921083018.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:58:57.256Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://dothan.craigslist.org/gms/d/dothan-garage-driveway-sale-apache/7921083018.html",
+	"url": "https://dothan.craigslist.org/gms/d/dothan-garage-driveway-sale-apache/7921083018.html"
+}

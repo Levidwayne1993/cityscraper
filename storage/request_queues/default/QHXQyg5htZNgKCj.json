@@ -1,0 +1,9 @@
+{
+	"id": "QHXQyg5htZNgKCj",
+	"json": "{\"id\":\"QHXQyg5htZNgKCj\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-orcutt-sat-sun-15/7921098595.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-orcutt-sat-sun-15/7921098595.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-orcutt-sat-sun-15/7921098595.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:40.749Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-orcutt-sat-sun-15/7921098595.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-yard-sale-orcutt-sat-sun-15/7921098595.html"
+}

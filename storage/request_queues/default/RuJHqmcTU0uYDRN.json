@@ -1,0 +1,9 @@
+{
+	"id": "RuJHqmcTU0uYDRN",
+	"json": "{\"id\":\"RuJHqmcTU0uYDRN\",\"url\":\"https://sarasota.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://sarasota.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://sarasota.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:45:25.427Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/search/gms?s=360",
+	"url": "https://sarasota.craigslist.org/search/gms?s=360"
+}

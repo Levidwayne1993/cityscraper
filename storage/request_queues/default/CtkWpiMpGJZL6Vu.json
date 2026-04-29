@@ -1,0 +1,9 @@
+{
+	"id": "CtkWpiMpGJZL6Vu",
+	"json": "{\"id\":\"CtkWpiMpGJZL6Vu\",\"url\":\"https://spokane.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://spokane.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528043,
+	"retryCount": 0,
+	"uniqueKey": "https://spokane.craigslist.org/search/gms?s=480",
+	"url": "https://spokane.craigslist.org/search/gms?s=480"
+}

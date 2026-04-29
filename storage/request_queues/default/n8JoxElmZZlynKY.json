@@ -1,0 +1,9 @@
+{
+	"id": "n8JoxElmZZlynKY",
+	"json": "{\"id\":\"n8JoxElmZZlynKY\",\"url\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-moving-sale-home-decor/7923548199.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-moving-sale-home-decor/7923548199.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/palm-springs-moving-sale-home-decor/7923548199.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:31:50.676Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/palm-springs-moving-sale-home-decor/7923548199.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/palm-springs-moving-sale-home-decor/7923548199.html"
+}

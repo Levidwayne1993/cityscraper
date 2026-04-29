@@ -1,0 +1,9 @@
+{
+	"id": "a592Ozwc7xbvZX7",
+	"json": "{\"id\":\"a592Ozwc7xbvZX7\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-various-paintings/7927492249.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-various-paintings/7927492249.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-various-paintings/7927492249.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:18:42.622Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-various-paintings/7927492249.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/fort-lauderdale-various-paintings/7927492249.html"
+}

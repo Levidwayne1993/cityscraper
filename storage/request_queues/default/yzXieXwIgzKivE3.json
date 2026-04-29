@@ -1,0 +1,9 @@
+{
+	"id": "yzXieXwIgzKivE3",
+	"json": "{\"id\":\"yzXieXwIgzKivE3\",\"url\":\"https://medford.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://medford.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525257,
+	"retryCount": 0,
+	"uniqueKey": "https://medford.craigslist.org/search/gms?s=480",
+	"url": "https://medford.craigslist.org/search/gms?s=480"
+}

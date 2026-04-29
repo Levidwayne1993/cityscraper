@@ -1,0 +1,9 @@
+{
+	"id": "1Vrsljh26RdPMDK",
+	"json": "{\"id\":\"1Vrsljh26RdPMDK\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-multi-family-sale/7928314026.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-multi-family-sale/7928314026.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/phoenix-multi-family-sale/7928314026.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:13.909Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-multi-family-sale/7928314026.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/phoenix-multi-family-sale/7928314026.html"
+}

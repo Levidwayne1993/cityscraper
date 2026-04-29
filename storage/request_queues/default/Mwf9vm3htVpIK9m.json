@@ -1,0 +1,9 @@
+{
+	"id": "Mwf9vm3htVpIK9m",
+	"json": "{\"id\":\"Mwf9vm3htVpIK9m\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-garage-moving-sale-252-juniper/7928545746.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-garage-moving-sale-252-juniper/7928545746.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-garage-moving-sale-252-juniper/7928545746.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:55.798Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-garage-moving-sale-252-juniper/7928545746.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-garage-moving-sale-252-juniper/7928545746.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HwJ9tSAmW985CtD",
+	"json": "{\"id\":\"HwJ9tSAmW985CtD\",\"url\":\"https://corvallis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://corvallis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525174,
+	"retryCount": 0,
+	"uniqueKey": "https://corvallis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://corvallis.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

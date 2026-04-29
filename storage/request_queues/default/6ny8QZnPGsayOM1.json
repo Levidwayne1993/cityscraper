@@ -1,0 +1,9 @@
+{
+	"id": "6ny8QZnPGsayOM1",
+	"json": "{\"id\":\"6ny8QZnPGsayOM1\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale/7921183768.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale/7921183768.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale/7921183768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:57:58.414Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale/7921183768.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale/7921183768.html"
+}

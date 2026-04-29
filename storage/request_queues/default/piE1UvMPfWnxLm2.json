@@ -1,0 +1,9 @@
+{
+	"id": "piE1UvMPfWnxLm2",
+	"json": "{\"id\":\"piE1UvMPfWnxLm2\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-grage-sale-venta-de-garaje/7924036329.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-grage-sale-venta-de-garaje/7924036329.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-grage-sale-venta-de-garaje/7924036329.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:12:26.708Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-grage-sale-venta-de-garaje/7924036329.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-grage-sale-venta-de-garaje/7924036329.html"
+}

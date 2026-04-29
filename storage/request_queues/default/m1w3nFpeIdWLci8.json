@@ -1,0 +1,9 @@
+{
+	"id": "m1w3nFpeIdWLci8",
+	"json": "{\"id\":\"m1w3nFpeIdWLci8\",\"url\":\"https://phoenix.craigslist.org/cph/fuo/d/mesa-moving-sale/7906673390.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/fuo/d/mesa-moving-sale/7906673390.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/fuo/d/mesa-moving-sale/7906673390.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:15.525Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/fuo/d/mesa-moving-sale/7906673390.html",
+	"url": "https://phoenix.craigslist.org/cph/fuo/d/mesa-moving-sale/7906673390.html"
+}

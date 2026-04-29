@@ -1,0 +1,9 @@
+{
+	"id": "1bM5lmBLN1QgknZ",
+	"json": "{\"id\":\"1bM5lmBLN1QgknZ\",\"url\":\"https://fortcollins.craigslist.org/clt/d/fort-collins-estate-sale/7928994578.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/clt/d/fort-collins-estate-sale/7928994578.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/clt/d/fort-collins-estate-sale/7928994578.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:53:05.776Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/clt/d/fort-collins-estate-sale/7928994578.html",
+	"url": "https://fortcollins.craigslist.org/clt/d/fort-collins-estate-sale/7928994578.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IXsTCv43CDNKC1I",
+	"json": "{\"id\":\"IXsTCv43CDNKC1I\",\"url\":\"https://winchester.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://winchester.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527893,
+	"retryCount": 0,
+	"uniqueKey": "https://winchester.craigslist.org/search/gms?s=480",
+	"url": "https://winchester.craigslist.org/search/gms?s=480"
+}

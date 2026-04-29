@@ -1,0 +1,9 @@
+{
+	"id": "JAJWloaDFDT7bBW",
+	"json": "{\"id\":\"JAJWloaDFDT7bBW\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-everything-must-go-moving-sale/7930192238.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-everything-must-go-moving-sale/7930192238.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-everything-must-go-moving-sale/7930192238.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:43.579Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-everything-must-go-moving-sale/7930192238.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-everything-must-go-moving-sale/7930192238.html"
+}

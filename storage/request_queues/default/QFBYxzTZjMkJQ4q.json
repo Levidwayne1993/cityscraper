@@ -1,0 +1,9 @@
+{
+	"id": "QFBYxzTZjMkJQ4q",
+	"json": "{\"id\":\"QFBYxzTZjMkJQ4q\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hills-yard-sale/7930029745.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hills-yard-sale/7930029745.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/north-hills-yard-sale/7930029745.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:35:39.144Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/north-hills-yard-sale/7930029745.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/north-hills-yard-sale/7930029745.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zBjHvv7IH3MNI0E",
+	"json": "{\"id\":\"zBjHvv7IH3MNI0E\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale/7930029461.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale/7930029461.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale/7930029461.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:51.425Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale/7930029461.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-garage-sale/7930029461.html"
+}

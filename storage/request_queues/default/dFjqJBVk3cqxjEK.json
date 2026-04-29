@@ -1,9 +1,0 @@
-{
-	"id": "dFjqJBVk3cqxjEK",
-	"json": "{\"id\":\"dFjqJBVk3cqxjEK\",\"url\":\"https://allentown.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://allentown.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327667,
-	"retryCount": 0,
-	"uniqueKey": "https://allentown.craigslist.org/search/gms?s=120",
-	"url": "https://allentown.craigslist.org/search/gms?s=120"
-}

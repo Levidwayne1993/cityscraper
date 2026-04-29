@@ -1,0 +1,9 @@
+{
+	"id": "DA7Hf4jplceJ87S",
+	"json": "{\"id\":\"DA7Hf4jplceJ87S\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-las-playas-neighborhood-yard/7926990283.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-las-playas-neighborhood-yard/7926990283.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/carlsbad-las-playas-neighborhood-yard/7926990283.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:58.114Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-las-playas-neighborhood-yard/7926990283.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/carlsbad-las-playas-neighborhood-yard/7926990283.html"
+}

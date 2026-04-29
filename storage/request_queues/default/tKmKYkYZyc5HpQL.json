@@ -1,0 +1,9 @@
+{
+	"id": "tKmKYkYZyc5HpQL",
+	"json": "{\"id\":\"tKmKYkYZyc5HpQL\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-garage-moving-sale/7922269882.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-garage-moving-sale/7922269882.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-garage-moving-sale/7922269882.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:07.208Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-garage-moving-sale/7922269882.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-garage-moving-sale/7922269882.html"
+}

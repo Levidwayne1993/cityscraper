@@ -1,0 +1,9 @@
+{
+	"id": "feafqFkL8wXu2T9",
+	"json": "{\"id\":\"feafqFkL8wXu2T9\",\"url\":\"https://lakeland.craigslist.org/for/d/bartow-moving-sale-1400-old-bartow/7922570282.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/for/d/bartow-moving-sale-1400-old-bartow/7922570282.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/for/d/bartow-moving-sale-1400-old-bartow/7922570282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:13.821Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/for/d/bartow-moving-sale-1400-old-bartow/7922570282.html",
+	"url": "https://lakeland.craigslist.org/for/d/bartow-moving-sale-1400-old-bartow/7922570282.html"
+}

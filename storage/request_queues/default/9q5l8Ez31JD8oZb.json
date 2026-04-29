@@ -1,9 +1,0 @@
-{
-	"id": "9q5l8Ez31JD8oZb",
-	"json": "{\"id\":\"9q5l8Ez31JD8oZb\",\"url\":\"https://twintiers.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://twintiers.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040327146,
-	"retryCount": 0,
-	"uniqueKey": "https://twintiers.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
-	"url": "https://twintiers.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"
-}

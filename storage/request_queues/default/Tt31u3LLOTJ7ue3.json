@@ -1,8 +1,8 @@
 {
 	"id": "Tt31u3LLOTJ7ue3",
-	"json": "{\"id\":\"Tt31u3LLOTJ7ue3\",\"url\":\"https://newhaven.craigslist.org/search/gms\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Tt31u3LLOTJ7ue3\",\"url\":\"https://newhaven.craigslist.org/search/gms\",\"loadedUrl\":\"https://newhaven.craigslist.org/search/gms\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:09:38.921Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323450,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://newhaven.craigslist.org/search/gms",
 	"url": "https://newhaven.craigslist.org/search/gms"

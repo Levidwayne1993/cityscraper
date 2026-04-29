@@ -1,0 +1,9 @@
+{
+	"id": "N78IKFbQgZTeQq0",
+	"json": "{\"id\":\"N78IKFbQgZTeQq0\",\"url\":\"https://keys.craigslist.org/gms/d/key-west-spring-yard-sale/7929635914.html\",\"loadedUrl\":\"https://keys.craigslist.org/gms/d/key-west-spring-yard-sale/7929635914.html\",\"uniqueKey\":\"https://keys.craigslist.org/gms/d/key-west-spring-yard-sale/7929635914.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:02:31.690Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://keys.craigslist.org/gms/d/key-west-spring-yard-sale/7929635914.html",
+	"url": "https://keys.craigslist.org/gms/d/key-west-spring-yard-sale/7929635914.html"
+}

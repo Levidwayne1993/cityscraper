@@ -1,0 +1,9 @@
+{
+	"id": "iT95r7TDCRG8sMf",
+	"json": "{\"id\":\"iT95r7TDCRG8sMf\",\"url\":\"https://hanford.craigslist.org/gms/d/corcoran-yard-sale-this-weekend/7928496921.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/corcoran-yard-sale-this-weekend/7928496921.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/corcoran-yard-sale-this-weekend/7928496921.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:53:32.182Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/corcoran-yard-sale-this-weekend/7928496921.html",
+	"url": "https://hanford.craigslist.org/gms/d/corcoran-yard-sale-this-weekend/7928496921.html"
+}

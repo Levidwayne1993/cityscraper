@@ -1,0 +1,9 @@
+{
+	"id": "UywKitU8BTXRKjn",
+	"json": "{\"id\":\"UywKitU8BTXRKjn\",\"url\":\"https://sierravista.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://sierravista.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://sierravista.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:53:06.107Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://sierravista.craigslist.org/search/ccc?query=yard+sale"
+}

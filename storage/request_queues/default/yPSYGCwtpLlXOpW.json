@@ -1,0 +1,9 @@
+{
+	"id": "yPSYGCwtpLlXOpW",
+	"json": "{\"id\":\"yPSYGCwtpLlXOpW\",\"url\":\"https://newlondon.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://newlondon.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:19.383Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://newlondon.craigslist.org/search/ccc?query=yard+sale"
+}

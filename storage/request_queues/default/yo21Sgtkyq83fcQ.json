@@ -1,0 +1,9 @@
+{
+	"id": "yo21Sgtkyq83fcQ",
+	"json": "{\"id\":\"yo21Sgtkyq83fcQ\",\"url\":\"https://mobile.craigslist.org/gms/d/satsuma-huge-yard-sale-starting-fri-sat/7923570040.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/satsuma-huge-yard-sale-starting-fri-sat/7923570040.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/satsuma-huge-yard-sale-starting-fri-sat/7923570040.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:05:35.604Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/satsuma-huge-yard-sale-starting-fri-sat/7923570040.html",
+	"url": "https://mobile.craigslist.org/gms/d/satsuma-huge-yard-sale-starting-fri-sat/7923570040.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UiZ8vjzl8mWW0g4",
+	"json": "{\"id\":\"UiZ8vjzl8mWW0g4\",\"url\":\"https://redding.craigslist.org/gms/d/cottonwood-yard-sale/7923786845.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/cottonwood-yard-sale/7923786845.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/cottonwood-yard-sale/7923786845.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:35:59.591Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/cottonwood-yard-sale/7923786845.html",
+	"url": "https://redding.craigslist.org/gms/d/cottonwood-yard-sale/7923786845.html"
+}

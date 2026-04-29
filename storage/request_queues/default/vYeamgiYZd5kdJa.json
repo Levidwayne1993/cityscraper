@@ -1,0 +1,9 @@
+{
+	"id": "vYeamgiYZd5kdJa",
+	"json": "{\"id\":\"vYeamgiYZd5kdJa\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/lemon-grove-yard-sale-furniture/7930095698.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/lemon-grove-yard-sale-furniture/7930095698.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/lemon-grove-yard-sale-furniture/7930095698.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:56:15.319Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/lemon-grove-yard-sale-furniture/7930095698.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/lemon-grove-yard-sale-furniture/7930095698.html"
+}

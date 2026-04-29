@@ -1,0 +1,9 @@
+{
+	"id": "qiKEZhaUUxkV9D2",
+	"json": "{\"id\":\"qiKEZhaUUxkV9D2\",\"url\":\"https://miami.craigslist.org/brw/tls/d/fort-lauderdale-estate-sale-everything/7928507960.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/tls/d/fort-lauderdale-estate-sale-everything/7928507960.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/tls/d/fort-lauderdale-estate-sale-everything/7928507960.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:18:18.938Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/tls/d/fort-lauderdale-estate-sale-everything/7928507960.html",
+	"url": "https://miami.craigslist.org/brw/tls/d/fort-lauderdale-estate-sale-everything/7928507960.html"
+}

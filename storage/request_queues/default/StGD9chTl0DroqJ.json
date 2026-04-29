@@ -1,0 +1,9 @@
+{
+	"id": "StGD9chTl0DroqJ",
+	"json": "{\"id\":\"StGD9chTl0DroqJ\",\"url\":\"https://cnj.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://cnj.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\"}}",
+	"method": "GET",
+	"orderNo": 1777186522784,
+	"retryCount": 0,
+	"uniqueKey": "https://cnj.craigslist.org/search/gms?s=360",
+	"url": "https://cnj.craigslist.org/search/gms?s=360"
+}

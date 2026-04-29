@@ -1,0 +1,9 @@
+{
+	"id": "dZklva9ZJ8ztN0B",
+	"json": "{\"id\":\"dZklva9ZJ8ztN0B\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-garage-and-yard-sale/7929294565.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-garage-and-yard-sale/7929294565.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-garage-and-yard-sale/7929294565.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:39.255Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/pleasanton-garage-and-yard-sale/7929294565.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/pleasanton-garage-and-yard-sale/7929294565.html"
+}

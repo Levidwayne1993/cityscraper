@@ -1,0 +1,9 @@
+{
+	"id": "an3UyUCjD3tx0PL",
+	"json": "{\"id\":\"an3UyUCjD3tx0PL\",\"url\":\"https://iowacity.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://iowacity.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518541,
+	"retryCount": 0,
+	"uniqueKey": "https://iowacity.craigslist.org/search/gms?s=360",
+	"url": "https://iowacity.craigslist.org/search/gms?s=360"
+}

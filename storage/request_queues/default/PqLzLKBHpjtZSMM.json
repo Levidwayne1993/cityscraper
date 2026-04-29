@@ -1,0 +1,9 @@
+{
+	"id": "PqLzLKBHpjtZSMM",
+	"json": "{\"id\":\"PqLzLKBHpjtZSMM\",\"url\":\"https://sacramento.craigslist.org/sys/d/sacramento-dell-computer-all-in-one/7910028670.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/sys/d/sacramento-dell-computer-all-in-one/7910028670.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/sys/d/sacramento-dell-computer-all-in-one/7910028670.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:58.674Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/sys/d/sacramento-dell-computer-all-in-one/7910028670.html",
+	"url": "https://sacramento.craigslist.org/sys/d/sacramento-dell-computer-all-in-one/7910028670.html"
+}

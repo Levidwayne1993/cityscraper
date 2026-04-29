@@ -1,0 +1,9 @@
+{
+	"id": "rjqyV2AlRgG0vm1",
+	"json": "{\"id\":\"rjqyV2AlRgG0vm1\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-2nd-annual-church-rummage-sale/7925500131.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-2nd-annual-church-rummage-sale/7925500131.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-2nd-annual-church-rummage-sale/7925500131.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:03:40.849Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-2nd-annual-church-rummage-sale/7925500131.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-2nd-annual-church-rummage-sale/7925500131.html"
+}

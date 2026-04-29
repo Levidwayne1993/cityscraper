@@ -1,0 +1,9 @@
+{
+	"id": "hgV0aNoGa2shdDP",
+	"json": "{\"id\":\"hgV0aNoGa2shdDP\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-garage-sale-moving-sale/7929303420.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-garage-sale-moving-sale/7929303420.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-garage-sale-moving-sale/7929303420.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:13:45.141Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-garage-sale-moving-sale/7929303420.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-garage-sale-moving-sale/7929303420.html"
+}

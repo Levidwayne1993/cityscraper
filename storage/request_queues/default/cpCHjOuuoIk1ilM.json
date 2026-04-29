@@ -1,0 +1,9 @@
+{
+	"id": "cpCHjOuuoIk1ilM",
+	"json": "{\"id\":\"cpCHjOuuoIk1ilM\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/fremont-garage-sale-saturday-april/7927934896.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/fremont-garage-sale-saturday-april/7927934896.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/fremont-garage-sale-saturday-april/7927934896.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:36.522Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/fremont-garage-sale-saturday-april/7927934896.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/fremont-garage-sale-saturday-april/7927934896.html"
+}

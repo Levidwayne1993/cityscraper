@@ -1,0 +1,9 @@
+{
+	"id": "RuVJgOjQmi2WdMb",
+	"json": "{\"id\":\"RuVJgOjQmi2WdMb\",\"url\":\"https://orlando.craigslist.org/com/d/longwood-garage-sale-18-and-19-sat-and/7928497123.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/longwood-garage-sale-18-and-19-sat-and/7928497123.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/longwood-garage-sale-18-and-19-sat-and/7928497123.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:36.789Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/longwood-garage-sale-18-and-19-sat-and/7928497123.html",
+	"url": "https://orlando.craigslist.org/com/d/longwood-garage-sale-18-and-19-sat-and/7928497123.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vZbZ342UP04SPdt",
+	"json": "{\"id\":\"vZbZ342UP04SPdt\",\"url\":\"https://slo.craigslist.org/gms/d/atascadero-massive-yard-sale/7928478169.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/atascadero-massive-yard-sale/7928478169.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/atascadero-massive-yard-sale/7928478169.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:44:20.828Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/atascadero-massive-yard-sale/7928478169.html",
+	"url": "https://slo.craigslist.org/gms/d/atascadero-massive-yard-sale/7928478169.html"
+}

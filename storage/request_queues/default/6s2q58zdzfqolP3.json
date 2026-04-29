@@ -1,0 +1,9 @@
+{
+	"id": "6s2q58zdzfqolP3",
+	"json": "{\"id\":\"6s2q58zdzfqolP3\",\"url\":\"https://tulsa.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://tulsa.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525118,
+	"retryCount": 0,
+	"uniqueKey": "https://tulsa.craigslist.org/search/gms?s=360",
+	"url": "https://tulsa.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "C2k2Wmyzedt8tx2",
+	"json": "{\"id\":\"C2k2Wmyzedt8tx2\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-moving-sale-fri-24-from/7924858144.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-moving-sale-fri-24-from/7924858144.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-moving-sale-fri-24-from/7924858144.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:37.022Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-moving-sale-fri-24-from/7924858144.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-moving-sale-fri-24-from/7924858144.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HOdgbIU3HSYWON6",
+	"json": "{\"id\":\"HOdgbIU3HSYWON6\",\"url\":\"https://denver.craigslist.org/for/d/arvada-garage-sale-yard-sale-arvada/7926945307.html\",\"loadedUrl\":\"https://denver.craigslist.org/for/d/arvada-garage-sale-yard-sale-arvada/7926945307.html\",\"uniqueKey\":\"https://denver.craigslist.org/for/d/arvada-garage-sale-yard-sale-arvada/7926945307.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:56.673Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/for/d/arvada-garage-sale-yard-sale-arvada/7926945307.html",
+	"url": "https://denver.craigslist.org/for/d/arvada-garage-sale-yard-sale-arvada/7926945307.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "itZXb9NFfUaBVej",
+	"json": "{\"id\":\"itZXb9NFfUaBVej\",\"url\":\"https://saginaw.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://saginaw.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520892,
+	"retryCount": 0,
+	"uniqueKey": "https://saginaw.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://saginaw.craigslist.org/search/ccc?query=yard+sale"
+}

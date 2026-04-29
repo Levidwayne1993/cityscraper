@@ -1,0 +1,9 @@
+{
+	"id": "WOrptP6s1UzUM8G",
+	"json": "{\"id\":\"WOrptP6s1UzUM8G\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hollister-yard-sale-today-and-tomorrow/7929886858.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hollister-yard-sale-today-and-tomorrow/7929886858.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hollister-yard-sale-today-and-tomorrow/7929886858.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:28:18.988Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hollister-yard-sale-today-and-tomorrow/7929886858.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hollister-yard-sale-today-and-tomorrow/7929886858.html"
+}

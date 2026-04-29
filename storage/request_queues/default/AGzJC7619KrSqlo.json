@@ -1,0 +1,9 @@
+{
+	"id": "AGzJC7619KrSqlo",
+	"json": "{\"id\":\"AGzJC7619KrSqlo\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-garage-sale/7928738703.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-garage-sale/7928738703.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-garage-sale/7928738703.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:05.504Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-garage-sale/7928738703.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-garage-sale/7928738703.html"
+}

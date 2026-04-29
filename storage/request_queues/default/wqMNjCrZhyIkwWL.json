@@ -1,0 +1,9 @@
+{
+	"id": "wqMNjCrZhyIkwWL",
+	"json": "{\"id\":\"wqMNjCrZhyIkwWL\",\"url\":\"https://syracuse.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://syracuse.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523334,
+	"retryCount": 0,
+	"uniqueKey": "https://syracuse.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://syracuse.craigslist.org/search/ccc?query=yard+sale"
+}

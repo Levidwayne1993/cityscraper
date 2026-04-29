@@ -1,0 +1,9 @@
+{
+	"id": "qyOn5zbW3g9zihS",
+	"json": "{\"id\":\"qyOn5zbW3g9zihS\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale-every-weekend-and/7930169768.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale-every-weekend-and/7930169768.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale-every-weekend-and/7930169768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:40.446Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale-every-weekend-and/7930169768.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale-every-weekend-and/7930169768.html"
+}

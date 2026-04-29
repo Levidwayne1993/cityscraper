@@ -1,8 +1,8 @@
 {
 	"id": "a8rhoNFXb10p6C6",
-	"json": "{\"id\":\"a8rhoNFXb10p6C6\",\"url\":\"https://lafayette.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://lafayette.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"a8rhoNFXb10p6C6\",\"url\":\"https://lafayette.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://lafayette.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
 	"method": "GET",
-	"orderNo": 1777040324593,
+	"orderNo": 1777186518319,
 	"retryCount": 0,
 	"uniqueKey": "https://lafayette.craigslist.org/search/gms?s=240",
 	"url": "https://lafayette.craigslist.org/search/gms?s=240"

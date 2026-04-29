@@ -1,0 +1,9 @@
+{
+	"id": "UPTi9Lctifd2uEJ",
+	"json": "{\"id\":\"UPTi9Lctifd2uEJ\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-small-but-mighty/7928944519.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-small-but-mighty/7928944519.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-small-but-mighty/7928944519.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:59:27.350Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-small-but-mighty/7928944519.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-small-but-mighty/7928944519.html"
+}

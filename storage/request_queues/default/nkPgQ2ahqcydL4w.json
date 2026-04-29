@@ -1,8 +1,8 @@
 {
 	"id": "nkPgQ2ahqcydL4w",
-	"json": "{\"id\":\"nkPgQ2ahqcydL4w\",\"url\":\"https://kenai.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://kenai.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"nkPgQ2ahqcydL4w\",\"url\":\"https://kenai.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://kenai.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://kenai.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:13:33.119Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322954,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://kenai.craigslist.org/search/gms?s=120",
 	"url": "https://kenai.craigslist.org/search/gms?s=120"

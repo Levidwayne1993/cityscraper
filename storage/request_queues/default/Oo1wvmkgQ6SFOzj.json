@@ -1,0 +1,9 @@
+{
+	"id": "Oo1wvmkgQ6SFOzj",
+	"json": "{\"id\":\"Oo1wvmkgQ6SFOzj\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-family-garage-sale-oviedo/7922531783.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-family-garage-sale-oviedo/7922531783.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-family-garage-sale-oviedo/7922531783.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:36.341Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-family-garage-sale-oviedo/7922531783.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-family-garage-sale-oviedo/7922531783.html"
+}

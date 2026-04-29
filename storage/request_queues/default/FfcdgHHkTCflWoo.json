@@ -1,0 +1,9 @@
+{
+	"id": "FfcdgHHkTCflWoo",
+	"json": "{\"id\":\"FfcdgHHkTCflWoo\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-garage-sales/7926291835.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-garage-sales/7926291835.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-garage-sales/7926291835.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:32:18.582Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-huge-community-garage-sales/7926291835.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-huge-community-garage-sales/7926291835.html"
+}

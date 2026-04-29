@@ -1,0 +1,9 @@
+{
+	"id": "yuqop01pwB5kINJ",
+	"json": "{\"id\":\"yuqop01pwB5kINJ\",\"url\":\"https://phoenix.craigslist.org/cph/for/d/scottsdale-womens-clothes-baby-clothes/7913212695.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/for/d/scottsdale-womens-clothes-baby-clothes/7913212695.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/for/d/scottsdale-womens-clothes-baby-clothes/7913212695.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:28:14.855Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/for/d/scottsdale-womens-clothes-baby-clothes/7913212695.html",
+	"url": "https://phoenix.craigslist.org/cph/for/d/scottsdale-womens-clothes-baby-clothes/7913212695.html"
+}

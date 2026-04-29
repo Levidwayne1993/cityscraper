@@ -1,0 +1,9 @@
+{
+	"id": "IpvHjMLJP9Czl1n",
+	"json": "{\"id\":\"IpvHjMLJP9Czl1n\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/modesto-estate-sale-this-one-is-worth/7925416990.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/modesto-estate-sale-this-one-is-worth/7925416990.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/modesto-estate-sale-this-one-is-worth/7925416990.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:45.046Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/modesto-estate-sale-this-one-is-worth/7925416990.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/modesto-estate-sale-this-one-is-worth/7925416990.html"
+}

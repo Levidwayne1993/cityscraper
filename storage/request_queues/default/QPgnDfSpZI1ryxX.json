@@ -1,0 +1,9 @@
+{
+	"id": "QPgnDfSpZI1ryxX",
+	"json": "{\"id\":\"QPgnDfSpZI1ryxX\",\"url\":\"https://denver.craigslist.org/gms/d/castle-rock-huge-moving-sale-am-3pm/7927251277.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/castle-rock-huge-moving-sale-am-3pm/7927251277.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/castle-rock-huge-moving-sale-am-3pm/7927251277.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:40.992Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/castle-rock-huge-moving-sale-am-3pm/7927251277.html",
+	"url": "https://denver.craigslist.org/gms/d/castle-rock-huge-moving-sale-am-3pm/7927251277.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "x8YWG0TZ9s5MT3Y",
+	"json": "{\"id\":\"x8YWG0TZ9s5MT3Y\",\"url\":\"https://hartford.craigslist.org/gms/d/middletown-garage-sale-sunday-april/7929822835.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/middletown-garage-sale-sunday-april/7929822835.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/middletown-garage-sale-sunday-april/7929822835.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:47.265Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/middletown-garage-sale-sunday-april/7929822835.html",
+	"url": "https://hartford.craigslist.org/gms/d/middletown-garage-sale-sunday-april/7929822835.html"
+}

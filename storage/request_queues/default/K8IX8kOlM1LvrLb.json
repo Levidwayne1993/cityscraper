@@ -1,0 +1,9 @@
+{
+	"id": "K8IX8kOlM1LvrLb",
+	"json": "{\"id\":\"K8IX8kOlM1LvrLb\",\"url\":\"https://chico.craigslist.org/gms/d/chico-chico-yard-sale/7924275540.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-chico-yard-sale/7924275540.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-chico-yard-sale/7924275540.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:08.294Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-chico-yard-sale/7924275540.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-chico-yard-sale/7924275540.html"
+}

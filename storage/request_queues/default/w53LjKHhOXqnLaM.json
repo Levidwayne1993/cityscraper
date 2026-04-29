@@ -1,0 +1,9 @@
+{
+	"id": "w53LjKHhOXqnLaM",
+	"json": "{\"id\":\"w53LjKHhOXqnLaM\",\"url\":\"https://eastoregon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://eastoregon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525196,
+	"retryCount": 0,
+	"uniqueKey": "https://eastoregon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://eastoregon.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

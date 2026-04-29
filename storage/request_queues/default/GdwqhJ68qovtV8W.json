@@ -1,0 +1,9 @@
+{
+	"id": "GdwqhJ68qovtV8W",
+	"json": "{\"id\":\"GdwqhJ68qovtV8W\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale/7925557049.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale/7925557049.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale/7925557049.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:41.086Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale/7925557049.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale/7925557049.html"
+}

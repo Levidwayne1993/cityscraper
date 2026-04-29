@@ -1,8 +1,8 @@
 {
 	"id": "Q0rjvvZp7K2nymU",
-	"json": "{\"id\":\"Q0rjvvZp7K2nymU\",\"url\":\"https://cosprings.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://cosprings.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Q0rjvvZp7K2nymU\",\"url\":\"https://cosprings.craigslist.org/search/sss?query=estate+sale\",\"loadedUrl\":\"https://cosprings.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://cosprings.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:32:31.067Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323375,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://cosprings.craigslist.org/search/sss?query=estate+sale",
 	"url": "https://cosprings.craigslist.org/search/sss?query=estate+sale"

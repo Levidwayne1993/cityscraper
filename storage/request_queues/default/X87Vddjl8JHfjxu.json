@@ -1,0 +1,9 @@
+{
+	"id": "X87Vddjl8JHfjxu",
+	"json": "{\"id\":\"X87Vddjl8JHfjxu\",\"url\":\"https://orlando.craigslist.org/gms/d/kissimmee-garage-sale-indian-wells/7925837156.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/kissimmee-garage-sale-indian-wells/7925837156.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/kissimmee-garage-sale-indian-wells/7925837156.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:32:00.645Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/kissimmee-garage-sale-indian-wells/7925837156.html",
+	"url": "https://orlando.craigslist.org/gms/d/kissimmee-garage-sale-indian-wells/7925837156.html"
+}

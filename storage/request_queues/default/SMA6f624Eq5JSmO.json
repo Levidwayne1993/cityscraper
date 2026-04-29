@@ -1,8 +1,8 @@
 {
 	"id": "SMA6f624Eq5JSmO",
-	"json": "{\"id\":\"SMA6f624Eq5JSmO\",\"url\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"SMA6f624Eq5JSmO\",\"url\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://tuscaloosa.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:08:49.654Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322923,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://tuscaloosa.craigslist.org/search/gms?s=240",
 	"url": "https://tuscaloosa.craigslist.org/search/gms?s=240"

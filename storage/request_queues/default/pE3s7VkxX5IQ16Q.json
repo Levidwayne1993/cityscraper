@@ -1,0 +1,9 @@
+{
+	"id": "pE3s7VkxX5IQ16Q",
+	"json": "{\"id\":\"pE3s7VkxX5IQ16Q\",\"url\":\"https://kenai.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://kenai.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:14:57.079Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://kenai.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://kenai.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "k3FwDpfsIrJ004X",
+	"json": "{\"id\":\"k3FwDpfsIrJ004X\",\"url\":\"https://boulder.craigslist.org/gms/d/niwot-big-friday-yard-sale-spring/7922094356.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/niwot-big-friday-yard-sale-spring/7922094356.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/niwot-big-friday-yard-sale-spring/7922094356.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:27:22.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/niwot-big-friday-yard-sale-spring/7922094356.html",
+	"url": "https://boulder.craigslist.org/gms/d/niwot-big-friday-yard-sale-spring/7922094356.html"
+}

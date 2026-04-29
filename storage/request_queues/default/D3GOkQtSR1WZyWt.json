@@ -1,0 +1,9 @@
+{
+	"id": "D3GOkQtSR1WZyWt",
+	"json": "{\"id\":\"D3GOkQtSR1WZyWt\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-saturday-28th/7923426078.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-saturday-28th/7923426078.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-saturday-28th/7923426078.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:27.293Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-garage-sale-saturday-28th/7923426078.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-garage-sale-saturday-28th/7923426078.html"
+}

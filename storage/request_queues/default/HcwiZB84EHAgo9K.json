@@ -1,0 +1,9 @@
+{
+	"id": "HcwiZB84EHAgo9K",
+	"json": "{\"id\":\"HcwiZB84EHAgo9K\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/calabasas-2-garage-sale-tools-barbeque/7929969997.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/calabasas-2-garage-sale-tools-barbeque/7929969997.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/calabasas-2-garage-sale-tools-barbeque/7929969997.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:18:17.224Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/calabasas-2-garage-sale-tools-barbeque/7929969997.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/calabasas-2-garage-sale-tools-barbeque/7929969997.html"
+}

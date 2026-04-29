@@ -1,0 +1,9 @@
+{
+	"id": "WJoZWdMq8gNCVhD",
+	"json": "{\"id\":\"WJoZWdMq8gNCVhD\",\"url\":\"https://mohave.craigslist.org/gms/d/fort-mohave-garage-sale/7922337579.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/fort-mohave-garage-sale/7922337579.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/fort-mohave-garage-sale/7922337579.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:30.187Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/fort-mohave-garage-sale/7922337579.html",
+	"url": "https://mohave.craigslist.org/gms/d/fort-mohave-garage-sale/7922337579.html"
+}

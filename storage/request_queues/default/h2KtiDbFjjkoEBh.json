@@ -1,0 +1,9 @@
+{
+	"id": "h2KtiDbFjjkoEBh",
+	"json": "{\"id\":\"h2KtiDbFjjkoEBh\",\"url\":\"https://bloomington.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://bloomington.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518236,
+	"retryCount": 0,
+	"uniqueKey": "https://bloomington.craigslist.org/search/gms?s=480",
+	"url": "https://bloomington.craigslist.org/search/gms?s=480"
+}

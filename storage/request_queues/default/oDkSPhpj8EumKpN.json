@@ -1,8 +1,8 @@
 {
 	"id": "oDkSPhpj8EumKpN",
-	"json": "{\"id\":\"oDkSPhpj8EumKpN\",\"url\":\"https://losangeles.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://losangeles.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"oDkSPhpj8EumKpN\",\"url\":\"https://losangeles.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://losangeles.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://losangeles.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:24:54.633Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323182,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://losangeles.craigslist.org/search/gms?s=240",
 	"url": "https://losangeles.craigslist.org/search/gms?s=240"

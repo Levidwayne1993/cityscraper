@@ -1,0 +1,9 @@
+{
+	"id": "sZRI3DDQAxC5oOt",
+	"json": "{\"id\":\"sZRI3DDQAxC5oOt\",\"url\":\"https://orlando.craigslist.org/com/d/lake-mary-river-crest-community-yard/7925025722.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/lake-mary-river-crest-community-yard/7925025722.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/lake-mary-river-crest-community-yard/7925025722.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:02.489Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/lake-mary-river-crest-community-yard/7925025722.html",
+	"url": "https://orlando.craigslist.org/com/d/lake-mary-river-crest-community-yard/7925025722.html"
+}

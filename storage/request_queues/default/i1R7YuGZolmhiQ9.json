@@ -1,0 +1,9 @@
+{
+	"id": "i1R7YuGZolmhiQ9",
+	"json": "{\"id\":\"i1R7YuGZolmhiQ9\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-yard-sale-quality-items-priced/7924017754.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-yard-sale-quality-items-priced/7924017754.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/avondale-yard-sale-quality-items-priced/7924017754.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:27:27.753Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/avondale-yard-sale-quality-items-priced/7924017754.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/avondale-yard-sale-quality-items-priced/7924017754.html"
+}

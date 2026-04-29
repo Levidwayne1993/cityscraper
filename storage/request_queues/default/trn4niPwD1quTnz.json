@@ -1,8 +1,8 @@
 {
 	"id": "trn4niPwD1quTnz",
-	"json": "{\"id\":\"trn4niPwD1quTnz\",\"url\":\"https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"trn4niPwD1quTnz\",\"url\":\"https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:15:31.611Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322967,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://juneau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

@@ -1,0 +1,9 @@
+{
+	"id": "YKNNdsDx2tJHADG",
+	"json": "{\"id\":\"YKNNdsDx2tJHADG\",\"url\":\"https://mendocino.craigslist.org/gms/d/glenhaven-community-garage-sale/7930188925.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/glenhaven-community-garage-sale/7930188925.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/glenhaven-community-garage-sale/7930188925.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:47:06.727Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/glenhaven-community-garage-sale/7930188925.html",
+	"url": "https://mendocino.craigslist.org/gms/d/glenhaven-community-garage-sale/7930188925.html"
+}

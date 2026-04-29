@@ -1,0 +1,9 @@
+{
+	"id": "KwYczN8YMiGen0t",
+	"json": "{\"id\":\"KwYczN8YMiGen0t\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-estate-sale-3/7927046912.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-estate-sale-3/7927046912.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-estate-sale-3/7927046912.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:34:13.038Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-estate-sale-3/7927046912.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-garage-estate-sale-3/7927046912.html"
+}

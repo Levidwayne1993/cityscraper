@@ -1,0 +1,9 @@
+{
+	"id": "8i5RbJxk6lV4jdy",
+	"json": "{\"id\":\"8i5RbJxk6lV4jdy\",\"url\":\"https://modesto.craigslist.org/gms/d/riverbank-riverbank-garage-sale/7928542427.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/riverbank-riverbank-garage-sale/7928542427.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/riverbank-riverbank-garage-sale/7928542427.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:59:03.772Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/riverbank-riverbank-garage-sale/7928542427.html",
+	"url": "https://modesto.craigslist.org/gms/d/riverbank-riverbank-garage-sale/7928542427.html"
+}

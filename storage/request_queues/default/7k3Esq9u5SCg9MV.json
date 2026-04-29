@@ -1,0 +1,9 @@
+{
+	"id": "7k3Esq9u5SCg9MV",
+	"json": "{\"id\":\"7k3Esq9u5SCg9MV\",\"url\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-epic-moving-sale/7928578029.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-epic-moving-sale/7928578029.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-epic-moving-sale/7928578029.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:49.041Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/fort-collins-epic-moving-sale/7928578029.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/fort-collins-epic-moving-sale/7928578029.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "5F1fjLbh2R6aevH",
+	"json": "{\"id\":\"5F1fjLbh2R6aevH\",\"url\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520993,
+	"retryCount": 0,
+	"uniqueKey": "https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://duluth.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

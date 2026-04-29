@@ -1,0 +1,9 @@
+{
+	"id": "pkuV7h0P1aqLHpA",
+	"json": "{\"id\":\"pkuV7h0P1aqLHpA\",\"url\":\"https://fayetteville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://fayetteville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523454,
+	"retryCount": 0,
+	"uniqueKey": "https://fayetteville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://fayetteville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

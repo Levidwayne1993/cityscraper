@@ -1,0 +1,9 @@
+{
+	"id": "6rajmT9WnTkWWbW",
+	"json": "{\"id\":\"6rajmT9WnTkWWbW\",\"url\":\"https://washingtondc.craigslist.org/nva/hsh/d/fairfax-moving-sale-everything-must-go/7926811581.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/hsh/d/fairfax-moving-sale-everything-must-go/7926811581.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/hsh/d/fairfax-moving-sale-everything-must-go/7926811581.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:27.383Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/hsh/d/fairfax-moving-sale-everything-must-go/7926811581.html",
+	"url": "https://washingtondc.craigslist.org/nva/hsh/d/fairfax-moving-sale-everything-must-go/7926811581.html"
+}

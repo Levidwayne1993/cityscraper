@@ -1,9 +1,0 @@
-{
-	"id": "PoFUQS1708rZL6h",
-	"json": "{\"id\":\"PoFUQS1708rZL6h\",\"url\":\"https://manhattan.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://manhattan.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040324389,
-	"retryCount": 0,
-	"uniqueKey": "https://manhattan.craigslist.org/search/gms?s=240",
-	"url": "https://manhattan.craigslist.org/search/gms?s=240"
-}

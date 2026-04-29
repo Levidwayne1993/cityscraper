@@ -1,0 +1,9 @@
+{
+	"id": "tHLH3aFL9qMg1t6",
+	"json": "{\"id\":\"tHLH3aFL9qMg1t6\",\"url\":\"https://tallahassee.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://tallahassee.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777186517301,
+	"retryCount": 0,
+	"uniqueKey": "https://tallahassee.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://tallahassee.craigslist.org/search/ccc?query=yard+sale"
+}

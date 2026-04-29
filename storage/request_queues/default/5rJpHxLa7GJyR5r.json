@@ -1,0 +1,9 @@
+{
+	"id": "5rJpHxLa7GJyR5r",
+	"json": "{\"id\":\"5rJpHxLa7GJyR5r\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-bundle-sale-first/7927495742.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-bundle-sale-first/7927495742.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-bundle-sale-first/7927495742.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:04.965Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-estate-bundle-sale-first/7927495742.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-estate-bundle-sale-first/7927495742.html"
+}

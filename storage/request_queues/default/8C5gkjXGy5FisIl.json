@@ -1,0 +1,9 @@
+{
+	"id": "8C5gkjXGy5FisIl",
+	"json": "{\"id\":\"8C5gkjXGy5FisIl\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-multi-family-garage-sale-nathan/7928278789.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-multi-family-garage-sale-nathan/7928278789.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-multi-family-garage-sale-nathan/7928278789.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:52.772Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-multi-family-garage-sale-nathan/7928278789.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-multi-family-garage-sale-nathan/7928278789.html"
+}

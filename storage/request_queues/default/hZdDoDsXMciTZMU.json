@@ -1,0 +1,9 @@
+{
+	"id": "hZdDoDsXMciTZMU",
+	"json": "{\"id\":\"hZdDoDsXMciTZMU\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-sarasota-fl/7924085190.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-sarasota-fl/7924085190.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-sarasota-fl/7924085190.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:56.269Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-sarasota-fl/7924085190.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-garage-sale-sarasota-fl/7924085190.html"
+}

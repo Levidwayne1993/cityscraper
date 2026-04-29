@@ -1,0 +1,9 @@
+{
+	"id": "wIeyAcEB90iVfiO",
+	"json": "{\"id\":\"wIeyAcEB90iVfiO\",\"url\":\"https://denver.craigslist.org/gms/d/denver-upscale-garage-sale/7926417953.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-upscale-garage-sale/7926417953.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-upscale-garage-sale/7926417953.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:12.318Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-upscale-garage-sale/7926417953.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-upscale-garage-sale/7926417953.html"
+}

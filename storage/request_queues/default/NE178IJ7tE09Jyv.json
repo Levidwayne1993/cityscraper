@@ -1,0 +1,9 @@
+{
+	"id": "NE178IJ7tE09Jyv",
+	"json": "{\"id\":\"NE178IJ7tE09Jyv\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-lowry-east-colfax-yard-sale/7927259561.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-lowry-east-colfax-yard-sale/7927259561.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-lowry-east-colfax-yard-sale/7927259561.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:17.105Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-lowry-east-colfax-yard-sale/7927259561.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-lowry-east-colfax-yard-sale/7927259561.html"
+}

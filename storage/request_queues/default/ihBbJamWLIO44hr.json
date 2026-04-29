@@ -1,0 +1,9 @@
+{
+	"id": "ihBbJamWLIO44hr",
+	"json": "{\"id\":\"ihBbJamWLIO44hr\",\"url\":\"https://baltimore.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://baltimore.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520272,
+	"retryCount": 0,
+	"uniqueKey": "https://baltimore.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://baltimore.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "faHt96oOGg1WL1R",
+	"json": "{\"id\":\"faHt96oOGg1WL1R\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-and-moving-sale/7925664874.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-and-moving-sale/7925664874.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-yard-and-moving-sale/7925664874.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:56:06.622Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-yard-and-moving-sale/7925664874.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-yard-and-moving-sale/7925664874.html"
+}

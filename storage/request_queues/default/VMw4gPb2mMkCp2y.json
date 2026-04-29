@@ -1,0 +1,9 @@
+{
+	"id": "VMw4gPb2mMkCp2y",
+	"json": "{\"id\":\"VMw4gPb2mMkCp2y\",\"url\":\"https://losangeles.craigslist.org/sfv/clo/d/burbank-burbank-yard-sale/7930229162.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/clo/d/burbank-burbank-yard-sale/7930229162.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/clo/d/burbank-burbank-yard-sale/7930229162.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:36:09.096Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/clo/d/burbank-burbank-yard-sale/7930229162.html",
+	"url": "https://losangeles.craigslist.org/sfv/clo/d/burbank-burbank-yard-sale/7930229162.html"
+}

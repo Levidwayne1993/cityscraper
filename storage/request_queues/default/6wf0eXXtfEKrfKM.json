@@ -1,0 +1,9 @@
+{
+	"id": "6wf0eXXtfEKrfKM",
+	"json": "{\"id\":\"6wf0eXXtfEKrfKM\",\"url\":\"https://denver.craigslist.org/gms/d/brighton-huge-garage-sale/7927434051.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/brighton-huge-garage-sale/7927434051.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/brighton-huge-garage-sale/7927434051.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:54.545Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/brighton-huge-garage-sale/7927434051.html",
+	"url": "https://denver.craigslist.org/gms/d/brighton-huge-garage-sale/7927434051.html"
+}

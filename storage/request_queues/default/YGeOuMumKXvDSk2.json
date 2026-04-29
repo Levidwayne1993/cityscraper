@@ -1,0 +1,9 @@
+{
+	"id": "YGeOuMumKXvDSk2",
+	"json": "{\"id\":\"YGeOuMumKXvDSk2\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-gilbert-estate-sale-furniture/7929684585.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-gilbert-estate-sale-furniture/7929684585.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-gilbert-estate-sale-furniture/7929684585.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:37.936Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-gilbert-estate-sale-furniture/7929684585.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-gilbert-estate-sale-furniture/7929684585.html"
+}

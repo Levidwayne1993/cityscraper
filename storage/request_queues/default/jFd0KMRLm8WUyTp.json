@@ -1,0 +1,9 @@
+{
+	"id": "jFd0KMRLm8WUyTp",
+	"json": "{\"id\":\"jFd0KMRLm8WUyTp\",\"url\":\"https://monterey.craigslist.org/gms/d/soledad-spring-garage-sale-in-soledad/7923248504.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/soledad-spring-garage-sale-in-soledad/7923248504.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/soledad-spring-garage-sale-in-soledad/7923248504.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:05:07.578Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/soledad-spring-garage-sale-in-soledad/7923248504.html",
+	"url": "https://monterey.craigslist.org/gms/d/soledad-spring-garage-sale-in-soledad/7923248504.html"
+}

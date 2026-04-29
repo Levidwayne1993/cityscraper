@@ -1,0 +1,9 @@
+{
+	"id": "Eje6aHyou0zEaiQ",
+	"json": "{\"id\":\"Eje6aHyou0zEaiQ\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-multi-family-garage-sale/7928401555.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-multi-family-garage-sale/7928401555.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/jupiter-multi-family-garage-sale/7928401555.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:46.376Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/jupiter-multi-family-garage-sale/7928401555.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/jupiter-multi-family-garage-sale/7928401555.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mUAoqSe3fjZzhLS",
+	"json": "{\"id\":\"mUAoqSe3fjZzhLS\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-everything-must/7928168703.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-everything-must/7928168703.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-everything-must/7928168703.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:25.581Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-everything-must/7928168703.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-everything-must/7928168703.html"
+}

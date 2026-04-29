@@ -1,0 +1,9 @@
+{
+	"id": "7dFfOU8YhgJpoFd",
+	"json": "{\"id\":\"7dFfOU8YhgJpoFd\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-park-today-only-community-yard/7928525010.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-park-today-only-community-yard/7928525010.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-park-today-only-community-yard/7928525010.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:27:09.875Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-park-today-only-community-yard/7928525010.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-park-today-only-community-yard/7928525010.html"
+}

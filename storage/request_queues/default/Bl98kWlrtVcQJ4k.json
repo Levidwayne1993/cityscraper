@@ -1,0 +1,9 @@
+{
+	"id": "Bl98kWlrtVcQJ4k",
+	"json": "{\"id\":\"Bl98kWlrtVcQJ4k\",\"url\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:37:27.871Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pxvSQoeqG493hOV",
+	"json": "{\"id\":\"pxvSQoeqG493hOV\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-vende-tus-cosas-en-el-santa/7920609880.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-vende-tus-cosas-en-el-santa/7920609880.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-vende-tus-cosas-en-el-santa/7920609880.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:57:07.353Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-vende-tus-cosas-en-el-santa/7920609880.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-vende-tus-cosas-en-el-santa/7920609880.html"
+}

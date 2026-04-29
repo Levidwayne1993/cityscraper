@@ -1,0 +1,9 @@
+{
+	"id": "rSbf8E02RXyNI9K",
+	"json": "{\"id\":\"rSbf8E02RXyNI9K\",\"url\":\"https://porthuron.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://porthuron.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520876,
+	"retryCount": 0,
+	"uniqueKey": "https://porthuron.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://porthuron.craigslist.org/search/ccc?query=yard+sale"
+}

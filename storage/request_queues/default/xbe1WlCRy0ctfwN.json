@@ -1,0 +1,9 @@
+{
+	"id": "xbe1WlCRy0ctfwN",
+	"json": "{\"id\":\"xbe1WlCRy0ctfwN\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-quilters-estate-sale-1838/7926698887.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-quilters-estate-sale-1838/7926698887.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-quilters-estate-sale-1838/7926698887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:33:51.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-quilters-estate-sale-1838/7926698887.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-quilters-estate-sale-1838/7926698887.html"
+}

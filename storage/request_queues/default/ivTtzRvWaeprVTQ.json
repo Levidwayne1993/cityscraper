@@ -1,0 +1,9 @@
+{
+	"id": "ivTtzRvWaeprVTQ",
+	"json": "{\"id\":\"ivTtzRvWaeprVTQ\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-sunday-april-19th/7928639738.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-sunday-april-19th/7928639738.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-sunday-april-19th/7928639738.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:19.992Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-sunday-april-19th/7928639738.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-garage-sale-sunday-april-19th/7928639738.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "bVQcOLoq8bRfYcY",
+	"json": "{\"id\":\"bVQcOLoq8bRfYcY\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/sherman-oaks-this-saturday-sherman-oaks/7929254872.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/sherman-oaks-this-saturday-sherman-oaks/7929254872.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/sherman-oaks-this-saturday-sherman-oaks/7929254872.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:42:32.246Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/sherman-oaks-this-saturday-sherman-oaks/7929254872.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/sherman-oaks-this-saturday-sherman-oaks/7929254872.html"
+}

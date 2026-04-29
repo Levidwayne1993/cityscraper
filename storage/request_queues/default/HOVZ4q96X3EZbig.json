@@ -1,0 +1,9 @@
+{
+	"id": "HOVZ4q96X3EZbig",
+	"json": "{\"id\":\"HOVZ4q96X3EZbig\",\"url\":\"https://yakima.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://yakima.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528084,
+	"retryCount": 0,
+	"uniqueKey": "https://yakima.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://yakima.craigslist.org/search/ccc?query=garage+sale"
+}

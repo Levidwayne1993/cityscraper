@@ -1,0 +1,9 @@
+{
+	"id": "tADwoHmBrBBKMAy",
+	"json": "{\"id\":\"tADwoHmBrBBKMAy\",\"url\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-garage-sale/7925338854.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-garage-sale/7925338854.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-garage-sale/7925338854.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:15:35.436Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/fort-smith-garage-sale/7925338854.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/fort-smith-garage-sale/7925338854.html"
+}

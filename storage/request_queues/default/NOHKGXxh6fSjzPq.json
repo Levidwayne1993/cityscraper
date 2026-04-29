@@ -1,0 +1,9 @@
+{
+	"id": "NOHKGXxh6fSjzPq",
+	"json": "{\"id\":\"NOHKGXxh6fSjzPq\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-stratmoor-hills-garage/7923646009.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-stratmoor-hills-garage/7923646009.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-stratmoor-hills-garage/7923646009.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:33:17.764Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-stratmoor-hills-garage/7923646009.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-stratmoor-hills-garage/7923646009.html"
+}

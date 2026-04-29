@@ -1,0 +1,9 @@
+{
+	"id": "WbSRRJs0iaUkvjm",
+	"json": "{\"id\":\"WbSRRJs0iaUkvjm\",\"url\":\"https://newjersey.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://newjersey.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\"}}",
+	"method": "GET",
+	"orderNo": 1777186522834,
+	"retryCount": 0,
+	"uniqueKey": "https://newjersey.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://newjersey.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "7mJccP6vvAlAVEp",
+	"json": "{\"id\":\"7mJccP6vvAlAVEp\",\"url\":\"https://blacksburg.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://blacksburg.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527813,
+	"retryCount": 0,
+	"uniqueKey": "https://blacksburg.craigslist.org/search/gms?s=480",
+	"url": "https://blacksburg.craigslist.org/search/gms?s=480"
+}

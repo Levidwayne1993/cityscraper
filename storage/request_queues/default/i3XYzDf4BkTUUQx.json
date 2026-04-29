@@ -1,0 +1,9 @@
+{
+	"id": "i3XYzDf4BkTUUQx",
+	"json": "{\"id\":\"i3XYzDf4BkTUUQx\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-all-kinds-of/7930028118.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-all-kinds-of/7930028118.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-all-kinds-of/7930028118.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:42.184Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-all-kinds-of/7930028118.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-garage-sale-all-kinds-of/7930028118.html"
+}

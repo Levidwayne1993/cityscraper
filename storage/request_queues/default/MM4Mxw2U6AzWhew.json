@@ -1,8 +1,8 @@
 {
 	"id": "MM4Mxw2U6AzWhew",
-	"json": "{\"id\":\"MM4Mxw2U6AzWhew\",\"url\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"MM4Mxw2U6AzWhew\",\"url\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:40.454Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323415,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://pueblo.craigslist.org/search/gms?s=120",
 	"url": "https://pueblo.craigslist.org/search/gms?s=120"

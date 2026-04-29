@@ -1,0 +1,9 @@
+{
+	"id": "DpcFlNY7p56ZIri",
+	"json": "{\"id\":\"DpcFlNY7p56ZIri\",\"url\":\"https://janesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://janesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528289,
+	"retryCount": 0,
+	"uniqueKey": "https://janesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://janesville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

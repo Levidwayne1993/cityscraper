@@ -1,0 +1,9 @@
+{
+	"id": "9EcJE5iut8b7o49",
+	"json": "{\"id\":\"9EcJE5iut8b7o49\",\"url\":\"https://yubasutter.craigslist.org/gms/d/olivehurst-garage-sale/7930007930.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/olivehurst-garage-sale/7930007930.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/olivehurst-garage-sale/7930007930.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:25:52.874Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/olivehurst-garage-sale/7930007930.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/olivehurst-garage-sale/7930007930.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "lBCDmFFsBW9Au8b",
+	"json": "{\"id\":\"lBCDmFFsBW9Au8b\",\"url\":\"https://stockton.craigslist.org/gms/d/lodi-moving-sale-bbqs-boflex-new-car/7922091047.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/lodi-moving-sale-bbqs-boflex-new-car/7922091047.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/lodi-moving-sale-bbqs-boflex-new-car/7922091047.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:18.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/lodi-moving-sale-bbqs-boflex-new-car/7922091047.html",
+	"url": "https://stockton.craigslist.org/gms/d/lodi-moving-sale-bbqs-boflex-new-car/7922091047.html"
+}

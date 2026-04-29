@@ -1,0 +1,9 @@
+{
+	"id": "lvO8lw1qQ7dAg0C",
+	"json": "{\"id\":\"lvO8lw1qQ7dAg0C\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-vintage-antiques/7920903623.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-vintage-antiques/7920903623.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-vintage-antiques/7920903623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:25.160Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-vintage-antiques/7920903623.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-vintage-antiques/7920903623.html"
+}

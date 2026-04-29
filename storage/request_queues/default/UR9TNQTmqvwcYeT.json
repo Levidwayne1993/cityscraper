@@ -1,0 +1,9 @@
+{
+	"id": "UR9TNQTmqvwcYeT",
+	"json": "{\"id\":\"UR9TNQTmqvwcYeT\",\"url\":\"https://fresno.craigslist.org/gms/d/reedley-big-yard-sale/7923807494.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/reedley-big-yard-sale/7923807494.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/reedley-big-yard-sale/7923807494.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:41:19.853Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/reedley-big-yard-sale/7923807494.html",
+	"url": "https://fresno.craigslist.org/gms/d/reedley-big-yard-sale/7923807494.html"
+}

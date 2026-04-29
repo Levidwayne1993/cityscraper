@@ -1,8 +1,8 @@
 {
 	"id": "0xroi66B7kBYIUt",
-	"json": "{\"id\":\"0xroi66B7kBYIUt\",\"url\":\"https://spokane.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://spokane.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"0xroi66B7kBYIUt\",\"url\":\"https://spokane.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://spokane.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
 	"method": "GET",
-	"orderNo": 1777040329655,
+	"orderNo": 1777186528041,
 	"retryCount": 0,
 	"uniqueKey": "https://spokane.craigslist.org/search/gms?s=240",
 	"url": "https://spokane.craigslist.org/search/gms?s=240"

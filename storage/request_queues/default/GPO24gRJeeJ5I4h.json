@@ -1,0 +1,9 @@
+{
+	"id": "GPO24gRJeeJ5I4h",
+	"json": "{\"id\":\"GPO24gRJeeJ5I4h\",\"url\":\"https://santabarbara.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://santabarbara.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://santabarbara.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:04.597Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://santabarbara.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

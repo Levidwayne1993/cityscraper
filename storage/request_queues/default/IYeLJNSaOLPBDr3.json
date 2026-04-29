@@ -1,0 +1,9 @@
+{
+	"id": "IYeLJNSaOLPBDr3",
+	"json": "{\"id\":\"IYeLJNSaOLPBDr3\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-yard-sale-san-bruno/7925384016.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-yard-sale-san-bruno/7925384016.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-yard-sale-san-bruno/7925384016.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:23:54.351Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-yard-sale-san-bruno/7925384016.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-yard-sale-san-bruno/7925384016.html"
+}

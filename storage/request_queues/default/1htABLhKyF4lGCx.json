@@ -1,0 +1,9 @@
+{
+	"id": "1htABLhKyF4lGCx",
+	"json": "{\"id\":\"1htABLhKyF4lGCx\",\"url\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk/7919760011.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk/7919760011.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk/7919760011.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:24.274Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk/7919760011.html",
+	"url": "https://fortcollins.craigslist.org/fuo/d/greeley-moving-sale-desk/7919760011.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "b31aLfP0GYCjCS0",
+	"json": "{\"id\":\"b31aLfP0GYCjCS0\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale/7928301274.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale/7928301274.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale/7928301274.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:25.571Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale/7928301274.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hialeah-garage-sale/7928301274.html"
+}

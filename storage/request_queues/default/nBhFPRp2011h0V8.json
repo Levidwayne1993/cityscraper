@@ -1,0 +1,9 @@
+{
+	"id": "nBhFPRp2011h0V8",
+	"json": "{\"id\":\"nBhFPRp2011h0V8\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale-till-night/7930181118.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale-till-night/7930181118.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale-till-night/7930181118.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:39.835Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale-till-night/7930181118.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale-till-night/7930181118.html"
+}

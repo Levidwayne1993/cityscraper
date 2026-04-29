@@ -1,0 +1,9 @@
+{
+	"id": "ZOKModBCtCpaFOH",
+	"json": "{\"id\":\"ZOKModBCtCpaFOH\",\"url\":\"https://denver.craigslist.org/gms/d/littleton-antiques-comic-books-high-end/7929815850.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/littleton-antiques-comic-books-high-end/7929815850.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/littleton-antiques-comic-books-high-end/7929815850.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:56.633Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/littleton-antiques-comic-books-high-end/7929815850.html",
+	"url": "https://denver.craigslist.org/gms/d/littleton-antiques-comic-books-high-end/7929815850.html"
+}

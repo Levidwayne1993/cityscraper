@@ -1,0 +1,9 @@
+{
+	"id": "UtCvcHlv4WliDDb",
+	"json": "{\"id\":\"UtCvcHlv4WliDDb\",\"url\":\"https://slo.craigslist.org/gms/d/morro-bay-big-garage-sale/7922575165.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/morro-bay-big-garage-sale/7922575165.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/morro-bay-big-garage-sale/7922575165.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:47:31.112Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/morro-bay-big-garage-sale/7922575165.html",
+	"url": "https://slo.craigslist.org/gms/d/morro-bay-big-garage-sale/7922575165.html"
+}

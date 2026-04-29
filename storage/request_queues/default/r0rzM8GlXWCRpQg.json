@@ -1,0 +1,9 @@
+{
+	"id": "r0rzM8GlXWCRpQg",
+	"json": "{\"id\":\"r0rzM8GlXWCRpQg\",\"url\":\"https://prescott.craigslist.org/gms/d/cottonwood-inheritance-yard-sale/7926742377.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/cottonwood-inheritance-yard-sale/7926742377.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/cottonwood-inheritance-yard-sale/7926742377.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:46:07.947Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/cottonwood-inheritance-yard-sale/7926742377.html",
+	"url": "https://prescott.craigslist.org/gms/d/cottonwood-inheritance-yard-sale/7926742377.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "JllvhwB1B0kpY8z",
+	"json": "{\"id\":\"JllvhwB1B0kpY8z\",\"url\":\"https://www.yardsalesearch.com/yard-sales/San-Francisco-CA.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/San-Francisco-CA.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"San-Francisco-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530552,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/San-Francisco-CA.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/San-Francisco-CA.html?page=2"
+}

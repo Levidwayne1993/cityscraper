@@ -1,0 +1,9 @@
+{
+	"id": "Pl5M9kVI0kRnMor",
+	"json": "{\"id\":\"Pl5M9kVI0kRnMor\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-jordan-ave-93720/7924024720.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-jordan-ave-93720/7924024720.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-jordan-ave-93720/7924024720.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:41:35.930Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-yard-sale-jordan-ave-93720/7924024720.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-yard-sale-jordan-ave-93720/7924024720.html"
+}

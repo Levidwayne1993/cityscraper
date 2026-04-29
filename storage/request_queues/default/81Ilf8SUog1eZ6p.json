@@ -1,0 +1,9 @@
+{
+	"id": "81Ilf8SUog1eZ6p",
+	"json": "{\"id\":\"81Ilf8SUog1eZ6p\",\"url\":\"https://newhaven.craigslist.org/gms/d/hamden-multi-family-tag-sale-mile-from/7925854532.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/hamden-multi-family-tag-sale-mile-from/7925854532.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/hamden-multi-family-tag-sale-mile-from/7925854532.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:21.169Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/hamden-multi-family-tag-sale-mile-from/7925854532.html",
+	"url": "https://newhaven.craigslist.org/gms/d/hamden-multi-family-tag-sale-mile-from/7925854532.html"
+}

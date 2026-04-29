@@ -1,0 +1,9 @@
+{
+	"id": "D53gHsO9MFwCHs4",
+	"json": "{\"id\":\"D53gHsO9MFwCHs4\",\"url\":\"https://jacksonville.craigslist.org/gms/d/saint-johns-low-low-price-garage-sale/7928101579.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/saint-johns-low-low-price-garage-sale/7928101579.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/saint-johns-low-low-price-garage-sale/7928101579.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:41:38.450Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/saint-johns-low-low-price-garage-sale/7928101579.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/saint-johns-low-low-price-garage-sale/7928101579.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WNa8K0csU7VcIc6",
+	"json": "{\"id\":\"WNa8K0csU7VcIc6\",\"url\":\"https://denver.craigslist.org/gms/d/denver-moving-sunday-9am-until-it-rains/7928234595.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-moving-sunday-9am-until-it-rains/7928234595.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-moving-sunday-9am-until-it-rains/7928234595.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:06.003Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-moving-sunday-9am-until-it-rains/7928234595.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-moving-sunday-9am-until-it-rains/7928234595.html"
+}

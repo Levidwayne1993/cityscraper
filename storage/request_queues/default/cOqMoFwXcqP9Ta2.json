@@ -1,8 +1,8 @@
 {
 	"id": "cOqMoFwXcqP9Ta2",
-	"json": "{\"id\":\"cOqMoFwXcqP9Ta2\",\"url\":\"https://sarasota.craigslist.org/search/gms\",\"uniqueKey\":\"https://sarasota.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"cOqMoFwXcqP9Ta2\",\"url\":\"https://sarasota.craigslist.org/search/gms\",\"loadedUrl\":\"https://sarasota.craigslist.org/search/gms\",\"uniqueKey\":\"https://sarasota.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:44:34.474Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323619,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sarasota.craigslist.org/search/gms",
 	"url": "https://sarasota.craigslist.org/search/gms"

@@ -1,0 +1,9 @@
+{
+	"id": "AUxdNVCQcpaKuBZ",
+	"json": "{\"id\":\"AUxdNVCQcpaKuBZ\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-hickory-hills-manor-rummage/7922440658.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-hickory-hills-manor-rummage/7922440658.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-hickory-hills-manor-rummage/7922440658.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:01.127Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-hickory-hills-manor-rummage/7922440658.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-hickory-hills-manor-rummage/7922440658.html"
+}

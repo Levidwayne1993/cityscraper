@@ -1,0 +1,9 @@
+{
+	"id": "HhDNrvk0Ffps8m9",
+	"json": "{\"id\":\"HhDNrvk0Ffps8m9\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-garage-sale/7913404413.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-garage-sale/7913404413.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-garage-sale/7913404413.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:24:28.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-garage-sale/7913404413.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-garage-sale/7913404413.html"
+}

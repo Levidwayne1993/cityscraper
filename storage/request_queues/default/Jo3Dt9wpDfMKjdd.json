@@ -1,0 +1,9 @@
+{
+	"id": "Jo3Dt9wpDfMKjdd",
+	"json": "{\"id\":\"Jo3Dt9wpDfMKjdd\",\"url\":\"https://prescott.craigslist.org/gms/d/humboldt-garage-sale-today-everything/7924046046.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/humboldt-garage-sale-today-everything/7924046046.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/humboldt-garage-sale-today-everything/7924046046.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:46.691Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/humboldt-garage-sale-today-everything/7924046046.html",
+	"url": "https://prescott.craigslist.org/gms/d/humboldt-garage-sale-today-everything/7924046046.html"
+}

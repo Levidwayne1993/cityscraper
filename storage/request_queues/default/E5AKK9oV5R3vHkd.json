@@ -1,0 +1,9 @@
+{
+	"id": "E5AKK9oV5R3vHkd",
+	"json": "{\"id\":\"E5AKK9oV5R3vHkd\",\"url\":\"https://rockford.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://rockford.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518187,
+	"retryCount": 0,
+	"uniqueKey": "https://rockford.craigslist.org/search/gms?s=480",
+	"url": "https://rockford.craigslist.org/search/gms?s=480"
+}

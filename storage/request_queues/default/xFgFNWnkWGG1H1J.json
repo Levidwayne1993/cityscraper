@@ -1,0 +1,9 @@
+{
+	"id": "xFgFNWnkWGG1H1J",
+	"json": "{\"id\":\"xFgFNWnkWGG1H1J\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/cupertino-garage-sale-furniture/7922880415.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/cupertino-garage-sale-furniture/7922880415.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/cupertino-garage-sale-furniture/7922880415.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:31.927Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/cupertino-garage-sale-furniture/7922880415.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/cupertino-garage-sale-furniture/7922880415.html"
+}

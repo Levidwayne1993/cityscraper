@@ -1,0 +1,9 @@
+{
+	"id": "3Fe0Ycbg3pBTrkE",
+	"json": "{\"id\":\"3Fe0Ycbg3pBTrkE\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-great-estate-sale-clovis-1932/7928481409.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-great-estate-sale-clovis-1932/7928481409.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-great-estate-sale-clovis-1932/7928481409.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:46:45.074Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-great-estate-sale-clovis-1932/7928481409.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-great-estate-sale-clovis-1932/7928481409.html"
+}

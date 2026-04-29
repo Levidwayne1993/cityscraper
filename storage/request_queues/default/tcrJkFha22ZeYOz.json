@@ -1,0 +1,9 @@
+{
+	"id": "tcrJkFha22ZeYOz",
+	"json": "{\"id\":\"tcrJkFha22ZeYOz\",\"url\":\"https://denver.craigslist.org/com/d/aurora-big-yard-sale-24th-ave-aurora/7924032397.html\",\"loadedUrl\":\"https://denver.craigslist.org/com/d/aurora-big-yard-sale-24th-ave-aurora/7924032397.html\",\"uniqueKey\":\"https://denver.craigslist.org/com/d/aurora-big-yard-sale-24th-ave-aurora/7924032397.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:36.717Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/com/d/aurora-big-yard-sale-24th-ave-aurora/7924032397.html",
+	"url": "https://denver.craigslist.org/com/d/aurora-big-yard-sale-24th-ave-aurora/7924032397.html"
+}

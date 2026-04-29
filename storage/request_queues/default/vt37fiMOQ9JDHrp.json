@@ -1,0 +1,9 @@
+{
+	"id": "vt37fiMOQ9JDHrp",
+	"json": "{\"id\":\"vt37fiMOQ9JDHrp\",\"url\":\"https://miami.craigslist.org/brw/grp/d/fort-lauderdale-garage-sale-everything/7925395712.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/grp/d/fort-lauderdale-garage-sale-everything/7925395712.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/grp/d/fort-lauderdale-garage-sale-everything/7925395712.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:01.194Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/grp/d/fort-lauderdale-garage-sale-everything/7925395712.html",
+	"url": "https://miami.craigslist.org/brw/grp/d/fort-lauderdale-garage-sale-everything/7925395712.html"
+}

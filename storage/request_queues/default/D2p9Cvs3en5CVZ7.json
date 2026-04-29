@@ -1,0 +1,9 @@
+{
+	"id": "D2p9Cvs3en5CVZ7",
+	"json": "{\"id\":\"D2p9Cvs3en5CVZ7\",\"url\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-tons-of-toys/7926770873.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-tons-of-toys/7926770873.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-garage-sale-tons-of-toys/7926770873.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:41:23.919Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-garage-sale-tons-of-toys/7926770873.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-garage-sale-tons-of-toys/7926770873.html"
+}

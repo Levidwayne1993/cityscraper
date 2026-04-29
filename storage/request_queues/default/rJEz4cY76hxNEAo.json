@@ -1,0 +1,9 @@
+{
+	"id": "rJEz4cY76hxNEAo",
+	"json": "{\"id\":\"rJEz4cY76hxNEAo\",\"url\":\"https://orangecounty.craigslist.org/gms/d/el-toro-garage-sale-lake-forest-ca-twig/7928494927.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/el-toro-garage-sale-lake-forest-ca-twig/7928494927.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/el-toro-garage-sale-lake-forest-ca-twig/7928494927.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:17:51.221Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/el-toro-garage-sale-lake-forest-ca-twig/7928494927.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/el-toro-garage-sale-lake-forest-ca-twig/7928494927.html"
+}

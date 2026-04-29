@@ -1,0 +1,9 @@
+{
+	"id": "gzGHzz1N58OBjd9",
+	"json": "{\"id\":\"gzGHzz1N58OBjd9\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-pop-up-estate-sale/7928571818.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-pop-up-estate-sale/7928571818.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/vallejo-pop-up-estate-sale/7928571818.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:50.318Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/vallejo-pop-up-estate-sale/7928571818.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/vallejo-pop-up-estate-sale/7928571818.html"
+}

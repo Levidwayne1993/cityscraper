@@ -1,8 +1,8 @@
 {
 	"id": "vjORE1YRcq6JMwz",
-	"json": "{\"id\":\"vjORE1YRcq6JMwz\",\"url\":\"https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"vjORE1YRcq6JMwz\",\"url\":\"https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:49:37.390Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323198,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://merced.craigslist.org/search/sss?query=yard+sale+garage+sale"

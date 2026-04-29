@@ -1,0 +1,9 @@
+{
+	"id": "G6XymWkAX39t1Ps",
+	"json": "{\"id\":\"G6XymWkAX39t1Ps\",\"url\":\"https://ksu.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://ksu.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186518691,
+	"retryCount": 0,
+	"uniqueKey": "https://ksu.craigslist.org/search/sss?query=moving+sale",
+	"url": "https://ksu.craigslist.org/search/sss?query=moving+sale"
+}

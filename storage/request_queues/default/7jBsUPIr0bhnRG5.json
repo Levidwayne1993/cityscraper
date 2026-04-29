@@ -1,0 +1,9 @@
+{
+	"id": "7jBsUPIr0bhnRG5",
+	"json": "{\"id\":\"7jBsUPIr0bhnRG5\",\"url\":\"https://newlondon.craigslist.org/gms/d/old-lyme-yard-sale-vintage-clothes/7927314445.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/old-lyme-yard-sale-vintage-clothes/7927314445.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/old-lyme-yard-sale-vintage-clothes/7927314445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:39.438Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/old-lyme-yard-sale-vintage-clothes/7927314445.html",
+	"url": "https://newlondon.craigslist.org/gms/d/old-lyme-yard-sale-vintage-clothes/7927314445.html"
+}

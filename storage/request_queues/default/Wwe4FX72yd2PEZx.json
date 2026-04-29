@@ -1,0 +1,9 @@
+{
+	"id": "Wwe4FX72yd2PEZx",
+	"json": "{\"id\":\"Wwe4FX72yd2PEZx\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/south-san-francisco-garage-sale-we-have/7928949484.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/south-san-francisco-garage-sale-we-have/7928949484.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/south-san-francisco-garage-sale-we-have/7928949484.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:13:13.750Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/south-san-francisco-garage-sale-we-have/7928949484.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/south-san-francisco-garage-sale-we-have/7928949484.html"
+}

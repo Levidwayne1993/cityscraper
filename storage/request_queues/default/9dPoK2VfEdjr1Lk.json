@@ -1,0 +1,9 @@
+{
+	"id": "9dPoK2VfEdjr1Lk",
+	"json": "{\"id\":\"9dPoK2VfEdjr1Lk\",\"url\":\"https://inlandempire.craigslist.org/com/d/aguanga-yard-sale-at-sage-and-powerline/7927005341.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/aguanga-yard-sale-at-sage-and-powerline/7927005341.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/aguanga-yard-sale-at-sage-and-powerline/7927005341.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:27.725Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/aguanga-yard-sale-at-sage-and-powerline/7927005341.html",
+	"url": "https://inlandempire.craigslist.org/com/d/aguanga-yard-sale-at-sage-and-powerline/7927005341.html"
+}

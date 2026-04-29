@@ -1,0 +1,9 @@
+{
+	"id": "c8EAwCpYELcvKUP",
+	"json": "{\"id\":\"c8EAwCpYELcvKUP\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-family-garage-sale/7928259726.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-family-garage-sale/7928259726.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-family-garage-sale/7928259726.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:03.258Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-family-garage-sale/7928259726.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-family-garage-sale/7928259726.html"
+}

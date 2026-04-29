@@ -1,0 +1,9 @@
+{
+	"id": "xqyvb1f0syOBeVz",
+	"json": "{\"id\":\"xqyvb1f0syOBeVz\",\"url\":\"https://slo.craigslist.org/gms/d/nipomo-estate-sale-new-inventory/7924765403.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/nipomo-estate-sale-new-inventory/7924765403.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/nipomo-estate-sale-new-inventory/7924765403.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:43:15.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/nipomo-estate-sale-new-inventory/7924765403.html",
+	"url": "https://slo.craigslist.org/gms/d/nipomo-estate-sale-new-inventory/7924765403.html"
+}

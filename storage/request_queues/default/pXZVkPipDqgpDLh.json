@@ -1,0 +1,9 @@
+{
+	"id": "pXZVkPipDqgpDLh",
+	"json": "{\"id\":\"pXZVkPipDqgpDLh\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-huge-garage-sale-with/7928043912.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-huge-garage-sale-with/7928043912.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-huge-garage-sale-with/7928043912.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:32:49.205Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-huge-garage-sale-with/7928043912.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-huge-garage-sale-with/7928043912.html"
+}

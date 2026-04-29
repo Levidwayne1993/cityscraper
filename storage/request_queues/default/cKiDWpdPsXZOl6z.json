@@ -1,0 +1,9 @@
+{
+	"id": "cKiDWpdPsXZOl6z",
+	"json": "{\"id\":\"cKiDWpdPsXZOl6z\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-estate-sale/7928487845.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-estate-sale/7928487845.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-estate-sale/7928487845.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:58:39.558Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-estate-sale/7928487845.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-estate-sale/7928487845.html"
+}

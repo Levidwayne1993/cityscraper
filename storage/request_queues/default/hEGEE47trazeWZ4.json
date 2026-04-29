@@ -1,8 +1,8 @@
 {
 	"id": "hEGEE47trazeWZ4",
-	"json": "{\"id\":\"hEGEE47trazeWZ4\",\"url\":\"https://imperial.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://imperial.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"hEGEE47trazeWZ4\",\"url\":\"https://imperial.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://imperial.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://imperial.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:00:09.788Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323163,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://imperial.craigslist.org/search/gms?s=240",
 	"url": "https://imperial.craigslist.org/search/gms?s=240"

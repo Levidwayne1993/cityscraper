@@ -1,0 +1,9 @@
+{
+	"id": "2eTPAMScLxgNboY",
+	"json": "{\"id\":\"2eTPAMScLxgNboY\",\"url\":\"https://yuma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://yuma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://yuma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:29.612Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://yuma.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

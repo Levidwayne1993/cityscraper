@@ -1,0 +1,9 @@
+{
+	"id": "N5RWl80CjMwwnLq",
+	"json": "{\"id\":\"N5RWl80CjMwwnLq\",\"url\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale/7928488175.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale/7928488175.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/atascadero-yard-sale/7928488175.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:44:42.804Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/atascadero-yard-sale/7928488175.html",
+	"url": "https://slo.craigslist.org/gms/d/atascadero-yard-sale/7928488175.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ifT1V29qgIAiVH6",
+	"json": "{\"id\":\"ifT1V29qgIAiVH6\",\"url\":\"https://ventura.craigslist.org/gms/d/oxnard-swap-meet/7925542182.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/oxnard-swap-meet/7925542182.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/oxnard-swap-meet/7925542182.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:35.788Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/oxnard-swap-meet/7925542182.html",
+	"url": "https://ventura.craigslist.org/gms/d/oxnard-swap-meet/7925542182.html"
+}

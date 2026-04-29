@@ -1,0 +1,9 @@
+{
+	"id": "Pq5qBEWTtEJsIce",
+	"json": "{\"id\":\"Pq5qBEWTtEJsIce\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale/7921399961.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale/7921399961.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-moving-sale/7921399961.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:16.350Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-moving-sale/7921399961.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-moving-sale/7921399961.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "UdY3FSMe7Lid2iQ",
+	"json": "{\"id\":\"UdY3FSMe7Lid2iQ\",\"url\":\"https://lexington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://lexington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186519972,
+	"retryCount": 0,
+	"uniqueKey": "https://lexington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://lexington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

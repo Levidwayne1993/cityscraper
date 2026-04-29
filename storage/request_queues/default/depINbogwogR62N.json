@@ -1,0 +1,9 @@
+{
+	"id": "depINbogwogR62N",
+	"json": "{\"id\":\"depINbogwogR62N\",\"url\":\"https://huntsville.craigslist.org/gms/d/madison-yard-sale/7923952110.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/madison-yard-sale/7923952110.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/madison-yard-sale/7923952110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:02:54.754Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/madison-yard-sale/7923952110.html",
+	"url": "https://huntsville.craigslist.org/gms/d/madison-yard-sale/7923952110.html"
+}

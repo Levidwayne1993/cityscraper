@@ -1,0 +1,9 @@
+{
+	"id": "q8zc8ydYq3F5Fw9",
+	"json": "{\"id\":\"q8zc8ydYq3F5Fw9\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-yard-sale-everything-must-go/7928606443.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-yard-sale-everything-must-go/7928606443.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-yard-sale-everything-must-go/7928606443.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:32:08.391Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-yard-sale-everything-must-go/7928606443.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-yard-sale-everything-must-go/7928606443.html"
+}

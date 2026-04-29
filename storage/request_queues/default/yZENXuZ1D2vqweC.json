@@ -1,0 +1,9 @@
+{
+	"id": "yZENXuZ1D2vqweC",
+	"json": "{\"id\":\"yZENXuZ1D2vqweC\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/peoria-garage-yard-sale/7925611530.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/peoria-garage-yard-sale/7925611530.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/peoria-garage-yard-sale/7925611530.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:32:56.938Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/peoria-garage-yard-sale/7925611530.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/peoria-garage-yard-sale/7925611530.html"
+}

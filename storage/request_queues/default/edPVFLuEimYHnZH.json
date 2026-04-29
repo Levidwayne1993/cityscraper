@@ -1,9 +1,0 @@
-{
-	"id": "edPVFLuEimYHnZH",
-	"json": "{\"id\":\"edPVFLuEimYHnZH\",\"url\":\"https://gsalr.com/garage-sales-in/tennessee/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/tennessee\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"tennessee\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334464,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/tennessee",
-	"url": "https://gsalr.com/garage-sales-in/tennessee/"
-}

@@ -1,0 +1,9 @@
+{
+	"id": "dKGmjtjvOg2KPJP",
+	"json": "{\"id\":\"dKGmjtjvOg2KPJP\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-woodland-hills-estate/7928099282.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-woodland-hills-estate/7928099282.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-woodland-hills-estate/7928099282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:38:57.661Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-woodland-hills-estate/7928099282.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/woodland-hills-woodland-hills-estate/7928099282.html"
+}

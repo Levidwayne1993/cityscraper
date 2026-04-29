@@ -1,0 +1,9 @@
+{
+	"id": "ATQk8O9CmP2E5zJ",
+	"json": "{\"id\":\"ATQk8O9CmP2E5zJ\",\"url\":\"https://cfl.craigslist.org/gms/d/lake-placid-lake-june-hills-community/7920909900.html\",\"loadedUrl\":\"https://cfl.craigslist.org/gms/d/lake-placid-lake-june-hills-community/7920909900.html\",\"uniqueKey\":\"https://cfl.craigslist.org/gms/d/lake-placid-lake-june-hills-community/7920909900.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:33:17.331Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cfl.craigslist.org/gms/d/lake-placid-lake-june-hills-community/7920909900.html",
+	"url": "https://cfl.craigslist.org/gms/d/lake-placid-lake-june-hills-community/7920909900.html"
+}

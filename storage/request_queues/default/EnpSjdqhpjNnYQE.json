@@ -1,8 +1,8 @@
 {
 	"id": "EnpSjdqhpjNnYQE",
-	"json": "{\"id\":\"EnpSjdqhpjNnYQE\",\"url\":\"https://chicago.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://chicago.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"EnpSjdqhpjNnYQE\",\"url\":\"https://chicago.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://chicago.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
 	"method": "GET",
-	"orderNo": 1777040323847,
+	"orderNo": 1777186518095,
 	"retryCount": 0,
 	"uniqueKey": "https://chicago.craigslist.org/search/gms?s=120",
 	"url": "https://chicago.craigslist.org/search/gms?s=120"

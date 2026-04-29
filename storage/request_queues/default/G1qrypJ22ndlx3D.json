@@ -1,8 +1,8 @@
 {
 	"id": "G1qrypJ22ndlx3D",
-	"json": "{\"id\":\"G1qrypJ22ndlx3D\",\"url\":\"https://newhaven.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"G1qrypJ22ndlx3D\",\"url\":\"https://newhaven.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://newhaven.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:10:44.996Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323452,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://newhaven.craigslist.org/search/gms?s=120",
 	"url": "https://newhaven.craigslist.org/search/gms?s=120"

@@ -1,0 +1,9 @@
+{
+	"id": "0VJMWsryTeKkBoQ",
+	"json": "{\"id\":\"0VJMWsryTeKkBoQ\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/solana-beach-75-off-at-12-solana-beach/7929139260.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/solana-beach-75-off-at-12-solana-beach/7929139260.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/solana-beach-75-off-at-12-solana-beach/7929139260.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:10:10.477Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/solana-beach-75-off-at-12-solana-beach/7929139260.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/solana-beach-75-off-at-12-solana-beach/7929139260.html"
+}

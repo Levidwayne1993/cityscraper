@@ -1,0 +1,9 @@
+{
+	"id": "5eSq7d89G75xRXG",
+	"json": "{\"id\":\"5eSq7d89G75xRXG\",\"url\":\"https://orangecounty.craigslist.org/fuo/d/cypress-moving-out-sale-queen-storage/7929537720.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/fuo/d/cypress-moving-out-sale-queen-storage/7929537720.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/fuo/d/cypress-moving-out-sale-queen-storage/7929537720.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:32.974Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/fuo/d/cypress-moving-out-sale-queen-storage/7929537720.html",
+	"url": "https://orangecounty.craigslist.org/fuo/d/cypress-moving-out-sale-queen-storage/7929537720.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "wuMzDtMV2TxPun0",
+	"json": "{\"id\":\"wuMzDtMV2TxPun0\",\"url\":\"https://quincy.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://quincy.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518222,
+	"retryCount": 0,
+	"uniqueKey": "https://quincy.craigslist.org/search/gms?s=480",
+	"url": "https://quincy.craigslist.org/search/gms?s=480"
+}

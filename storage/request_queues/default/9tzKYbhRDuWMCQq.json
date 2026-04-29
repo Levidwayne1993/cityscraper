@@ -1,0 +1,9 @@
+{
+	"id": "9tzKYbhRDuWMCQq",
+	"json": "{\"id\":\"9tzKYbhRDuWMCQq\",\"url\":\"https://prescott.craigslist.org/gms/d/cornville-moving-downsizing-garage-sale/7926238507.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/cornville-moving-downsizing-garage-sale/7926238507.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/cornville-moving-downsizing-garage-sale/7926238507.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:03.968Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/cornville-moving-downsizing-garage-sale/7926238507.html",
+	"url": "https://prescott.craigslist.org/gms/d/cornville-moving-downsizing-garage-sale/7926238507.html"
+}

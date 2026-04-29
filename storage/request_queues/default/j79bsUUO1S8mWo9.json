@@ -1,0 +1,9 @@
+{
+	"id": "j79bsUUO1S8mWo9",
+	"json": "{\"id\":\"j79bsUUO1S8mWo9\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-today-one-day-only/7927224087.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-today-one-day-only/7927224087.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-today-one-day-only/7927224087.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:27:27.542Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-today-one-day-only/7927224087.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/los-angeles-yard-sale-today-one-day-only/7927224087.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "rQ2lY8JEXjjCxdq",
+	"json": "{\"id\":\"rQ2lY8JEXjjCxdq\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-huge-garage-yard-sale-everything/7929497533.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-huge-garage-yard-sale-everything/7929497533.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-huge-garage-yard-sale-everything/7929497533.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:40:03.470Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-huge-garage-yard-sale-everything/7929497533.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-huge-garage-yard-sale-everything/7929497533.html"
+}

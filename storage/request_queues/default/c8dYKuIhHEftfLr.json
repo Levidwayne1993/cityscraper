@@ -1,9 +1,0 @@
-{
-	"id": "c8dYKuIhHEftfLr",
-	"json": "{\"id\":\"c8dYKuIhHEftfLr\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Madison-WI.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Madison-WI.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WI\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334296,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Madison-WI.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Madison-WI.html"
-}

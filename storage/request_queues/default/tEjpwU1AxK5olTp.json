@@ -1,0 +1,9 @@
+{
+	"id": "tEjpwU1AxK5olTp",
+	"json": "{\"id\":\"tEjpwU1AxK5olTp\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-moving-sale-antique/7900469110.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-moving-sale-antique/7900469110.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-moving-sale-antique/7900469110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:09:58.317Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-moving-sale-antique/7900469110.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-moving-sale-antique/7900469110.html"
+}

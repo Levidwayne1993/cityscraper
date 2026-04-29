@@ -1,0 +1,9 @@
+{
+	"id": "zqmxKaHt6mdaNr6",
+	"json": "{\"id\":\"zqmxKaHt6mdaNr6\",\"url\":\"https://staugustine.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://staugustine.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777218267131,
+	"retryCount": 0,
+	"uniqueKey": "https://staugustine.craigslist.org/search/gms?s=360",
+	"url": "https://staugustine.craigslist.org/search/gms?s=360"
+}

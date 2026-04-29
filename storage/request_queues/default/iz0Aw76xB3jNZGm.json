@@ -1,0 +1,9 @@
+{
+	"id": "iz0Aw76xB3jNZGm",
+	"json": "{\"id\":\"iz0Aw76xB3jNZGm\",\"url\":\"https://fresno.craigslist.org/gms/d/atascadero-atascadero-citywide-yard/7927117094.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/atascadero-atascadero-citywide-yard/7927117094.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/atascadero-atascadero-citywide-yard/7927117094.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:43:20.359Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/atascadero-atascadero-citywide-yard/7927117094.html",
+	"url": "https://fresno.craigslist.org/gms/d/atascadero-atascadero-citywide-yard/7927117094.html"
+}

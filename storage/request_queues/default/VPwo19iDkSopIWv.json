@@ -1,0 +1,9 @@
+{
+	"id": "VPwo19iDkSopIWv",
+	"json": "{\"id\":\"VPwo19iDkSopIWv\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"loadedUrl\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:00:34.496Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

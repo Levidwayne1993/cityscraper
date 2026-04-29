@@ -1,8 +1,8 @@
 {
 	"id": "gnjPtc21Tl612Z1",
-	"json": "{\"id\":\"gnjPtc21Tl612Z1\",\"url\":\"https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"gnjPtc21Tl612Z1\",\"url\":\"https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:03:41.396Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://huntsville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

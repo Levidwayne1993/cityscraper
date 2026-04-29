@@ -1,0 +1,9 @@
+{
+	"id": "55MinMqFGsj4Ah0",
+	"json": "{\"id\":\"55MinMqFGsj4Ah0\",\"url\":\"https://www.yardsalesearch.com/yard-sales/San-Antonio-TX.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/San-Antonio-TX.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"TX\",\"yssSlug\":\"San-Antonio-TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186532920,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/San-Antonio-TX.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/San-Antonio-TX.html"
+}

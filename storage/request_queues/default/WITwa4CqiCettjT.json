@@ -1,0 +1,9 @@
+{
+	"id": "WITwa4CqiCettjT",
+	"json": "{\"id\":\"WITwa4CqiCettjT\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-huge-multi-family-yard-sale/7929511467.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-huge-multi-family-yard-sale/7929511467.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-huge-multi-family-yard-sale/7929511467.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:44:57.918Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-huge-multi-family-yard-sale/7929511467.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-huge-multi-family-yard-sale/7929511467.html"
+}

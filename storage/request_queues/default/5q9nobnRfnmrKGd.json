@@ -1,0 +1,9 @@
+{
+	"id": "5q9nobnRfnmrKGd",
+	"json": "{\"id\":\"5q9nobnRfnmrKGd\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale/7923644036.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale/7923644036.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-yard-sale/7923644036.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:20:00.998Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-yard-sale/7923644036.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-yard-sale/7923644036.html"
+}

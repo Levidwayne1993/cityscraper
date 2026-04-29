@@ -1,0 +1,9 @@
+{
+	"id": "FCln0r88QWVbxRd",
+	"json": "{\"id\":\"FCln0r88QWVbxRd\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-yard-sale-this-friday-and/7929090901.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-yard-sale-this-friday-and/7929090901.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-huge-yard-sale-this-friday-and/7929090901.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:49.625Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/glendale-huge-yard-sale-this-friday-and/7929090901.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/glendale-huge-yard-sale-this-friday-and/7929090901.html"
+}

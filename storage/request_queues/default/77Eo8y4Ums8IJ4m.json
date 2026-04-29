@@ -1,0 +1,9 @@
+{
+	"id": "77Eo8y4Ums8IJ4m",
+	"json": "{\"id\":\"77Eo8y4Ums8IJ4m\",\"url\":\"https://delaware.craigslist.org/fuo/d/odessa-moving-sale-everything-must-go/7927583954.html\",\"loadedUrl\":\"https://delaware.craigslist.org/fuo/d/odessa-moving-sale-everything-must-go/7927583954.html\",\"uniqueKey\":\"https://delaware.craigslist.org/fuo/d/odessa-moving-sale-everything-must-go/7927583954.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:35.981Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/fuo/d/odessa-moving-sale-everything-must-go/7927583954.html",
+	"url": "https://delaware.craigslist.org/fuo/d/odessa-moving-sale-everything-must-go/7927583954.html"
+}

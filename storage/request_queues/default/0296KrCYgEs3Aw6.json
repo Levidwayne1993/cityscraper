@@ -1,0 +1,9 @@
+{
+	"id": "0296KrCYgEs3Aw6",
+	"json": "{\"id\":\"0296KrCYgEs3Aw6\",\"url\":\"https://quadcities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://quadcities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518593,
+	"retryCount": 0,
+	"uniqueKey": "https://quadcities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://quadcities.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

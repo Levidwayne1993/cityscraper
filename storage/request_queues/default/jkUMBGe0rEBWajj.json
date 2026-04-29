@@ -1,0 +1,9 @@
+{
+	"id": "jkUMBGe0rEBWajj",
+	"json": "{\"id\":\"jkUMBGe0rEBWajj\",\"url\":\"https://orlando.craigslist.org/gms/d/kissimmee-huge-garage-sale-2837-south/7926990575.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/kissimmee-huge-garage-sale-2837-south/7926990575.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/kissimmee-huge-garage-sale-2837-south/7926990575.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:22:11.507Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/kissimmee-huge-garage-sale-2837-south/7926990575.html",
+	"url": "https://orlando.craigslist.org/gms/d/kissimmee-huge-garage-sale-2837-south/7926990575.html"
+}

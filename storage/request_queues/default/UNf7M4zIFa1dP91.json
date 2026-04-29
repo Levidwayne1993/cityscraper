@@ -1,0 +1,9 @@
+{
+	"id": "UNf7M4zIFa1dP91",
+	"json": "{\"id\":\"UNf7M4zIFa1dP91\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-flea-market-april-25th-tables/7928428219.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-flea-market-april-25th-tables/7928428219.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-flea-market-april-25th-tables/7928428219.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:10.086Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-flea-market-april-25th-tables/7928428219.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-flea-market-april-25th-tables/7928428219.html"
+}

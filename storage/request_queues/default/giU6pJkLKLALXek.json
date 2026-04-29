@@ -1,0 +1,9 @@
+{
+	"id": "giU6pJkLKLALXek",
+	"json": "{\"id\":\"giU6pJkLKLALXek\",\"url\":\"https://fortsmith.craigslist.org/gms/d/clarksville-yard-sale-this-saturday/7923582417.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/clarksville-yard-sale-this-saturday/7923582417.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/clarksville-yard-sale-this-saturday/7923582417.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:14:45.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/clarksville-yard-sale-this-saturday/7923582417.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/clarksville-yard-sale-this-saturday/7923582417.html"
+}

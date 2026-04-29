@@ -1,0 +1,9 @@
+{
+	"id": "gXQCDV2ZGalRU4K",
+	"json": "{\"id\":\"gXQCDV2ZGalRU4K\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-the-great-estate-garage/7927303790.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-the-great-estate-garage/7927303790.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-the-great-estate-garage/7927303790.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:58.143Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-the-great-estate-garage/7927303790.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-the-great-estate-garage/7927303790.html"
+}

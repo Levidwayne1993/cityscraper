@@ -1,8 +1,8 @@
 {
 	"id": "MGP7QqlGCPz5bT0",
-	"json": "{\"id\":\"MGP7QqlGCPz5bT0\",\"url\":\"https://detroit.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://detroit.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"MGP7QqlGCPz5bT0\",\"url\":\"https://detroit.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://detroit.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
 	"method": "GET",
-	"orderNo": 1777040324825,
+	"orderNo": 1777186520651,
 	"retryCount": 0,
 	"uniqueKey": "https://detroit.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://detroit.craigslist.org/search/sss?query=moving+sale"

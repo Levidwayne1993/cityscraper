@@ -1,0 +1,9 @@
+{
+	"id": "cAYtfuHlU2IW1NV",
+	"json": "{\"id\":\"cAYtfuHlU2IW1NV\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/playa-del-rey-yard-sale/7930077911.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/playa-del-rey-yard-sale/7930077911.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/playa-del-rey-yard-sale/7930077911.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:20:53.340Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/playa-del-rey-yard-sale/7930077911.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/playa-del-rey-yard-sale/7930077911.html"
+}

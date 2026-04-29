@@ -1,0 +1,9 @@
+{
+	"id": "wcn4b0fAcjjtDII",
+	"json": "{\"id\":\"wcn4b0fAcjjtDII\",\"url\":\"https://glensfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://glensfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523185,
+	"retryCount": 0,
+	"uniqueKey": "https://glensfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://glensfalls.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

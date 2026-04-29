@@ -1,0 +1,9 @@
+{
+	"id": "Klx66U4qPaIXR4r",
+	"json": "{\"id\":\"Klx66U4qPaIXR4r\",\"url\":\"https://springfieldil.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://springfieldil.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518202,
+	"retryCount": 0,
+	"uniqueKey": "https://springfieldil.craigslist.org/search/gms?s=480",
+	"url": "https://springfieldil.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MbRdlKZK0SyvgDD",
+	"json": "{\"id\":\"MbRdlKZK0SyvgDD\",\"url\":\"https://newhaven.craigslist.org/gms/d/meriden-huge-tag-sale-18-saturday-only/7927909753.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/meriden-huge-tag-sale-18-saturday-only/7927909753.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/meriden-huge-tag-sale-18-saturday-only/7927909753.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:31.432Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/meriden-huge-tag-sale-18-saturday-only/7927909753.html",
+	"url": "https://newhaven.craigslist.org/gms/d/meriden-huge-tag-sale-18-saturday-only/7927909753.html"
+}

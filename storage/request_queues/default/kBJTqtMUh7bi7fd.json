@@ -1,0 +1,9 @@
+{
+	"id": "kBJTqtMUh7bi7fd",
+	"json": "{\"id\":\"kBJTqtMUh7bi7fd\",\"url\":\"https://bozeman.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://bozeman.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522537,
+	"retryCount": 0,
+	"uniqueKey": "https://bozeman.craigslist.org/search/gms?s=480",
+	"url": "https://bozeman.craigslist.org/search/gms?s=480"
+}

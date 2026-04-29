@@ -1,0 +1,9 @@
+{
+	"id": "AP0KVxlZL2Z0Mtm",
+	"json": "{\"id\":\"AP0KVxlZL2Z0Mtm\",\"url\":\"https://newlondon.craigslist.org/fuo/d/north-franklin-estate-sale/7928303860.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/fuo/d/north-franklin-estate-sale/7928303860.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/fuo/d/north-franklin-estate-sale/7928303860.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:11.107Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/fuo/d/north-franklin-estate-sale/7928303860.html",
+	"url": "https://newlondon.craigslist.org/fuo/d/north-franklin-estate-sale/7928303860.html"
+}

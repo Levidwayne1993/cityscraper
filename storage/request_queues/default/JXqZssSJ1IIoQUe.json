@@ -1,0 +1,9 @@
+{
+	"id": "JXqZssSJ1IIoQUe",
+	"json": "{\"id\":\"JXqZssSJ1IIoQUe\",\"url\":\"https://sandiego.craigslist.org/csd/hsh/d/bonita-estate-sale-everything-must-go/7908969975.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/hsh/d/bonita-estate-sale-everything-must-go/7908969975.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/hsh/d/bonita-estate-sale-everything-must-go/7908969975.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:49.195Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/hsh/d/bonita-estate-sale-everything-must-go/7908969975.html",
+	"url": "https://sandiego.craigslist.org/csd/hsh/d/bonita-estate-sale-everything-must-go/7908969975.html"
+}

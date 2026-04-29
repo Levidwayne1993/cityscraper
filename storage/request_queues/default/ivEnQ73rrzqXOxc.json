@@ -1,0 +1,9 @@
+{
+	"id": "ivEnQ73rrzqXOxc",
+	"json": "{\"id\":\"ivEnQ73rrzqXOxc\",\"url\":\"https://newlondon.craigslist.org/gms/d/waterford-yard-sale-in-waterford-on/7927056437.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/waterford-yard-sale-in-waterford-on/7927056437.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/waterford-yard-sale-in-waterford-on/7927056437.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:38.906Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/waterford-yard-sale-in-waterford-on/7927056437.html",
+	"url": "https://newlondon.craigslist.org/gms/d/waterford-yard-sale-in-waterford-on/7927056437.html"
+}

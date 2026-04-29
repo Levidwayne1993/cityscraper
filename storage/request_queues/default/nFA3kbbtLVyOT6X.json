@@ -1,8 +1,8 @@
 {
 	"id": "nFA3kbbtLVyOT6X",
-	"json": "{\"id\":\"nFA3kbbtLVyOT6X\",\"url\":\"https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"nFA3kbbtLVyOT6X\",\"url\":\"https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:02:46.994Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323508,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://keys.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

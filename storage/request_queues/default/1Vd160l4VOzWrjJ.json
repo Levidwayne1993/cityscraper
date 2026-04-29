@@ -1,0 +1,9 @@
+{
+	"id": "1Vd160l4VOzWrjJ",
+	"json": "{\"id\":\"1Vd160l4VOzWrjJ\",\"url\":\"https://monterey.craigslist.org/gms/d/seaside-yard-sale-vintage-items-pokemon/7928678934.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/seaside-yard-sale-vintage-items-pokemon/7928678934.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/seaside-yard-sale-vintage-items-pokemon/7928678934.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:03:47.262Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/seaside-yard-sale-vintage-items-pokemon/7928678934.html",
+	"url": "https://monterey.craigslist.org/gms/d/seaside-yard-sale-vintage-items-pokemon/7928678934.html"
+}

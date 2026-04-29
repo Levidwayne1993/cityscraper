@@ -1,0 +1,9 @@
+{
+	"id": "4quqkAIE2tCVjLY",
+	"json": "{\"id\":\"4quqkAIE2tCVjLY\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-community-garage-sale/7922867115.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-community-garage-sale/7922867115.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-community-garage-sale/7922867115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:27.873Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-community-garage-sale/7922867115.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-community-garage-sale/7922867115.html"
+}

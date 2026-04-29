@@ -1,0 +1,9 @@
+{
+	"id": "CJA7c02oiiYOK0k",
+	"json": "{\"id\":\"CJA7c02oiiYOK0k\",\"url\":\"https://chicago.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://chicago.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518097,
+	"retryCount": 0,
+	"uniqueKey": "https://chicago.craigslist.org/search/gms?s=360",
+	"url": "https://chicago.craigslist.org/search/gms?s=360"
+}

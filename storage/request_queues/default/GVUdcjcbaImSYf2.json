@@ -1,0 +1,9 @@
+{
+	"id": "GVUdcjcbaImSYf2",
+	"json": "{\"id\":\"GVUdcjcbaImSYf2\",\"url\":\"https://ventura.craigslist.org/gms/d/westlake-village-community-garage-sale/7928421838.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/westlake-village-community-garage-sale/7928421838.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/westlake-village-community-garage-sale/7928421838.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:55.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/westlake-village-community-garage-sale/7928421838.html",
+	"url": "https://ventura.craigslist.org/gms/d/westlake-village-community-garage-sale/7928421838.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KldmcBv1GlmuM4I",
+	"json": "{\"id\":\"KldmcBv1GlmuM4I\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-yard-sale-all-new-items/7917059251.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-yard-sale-all-new-items/7917059251.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-yard-sale-all-new-items/7917059251.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:03:32.079Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-yard-sale-all-new-items/7917059251.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-yard-sale-all-new-items/7917059251.html"
+}

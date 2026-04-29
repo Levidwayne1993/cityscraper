@@ -1,0 +1,9 @@
+{
+	"id": "8W5zv9PBythomwA",
+	"json": "{\"id\":\"8W5zv9PBythomwA\",\"url\":\"https://delaware.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://delaware.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://delaware.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:38.823Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://delaware.craigslist.org/search/ccc?query=yard+sale"
+}

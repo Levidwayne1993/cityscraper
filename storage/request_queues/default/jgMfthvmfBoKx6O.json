@@ -1,0 +1,9 @@
+{
+	"id": "jgMfthvmfBoKx6O",
+	"json": "{\"id\":\"jgMfthvmfBoKx6O\",\"url\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-multi-family-garage/7922364306.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-multi-family-garage/7922364306.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/lake-havasu-city-multi-family-garage/7922364306.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:29.652Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/lake-havasu-city-multi-family-garage/7922364306.html",
+	"url": "https://mohave.craigslist.org/gms/d/lake-havasu-city-multi-family-garage/7922364306.html"
+}

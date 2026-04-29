@@ -1,0 +1,9 @@
+{
+	"id": "0zAuSnRVGjDrsrJ",
+	"json": "{\"id\":\"0zAuSnRVGjDrsrJ\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-neighborhood-garage-sale-nr/7930023714.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-neighborhood-garage-sale-nr/7930023714.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-neighborhood-garage-sale-nr/7930023714.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:27.899Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/oakland-neighborhood-garage-sale-nr/7930023714.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/oakland-neighborhood-garage-sale-nr/7930023714.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "0i2JY9uadisb3AH",
+	"json": "{\"id\":\"0i2JY9uadisb3AH\",\"url\":\"https://inlandempire.craigslist.org/gms/d/menifee-westridge-community-garage-sale/7928367612.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/menifee-westridge-community-garage-sale/7928367612.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/menifee-westridge-community-garage-sale/7928367612.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:15:50.670Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/menifee-westridge-community-garage-sale/7928367612.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/menifee-westridge-community-garage-sale/7928367612.html"
+}

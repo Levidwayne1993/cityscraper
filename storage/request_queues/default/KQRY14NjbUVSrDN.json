@@ -1,0 +1,9 @@
+{
+	"id": "KQRY14NjbUVSrDN",
+	"json": "{\"id\":\"KQRY14NjbUVSrDN\",\"url\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-huge-multi-family-sale/7929787537.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-huge-multi-family-sale/7929787537.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-huge-multi-family-sale/7929787537.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:01.231Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/fort-collins-huge-multi-family-sale/7929787537.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/fort-collins-huge-multi-family-sale/7929787537.html"
+}

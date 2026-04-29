@@ -1,0 +1,9 @@
+{
+	"id": "NOO8yQf93fUwyvG",
+	"json": "{\"id\":\"NOO8yQf93fUwyvG\",\"url\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-4-sidewalk-sale-baby-kid/7925084430.html\",\"loadedUrl\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-4-sidewalk-sale-baby-kid/7925084430.html\",\"uniqueKey\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-4-sidewalk-sale-baby-kid/7925084430.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:07.507Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/gms/d/mount-shasta-4-sidewalk-sale-baby-kid/7925084430.html",
+	"url": "https://siskiyou.craigslist.org/gms/d/mount-shasta-4-sidewalk-sale-baby-kid/7925084430.html"
+}

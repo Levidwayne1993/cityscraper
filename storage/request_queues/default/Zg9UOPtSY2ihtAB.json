@@ -1,0 +1,9 @@
+{
+	"id": "Zg9UOPtSY2ihtAB",
+	"json": "{\"id\":\"Zg9UOPtSY2ihtAB\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/chevy-chase-moving-sale/7926703663.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/chevy-chase-moving-sale/7926703663.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/chevy-chase-moving-sale/7926703663.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:28:44.134Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/chevy-chase-moving-sale/7926703663.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/chevy-chase-moving-sale/7926703663.html"
+}

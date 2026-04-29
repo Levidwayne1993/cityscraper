@@ -1,0 +1,9 @@
+{
+	"id": "xzUkdOZidmI2eIC",
+	"json": "{\"id\":\"xzUkdOZidmI2eIC\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale-on-candytuft-blvd/7920958021.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale-on-candytuft-blvd/7920958021.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-garage-sale-on-candytuft-blvd/7920958021.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:06.475Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-garage-sale-on-candytuft-blvd/7920958021.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-garage-sale-on-candytuft-blvd/7920958021.html"
+}

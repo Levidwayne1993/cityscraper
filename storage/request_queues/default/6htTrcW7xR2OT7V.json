@@ -1,0 +1,9 @@
+{
+	"id": "6htTrcW7xR2OT7V",
+	"json": "{\"id\":\"6htTrcW7xR2OT7V\",\"url\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale/7922391053.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale/7922391053.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale/7922391053.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:47.563Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/casselberry-yard-sale/7922391053.html",
+	"url": "https://orlando.craigslist.org/gms/d/casselberry-yard-sale/7922391053.html"
+}

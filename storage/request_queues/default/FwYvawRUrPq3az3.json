@@ -1,0 +1,9 @@
+{
+	"id": "FwYvawRUrPq3az3",
+	"json": "{\"id\":\"FwYvawRUrPq3az3\",\"url\":\"https://goldcountry.craigslist.org/gms/d/auburn-local-business-moving-out-sale/7922665630.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/auburn-local-business-moving-out-sale/7922665630.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/auburn-local-business-moving-out-sale/7922665630.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:51:11.188Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/auburn-local-business-moving-out-sale/7922665630.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/auburn-local-business-moving-out-sale/7922665630.html"
+}

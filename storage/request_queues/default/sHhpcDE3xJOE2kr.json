@@ -1,9 +1,0 @@
-{
-	"id": "sHhpcDE3xJOE2kr",
-	"json": "{\"id\":\"sHhpcDE3xJOE2kr\",\"url\":\"https://www.garagesalefinder.com/sale/Vermont\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Vermont\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Vermont\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330397,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Vermont",
-	"url": "https://www.garagesalefinder.com/sale/Vermont"
-}

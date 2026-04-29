@@ -1,0 +1,9 @@
+{
+	"id": "peRl6UyCGURAcKy",
+	"json": "{\"id\":\"peRl6UyCGURAcKy\",\"url\":\"https://bellingham.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://bellingham.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527931,
+	"retryCount": 0,
+	"uniqueKey": "https://bellingham.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://bellingham.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "N1Otthrd0lFd3il",
+	"json": "{\"id\":\"N1Otthrd0lFd3il\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-multifamily-garage-sale/7922585143.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-multifamily-garage-sale/7922585143.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-multifamily-garage-sale/7922585143.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:17.485Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-multifamily-garage-sale/7922585143.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-multifamily-garage-sale/7922585143.html"
+}

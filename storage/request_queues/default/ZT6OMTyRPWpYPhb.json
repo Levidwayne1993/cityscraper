@@ -1,0 +1,9 @@
+{
+	"id": "ZT6OMTyRPWpYPhb",
+	"json": "{\"id\":\"ZT6OMTyRPWpYPhb\",\"url\":\"https://phoenix.craigslist.org/wvl/atq/d/glendale-estate-sale-vintage-butcher/7925965324.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/atq/d/glendale-estate-sale-vintage-butcher/7925965324.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/atq/d/glendale-estate-sale-vintage-butcher/7925965324.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:04.361Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/atq/d/glendale-estate-sale-vintage-butcher/7925965324.html",
+	"url": "https://phoenix.craigslist.org/wvl/atq/d/glendale-estate-sale-vintage-butcher/7925965324.html"
+}

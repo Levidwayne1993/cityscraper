@@ -1,0 +1,9 @@
+{
+	"id": "8sLUjmSSnj0Poq6",
+	"json": "{\"id\":\"8sLUjmSSnj0Poq6\",\"url\":\"https://corpuschristi.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://corpuschristi.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526192,
+	"retryCount": 0,
+	"uniqueKey": "https://corpuschristi.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://corpuschristi.craigslist.org/search/ccc?query=garage+sale"
+}

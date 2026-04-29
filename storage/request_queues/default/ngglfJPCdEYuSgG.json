@@ -1,0 +1,9 @@
+{
+	"id": "ngglfJPCdEYuSgG",
+	"json": "{\"id\":\"ngglfJPCdEYuSgG\",\"url\":\"https://flagstaff.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://flagstaff.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://flagstaff.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:10.720Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://flagstaff.craigslist.org/search/ccc?query=yard+sale"
+}

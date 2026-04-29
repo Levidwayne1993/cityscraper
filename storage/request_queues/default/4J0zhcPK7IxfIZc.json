@@ -1,0 +1,9 @@
+{
+	"id": "4J0zhcPK7IxfIZc",
+	"json": "{\"id\":\"4J0zhcPK7IxfIZc\",\"url\":\"https://jonesboro.craigslist.org/gms/d/batesville-community-yard-sale/7922209133.html\",\"loadedUrl\":\"https://jonesboro.craigslist.org/gms/d/batesville-community-yard-sale/7922209133.html\",\"uniqueKey\":\"https://jonesboro.craigslist.org/gms/d/batesville-community-yard-sale/7922209133.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:16:36.169Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jonesboro.craigslist.org/gms/d/batesville-community-yard-sale/7922209133.html",
+	"url": "https://jonesboro.craigslist.org/gms/d/batesville-community-yard-sale/7922209133.html"
+}

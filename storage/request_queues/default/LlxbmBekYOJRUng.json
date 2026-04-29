@@ -1,8 +1,8 @@
 {
 	"id": "LlxbmBekYOJRUng",
-	"json": "{\"id\":\"LlxbmBekYOJRUng\",\"url\":\"https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"LlxbmBekYOJRUng\",\"url\":\"https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
 	"method": "GET",
-	"orderNo": 1777040325349,
+	"orderNo": 1777186521008,
 	"retryCount": 0,
 	"uniqueKey": "https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://mankato.craigslist.org/search/sss?query=yard+sale+garage+sale"

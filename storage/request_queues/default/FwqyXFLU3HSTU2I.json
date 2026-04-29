@@ -1,0 +1,9 @@
+{
+	"id": "FwqyXFLU3HSTU2I",
+	"json": "{\"id\":\"FwqyXFLU3HSTU2I\",\"url\":\"https://newhaven.craigslist.org/gms/d/new-britain-indoor-flea-market-year/7927943307.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/new-britain-indoor-flea-market-year/7927943307.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/new-britain-indoor-flea-market-year/7927943307.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:08.713Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/new-britain-indoor-flea-market-year/7927943307.html",
+	"url": "https://newhaven.craigslist.org/gms/d/new-britain-indoor-flea-market-year/7927943307.html"
+}

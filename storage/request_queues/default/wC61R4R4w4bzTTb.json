@@ -1,0 +1,9 @@
+{
+	"id": "wC61R4R4w4bzTTb",
+	"json": "{\"id\":\"wC61R4R4w4bzTTb\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-huge-community-yard-sale/7929540713.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-huge-community-yard-sale/7929540713.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/valley-center-huge-community-yard-sale/7929540713.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:55:31.441Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/valley-center-huge-community-yard-sale/7929540713.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/valley-center-huge-community-yard-sale/7929540713.html"
+}

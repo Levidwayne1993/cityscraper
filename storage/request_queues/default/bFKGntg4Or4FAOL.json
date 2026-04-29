@@ -1,0 +1,9 @@
+{
+	"id": "bFKGntg4Or4FAOL",
+	"json": "{\"id\":\"bFKGntg4Or4FAOL\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-moving-sale-vintage-furniture/7923156218.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-moving-sale-vintage-furniture/7923156218.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-bruno-moving-sale-vintage-furniture/7923156218.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:53.303Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-moving-sale-vintage-furniture/7923156218.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-bruno-moving-sale-vintage-furniture/7923156218.html"
+}

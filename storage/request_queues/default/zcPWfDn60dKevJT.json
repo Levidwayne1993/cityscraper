@@ -1,0 +1,9 @@
+{
+	"id": "zcPWfDn60dKevJT",
+	"json": "{\"id\":\"zcPWfDn60dKevJT\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale/7929047922.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale/7929047922.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale/7929047922.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:23:54.370Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale/7929047922.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-yard-sale/7929047922.html"
+}

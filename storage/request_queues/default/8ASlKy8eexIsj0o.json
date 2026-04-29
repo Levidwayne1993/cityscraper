@@ -1,0 +1,9 @@
+{
+	"id": "8ASlKy8eexIsj0o",
+	"json": "{\"id\":\"8ASlKy8eexIsj0o\",\"url\":\"https://lincoln.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://lincoln.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
+	"method": "GET",
+	"orderNo": 1777186522658,
+	"retryCount": 0,
+	"uniqueKey": "https://lincoln.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://lincoln.craigslist.org/search/ccc?query=yard+sale"
+}

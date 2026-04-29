@@ -1,0 +1,9 @@
+{
+	"id": "zKS7Vf10tiKleQH",
+	"json": "{\"id\":\"zKS7Vf10tiKleQH\",\"url\":\"https://humboldt.craigslist.org/gms/d/crescent-city-garage-sale/7922283100.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/crescent-city-garage-sale/7922283100.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/crescent-city-garage-sale/7922283100.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:11.610Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/crescent-city-garage-sale/7922283100.html",
+	"url": "https://humboldt.craigslist.org/gms/d/crescent-city-garage-sale/7922283100.html"
+}

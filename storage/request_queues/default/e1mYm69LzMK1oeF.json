@@ -1,0 +1,9 @@
+{
+	"id": "e1mYm69LzMK1oeF",
+	"json": "{\"id\":\"e1mYm69LzMK1oeF\",\"url\":\"https://yubasutter.craigslist.org/for/d/yuba-city-garage-sale/7930053403.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/for/d/yuba-city-garage-sale/7930053403.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/for/d/yuba-city-garage-sale/7930053403.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:24:51.015Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/for/d/yuba-city-garage-sale/7930053403.html",
+	"url": "https://yubasutter.craigslist.org/for/d/yuba-city-garage-sale/7930053403.html"
+}

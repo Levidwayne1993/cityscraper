@@ -1,0 +1,9 @@
+{
+	"id": "i9rarHZQswqAybT",
+	"json": "{\"id\":\"i9rarHZQswqAybT\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-three-family-yard-sale/7925519946.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-three-family-yard-sale/7925519946.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-three-family-yard-sale/7925519946.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:42:37.607Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-three-family-yard-sale/7925519946.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-three-family-yard-sale/7925519946.html"
+}

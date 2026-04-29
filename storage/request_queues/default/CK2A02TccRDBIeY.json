@@ -1,0 +1,9 @@
+{
+	"id": "CK2A02TccRDBIeY",
+	"json": "{\"id\":\"CK2A02TccRDBIeY\",\"url\":\"https://ventura.craigslist.org/vnn/d/thousand-oaks-garage-sale-today-am/7928561748.html\",\"loadedUrl\":\"https://ventura.craigslist.org/vnn/d/thousand-oaks-garage-sale-today-am/7928561748.html\",\"uniqueKey\":\"https://ventura.craigslist.org/vnn/d/thousand-oaks-garage-sale-today-am/7928561748.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:19:14.666Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/vnn/d/thousand-oaks-garage-sale-today-am/7928561748.html",
+	"url": "https://ventura.craigslist.org/vnn/d/thousand-oaks-garage-sale-today-am/7928561748.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "aTEJOFPyfgcgPrF",
+	"json": "{\"id\":\"aTEJOFPyfgcgPrF\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/gainesville-estate-sale-saturday-18/7928488843.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/gainesville-estate-sale-saturday-18/7928488843.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/gainesville-estate-sale-saturday-18/7928488843.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:31:59.895Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/gainesville-estate-sale-saturday-18/7928488843.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/gainesville-estate-sale-saturday-18/7928488843.html"
+}

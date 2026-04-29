@@ -1,0 +1,9 @@
+{
+	"id": "xW7gNbQRvCN0Jbr",
+	"json": "{\"id\":\"xW7gNbQRvCN0Jbr\",\"url\":\"https://denver.craigslist.org/gms/d/denver-family-yard-sales-cory-merrill/7929849156.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-family-yard-sales-cory-merrill/7929849156.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-family-yard-sales-cory-merrill/7929849156.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:44.627Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-family-yard-sales-cory-merrill/7929849156.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-family-yard-sales-cory-merrill/7929849156.html"
+}

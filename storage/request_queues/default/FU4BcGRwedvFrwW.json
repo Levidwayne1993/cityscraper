@@ -1,0 +1,9 @@
+{
+	"id": "FU4BcGRwedvFrwW",
+	"json": "{\"id\":\"FU4BcGRwedvFrwW\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-multi-family-yard-sale-east/7925475575.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-multi-family-yard-sale-east/7925475575.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-multi-family-yard-sale-east/7925475575.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:08.378Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-multi-family-yard-sale-east/7925475575.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-multi-family-yard-sale-east/7925475575.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "LxFBJxYMv8BnYSO",
+	"json": "{\"id\":\"LxFBJxYMv8BnYSO\",\"url\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-western-art-collectors-estate/7930210552.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-western-art-collectors-estate/7930210552.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-western-art-collectors-estate/7930210552.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:36:46.821Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/clt/d/peoria-western-art-collectors-estate/7930210552.html",
+	"url": "https://phoenix.craigslist.org/wvl/clt/d/peoria-western-art-collectors-estate/7930210552.html"
+}

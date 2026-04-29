@@ -1,0 +1,9 @@
+{
+	"id": "wFmKibdOwIUU29n",
+	"json": "{\"id\":\"wFmKibdOwIUU29n\",\"url\":\"https://boulder.craigslist.org/gms/d/boulder-yard-sale-today/7929710608.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/boulder-yard-sale-today/7929710608.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/boulder-yard-sale-today/7929710608.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:26:33.205Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/boulder-yard-sale-today/7929710608.html",
+	"url": "https://boulder.craigslist.org/gms/d/boulder-yard-sale-today/7929710608.html"
+}

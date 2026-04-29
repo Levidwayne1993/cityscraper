@@ -1,0 +1,9 @@
+{
+	"id": "dZYK37Y0jWUUJTx",
+	"json": "{\"id\":\"dZYK37Y0jWUUJTx\",\"url\":\"https://losangeles.craigslist.org/sfv/com/d/reseda-yard-sale-april-11th-saturday-12/7926996831.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/com/d/reseda-yard-sale-april-11th-saturday-12/7926996831.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/com/d/reseda-yard-sale-april-11th-saturday-12/7926996831.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:42:00.961Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/com/d/reseda-yard-sale-april-11th-saturday-12/7926996831.html",
+	"url": "https://losangeles.craigslist.org/sfv/com/d/reseda-yard-sale-april-11th-saturday-12/7926996831.html"
+}

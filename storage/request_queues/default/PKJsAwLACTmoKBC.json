@@ -1,0 +1,9 @@
+{
+	"id": "PKJsAwLACTmoKBC",
+	"json": "{\"id\":\"PKJsAwLACTmoKBC\",\"url\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-bissell-crosswave/7927561024.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-bissell-crosswave/7927561024.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-bissell-crosswave/7927561024.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:06.539Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-bissell-crosswave/7927561024.html",
+	"url": "https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-bissell-crosswave/7927561024.html"
+}

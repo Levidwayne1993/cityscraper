@@ -1,0 +1,9 @@
+{
+	"id": "l5hnk0DCdfhkbPr",
+	"json": "{\"id\":\"l5hnk0DCdfhkbPr\",\"url\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-and-moving-sale/7924946899.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-and-moving-sale/7924946899.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-and-moving-sale/7924946899.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:52:09.694Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/huachuca-city-garage-and-moving-sale/7924946899.html",
+	"url": "https://sierravista.craigslist.org/gms/d/huachuca-city-garage-and-moving-sale/7924946899.html"
+}

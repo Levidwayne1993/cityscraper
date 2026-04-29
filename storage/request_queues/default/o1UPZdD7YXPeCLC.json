@@ -1,0 +1,9 @@
+{
+	"id": "o1UPZdD7YXPeCLC",
+	"json": "{\"id\":\"o1UPZdD7YXPeCLC\",\"url\":\"https://miami.craigslist.org/mdc/fuo/d/miami-beach-furniture-items-moving-sale/7929766810.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/fuo/d/miami-beach-furniture-items-moving-sale/7929766810.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/fuo/d/miami-beach-furniture-items-moving-sale/7929766810.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:18.642Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/fuo/d/miami-beach-furniture-items-moving-sale/7929766810.html",
+	"url": "https://miami.craigslist.org/mdc/fuo/d/miami-beach-furniture-items-moving-sale/7929766810.html"
+}

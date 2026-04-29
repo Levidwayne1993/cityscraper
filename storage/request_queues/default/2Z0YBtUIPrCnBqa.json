@@ -1,0 +1,9 @@
+{
+	"id": "2Z0YBtUIPrCnBqa",
+	"json": "{\"id\":\"2Z0YBtUIPrCnBqa\",\"url\":\"https://reno.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://reno.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522748,
+	"retryCount": 0,
+	"uniqueKey": "https://reno.craigslist.org/search/gms?s=360",
+	"url": "https://reno.craigslist.org/search/gms?s=360"
+}

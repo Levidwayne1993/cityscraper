@@ -1,0 +1,9 @@
+{
+	"id": "zPOjP4o3WTbshKf",
+	"json": "{\"id\":\"zPOjP4o3WTbshKf\",\"url\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-comic-book/7926512036.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-comic-book/7926512036.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-comic-book/7926512036.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:07.477Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-comic-book/7926512036.html",
+	"url": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-comic-book/7926512036.html"
+}

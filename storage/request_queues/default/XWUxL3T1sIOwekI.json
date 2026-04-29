@@ -1,0 +1,9 @@
+{
+	"id": "XWUxL3T1sIOwekI",
+	"json": "{\"id\":\"XWUxL3T1sIOwekI\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-estate-salemake-an-offer-day/7924324807.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-estate-salemake-an-offer-day/7924324807.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-estate-salemake-an-offer-day/7924324807.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:12.044Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-estate-salemake-an-offer-day/7924324807.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-estate-salemake-an-offer-day/7924324807.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vrhxOlnc4R8LVvu",
+	"json": "{\"id\":\"vrhxOlnc4R8LVvu\",\"url\":\"https://orangecounty.craigslist.org/gms/d/fullerton-yard-sale-tons-of-good-items/7930021998.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/fullerton-yard-sale-tons-of-good-items/7930021998.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/fullerton-yard-sale-tons-of-good-items/7930021998.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:14:55.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/fullerton-yard-sale-tons-of-good-items/7930021998.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/fullerton-yard-sale-tons-of-good-items/7930021998.html"
+}

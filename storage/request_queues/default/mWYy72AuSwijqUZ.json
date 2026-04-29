@@ -1,0 +1,9 @@
+{
+	"id": "mWYy72AuSwijqUZ",
+	"json": "{\"id\":\"mWYy72AuSwijqUZ\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-saturday-only/7921069224.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-saturday-only/7921069224.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-saturday-only/7921069224.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:31.945Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-saturday-only/7921069224.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-yard-sale-saturday-only/7921069224.html"
+}

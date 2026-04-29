@@ -1,0 +1,9 @@
+{
+	"id": "TNFTvgULPCfoLYy",
+	"json": "{\"id\":\"TNFTvgULPCfoLYy\",\"url\":\"https://newhaven.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554184.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554184.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554184.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:16.634Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554184.html",
+	"url": "https://newhaven.craigslist.org/gms/d/wallingford-one-day-flash-estate-sale/7929554184.html"
+}

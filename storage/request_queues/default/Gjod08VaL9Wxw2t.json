@@ -1,0 +1,9 @@
+{
+	"id": "Gjod08VaL9Wxw2t",
+	"json": "{\"id\":\"Gjod08VaL9Wxw2t\",\"url\":\"https://sarasota.craigslist.org/fuo/d/sarasota-estate-sale-100s-items/7898697334.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/fuo/d/sarasota-estate-sale-100s-items/7898697334.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/fuo/d/sarasota-estate-sale-100s-items/7898697334.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:50:31.904Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/fuo/d/sarasota-estate-sale-100s-items/7898697334.html",
+	"url": "https://sarasota.craigslist.org/fuo/d/sarasota-estate-sale-100s-items/7898697334.html"
+}

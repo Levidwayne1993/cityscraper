@@ -1,0 +1,9 @@
+{
+	"id": "aCL3eXDieo9U7aU",
+	"json": "{\"id\":\"aCL3eXDieo9U7aU\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-st-john-the-apostle-mcc/7923835259.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-st-john-the-apostle-mcc/7923835259.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-st-john-the-apostle-mcc/7923835259.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:23:00.975Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-st-john-the-apostle-mcc/7923835259.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-st-john-the-apostle-mcc/7923835259.html"
+}

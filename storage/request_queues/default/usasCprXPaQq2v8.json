@@ -1,0 +1,9 @@
+{
+	"id": "usasCprXPaQq2v8",
+	"json": "{\"id\":\"usasCprXPaQq2v8\",\"url\":\"https://santabarbara.craigslist.org/for/d/santa-barbara-estate-sale/7923992583.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/for/d/santa-barbara-estate-sale/7923992583.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/for/d/santa-barbara-estate-sale/7923992583.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:18.895Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/for/d/santa-barbara-estate-sale/7923992583.html",
+	"url": "https://santabarbara.craigslist.org/for/d/santa-barbara-estate-sale/7923992583.html"
+}

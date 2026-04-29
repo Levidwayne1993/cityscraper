@@ -1,0 +1,9 @@
+{
+	"id": "jDXZYc9UBnP6LPb",
+	"json": "{\"id\":\"jDXZYc9UBnP6LPb\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-multi-family-yard-sale-sunday/7928711974.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-multi-family-yard-sale-sunday/7928711974.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-multi-family-yard-sale-sunday/7928711974.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:56:17.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-multi-family-yard-sale-sunday/7928711974.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-multi-family-yard-sale-sunday/7928711974.html"
+}

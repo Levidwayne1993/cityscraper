@@ -1,0 +1,9 @@
+{
+	"id": "6hzmQ0uH8hHEgO8",
+	"json": "{\"id\":\"6hzmQ0uH8hHEgO8\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-moving-out-sale-60-off/7930150991.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-moving-out-sale-60-off/7930150991.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-moving-out-sale-60-off/7930150991.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:48.897Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/brentwood-moving-out-sale-60-off/7930150991.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/brentwood-moving-out-sale-60-off/7930150991.html"
+}

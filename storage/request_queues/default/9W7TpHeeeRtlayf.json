@@ -1,0 +1,9 @@
+{
+	"id": "9W7TpHeeeRtlayf",
+	"json": "{\"id\":\"9W7TpHeeeRtlayf\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-massive-yard-sale-everything/7927064050.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-massive-yard-sale-everything/7927064050.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-massive-yard-sale-everything/7927064050.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:37.886Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-massive-yard-sale-everything/7927064050.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-massive-yard-sale-everything/7927064050.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qXWjLVuM0QEoKUe",
+	"json": "{\"id\":\"qXWjLVuM0QEoKUe\",\"url\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-sale-couch-desk/7927990127.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-sale-couch-desk/7927990127.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-sale-couch-desk/7927990127.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:54:47.467Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-sale-couch-desk/7927990127.html",
+	"url": "https://santabarbara.craigslist.org/fuo/d/santa-barbara-moving-sale-couch-desk/7927990127.html"
+}

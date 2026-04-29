@@ -1,0 +1,9 @@
+{
+	"id": "35Zfc8qO8xxgv7p",
+	"json": "{\"id\":\"35Zfc8qO8xxgv7p\",\"url\":\"https://miami.craigslist.org/mdc/mcy/d/miami-gold-wing-miles-estate-sale/7924506671.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/mcy/d/miami-gold-wing-miles-estate-sale/7924506671.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/mcy/d/miami-gold-wing-miles-estate-sale/7924506671.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:59.806Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/mcy/d/miami-gold-wing-miles-estate-sale/7924506671.html",
+	"url": "https://miami.craigslist.org/mdc/mcy/d/miami-gold-wing-miles-estate-sale/7924506671.html"
+}

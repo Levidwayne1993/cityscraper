@@ -1,0 +1,9 @@
+{
+	"id": "WxPyLfFmCy5iLO9",
+	"json": "{\"id\":\"WxPyLfFmCy5iLO9\",\"url\":\"https://littlerock.craigslist.org/gms/d/searcy-dining-table-dresser-couch-bed/7923700623.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/searcy-dining-table-dresser-couch-bed/7923700623.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/searcy-dining-table-dresser-couch-bed/7923700623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:17:18.787Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/searcy-dining-table-dresser-couch-bed/7923700623.html",
+	"url": "https://littlerock.craigslist.org/gms/d/searcy-dining-table-dresser-couch-bed/7923700623.html"
+}

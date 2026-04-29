@@ -1,0 +1,9 @@
+{
+	"id": "f0TEMxuRpBimBOt",
+	"json": "{\"id\":\"f0TEMxuRpBimBOt\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/chandler-huge-yard-sale-this-weekend/7926721065.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/chandler-huge-yard-sale-this-weekend/7926721065.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/chandler-huge-yard-sale-this-weekend/7926721065.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:32:51.606Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/chandler-huge-yard-sale-this-weekend/7926721065.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/chandler-huge-yard-sale-this-weekend/7926721065.html"
+}

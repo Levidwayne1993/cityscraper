@@ -1,0 +1,9 @@
+{
+	"id": "dXOoxdus8oCU7uT",
+	"json": "{\"id\":\"dXOoxdus8oCU7uT\",\"url\":\"https://flagstaff.craigslist.org/gms/d/cornville-yard-sale/7925620044.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/cornville-yard-sale/7925620044.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/cornville-yard-sale/7925620044.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:15.021Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/cornville-yard-sale/7925620044.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/cornville-yard-sale/7925620044.html"
+}

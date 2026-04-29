@@ -1,0 +1,9 @@
+{
+	"id": "I5PbM214r9wtOW9",
+	"json": "{\"id\":\"I5PbM214r9wtOW9\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-were-moving-huge-garage-sale/7929764118.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-were-moving-huge-garage-sale/7929764118.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-were-moving-huge-garage-sale/7929764118.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:52:16.851Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-were-moving-huge-garage-sale/7929764118.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-were-moving-huge-garage-sale/7929764118.html"
+}

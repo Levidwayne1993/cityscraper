@@ -1,0 +1,9 @@
+{
+	"id": "sK1gJWWohiMwRpH",
+	"json": "{\"id\":\"sK1gJWWohiMwRpH\",\"url\":\"https://wausau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://wausau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528482,
+	"retryCount": 0,
+	"uniqueKey": "https://wausau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://wausau.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

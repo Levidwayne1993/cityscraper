@@ -1,0 +1,9 @@
+{
+	"id": "XBUKrZClLeojki4",
+	"json": "{\"id\":\"XBUKrZClLeojki4\",\"url\":\"https://slo.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://slo.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://slo.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:42:22.444Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/search/gms?s=480",
+	"url": "https://slo.craigslist.org/search/gms?s=480"
+}

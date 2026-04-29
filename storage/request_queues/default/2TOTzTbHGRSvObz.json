@@ -1,0 +1,9 @@
+{
+	"id": "2TOTzTbHGRSvObz",
+	"json": "{\"id\":\"2TOTzTbHGRSvObz\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-garage-sale-sunday-april-26th/7929712094.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-garage-sale-sunday-april-26th/7929712094.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/brentwood-garage-sale-sunday-april-26th/7929712094.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:24.317Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/brentwood-garage-sale-sunday-april-26th/7929712094.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/brentwood-garage-sale-sunday-april-26th/7929712094.html"
+}

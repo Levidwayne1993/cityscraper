@@ -1,0 +1,9 @@
+{
+	"id": "UXYRZCT4krsgLLM",
+	"json": "{\"id\":\"UXYRZCT4krsgLLM\",\"url\":\"https://fortcollins.craigslist.org/gms/d/greeley-pre-moving-yard-sale/7929987423.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/greeley-pre-moving-yard-sale/7929987423.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/greeley-pre-moving-yard-sale/7929987423.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:50:14.081Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/greeley-pre-moving-yard-sale/7929987423.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/greeley-pre-moving-yard-sale/7929987423.html"
+}

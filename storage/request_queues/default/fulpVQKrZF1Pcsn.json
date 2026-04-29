@@ -1,0 +1,9 @@
+{
+	"id": "fulpVQKrZF1Pcsn",
+	"json": "{\"id\":\"fulpVQKrZF1Pcsn\",\"url\":\"https://hanford.craigslist.org/gms/d/hanford-huge-yard-sale-7am-1819-mallard/7925513501.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/hanford-huge-yard-sale-7am-1819-mallard/7925513501.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/hanford-huge-yard-sale-7am-1819-mallard/7925513501.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:53:33.228Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/hanford-huge-yard-sale-7am-1819-mallard/7925513501.html",
+	"url": "https://hanford.craigslist.org/gms/d/hanford-huge-yard-sale-7am-1819-mallard/7925513501.html"
+}

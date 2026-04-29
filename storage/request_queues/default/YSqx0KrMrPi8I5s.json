@@ -1,0 +1,9 @@
+{
+	"id": "YSqx0KrMrPi8I5s",
+	"json": "{\"id\":\"YSqx0KrMrPi8I5s\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-at-self/7922867531.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-at-self/7922867531.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-at-self/7922867531.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:48.571Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-at-self/7922867531.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-community-garage-sale-at-self/7922867531.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "JRryvo2RkBA9Lyw",
+	"json": "{\"id\":\"JRryvo2RkBA9Lyw\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-16-garage-sale/7924113242.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-16-garage-sale/7924113242.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-16-garage-sale/7924113242.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:11.554Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-16-garage-sale/7924113242.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/sun-city-west-16-garage-sale/7924113242.html"
+}

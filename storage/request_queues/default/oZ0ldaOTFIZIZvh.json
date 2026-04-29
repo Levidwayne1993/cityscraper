@@ -1,0 +1,9 @@
+{
+	"id": "oZ0ldaOTFIZIZvh",
+	"json": "{\"id\":\"oZ0ldaOTFIZIZvh\",\"url\":\"https://merced.craigslist.org/gms/d/merced-back-yard-art-sale-and/7926319646.html\",\"loadedUrl\":\"https://merced.craigslist.org/gms/d/merced-back-yard-art-sale-and/7926319646.html\",\"uniqueKey\":\"https://merced.craigslist.org/gms/d/merced-back-yard-art-sale-and/7926319646.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:49:16.492Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://merced.craigslist.org/gms/d/merced-back-yard-art-sale-and/7926319646.html",
+	"url": "https://merced.craigslist.org/gms/d/merced-back-yard-art-sale-and/7926319646.html"
+}

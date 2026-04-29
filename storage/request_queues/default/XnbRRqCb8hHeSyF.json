@@ -1,0 +1,9 @@
+{
+	"id": "XnbRRqCb8hHeSyF",
+	"json": "{\"id\":\"XnbRRqCb8hHeSyF\",\"url\":\"https://okaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://okaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://okaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:18:18.023Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://okaloosa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

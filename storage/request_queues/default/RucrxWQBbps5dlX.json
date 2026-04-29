@@ -1,0 +1,9 @@
+{
+	"id": "RucrxWQBbps5dlX",
+	"json": "{\"id\":\"RucrxWQBbps5dlX\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/wickenburg-family-yard-sale-country/7925390975.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/wickenburg-family-yard-sale-country/7925390975.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/wickenburg-family-yard-sale-country/7925390975.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:28:34.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/wickenburg-family-yard-sale-country/7925390975.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/wickenburg-family-yard-sale-country/7925390975.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "kLqzm6crQJOH0KD",
+	"json": "{\"id\":\"kLqzm6crQJOH0KD\",\"url\":\"https://fayar.craigslist.org/gms/d/siloam-springs-moving-sale-3312-sumac/7923358392.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/siloam-springs-moving-sale-3312-sumac/7923358392.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/siloam-springs-moving-sale-3312-sumac/7923358392.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:40.571Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/siloam-springs-moving-sale-3312-sumac/7923358392.html",
+	"url": "https://fayar.craigslist.org/gms/d/siloam-springs-moving-sale-3312-sumac/7923358392.html"
+}

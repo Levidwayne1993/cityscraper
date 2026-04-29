@@ -1,0 +1,9 @@
+{
+	"id": "NrchXELRVvV32bd",
+	"json": "{\"id\":\"NrchXELRVvV32bd\",\"url\":\"https://slo.craigslist.org/gms/d/arroyo-grande-estate-sale-art-studio/7926283922.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/arroyo-grande-estate-sale-art-studio/7926283922.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/arroyo-grande-estate-sale-art-studio/7926283922.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:43:37.950Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/arroyo-grande-estate-sale-art-studio/7926283922.html",
+	"url": "https://slo.craigslist.org/gms/d/arroyo-grande-estate-sale-art-studio/7926283922.html"
+}

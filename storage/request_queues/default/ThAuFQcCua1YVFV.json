@@ -1,0 +1,9 @@
+{
+	"id": "ThAuFQcCua1YVFV",
+	"json": "{\"id\":\"ThAuFQcCua1YVFV\",\"url\":\"https://santamaria.craigslist.org/gms/d/buellton-estate-sale/7929239457.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/buellton-estate-sale/7929239457.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/buellton-estate-sale/7929239457.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:20.380Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/buellton-estate-sale/7929239457.html",
+	"url": "https://santamaria.craigslist.org/gms/d/buellton-estate-sale/7929239457.html"
+}

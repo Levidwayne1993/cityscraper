@@ -1,0 +1,9 @@
+{
+	"id": "zU8Q78yoeBNg9HB",
+	"json": "{\"id\":\"zU8Q78yoeBNg9HB\",\"url\":\"https://pueblo.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://pueblo.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:02.571Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://pueblo.craigslist.org/search/ccc?query=yard+sale"
+}

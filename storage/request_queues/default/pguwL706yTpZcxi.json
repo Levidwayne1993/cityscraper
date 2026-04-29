@@ -1,0 +1,9 @@
+{
+	"id": "pguwL706yTpZcxi",
+	"json": "{\"id\":\"pguwL706yTpZcxi\",\"url\":\"https://flagstaff.craigslist.org/gms/d/lake-montezuma-moving-sale/7930004523.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/lake-montezuma-moving-sale/7930004523.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/lake-montezuma-moving-sale/7930004523.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:16:29.715Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/lake-montezuma-moving-sale/7930004523.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/lake-montezuma-moving-sale/7930004523.html"
+}

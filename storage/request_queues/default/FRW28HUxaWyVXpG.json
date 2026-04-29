@@ -1,9 +1,0 @@
-{
-	"id": "FRW28HUxaWyVXpG",
-	"json": "{\"id\":\"FRW28HUxaWyVXpG\",\"url\":\"https://www.garagesalefinder.com/sale/Wyoming\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/Wyoming\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"Wyoming\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330422,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/Wyoming",
-	"url": "https://www.garagesalefinder.com/sale/Wyoming"
-}

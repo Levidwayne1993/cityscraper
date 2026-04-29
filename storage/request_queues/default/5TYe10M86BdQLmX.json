@@ -1,0 +1,9 @@
+{
+	"id": "5TYe10M86BdQLmX",
+	"json": "{\"id\":\"5TYe10M86BdQLmX\",\"url\":\"https://richmondin.craigslist.org/search/gms\",\"uniqueKey\":\"https://richmondin.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518350,
+	"retryCount": 0,
+	"uniqueKey": "https://richmondin.craigslist.org/search/gms",
+	"url": "https://richmondin.craigslist.org/search/gms"
+}

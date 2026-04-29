@@ -1,0 +1,9 @@
+{
+	"id": "oPZQtz8yVn8MuW6",
+	"json": "{\"id\":\"oPZQtz8yVn8MuW6\",\"url\":\"https://mankato.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://mankato.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521018,
+	"retryCount": 0,
+	"uniqueKey": "https://mankato.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://mankato.craigslist.org/search/ccc?query=garage+sale"
+}

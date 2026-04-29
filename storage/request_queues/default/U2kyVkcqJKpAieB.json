@@ -1,0 +1,9 @@
+{
+	"id": "U2kyVkcqJKpAieB",
+	"json": "{\"id\":\"U2kyVkcqJKpAieB\",\"url\":\"https://huntsville.craigslist.org/gms/d/arab-yard-sale-friday-sunday/7923841108.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/gms/d/arab-yard-sale-friday-sunday/7923841108.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/gms/d/arab-yard-sale-friday-sunday/7923841108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:02:55.718Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/gms/d/arab-yard-sale-friday-sunday/7923841108.html",
+	"url": "https://huntsville.craigslist.org/gms/d/arab-yard-sale-friday-sunday/7923841108.html"
+}

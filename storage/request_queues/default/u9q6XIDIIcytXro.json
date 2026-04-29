@@ -1,0 +1,9 @@
+{
+	"id": "u9q6XIDIIcytXro",
+	"json": "{\"id\":\"u9q6XIDIIcytXro\",\"url\":\"https://wichita.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://wichita.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519919,
+	"retryCount": 0,
+	"uniqueKey": "https://wichita.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://wichita.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

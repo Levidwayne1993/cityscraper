@@ -1,0 +1,9 @@
+{
+	"id": "zPQBl38l64LlYSO",
+	"json": "{\"id\":\"zPQBl38l64LlYSO\",\"url\":\"https://mcallen.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://mcallen.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526330,
+	"retryCount": 0,
+	"uniqueKey": "https://mcallen.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://mcallen.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

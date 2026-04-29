@@ -1,0 +1,9 @@
+{
+	"id": "ujJciClYI8C2X9O",
+	"json": "{\"id\":\"ujJciClYI8C2X9O\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-piece-table-and/7919685512.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-piece-table-and/7919685512.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-piece-table-and/7919685512.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:25:40.721Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-piece-table-and/7919685512.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-garage-sale-piece-table-and/7919685512.html"
+}

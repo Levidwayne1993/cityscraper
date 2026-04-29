@@ -1,8 +1,8 @@
 {
 	"id": "hHg7zNNKj6PAYb3",
-	"json": "{\"id\":\"hHg7zNNKj6PAYb3\",\"url\":\"https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"hHg7zNNKj6PAYb3\",\"url\":\"https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:16.268Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323432,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://newlondon.craigslist.org/search/sss?query=yard+sale+garage+sale"

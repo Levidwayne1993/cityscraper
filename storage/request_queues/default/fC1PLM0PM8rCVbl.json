@@ -1,0 +1,9 @@
+{
+	"id": "fC1PLM0PM8rCVbl",
+	"json": "{\"id\":\"fC1PLM0PM8rCVbl\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-giant-yard-sale/7929113792.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-giant-yard-sale/7929113792.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-giant-yard-sale/7929113792.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:16.154Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-giant-yard-sale/7929113792.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-giant-yard-sale/7929113792.html"
+}

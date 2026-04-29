@@ -1,0 +1,9 @@
+{
+	"id": "exBxPnWX9ARftxR",
+	"json": "{\"id\":\"exBxPnWX9ARftxR\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-car-club-yard-sale/7920740431.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-car-club-yard-sale/7920740431.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-car-club-yard-sale/7920740431.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:45:24.882Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-car-club-yard-sale/7920740431.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-car-club-yard-sale/7920740431.html"
+}

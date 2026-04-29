@@ -1,0 +1,9 @@
+{
+	"id": "ta54bIGBCQ8TwaS",
+	"json": "{\"id\":\"ta54bIGBCQ8TwaS\",\"url\":\"https://fingerlakes.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://fingerlakes.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523173,
+	"retryCount": 0,
+	"uniqueKey": "https://fingerlakes.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://fingerlakes.craigslist.org/search/ccc?query=yard+sale"
+}

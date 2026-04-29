@@ -1,0 +1,9 @@
+{
+	"id": "RLDB32SXszKLAlC",
+	"json": "{\"id\":\"RLDB32SXszKLAlC\",\"url\":\"https://modesto.craigslist.org/for/d/modesto-garage-sale-yard-sale-18-only/7928560443.html\",\"loadedUrl\":\"https://modesto.craigslist.org/for/d/modesto-garage-sale-yard-sale-18-only/7928560443.html\",\"uniqueKey\":\"https://modesto.craigslist.org/for/d/modesto-garage-sale-yard-sale-18-only/7928560443.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:56:55.365Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/for/d/modesto-garage-sale-yard-sale-18-only/7928560443.html",
+	"url": "https://modesto.craigslist.org/for/d/modesto-garage-sale-yard-sale-18-only/7928560443.html"
+}

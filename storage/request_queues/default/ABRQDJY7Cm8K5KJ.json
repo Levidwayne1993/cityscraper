@@ -1,0 +1,9 @@
+{
+	"id": "ABRQDJY7Cm8K5KJ",
+	"json": "{\"id\":\"ABRQDJY7Cm8K5KJ\",\"url\":\"https://myrtlebeach.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://myrtlebeach.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525912,
+	"retryCount": 0,
+	"uniqueKey": "https://myrtlebeach.craigslist.org/search/gms?s=480",
+	"url": "https://myrtlebeach.craigslist.org/search/gms?s=480"
+}

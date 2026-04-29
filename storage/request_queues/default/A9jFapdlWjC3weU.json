@@ -1,0 +1,9 @@
+{
+	"id": "A9jFapdlWjC3weU",
+	"json": "{\"id\":\"A9jFapdlWjC3weU\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Madison-WI.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Madison-WI.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WI\",\"yssSlug\":\"Madison-WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186533126,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Madison-WI.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/Madison-WI.html?page=2"
+}

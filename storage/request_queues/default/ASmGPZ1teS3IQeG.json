@@ -1,0 +1,9 @@
+{
+	"id": "ASmGPZ1teS3IQeG",
+	"json": "{\"id\":\"ASmGPZ1teS3IQeG\",\"url\":\"https://newlondon.craigslist.org/gms/d/pomfret-center-big-yard-sale/7928234882.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/pomfret-center-big-yard-sale/7928234882.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/pomfret-center-big-yard-sale/7928234882.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:48.710Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/pomfret-center-big-yard-sale/7928234882.html",
+	"url": "https://newlondon.craigslist.org/gms/d/pomfret-center-big-yard-sale/7928234882.html"
+}

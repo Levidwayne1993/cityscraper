@@ -1,0 +1,9 @@
+{
+	"id": "y477NyEUSH7EpE6",
+	"json": "{\"id\":\"y477NyEUSH7EpE6\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-eastern-elegance-silver-splendor/7926857684.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-eastern-elegance-silver-splendor/7926857684.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-eastern-elegance-silver-splendor/7926857684.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:40.673Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/orinda-eastern-elegance-silver-splendor/7926857684.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/orinda-eastern-elegance-silver-splendor/7926857684.html"
+}

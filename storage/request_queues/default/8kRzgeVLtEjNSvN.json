@@ -1,0 +1,9 @@
+{
+	"id": "8kRzgeVLtEjNSvN",
+	"json": "{\"id\":\"8kRzgeVLtEjNSvN\",\"url\":\"https://gainesville.craigslist.org/gms/d/gainesville-huge-yard-sale-114-senior/7928156698.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/gainesville-huge-yard-sale-114-senior/7928156698.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/gainesville-huge-yard-sale-114-senior/7928156698.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:30:24.460Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/gainesville-huge-yard-sale-114-senior/7928156698.html",
+	"url": "https://gainesville.craigslist.org/gms/d/gainesville-huge-yard-sale-114-senior/7928156698.html"
+}

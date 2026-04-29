@@ -1,0 +1,9 @@
+{
+	"id": "6N5uR8rVxdAGL8o",
+	"json": "{\"id\":\"6N5uR8rVxdAGL8o\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-huge-sale-going-on-now/7930086720.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-huge-sale-going-on-now/7930086720.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-huge-sale-going-on-now/7930086720.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:00.742Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-huge-sale-going-on-now/7930086720.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-huge-sale-going-on-now/7930086720.html"
+}

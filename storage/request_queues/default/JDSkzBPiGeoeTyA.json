@@ -1,0 +1,9 @@
+{
+	"id": "JDSkzBPiGeoeTyA",
+	"json": "{\"id\":\"JDSkzBPiGeoeTyA\",\"url\":\"https://chico.craigslist.org/gms/d/corning-yard-sale/7923796678.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/corning-yard-sale/7923796678.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/corning-yard-sale/7923796678.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:32:50.043Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/corning-yard-sale/7923796678.html",
+	"url": "https://chico.craigslist.org/gms/d/corning-yard-sale/7923796678.html"
+}

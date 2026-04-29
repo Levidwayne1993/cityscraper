@@ -1,0 +1,9 @@
+{
+	"id": "0CtT1mzgjUBijkX",
+	"json": "{\"id\":\"0CtT1mzgjUBijkX\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-estate-sale-part-of/7930227439.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-estate-sale-part-of/7930227439.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-estate-sale-part-of/7930227439.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:23:00.701Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-estate-sale-part-of/7930227439.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-estate-sale-part-of/7930227439.html"
+}

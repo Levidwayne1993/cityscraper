@@ -1,0 +1,9 @@
+{
+	"id": "e4PX8nfJzZ9ynFy",
+	"json": "{\"id\":\"e4PX8nfJzZ9ynFy\",\"url\":\"https://twinfalls.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://twinfalls.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518040,
+	"retryCount": 0,
+	"uniqueKey": "https://twinfalls.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://twinfalls.craigslist.org/search/ccc?query=yard+sale"
+}

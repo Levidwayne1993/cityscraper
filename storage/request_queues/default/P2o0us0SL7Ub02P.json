@@ -1,0 +1,9 @@
+{
+	"id": "P2o0us0SL7Ub02P",
+	"json": "{\"id\":\"P2o0us0SL7Ub02P\",\"url\":\"https://tricities.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://tricities.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526081,
+	"retryCount": 0,
+	"uniqueKey": "https://tricities.craigslist.org/search/gms?s=480",
+	"url": "https://tricities.craigslist.org/search/gms?s=480"
+}

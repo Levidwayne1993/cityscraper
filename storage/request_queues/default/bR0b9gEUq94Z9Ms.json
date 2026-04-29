@@ -1,0 +1,9 @@
+{
+	"id": "bR0b9gEUq94Z9Ms",
+	"json": "{\"id\":\"bR0b9gEUq94Z9Ms\",\"url\":\"https://bismarck.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://bismarck.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ND\"}}",
+	"method": "GET",
+	"orderNo": 1777186523590,
+	"retryCount": 0,
+	"uniqueKey": "https://bismarck.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://bismarck.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dDLeYKnuSvpj7NX",
+	"json": "{\"id\":\"dDLeYKnuSvpj7NX\",\"url\":\"https://kenai.craigslist.org/gms/d/soldotna-new-indoor-flea-market/7928485664.html\",\"loadedUrl\":\"https://kenai.craigslist.org/gms/d/soldotna-new-indoor-flea-market/7928485664.html\",\"uniqueKey\":\"https://kenai.craigslist.org/gms/d/soldotna-new-indoor-flea-market/7928485664.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:14:47.397Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://kenai.craigslist.org/gms/d/soldotna-new-indoor-flea-market/7928485664.html",
+	"url": "https://kenai.craigslist.org/gms/d/soldotna-new-indoor-flea-market/7928485664.html"
+}

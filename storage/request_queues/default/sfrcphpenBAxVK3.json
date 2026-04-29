@@ -1,0 +1,9 @@
+{
+	"id": "sfrcphpenBAxVK3",
+	"json": "{\"id\":\"sfrcphpenBAxVK3\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-huge-community-yard-sale/7929839117.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-huge-community-yard-sale/7929839117.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/woodbridge-huge-community-yard-sale/7929839117.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:22:19.905Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/woodbridge-huge-community-yard-sale/7929839117.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/woodbridge-huge-community-yard-sale/7929839117.html"
+}

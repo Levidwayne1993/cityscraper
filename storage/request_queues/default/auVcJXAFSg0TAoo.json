@@ -1,8 +1,8 @@
 {
 	"id": "auVcJXAFSg0TAoo",
-	"json": "{\"id\":\"auVcJXAFSg0TAoo\",\"url\":\"https://miami.craigslist.org/search/gms\",\"uniqueKey\":\"https://miami.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"auVcJXAFSg0TAoo\",\"url\":\"https://miami.craigslist.org/search/gms\",\"loadedUrl\":\"https://miami.craigslist.org/search/gms\",\"uniqueKey\":\"https://miami.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:49:12.083Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323562,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://miami.craigslist.org/search/gms",
 	"url": "https://miami.craigslist.org/search/gms"

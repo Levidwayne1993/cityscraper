@@ -1,0 +1,9 @@
+{
+	"id": "SQPo6tgF4iSvw8u",
+	"json": "{\"id\":\"SQPo6tgF4iSvw8u\",\"url\":\"https://nwct.craigslist.org/gms/d/higganum-st-peter-tag-sale/7929314289.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/higganum-st-peter-tag-sale/7929314289.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/higganum-st-peter-tag-sale/7929314289.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:40.308Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/higganum-st-peter-tag-sale/7929314289.html",
+	"url": "https://nwct.craigslist.org/gms/d/higganum-st-peter-tag-sale/7929314289.html"
+}

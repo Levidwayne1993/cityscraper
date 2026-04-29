@@ -1,0 +1,9 @@
+{
+	"id": "o3uMcI6BD4PPLEH",
+	"json": "{\"id\":\"o3uMcI6BD4PPLEH\",\"url\":\"https://washingtondc.craigslist.org/nva/fuo/d/broad-run-moving-sale-on-furniture-must/7922905427.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/fuo/d/broad-run-moving-sale-on-furniture-must/7922905427.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/fuo/d/broad-run-moving-sale-on-furniture-must/7922905427.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:28:33.017Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/fuo/d/broad-run-moving-sale-on-furniture-must/7922905427.html",
+	"url": "https://washingtondc.craigslist.org/nva/fuo/d/broad-run-moving-sale-on-furniture-must/7922905427.html"
+}

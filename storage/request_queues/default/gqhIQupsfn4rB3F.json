@@ -1,0 +1,9 @@
+{
+	"id": "gqhIQupsfn4rB3F",
+	"json": "{\"id\":\"gqhIQupsfn4rB3F\",\"url\":\"https://phoenix.craigslist.org/evl/cto/d/mesa-2004-ford-thunderbird-estate-sale/7929538173.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/cto/d/mesa-2004-ford-thunderbird-estate-sale/7929538173.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/cto/d/mesa-2004-ford-thunderbird-estate-sale/7929538173.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:11.965Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/cto/d/mesa-2004-ford-thunderbird-estate-sale/7929538173.html",
+	"url": "https://phoenix.craigslist.org/evl/cto/d/mesa-2004-ford-thunderbird-estate-sale/7929538173.html"
+}

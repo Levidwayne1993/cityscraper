@@ -1,0 +1,9 @@
+{
+	"id": "1LXF53HaySYSjNa",
+	"json": "{\"id\":\"1LXF53HaySYSjNa\",\"url\":\"https://www.estatesales.net/estate-sales/Texas\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/Texas\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Texas\"}}",
+	"method": "GET",
+	"orderNo": 1777186528784,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/Texas",
+	"url": "https://www.estatesales.net/estate-sales/Texas"
+}

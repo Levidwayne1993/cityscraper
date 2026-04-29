@@ -1,0 +1,9 @@
+{
+	"id": "Putr57yF1srAZ68",
+	"json": "{\"id\":\"Putr57yF1srAZ68\",\"url\":\"https://syracuse.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://syracuse.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523329,
+	"retryCount": 0,
+	"uniqueKey": "https://syracuse.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://syracuse.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

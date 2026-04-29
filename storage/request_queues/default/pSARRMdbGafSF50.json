@@ -1,0 +1,9 @@
+{
+	"id": "pSARRMdbGafSF50",
+	"json": "{\"id\":\"pSARRMdbGafSF50\",\"url\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-garage-sale/7930172140.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-garage-sale/7930172140.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-garage-sale/7930172140.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:55:20.545Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/mckinleyville-garage-sale/7930172140.html",
+	"url": "https://humboldt.craigslist.org/gms/d/mckinleyville-garage-sale/7930172140.html"
+}

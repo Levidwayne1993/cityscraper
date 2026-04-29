@@ -1,0 +1,9 @@
+{
+	"id": "inazxSYpNj85LYd",
+	"json": "{\"id\":\"inazxSYpNj85LYd\",\"url\":\"https://orangecounty.craigslist.org/gms/d/mission-viejo-garage-sale-mission-viejo/7928539748.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/mission-viejo-garage-sale-mission-viejo/7928539748.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/mission-viejo-garage-sale-mission-viejo/7928539748.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:18:12.541Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/mission-viejo-garage-sale-mission-viejo/7928539748.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/mission-viejo-garage-sale-mission-viejo/7928539748.html"
+}

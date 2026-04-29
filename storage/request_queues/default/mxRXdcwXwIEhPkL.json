@@ -1,0 +1,9 @@
+{
+	"id": "mxRXdcwXwIEhPkL",
+	"json": "{\"id\":\"mxRXdcwXwIEhPkL\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-super-cheap-huge-garage-sale/7926982447.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-super-cheap-huge-garage-sale/7926982447.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-super-cheap-huge-garage-sale/7926982447.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:29.845Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-super-cheap-huge-garage-sale/7926982447.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-super-cheap-huge-garage-sale/7926982447.html"
+}

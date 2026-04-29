@@ -1,0 +1,9 @@
+{
+	"id": "TJ8zvV08xmUmeO0",
+	"json": "{\"id\":\"TJ8zvV08xmUmeO0\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/santee-neighborhood-garage-sale/7928530354.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/santee-neighborhood-garage-sale/7928530354.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/santee-neighborhood-garage-sale/7928530354.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:51.590Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/santee-neighborhood-garage-sale/7928530354.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/santee-neighborhood-garage-sale/7928530354.html"
+}

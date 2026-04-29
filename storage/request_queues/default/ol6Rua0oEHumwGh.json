@@ -1,0 +1,9 @@
+{
+	"id": "ol6Rua0oEHumwGh",
+	"json": "{\"id\":\"ol6Rua0oEHumwGh\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/stanford-garage-sale-pick-and-pay-you/7930092293.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/stanford-garage-sale-pick-and-pay-you/7930092293.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/stanford-garage-sale-pick-and-pay-you/7930092293.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:18:42.866Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/stanford-garage-sale-pick-and-pay-you/7930092293.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/stanford-garage-sale-pick-and-pay-you/7930092293.html"
+}

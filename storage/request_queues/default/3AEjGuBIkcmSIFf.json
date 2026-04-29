@@ -1,0 +1,9 @@
+{
+	"id": "3AEjGuBIkcmSIFf",
+	"json": "{\"id\":\"3AEjGuBIkcmSIFf\",\"url\":\"https://littlerock.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://littlerock.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://littlerock.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:17:30.805Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/search/gms?s=360",
+	"url": "https://littlerock.craigslist.org/search/gms?s=360"
+}

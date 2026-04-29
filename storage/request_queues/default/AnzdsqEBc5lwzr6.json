@@ -1,0 +1,9 @@
+{
+	"id": "AnzdsqEBc5lwzr6",
+	"json": "{\"id\":\"AnzdsqEBc5lwzr6\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/alhambra-some-items-avail-sale-clothes/7925630601.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/alhambra-some-items-avail-sale-clothes/7925630601.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/alhambra-some-items-avail-sale-clothes/7925630601.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:24:00.410Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/alhambra-some-items-avail-sale-clothes/7925630601.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/alhambra-some-items-avail-sale-clothes/7925630601.html"
+}

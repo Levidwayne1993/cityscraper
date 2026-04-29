@@ -1,0 +1,9 @@
+{
+	"id": "sbj6nO5szhZwl9N",
+	"json": "{\"id\":\"sbj6nO5szhZwl9N\",\"url\":\"https://eastoregon.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://eastoregon.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525186,
+	"retryCount": 0,
+	"uniqueKey": "https://eastoregon.craigslist.org/search/gms?s=360",
+	"url": "https://eastoregon.craigslist.org/search/gms?s=360"
+}

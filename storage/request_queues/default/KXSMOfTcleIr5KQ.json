@@ -1,0 +1,9 @@
+{
+	"id": "KXSMOfTcleIr5KQ",
+	"json": "{\"id\":\"KXSMOfTcleIr5KQ\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-yard-estate-sale/7930035485.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-yard-estate-sale/7930035485.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-yard-estate-sale/7930035485.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:24:14.754Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-yard-estate-sale/7930035485.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-yard-estate-sale/7930035485.html"
+}

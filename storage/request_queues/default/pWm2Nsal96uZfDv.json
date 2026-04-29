@@ -1,0 +1,9 @@
+{
+	"id": "pWm2Nsal96uZfDv",
+	"json": "{\"id\":\"pWm2Nsal96uZfDv\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-clearing-out-furniture/7920254026.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-clearing-out-furniture/7920254026.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-clearing-out-furniture/7920254026.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:56.236Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-clearing-out-furniture/7920254026.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-clearing-out-furniture/7920254026.html"
+}

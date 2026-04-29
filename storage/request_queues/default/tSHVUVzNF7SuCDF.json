@@ -1,0 +1,9 @@
+{
+	"id": "tSHVUVzNF7SuCDF",
+	"json": "{\"id\":\"tSHVUVzNF7SuCDF\",\"url\":\"https://battlecreek.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://battlecreek.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520599,
+	"retryCount": 0,
+	"uniqueKey": "https://battlecreek.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://battlecreek.craigslist.org/search/ccc?query=yard+sale"
+}

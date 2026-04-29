@@ -1,0 +1,9 @@
+{
+	"id": "fSW9xqgqGQKw38a",
+	"json": "{\"id\":\"fSW9xqgqGQKw38a\",\"url\":\"https://easternshore.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://easternshore.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MD\"}}",
+	"method": "GET",
+	"orderNo": 1777186520283,
+	"retryCount": 0,
+	"uniqueKey": "https://easternshore.craigslist.org/search/gms?s=480",
+	"url": "https://easternshore.craigslist.org/search/gms?s=480"
+}

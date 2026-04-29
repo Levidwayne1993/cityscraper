@@ -1,0 +1,9 @@
+{
+	"id": "1y7ZmTo81LevTdb",
+	"json": "{\"id\":\"1y7ZmTo81LevTdb\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-healdsburg-garage-sale/7924840008.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-healdsburg-garage-sale/7924840008.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/healdsburg-healdsburg-garage-sale/7924840008.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:23:28.945Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/healdsburg-healdsburg-garage-sale/7924840008.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/healdsburg-healdsburg-garage-sale/7924840008.html"
+}

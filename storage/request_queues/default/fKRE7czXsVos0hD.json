@@ -1,0 +1,9 @@
+{
+	"id": "fKRE7czXsVos0hD",
+	"json": "{\"id\":\"fKRE7czXsVos0hD\",\"url\":\"https://phoenix.craigslist.org/cph/hsh/d/phoenix-estate-salevintage-white-mirror/7911833282.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/hsh/d/phoenix-estate-salevintage-white-mirror/7911833282.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/hsh/d/phoenix-estate-salevintage-white-mirror/7911833282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:31.459Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/hsh/d/phoenix-estate-salevintage-white-mirror/7911833282.html",
+	"url": "https://phoenix.craigslist.org/cph/hsh/d/phoenix-estate-salevintage-white-mirror/7911833282.html"
+}

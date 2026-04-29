@@ -1,0 +1,9 @@
+{
+	"id": "duckGxPUtDSpGLj",
+	"json": "{\"id\":\"duckGxPUtDSpGLj\",\"url\":\"https://losangeles.craigslist.org/wst/grp/d/los-angeles-yard-sale-april-18th/7924974994.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/grp/d/los-angeles-yard-sale-april-18th/7924974994.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/grp/d/los-angeles-yard-sale-april-18th/7924974994.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:41:59.942Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/grp/d/los-angeles-yard-sale-april-18th/7924974994.html",
+	"url": "https://losangeles.craigslist.org/wst/grp/d/los-angeles-yard-sale-april-18th/7924974994.html"
+}

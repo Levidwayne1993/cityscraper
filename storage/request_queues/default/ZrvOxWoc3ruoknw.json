@@ -1,8 +1,8 @@
 {
 	"id": "ZrvOxWoc3ruoknw",
-	"json": "{\"id\":\"ZrvOxWoc3ruoknw\",\"url\":\"https://sandiego.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"ZrvOxWoc3ruoknw\",\"url\":\"https://sandiego.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://sandiego.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:00.467Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323264,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sandiego.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://sandiego.craigslist.org/search/sss?query=moving+sale"

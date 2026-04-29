@@ -1,0 +1,9 @@
+{
+	"id": "9sG3EgM5Zle7Ql3",
+	"json": "{\"id\":\"9sG3EgM5Zle7Ql3\",\"url\":\"https://kennewick.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://kennewick.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527944,
+	"retryCount": 0,
+	"uniqueKey": "https://kennewick.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://kennewick.craigslist.org/search/sss?query=estate+sale"
+}

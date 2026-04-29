@@ -1,8 +1,8 @@
 {
 	"id": "W75NQuoJ9HhKx7X",
-	"json": "{\"id\":\"W75NQuoJ9HhKx7X\",\"url\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"W75NQuoJ9HhKx7X\",\"url\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://littlerock.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:18.701Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323095,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://littlerock.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://littlerock.craigslist.org/search/sss?query=moving+sale"

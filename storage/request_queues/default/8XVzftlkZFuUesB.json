@@ -1,0 +1,9 @@
+{
+	"id": "8XVzftlkZFuUesB",
+	"json": "{\"id\":\"8XVzftlkZFuUesB\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-saturday-april/7928524714.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-saturday-april/7928524714.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-saturday-april/7928524714.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:37:32.530Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-saturday-april/7928524714.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-yard-sale-saturday-april/7928524714.html"
+}

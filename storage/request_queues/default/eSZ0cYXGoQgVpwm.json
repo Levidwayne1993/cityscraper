@@ -1,8 +1,8 @@
 {
 	"id": "eSZ0cYXGoQgVpwm",
-	"json": "{\"id\":\"eSZ0cYXGoQgVpwm\",\"url\":\"https://jacksonville.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://jacksonville.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"eSZ0cYXGoQgVpwm\",\"url\":\"https://jacksonville.craigslist.org/search/gms?s=120\",\"loadedUrl\":\"https://jacksonville.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://jacksonville.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:35:01.638Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323548,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://jacksonville.craigslist.org/search/gms?s=120",
 	"url": "https://jacksonville.craigslist.org/search/gms?s=120"

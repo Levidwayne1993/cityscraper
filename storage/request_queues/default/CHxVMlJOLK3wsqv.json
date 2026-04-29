@@ -1,0 +1,9 @@
+{
+	"id": "CHxVMlJOLK3wsqv",
+	"json": "{\"id\":\"CHxVMlJOLK3wsqv\",\"url\":\"https://sacramento.craigslist.org/gms/d/elk-grove-garage-sale/7929791861.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/elk-grove-garage-sale/7929791861.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/elk-grove-garage-sale/7929791861.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:41:26.204Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/elk-grove-garage-sale/7929791861.html",
+	"url": "https://sacramento.craigslist.org/gms/d/elk-grove-garage-sale/7929791861.html"
+}

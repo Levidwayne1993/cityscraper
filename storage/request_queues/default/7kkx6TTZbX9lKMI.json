@@ -1,0 +1,9 @@
+{
+	"id": "7kkx6TTZbX9lKMI",
+	"json": "{\"id\":\"7kkx6TTZbX9lKMI\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-liquidators-warehouse/7925476954.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-liquidators-warehouse/7925476954.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-liquidators-warehouse/7925476954.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:17:03.570Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-liquidators-warehouse/7925476954.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/boca-raton-estate-liquidators-warehouse/7925476954.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Q2eN4Pf4HERsric",
+	"json": "{\"id\":\"Q2eN4Pf4HERsric\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-huge-multi-family-yard-sale/7928019300.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-huge-multi-family-yard-sale/7928019300.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-huge-multi-family-yard-sale/7928019300.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:10.703Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-huge-multi-family-yard-sale/7928019300.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-huge-multi-family-yard-sale/7928019300.html"
+}

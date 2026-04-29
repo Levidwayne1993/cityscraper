@@ -1,0 +1,9 @@
+{
+	"id": "Q7pfEoS3wqigRWd",
+	"json": "{\"id\":\"Q7pfEoS3wqigRWd\",\"url\":\"https://texoma.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://texoma.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527568,
+	"retryCount": 0,
+	"uniqueKey": "https://texoma.craigslist.org/search/gms?s=480",
+	"url": "https://texoma.craigslist.org/search/gms?s=480"
+}

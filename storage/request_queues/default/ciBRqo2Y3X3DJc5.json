@@ -1,0 +1,9 @@
+{
+	"id": "ciBRqo2Y3X3DJc5",
+	"json": "{\"id\":\"ciBRqo2Y3X3DJc5\",\"url\":\"https://westslope.craigslist.org/gms/d/grand-junction-moving-sale/7925850849.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/grand-junction-moving-sale/7925850849.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/grand-junction-moving-sale/7925850849.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:01:26.321Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/grand-junction-moving-sale/7925850849.html",
+	"url": "https://westslope.craigslist.org/gms/d/grand-junction-moving-sale/7925850849.html"
+}

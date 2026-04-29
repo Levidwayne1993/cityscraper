@@ -1,0 +1,9 @@
+{
+	"id": "GAB7KQYoopMDtrc",
+	"json": "{\"id\":\"GAB7KQYoopMDtrc\",\"url\":\"https://chico.craigslist.org/gms/d/chico-garage-sale/7928480675.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-garage-sale/7928480675.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-garage-sale/7928480675.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:29:28.978Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-garage-sale/7928480675.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-garage-sale/7928480675.html"
+}

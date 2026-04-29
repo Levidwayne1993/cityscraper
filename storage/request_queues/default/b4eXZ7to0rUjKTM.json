@@ -1,0 +1,9 @@
+{
+	"id": "b4eXZ7to0rUjKTM",
+	"json": "{\"id\":\"b4eXZ7to0rUjKTM\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-multi-home-yard-sale/7927577874.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-multi-home-yard-sale/7927577874.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-multi-home-yard-sale/7927577874.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:44:50.382Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-multi-home-yard-sale/7927577874.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-multi-home-yard-sale/7927577874.html"
+}

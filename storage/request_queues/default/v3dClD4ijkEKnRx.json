@@ -1,0 +1,9 @@
+{
+	"id": "v3dClD4ijkEKnRx",
+	"json": "{\"id\":\"v3dClD4ijkEKnRx\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-moving-sales/7920605089.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-moving-sales/7920605089.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-moving-sales/7920605089.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:18.245Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-moving-sales/7920605089.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-moving-sales/7920605089.html"
+}

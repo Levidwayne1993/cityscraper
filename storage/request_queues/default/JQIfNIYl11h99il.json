@@ -1,0 +1,9 @@
+{
+	"id": "JQIfNIYl11h99il",
+	"json": "{\"id\":\"JQIfNIYl11h99il\",\"url\":\"https://florence.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://florence.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://florence.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:00:24.094Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://florence.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://florence.craigslist.org/search/ccc?query=garage+sale"
+}

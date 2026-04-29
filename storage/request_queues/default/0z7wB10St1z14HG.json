@@ -1,0 +1,9 @@
+{
+	"id": "0z7wB10St1z14HG",
+	"json": "{\"id\":\"0z7wB10St1z14HG\",\"url\":\"https://meadville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://meadville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525535,
+	"retryCount": 0,
+	"uniqueKey": "https://meadville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://meadville.craigslist.org/search/ccc?query=garage+sale"
+}

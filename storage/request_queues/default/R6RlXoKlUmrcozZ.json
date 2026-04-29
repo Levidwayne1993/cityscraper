@@ -1,0 +1,9 @@
+{
+	"id": "R6RlXoKlUmrcozZ",
+	"json": "{\"id\":\"R6RlXoKlUmrcozZ\",\"url\":\"https://sacramento.craigslist.org/zip/d/sacramento-moving-sale-all-items-free/7928614577.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/zip/d/sacramento-moving-sale-all-items-free/7928614577.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/zip/d/sacramento-moving-sale-all-items-free/7928614577.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:52:53.941Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/zip/d/sacramento-moving-sale-all-items-free/7928614577.html",
+	"url": "https://sacramento.craigslist.org/zip/d/sacramento-moving-sale-all-items-free/7928614577.html"
+}

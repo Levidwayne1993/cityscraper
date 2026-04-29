@@ -1,8 +1,8 @@
 {
 	"id": "ICdcnqeSyS483a5",
-	"json": "{\"id\":\"ICdcnqeSyS483a5\",\"url\":\"https://seattle.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://seattle.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"ICdcnqeSyS483a5\",\"url\":\"https://seattle.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://seattle.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
 	"method": "GET",
-	"orderNo": 1777040329638,
+	"orderNo": 1777186528012,
 	"retryCount": 0,
 	"uniqueKey": "https://seattle.craigslist.org/search/gms?s=240",
 	"url": "https://seattle.craigslist.org/search/gms?s=240"

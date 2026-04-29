@@ -1,0 +1,9 @@
+{
+	"id": "W1wDUbiWohDxN6Q",
+	"json": "{\"id\":\"W1wDUbiWohDxN6Q\",\"url\":\"https://tucson.craigslist.org/gms/d/arizona-city-kats-thrifty-finds-bay/7922346323.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/arizona-city-kats-thrifty-finds-bay/7922346323.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/arizona-city-kats-thrifty-finds-bay/7922346323.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:03:45.376Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/arizona-city-kats-thrifty-finds-bay/7922346323.html",
+	"url": "https://tucson.craigslist.org/gms/d/arizona-city-kats-thrifty-finds-bay/7922346323.html"
+}

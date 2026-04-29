@@ -1,0 +1,9 @@
+{
+	"id": "GU7lUl5ASen2QJe",
+	"json": "{\"id\":\"GU7lUl5ASen2QJe\",\"url\":\"https://newhaven.craigslist.org/gms/d/waterbury-estate-sale-75-forest-lane/7930248139.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/waterbury-estate-sale-75-forest-lane/7930248139.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/waterbury-estate-sale-75-forest-lane/7930248139.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:10:09.420Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/waterbury-estate-sale-75-forest-lane/7930248139.html",
+	"url": "https://newhaven.craigslist.org/gms/d/waterbury-estate-sale-75-forest-lane/7930248139.html"
+}

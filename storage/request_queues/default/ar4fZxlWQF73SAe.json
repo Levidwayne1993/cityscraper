@@ -1,0 +1,9 @@
+{
+	"id": "ar4fZxlWQF73SAe",
+	"json": "{\"id\":\"ar4fZxlWQF73SAe\",\"url\":\"https://newlondon.craigslist.org/gms/d/danielson-huge-tag-sale/7929682121.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/danielson-huge-tag-sale/7929682121.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/danielson-huge-tag-sale/7929682121.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:54.731Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/danielson-huge-tag-sale/7929682121.html",
+	"url": "https://newlondon.craigslist.org/gms/d/danielson-huge-tag-sale/7929682121.html"
+}

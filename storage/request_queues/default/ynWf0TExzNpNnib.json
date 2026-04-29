@@ -1,0 +1,9 @@
+{
+	"id": "ynWf0TExzNpNnib",
+	"json": "{\"id\":\"ynWf0TExzNpNnib\",\"url\":\"https://redding.craigslist.org/gms/d/redding-sundial-estate-sale/7929803149.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-sundial-estate-sale/7929803149.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-sundial-estate-sale/7929803149.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:34:13.655Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-sundial-estate-sale/7929803149.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-sundial-estate-sale/7929803149.html"
+}

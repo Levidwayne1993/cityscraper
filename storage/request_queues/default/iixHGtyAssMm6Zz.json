@@ -1,8 +1,8 @@
 {
 	"id": "iixHGtyAssMm6Zz",
-	"json": "{\"id\":\"iixHGtyAssMm6Zz\",\"url\":\"https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"iixHGtyAssMm6Zz\",\"url\":\"https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NE\"}}",
 	"method": "GET",
-	"orderNo": 1777040325715,
+	"orderNo": 1777186522698,
 	"retryCount": 0,
 	"uniqueKey": "https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://scottsbluff.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

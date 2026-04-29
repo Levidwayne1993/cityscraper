@@ -1,0 +1,9 @@
+{
+	"id": "mazdXR493sRSi5u",
+	"json": "{\"id\":\"mazdXR493sRSi5u\",\"url\":\"https://fingerlakes.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fingerlakes.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523165,
+	"retryCount": 0,
+	"uniqueKey": "https://fingerlakes.craigslist.org/search/gms?s=480",
+	"url": "https://fingerlakes.craigslist.org/search/gms?s=480"
+}

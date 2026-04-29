@@ -1,0 +1,9 @@
+{
+	"id": "JsdJbduDQh6ytWn",
+	"json": "{\"id\":\"JsdJbduDQh6ytWn\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-tool-sale-this-sunday/7929337161.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-tool-sale-this-sunday/7929337161.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-tool-sale-this-sunday/7929337161.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:50:36.742Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-tool-sale-this-sunday/7929337161.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-tool-sale-this-sunday/7929337161.html"
+}

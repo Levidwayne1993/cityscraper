@@ -1,0 +1,9 @@
+{
+	"id": "t8tehYObdO38ipn",
+	"json": "{\"id\":\"t8tehYObdO38ipn\",\"url\":\"https://hartford.craigslist.org/gms/d/east-hartford-east-hartford-holland/7926676136.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/east-hartford-east-hartford-holland/7926676136.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/east-hartford-east-hartford-holland/7926676136.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:50.416Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/east-hartford-east-hartford-holland/7926676136.html",
+	"url": "https://hartford.craigslist.org/gms/d/east-hartford-east-hartford-holland/7926676136.html"
+}

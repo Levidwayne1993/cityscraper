@@ -1,8 +1,8 @@
 {
 	"id": "WGxQwPT6wx7UwmG",
-	"json": "{\"id\":\"WGxQwPT6wx7UwmG\",\"url\":\"https://oregoncoast.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://oregoncoast.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"WGxQwPT6wx7UwmG\",\"url\":\"https://oregoncoast.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://oregoncoast.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
 	"method": "GET",
-	"orderNo": 1777040327586,
+	"orderNo": 1777186525277,
 	"retryCount": 0,
 	"uniqueKey": "https://oregoncoast.craigslist.org/search/gms?s=120",
 	"url": "https://oregoncoast.craigslist.org/search/gms?s=120"

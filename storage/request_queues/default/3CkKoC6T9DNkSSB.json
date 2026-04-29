@@ -1,0 +1,9 @@
+{
+	"id": "3CkKoC6T9DNkSSB",
+	"json": "{\"id\":\"3CkKoC6T9DNkSSB\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-yard-sale/7928512622.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-yard-sale/7928512622.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-yard-sale/7928512622.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:09:25.920Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-yard-sale/7928512622.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-yard-sale/7928512622.html"
+}

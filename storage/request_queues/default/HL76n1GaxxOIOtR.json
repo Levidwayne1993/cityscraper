@@ -1,0 +1,9 @@
+{
+	"id": "HL76n1GaxxOIOtR",
+	"json": "{\"id\":\"HL76n1GaxxOIOtR\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale-thursday/7922107526.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale-thursday/7922107526.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale-thursday/7922107526.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:08.307Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale-thursday/7922107526.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale-thursday/7922107526.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ZbxTtNvlLO7rl3N",
+	"json": "{\"id\":\"ZbxTtNvlLO7rl3N\",\"url\":\"https://greatfalls.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://greatfalls.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522577,
+	"retryCount": 0,
+	"uniqueKey": "https://greatfalls.craigslist.org/search/gms?s=480",
+	"url": "https://greatfalls.craigslist.org/search/gms?s=480"
+}

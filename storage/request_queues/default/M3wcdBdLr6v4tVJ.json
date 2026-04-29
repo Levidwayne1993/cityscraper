@@ -1,0 +1,9 @@
+{
+	"id": "M3wcdBdLr6v4tVJ",
+	"json": "{\"id\":\"M3wcdBdLr6v4tVJ\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-garage-sale-am-noon/7929653042.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-garage-sale-am-noon/7929653042.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-garage-sale-am-noon/7929653042.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:09:57.110Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/escondido-garage-sale-am-noon/7929653042.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/escondido-garage-sale-am-noon/7929653042.html"
+}

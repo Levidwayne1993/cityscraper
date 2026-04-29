@@ -1,0 +1,9 @@
+{
+	"id": "F5Pbsz72xHuDQED",
+	"json": "{\"id\":\"F5Pbsz72xHuDQED\",\"url\":\"https://chico.craigslist.org/gms/d/palermo-rummagesale/7923801256.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/palermo-rummagesale/7923801256.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/palermo-rummagesale/7923801256.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:24.695Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/palermo-rummagesale/7923801256.html",
+	"url": "https://chico.craigslist.org/gms/d/palermo-rummagesale/7923801256.html"
+}

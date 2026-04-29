@@ -1,0 +1,9 @@
+{
+	"id": "FBjbk6TewEpllrk",
+	"json": "{\"id\":\"FBjbk6TewEpllrk\",\"url\":\"https://nwct.craigslist.org/gms/d/stratford-stratford-ct-estate-sale/7920703176.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/stratford-stratford-ct-estate-sale/7920703176.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/stratford-stratford-ct-estate-sale/7920703176.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:16.924Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/stratford-stratford-ct-estate-sale/7920703176.html",
+	"url": "https://nwct.craigslist.org/gms/d/stratford-stratford-ct-estate-sale/7920703176.html"
+}

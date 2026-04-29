@@ -1,0 +1,9 @@
+{
+	"id": "Mjqm0x03ClOLpv3",
+	"json": "{\"id\":\"Mjqm0x03ClOLpv3\",\"url\":\"https://sacramento.craigslist.org/gms/d/folsom-large-garage-sale/7928255328.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/folsom-large-garage-sale/7928255328.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/folsom-large-garage-sale/7928255328.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:51:29.795Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/folsom-large-garage-sale/7928255328.html",
+	"url": "https://sacramento.craigslist.org/gms/d/folsom-large-garage-sale/7928255328.html"
+}

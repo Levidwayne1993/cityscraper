@@ -1,0 +1,9 @@
+{
+	"id": "cEnvA4HWJhCY8bJ",
+	"json": "{\"id\":\"cEnvA4HWJhCY8bJ\",\"url\":\"https://inlandempire.craigslist.org/act/d/lake-elsinore-yard-sale-friday-saturday/7922336672.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/act/d/lake-elsinore-yard-sale-friday-saturday/7922336672.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/act/d/lake-elsinore-yard-sale-friday-saturday/7922336672.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:06.244Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/act/d/lake-elsinore-yard-sale-friday-saturday/7922336672.html",
+	"url": "https://inlandempire.craigslist.org/act/d/lake-elsinore-yard-sale-friday-saturday/7922336672.html"
+}

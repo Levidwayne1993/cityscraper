@@ -1,0 +1,9 @@
+{
+	"id": "a77IfEad5VGfjOG",
+	"json": "{\"id\":\"a77IfEad5VGfjOG\",\"url\":\"https://ocala.craigslist.org/gms/d/the-villages-sat-am-garage-sale-golf/7922488630.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/the-villages-sat-am-garage-sale-golf/7922488630.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/the-villages-sat-am-garage-sale-golf/7922488630.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:07.675Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/the-villages-sat-am-garage-sale-golf/7922488630.html",
+	"url": "https://ocala.craigslist.org/gms/d/the-villages-sat-am-garage-sale-golf/7922488630.html"
+}

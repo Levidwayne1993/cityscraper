@@ -1,0 +1,9 @@
+{
+	"id": "S18Wu9MAYpWBDI6",
+	"json": "{\"id\":\"S18Wu9MAYpWBDI6\",\"url\":\"https://jacksonvillenc.craigslist.org/search/sss?query=estate+sale\",\"uniqueKey\":\"https://jacksonvillenc.craigslist.org/search/sss?query=estate+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523498,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonvillenc.craigslist.org/search/sss?query=estate+sale",
+	"url": "https://jacksonvillenc.craigslist.org/search/sss?query=estate+sale"
+}

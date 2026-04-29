@@ -1,0 +1,9 @@
+{
+	"id": "YVUFuROhQVIcTjB",
+	"json": "{\"id\":\"YVUFuROhQVIcTjB\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-multi-family-garage-sale/7929870693.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-multi-family-garage-sale/7929870693.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-multi-family-garage-sale/7929870693.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:36.356Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/lake-worth-multi-family-garage-sale/7929870693.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/lake-worth-multi-family-garage-sale/7929870693.html"
+}

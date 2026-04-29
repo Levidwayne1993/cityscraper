@@ -1,0 +1,9 @@
+{
+	"id": "dql5bx0aT8OjnsS",
+	"json": "{\"id\":\"dql5bx0aT8OjnsS\",\"url\":\"https://mendocino.craigslist.org/gms/d/caspar-flea-market/7928337421.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/caspar-flea-market/7928337421.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/caspar-flea-market/7928337421.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:47.219Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/caspar-flea-market/7928337421.html",
+	"url": "https://mendocino.craigslist.org/gms/d/caspar-flea-market/7928337421.html"
+}

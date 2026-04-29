@@ -1,0 +1,9 @@
+{
+	"id": "bUSMf8iSvPePm4R",
+	"json": "{\"id\":\"bUSMf8iSvPePm4R\",\"url\":\"https://newhaven.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928837207.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928837207.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928837207.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:28.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928837207.html",
+	"url": "https://newhaven.craigslist.org/gms/d/northfield-garage-sale-12-reder-road/7928837207.html"
+}

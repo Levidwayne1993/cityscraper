@@ -1,0 +1,9 @@
+{
+	"id": "eJh4bSxjp6sg9Wz",
+	"json": "{\"id\":\"eJh4bSxjp6sg9Wz\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-yard-sale-today-april/7928778798.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-yard-sale-today-april/7928778798.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/redondo-beach-yard-sale-today-april/7928778798.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:32:21.079Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/redondo-beach-yard-sale-today-april/7928778798.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/redondo-beach-yard-sale-today-april/7928778798.html"
+}

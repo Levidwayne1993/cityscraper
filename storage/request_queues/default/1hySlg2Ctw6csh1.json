@@ -1,0 +1,9 @@
+{
+	"id": "1hySlg2Ctw6csh1",
+	"json": "{\"id\":\"1hySlg2Ctw6csh1\",\"url\":\"https://orangecounty.craigslist.org/gms/d/lake-forest-yard-sale/7921108344.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/lake-forest-yard-sale/7921108344.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/lake-forest-yard-sale/7921108344.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:11:09.695Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/lake-forest-yard-sale/7921108344.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/lake-forest-yard-sale/7921108344.html"
+}

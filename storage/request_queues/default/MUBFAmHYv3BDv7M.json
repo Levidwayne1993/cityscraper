@@ -1,0 +1,9 @@
+{
+	"id": "MUBFAmHYv3BDv7M",
+	"json": "{\"id\":\"MUBFAmHYv3BDv7M\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-pool-furniture/7930022558.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-pool-furniture/7930022558.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-pool-furniture/7930022558.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:22.950Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-pool-furniture/7930022558.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-pool-furniture/7930022558.html"
+}

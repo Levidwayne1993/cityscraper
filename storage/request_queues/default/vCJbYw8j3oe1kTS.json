@@ -1,0 +1,9 @@
+{
+	"id": "vCJbYw8j3oe1kTS",
+	"json": "{\"id\":\"vCJbYw8j3oe1kTS\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-april-11th-yard-sale-downtown/7926516094.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-april-11th-yard-sale-downtown/7926516094.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-april-11th-yard-sale-downtown/7926516094.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:44:42.634Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-april-11th-yard-sale-downtown/7926516094.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-april-11th-yard-sale-downtown/7926516094.html"
+}

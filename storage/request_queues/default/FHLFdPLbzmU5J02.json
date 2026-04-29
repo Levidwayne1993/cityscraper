@@ -1,0 +1,9 @@
+{
+	"id": "FHLFdPLbzmU5J02",
+	"json": "{\"id\":\"FHLFdPLbzmU5J02\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-yard-sale-18th-and-19th-in/7927984762.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-yard-sale-18th-and-19th-in/7927984762.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-yard-sale-18th-and-19th-in/7927984762.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:07.538Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-yard-sale-18th-and-19th-in/7927984762.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-yard-sale-18th-and-19th-in/7927984762.html"
+}

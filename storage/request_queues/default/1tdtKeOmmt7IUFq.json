@@ -1,0 +1,9 @@
+{
+	"id": "1tdtKeOmmt7IUFq",
+	"json": "{\"id\":\"1tdtKeOmmt7IUFq\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/palm-beach-yard-sale/7926390538.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/palm-beach-yard-sale/7926390538.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/palm-beach-yard-sale/7926390538.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:20.377Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/palm-beach-yard-sale/7926390538.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/palm-beach-yard-sale/7926390538.html"
+}

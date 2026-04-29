@@ -1,0 +1,9 @@
+{
+	"id": "bX1rlR0TY3QdA9n",
+	"json": "{\"id\":\"bX1rlR0TY3QdA9n\",\"url\":\"https://mohave.craigslist.org/com/d/hackberry-huge-garage-sale/7929174528.html\",\"loadedUrl\":\"https://mohave.craigslist.org/com/d/hackberry-huge-garage-sale/7929174528.html\",\"uniqueKey\":\"https://mohave.craigslist.org/com/d/hackberry-huge-garage-sale/7929174528.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:01.311Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/com/d/hackberry-huge-garage-sale/7929174528.html",
+	"url": "https://mohave.craigslist.org/com/d/hackberry-huge-garage-sale/7929174528.html"
+}

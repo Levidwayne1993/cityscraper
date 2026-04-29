@@ -1,0 +1,9 @@
+{
+	"id": "cguWogiaSfbA9Vo",
+	"json": "{\"id\":\"cguWogiaSfbA9Vo\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-tools-furniture-kids/7922368765.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-tools-furniture-kids/7922368765.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-garage-sale-tools-furniture-kids/7922368765.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:03.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-garage-sale-tools-furniture-kids/7922368765.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-garage-sale-tools-furniture-kids/7922368765.html"
+}

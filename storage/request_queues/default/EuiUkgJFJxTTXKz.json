@@ -1,8 +1,8 @@
 {
 	"id": "EuiUkgJFJxTTXKz",
-	"json": "{\"id\":\"EuiUkgJFJxTTXKz\",\"url\":\"https://cfl.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://cfl.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"EuiUkgJFJxTTXKz\",\"url\":\"https://cfl.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://cfl.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://cfl.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:33:58.058Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323545,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://cfl.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://cfl.craigslist.org/search/sss?query=moving+sale"

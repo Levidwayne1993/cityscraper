@@ -1,0 +1,9 @@
+{
+	"id": "feqkuxKVGeG2Men",
+	"json": "{\"id\":\"feqkuxKVGeG2Men\",\"url\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-home-staging-business/7900893093.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-home-staging-business/7900893093.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/fuo/d/jacksonville-home-staging-business/7900893093.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:39:12.922Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/fuo/d/jacksonville-home-staging-business/7900893093.html",
+	"url": "https://jacksonville.craigslist.org/fuo/d/jacksonville-home-staging-business/7900893093.html"
+}

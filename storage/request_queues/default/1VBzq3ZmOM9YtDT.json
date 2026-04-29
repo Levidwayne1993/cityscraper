@@ -1,0 +1,9 @@
+{
+	"id": "1VBzq3ZmOM9YtDT",
+	"json": "{\"id\":\"1VBzq3ZmOM9YtDT\",\"url\":\"https://sacramento.craigslist.org/gms/d/antelope-estate-sale/7926963556.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/antelope-estate-sale/7926963556.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/antelope-estate-sale/7926963556.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:48:56.845Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/antelope-estate-sale/7926963556.html",
+	"url": "https://sacramento.craigslist.org/gms/d/antelope-estate-sale/7926963556.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zstW2fFlIRakEkw",
+	"json": "{\"id\":\"zstW2fFlIRakEkw\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Scottsdale-AZ.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Scottsdale-AZ.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"AZ\",\"yssSlug\":\"Scottsdale-AZ\"}}",
+	"method": "GET",
+	"orderNo": 1777186530378,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Scottsdale-AZ.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Scottsdale-AZ.html"
+}

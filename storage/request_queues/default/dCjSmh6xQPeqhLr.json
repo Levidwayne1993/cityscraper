@@ -1,0 +1,9 @@
+{
+	"id": "dCjSmh6xQPeqhLr",
+	"json": "{\"id\":\"dCjSmh6xQPeqhLr\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale-everything-must-go/7928070739.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale-everything-must-go/7928070739.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale-everything-must-go/7928070739.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:38:48.513Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale-everything-must-go/7928070739.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/carson-estate-sale-everything-must-go/7928070739.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "cvAXuqbrS7Azqr7",
+	"json": "{\"id\":\"cvAXuqbrS7Azqr7\",\"url\":\"https://sandiego.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://sandiego.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://sandiego.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:03:51.088Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://sandiego.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "S77TCE4XlxLURdd",
+	"json": "{\"id\":\"S77TCE4XlxLURdd\",\"url\":\"https://hanford.craigslist.org/gms/d/armona-garage-sales/7927857543.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/armona-garage-sales/7927857543.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/armona-garage-sales/7927857543.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:54:51.308Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/armona-garage-sales/7927857543.html",
+	"url": "https://hanford.craigslist.org/gms/d/armona-garage-sales/7927857543.html"
+}

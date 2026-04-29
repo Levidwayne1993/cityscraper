@@ -1,0 +1,9 @@
+{
+	"id": "TQA6pFJOR4EAZhS",
+	"json": "{\"id\":\"TQA6pFJOR4EAZhS\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/temecula-75-homes-harveston-community/7929754586.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/temecula-75-homes-harveston-community/7929754586.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/temecula-75-homes-harveston-community/7929754586.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:10:15.513Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/temecula-75-homes-harveston-community/7929754586.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/temecula-75-homes-harveston-community/7929754586.html"
+}

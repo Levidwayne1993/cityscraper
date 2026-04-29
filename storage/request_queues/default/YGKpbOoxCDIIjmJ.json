@@ -1,0 +1,9 @@
+{
+	"id": "YGKpbOoxCDIIjmJ",
+	"json": "{\"id\":\"YGKpbOoxCDIIjmJ\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-community-yard-sale-rummage-sale/7930008225.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-community-yard-sale-rummage-sale/7930008225.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-community-yard-sale-rummage-sale/7930008225.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:10:05.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hialeah-community-yard-sale-rummage-sale/7930008225.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hialeah-community-yard-sale-rummage-sale/7930008225.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yQxTpzaS4kLXv4K",
+	"json": "{\"id\":\"yQxTpzaS4kLXv4K\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-fundraiser-garage-sale/7928219195.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-fundraiser-garage-sale/7928219195.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-fundraiser-garage-sale/7928219195.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:39.817Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-fundraiser-garage-sale/7928219195.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-fundraiser-garage-sale/7928219195.html"
+}

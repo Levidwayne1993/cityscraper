@@ -1,0 +1,9 @@
+{
+	"id": "4v4nTckHsh8t2Kr",
+	"json": "{\"id\":\"4v4nTckHsh8t2Kr\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-saterday-am-200-pm/7924013768.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-saterday-am-200-pm/7924013768.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-saterday-am-200-pm/7924013768.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:24:14.588Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-saterday-am-200-pm/7924013768.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-saterday-am-200-pm/7924013768.html"
+}

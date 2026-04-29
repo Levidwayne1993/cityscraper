@@ -1,0 +1,9 @@
+{
+	"id": "HwmU4gVvQ0xN68W",
+	"json": "{\"id\":\"HwmU4gVvQ0xN68W\",\"url\":\"https://martinsburg.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://martinsburg.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528138,
+	"retryCount": 0,
+	"uniqueKey": "https://martinsburg.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://martinsburg.craigslist.org/search/ccc?query=garage+sale"
+}

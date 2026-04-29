@@ -1,0 +1,9 @@
+{
+	"id": "UCeEyBTWREhtgcr",
+	"json": "{\"id\":\"UCeEyBTWREhtgcr\",\"url\":\"https://humboldt.craigslist.org/gms/d/eureka-estate-sale-march-28th-and-29th/7923584285.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/eureka-estate-sale-march-28th-and-29th/7923584285.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/eureka-estate-sale-march-28th-and-29th/7923584285.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:04.622Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/eureka-estate-sale-march-28th-and-29th/7923584285.html",
+	"url": "https://humboldt.craigslist.org/gms/d/eureka-estate-sale-march-28th-and-29th/7923584285.html"
+}

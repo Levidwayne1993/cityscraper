@@ -1,0 +1,9 @@
+{
+	"id": "JI2g6PyP0u2i1Ci",
+	"json": "{\"id\":\"JI2g6PyP0u2i1Ci\",\"url\":\"https://santamaria.craigslist.org/gms/d/guadalupe-multi-family-garage-sale/7928502616.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/guadalupe-multi-family-garage-sale/7928502616.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/guadalupe-multi-family-garage-sale/7928502616.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:07.126Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/guadalupe-multi-family-garage-sale/7928502616.html",
+	"url": "https://santamaria.craigslist.org/gms/d/guadalupe-multi-family-garage-sale/7928502616.html"
+}

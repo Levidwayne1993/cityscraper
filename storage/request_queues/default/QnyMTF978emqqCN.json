@@ -1,0 +1,9 @@
+{
+	"id": "QnyMTF978emqqCN",
+	"json": "{\"id\":\"QnyMTF978emqqCN\",\"url\":\"https://fortdodge.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://fortdodge.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518528,
+	"retryCount": 0,
+	"uniqueKey": "https://fortdodge.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://fortdodge.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

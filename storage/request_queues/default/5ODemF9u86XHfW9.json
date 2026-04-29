@@ -1,0 +1,9 @@
+{
+	"id": "5ODemF9u86XHfW9",
+	"json": "{\"id\":\"5ODemF9u86XHfW9\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-plant-yard-sale/7928183607.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-plant-yard-sale/7928183607.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-plant-yard-sale/7928183607.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:00:55.463Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-plant-yard-sale/7928183607.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-plant-yard-sale/7928183607.html"
+}

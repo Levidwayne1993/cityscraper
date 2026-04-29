@@ -1,9 +1,0 @@
-{
-	"id": "LQv4hHoBIF48P8w",
-	"json": "{\"id\":\"LQv4hHoBIF48P8w\",\"url\":\"https://ottumwa.craigslist.org/search/gms?s=120\",\"uniqueKey\":\"https://ottumwa.craigslist.org/search/gms?s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040324350,
-	"retryCount": 0,
-	"uniqueKey": "https://ottumwa.craigslist.org/search/gms?s=120",
-	"url": "https://ottumwa.craigslist.org/search/gms?s=120"
-}

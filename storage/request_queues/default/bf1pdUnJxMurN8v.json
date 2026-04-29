@@ -1,0 +1,9 @@
+{
+	"id": "bf1pdUnJxMurN8v",
+	"json": "{\"id\":\"bf1pdUnJxMurN8v\",\"url\":\"https://chico.craigslist.org/gms/d/paradise-big-sale/7923912780.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/paradise-big-sale/7923912780.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/paradise-big-sale/7923912780.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:29:03.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/paradise-big-sale/7923912780.html",
+	"url": "https://chico.craigslist.org/gms/d/paradise-big-sale/7923912780.html"
+}

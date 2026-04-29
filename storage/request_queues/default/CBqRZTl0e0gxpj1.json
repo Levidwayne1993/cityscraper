@@ -1,0 +1,9 @@
+{
+	"id": "CBqRZTl0e0gxpj1",
+	"json": "{\"id\":\"CBqRZTl0e0gxpj1\",\"url\":\"https://delaware.craigslist.org/gms/d/wilmington-community-yard-sale-friday/7927826117.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/wilmington-community-yard-sale-friday/7927826117.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/wilmington-community-yard-sale-friday/7927826117.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:33.590Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/wilmington-community-yard-sale-friday/7927826117.html",
+	"url": "https://delaware.craigslist.org/gms/d/wilmington-community-yard-sale-friday/7927826117.html"
+}

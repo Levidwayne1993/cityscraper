@@ -1,0 +1,9 @@
+{
+	"id": "G8DxW7aeCPfKh6B",
+	"json": "{\"id\":\"G8DxW7aeCPfKh6B\",\"url\":\"https://monroemi.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://monroemi.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520829,
+	"retryCount": 0,
+	"uniqueKey": "https://monroemi.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://monroemi.craigslist.org/search/ccc?query=garage+sale"
+}

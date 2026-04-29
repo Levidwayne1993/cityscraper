@@ -1,0 +1,9 @@
+{
+	"id": "Z0yug2vWF0pjd8B",
+	"json": "{\"id\":\"Z0yug2vWF0pjd8B\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale/7928483035.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale/7928483035.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale/7928483035.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:18.041Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-garage-sale/7928483035.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-garage-sale/7928483035.html"
+}

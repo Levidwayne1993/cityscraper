@@ -1,0 +1,9 @@
+{
+	"id": "akk2vU84mKQM3Fs",
+	"json": "{\"id\":\"akk2vU84mKQM3Fs\",\"url\":\"https://fayar.craigslist.org/gms/d/fayetteville-yard-sale/7920948238.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/fayetteville-yard-sale/7920948238.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/fayetteville-yard-sale/7920948238.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:11:43.519Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/fayetteville-yard-sale/7920948238.html",
+	"url": "https://fayar.craigslist.org/gms/d/fayetteville-yard-sale/7920948238.html"
+}

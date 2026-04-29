@@ -1,0 +1,9 @@
+{
+	"id": "LjkKZVyQLRnVO8c",
+	"json": "{\"id\":\"LjkKZVyQLRnVO8c\",\"url\":\"https://mcallen.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://mcallen.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526339,
+	"retryCount": 0,
+	"uniqueKey": "https://mcallen.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://mcallen.craigslist.org/search/ccc?query=garage+sale"
+}

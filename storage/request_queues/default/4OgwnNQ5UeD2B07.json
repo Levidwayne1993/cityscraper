@@ -1,0 +1,9 @@
+{
+	"id": "4OgwnNQ5UeD2B07",
+	"json": "{\"id\":\"4OgwnNQ5UeD2B07\",\"url\":\"https://ventura.craigslist.org/gms/d/agoura-hills-moving-sale-holiday-themed/7924635282.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/agoura-hills-moving-sale-holiday-themed/7924635282.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/agoura-hills-moving-sale-holiday-themed/7924635282.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:16:47.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/agoura-hills-moving-sale-holiday-themed/7924635282.html",
+	"url": "https://ventura.craigslist.org/gms/d/agoura-hills-moving-sale-holiday-themed/7924635282.html"
+}

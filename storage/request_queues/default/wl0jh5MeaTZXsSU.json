@@ -1,0 +1,9 @@
+{
+	"id": "wl0jh5MeaTZXsSU",
+	"json": "{\"id\":\"wl0jh5MeaTZXsSU\",\"url\":\"https://racine.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://racine.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528428,
+	"retryCount": 0,
+	"uniqueKey": "https://racine.craigslist.org/search/gms?s=360",
+	"url": "https://racine.craigslist.org/search/gms?s=360"
+}

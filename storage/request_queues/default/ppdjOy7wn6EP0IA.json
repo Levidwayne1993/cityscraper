@@ -1,0 +1,9 @@
+{
+	"id": "ppdjOy7wn6EP0IA",
+	"json": "{\"id\":\"ppdjOy7wn6EP0IA\",\"url\":\"https://newlondon.craigslist.org/gms/d/norwich-estate-sale/7929849239.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/norwich-estate-sale/7929849239.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/norwich-estate-sale/7929849239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:16.460Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/norwich-estate-sale/7929849239.html",
+	"url": "https://newlondon.craigslist.org/gms/d/norwich-estate-sale/7929849239.html"
+}

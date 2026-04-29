@@ -1,0 +1,9 @@
+{
+	"id": "KKhbkWqFzh40DhI",
+	"json": "{\"id\":\"KKhbkWqFzh40DhI\",\"url\":\"https://mankato.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://mankato.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521006,
+	"retryCount": 0,
+	"uniqueKey": "https://mankato.craigslist.org/search/gms?s=480",
+	"url": "https://mankato.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "bLHapwd1tat3lXW",
+	"json": "{\"id\":\"bLHapwd1tat3lXW\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-back-yard-sale-sun-am-to-230/7928459890.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-back-yard-sale-sun-am-to-230/7928459890.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-back-yard-sale-sun-am-to-230/7928459890.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:46.913Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-back-yard-sale-sun-am-to-230/7928459890.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-back-yard-sale-sun-am-to-230/7928459890.html"
+}

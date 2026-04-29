@@ -1,0 +1,9 @@
+{
+	"id": "VwPmeO5x7RLdCky",
+	"json": "{\"id\":\"VwPmeO5x7RLdCky\",\"url\":\"https://santabarbara.craigslist.org/gms/d/lompoc-lisa-boisset-babcocks-annual/7929070608.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/lompoc-lisa-boisset-babcocks-annual/7929070608.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/lompoc-lisa-boisset-babcocks-annual/7929070608.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:53:08.028Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/lompoc-lisa-boisset-babcocks-annual/7929070608.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/lompoc-lisa-boisset-babcocks-annual/7929070608.html"
+}

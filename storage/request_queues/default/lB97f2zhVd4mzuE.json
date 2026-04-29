@@ -1,0 +1,9 @@
+{
+	"id": "lB97f2zhVd4mzuE",
+	"json": "{\"id\":\"lB97f2zhVd4mzuE\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-really-good-things-and/7921111085.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-really-good-things-and/7921111085.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-yard-sale-really-good-things-and/7921111085.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:39:39.172Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-yard-sale-really-good-things-and/7921111085.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-yard-sale-really-good-things-and/7921111085.html"
+}

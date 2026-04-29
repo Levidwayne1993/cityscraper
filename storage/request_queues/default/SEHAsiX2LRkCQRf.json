@@ -1,0 +1,9 @@
+{
+	"id": "SEHAsiX2LRkCQRf",
+	"json": "{\"id\":\"SEHAsiX2LRkCQRf\",\"url\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-oceanside-estate-sale/7930015419.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-oceanside-estate-sale/7930015419.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-oceanside-estate-sale/7930015419.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:29.504Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-oceanside-estate-sale/7930015419.html",
+	"url": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-oceanside-estate-sale/7930015419.html"
+}

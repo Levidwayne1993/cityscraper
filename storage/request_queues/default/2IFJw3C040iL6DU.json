@@ -1,0 +1,9 @@
+{
+	"id": "2IFJw3C040iL6DU",
+	"json": "{\"id\":\"2IFJw3C040iL6DU\",\"url\":\"https://sacramento.craigslist.org/gms/d/vacaville-garage-sale/7929994346.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/vacaville-garage-sale/7929994346.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/vacaville-garage-sale/7929994346.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:21.842Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/vacaville-garage-sale/7929994346.html",
+	"url": "https://sacramento.craigslist.org/gms/d/vacaville-garage-sale/7929994346.html"
+}

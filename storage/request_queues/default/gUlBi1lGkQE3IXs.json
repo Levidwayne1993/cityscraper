@@ -1,0 +1,9 @@
+{
+	"id": "gUlBi1lGkQE3IXs",
+	"json": "{\"id\":\"gUlBi1lGkQE3IXs\",\"url\":\"https://elko.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://elko.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522711,
+	"retryCount": 0,
+	"uniqueKey": "https://elko.craigslist.org/search/gms?s=360",
+	"url": "https://elko.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "MPW2XvIE754nxSx",
+	"json": "{\"id\":\"MPW2XvIE754nxSx\",\"url\":\"https://fayetteville.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://fayetteville.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523458,
+	"retryCount": 0,
+	"uniqueKey": "https://fayetteville.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://fayetteville.craigslist.org/search/ccc?query=garage+sale"
+}

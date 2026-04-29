@@ -1,0 +1,9 @@
+{
+	"id": "SdNyl0uu2ZgcOJu",
+	"json": "{\"id\":\"SdNyl0uu2ZgcOJu\",\"url\":\"https://mohave.craigslist.org/gms/d/fort-mohave-yard-garage-sale-furniture/7929739832.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/fort-mohave-yard-garage-sale-furniture/7929739832.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/fort-mohave-yard-garage-sale-furniture/7929739832.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:20:43.613Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/fort-mohave-yard-garage-sale-furniture/7929739832.html",
+	"url": "https://mohave.craigslist.org/gms/d/fort-mohave-yard-garage-sale-furniture/7929739832.html"
+}

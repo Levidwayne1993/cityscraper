@@ -1,0 +1,9 @@
+{
+	"id": "4C2dZS9BvUowQN0",
+	"json": "{\"id\":\"4C2dZS9BvUowQN0\",\"url\":\"https://miami.craigslist.org/mdc/fuo/d/miami-full-size-bed-frame-with-storage/7927499133.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/fuo/d/miami-full-size-bed-frame-with-storage/7927499133.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/fuo/d/miami-full-size-bed-frame-with-storage/7927499133.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:03.316Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/fuo/d/miami-full-size-bed-frame-with-storage/7927499133.html",
+	"url": "https://miami.craigslist.org/mdc/fuo/d/miami-full-size-bed-frame-with-storage/7927499133.html"
+}

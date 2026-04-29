@@ -1,0 +1,9 @@
+{
+	"id": "SFU2q1khYwFLHFA",
+	"json": "{\"id\":\"SFU2q1khYwFLHFA\",\"url\":\"https://twinfalls.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://twinfalls.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518031,
+	"retryCount": 0,
+	"uniqueKey": "https://twinfalls.craigslist.org/search/gms?s=480",
+	"url": "https://twinfalls.craigslist.org/search/gms?s=480"
+}

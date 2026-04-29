@@ -1,0 +1,9 @@
+{
+	"id": "JPoh0K9Y8r0FjBa",
+	"json": "{\"id\":\"JPoh0K9Y8r0FjBa\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-fabulous-estate-sale/7922264064.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-fabulous-estate-sale/7922264064.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-fabulous-estate-sale/7922264064.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:48:44.581Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-fabulous-estate-sale/7922264064.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-fabulous-estate-sale/7922264064.html"
+}

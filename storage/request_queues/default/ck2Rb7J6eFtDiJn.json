@@ -1,0 +1,9 @@
+{
+	"id": "ck2Rb7J6eFtDiJn",
+	"json": "{\"id\":\"ck2Rb7J6eFtDiJn\",\"url\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-garage-sale-25-saturday-711/7930019889.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-garage-sale-25-saturday-711/7930019889.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-garage-sale-25-saturday-711/7930019889.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:25:49.436Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/yuba-city-garage-sale-25-saturday-711/7930019889.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/yuba-city-garage-sale-25-saturday-711/7930019889.html"
+}

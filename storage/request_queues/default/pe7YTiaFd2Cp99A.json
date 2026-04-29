@@ -1,0 +1,9 @@
+{
+	"id": "pe7YTiaFd2Cp99A",
+	"json": "{\"id\":\"pe7YTiaFd2Cp99A\",\"url\":\"https://orangecounty.craigslist.org/clo/d/aliso-viejo-moving-salewomens-clothes/7916957909.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/clo/d/aliso-viejo-moving-salewomens-clothes/7916957909.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/clo/d/aliso-viejo-moving-salewomens-clothes/7916957909.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:43.600Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/clo/d/aliso-viejo-moving-salewomens-clothes/7916957909.html",
+	"url": "https://orangecounty.craigslist.org/clo/d/aliso-viejo-moving-salewomens-clothes/7916957909.html"
+}

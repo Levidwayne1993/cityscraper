@@ -1,0 +1,9 @@
+{
+	"id": "LaohvCJ9D3oRGjz",
+	"json": "{\"id\":\"LaohvCJ9D3oRGjz\",\"url\":\"https://orlando.craigslist.org/com/d/kissimmee-garage-sale-18-at-10am/7927795428.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/kissimmee-garage-sale-18-at-10am/7927795428.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/kissimmee-garage-sale-18-at-10am/7927795428.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:31.798Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/kissimmee-garage-sale-18-at-10am/7927795428.html",
+	"url": "https://orlando.craigslist.org/com/d/kissimmee-garage-sale-18-at-10am/7927795428.html"
+}

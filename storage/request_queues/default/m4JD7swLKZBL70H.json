@@ -1,0 +1,9 @@
+{
+	"id": "m4JD7swLKZBL70H",
+	"json": "{\"id\":\"m4JD7swLKZBL70H\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-in-winter/7929498301.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-in-winter/7929498301.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-in-winter/7929498301.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:21:20.975Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-in-winter/7929498301.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-springs-garage-sale-in-winter/7929498301.html"
+}

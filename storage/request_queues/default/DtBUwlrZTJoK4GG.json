@@ -1,0 +1,9 @@
+{
+	"id": "DtBUwlrZTJoK4GG",
+	"json": "{\"id\":\"DtBUwlrZTJoK4GG\",\"url\":\"https://mohave.craigslist.org/for/d/valentine-moving-sale/7927326410.html\",\"loadedUrl\":\"https://mohave.craigslist.org/for/d/valentine-moving-sale/7927326410.html\",\"uniqueKey\":\"https://mohave.craigslist.org/for/d/valentine-moving-sale/7927326410.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:51.073Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/for/d/valentine-moving-sale/7927326410.html",
+	"url": "https://mohave.craigslist.org/for/d/valentine-moving-sale/7927326410.html"
+}

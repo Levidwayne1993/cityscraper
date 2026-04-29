@@ -1,0 +1,9 @@
+{
+	"id": "eaReRwx7O8tT8mk",
+	"json": "{\"id\":\"eaReRwx7O8tT8mk\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/goodyear-huge-yard-sale-everything-must/7928497529.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/goodyear-huge-yard-sale-everything-must/7928497529.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/goodyear-huge-yard-sale-everything-must/7928497529.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:52.319Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/goodyear-huge-yard-sale-everything-must/7928497529.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/goodyear-huge-yard-sale-everything-must/7928497529.html"
+}

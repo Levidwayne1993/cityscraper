@@ -1,0 +1,9 @@
+{
+	"id": "Bw2DtIwqNAuPLnl",
+	"json": "{\"id\":\"Bw2DtIwqNAuPLnl\",\"url\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale-lots-of-ladies/7922370973.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale-lots-of-ladies/7922370973.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/casselberry-yard-sale-lots-of-ladies/7922370973.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:31.388Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/casselberry-yard-sale-lots-of-ladies/7922370973.html",
+	"url": "https://orlando.craigslist.org/gms/d/casselberry-yard-sale-lots-of-ladies/7922370973.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "x6d9lN9n0pdu5Jy",
+	"json": "{\"id\":\"x6d9lN9n0pdu5Jy\",\"url\":\"https://mendocino.craigslist.org/gms/d/ukiah-houses-yard-sale/7928464720.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/ukiah-houses-yard-sale/7928464720.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/ukiah-houses-yard-sale/7928464720.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:05.991Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/ukiah-houses-yard-sale/7928464720.html",
+	"url": "https://mendocino.craigslist.org/gms/d/ukiah-houses-yard-sale/7928464720.html"
+}

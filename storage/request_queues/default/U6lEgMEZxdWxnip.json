@@ -1,0 +1,9 @@
+{
+	"id": "U6lEgMEZxdWxnip",
+	"json": "{\"id\":\"U6lEgMEZxdWxnip\",\"url\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-11-martin-yard-sale/7924063799.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-11-martin-yard-sale/7924063799.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-11-martin-yard-sale/7924063799.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:55.095Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/sierra-vista-11-martin-yard-sale/7924063799.html",
+	"url": "https://sierravista.craigslist.org/gms/d/sierra-vista-11-martin-yard-sale/7924063799.html"
+}

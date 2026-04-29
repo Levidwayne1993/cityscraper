@@ -1,8 +1,8 @@
 {
 	"id": "k8ltsZZZHvw2leQ",
-	"json": "{\"id\":\"k8ltsZZZHvw2leQ\",\"url\":\"https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"k8ltsZZZHvw2leQ\",\"url\":\"https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"loadedUrl\":\"https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:09:47.669Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323175,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://inlandempire.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

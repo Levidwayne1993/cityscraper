@@ -1,0 +1,9 @@
+{
+	"id": "Wx92ENtWtXGgUlp",
+	"json": "{\"id\":\"Wx92ENtWtXGgUlp\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-garage-sale-today/7930075928.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-garage-sale-today/7930075928.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-garage-sale-today/7930075928.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:30:15.913Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/oakland-garage-sale-today/7930075928.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/oakland-garage-sale-today/7930075928.html"
+}

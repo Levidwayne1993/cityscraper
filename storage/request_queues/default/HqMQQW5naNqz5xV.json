@@ -1,0 +1,9 @@
+{
+	"id": "HqMQQW5naNqz5xV",
+	"json": "{\"id\":\"HqMQQW5naNqz5xV\",\"url\":\"https://madison.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://madison.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528402,
+	"retryCount": 0,
+	"uniqueKey": "https://madison.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://madison.craigslist.org/search/ccc?query=yard+sale"
+}

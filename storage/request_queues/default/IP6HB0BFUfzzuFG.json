@@ -1,0 +1,9 @@
+{
+	"id": "IP6HB0BFUfzzuFG",
+	"json": "{\"id\":\"IP6HB0BFUfzzuFG\",\"url\":\"https://sarasota.craigslist.org/gms/d/venice-multi-family-garage-sale/7927815939.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/venice-multi-family-garage-sale/7927815939.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/venice-multi-family-garage-sale/7927815939.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:39.456Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/venice-multi-family-garage-sale/7927815939.html",
+	"url": "https://sarasota.craigslist.org/gms/d/venice-multi-family-garage-sale/7927815939.html"
+}

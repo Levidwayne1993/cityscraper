@@ -1,0 +1,9 @@
+{
+	"id": "VpZW1yxZALMKHlz",
+	"json": "{\"id\":\"VpZW1yxZALMKHlz\",\"url\":\"https://palmsprings.craigslist.org/clt/d/palm-springs-huge-estate-sale/7925820714.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/clt/d/palm-springs-huge-estate-sale/7925820714.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/clt/d/palm-springs-huge-estate-sale/7925820714.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:29:58.486Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/clt/d/palm-springs-huge-estate-sale/7925820714.html",
+	"url": "https://palmsprings.craigslist.org/clt/d/palm-springs-huge-estate-sale/7925820714.html"
+}

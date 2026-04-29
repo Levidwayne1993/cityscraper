@@ -1,0 +1,9 @@
+{
+	"id": "y2pzc6qrBeViHik",
+	"json": "{\"id\":\"y2pzc6qrBeViHik\",\"url\":\"https://northmiss.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://northmiss.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521172,
+	"retryCount": 0,
+	"uniqueKey": "https://northmiss.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://northmiss.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

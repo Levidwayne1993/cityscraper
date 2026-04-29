@@ -1,0 +1,9 @@
+{
+	"id": "M2nJJMnLghHrK1u",
+	"json": "{\"id\":\"M2nJJMnLghHrK1u\",\"url\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-garage-sale/7923332335.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-garage-sale/7923332335.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/desert-hot-springs-garage-sale/7923332335.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:31:47.616Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/desert-hot-springs-garage-sale/7923332335.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/desert-hot-springs-garage-sale/7923332335.html"
+}

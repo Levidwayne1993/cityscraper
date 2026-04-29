@@ -1,0 +1,9 @@
+{
+	"id": "LC0j00EQYAWLCt1",
+	"json": "{\"id\":\"LC0j00EQYAWLCt1\",\"url\":\"https://tucson.craigslist.org/atq/d/tucson-huge-estate-sale-sunday-variety/7929740440.html\",\"loadedUrl\":\"https://tucson.craigslist.org/atq/d/tucson-huge-estate-sale-sunday-variety/7929740440.html\",\"uniqueKey\":\"https://tucson.craigslist.org/atq/d/tucson-huge-estate-sale-sunday-variety/7929740440.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:06:46.907Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/atq/d/tucson-huge-estate-sale-sunday-variety/7929740440.html",
+	"url": "https://tucson.craigslist.org/atq/d/tucson-huge-estate-sale-sunday-variety/7929740440.html"
+}

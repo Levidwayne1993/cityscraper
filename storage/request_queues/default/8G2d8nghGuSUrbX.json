@@ -1,0 +1,9 @@
+{
+	"id": "8G2d8nghGuSUrbX",
+	"json": "{\"id\":\"8G2d8nghGuSUrbX\",\"url\":\"https://sarasota.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://sarasota.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://sarasota.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:49:15.100Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://sarasota.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

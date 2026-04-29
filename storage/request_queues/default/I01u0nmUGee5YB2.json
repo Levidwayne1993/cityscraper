@@ -1,0 +1,9 @@
+{
+	"id": "I01u0nmUGee5YB2",
+	"json": "{\"id\":\"I01u0nmUGee5YB2\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-good-quality-furniture-for/7930150876.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-good-quality-furniture-for/7930150876.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-good-quality-furniture-for/7930150876.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:16:58.003Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-good-quality-furniture-for/7930150876.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-good-quality-furniture-for/7930150876.html"
+}

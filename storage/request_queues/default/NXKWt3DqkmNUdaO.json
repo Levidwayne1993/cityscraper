@@ -1,0 +1,9 @@
+{
+	"id": "NXKWt3DqkmNUdaO",
+	"json": "{\"id\":\"NXKWt3DqkmNUdaO\",\"url\":\"https://ocala.craigslist.org/gms/d/morriston-little-red-shed-indoor/7908871497.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/morriston-little-red-shed-indoor/7908871497.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/morriston-little-red-shed-indoor/7908871497.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:57:57.998Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/morriston-little-red-shed-indoor/7908871497.html",
+	"url": "https://ocala.craigslist.org/gms/d/morriston-little-red-shed-indoor/7908871497.html"
+}

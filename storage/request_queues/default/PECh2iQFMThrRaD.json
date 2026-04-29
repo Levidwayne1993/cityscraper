@@ -1,0 +1,9 @@
+{
+	"id": "PECh2iQFMThrRaD",
+	"json": "{\"id\":\"PECh2iQFMThrRaD\",\"url\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale-garage/7928520653.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale-garage/7928520653.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/redlands-moving-sale-garage/7928520653.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:10.275Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/redlands-moving-sale-garage/7928520653.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/redlands-moving-sale-garage/7928520653.html"
+}

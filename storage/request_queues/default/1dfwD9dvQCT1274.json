@@ -1,0 +1,9 @@
+{
+	"id": "1dfwD9dvQCT1274",
+	"json": "{\"id\":\"1dfwD9dvQCT1274\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale-del-rico/7929491974.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale-del-rico/7929491974.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-yard-sale-del-rico/7929491974.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:09:08.957Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-yard-sale-del-rico/7929491974.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-yard-sale-del-rico/7929491974.html"
+}

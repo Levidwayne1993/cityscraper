@@ -1,0 +1,9 @@
+{
+	"id": "7m79Tzi1nvlQJYC",
+	"json": "{\"id\":\"7m79Tzi1nvlQJYC\",\"url\":\"https://phoenix.craigslist.org/nph/com/d/scottsdale-garage-sale-lily-pulitzer/7923788805.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/com/d/scottsdale-garage-sale-lily-pulitzer/7923788805.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/com/d/scottsdale-garage-sale-lily-pulitzer/7923788805.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:20.216Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/com/d/scottsdale-garage-sale-lily-pulitzer/7923788805.html",
+	"url": "https://phoenix.craigslist.org/nph/com/d/scottsdale-garage-sale-lily-pulitzer/7923788805.html"
+}

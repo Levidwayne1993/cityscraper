@@ -1,0 +1,9 @@
+{
+	"id": "rlCTdXkE9EEOFjR",
+	"json": "{\"id\":\"rlCTdXkE9EEOFjR\",\"url\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-huge-yard-sale/7930139177.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-huge-yard-sale/7930139177.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/yuba-city-huge-yard-sale/7930139177.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:23:24.283Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/yuba-city-huge-yard-sale/7930139177.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/yuba-city-huge-yard-sale/7930139177.html"
+}

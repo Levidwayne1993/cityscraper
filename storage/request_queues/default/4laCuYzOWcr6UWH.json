@@ -1,0 +1,9 @@
+{
+	"id": "4laCuYzOWcr6UWH",
+	"json": "{\"id\":\"4laCuYzOWcr6UWH\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-multi-family-sale/7928477856.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-multi-family-sale/7928477856.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-multi-family-sale/7928477856.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:38:39.332Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-multi-family-sale/7928477856.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-multi-family-sale/7928477856.html"
+}

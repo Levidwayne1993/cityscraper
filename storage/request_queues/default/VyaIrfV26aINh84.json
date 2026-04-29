@@ -1,0 +1,9 @@
+{
+	"id": "VyaIrfV26aINh84",
+	"json": "{\"id\":\"VyaIrfV26aINh84\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-another-big-garage-sale-9a-to-2p/7929768916.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-another-big-garage-sale-9a-to-2p/7929768916.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-another-big-garage-sale-9a-to-2p/7929768916.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:35.509Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-another-big-garage-sale-9a-to-2p/7929768916.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-another-big-garage-sale-9a-to-2p/7929768916.html"
+}

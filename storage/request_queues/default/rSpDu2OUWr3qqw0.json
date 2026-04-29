@@ -1,0 +1,9 @@
+{
+	"id": "rSpDu2OUWr3qqw0",
+	"json": "{\"id\":\"rSpDu2OUWr3qqw0\",\"url\":\"https://sarasota.craigslist.org/gms/d/north-port-estate-moving-sale-huge/7921373479.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/north-port-estate-moving-sale-huge/7921373479.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/north-port-estate-moving-sale-huge/7921373479.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:50:17.581Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/north-port-estate-moving-sale-huge/7921373479.html",
+	"url": "https://sarasota.craigslist.org/gms/d/north-port-estate-moving-sale-huge/7921373479.html"
+}

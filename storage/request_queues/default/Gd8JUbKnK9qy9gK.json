@@ -1,0 +1,9 @@
+{
+	"id": "Gd8JUbKnK9qy9gK",
+	"json": "{\"id\":\"Gd8JUbKnK9qy9gK\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-downsizing-yard-sale/7924239996.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-downsizing-yard-sale/7924239996.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-downsizing-yard-sale/7924239996.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:21.773Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-downsizing-yard-sale/7924239996.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-downsizing-yard-sale/7924239996.html"
+}

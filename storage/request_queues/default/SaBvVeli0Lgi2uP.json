@@ -1,0 +1,9 @@
+{
+	"id": "SaBvVeli0Lgi2uP",
+	"json": "{\"id\":\"SaBvVeli0Lgi2uP\",\"url\":\"https://delaware.craigslist.org/clt/d/rehoboth-beach-authentic-estate-sale-15/7896914818.html\",\"loadedUrl\":\"https://delaware.craigslist.org/clt/d/rehoboth-beach-authentic-estate-sale-15/7896914818.html\",\"uniqueKey\":\"https://delaware.craigslist.org/clt/d/rehoboth-beach-authentic-estate-sale-15/7896914818.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:20:56.285Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/clt/d/rehoboth-beach-authentic-estate-sale-15/7896914818.html",
+	"url": "https://delaware.craigslist.org/clt/d/rehoboth-beach-authentic-estate-sale-15/7896914818.html"
+}

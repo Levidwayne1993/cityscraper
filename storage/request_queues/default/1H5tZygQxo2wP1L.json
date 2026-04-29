@@ -1,0 +1,9 @@
+{
+	"id": "1H5tZygQxo2wP1L",
+	"json": "{\"id\":\"1H5tZygQxo2wP1L\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-surprise-orchards-community/7921876551.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-surprise-orchards-community/7921876551.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/surprise-surprise-orchards-community/7921876551.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:42:23.410Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/surprise-surprise-orchards-community/7921876551.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/surprise-surprise-orchards-community/7921876551.html"
+}

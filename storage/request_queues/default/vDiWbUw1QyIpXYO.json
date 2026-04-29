@@ -1,0 +1,9 @@
+{
+	"id": "vDiWbUw1QyIpXYO",
+	"json": "{\"id\":\"vDiWbUw1QyIpXYO\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-8am-2pm/7921117985.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-8am-2pm/7921117985.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-garage-sale-8am-2pm/7921117985.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:04.176Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-garage-sale-8am-2pm/7921117985.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-garage-sale-8am-2pm/7921117985.html"
+}

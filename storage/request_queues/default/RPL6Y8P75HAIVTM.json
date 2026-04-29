@@ -1,0 +1,9 @@
+{
+	"id": "RPL6Y8P75HAIVTM",
+	"json": "{\"id\":\"RPL6Y8P75HAIVTM\",\"url\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-april-comic-book/7926508633.html\",\"loadedUrl\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-april-comic-book/7926508633.html\",\"uniqueKey\":\"https://imperial.craigslist.org/fod/d/ocotillo-ending-april-comic-book/7926508633.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:01:22.174Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://imperial.craigslist.org/fod/d/ocotillo-ending-april-comic-book/7926508633.html",
+	"url": "https://imperial.craigslist.org/fod/d/ocotillo-ending-april-comic-book/7926508633.html"
+}

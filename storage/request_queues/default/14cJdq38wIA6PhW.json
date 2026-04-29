@@ -1,0 +1,9 @@
+{
+	"id": "14cJdq38wIA6PhW",
+	"json": "{\"id\":\"14cJdq38wIA6PhW\",\"url\":\"https://chico.craigslist.org/gms/d/chico-garage-sale-saturday-april-18-at/7928344595.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-garage-sale-saturday-april-18-at/7928344595.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-garage-sale-saturday-april-18-at/7928344595.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:36:30.438Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-garage-sale-saturday-april-18-at/7928344595.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-garage-sale-saturday-april-18-at/7928344595.html"
+}

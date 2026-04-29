@@ -1,8 +1,8 @@
 {
 	"id": "FdDS5cm5eBm0QCL",
-	"json": "{\"id\":\"FdDS5cm5eBm0QCL\",\"url\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"FdDS5cm5eBm0QCL\",\"url\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:59:42.137Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale"

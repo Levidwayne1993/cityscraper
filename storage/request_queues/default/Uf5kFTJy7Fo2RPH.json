@@ -1,0 +1,9 @@
+{
+	"id": "Uf5kFTJy7Fo2RPH",
+	"json": "{\"id\":\"Uf5kFTJy7Fo2RPH\",\"url\":\"https://bemidji.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://bemidji.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520950,
+	"retryCount": 0,
+	"uniqueKey": "https://bemidji.craigslist.org/search/gms?s=480",
+	"url": "https://bemidji.craigslist.org/search/gms?s=480"
+}

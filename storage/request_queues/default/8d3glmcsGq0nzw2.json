@@ -1,0 +1,9 @@
+{
+	"id": "8d3glmcsGq0nzw2",
+	"json": "{\"id\":\"8d3glmcsGq0nzw2\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-yardsale-cowboy/7929111799.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-yardsale-cowboy/7929111799.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-multi-family-yardsale-cowboy/7929111799.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:24.533Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-multi-family-yardsale-cowboy/7929111799.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-multi-family-yardsale-cowboy/7929111799.html"
+}

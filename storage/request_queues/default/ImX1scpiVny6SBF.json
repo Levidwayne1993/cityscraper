@@ -1,0 +1,9 @@
+{
+	"id": "ImX1scpiVny6SBF",
+	"json": "{\"id\":\"ImX1scpiVny6SBF\",\"url\":\"https://sacramento.craigslist.org/com/d/elk-grove-glenbrooke-community-yard-sale/7929869152.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/com/d/elk-grove-glenbrooke-community-yard-sale/7929869152.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/com/d/elk-grove-glenbrooke-community-yard-sale/7929869152.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:01.137Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/com/d/elk-grove-glenbrooke-community-yard-sale/7929869152.html",
+	"url": "https://sacramento.craigslist.org/com/d/elk-grove-glenbrooke-community-yard-sale/7929869152.html"
+}

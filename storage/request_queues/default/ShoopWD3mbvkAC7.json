@@ -1,0 +1,9 @@
+{
+	"id": "ShoopWD3mbvkAC7",
+	"json": "{\"id\":\"ShoopWD3mbvkAC7\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-big-moving-yard-sale-this/7928694062.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-big-moving-yard-sale-this/7928694062.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/glendale-big-moving-yard-sale-this/7928694062.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:28.525Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/glendale-big-moving-yard-sale-this/7928694062.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/glendale-big-moving-yard-sale-this/7928694062.html"
+}

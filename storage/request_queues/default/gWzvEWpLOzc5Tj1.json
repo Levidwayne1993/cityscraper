@@ -1,0 +1,9 @@
+{
+	"id": "gWzvEWpLOzc5Tj1",
+	"json": "{\"id\":\"gWzvEWpLOzc5Tj1\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-downsizing-shop/7918031300.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-downsizing-shop/7918031300.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-downsizing-shop/7918031300.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:01.819Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/vista-downsizing-shop/7918031300.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/vista-downsizing-shop/7918031300.html"
+}

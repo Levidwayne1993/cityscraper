@@ -1,0 +1,9 @@
+{
+	"id": "RAwFYFsePmuBX4d",
+	"json": "{\"id\":\"RAwFYFsePmuBX4d\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-school-yard-flea-market/7930030831.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-school-yard-flea-market/7930030831.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-school-yard-flea-market/7930030831.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:52:31.660Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-school-yard-flea-market/7930030831.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-school-yard-flea-market/7930030831.html"
+}

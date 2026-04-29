@@ -1,0 +1,9 @@
+{
+	"id": "iFyql7VgHnx5uM9",
+	"json": "{\"id\":\"iFyql7VgHnx5uM9\",\"url\":\"https://redding.craigslist.org/gms/d/red-bluff-shop-garage-sale-something/7928210455.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/red-bluff-shop-garage-sale-something/7928210455.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/red-bluff-shop-garage-sale-something/7928210455.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:36:32.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/red-bluff-shop-garage-sale-something/7928210455.html",
+	"url": "https://redding.craigslist.org/gms/d/red-bluff-shop-garage-sale-something/7928210455.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gjvz80lrX4zx2Ik",
+	"json": "{\"id\":\"gjvz80lrX4zx2Ik\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gold-canyon-community-yard-sale-in-gold/7926931701.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gold-canyon-community-yard-sale-in-gold/7926931701.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gold-canyon-community-yard-sale-in-gold/7926931701.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:22.050Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gold-canyon-community-yard-sale-in-gold/7926931701.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gold-canyon-community-yard-sale-in-gold/7926931701.html"
+}

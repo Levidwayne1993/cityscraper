@@ -1,0 +1,9 @@
+{
+	"id": "IOx42aJ6mSRfSx0",
+	"json": "{\"id\":\"IOx42aJ6mSRfSx0\",\"url\":\"https://fortcollins.craigslist.org/gms/d/la-salle-yard-sale-monday-thru-sunday/7924498130.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/la-salle-yard-sale-monday-thru-sunday/7924498130.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/la-salle-yard-sale-monday-thru-sunday/7924498130.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:48:46.907Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/la-salle-yard-sale-monday-thru-sunday/7924498130.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/la-salle-yard-sale-monday-thru-sunday/7924498130.html"
+}

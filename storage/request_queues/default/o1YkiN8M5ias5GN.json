@@ -1,0 +1,9 @@
+{
+	"id": "o1YkiN8M5ias5GN",
+	"json": "{\"id\":\"o1YkiN8M5ias5GN\",\"url\":\"https://chico.craigslist.org/gms/d/stirling-city-large-estate-sale/7921308424.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/stirling-city-large-estate-sale/7921308424.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/stirling-city-large-estate-sale/7921308424.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:01.227Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/stirling-city-large-estate-sale/7921308424.html",
+	"url": "https://chico.craigslist.org/gms/d/stirling-city-large-estate-sale/7921308424.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "HyhKYJciyTZd5KQ",
+	"json": "{\"id\":\"HyhKYJciyTZd5KQ\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Lexington-KY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Lexington-KY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"KY\",\"yssSlug\":\"Lexington-KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186530988,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Lexington-KY.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Lexington-KY.html"
+}

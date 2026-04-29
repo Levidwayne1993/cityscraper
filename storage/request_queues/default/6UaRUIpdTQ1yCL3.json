@@ -1,0 +1,9 @@
+{
+	"id": "6UaRUIpdTQ1yCL3",
+	"json": "{\"id\":\"6UaRUIpdTQ1yCL3\",\"url\":\"https://www.yardsalesearch.com/yard-sales/South-Bend-IN.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/South-Bend-IN.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"IN\",\"yssSlug\":\"South-Bend-IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186530916,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/South-Bend-IN.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/South-Bend-IN.html?page=2"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "EeyfPSzRNwgIAch",
+	"json": "{\"id\":\"EeyfPSzRNwgIAch\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-large-family-garage-yard-sale/7927692423.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-large-family-garage-yard-sale/7927692423.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-large-family-garage-yard-sale/7927692423.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:32:58.856Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-large-family-garage-yard-sale/7927692423.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-large-family-garage-yard-sale/7927692423.html"
+}

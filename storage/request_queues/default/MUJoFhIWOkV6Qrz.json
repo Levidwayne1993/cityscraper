@@ -1,0 +1,9 @@
+{
+	"id": "MUJoFhIWOkV6Qrz",
+	"json": "{\"id\":\"MUJoFhIWOkV6Qrz\",\"url\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-garage-sale-this-sunday-8am/7927785396.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-garage-sale-this-sunday-8am/7927785396.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-garage-sale-this-sunday-8am/7927785396.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:28:13.558Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/gms/d/los-angeles-garage-sale-this-sunday-8am/7927785396.html",
+	"url": "https://losangeles.craigslist.org/lac/gms/d/los-angeles-garage-sale-this-sunday-8am/7927785396.html"
+}

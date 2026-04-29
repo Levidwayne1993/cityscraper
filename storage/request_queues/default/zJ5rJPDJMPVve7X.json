@@ -1,0 +1,9 @@
+{
+	"id": "zJ5rJPDJMPVve7X",
+	"json": "{\"id\":\"zJ5rJPDJMPVve7X\",\"url\":\"https://elpaso.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://elpaso.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526240,
+	"retryCount": 0,
+	"uniqueKey": "https://elpaso.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://elpaso.craigslist.org/search/ccc?query=garage+sale"
+}

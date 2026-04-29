@@ -1,0 +1,9 @@
+{
+	"id": "0LQMRHQOj8JK5h6",
+	"json": "{\"id\":\"0LQMRHQOj8JK5h6\",\"url\":\"https://maine.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://maine.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ME\"}}",
+	"method": "GET",
+	"orderNo": 1777186520238,
+	"retryCount": 0,
+	"uniqueKey": "https://maine.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://maine.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "c9ZEW8XCnyeBRdh",
+	"json": "{\"id\":\"c9ZEW8XCnyeBRdh\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hollywood-if-you-are-looking-for-great/7929719795.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hollywood-if-you-are-looking-for-great/7929719795.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hollywood-if-you-are-looking-for-great/7929719795.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:13.163Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hollywood-if-you-are-looking-for-great/7929719795.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hollywood-if-you-are-looking-for-great/7929719795.html"
+}

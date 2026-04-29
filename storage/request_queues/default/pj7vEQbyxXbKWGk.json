@@ -1,0 +1,9 @@
+{
+	"id": "pj7vEQbyxXbKWGk",
+	"json": "{\"id\":\"pj7vEQbyxXbKWGk\",\"url\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-collectors-estate/7926508040.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-collectors-estate/7926508040.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-collectors-estate/7926508040.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:11.831Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-collectors-estate/7926508040.html",
+	"url": "https://sfbay.craigslist.org/eby/fod/d/oakland-ending-april-collectors-estate/7926508040.html"
+}

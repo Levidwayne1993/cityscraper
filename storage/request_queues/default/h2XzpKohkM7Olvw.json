@@ -1,0 +1,9 @@
+{
+	"id": "h2XzpKohkM7Olvw",
+	"json": "{\"id\":\"h2XzpKohkM7Olvw\",\"url\":\"https://delaware.craigslist.org/gms/d/middletown-garage-sale-inside/7929706782.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/middletown-garage-sale-inside/7929706782.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/middletown-garage-sale-inside/7929706782.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:18:04.876Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/middletown-garage-sale-inside/7929706782.html",
+	"url": "https://delaware.craigslist.org/gms/d/middletown-garage-sale-inside/7929706782.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Xp5JLsEuYCCeKyu",
+	"json": "{\"id\":\"Xp5JLsEuYCCeKyu\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-yard-sale-garage-sale/7928388613.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-yard-sale-garage-sale/7928388613.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/morgan-hill-yard-sale-garage-sale/7928388613.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:32.023Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/morgan-hill-yard-sale-garage-sale/7928388613.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/morgan-hill-yard-sale-garage-sale/7928388613.html"
+}

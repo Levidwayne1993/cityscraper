@@ -1,0 +1,9 @@
+{
+	"id": "QtxECtpce5kn90d",
+	"json": "{\"id\":\"QtxECtpce5kn90d\",\"url\":\"https://austin.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://austin.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526126,
+	"retryCount": 0,
+	"uniqueKey": "https://austin.craigslist.org/search/gms?s=480",
+	"url": "https://austin.craigslist.org/search/gms?s=480"
+}

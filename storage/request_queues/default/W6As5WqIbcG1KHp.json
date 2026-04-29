@@ -1,0 +1,9 @@
+{
+	"id": "W6As5WqIbcG1KHp",
+	"json": "{\"id\":\"W6As5WqIbcG1KHp\",\"url\":\"https://kansascity.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://kansascity.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521236,
+	"retryCount": 0,
+	"uniqueKey": "https://kansascity.craigslist.org/search/gms?s=480",
+	"url": "https://kansascity.craigslist.org/search/gms?s=480"
+}

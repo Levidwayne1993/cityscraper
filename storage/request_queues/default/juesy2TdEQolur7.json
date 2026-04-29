@@ -1,0 +1,9 @@
+{
+	"id": "juesy2TdEQolur7",
+	"json": "{\"id\":\"juesy2TdEQolur7\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-cima-dr-san/7929681597.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-cima-dr-san/7929681597.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-cima-dr-san/7929681597.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:57:07.275Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-cima-dr-san/7929681597.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-estate-sale-cima-dr-san/7929681597.html"
+}

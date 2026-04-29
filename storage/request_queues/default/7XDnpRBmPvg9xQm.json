@@ -1,0 +1,9 @@
+{
+	"id": "7XDnpRBmPvg9xQm",
+	"json": "{\"id\":\"7XDnpRBmPvg9xQm\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-garage-sale-in-east-simi/7929508332.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-garage-sale-in-east-simi/7929508332.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-garage-sale-in-east-simi/7929508332.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:17:30.466Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-garage-sale-in-east-simi/7929508332.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-garage-sale-in-east-simi/7929508332.html"
+}

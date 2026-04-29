@@ -1,0 +1,9 @@
+{
+	"id": "vMrqEdzdpmEYrfr",
+	"json": "{\"id\":\"vMrqEdzdpmEYrfr\",\"url\":\"https://fortmyers.craigslist.org/col/tls/d/naples-gas-can-2gal-moving-sale-cost-2o/7915023459.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/col/tls/d/naples-gas-can-2gal-moving-sale-cost-2o/7915023459.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/col/tls/d/naples-gas-can-2gal-moving-sale-cost-2o/7915023459.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:27:47.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/col/tls/d/naples-gas-can-2gal-moving-sale-cost-2o/7915023459.html",
+	"url": "https://fortmyers.craigslist.org/col/tls/d/naples-gas-can-2gal-moving-sale-cost-2o/7915023459.html"
+}

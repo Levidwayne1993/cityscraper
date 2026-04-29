@@ -1,8 +1,8 @@
 {
 	"id": "wUriW1OcLLoZN1s",
-	"json": "{\"id\":\"wUriW1OcLLoZN1s\",\"url\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"wUriW1OcLLoZN1s\",\"url\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:28:30.537Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323599,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://orlando.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

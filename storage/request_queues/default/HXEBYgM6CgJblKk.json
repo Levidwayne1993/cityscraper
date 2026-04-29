@@ -1,0 +1,9 @@
+{
+	"id": "HXEBYgM6CgJblKk",
+	"json": "{\"id\":\"HXEBYgM6CgJblKk\",\"url\":\"https://goldcountry.craigslist.org/gms/d/grass-valley-big-moving-sale-march-21/7922565979.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/grass-valley-big-moving-sale-march-21/7922565979.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/grass-valley-big-moving-sale-march-21/7922565979.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:51:01.548Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/grass-valley-big-moving-sale-march-21/7922565979.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/grass-valley-big-moving-sale-march-21/7922565979.html"
+}

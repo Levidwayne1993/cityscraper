@@ -1,0 +1,9 @@
+{
+	"id": "Yx67L3c6zIkE3Q7",
+	"json": "{\"id\":\"Yx67L3c6zIkE3Q7\",\"url\":\"https://mohave.craigslist.org/gms/d/kingman-yard-sale/7928307980.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/kingman-yard-sale/7928307980.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/kingman-yard-sale/7928307980.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:20:18.756Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/kingman-yard-sale/7928307980.html",
+	"url": "https://mohave.craigslist.org/gms/d/kingman-yard-sale/7928307980.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "DtnIwY0UdgYIu16",
+	"json": "{\"id\":\"DtnIwY0UdgYIu16\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-stuff-all-day/7930074789.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-stuff-all-day/7930074789.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-stuff-all-day/7930074789.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:53.915Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-stuff-all-day/7930074789.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-garage-sale-stuff-all-day/7930074789.html"
+}

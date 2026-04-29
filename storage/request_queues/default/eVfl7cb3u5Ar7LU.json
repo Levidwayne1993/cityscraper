@@ -1,0 +1,9 @@
+{
+	"id": "eVfl7cb3u5Ar7LU",
+	"json": "{\"id\":\"eVfl7cb3u5Ar7LU\",\"url\":\"https://hartford.craigslist.org/gms/d/torrington-large-tag-sale/7925378021.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/torrington-large-tag-sale/7925378021.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/torrington-large-tag-sale/7925378021.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:08:34.918Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/torrington-large-tag-sale/7925378021.html",
+	"url": "https://hartford.craigslist.org/gms/d/torrington-large-tag-sale/7925378021.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zyK3QDmidSfIrCu",
+	"json": "{\"id\":\"zyK3QDmidSfIrCu\",\"url\":\"https://sandiego.craigslist.org/nsd/fuo/d/san-diego-luxury-apartment-quick-moving/7914314438.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/fuo/d/san-diego-luxury-apartment-quick-moving/7914314438.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/fuo/d/san-diego-luxury-apartment-quick-moving/7914314438.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:57.086Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/fuo/d/san-diego-luxury-apartment-quick-moving/7914314438.html",
+	"url": "https://sandiego.craigslist.org/nsd/fuo/d/san-diego-luxury-apartment-quick-moving/7914314438.html"
+}

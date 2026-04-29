@@ -1,0 +1,9 @@
+{
+	"id": "DDUKZFSdU7LLiTM",
+	"json": "{\"id\":\"DDUKZFSdU7LLiTM\",\"url\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-estate/7923825832.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-estate/7923825832.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-estate/7923825832.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:32:38.938Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-estate/7923825832.html",
+	"url": "https://cosprings.craigslist.org/gms/d/colorado-springs-multi-family-estate/7923825832.html"
+}

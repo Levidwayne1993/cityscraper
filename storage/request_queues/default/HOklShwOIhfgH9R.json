@@ -1,0 +1,9 @@
+{
+	"id": "HOklShwOIhfgH9R",
+	"json": "{\"id\":\"HOklShwOIhfgH9R\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-estate-sale-sat-10am-25-sun/7930036674.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-estate-sale-sat-10am-25-sun/7930036674.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/pleasanton-estate-sale-sat-10am-25-sun/7930036674.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:02.339Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/pleasanton-estate-sale-sat-10am-25-sun/7930036674.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/pleasanton-estate-sale-sat-10am-25-sun/7930036674.html"
+}

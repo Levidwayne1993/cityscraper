@@ -1,0 +1,9 @@
+{
+	"id": "FKTGqWjwlJOglXY",
+	"json": "{\"id\":\"FKTGqWjwlJOglXY\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-yard-sale/7924001168.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-yard-sale/7924001168.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-yard-sale/7924001168.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:51.259Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/lake-worth-yard-sale/7924001168.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/lake-worth-yard-sale/7924001168.html"
+}

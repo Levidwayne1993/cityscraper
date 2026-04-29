@@ -1,0 +1,9 @@
+{
+	"id": "ykMy0dxwHNgrWXQ",
+	"json": "{\"id\":\"ykMy0dxwHNgrWXQ\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-horizon-hills-community-yard/7928795942.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-horizon-hills-community-yard/7928795942.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-horizon-hills-community-yard/7928795942.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:01:25.309Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-horizon-hills-community-yard/7928795942.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-horizon-hills-community-yard/7928795942.html"
+}

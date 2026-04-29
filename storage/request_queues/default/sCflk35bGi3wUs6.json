@@ -1,0 +1,9 @@
+{
+	"id": "sCflk35bGi3wUs6",
+	"json": "{\"id\":\"sCflk35bGi3wUs6\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-209-south-midway-drive-garage/7930239659.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-209-south-midway-drive-garage/7930239659.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/escondido-209-south-midway-drive-garage/7930239659.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:56:32.964Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/escondido-209-south-midway-drive-garage/7930239659.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/escondido-209-south-midway-drive-garage/7930239659.html"
+}

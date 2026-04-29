@@ -1,8 +1,8 @@
 {
 	"id": "CWb5n4Q1WrUziCM",
-	"json": "{\"id\":\"CWb5n4Q1WrUziCM\",\"url\":\"https://florence.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://florence.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"CWb5n4Q1WrUziCM\",\"url\":\"https://florence.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://florence.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://florence.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:59:17.603Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://florence.craigslist.org/search/gms?s=240",
 	"url": "https://florence.craigslist.org/search/gms?s=240"

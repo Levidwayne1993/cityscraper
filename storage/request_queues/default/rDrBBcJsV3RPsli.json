@@ -1,8 +1,8 @@
 {
 	"id": "rDrBBcJsV3RPsli",
-	"json": "{\"id\":\"rDrBBcJsV3RPsli\",\"url\":\"https://redding.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://redding.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"rDrBBcJsV3RPsli\",\"url\":\"https://redding.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://redding.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://redding.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:38:15.966Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323247,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://redding.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://redding.craigslist.org/search/sss?query=moving+sale"

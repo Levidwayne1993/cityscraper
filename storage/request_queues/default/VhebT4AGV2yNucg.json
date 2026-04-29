@@ -1,9 +1,0 @@
-{
-	"id": "VhebT4AGV2yNucg",
-	"json": "{\"id\":\"VhebT4AGV2yNucg\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Phoenix-AZ.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Phoenix-AZ.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330463,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Phoenix-AZ.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Phoenix-AZ.html"
-}

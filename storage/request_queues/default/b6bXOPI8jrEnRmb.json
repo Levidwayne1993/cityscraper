@@ -1,0 +1,9 @@
+{
+	"id": "b6bXOPI8jrEnRmb",
+	"json": "{\"id\":\"b6bXOPI8jrEnRmb\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Stamford-CT.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Stamford-CT.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CT\",\"yssSlug\":\"Stamford-CT\"}}",
+	"method": "GET",
+	"orderNo": 1777186530666,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Stamford-CT.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Stamford-CT.html"
+}

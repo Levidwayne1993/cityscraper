@@ -1,0 +1,9 @@
+{
+	"id": "y4H8RcloreVr1eA",
+	"json": "{\"id\":\"y4H8RcloreVr1eA\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-massive-church-yard-sale/7921952513.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-massive-church-yard-sale/7921952513.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-massive-church-yard-sale/7921952513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:06:42.539Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-massive-church-yard-sale/7921952513.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-massive-church-yard-sale/7921952513.html"
+}

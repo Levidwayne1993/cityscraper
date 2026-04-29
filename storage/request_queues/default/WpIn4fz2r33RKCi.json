@@ -1,0 +1,9 @@
+{
+	"id": "WpIn4fz2r33RKCi",
+	"json": "{\"id\":\"WpIn4fz2r33RKCi\",\"url\":\"https://bakersfield.craigslist.org/gms/d/shafter-shafter-yard-sale-venta-de/7922432981.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/shafter-shafter-yard-sale-venta-de/7922432981.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/shafter-shafter-yard-sale-venta-de/7922432981.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:21:50.953Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/shafter-shafter-yard-sale-venta-de/7922432981.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/shafter-shafter-yard-sale-venta-de/7922432981.html"
+}

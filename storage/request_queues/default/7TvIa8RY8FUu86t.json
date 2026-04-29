@@ -1,0 +1,9 @@
+{
+	"id": "7TvIa8RY8FUu86t",
+	"json": "{\"id\":\"7TvIa8RY8FUu86t\",\"url\":\"https://redding.craigslist.org/gms/d/red-bluff-estate-sale/7923700522.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/red-bluff-estate-sale/7923700522.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/red-bluff-estate-sale/7923700522.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:37:30.951Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/red-bluff-estate-sale/7923700522.html",
+	"url": "https://redding.craigslist.org/gms/d/red-bluff-estate-sale/7923700522.html"
+}

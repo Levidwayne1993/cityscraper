@@ -1,0 +1,9 @@
+{
+	"id": "UPZBzMH5UIcplyL",
+	"json": "{\"id\":\"UPZBzMH5UIcplyL\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/TX/?page=2\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/TX?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186530256,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/TX?page=2",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/TX/?page=2"
+}

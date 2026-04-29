@@ -1,0 +1,9 @@
+{
+	"id": "p1xM1C2QbCSU1pk",
+	"json": "{\"id\":\"p1xM1C2QbCSU1pk\",\"url\":\"https://okaloosa.craigslist.org/gms/d/freeport-spring-cleaning-yard-sale/7924085801.html\",\"loadedUrl\":\"https://okaloosa.craigslist.org/gms/d/freeport-spring-cleaning-yard-sale/7924085801.html\",\"uniqueKey\":\"https://okaloosa.craigslist.org/gms/d/freeport-spring-cleaning-yard-sale/7924085801.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:17:36.901Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/gms/d/freeport-spring-cleaning-yard-sale/7924085801.html",
+	"url": "https://okaloosa.craigslist.org/gms/d/freeport-spring-cleaning-yard-sale/7924085801.html"
+}

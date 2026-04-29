@@ -1,0 +1,9 @@
+{
+	"id": "6TZfCmqg6Nja7uv",
+	"json": "{\"id\":\"6TZfCmqg6Nja7uv\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-moving-sale/7929794813.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-moving-sale/7929794813.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-moving-sale/7929794813.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:56.330Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/aptos-moving-sale/7929794813.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/aptos-moving-sale/7929794813.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "WiNzfNm9goXaXTa",
+	"json": "{\"id\":\"WiNzfNm9goXaXTa\",\"url\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-garage-moving-sale/7929363446.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-garage-moving-sale/7929363446.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/north-grosvenordale-garage-moving-sale/7929363446.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:02:06.400Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/north-grosvenordale-garage-moving-sale/7929363446.html",
+	"url": "https://newlondon.craigslist.org/gms/d/north-grosvenordale-garage-moving-sale/7929363446.html"
+}

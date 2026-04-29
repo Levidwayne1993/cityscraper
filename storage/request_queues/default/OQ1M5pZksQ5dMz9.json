@@ -1,0 +1,9 @@
+{
+	"id": "OQ1M5pZksQ5dMz9",
+	"json": "{\"id\":\"OQ1M5pZksQ5dMz9\",\"url\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-this-saturday-and/7929342658.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-this-saturday-and/7929342658.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/ventura-moving-sale-this-saturday-and/7929342658.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:08:39.782Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/ventura-moving-sale-this-saturday-and/7929342658.html",
+	"url": "https://ventura.craigslist.org/gms/d/ventura-moving-sale-this-saturday-and/7929342658.html"
+}

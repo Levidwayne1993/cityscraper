@@ -1,0 +1,9 @@
+{
+	"id": "RCvlMzX7a5obdKi",
+	"json": "{\"id\":\"RCvlMzX7a5obdKi\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/montgomery-village-estate-sale/7926602852.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/montgomery-village-estate-sale/7926602852.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/montgomery-village-estate-sale/7926602852.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:25:05.439Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/montgomery-village-estate-sale/7926602852.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/montgomery-village-estate-sale/7926602852.html"
+}

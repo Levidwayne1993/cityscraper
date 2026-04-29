@@ -1,0 +1,9 @@
+{
+	"id": "V9YH0Gd7PvaSvGS",
+	"json": "{\"id\":\"V9YH0Gd7PvaSvGS\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale/7928412044.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale/7928412044.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale/7928412044.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:58:12.755Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale/7928412044.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/santee-yard-sale/7928412044.html"
+}

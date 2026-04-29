@@ -1,0 +1,9 @@
+{
+	"id": "6o0UE6WyetiI1tz",
+	"json": "{\"id\":\"6o0UE6WyetiI1tz\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-everything-must-go/7929873009.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-everything-must-go/7929873009.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-everything-must-go/7929873009.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:50.217Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-everything-must-go/7929873009.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-estate-sale-everything-must-go/7929873009.html"
+}

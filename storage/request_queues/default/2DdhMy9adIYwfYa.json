@@ -1,0 +1,9 @@
+{
+	"id": "2DdhMy9adIYwfYa",
+	"json": "{\"id\":\"2DdhMy9adIYwfYa\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/florence-yard-sale/7922572186.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/florence-yard-sale/7922572186.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/florence-yard-sale/7922572186.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:26:23.496Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/florence-yard-sale/7922572186.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/florence-yard-sale/7922572186.html"
+}

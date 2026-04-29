@@ -1,0 +1,9 @@
+{
+	"id": "qKuj2LqXy8RTSr2",
+	"json": "{\"id\":\"qKuj2LqXy8RTSr2\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-sun-april-26-castro-valley-10/7930006391.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-sun-april-26-castro-valley-10/7930006391.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-sun-april-26-castro-valley-10/7930006391.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:16:18.892Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-sun-april-26-castro-valley-10/7930006391.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-sun-april-26-castro-valley-10/7930006391.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Oa7UWrqHwsMoIZZ",
+	"json": "{\"id\":\"Oa7UWrqHwsMoIZZ\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-big-garage-sale-lake-sarasota/7928308689.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-big-garage-sale-lake-sarasota/7928308689.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-big-garage-sale-lake-sarasota/7928308689.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:48:16.131Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-big-garage-sale-lake-sarasota/7928308689.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-big-garage-sale-lake-sarasota/7928308689.html"
+}

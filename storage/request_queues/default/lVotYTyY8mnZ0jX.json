@@ -1,0 +1,9 @@
+{
+	"id": "lVotYTyY8mnZ0jX",
+	"json": "{\"id\":\"lVotYTyY8mnZ0jX\",\"url\":\"https://visalia.craigslist.org/gms/d/ivanhoe-garage-sale-teen-clothes/7925595852.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/ivanhoe-garage-sale-teen-clothes/7925595852.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/ivanhoe-garage-sale-teen-clothes/7925595852.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:21:45.352Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/ivanhoe-garage-sale-teen-clothes/7925595852.html",
+	"url": "https://visalia.craigslist.org/gms/d/ivanhoe-garage-sale-teen-clothes/7925595852.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hKBadlELzzwjCAq",
+	"json": "{\"id\":\"hKBadlELzzwjCAq\",\"url\":\"https://orlando.craigslist.org/gms/d/casselberry-the-gamers-garage-sale/7929194014.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/casselberry-the-gamers-garage-sale/7929194014.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/casselberry-the-gamers-garage-sale/7929194014.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:34:16.868Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/casselberry-the-gamers-garage-sale/7929194014.html",
+	"url": "https://orlando.craigslist.org/gms/d/casselberry-the-gamers-garage-sale/7929194014.html"
+}

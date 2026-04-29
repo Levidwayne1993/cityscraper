@@ -1,8 +1,8 @@
 {
 	"id": "kqbBkBUm5WXrBtq",
-	"json": "{\"id\":\"kqbBkBUm5WXrBtq\",\"url\":\"https://santamaria.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://santamaria.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"kqbBkBUm5WXrBtq\",\"url\":\"https://santamaria.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://santamaria.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://santamaria.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:56:17.737Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323298,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://santamaria.craigslist.org/search/gms?s=240",
 	"url": "https://santamaria.craigslist.org/search/gms?s=240"

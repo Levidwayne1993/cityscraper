@@ -1,0 +1,9 @@
+{
+	"id": "g6VAwj7xQppl15V",
+	"json": "{\"id\":\"g6VAwj7xQppl15V\",\"url\":\"https://tucson.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://tucson.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://tucson.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:07:03.267Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://tucson.craigslist.org/search/ccc?query=yard+sale"
+}

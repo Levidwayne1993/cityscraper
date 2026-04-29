@@ -1,0 +1,9 @@
+{
+	"id": "0WIoNsqsbTovs31",
+	"json": "{\"id\":\"0WIoNsqsbTovs31\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-10am-saturday-25/7930056487.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-10am-saturday-25/7930056487.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-10am-saturday-25/7930056487.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:57.429Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-10am-saturday-25/7930056487.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/petaluma-garage-sale-10am-saturday-25/7930056487.html"
+}

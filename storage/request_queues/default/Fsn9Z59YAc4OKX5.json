@@ -1,0 +1,9 @@
+{
+	"id": "Fsn9Z59YAc4OKX5",
+	"json": "{\"id\":\"Fsn9Z59YAc4OKX5\",\"url\":\"https://orangecounty.craigslist.org/gms/d/laguna-beach-garage-warehouse-sale/7925114636.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/laguna-beach-garage-warehouse-sale/7925114636.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/laguna-beach-garage-warehouse-sale/7925114636.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:40.284Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/laguna-beach-garage-warehouse-sale/7925114636.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/laguna-beach-garage-warehouse-sale/7925114636.html"
+}

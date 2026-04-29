@@ -1,0 +1,9 @@
+{
+	"id": "m7KVZEOodGxajwF",
+	"json": "{\"id\":\"m7KVZEOodGxajwF\",\"url\":\"https://mobile.craigslist.org/gms/d/grand-bay-huge-yard-sale-friday/7927805766.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/grand-bay-huge-yard-sale-friday/7927805766.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/grand-bay-huge-yard-sale-friday/7927805766.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:09.164Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/grand-bay-huge-yard-sale-friday/7927805766.html",
+	"url": "https://mobile.craigslist.org/gms/d/grand-bay-huge-yard-sale-friday/7927805766.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "DsLyybYoMlU3ZQ5",
+	"json": "{\"id\":\"DsLyybYoMlU3ZQ5\",\"url\":\"https://gulfport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://gulfport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521095,
+	"retryCount": 0,
+	"uniqueKey": "https://gulfport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://gulfport.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

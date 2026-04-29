@@ -1,8 +1,8 @@
 {
 	"id": "jKTNA0aDF1jxkz5",
-	"json": "{\"id\":\"jKTNA0aDF1jxkz5\",\"url\":\"https://sacramento.craigslist.org/search/gms\",\"uniqueKey\":\"https://sacramento.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"jKTNA0aDF1jxkz5\",\"url\":\"https://sacramento.craigslist.org/search/gms\",\"loadedUrl\":\"https://sacramento.craigslist.org/search/gms\",\"uniqueKey\":\"https://sacramento.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:39:53.337Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323248,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sacramento.craigslist.org/search/gms",
 	"url": "https://sacramento.craigslist.org/search/gms"

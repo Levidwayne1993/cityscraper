@@ -1,0 +1,9 @@
+{
+	"id": "TxamrSKxz8pEF3p",
+	"json": "{\"id\":\"TxamrSKxz8pEF3p\",\"url\":\"https://tucson.craigslist.org/vnn/d/tucson-garage-sale-sat-from-7am-2pm/7925858411.html\",\"loadedUrl\":\"https://tucson.craigslist.org/vnn/d/tucson-garage-sale-sat-from-7am-2pm/7925858411.html\",\"uniqueKey\":\"https://tucson.craigslist.org/vnn/d/tucson-garage-sale-sat-from-7am-2pm/7925858411.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:07:24.108Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/vnn/d/tucson-garage-sale-sat-from-7am-2pm/7925858411.html",
+	"url": "https://tucson.craigslist.org/vnn/d/tucson-garage-sale-sat-from-7am-2pm/7925858411.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "O3uGPRoQ6JPbwSq",
+	"json": "{\"id\":\"O3uGPRoQ6JPbwSq\",\"url\":\"https://rockies.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://rockies.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://rockies.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:32.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://rockies.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://rockies.craigslist.org/search/ccc?query=garage+sale"
+}

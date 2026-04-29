@@ -1,0 +1,9 @@
+{
+	"id": "ckfXaFhQahLrqDZ",
+	"json": "{\"id\":\"ckfXaFhQahLrqDZ\",\"url\":\"https://fortmyers.craigslist.org/lee/fuo/d/bonita-springs-moving-sale-day/7916067825.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/fuo/d/bonita-springs-moving-sale-day/7916067825.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/fuo/d/bonita-springs-moving-sale-day/7916067825.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:26:56.428Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/fuo/d/bonita-springs-moving-sale-day/7916067825.html",
+	"url": "https://fortmyers.craigslist.org/lee/fuo/d/bonita-springs-moving-sale-day/7916067825.html"
+}

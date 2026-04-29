@@ -1,0 +1,9 @@
+{
+	"id": "7GPPzHs3YX4qugp",
+	"json": "{\"id\":\"7GPPzHs3YX4qugp\",\"url\":\"https://sarasota.craigslist.org/gms/d/north-port-garage-sale/7929981755.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/north-port-garage-sale/7929981755.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\"}}",
+	"method": "GET",
+	"orderNo": -1777218943634,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/north-port-garage-sale/7929981755.html",
+	"url": "https://sarasota.craigslist.org/gms/d/north-port-garage-sale/7929981755.html"
+}

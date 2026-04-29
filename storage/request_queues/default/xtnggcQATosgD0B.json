@@ -1,0 +1,9 @@
+{
+	"id": "xtnggcQATosgD0B",
+	"json": "{\"id\":\"xtnggcQATosgD0B\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/san-pablo-yard-sale-sunday-am-to-4pm/7930020027.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/san-pablo-yard-sale-sunday-am-to-4pm/7930020027.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/san-pablo-yard-sale-sunday-am-to-4pm/7930020027.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:18.831Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/san-pablo-yard-sale-sunday-am-to-4pm/7930020027.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/san-pablo-yard-sale-sunday-am-to-4pm/7930020027.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "PYdPYCB5AmMl8gV",
+	"json": "{\"id\":\"PYdPYCB5AmMl8gV\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/dumfries-yard-sale-april-18th-12/7928363132.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/dumfries-yard-sale-april-18th-12/7928363132.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/dumfries-yard-sale-april-18th-12/7928363132.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:26:17.698Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/dumfries-yard-sale-april-18th-12/7928363132.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/dumfries-yard-sale-april-18th-12/7928363132.html"
+}

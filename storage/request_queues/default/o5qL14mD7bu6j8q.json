@@ -1,0 +1,9 @@
+{
+	"id": "o5qL14mD7bu6j8q",
+	"json": "{\"id\":\"o5qL14mD7bu6j8q\",\"url\":\"https://treasure.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://treasure.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777186517361,
+	"retryCount": 0,
+	"uniqueKey": "https://treasure.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://treasure.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

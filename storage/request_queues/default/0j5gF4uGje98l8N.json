@@ -1,0 +1,9 @@
+{
+	"id": "0j5gF4uGje98l8N",
+	"json": "{\"id\":\"0j5gF4uGje98l8N\",\"url\":\"https://monterey.craigslist.org/gms/d/pacific-grove-estate-sale-in-pg/7925238246.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/pacific-grove-estate-sale-in-pg/7925238246.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/pacific-grove-estate-sale-in-pg/7925238246.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:32.700Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/pacific-grove-estate-sale-in-pg/7925238246.html",
+	"url": "https://monterey.craigslist.org/gms/d/pacific-grove-estate-sale-in-pg/7925238246.html"
+}

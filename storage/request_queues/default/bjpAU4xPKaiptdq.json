@@ -1,0 +1,9 @@
+{
+	"id": "bjpAU4xPKaiptdq",
+	"json": "{\"id\":\"bjpAU4xPKaiptdq\",\"url\":\"https://mendocino.craigslist.org/gms/d/lakeport-moving-sale-read-de-ion/7913476717.html\",\"loadedUrl\":\"https://mendocino.craigslist.org/gms/d/lakeport-moving-sale-read-de-ion/7913476717.html\",\"uniqueKey\":\"https://mendocino.craigslist.org/gms/d/lakeport-moving-sale-read-de-ion/7913476717.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:48:54.694Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mendocino.craigslist.org/gms/d/lakeport-moving-sale-read-de-ion/7913476717.html",
+	"url": "https://mendocino.craigslist.org/gms/d/lakeport-moving-sale-read-de-ion/7913476717.html"
+}

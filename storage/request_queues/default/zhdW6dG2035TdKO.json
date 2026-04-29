@@ -1,0 +1,9 @@
+{
+	"id": "zhdW6dG2035TdKO",
+	"json": "{\"id\":\"zhdW6dG2035TdKO\",\"url\":\"https://newhaven.craigslist.org/gms/d/west-haven-tag-sale-home-decor/7928546695.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/west-haven-tag-sale-home-decor/7928546695.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/west-haven-tag-sale-home-decor/7928546695.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:50.375Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/west-haven-tag-sale-home-decor/7928546695.html",
+	"url": "https://newhaven.craigslist.org/gms/d/west-haven-tag-sale-home-decor/7928546695.html"
+}

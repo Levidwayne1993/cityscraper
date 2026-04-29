@@ -1,0 +1,9 @@
+{
+	"id": "4RKr4e7GWvs03Pe",
+	"json": "{\"id\":\"4RKr4e7GWvs03Pe\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-sale/7929317124.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-sale/7929317124.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-big-sale/7929317124.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:36.762Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-big-sale/7929317124.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-big-sale/7929317124.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "09MiXzqyu0N2pJv",
+	"json": "{\"id\":\"09MiXzqyu0N2pJv\",\"url\":\"https://losangeles.craigslist.org/sgv/gms/d/duarte-duarte-yard-sale/7928263884.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sgv/gms/d/duarte-duarte-yard-sale/7928263884.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sgv/gms/d/duarte-duarte-yard-sale/7928263884.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:29:40.257Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sgv/gms/d/duarte-duarte-yard-sale/7928263884.html",
+	"url": "https://losangeles.craigslist.org/sgv/gms/d/duarte-duarte-yard-sale/7928263884.html"
+}

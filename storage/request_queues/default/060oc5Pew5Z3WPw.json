@@ -1,0 +1,9 @@
+{
+	"id": "060oc5Pew5Z3WPw",
+	"json": "{\"id\":\"060oc5Pew5Z3WPw\",\"url\":\"https://slo.craigslist.org/gms/d/cayucos-cayucos-yard-sale-great/7928424061.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/cayucos-cayucos-yard-sale-great/7928424061.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/cayucos-cayucos-yard-sale-great/7928424061.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:44:11.149Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/cayucos-cayucos-yard-sale-great/7928424061.html",
+	"url": "https://slo.craigslist.org/gms/d/cayucos-cayucos-yard-sale-great/7928424061.html"
+}

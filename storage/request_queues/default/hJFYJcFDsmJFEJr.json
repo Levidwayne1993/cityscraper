@@ -1,0 +1,9 @@
+{
+	"id": "hJFYJcFDsmJFEJr",
+	"json": "{\"id\":\"hJFYJcFDsmJFEJr\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-big-yard-sale-saturday-april/7928115141.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-big-yard-sale-saturday-april/7928115141.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-big-yard-sale-saturday-april/7928115141.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:37.061Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-big-yard-sale-saturday-april/7928115141.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-big-yard-sale-saturday-april/7928115141.html"
+}

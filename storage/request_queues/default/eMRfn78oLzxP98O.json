@@ -1,0 +1,9 @@
+{
+	"id": "eMRfn78oLzxP98O",
+	"json": "{\"id\":\"eMRfn78oLzxP98O\",\"url\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-today-only/7930050606.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-today-only/7930050606.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-today-only/7930050606.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:30.512Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-today-only/7930050606.html",
+	"url": "https://sacramento.craigslist.org/gms/d/carmichael-estate-sale-today-only/7930050606.html"
+}

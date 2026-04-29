@@ -1,8 +1,8 @@
 {
 	"id": "JVsfFqrZjaQD26C",
-	"json": "{\"id\":\"JVsfFqrZjaQD26C\",\"url\":\"https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"JVsfFqrZjaQD26C\",\"url\":\"https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:00:41.981Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://gadsden.craigslist.org/search/sss?query=yard+sale+garage+sale"

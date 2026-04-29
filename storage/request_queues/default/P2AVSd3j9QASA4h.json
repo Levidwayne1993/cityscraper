@@ -1,0 +1,9 @@
+{
+	"id": "P2AVSd3j9QASA4h",
+	"json": "{\"id\":\"P2AVSd3j9QASA4h\",\"url\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-sale-calle-segundo/7927969925.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-sale-calle-segundo/7927969925.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/huachuca-city-garage-sale-calle-segundo/7927969925.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:53:35.004Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/huachuca-city-garage-sale-calle-segundo/7927969925.html",
+	"url": "https://sierravista.craigslist.org/gms/d/huachuca-city-garage-sale-calle-segundo/7927969925.html"
+}

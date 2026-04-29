@@ -1,8 +1,8 @@
 {
 	"id": "U9hKMkvveB7K676",
-	"json": "{\"id\":\"U9hKMkvveB7K676\",\"url\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"U9hKMkvveB7K676\",\"url\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://santamaria.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:57:53.800Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323303,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://santamaria.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://santamaria.craigslist.org/search/sss?query=moving+sale"

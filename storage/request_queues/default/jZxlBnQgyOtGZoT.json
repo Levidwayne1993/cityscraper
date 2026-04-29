@@ -1,0 +1,9 @@
+{
+	"id": "jZxlBnQgyOtGZoT",
+	"json": "{\"id\":\"jZxlBnQgyOtGZoT\",\"url\":\"https://newlondon.craigslist.org/gms/d/jewett-city-garage-sale/7929723021.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/jewett-city-garage-sale/7929723021.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/jewett-city-garage-sale/7929723021.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:51.544Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/jewett-city-garage-sale/7929723021.html",
+	"url": "https://newlondon.craigslist.org/gms/d/jewett-city-garage-sale/7929723021.html"
+}

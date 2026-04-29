@@ -1,0 +1,9 @@
+{
+	"id": "0WOXx6apLv0JMAr",
+	"json": "{\"id\":\"0WOXx6apLv0JMAr\",\"url\":\"https://orlando.craigslist.org/gms/d/casselberry-garage-sale/7926508736.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/casselberry-garage-sale/7926508736.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/casselberry-garage-sale/7926508736.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:32:25.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/casselberry-garage-sale/7926508736.html",
+	"url": "https://orlando.craigslist.org/gms/d/casselberry-garage-sale/7926508736.html"
+}

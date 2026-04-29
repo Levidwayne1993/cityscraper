@@ -1,0 +1,9 @@
+{
+	"id": "pxUge3j9Lhv1DXo",
+	"json": "{\"id\":\"pxUge3j9Lhv1DXo\",\"url\":\"https://monterey.craigslist.org/atq/d/carmel-by-the-sea-amazing-estate-sale/7921108259.html\",\"loadedUrl\":\"https://monterey.craigslist.org/atq/d/carmel-by-the-sea-amazing-estate-sale/7921108259.html\",\"uniqueKey\":\"https://monterey.craigslist.org/atq/d/carmel-by-the-sea-amazing-estate-sale/7921108259.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:16.548Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/atq/d/carmel-by-the-sea-amazing-estate-sale/7921108259.html",
+	"url": "https://monterey.craigslist.org/atq/d/carmel-by-the-sea-amazing-estate-sale/7921108259.html"
+}

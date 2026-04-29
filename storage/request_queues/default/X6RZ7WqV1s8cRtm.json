@@ -1,8 +1,8 @@
 {
 	"id": "X6RZ7WqV1s8cRtm",
-	"json": "{\"id\":\"X6RZ7WqV1s8cRtm\",\"url\":\"https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"X6RZ7WqV1s8cRtm\",\"url\":\"https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
 	"method": "GET",
-	"orderNo": 1777040325876,
+	"orderNo": 1777186523089,
 	"retryCount": 0,
 	"uniqueKey": "https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://buffalo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

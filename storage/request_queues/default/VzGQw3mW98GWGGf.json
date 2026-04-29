@@ -1,0 +1,9 @@
+{
+	"id": "VzGQw3mW98GWGGf",
+	"json": "{\"id\":\"VzGQw3mW98GWGGf\",\"url\":\"https://inlandempire.craigslist.org/com/d/murrieta-valley-vista-community-garage/7927433243.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/murrieta-valley-vista-community-garage/7927433243.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/murrieta-valley-vista-community-garage/7927433243.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:18:34.877Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/murrieta-valley-vista-community-garage/7927433243.html",
+	"url": "https://inlandempire.craigslist.org/com/d/murrieta-valley-vista-community-garage/7927433243.html"
+}

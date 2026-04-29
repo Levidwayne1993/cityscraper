@@ -1,0 +1,9 @@
+{
+	"id": "1BR7CqMK1euoizL",
+	"json": "{\"id\":\"1BR7CqMK1euoizL\",\"url\":\"https://jacksontn.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://jacksontn.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TN\"}}",
+	"method": "GET",
+	"orderNo": 1777186526034,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksontn.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://jacksontn.craigslist.org/search/ccc?query=garage+sale"
+}

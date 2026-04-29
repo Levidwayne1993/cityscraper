@@ -1,0 +1,9 @@
+{
+	"id": "lPdJwTpcvSvDsCw",
+	"json": "{\"id\":\"lPdJwTpcvSvDsCw\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/spring-valley-moving-sale-and-under/7928470604.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/spring-valley-moving-sale-and-under/7928470604.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/spring-valley-moving-sale-and-under/7928470604.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:21.877Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/spring-valley-moving-sale-and-under/7928470604.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/spring-valley-moving-sale-and-under/7928470604.html"
+}

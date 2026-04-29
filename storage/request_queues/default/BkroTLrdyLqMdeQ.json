@@ -1,0 +1,9 @@
+{
+	"id": "BkroTLrdyLqMdeQ",
+	"json": "{\"id\":\"BkroTLrdyLqMdeQ\",\"url\":\"https://lakeland.craigslist.org/com/d/lakeland-huge-yard-sale/7925555814.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/com/d/lakeland-huge-yard-sale/7925555814.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/com/d/lakeland-huge-yard-sale/7925555814.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:49:00.787Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/com/d/lakeland-huge-yard-sale/7925555814.html",
+	"url": "https://lakeland.craigslist.org/com/d/lakeland-huge-yard-sale/7925555814.html"
+}

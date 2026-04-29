@@ -1,0 +1,9 @@
+{
+	"id": "ddzzeb4I6pX9P4D",
+	"json": "{\"id\":\"ddzzeb4I6pX9P4D\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-atherton-estate-sale/7926779739.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-atherton-estate-sale/7926779739.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-atherton-estate-sale/7926779739.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:31:20.670Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/menlo-park-atherton-estate-sale/7926779739.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/menlo-park-atherton-estate-sale/7926779739.html"
+}

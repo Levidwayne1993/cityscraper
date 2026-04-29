@@ -1,0 +1,9 @@
+{
+	"id": "6ItcWxlEVmv0FUF",
+	"json": "{\"id\":\"6ItcWxlEVmv0FUF\",\"url\":\"https://utica.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://utica.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523352,
+	"retryCount": 0,
+	"uniqueKey": "https://utica.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://utica.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gR8okpXZXvOE5tL",
+	"json": "{\"id\":\"gR8okpXZXvOE5tL\",\"url\":\"https://amarillo.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://amarillo.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526119,
+	"retryCount": 0,
+	"uniqueKey": "https://amarillo.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://amarillo.craigslist.org/search/ccc?query=yard+sale"
+}

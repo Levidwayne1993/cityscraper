@@ -1,0 +1,9 @@
+{
+	"id": "WD5CHp2ExmUnxjC",
+	"json": "{\"id\":\"WD5CHp2ExmUnxjC\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/tarzana-estate-sale-like-community-yard/7929972442.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/tarzana-estate-sale-like-community-yard/7929972442.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/tarzana-estate-sale-like-community-yard/7929972442.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:35:00.914Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/tarzana-estate-sale-like-community-yard/7929972442.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/tarzana-estate-sale-like-community-yard/7929972442.html"
+}

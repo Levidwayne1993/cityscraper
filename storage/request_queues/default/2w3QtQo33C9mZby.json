@@ -1,0 +1,9 @@
+{
+	"id": "2w3QtQo33C9mZby",
+	"json": "{\"id\":\"2w3QtQo33C9mZby\",\"url\":\"https://redding.craigslist.org/hsh/d/shasta-lake-12-ceramic-chicken-themed/7924585887.html\",\"loadedUrl\":\"https://redding.craigslist.org/hsh/d/shasta-lake-12-ceramic-chicken-themed/7924585887.html\",\"uniqueKey\":\"https://redding.craigslist.org/hsh/d/shasta-lake-12-ceramic-chicken-themed/7924585887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:39:37.365Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/hsh/d/shasta-lake-12-ceramic-chicken-themed/7924585887.html",
+	"url": "https://redding.craigslist.org/hsh/d/shasta-lake-12-ceramic-chicken-themed/7924585887.html"
+}

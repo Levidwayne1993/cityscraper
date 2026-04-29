@@ -1,0 +1,9 @@
+{
+	"id": "EydQN850i1Gb1tL",
+	"json": "{\"id\":\"EydQN850i1Gb1tL\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-may-craft-and-vendor-show/7930203771.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-may-craft-and-vendor-show/7930203771.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-may-craft-and-vendor-show/7930203771.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:20:27.570Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-may-craft-and-vendor-show/7930203771.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-may-craft-and-vendor-show/7930203771.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4OYkSNkeDFAjOq5",
+	"json": "{\"id\":\"4OYkSNkeDFAjOq5\",\"url\":\"https://nwct.craigslist.org/gms/d/danbury-antique-tag-sale-inside-all-the/7922412468.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/danbury-antique-tag-sale-inside-all-the/7922412468.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/danbury-antique-tag-sale-inside-all-the/7922412468.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:27.941Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/danbury-antique-tag-sale-inside-all-the/7922412468.html",
+	"url": "https://nwct.craigslist.org/gms/d/danbury-antique-tag-sale-inside-all-the/7922412468.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "t3hI6Fed8ULym1C",
+	"json": "{\"id\":\"t3hI6Fed8ULym1C\",\"url\":\"https://slo.craigslist.org/gms/d/nipomo-50-off-estate-sale-most-items/7925513532.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/nipomo-50-off-estate-sale-most-items/7925513532.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/nipomo-50-off-estate-sale-most-items/7925513532.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:43:26.094Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/nipomo-50-off-estate-sale-most-items/7925513532.html",
+	"url": "https://slo.craigslist.org/gms/d/nipomo-50-off-estate-sale-most-items/7925513532.html"
+}

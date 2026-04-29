@@ -1,0 +1,9 @@
+{
+	"id": "4Hh3idEOFe0C6QN",
+	"json": "{\"id\":\"4Hh3idEOFe0C6QN\",\"url\":\"https://joplin.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://joplin.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521230,
+	"retryCount": 0,
+	"uniqueKey": "https://joplin.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://joplin.craigslist.org/search/ccc?query=yard+sale"
+}

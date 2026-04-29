@@ -1,0 +1,9 @@
+{
+	"id": "FvtLRlbvQvj7Gwq",
+	"json": "{\"id\":\"FvtLRlbvQvj7Gwq\",\"url\":\"https://redding.craigslist.org/gms/d/redding-garage-sale-410-buckeye-terrace/7924585495.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-garage-sale-410-buckeye-terrace/7924585495.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-garage-sale-410-buckeye-terrace/7924585495.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:38:45.444Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-garage-sale-410-buckeye-terrace/7924585495.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-garage-sale-410-buckeye-terrace/7924585495.html"
+}

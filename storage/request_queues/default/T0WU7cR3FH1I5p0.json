@@ -1,0 +1,9 @@
+{
+	"id": "T0WU7cR3FH1I5p0",
+	"json": "{\"id\":\"T0WU7cR3FH1I5p0\",\"url\":\"https://miami.craigslist.org/brw/gms/d/hollywood-estate-sale/7921140592.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/hollywood-estate-sale/7921140592.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/hollywood-estate-sale/7921140592.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:11:15.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/hollywood-estate-sale/7921140592.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/hollywood-estate-sale/7921140592.html"
+}

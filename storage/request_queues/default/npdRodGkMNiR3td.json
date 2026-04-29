@@ -1,0 +1,9 @@
+{
+	"id": "npdRodGkMNiR3td",
+	"json": "{\"id\":\"npdRodGkMNiR3td\",\"url\":\"https://sfbay.craigslist.org/eby/for/d/hayward-super-moving-sale-aquarium/7915233522.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/for/d/hayward-super-moving-sale-aquarium/7915233522.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/for/d/hayward-super-moving-sale-aquarium/7915233522.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:56.395Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/for/d/hayward-super-moving-sale-aquarium/7915233522.html",
+	"url": "https://sfbay.craigslist.org/eby/for/d/hayward-super-moving-sale-aquarium/7915233522.html"
+}

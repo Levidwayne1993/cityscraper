@@ -1,0 +1,9 @@
+{
+	"id": "0k0JtB4lQCyuJQO",
+	"json": "{\"id\":\"0k0JtB4lQCyuJQO\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Shreveport-LA.html?page=5\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Shreveport-LA.html?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"LA\",\"yssSlug\":\"Shreveport-LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186531105,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Shreveport-LA.html?page=5",
+	"url": "https://www.yardsalesearch.com/yard-sales/Shreveport-LA.html?page=5"
+}

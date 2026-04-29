@@ -1,0 +1,9 @@
+{
+	"id": "QlYDobxLRzPwnh1",
+	"json": "{\"id\":\"QlYDobxLRzPwnh1\",\"url\":\"https://sfbay.craigslist.org/scz/com/d/watsonville-lakeview-middle-school/7928664476.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/com/d/watsonville-lakeview-middle-school/7928664476.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/com/d/watsonville-lakeview-middle-school/7928664476.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:58.087Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/com/d/watsonville-lakeview-middle-school/7928664476.html",
+	"url": "https://sfbay.craigslist.org/scz/com/d/watsonville-lakeview-middle-school/7928664476.html"
+}

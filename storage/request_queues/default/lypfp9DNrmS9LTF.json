@@ -1,0 +1,9 @@
+{
+	"id": "lypfp9DNrmS9LTF",
+	"json": "{\"id\":\"lypfp9DNrmS9LTF\",\"url\":\"https://sacramento.craigslist.org/sys/d/sacramento-microsoft-surface-laptop-go/7910024663.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/sys/d/sacramento-microsoft-surface-laptop-go/7910024663.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/sys/d/sacramento-microsoft-surface-laptop-go/7910024663.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:51.417Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/sys/d/sacramento-microsoft-surface-laptop-go/7910024663.html",
+	"url": "https://sacramento.craigslist.org/sys/d/sacramento-microsoft-surface-laptop-go/7910024663.html"
+}

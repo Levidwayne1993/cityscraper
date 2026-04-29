@@ -1,8 +1,8 @@
 {
 	"id": "3hyhwYuRw5ufIG1",
-	"json": "{\"id\":\"3hyhwYuRw5ufIG1\",\"url\":\"https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"3hyhwYuRw5ufIG1\",\"url\":\"https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"uniqueKey\":\"https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
 	"method": "GET",
-	"orderNo": 1777040327580,
+	"orderNo": 1777186525263,
 	"retryCount": 0,
 	"uniqueKey": "https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240",
 	"url": "https://medford.craigslist.org/search/sss?query=yard+sale+garage+sale&s=240"

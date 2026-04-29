@@ -1,0 +1,9 @@
+{
+	"id": "KR9JX2ZzrRcvF1W",
+	"json": "{\"id\":\"KR9JX2ZzrRcvF1W\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-estate-sale-633-noble-rd/7930142104.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-estate-sale-633-noble-rd/7930142104.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-estate-sale-633-noble-rd/7930142104.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:13.735Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-estate-sale-633-noble-rd/7930142104.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-estate-sale-633-noble-rd/7930142104.html"
+}

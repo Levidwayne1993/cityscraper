@@ -1,0 +1,9 @@
+{
+	"id": "aE7PCPIKo9eZzXK",
+	"json": "{\"id\":\"aE7PCPIKo9eZzXK\",\"url\":\"https://denver.craigslist.org/gms/d/westminster-estate-sale/7928881077.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/westminster-estate-sale/7928881077.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/westminster-estate-sale/7928881077.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:54.653Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/westminster-estate-sale/7928881077.html",
+	"url": "https://denver.craigslist.org/gms/d/westminster-estate-sale/7928881077.html"
+}

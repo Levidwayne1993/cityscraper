@@ -1,0 +1,9 @@
+{
+	"id": "btfue2V3MbrWyKX",
+	"json": "{\"id\":\"btfue2V3MbrWyKX\",\"url\":\"https://orangecounty.craigslist.org/com/d/buena-park-neighborhood-garage-sale/7930072183.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/com/d/buena-park-neighborhood-garage-sale/7930072183.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/com/d/buena-park-neighborhood-garage-sale/7930072183.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:25:49.440Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/com/d/buena-park-neighborhood-garage-sale/7930072183.html",
+	"url": "https://orangecounty.craigslist.org/com/d/buena-park-neighborhood-garage-sale/7930072183.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pnfXjjLDRGnKlGr",
+	"json": "{\"id\":\"pnfXjjLDRGnKlGr\",\"url\":\"https://fortcollins.craigslist.org/gms/d/berthoud-moving-and-garage-sale/7929850550.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/berthoud-moving-and-garage-sale/7929850550.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/berthoud-moving-and-garage-sale/7929850550.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:10.536Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/berthoud-moving-and-garage-sale/7929850550.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/berthoud-moving-and-garage-sale/7929850550.html"
+}

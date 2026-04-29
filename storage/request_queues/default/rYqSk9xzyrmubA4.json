@@ -1,0 +1,9 @@
+{
+	"id": "rYqSk9xzyrmubA4",
+	"json": "{\"id\":\"rYqSk9xzyrmubA4\",\"url\":\"https://rockies.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://rockies.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://rockies.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:08.313Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://rockies.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://rockies.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

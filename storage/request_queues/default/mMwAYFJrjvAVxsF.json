@@ -1,0 +1,9 @@
+{
+	"id": "mMwAYFJrjvAVxsF",
+	"json": "{\"id\":\"mMwAYFJrjvAVxsF\",\"url\":\"https://slo.craigslist.org/gms/d/los-osos-estate-sale-in-los-osos-baywood/7922359750.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/los-osos-estate-sale-in-los-osos-baywood/7922359750.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/los-osos-estate-sale-in-los-osos-baywood/7922359750.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:45:51.366Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/los-osos-estate-sale-in-los-osos-baywood/7922359750.html",
+	"url": "https://slo.craigslist.org/gms/d/los-osos-estate-sale-in-los-osos-baywood/7922359750.html"
+}

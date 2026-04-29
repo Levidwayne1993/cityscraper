@@ -1,27 +1,61 @@
 {
-  "requestsFinished": 17,
-  "requestsFailed": 0,
-  "requestsRetries": 0,
+  "requestsFinished": 9816,
+  "requestsFailed": 28,
+  "requestsRetries": 33,
   "requestsFailedPerMinute": 0,
-  "requestsFinishedPerMinute": 15,
-  "requestMinDurationMillis": 3268,
-  "requestMaxDurationMillis": 14512,
-  "requestTotalFailedDurationMillis": 0,
-  "requestTotalFinishedDurationMillis": 123250,
-  "crawlerStartedAt": "2026-04-24T14:18:44.103Z",
-  "crawlerFinishedAt": "2026-04-24T14:19:50.681Z",
-  "statsPersistedAt": "2026-04-24T14:19:50.681Z",
-  "crawlerRuntimeMillis": 69561,
-  "crawlerLastStartTimestamp": 1777040321120,
+  "requestsFinishedPerMinute": 18,
+  "requestMinDurationMillis": 751,
+  "requestMaxDurationMillis": 58448,
+  "requestTotalFailedDurationMillis": 1630507,
+  "requestTotalFinishedDurationMillis": 59067214,
+  "crawlerStartedAt": "2026-04-26T06:55:16.745Z",
+  "crawlerFinishedAt": "2026-04-26T15:53:16.660Z",
+  "statsPersistedAt": "2026-04-26T15:53:16.660Z",
+  "crawlerRuntimeMillis": 32282863,
+  "crawlerLastStartTimestamp": 1777186513797,
   "requestRetryHistogram": [
-    17
+    9811,
+    5,
+    28
   ],
   "statsId": 0,
-  "requestAvgFailedDurationMillis": null,
-  "requestAvgFinishedDurationMillis": 7250,
-  "requestTotalDurationMillis": 123250,
-  "requestsTotal": 17,
-  "requestsWithStatusCode": {},
-  "errors": {},
-  "retryErrors": {}
+  "requestAvgFailedDurationMillis": 58232,
+  "requestAvgFinishedDurationMillis": 6017,
+  "requestTotalDurationMillis": 60697721,
+  "requestsTotal": 9844,
+  "requestsWithStatusCode": {
+    "410": 2,
+    "500": 85
+  },
+  "errors": {
+    "C:\\Users\\citys\\Documents\\cityscraper\\node_modules\\@crawlee\\src\\internals\\http-crawler.ts:775:19": {
+      "missing error code": {
+        "Error": {
+          "500 - Internal Server Error: Request failed. You will not be charged for this request. Please make sure your url is correct and t": {
+            "count": 28
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "C:\\Users\\citys\\Documents\\cityscraper\\node_modules\\@apify\\src\\index.ts:87:74": {
+      "missing error code": {
+        "Error": {
+          "request timed out after 90 seconds.": {
+            "count": 4
+          }
+        }
+      }
+    },
+    "C:\\Users\\citys\\Documents\\cityscraper\\node_modules\\@crawlee\\src\\internals\\http-crawler.ts:775:19": {
+      "missing error code": {
+        "Error": {
+          "500 - Internal Server Error: Request failed. You will not be charged for this request. Please make sure your url is correct and t": {
+            "count": 57
+          }
+        }
+      }
+    }
+  }
 }

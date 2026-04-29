@@ -1,0 +1,9 @@
+{
+	"id": "1s5HHS43uYNAnPk",
+	"json": "{\"id\":\"1s5HHS43uYNAnPk\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-yard-sale/7921106099.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-yard-sale/7921106099.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-yard-sale/7921106099.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:32.317Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/tempe-yard-sale/7921106099.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/tempe-yard-sale/7921106099.html"
+}

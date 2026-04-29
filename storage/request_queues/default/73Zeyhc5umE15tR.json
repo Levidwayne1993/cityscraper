@@ -1,0 +1,9 @@
+{
+	"id": "73Zeyhc5umE15tR",
+	"json": "{\"id\":\"73Zeyhc5umE15tR\",\"url\":\"https://greenbay.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://greenbay.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528276,
+	"retryCount": 0,
+	"uniqueKey": "https://greenbay.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://greenbay.craigslist.org/search/ccc?query=yard+sale"
+}

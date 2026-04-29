@@ -1,0 +1,9 @@
+{
+	"id": "t0XsZv5y7x9XHrC",
+	"json": "{\"id\":\"t0XsZv5y7x9XHrC\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-estate-sale-knightsbridge-pl/7922137663.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-estate-sale-knightsbridge-pl/7922137663.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-estate-sale-knightsbridge-pl/7922137663.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:55:44.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-estate-sale-knightsbridge-pl/7922137663.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-estate-sale-knightsbridge-pl/7922137663.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1fyM2Di9MUYtpal",
+	"json": "{\"id\":\"1fyM2Di9MUYtpal\",\"url\":\"https://northmiss.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://northmiss.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186521181,
+	"retryCount": 0,
+	"uniqueKey": "https://northmiss.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://northmiss.craigslist.org/search/ccc?query=garage+sale"
+}

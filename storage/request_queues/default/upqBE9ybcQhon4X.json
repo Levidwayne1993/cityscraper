@@ -1,0 +1,9 @@
+{
+	"id": "upqBE9ybcQhon4X",
+	"json": "{\"id\":\"upqBE9ybcQhon4X\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-garage-yard-sale-today-25/7930097006.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-garage-yard-sale-today-25/7930097006.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/freedom-huge-garage-yard-sale-today-25/7930097006.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:47.165Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/freedom-huge-garage-yard-sale-today-25/7930097006.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/freedom-huge-garage-yard-sale-today-25/7930097006.html"
+}

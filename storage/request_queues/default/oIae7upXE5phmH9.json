@@ -1,0 +1,9 @@
+{
+	"id": "oIae7upXE5phmH9",
+	"json": "{\"id\":\"oIae7upXE5phmH9\",\"url\":\"https://inlandempire.craigslist.org/gms/d/bakersfield-bakersfield-estate-sale/7921170824.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/bakersfield-bakersfield-estate-sale/7921170824.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/bakersfield-bakersfield-estate-sale/7921170824.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:10:09.547Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/bakersfield-bakersfield-estate-sale/7921170824.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/bakersfield-bakersfield-estate-sale/7921170824.html"
+}

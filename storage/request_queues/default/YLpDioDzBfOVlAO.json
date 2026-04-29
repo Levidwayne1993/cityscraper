@@ -1,0 +1,9 @@
+{
+	"id": "YLpDioDzBfOVlAO",
+	"json": "{\"id\":\"YLpDioDzBfOVlAO\",\"url\":\"https://prescott.craigslist.org/gms/d/camp-verde-brackneys-estate-sale-in/7926104445.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/camp-verde-brackneys-estate-sale-in/7926104445.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/camp-verde-brackneys-estate-sale-in/7926104445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:46:25.837Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/camp-verde-brackneys-estate-sale-in/7926104445.html",
+	"url": "https://prescott.craigslist.org/gms/d/camp-verde-brackneys-estate-sale-in/7926104445.html"
+}

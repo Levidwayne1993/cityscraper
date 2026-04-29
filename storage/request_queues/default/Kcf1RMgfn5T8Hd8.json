@@ -1,0 +1,9 @@
+{
+	"id": "Kcf1RMgfn5T8Hd8",
+	"json": "{\"id\":\"Kcf1RMgfn5T8Hd8\",\"url\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-garage-sale-first-of-many-to/7929553630.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-garage-sale-first-of-many-to/7929553630.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/sfv/gms/d/van-nuys-garage-sale-first-of-many-to/7929553630.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:43:31.881Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-garage-sale-first-of-many-to/7929553630.html",
+	"url": "https://losangeles.craigslist.org/sfv/gms/d/van-nuys-garage-sale-first-of-many-to/7929553630.html"
+}

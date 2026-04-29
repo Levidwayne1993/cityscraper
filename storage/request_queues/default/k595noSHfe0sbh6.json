@@ -1,0 +1,9 @@
+{
+	"id": "k595noSHfe0sbh6",
+	"json": "{\"id\":\"k595noSHfe0sbh6\",\"url\":\"https://helena.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://helena.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186522602,
+	"retryCount": 0,
+	"uniqueKey": "https://helena.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://helena.craigslist.org/search/ccc?query=garage+sale"
+}

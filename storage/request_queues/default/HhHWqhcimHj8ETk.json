@@ -1,0 +1,9 @@
+{
+	"id": "HhHWqhcimHj8ETk",
+	"json": "{\"id\":\"HhHWqhcimHj8ETk\",\"url\":\"https://reno.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://reno.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NV\"}}",
+	"method": "GET",
+	"orderNo": 1777186522762,
+	"retryCount": 0,
+	"uniqueKey": "https://reno.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://reno.craigslist.org/search/ccc?query=garage+sale"
+}

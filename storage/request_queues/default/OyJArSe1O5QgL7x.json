@@ -1,0 +1,9 @@
+{
+	"id": "OyJArSe1O5QgL7x",
+	"json": "{\"id\":\"OyJArSe1O5QgL7x\",\"url\":\"https://littlerock.craigslist.org/gms/d/little-rock-estate-sale/7924769612.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/little-rock-estate-sale/7924769612.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/little-rock-estate-sale/7924769612.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:16.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/little-rock-estate-sale/7924769612.html",
+	"url": "https://littlerock.craigslist.org/gms/d/little-rock-estate-sale/7924769612.html"
+}

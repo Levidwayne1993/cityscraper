@@ -1,0 +1,9 @@
+{
+	"id": "OKGSxeBDJxa98su",
+	"json": "{\"id\":\"OKGSxeBDJxa98su\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-furniture-tools/7922468917.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-furniture-tools/7922468917.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-furniture-tools/7922468917.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:26:21.772Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-furniture-tools/7922468917.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/scottsdale-estate-sale-furniture-tools/7922468917.html"
+}

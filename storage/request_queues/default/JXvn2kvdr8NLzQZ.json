@@ -1,0 +1,9 @@
+{
+	"id": "JXvn2kvdr8NLzQZ",
+	"json": "{\"id\":\"JXvn2kvdr8NLzQZ\",\"url\":\"https://lakeland.craigslist.org/gms/d/plant-city-walden-lake-east-plant-city/7928360516.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/plant-city-walden-lake-east-plant-city/7928360516.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/plant-city-walden-lake-east-plant-city/7928360516.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:46:50.551Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/plant-city-walden-lake-east-plant-city/7928360516.html",
+	"url": "https://lakeland.craigslist.org/gms/d/plant-city-walden-lake-east-plant-city/7928360516.html"
+}

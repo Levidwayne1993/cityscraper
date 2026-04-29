@@ -1,8 +1,8 @@
 {
 	"id": "H0YpfQYZCdwvwzc",
-	"json": "{\"id\":\"H0YpfQYZCdwvwzc\",\"url\":\"https://orangecounty.craigslist.org/search/gms\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"H0YpfQYZCdwvwzc\",\"url\":\"https://orangecounty.craigslist.org/search/gms\",\"loadedUrl\":\"https://orangecounty.craigslist.org/search/gms\",\"uniqueKey\":\"https://orangecounty.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:08:10.752Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323223,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://orangecounty.craigslist.org/search/gms",
 	"url": "https://orangecounty.craigslist.org/search/gms"

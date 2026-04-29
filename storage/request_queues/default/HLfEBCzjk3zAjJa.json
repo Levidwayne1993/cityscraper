@@ -1,0 +1,9 @@
+{
+	"id": "HLfEBCzjk3zAjJa",
+	"json": "{\"id\":\"HLfEBCzjk3zAjJa\",\"url\":\"https://minneapolis.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://minneapolis.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186521038,
+	"retryCount": 0,
+	"uniqueKey": "https://minneapolis.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://minneapolis.craigslist.org/search/ccc?query=yard+sale"
+}

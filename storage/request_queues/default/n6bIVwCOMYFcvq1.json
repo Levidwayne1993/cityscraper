@@ -1,0 +1,9 @@
+{
+	"id": "n6bIVwCOMYFcvq1",
+	"json": "{\"id\":\"n6bIVwCOMYFcvq1\",\"url\":\"https://farmington.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://farmington.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522949,
+	"retryCount": 0,
+	"uniqueKey": "https://farmington.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://farmington.craigslist.org/search/ccc?query=yard+sale"
+}

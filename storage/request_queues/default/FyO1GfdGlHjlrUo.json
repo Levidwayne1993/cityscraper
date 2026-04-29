@@ -1,0 +1,9 @@
+{
+	"id": "FyO1GfdGlHjlrUo",
+	"json": "{\"id\":\"FyO1GfdGlHjlrUo\",\"url\":\"https://gainesville.craigslist.org/gms/d/macclenny-huge-garage-sale-macclenny/7921730646.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/macclenny-huge-garage-sale-macclenny/7921730646.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/macclenny-huge-garage-sale-macclenny/7921730646.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:31:19.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/macclenny-huge-garage-sale-macclenny/7921730646.html",
+	"url": "https://gainesville.craigslist.org/gms/d/macclenny-huge-garage-sale-macclenny/7921730646.html"
+}

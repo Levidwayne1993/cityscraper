@@ -1,8 +1,8 @@
 {
 	"id": "515QYOYGxJI4OWW",
-	"json": "{\"id\":\"515QYOYGxJI4OWW\",\"url\":\"https://kenai.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"515QYOYGxJI4OWW\",\"url\":\"https://kenai.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://kenai.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://kenai.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:14:28.303Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322960,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://kenai.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://kenai.craigslist.org/search/sss?query=moving+sale"

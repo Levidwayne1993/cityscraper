@@ -1,0 +1,9 @@
+{
+	"id": "2ybJ3kaTilPYU0L",
+	"json": "{\"id\":\"2ybJ3kaTilPYU0L\",\"url\":\"https://sanantonio.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://sanantonio.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526429,
+	"retryCount": 0,
+	"uniqueKey": "https://sanantonio.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://sanantonio.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pZla5EaSviHDOYd",
+	"json": "{\"id\":\"pZla5EaSviHDOYd\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-yard-garage-sale/7922119800.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-yard-garage-sale/7922119800.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-huge-yard-garage-sale/7922119800.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:46:09.751Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-huge-yard-garage-sale/7922119800.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-huge-yard-garage-sale/7922119800.html"
+}

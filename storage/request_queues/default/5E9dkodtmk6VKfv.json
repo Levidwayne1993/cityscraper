@@ -1,0 +1,9 @@
+{
+	"id": "5E9dkodtmk6VKfv",
+	"json": "{\"id\":\"5E9dkodtmk6VKfv\",\"url\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-last-chance-estate-sale/7924257332.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-last-chance-estate-sale/7924257332.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/fuo/d/boca-raton-last-chance-estate-sale/7924257332.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:53.179Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/fuo/d/boca-raton-last-chance-estate-sale/7924257332.html",
+	"url": "https://miami.craigslist.org/pbc/fuo/d/boca-raton-last-chance-estate-sale/7924257332.html"
+}

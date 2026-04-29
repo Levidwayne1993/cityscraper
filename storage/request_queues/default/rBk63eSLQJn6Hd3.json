@@ -1,8 +1,8 @@
 {
 	"id": "rBk63eSLQJn6Hd3",
-	"json": "{\"id\":\"rBk63eSLQJn6Hd3\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"rBk63eSLQJn6Hd3\",\"url\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:00:13.587Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323305,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://siskiyou.craigslist.org/search/sss?query=yard+sale+garage+sale"

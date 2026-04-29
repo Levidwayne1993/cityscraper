@@ -1,0 +1,9 @@
+{
+	"id": "WlCWuS4aH4LS9NR",
+	"json": "{\"id\":\"WlCWuS4aH4LS9NR\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-curated-vintage-estate-sale-items/7921849689.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-curated-vintage-estate-sale-items/7921849689.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-curated-vintage-estate-sale-items/7921849689.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:54.926Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-curated-vintage-estate-sale-items/7921849689.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-curated-vintage-estate-sale-items/7921849689.html"
+}

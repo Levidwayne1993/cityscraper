@@ -1,0 +1,9 @@
+{
+	"id": "T6mMGeJVbfFW0yW",
+	"json": "{\"id\":\"T6mMGeJVbfFW0yW\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Charlotte-NC.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Charlotte-NC.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NC\",\"yssSlug\":\"Charlotte-NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186532501,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Charlotte-NC.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/Charlotte-NC.html?page=2"
+}

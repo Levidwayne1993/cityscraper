@@ -1,0 +1,9 @@
+{
+	"id": "vehD2RSu5xMNpDf",
+	"json": "{\"id\":\"vehD2RSu5xMNpDf\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-garage-sale-center-street/7928627065.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-garage-sale-center-street/7928627065.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-garage-sale-center-street/7928627065.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:44.690Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-garage-sale-center-street/7928627065.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-garage-sale-center-street/7928627065.html"
+}

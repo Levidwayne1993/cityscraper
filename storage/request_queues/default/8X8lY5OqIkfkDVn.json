@@ -1,0 +1,9 @@
+{
+	"id": "8X8lY5OqIkfkDVn",
+	"json": "{\"id\":\"8X8lY5OqIkfkDVn\",\"url\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:13:29.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://ventura.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

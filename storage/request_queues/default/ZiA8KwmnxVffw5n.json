@@ -1,0 +1,9 @@
+{
+	"id": "ZiA8KwmnxVffw5n",
+	"json": "{\"id\":\"ZiA8KwmnxVffw5n\",\"url\":\"https://chico.craigslist.org/gms/d/chico-moving-out-of-state-yard-sale/7922440657.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-moving-out-of-state-yard-sale/7922440657.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-moving-out-of-state-yard-sale/7922440657.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:31:40.977Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-moving-out-of-state-yard-sale/7922440657.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-moving-out-of-state-yard-sale/7922440657.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "n7eRISG6VdkOZwt",
+	"json": "{\"id\":\"n7eRISG6VdkOZwt\",\"url\":\"https://miami.craigslist.org/pbc/fuo/d/west-palm-beach-moving-sale-furniture/7926573251.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/fuo/d/west-palm-beach-moving-sale-furniture/7926573251.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/fuo/d/west-palm-beach-moving-sale-furniture/7926573251.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:06.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/fuo/d/west-palm-beach-moving-sale-furniture/7926573251.html",
+	"url": "https://miami.craigslist.org/pbc/fuo/d/west-palm-beach-moving-sale-furniture/7926573251.html"
+}

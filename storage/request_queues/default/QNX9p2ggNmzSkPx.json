@@ -1,0 +1,9 @@
+{
+	"id": "QNX9p2ggNmzSkPx",
+	"json": "{\"id\":\"QNX9p2ggNmzSkPx\",\"url\":\"https://westernmass.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://westernmass.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520508,
+	"retryCount": 0,
+	"uniqueKey": "https://westernmass.craigslist.org/search/gms?s=480",
+	"url": "https://westernmass.craigslist.org/search/gms?s=480"
+}

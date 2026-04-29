@@ -1,0 +1,9 @@
+{
+	"id": "5AK2y8EY0frSHfJ",
+	"json": "{\"id\":\"5AK2y8EY0frSHfJ\",\"url\":\"https://sandiego.craigslist.org/ssd/fod/d/san-diego-ending-april-collectors/7926507447.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/fod/d/san-diego-ending-april-collectors/7926507447.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/fod/d/san-diego-ending-april-collectors/7926507447.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:20.009Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/fod/d/san-diego-ending-april-collectors/7926507447.html",
+	"url": "https://sandiego.craigslist.org/ssd/fod/d/san-diego-ending-april-collectors/7926507447.html"
+}

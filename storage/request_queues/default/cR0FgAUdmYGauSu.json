@@ -1,0 +1,9 @@
+{
+	"id": "cR0FgAUdmYGauSu",
+	"json": "{\"id\":\"cR0FgAUdmYGauSu\",\"url\":\"https://sfbay.craigslist.org/nby/fuo/d/rohnert-park-1970s-coffee-table-estate/7928873682.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/fuo/d/rohnert-park-1970s-coffee-table-estate/7928873682.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/fuo/d/rohnert-park-1970s-coffee-table-estate/7928873682.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:46.754Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/fuo/d/rohnert-park-1970s-coffee-table-estate/7928873682.html",
+	"url": "https://sfbay.craigslist.org/nby/fuo/d/rohnert-park-1970s-coffee-table-estate/7928873682.html"
+}

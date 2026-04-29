@@ -1,0 +1,9 @@
+{
+	"id": "C6XEbTyBGQeMPKf",
+	"json": "{\"id\":\"C6XEbTyBGQeMPKf\",\"url\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-moving-sale-cb2-club-lounge/7907726547.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-moving-sale-cb2-club-lounge/7907726547.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-moving-sale-cb2-club-lounge/7907726547.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:46:23.573Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/fuo/d/los-angeles-moving-sale-cb2-club-lounge/7907726547.html",
+	"url": "https://losangeles.craigslist.org/lac/fuo/d/los-angeles-moving-sale-cb2-club-lounge/7907726547.html"
+}

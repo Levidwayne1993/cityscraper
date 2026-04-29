@@ -1,0 +1,9 @@
+{
+	"id": "9J8n9rP5rdztDeJ",
+	"json": "{\"id\":\"9J8n9rP5rdztDeJ\",\"url\":\"https://orangecounty.craigslist.org/ele/d/la-habra-electrical-stuff-moving-sale/7929973684.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/ele/d/la-habra-electrical-stuff-moving-sale/7929973684.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/ele/d/la-habra-electrical-stuff-moving-sale/7929973684.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:20.898Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/ele/d/la-habra-electrical-stuff-moving-sale/7929973684.html",
+	"url": "https://orangecounty.craigslist.org/ele/d/la-habra-electrical-stuff-moving-sale/7929973684.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "YZLk3p1hNcypG3U",
+	"json": "{\"id\":\"YZLk3p1hNcypG3U\",\"url\":\"https://billings.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://billings.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MT\"}}",
+	"method": "GET",
+	"orderNo": 1777186521434,
+	"retryCount": 0,
+	"uniqueKey": "https://billings.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://billings.craigslist.org/search/ccc?query=yard+sale"
+}

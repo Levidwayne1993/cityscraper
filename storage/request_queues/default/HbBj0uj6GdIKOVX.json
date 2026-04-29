@@ -1,0 +1,9 @@
+{
+	"id": "HbBj0uj6GdIKOVX",
+	"json": "{\"id\":\"HbBj0uj6GdIKOVX\",\"url\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-garage-sale-community/7929526223.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-garage-sale-community/7929526223.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-garage-sale-community/7929526223.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:19:33.604Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/trabuco-canyon-garage-sale-community/7929526223.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/trabuco-canyon-garage-sale-community/7929526223.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4LJz8mWPV7HO7bD",
+	"json": "{\"id\":\"4LJz8mWPV7HO7bD\",\"url\":\"https://ocala.craigslist.org/gms/d/floral-city-moving-sale-everthing-must/7922814521.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/floral-city-moving-sale-everthing-must/7922814521.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/floral-city-moving-sale-everthing-must/7922814521.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:23.277Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/floral-city-moving-sale-everthing-must/7922814521.html",
+	"url": "https://ocala.craigslist.org/gms/d/floral-city-moving-sale-everthing-must/7922814521.html"
+}

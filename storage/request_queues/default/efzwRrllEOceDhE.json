@@ -1,0 +1,9 @@
+{
+	"id": "efzwRrllEOceDhE",
+	"json": "{\"id\":\"efzwRrllEOceDhE\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Toledo-OH.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Toledo-OH.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"OH\",\"yssSlug\":\"Toledo-OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186532584,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Toledo-OH.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Toledo-OH.html"
+}

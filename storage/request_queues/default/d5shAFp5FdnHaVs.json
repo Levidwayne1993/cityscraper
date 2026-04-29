@@ -1,0 +1,9 @@
+{
+	"id": "d5shAFp5FdnHaVs",
+	"json": "{\"id\":\"d5shAFp5FdnHaVs\",\"url\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-estate-sale-rancho/7930000239.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-estate-sale-rancho/7930000239.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-estate-sale-rancho/7930000239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:08.189Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-estate-sale-rancho/7930000239.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-estate-sale-rancho/7930000239.html"
+}

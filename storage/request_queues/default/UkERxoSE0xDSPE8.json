@@ -1,0 +1,9 @@
+{
+	"id": "UkERxoSE0xDSPE8",
+	"json": "{\"id\":\"UkERxoSE0xDSPE8\",\"url\":\"https://atlanta.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://atlanta.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517423,
+	"retryCount": 0,
+	"uniqueKey": "https://atlanta.craigslist.org/search/gms?s=360",
+	"url": "https://atlanta.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TxtknulQzpEwjJ1",
+	"json": "{\"id\":\"TxtknulQzpEwjJ1\",\"url\":\"https://newlondon.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://newlondon.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://newlondon.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:12.393Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/search/gms?s=480",
+	"url": "https://newlondon.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gCnEjSNTHR3x8tA",
+	"json": "{\"id\":\"gCnEjSNTHR3x8tA\",\"url\":\"https://juneau.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://juneau.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://juneau.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:16:02.597Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://juneau.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://juneau.craigslist.org/search/ccc?query=yard+sale"
+}

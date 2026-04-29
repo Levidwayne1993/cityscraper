@@ -1,0 +1,9 @@
+{
+	"id": "lmmOQibwwNJT4DK",
+	"json": "{\"id\":\"lmmOQibwwNJT4DK\",\"url\":\"https://newlondon.craigslist.org/gms/d/old-lyme-mother-of-all-tag-sales-old/7926592040.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/old-lyme-mother-of-all-tag-sales-old/7926592040.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/old-lyme-mother-of-all-tag-sales-old/7926592040.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:56.397Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/old-lyme-mother-of-all-tag-sales-old/7926592040.html",
+	"url": "https://newlondon.craigslist.org/gms/d/old-lyme-mother-of-all-tag-sales-old/7926592040.html"
+}

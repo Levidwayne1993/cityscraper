@@ -1,0 +1,9 @@
+{
+	"id": "QGIAxMCMDEG4aoX",
+	"json": "{\"id\":\"QGIAxMCMDEG4aoX\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale/7928044953.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale/7928044953.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale/7928044953.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:15.642Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale/7928044953.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale/7928044953.html"
+}

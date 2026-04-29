@@ -1,9 +1,0 @@
-{
-	"id": "6EDqsClCamave85",
-	"json": "{\"id\":\"6EDqsClCamave85\",\"url\":\"https://gsalr.com/garage-sales-in/louisiana/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/louisiana\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"louisiana\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334385,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/louisiana",
-	"url": "https://gsalr.com/garage-sales-in/louisiana/"
-}

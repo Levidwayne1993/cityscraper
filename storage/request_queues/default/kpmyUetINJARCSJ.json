@@ -1,0 +1,9 @@
+{
+	"id": "kpmyUetINJARCSJ",
+	"json": "{\"id\":\"kpmyUetINJARCSJ\",\"url\":\"https://wilmington.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://wilmington.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523552,
+	"retryCount": 0,
+	"uniqueKey": "https://wilmington.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://wilmington.craigslist.org/search/ccc?query=yard+sale"
+}

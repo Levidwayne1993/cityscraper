@@ -1,0 +1,9 @@
+{
+	"id": "LJGbT3GkVrDmoxS",
+	"json": "{\"id\":\"LJGbT3GkVrDmoxS\",\"url\":\"https://jonesboro.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://jonesboro.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://jonesboro.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:17:10.811Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jonesboro.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://jonesboro.craigslist.org/search/ccc?query=garage+sale"
+}

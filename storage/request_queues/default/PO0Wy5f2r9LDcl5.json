@@ -1,9 +1,0 @@
-{
-	"id": "PO0Wy5f2r9LDcl5",
-	"json": "{\"id\":\"PO0Wy5f2r9LDcl5\",\"url\":\"https://gsalr.com/garage-sales-in/minnesota/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/minnesota\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"minnesota\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334399,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/minnesota",
-	"url": "https://gsalr.com/garage-sales-in/minnesota/"
-}

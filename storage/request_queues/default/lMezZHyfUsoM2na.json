@@ -1,0 +1,9 @@
+{
+	"id": "lMezZHyfUsoM2na",
+	"json": "{\"id\":\"lMezZHyfUsoM2na\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-55-yard-sale-in-broadway-estates/7930022021.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-55-yard-sale-in-broadway-estates/7930022021.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-55-yard-sale-in-broadway-estates/7930022021.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:32:31.060Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-55-yard-sale-in-broadway-estates/7930022021.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-55-yard-sale-in-broadway-estates/7930022021.html"
+}

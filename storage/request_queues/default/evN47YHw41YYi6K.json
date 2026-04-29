@@ -1,0 +1,9 @@
+{
+	"id": "evN47YHw41YYi6K",
+	"json": "{\"id\":\"evN47YHw41YYi6K\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-park-garage-sale/7925555091.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-park-garage-sale/7925555091.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-park-garage-sale/7925555091.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:31:44.362Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-park-garage-sale/7925555091.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-park-garage-sale/7925555091.html"
+}

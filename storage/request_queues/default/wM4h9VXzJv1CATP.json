@@ -1,0 +1,9 @@
+{
+	"id": "wM4h9VXzJv1CATP",
+	"json": "{\"id\":\"wM4h9VXzJv1CATP\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-jasper-community-garage/7929534599.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-jasper-community-garage/7929534599.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-jasper-community-garage/7929534599.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:44:56.248Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-jasper-community-garage/7929534599.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-jasper-community-garage/7929534599.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "dXclBk5lT7nhXil",
+	"json": "{\"id\":\"dXclBk5lT7nhXil\",\"url\":\"https://denver.craigslist.org/gms/d/denver-four-mile-village-spring-sale/7930152464.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-four-mile-village-spring-sale/7930152464.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-four-mile-village-spring-sale/7930152464.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:28.483Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-four-mile-village-spring-sale/7930152464.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-four-mile-village-spring-sale/7930152464.html"
+}

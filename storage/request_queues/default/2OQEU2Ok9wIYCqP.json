@@ -1,0 +1,9 @@
+{
+	"id": "2OQEU2Ok9wIYCqP",
+	"json": "{\"id\":\"2OQEU2Ok9wIYCqP\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-2nd-annual-jamul-neighborhood/7928761555.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-2nd-annual-jamul-neighborhood/7928761555.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-2nd-annual-jamul-neighborhood/7928761555.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:55:37.826Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-2nd-annual-jamul-neighborhood/7928761555.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-2nd-annual-jamul-neighborhood/7928761555.html"
+}

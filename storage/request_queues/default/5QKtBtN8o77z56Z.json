@@ -1,0 +1,9 @@
+{
+	"id": "5QKtBtN8o77z56Z",
+	"json": "{\"id\":\"5QKtBtN8o77z56Z\",\"url\":\"https://denver.craigslist.org/gms/d/castle-rock-moving-sale/7925784589.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/castle-rock-moving-sale/7925784589.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/castle-rock-moving-sale/7925784589.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:40:55.821Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/castle-rock-moving-sale/7925784589.html",
+	"url": "https://denver.craigslist.org/gms/d/castle-rock-moving-sale/7925784589.html"
+}

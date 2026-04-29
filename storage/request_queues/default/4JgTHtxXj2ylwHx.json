@@ -1,0 +1,9 @@
+{
+	"id": "4JgTHtxXj2ylwHx",
+	"json": "{\"id\":\"4JgTHtxXj2ylwHx\",\"url\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-yard-sale/7920888222.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-yard-sale/7920888222.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-yard-sale/7920888222.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:04:29.146Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-yard-sale/7920888222.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/rancho-cucamonga-yard-sale/7920888222.html"
+}

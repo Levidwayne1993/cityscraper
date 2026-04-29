@@ -1,0 +1,9 @@
+{
+	"id": "qAL73SQspWzPulm",
+	"json": "{\"id\":\"qAL73SQspWzPulm\",\"url\":\"https://yardsaletreasuremap.com/US/New-York/\",\"uniqueKey\":\"https://yardsaletreasuremap.com/US/New-York\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"ystm\",\"state\":\"New-York\"}}",
+	"method": "GET",
+	"orderNo": 1777186533366,
+	"retryCount": 0,
+	"uniqueKey": "https://yardsaletreasuremap.com/US/New-York",
+	"url": "https://yardsaletreasuremap.com/US/New-York/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mGr4Rc8Cig0feyk",
+	"json": "{\"id\":\"mGr4Rc8Cig0feyk\",\"url\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-yard-sale-vintage/7922300333.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-yard-sale-vintage/7922300333.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/coral-springs-garage-yard-sale-vintage/7922300333.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:40.304Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/coral-springs-garage-yard-sale-vintage/7922300333.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/coral-springs-garage-yard-sale-vintage/7922300333.html"
+}

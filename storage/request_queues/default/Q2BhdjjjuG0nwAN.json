@@ -1,0 +1,9 @@
+{
+	"id": "Q2BhdjjjuG0nwAN",
+	"json": "{\"id\":\"Q2BhdjjjuG0nwAN\",\"url\":\"https://humboldt.craigslist.org/gms/d/arcata-thrift-sale-on-janes-rd-25/7929810110.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/arcata-thrift-sale-on-janes-rd-25/7929810110.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/arcata-thrift-sale-on-janes-rd-25/7929810110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:59:13.000Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/arcata-thrift-sale-on-janes-rd-25/7929810110.html",
+	"url": "https://humboldt.craigslist.org/gms/d/arcata-thrift-sale-on-janes-rd-25/7929810110.html"
+}

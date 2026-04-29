@@ -1,0 +1,9 @@
+{
+	"id": "iOX8581wIN20a9v",
+	"json": "{\"id\":\"iOX8581wIN20a9v\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-bruno-moving-yard-sale/7925525618.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-bruno-moving-yard-sale/7925525618.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-bruno-moving-yard-sale/7925525618.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:01.274Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-bruno-moving-yard-sale/7925525618.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-bruno-moving-yard-sale/7925525618.html"
+}

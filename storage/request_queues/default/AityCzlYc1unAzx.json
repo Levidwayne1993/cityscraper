@@ -1,0 +1,9 @@
+{
+	"id": "AityCzlYc1unAzx",
+	"json": "{\"id\":\"AityCzlYc1unAzx\",\"url\":\"https://pueblo.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://pueblo.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://pueblo.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:55:25.768Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/search/gms?s=480",
+	"url": "https://pueblo.craigslist.org/search/gms?s=480"
+}

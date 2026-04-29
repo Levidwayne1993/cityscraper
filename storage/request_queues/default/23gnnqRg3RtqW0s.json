@@ -1,0 +1,9 @@
+{
+	"id": "23gnnqRg3RtqW0s",
+	"json": "{\"id\":\"23gnnqRg3RtqW0s\",\"url\":\"https://miami.craigslist.org/brw/com/d/hollywood-yard-garage-sale/7922517220.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/com/d/hollywood-yard-garage-sale/7922517220.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/com/d/hollywood-yard-garage-sale/7922517220.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:19:32.382Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/com/d/hollywood-yard-garage-sale/7922517220.html",
+	"url": "https://miami.craigslist.org/brw/com/d/hollywood-yard-garage-sale/7922517220.html"
+}

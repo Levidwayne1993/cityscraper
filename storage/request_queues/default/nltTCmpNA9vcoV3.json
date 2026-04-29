@@ -1,8 +1,8 @@
 {
 	"id": "nltTCmpNA9vcoV3",
-	"json": "{\"id\":\"nltTCmpNA9vcoV3\",\"url\":\"https://denver.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://denver.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"nltTCmpNA9vcoV3\",\"url\":\"https://denver.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://denver.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://denver.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:40:40.553Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323385,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://denver.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://denver.craigslist.org/search/sss?query=moving+sale"

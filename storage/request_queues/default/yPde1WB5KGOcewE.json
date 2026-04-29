@@ -1,0 +1,9 @@
+{
+	"id": "yPde1WB5KGOcewE",
+	"json": "{\"id\":\"yPde1WB5KGOcewE\",\"url\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-flash-estate-sale/7928487857.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-flash-estate-sale/7928487857.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/sandy-hook-flash-estate-sale/7928487857.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:54.943Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/sandy-hook-flash-estate-sale/7928487857.html",
+	"url": "https://newhaven.craigslist.org/gms/d/sandy-hook-flash-estate-sale/7928487857.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "riyf8MGyXghnsWR",
+	"json": "{\"id\":\"riyf8MGyXghnsWR\",\"url\":\"https://albuquerque.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://albuquerque.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522858,
+	"retryCount": 0,
+	"uniqueKey": "https://albuquerque.craigslist.org/search/gms?s=480",
+	"url": "https://albuquerque.craigslist.org/search/gms?s=480"
+}

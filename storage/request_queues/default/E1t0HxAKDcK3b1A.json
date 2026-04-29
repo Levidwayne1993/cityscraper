@@ -1,0 +1,9 @@
+{
+	"id": "E1t0HxAKDcK3b1A",
+	"json": "{\"id\":\"E1t0HxAKDcK3b1A\",\"url\":\"https://washingtondc.craigslist.org/doc/com/d/fort-washington-garage-sale/7926990162.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/com/d/fort-washington-garage-sale/7926990162.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/com/d/fort-washington-garage-sale/7926990162.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:33:33.801Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/com/d/fort-washington-garage-sale/7926990162.html",
+	"url": "https://washingtondc.craigslist.org/doc/com/d/fort-washington-garage-sale/7926990162.html"
+}

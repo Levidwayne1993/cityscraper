@@ -1,8 +1,8 @@
 {
 	"id": "m2tjkp261SgcbOZ",
-	"json": "{\"id\":\"m2tjkp261SgcbOZ\",\"url\":\"https://mobile.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://mobile.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"m2tjkp261SgcbOZ\",\"url\":\"https://mobile.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://mobile.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://mobile.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:05:00.739Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322896,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://mobile.craigslist.org/search/gms?s=240",
 	"url": "https://mobile.craigslist.org/search/gms?s=240"

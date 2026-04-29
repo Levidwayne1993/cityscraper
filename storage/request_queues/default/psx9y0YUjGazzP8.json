@@ -1,0 +1,9 @@
+{
+	"id": "psx9y0YUjGazzP8",
+	"json": "{\"id\":\"psx9y0YUjGazzP8\",\"url\":\"https://hanford.craigslist.org/gms/d/lemoore-multi-family-garage-sale-april/7927296555.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/lemoore-multi-family-garage-sale-april/7927296555.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/lemoore-multi-family-garage-sale-april/7927296555.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:54:44.538Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/lemoore-multi-family-garage-sale-april/7927296555.html",
+	"url": "https://hanford.craigslist.org/gms/d/lemoore-multi-family-garage-sale-april/7927296555.html"
+}

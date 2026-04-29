@@ -1,0 +1,9 @@
+{
+	"id": "sf9qIkgPP9V4L3V",
+	"json": "{\"id\":\"sf9qIkgPP9V4L3V\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-escondido-community-yard/7929737698.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-escondido-community-yard/7929737698.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-marcos-escondido-community-yard/7929737698.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:55:26.368Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-escondido-community-yard/7929737698.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-marcos-escondido-community-yard/7929737698.html"
+}

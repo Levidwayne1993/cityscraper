@@ -1,0 +1,9 @@
+{
+	"id": "5ulr7WDwan6m9mm",
+	"json": "{\"id\":\"5ulr7WDwan6m9mm\",\"url\":\"https://redding.craigslist.org/gms/d/proberta-yard-sale/7929979030.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/proberta-yard-sale/7929979030.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/proberta-yard-sale/7929979030.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:36:50.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/proberta-yard-sale/7929979030.html",
+	"url": "https://redding.craigslist.org/gms/d/proberta-yard-sale/7929979030.html"
+}

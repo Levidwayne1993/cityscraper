@@ -1,0 +1,9 @@
+{
+	"id": "ESx8rNHhRU66NYI",
+	"json": "{\"id\":\"ESx8rNHhRU66NYI\",\"url\":\"https://humboldt.craigslist.org/gms/d/arcata-zentraders-warehouse-sale-this/7920984249.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/arcata-zentraders-warehouse-sale-this/7920984249.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/arcata-zentraders-warehouse-sale-this/7920984249.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:04.243Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/arcata-zentraders-warehouse-sale-this/7920984249.html",
+	"url": "https://humboldt.craigslist.org/gms/d/arcata-zentraders-warehouse-sale-this/7920984249.html"
+}

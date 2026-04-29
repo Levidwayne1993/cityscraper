@@ -1,0 +1,9 @@
+{
+	"id": "8gLARDBV0TYClVY",
+	"json": "{\"id\":\"8gLARDBV0TYClVY\",\"url\":\"https://wilmington.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://wilmington.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523535,
+	"retryCount": 0,
+	"uniqueKey": "https://wilmington.craigslist.org/search/gms?s=360",
+	"url": "https://wilmington.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RoQf18tUFKWGpcQ",
+	"json": "{\"id\":\"RoQf18tUFKWGpcQ\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/ID/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/ID\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186530004,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/ID",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/ID/"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "4lWslzuQQ8ibYzi",
+	"json": "{\"id\":\"4lWslzuQQ8ibYzi\",\"url\":\"https://anchorage.craigslist.org/gms/d/anchorage-collectibles-antiques-vintage/7928894353.html\",\"loadedUrl\":\"https://anchorage.craigslist.org/gms/d/anchorage-collectibles-antiques-vintage/7928894353.html\",\"uniqueKey\":\"https://anchorage.craigslist.org/gms/d/anchorage-collectibles-antiques-vintage/7928894353.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:10:19.232Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/gms/d/anchorage-collectibles-antiques-vintage/7928894353.html",
+	"url": "https://anchorage.craigslist.org/gms/d/anchorage-collectibles-antiques-vintage/7928894353.html"
+}

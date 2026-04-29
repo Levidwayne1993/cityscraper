@@ -1,0 +1,9 @@
+{
+	"id": "DAnryYmizT25MFy",
+	"json": "{\"id\":\"DAnryYmizT25MFy\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-moving-everything-is-free/7929924179.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-moving-everything-is-free/7929924179.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-moving-everything-is-free/7929924179.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:14:00.634Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-moving-everything-is-free/7929924179.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-moving-everything-is-free/7929924179.html"
+}

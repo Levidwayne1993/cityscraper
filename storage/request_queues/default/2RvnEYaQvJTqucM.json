@@ -1,0 +1,9 @@
+{
+	"id": "2RvnEYaQvJTqucM",
+	"json": "{\"id\":\"2RvnEYaQvJTqucM\",\"url\":\"https://denver.craigslist.org/gms/d/firestone-yard-sale-prices-to-sell/7924198085.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/firestone-yard-sale-prices-to-sell/7924198085.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/firestone-yard-sale-prices-to-sell/7924198085.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:37.902Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/firestone-yard-sale-prices-to-sell/7924198085.html",
+	"url": "https://denver.craigslist.org/gms/d/firestone-yard-sale-prices-to-sell/7924198085.html"
+}

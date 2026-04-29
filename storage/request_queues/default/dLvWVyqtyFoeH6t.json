@@ -1,0 +1,9 @@
+{
+	"id": "dLvWVyqtyFoeH6t",
+	"json": "{\"id\":\"dLvWVyqtyFoeH6t\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-estate-yard-sale/7928345559.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-estate-yard-sale/7928345559.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-estate-yard-sale/7928345559.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:08.325Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/fairfield-estate-yard-sale/7928345559.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/fairfield-estate-yard-sale/7928345559.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Piv8SmynWF09BSm",
+	"json": "{\"id\":\"Piv8SmynWF09BSm\",\"url\":\"https://ventura.craigslist.org/gms/d/santa-paula-huge-family-yard-sale-this/7926858411.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/santa-paula-huge-family-yard-sale-this/7926858411.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/santa-paula-huge-family-yard-sale-this/7926858411.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:11:42.877Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/santa-paula-huge-family-yard-sale-this/7926858411.html",
+	"url": "https://ventura.craigslist.org/gms/d/santa-paula-huge-family-yard-sale-this/7926858411.html"
+}

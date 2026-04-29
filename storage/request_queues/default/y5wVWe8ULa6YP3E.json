@@ -1,0 +1,9 @@
+{
+	"id": "y5wVWe8ULa6YP3E",
+	"json": "{\"id\":\"y5wVWe8ULa6YP3E\",\"url\":\"https://chico.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://chico.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://chico.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:37:34.325Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://chico.craigslist.org/search/ccc?query=yard+sale"
+}

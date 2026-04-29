@@ -1,0 +1,9 @@
+{
+	"id": "eLBOsUdQdmmZNpE",
+	"json": "{\"id\":\"eLBOsUdQdmmZNpE\",\"url\":\"https://victoriatx.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://victoriatx.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186527583,
+	"retryCount": 0,
+	"uniqueKey": "https://victoriatx.craigslist.org/search/gms?s=480",
+	"url": "https://victoriatx.craigslist.org/search/gms?s=480"
+}

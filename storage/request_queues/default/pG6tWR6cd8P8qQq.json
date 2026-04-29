@@ -1,0 +1,9 @@
+{
+	"id": "pG6tWR6cd8P8qQq",
+	"json": "{\"id\":\"pG6tWR6cd8P8qQq\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-yard-sale-for-hunters-and-ladies/7929793332.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-yard-sale-for-hunters-and-ladies/7929793332.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-yard-sale-for-hunters-and-ladies/7929793332.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:31:51.428Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-yard-sale-for-hunters-and-ladies/7929793332.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-yard-sale-for-hunters-and-ladies/7929793332.html"
+}

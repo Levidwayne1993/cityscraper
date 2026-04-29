@@ -1,0 +1,9 @@
+{
+	"id": "KKKc4z9JlLLmKY4",
+	"json": "{\"id\":\"KKKc4z9JlLLmKY4\",\"url\":\"https://mohave.craigslist.org/gms/d/hualapai-huge-estate-sale/7925292421.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/hualapai-huge-estate-sale/7925292421.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/hualapai-huge-estate-sale/7925292421.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:10.024Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/hualapai-huge-estate-sale/7925292421.html",
+	"url": "https://mohave.craigslist.org/gms/d/hualapai-huge-estate-sale/7925292421.html"
+}

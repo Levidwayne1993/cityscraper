@@ -1,0 +1,9 @@
+{
+	"id": "1z7H92YtaY4FKLk",
+	"json": "{\"id\":\"1z7H92YtaY4FKLk\",\"url\":\"https://westslope.craigslist.org/gms/d/durango-huge-yard-sale/7926069308.html\",\"loadedUrl\":\"https://westslope.craigslist.org/gms/d/durango-huge-yard-sale/7926069308.html\",\"uniqueKey\":\"https://westslope.craigslist.org/gms/d/durango-huge-yard-sale/7926069308.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:59:37.365Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://westslope.craigslist.org/gms/d/durango-huge-yard-sale/7926069308.html",
+	"url": "https://westslope.craigslist.org/gms/d/durango-huge-yard-sale/7926069308.html"
+}

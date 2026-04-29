@@ -1,0 +1,9 @@
+{
+	"id": "wo2uLfjOSCoR0zC",
+	"json": "{\"id\":\"wo2uLfjOSCoR0zC\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale-in-mira-mesa/7928157472.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale-in-mira-mesa/7928157472.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale-in-mira-mesa/7928157472.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:27.314Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale-in-mira-mesa/7928157472.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/san-diego-garage-sale-in-mira-mesa/7928157472.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XJeIP6schZPN7xq",
+	"json": "{\"id\":\"XJeIP6schZPN7xq\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-day-estate-sale/7928433077.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-day-estate-sale/7928433077.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/menlo-park-day-estate-sale/7928433077.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:23.010Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/menlo-park-day-estate-sale/7928433077.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/menlo-park-day-estate-sale/7928433077.html"
+}

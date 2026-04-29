@@ -1,0 +1,9 @@
+{
+	"id": "T3qFqKQIi1nQG65",
+	"json": "{\"id\":\"T3qFqKQIi1nQG65\",\"url\":\"https://chautauqua.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://chautauqua.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523137,
+	"retryCount": 0,
+	"uniqueKey": "https://chautauqua.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://chautauqua.craigslist.org/search/ccc?query=garage+sale"
+}

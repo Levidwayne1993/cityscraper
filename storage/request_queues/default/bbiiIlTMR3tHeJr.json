@@ -1,0 +1,9 @@
+{
+	"id": "bbiiIlTMR3tHeJr",
+	"json": "{\"id\":\"bbiiIlTMR3tHeJr\",\"url\":\"https://okaloosa.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://okaloosa.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://okaloosa.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:17:07.207Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/search/gms?s=360",
+	"url": "https://okaloosa.craigslist.org/search/gms?s=360"
+}

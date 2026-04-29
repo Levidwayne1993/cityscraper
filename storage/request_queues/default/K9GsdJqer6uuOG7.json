@@ -1,0 +1,9 @@
+{
+	"id": "K9GsdJqer6uuOG7",
+	"json": "{\"id\":\"K9GsdJqer6uuOG7\",\"url\":\"https://chicago.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://chicago.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IL\"}}",
+	"method": "GET",
+	"orderNo": 1777186518104,
+	"retryCount": 0,
+	"uniqueKey": "https://chicago.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://chicago.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

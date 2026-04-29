@@ -1,0 +1,9 @@
+{
+	"id": "2gsOrvkmVffU9hH",
+	"json": "{\"id\":\"2gsOrvkmVffU9hH\",\"url\":\"https://dallas.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://dallas.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526196,
+	"retryCount": 0,
+	"uniqueKey": "https://dallas.craigslist.org/search/gms?s=360",
+	"url": "https://dallas.craigslist.org/search/gms?s=360"
+}

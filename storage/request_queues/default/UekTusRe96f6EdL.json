@@ -1,0 +1,9 @@
+{
+	"id": "UekTusRe96f6EdL",
+	"json": "{\"id\":\"UekTusRe96f6EdL\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale/7925817487.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale/7925817487.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-moving-sale/7925817487.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:38:48.716Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-moving-sale/7925817487.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-moving-sale/7925817487.html"
+}

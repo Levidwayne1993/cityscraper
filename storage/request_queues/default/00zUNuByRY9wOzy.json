@@ -1,6 +1,6 @@
 {
 	"id": "00zUNuByRY9wOzy",
-	"json": "{\"id\":\"00zUNuByRY9wOzy\",\"url\":\"https://auburn.craigslist.org/search/gms\",\"loadedUrl\":\"https://auburn.craigslist.org/search/gms\",\"uniqueKey\":\"https://auburn.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:18:51.771Z\"}",
+	"json": "{\"id\":\"00zUNuByRY9wOzy\",\"url\":\"https://auburn.craigslist.org/search/gms\",\"loadedUrl\":\"https://auburn.craigslist.org/search/gms\",\"uniqueKey\":\"https://auburn.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:55:24.089Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

@@ -1,0 +1,9 @@
+{
+	"id": "FHbXy3hSKwKhiuh",
+	"json": "{\"id\":\"FHbXy3hSKwKhiuh\",\"url\":\"https://siouxfalls.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://siouxfalls.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\"}}",
+	"method": "GET",
+	"orderNo": 1777186525945,
+	"retryCount": 0,
+	"uniqueKey": "https://siouxfalls.craigslist.org/search/gms?s=480",
+	"url": "https://siouxfalls.craigslist.org/search/gms?s=480"
+}

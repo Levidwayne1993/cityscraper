@@ -1,0 +1,9 @@
+{
+	"id": "9pzCuosj4mjddUD",
+	"json": "{\"id\":\"9pzCuosj4mjddUD\",\"url\":\"https://inlandempire.craigslist.org/com/d/temecula-garage-sale-vintage-hills/7926987253.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/temecula-garage-sale-vintage-hills/7926987253.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/temecula-garage-sale-vintage-hills/7926987253.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:18:33.870Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/temecula-garage-sale-vintage-hills/7926987253.html",
+	"url": "https://inlandempire.craigslist.org/com/d/temecula-garage-sale-vintage-hills/7926987253.html"
+}

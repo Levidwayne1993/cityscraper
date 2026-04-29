@@ -1,0 +1,9 @@
+{
+	"id": "3OxHNadi3NPKAo8",
+	"json": "{\"id\":\"3OxHNadi3NPKAo8\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale-and-handmade-jewelry/7921106760.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale-and-handmade-jewelry/7921106760.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale-and-handmade-jewelry/7921106760.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:52:58.310Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-yard-sale-and-handmade-jewelry/7921106760.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-yard-sale-and-handmade-jewelry/7921106760.html"
+}

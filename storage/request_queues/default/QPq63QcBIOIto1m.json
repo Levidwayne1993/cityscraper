@@ -1,0 +1,9 @@
+{
+	"id": "QPq63QcBIOIto1m",
+	"json": "{\"id\":\"QPq63QcBIOIto1m\",\"url\":\"https://palmbeach.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://palmbeach.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777186517383,
+	"retryCount": 0,
+	"uniqueKey": "https://palmbeach.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://palmbeach.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

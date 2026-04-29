@@ -1,0 +1,9 @@
+{
+	"id": "YIrxvbCJNDYpXVV",
+	"json": "{\"id\":\"YIrxvbCJNDYpXVV\",\"url\":\"https://santamaria.craigslist.org/com/d/santa-maria-community-garage-sale/7922611789.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/com/d/santa-maria-community-garage-sale/7922611789.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/com/d/santa-maria-community-garage-sale/7922611789.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:35.067Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/com/d/santa-maria-community-garage-sale/7922611789.html",
+	"url": "https://santamaria.craigslist.org/com/d/santa-maria-community-garage-sale/7922611789.html"
+}

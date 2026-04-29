@@ -1,0 +1,9 @@
+{
+	"id": "PATDKK8kHE9RDq9",
+	"json": "{\"id\":\"PATDKK8kHE9RDq9\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-moving-sale-tools-plants-yard/7930013004.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-moving-sale-tools-plants-yard/7930013004.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/el-cajon-moving-sale-tools-plants-yard/7930013004.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:02:19.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-moving-sale-tools-plants-yard/7930013004.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/el-cajon-moving-sale-tools-plants-yard/7930013004.html"
+}

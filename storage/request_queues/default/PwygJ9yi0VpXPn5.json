@@ -1,0 +1,9 @@
+{
+	"id": "PwygJ9yi0VpXPn5",
+	"json": "{\"id\":\"PwygJ9yi0VpXPn5\",\"url\":\"https://littlerock.craigslist.org/gms/d/mabelvale-yard-sale/7924062257.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/gms/d/mabelvale-yard-sale/7924062257.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/gms/d/mabelvale-yard-sale/7924062257.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:17:54.514Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/gms/d/mabelvale-yard-sale/7924062257.html",
+	"url": "https://littlerock.craigslist.org/gms/d/mabelvale-yard-sale/7924062257.html"
+}

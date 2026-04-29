@@ -1,0 +1,9 @@
+{
+	"id": "0Rc9uyV9o95PDv2",
+	"json": "{\"id\":\"0Rc9uyV9o95PDv2\",\"url\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-yard-sale/7928317215.html\",\"loadedUrl\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-yard-sale/7928317215.html\",\"uniqueKey\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-yard-sale/7928317215.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:50:29.835Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/gms/d/white-mountain-lake-yard-sale/7928317215.html",
+	"url": "https://showlow.craigslist.org/gms/d/white-mountain-lake-yard-sale/7928317215.html"
+}

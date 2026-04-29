@@ -1,8 +1,8 @@
 {
 	"id": "hXA0rgyuWWzGhKc",
-	"json": "{\"id\":\"hXA0rgyuWWzGhKc\",\"url\":\"https://cfl.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://cfl.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"hXA0rgyuWWzGhKc\",\"url\":\"https://cfl.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://cfl.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://cfl.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:32:55.972Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323540,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://cfl.craigslist.org/search/gms?s=240",
 	"url": "https://cfl.craigslist.org/search/gms?s=240"

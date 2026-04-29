@@ -1,0 +1,9 @@
+{
+	"id": "7QkSijFZGka1ixn",
+	"json": "{\"id\":\"7QkSijFZGka1ixn\",\"url\":\"https://duluth.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://duluth.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520997,
+	"retryCount": 0,
+	"uniqueKey": "https://duluth.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://duluth.craigslist.org/search/ccc?query=yard+sale"
+}

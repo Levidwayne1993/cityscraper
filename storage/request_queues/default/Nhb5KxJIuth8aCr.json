@@ -1,0 +1,9 @@
+{
+	"id": "Nhb5KxJIuth8aCr",
+	"json": "{\"id\":\"Nhb5KxJIuth8aCr\",\"url\":\"https://desmoines.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://desmoines.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518451,
+	"retryCount": 0,
+	"uniqueKey": "https://desmoines.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://desmoines.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KOfW36QqwWKptM4",
+	"json": "{\"id\":\"KOfW36QqwWKptM4\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-sunday-509-se-16th/7930044679.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-sunday-509-se-16th/7930044679.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-sunday-509-se-16th/7930044679.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:54.058Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-sunday-509-se-16th/7930044679.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/cape-coral-yard-sale-sunday-509-se-16th/7930044679.html"
+}

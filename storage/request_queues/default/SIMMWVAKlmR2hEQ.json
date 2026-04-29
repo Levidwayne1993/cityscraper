@@ -1,0 +1,9 @@
+{
+	"id": "SIMMWVAKlmR2hEQ",
+	"json": "{\"id\":\"SIMMWVAKlmR2hEQ\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Tucson-AZ.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Tucson-AZ.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"AZ\",\"yssSlug\":\"Tucson-AZ\"}}",
+	"method": "GET",
+	"orderNo": 1777186530394,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Tucson-AZ.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Tucson-AZ.html"
+}

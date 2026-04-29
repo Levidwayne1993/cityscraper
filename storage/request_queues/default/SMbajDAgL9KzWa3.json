@@ -1,0 +1,9 @@
+{
+	"id": "SMbajDAgL9KzWa3",
+	"json": "{\"id\":\"SMbajDAgL9KzWa3\",\"url\":\"https://wausau.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://wausau.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528495,
+	"retryCount": 0,
+	"uniqueKey": "https://wausau.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://wausau.craigslist.org/search/ccc?query=garage+sale"
+}

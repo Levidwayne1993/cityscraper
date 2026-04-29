@@ -1,0 +1,9 @@
+{
+	"id": "BrJ3MOW90w6bqtY",
+	"json": "{\"id\":\"BrJ3MOW90w6bqtY\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-yardsale-8500-houghton/7920886108.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-yardsale-8500-houghton/7920886108.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-yardsale-8500-houghton/7920886108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:24:35.620Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-huge-yardsale-8500-houghton/7920886108.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-huge-yardsale-8500-houghton/7920886108.html"
+}

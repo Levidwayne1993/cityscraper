@@ -1,0 +1,9 @@
+{
+	"id": "xUpMfkyWV6iuZWA",
+	"json": "{\"id\":\"xUpMfkyWV6iuZWA\",\"url\":\"https://denver.craigslist.org/gms/d/franktown-large-multi-generational/7928527931.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/franktown-large-multi-generational/7928527931.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/franktown-large-multi-generational/7928527931.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:27.154Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/franktown-large-multi-generational/7928527931.html",
+	"url": "https://denver.craigslist.org/gms/d/franktown-large-multi-generational/7928527931.html"
+}

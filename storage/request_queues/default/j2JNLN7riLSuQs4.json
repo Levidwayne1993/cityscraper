@@ -1,0 +1,9 @@
+{
+	"id": "j2JNLN7riLSuQs4",
+	"json": "{\"id\":\"j2JNLN7riLSuQs4\",\"url\":\"https://littlerock.craigslist.org/com/d/little-rock-yard-sale/7926445085.html\",\"loadedUrl\":\"https://littlerock.craigslist.org/com/d/little-rock-yard-sale/7926445085.html\",\"uniqueKey\":\"https://littlerock.craigslist.org/com/d/little-rock-yard-sale/7926445085.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:18:35.027Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://littlerock.craigslist.org/com/d/little-rock-yard-sale/7926445085.html",
+	"url": "https://littlerock.craigslist.org/com/d/little-rock-yard-sale/7926445085.html"
+}

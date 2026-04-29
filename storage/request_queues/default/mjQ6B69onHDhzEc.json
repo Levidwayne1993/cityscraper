@@ -1,0 +1,9 @@
+{
+	"id": "mjQ6B69onHDhzEc",
+	"json": "{\"id\":\"mjQ6B69onHDhzEc\",\"url\":\"https://chico.craigslist.org/gms/d/chico-apr-fri-sat-wyandotte-grange/7926556149.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-apr-fri-sat-wyandotte-grange/7926556149.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-apr-fri-sat-wyandotte-grange/7926556149.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":1,\"errorMessages\":[\"Error: request timed out after 90 seconds.\\n    at Timeout._onTimeout (C:\\\\Users\\\\citys\\\\Documents\\\\cityscraper\\\\node_modules\\\\@apify\\\\src\\\\index.ts:87:74)\\n    at listOnTimeout (node:internal/timers:605:17)\\n    at process.processTimers (node:internal/timers:541:7)\"],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:45:48.101Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 1,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-apr-fri-sat-wyandotte-grange/7926556149.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-apr-fri-sat-wyandotte-grange/7926556149.html"
+}

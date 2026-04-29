@@ -1,0 +1,9 @@
+{
+	"id": "Th0Bq2El11UzpCr",
+	"json": "{\"id\":\"Th0Bq2El11UzpCr\",\"url\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-premium-yard-sale/7926811286.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-premium-yard-sale/7926811286.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-premium-yard-sale/7926811286.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:18.330Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/huntington-beach-premium-yard-sale/7926811286.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/huntington-beach-premium-yard-sale/7926811286.html"
+}

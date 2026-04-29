@@ -1,0 +1,9 @@
+{
+	"id": "DJzXdkWSNUwU8mK",
+	"json": "{\"id\":\"DJzXdkWSNUwU8mK\",\"url\":\"https://montgomery.craigslist.org/gms/d/rockford-barn-sale/7925303889.html\",\"loadedUrl\":\"https://montgomery.craigslist.org/gms/d/rockford-barn-sale/7925303889.html\",\"uniqueKey\":\"https://montgomery.craigslist.org/gms/d/rockford-barn-sale/7925303889.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:08:34.989Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://montgomery.craigslist.org/gms/d/rockford-barn-sale/7925303889.html",
+	"url": "https://montgomery.craigslist.org/gms/d/rockford-barn-sale/7925303889.html"
+}

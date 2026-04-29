@@ -1,0 +1,9 @@
+{
+	"id": "DGlgZaO1eZIkBQ8",
+	"json": "{\"id\":\"DGlgZaO1eZIkBQ8\",\"url\":\"https://delaware.craigslist.org/hsh/d/clayton-moving-sale/7925244239.html\",\"loadedUrl\":\"https://delaware.craigslist.org/hsh/d/clayton-moving-sale/7925244239.html\",\"uniqueKey\":\"https://delaware.craigslist.org/hsh/d/clayton-moving-sale/7925244239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:21:28.712Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/hsh/d/clayton-moving-sale/7925244239.html",
+	"url": "https://delaware.craigslist.org/hsh/d/clayton-moving-sale/7925244239.html"
+}

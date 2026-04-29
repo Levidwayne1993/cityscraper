@@ -1,8 +1,8 @@
 {
 	"id": "VF2IF7BQBI5Li2N",
-	"json": "{\"id\":\"VF2IF7BQBI5Li2N\",\"url\":\"https://fortmyers.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://fortmyers.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"VF2IF7BQBI5Li2N\",\"url\":\"https://fortmyers.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://fortmyers.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://fortmyers.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:21:36.927Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323523,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://fortmyers.craigslist.org/search/gms?s=240",
 	"url": "https://fortmyers.craigslist.org/search/gms?s=240"

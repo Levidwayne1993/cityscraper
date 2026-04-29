@@ -1,0 +1,9 @@
+{
+	"id": "lsNJ7Ku00TfFh5p",
+	"json": "{\"id\":\"lsNJ7Ku00TfFh5p\",\"url\":\"https://mohave.craigslist.org/gms/d/bullhead-city-huge-garage-sale-at-2630/7923596801.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/bullhead-city-huge-garage-sale-at-2630/7923596801.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/bullhead-city-huge-garage-sale-at-2630/7923596801.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:43.988Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/bullhead-city-huge-garage-sale-at-2630/7923596801.html",
+	"url": "https://mohave.craigslist.org/gms/d/bullhead-city-huge-garage-sale-at-2630/7923596801.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "G7sBNC6KpxGS74K",
-	"json": "{\"id\":\"G7sBNC6KpxGS74K\",\"url\":\"https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"G7sBNC6KpxGS74K\",\"url\":\"https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:34.502Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322983,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://mohave.craigslist.org/search/sss?query=yard+sale+garage+sale"

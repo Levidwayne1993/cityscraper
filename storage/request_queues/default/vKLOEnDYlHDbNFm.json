@@ -1,9 +1,0 @@
-{
-	"id": "vKLOEnDYlHDbNFm",
-	"json": "{\"id\":\"vKLOEnDYlHDbNFm\",\"url\":\"https://gsalr.com/garage-sales-in/hawaii/\",\"uniqueKey\":\"https://gsalr.com/garage-sales-in/hawaii\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"gsalr\",\"state\":\"hawaii\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040334363,
-	"retryCount": 0,
-	"uniqueKey": "https://gsalr.com/garage-sales-in/hawaii",
-	"url": "https://gsalr.com/garage-sales-in/hawaii/"
-}

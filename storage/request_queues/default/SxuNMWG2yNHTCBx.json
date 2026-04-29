@@ -1,0 +1,9 @@
+{
+	"id": "SxuNMWG2yNHTCBx",
+	"json": "{\"id\":\"SxuNMWG2yNHTCBx\",\"url\":\"https://jacksonville.craigslist.org/gms/d/fernandina-beach-yard-sale/7920933947.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/fernandina-beach-yard-sale/7920933947.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/fernandina-beach-yard-sale/7920933947.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:35:24.412Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/fernandina-beach-yard-sale/7920933947.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/fernandina-beach-yard-sale/7920933947.html"
+}

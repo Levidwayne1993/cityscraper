@@ -1,0 +1,9 @@
+{
+	"id": "sNj2tG6Z9MGYamq",
+	"json": "{\"id\":\"sNj2tG6Z9MGYamq\",\"url\":\"https://monroe.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://monroe.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520129,
+	"retryCount": 0,
+	"uniqueKey": "https://monroe.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://monroe.craigslist.org/search/ccc?query=garage+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "GrCYOWU9oLgGg4r",
+	"json": "{\"id\":\"GrCYOWU9oLgGg4r\",\"url\":\"https://sacramento.craigslist.org/fuo/d/sacramento-moving-sale-today-everything/7928631545.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/fuo/d/sacramento-moving-sale-today-everything/7928631545.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/fuo/d/sacramento-moving-sale-today-everything/7928631545.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:53:00.749Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/fuo/d/sacramento-moving-sale-today-everything/7928631545.html",
+	"url": "https://sacramento.craigslist.org/fuo/d/sacramento-moving-sale-today-everything/7928631545.html"
+}

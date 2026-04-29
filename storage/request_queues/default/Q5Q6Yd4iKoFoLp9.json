@@ -1,0 +1,9 @@
+{
+	"id": "Q5Q6Yd4iKoFoLp9",
+	"json": "{\"id\":\"Q5Q6Yd4iKoFoLp9\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-estate-sale-by-family-36-ave/7927870068.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-estate-sale-by-family-36-ave/7927870068.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/glendale-estate-sale-by-family-36-ave/7927870068.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:34:20.080Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/glendale-estate-sale-by-family-36-ave/7927870068.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/glendale-estate-sale-by-family-36-ave/7927870068.html"
+}

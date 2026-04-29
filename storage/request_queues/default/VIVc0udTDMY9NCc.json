@@ -1,0 +1,9 @@
+{
+	"id": "VIVc0udTDMY9NCc",
+	"json": "{\"id\":\"VIVc0udTDMY9NCc\",\"url\":\"https://visalia.craigslist.org/gms/d/visalia-mega-spring-yard-sale-great/7923784728.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/visalia-mega-spring-yard-sale-great/7923784728.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/visalia-mega-spring-yard-sale-great/7923784728.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:20:20.955Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/visalia-mega-spring-yard-sale-great/7923784728.html",
+	"url": "https://visalia.craigslist.org/gms/d/visalia-mega-spring-yard-sale-great/7923784728.html"
+}

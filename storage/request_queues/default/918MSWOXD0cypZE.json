@@ -1,0 +1,9 @@
+{
+	"id": "918MSWOXD0cypZE",
+	"json": "{\"id\":\"918MSWOXD0cypZE\",\"url\":\"https://toledo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://toledo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523868,
+	"retryCount": 0,
+	"uniqueKey": "https://toledo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://toledo.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

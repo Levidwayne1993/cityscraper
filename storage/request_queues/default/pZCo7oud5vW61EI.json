@@ -1,0 +1,9 @@
+{
+	"id": "pZCo7oud5vW61EI",
+	"json": "{\"id\":\"pZCo7oud5vW61EI\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale/7923852915.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale/7923852915.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale/7923852915.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:22.595Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-estate-sale/7923852915.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-estate-sale/7923852915.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uGOrTnCjUk4ANNX",
+	"json": "{\"id\":\"uGOrTnCjUk4ANNX\",\"url\":\"https://modesto.craigslist.org/gms/d/salida-garage-sale/7921099980.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/salida-garage-sale/7921099980.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/salida-garage-sale/7921099980.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:52:51.245Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/salida-garage-sale/7921099980.html",
+	"url": "https://modesto.craigslist.org/gms/d/salida-garage-sale/7921099980.html"
+}

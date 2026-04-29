@@ -1,0 +1,9 @@
+{
+	"id": "FJtcOVwTTOtSvTn",
+	"json": "{\"id\":\"FJtcOVwTTOtSvTn\",\"url\":\"https://goldcountry.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7928659037.html\",\"loadedUrl\":\"https://goldcountry.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7928659037.html\",\"uniqueKey\":\"https://goldcountry.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7928659037.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:51:37.582Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7928659037.html",
+	"url": "https://goldcountry.craigslist.org/gms/d/martell-old-sutter-creek-flea-market/7928659037.html"
+}

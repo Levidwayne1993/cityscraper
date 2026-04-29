@@ -1,0 +1,9 @@
+{
+	"id": "moSeM0Eb5VvULet",
+	"json": "{\"id\":\"moSeM0Eb5VvULet\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-charity-yard-sale/7926827242.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-charity-yard-sale/7926827242.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/gilbert-charity-yard-sale/7926827242.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:29:11.680Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/gilbert-charity-yard-sale/7926827242.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/gilbert-charity-yard-sale/7926827242.html"
+}

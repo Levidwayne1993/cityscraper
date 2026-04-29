@@ -1,0 +1,9 @@
+{
+	"id": "I7mdigFXz7iVd8V",
+	"json": "{\"id\":\"I7mdigFXz7iVd8V\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/coral-springs-trash-to-treasure/7927781925.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/coral-springs-trash-to-treasure/7927781925.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/coral-springs-trash-to-treasure/7927781925.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:57.065Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/coral-springs-trash-to-treasure/7927781925.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/coral-springs-trash-to-treasure/7927781925.html"
+}

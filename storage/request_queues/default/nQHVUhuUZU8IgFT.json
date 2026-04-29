@@ -1,0 +1,9 @@
+{
+	"id": "nQHVUhuUZU8IgFT",
+	"json": "{\"id\":\"nQHVUhuUZU8IgFT\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-sale/7926926964.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-sale/7926926964.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-sale/7926926964.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:52.600Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-sale/7926926964.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-garage-sale/7926926964.html"
+}

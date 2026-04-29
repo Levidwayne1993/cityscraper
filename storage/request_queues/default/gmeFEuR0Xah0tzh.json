@@ -1,0 +1,9 @@
+{
+	"id": "gmeFEuR0Xah0tzh",
+	"json": "{\"id\":\"gmeFEuR0Xah0tzh\",\"url\":\"https://texarkana.craigslist.org/gms/d/nash-yard-sale-rain-or-shine-on-bottoms/7929787765.html\",\"loadedUrl\":\"https://texarkana.craigslist.org/gms/d/nash-yard-sale-rain-or-shine-on-bottoms/7929787765.html\",\"uniqueKey\":\"https://texarkana.craigslist.org/gms/d/nash-yard-sale-rain-or-shine-on-bottoms/7929787765.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:19:45.228Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://texarkana.craigslist.org/gms/d/nash-yard-sale-rain-or-shine-on-bottoms/7929787765.html",
+	"url": "https://texarkana.craigslist.org/gms/d/nash-yard-sale-rain-or-shine-on-bottoms/7929787765.html"
+}

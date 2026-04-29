@@ -1,0 +1,9 @@
+{
+	"id": "m2LB5edJ9Gs6wM9",
+	"json": "{\"id\":\"m2LB5edJ9Gs6wM9\",\"url\":\"https://joplin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://joplin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521227,
+	"retryCount": 0,
+	"uniqueKey": "https://joplin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://joplin.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

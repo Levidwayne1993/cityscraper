@@ -1,0 +1,9 @@
+{
+	"id": "3Uqrr7FdwQms1wr",
+	"json": "{\"id\":\"3Uqrr7FdwQms1wr\",\"url\":\"https://goldcountry.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://goldcountry.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://goldcountry.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:49:47.091Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://goldcountry.craigslist.org/search/gms?s=360",
+	"url": "https://goldcountry.craigslist.org/search/gms?s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FdXlHcbIBqS2FfX",
+	"json": "{\"id\":\"FdXlHcbIBqS2FfX\",\"url\":\"https://www.yardsalesearch.com/yard-sales/San-Diego-CA.html?page=2\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/San-Diego-CA.html?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"CA\",\"yssSlug\":\"San-Diego-CA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530545,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/San-Diego-CA.html?page=2",
+	"url": "https://www.yardsalesearch.com/yard-sales/San-Diego-CA.html?page=2"
+}

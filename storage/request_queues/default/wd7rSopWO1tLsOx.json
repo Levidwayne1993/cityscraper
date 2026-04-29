@@ -1,0 +1,9 @@
+{
+	"id": "wd7rSopWO1tLsOx",
+	"json": "{\"id\":\"wd7rSopWO1tLsOx\",\"url\":\"https://fayar.craigslist.org/gms/d/bella-vista-huge-garage-sale-10-drew-ln/7929603861.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/bella-vista-huge-garage-sale-10-drew-ln/7929603861.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/bella-vista-huge-garage-sale-10-drew-ln/7929603861.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:13:16.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/bella-vista-huge-garage-sale-10-drew-ln/7929603861.html",
+	"url": "https://fayar.craigslist.org/gms/d/bella-vista-huge-garage-sale-10-drew-ln/7929603861.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "QG1SD5CWpG0BYMY",
+	"json": "{\"id\":\"QG1SD5CWpG0BYMY\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-estate-moving-sale-everything-goes/7928238143.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-estate-moving-sale-everything-goes/7928238143.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/aptos-estate-moving-sale-everything-goes/7928238143.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:01.889Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/aptos-estate-moving-sale-everything-goes/7928238143.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/aptos-estate-moving-sale-everything-goes/7928238143.html"
+}

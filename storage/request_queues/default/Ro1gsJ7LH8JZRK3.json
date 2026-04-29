@@ -1,0 +1,9 @@
+{
+	"id": "Ro1gsJ7LH8JZRK3",
+	"json": "{\"id\":\"Ro1gsJ7LH8JZRK3\",\"url\":\"https://monterey.craigslist.org/gms/d/santa-cruz-large-garage-sale-pleasure/7928498700.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/santa-cruz-large-garage-sale-pleasure/7928498700.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/santa-cruz-large-garage-sale-pleasure/7928498700.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:05:56.383Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/santa-cruz-large-garage-sale-pleasure/7928498700.html",
+	"url": "https://monterey.craigslist.org/gms/d/santa-cruz-large-garage-sale-pleasure/7928498700.html"
+}

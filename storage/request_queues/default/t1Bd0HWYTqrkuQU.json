@@ -1,0 +1,9 @@
+{
+	"id": "t1Bd0HWYTqrkuQU",
+	"json": "{\"id\":\"t1Bd0HWYTqrkuQU\",\"url\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-mini-exercise-bike/7930186640.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-mini-exercise-bike/7930186640.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-mini-exercise-bike/7930186640.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:53.910Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-mini-exercise-bike/7930186640.html",
+	"url": "https://sfbay.craigslist.org/sby/spo/d/san-jose-moving-sale-mini-exercise-bike/7930186640.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "85nLquEXmdnQFns",
+	"json": "{\"id\":\"85nLquEXmdnQFns\",\"url\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale-children-toys-and/7926633248.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale-children-toys-and/7926633248.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/tracy-garage-sale-children-toys-and/7926633248.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:03:16.354Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/tracy-garage-sale-children-toys-and/7926633248.html",
+	"url": "https://stockton.craigslist.org/gms/d/tracy-garage-sale-children-toys-and/7926633248.html"
+}

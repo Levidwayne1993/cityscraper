@@ -1,0 +1,9 @@
+{
+	"id": "TXQGmo1gQUrdQfY",
+	"json": "{\"id\":\"TXQGmo1gQUrdQfY\",\"url\":\"https://delaware.craigslist.org/gms/d/newark-great-warehouse-sale-lots-of/7926983110.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/newark-great-warehouse-sale-lots-of/7926983110.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/newark-great-warehouse-sale-lots-of/7926983110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:31.703Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/newark-great-warehouse-sale-lots-of/7926983110.html",
+	"url": "https://delaware.craigslist.org/gms/d/newark-great-warehouse-sale-lots-of/7926983110.html"
+}

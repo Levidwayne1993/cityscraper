@@ -1,0 +1,9 @@
+{
+	"id": "tNREOKpzMuJi3ZE",
+	"json": "{\"id\":\"tNREOKpzMuJi3ZE\",\"url\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale/7924206722.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale/7924206722.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/solvang-garage-sale/7924206722.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:54:23.680Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/solvang-garage-sale/7924206722.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/solvang-garage-sale/7924206722.html"
+}

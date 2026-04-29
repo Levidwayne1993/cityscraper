@@ -1,0 +1,9 @@
+{
+	"id": "orutyV2ufAB0PRR",
+	"json": "{\"id\":\"orutyV2ufAB0PRR\",\"url\":\"https://wheeling.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://wheeling.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528200,
+	"retryCount": 0,
+	"uniqueKey": "https://wheeling.craigslist.org/search/gms?s=360",
+	"url": "https://wheeling.craigslist.org/search/gms?s=360"
+}

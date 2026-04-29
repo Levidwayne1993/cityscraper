@@ -1,0 +1,9 @@
+{
+	"id": "Doq6l1Gomeg1vh7",
+	"json": "{\"id\":\"Doq6l1Gomeg1vh7\",\"url\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-garage-sale-6820-and-6826/7930010865.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-garage-sale-6820-and-6826/7930010865.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/fort-collins-garage-sale-6820-and-6826/7930010865.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:15.529Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/fort-collins-garage-sale-6820-and-6826/7930010865.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/fort-collins-garage-sale-6820-and-6826/7930010865.html"
+}

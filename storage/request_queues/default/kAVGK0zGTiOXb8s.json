@@ -1,0 +1,9 @@
+{
+	"id": "kAVGK0zGTiOXb8s",
+	"json": "{\"id\":\"kAVGK0zGTiOXb8s\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-yard-sale-in-san-rafael-th/7929116524.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-yard-sale-in-san-rafael-th/7929116524.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/san-anselmo-yard-sale-in-san-rafael-th/7929116524.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:18:35.640Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/san-anselmo-yard-sale-in-san-rafael-th/7929116524.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/san-anselmo-yard-sale-in-san-rafael-th/7929116524.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IZQLyLJgkxlByk7",
+	"json": "{\"id\":\"IZQLyLJgkxlByk7\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-moving/7929793077.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-moving/7929793077.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-garage-sale-moving/7929793077.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:39.888Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-garage-sale-moving/7929793077.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-garage-sale-moving/7929793077.html"
+}

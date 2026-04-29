@@ -1,0 +1,9 @@
+{
+	"id": "LAfGph74rocEocQ",
+	"json": "{\"id\":\"LAfGph74rocEocQ\",\"url\":\"https://hartford.craigslist.org/gms/d/east-hartford-warehouse-tag-sale-at-old/7929541871.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/east-hartford-warehouse-tag-sale-at-old/7929541871.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/east-hartford-warehouse-tag-sale-at-old/7929541871.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:09:23.766Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/east-hartford-warehouse-tag-sale-at-old/7929541871.html",
+	"url": "https://hartford.craigslist.org/gms/d/east-hartford-warehouse-tag-sale-at-old/7929541871.html"
+}

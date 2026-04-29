@@ -1,0 +1,9 @@
+{
+	"id": "bsWFtk2UIqwaGzw",
+	"json": "{\"id\":\"bsWFtk2UIqwaGzw\",\"url\":\"https://lynchburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://lynchburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527800,
+	"retryCount": 0,
+	"uniqueKey": "https://lynchburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://lynchburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

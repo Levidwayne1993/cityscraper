@@ -1,0 +1,9 @@
+{
+	"id": "BK527cKm7wHpbPl",
+	"json": "{\"id\":\"BK527cKm7wHpbPl\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-garage-sale/7930020661.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-garage-sale/7930020661.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-garage-sale/7930020661.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:38:20.198Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/milpitas-garage-sale/7930020661.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/milpitas-garage-sale/7930020661.html"
+}

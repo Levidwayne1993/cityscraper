@@ -1,0 +1,9 @@
+{
+	"id": "B3azCCYy6FOt3Yt",
+	"json": "{\"id\":\"B3azCCYy6FOt3Yt\",\"url\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-berthoud-hwy287-56/7925380724.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-berthoud-hwy287-56/7925380724.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-berthoud-hwy287-56/7925380724.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:52:54.396Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-berthoud-hwy287-56/7925380724.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/berthoud-estate-sale-berthoud-hwy287-56/7925380724.html"
+}

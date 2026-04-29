@@ -1,0 +1,9 @@
+{
+	"id": "gEjlxvqmMQ2oYh1",
+	"json": "{\"id\":\"gEjlxvqmMQ2oYh1\",\"url\":\"https://lakeland.craigslist.org/gms/d/haines-city-sequoyah-ridge-community/7921452374.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/haines-city-sequoyah-ridge-community/7921452374.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/haines-city-sequoyah-ridge-community/7921452374.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:45:35.533Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/haines-city-sequoyah-ridge-community/7921452374.html",
+	"url": "https://lakeland.craigslist.org/gms/d/haines-city-sequoyah-ridge-community/7921452374.html"
+}

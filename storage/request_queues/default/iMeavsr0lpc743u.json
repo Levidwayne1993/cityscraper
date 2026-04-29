@@ -1,0 +1,9 @@
+{
+	"id": "iMeavsr0lpc743u",
+	"json": "{\"id\":\"iMeavsr0lpc743u\",\"url\":\"https://orlando.craigslist.org/grp/d/orlando-garage-sale-lake-pickett/7921077212.html\",\"loadedUrl\":\"https://orlando.craigslist.org/grp/d/orlando-garage-sale-lake-pickett/7921077212.html\",\"uniqueKey\":\"https://orlando.craigslist.org/grp/d/orlando-garage-sale-lake-pickett/7921077212.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:31:38.125Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/grp/d/orlando-garage-sale-lake-pickett/7921077212.html",
+	"url": "https://orlando.craigslist.org/grp/d/orlando-garage-sale-lake-pickett/7921077212.html"
+}

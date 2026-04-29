@@ -1,0 +1,9 @@
+{
+	"id": "OHNjEfdVoPMm1Rp",
+	"json": "{\"id\":\"OHNjEfdVoPMm1Rp\",\"url\":\"https://ocala.craigslist.org/gms/d/leesburg-yard-sale-march-27th-28th-8am/7923652048.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/leesburg-yard-sale-march-27th-28th-8am/7923652048.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/leesburg-yard-sale-march-27th-28th-8am/7923652048.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:00:10.800Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/leesburg-yard-sale-march-27th-28th-8am/7923652048.html",
+	"url": "https://ocala.craigslist.org/gms/d/leesburg-yard-sale-march-27th-28th-8am/7923652048.html"
+}

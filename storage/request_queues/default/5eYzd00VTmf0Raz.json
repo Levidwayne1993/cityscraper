@@ -1,0 +1,9 @@
+{
+	"id": "5eYzd00VTmf0Raz",
+	"json": "{\"id\":\"5eYzd00VTmf0Raz\",\"url\":\"https://chico.craigslist.org/clt/d/proberta-estate-sale-yard-sale-pickers/7921870986.html\",\"loadedUrl\":\"https://chico.craigslist.org/clt/d/proberta-estate-sale-yard-sale-pickers/7921870986.html\",\"uniqueKey\":\"https://chico.craigslist.org/clt/d/proberta-estate-sale-yard-sale-pickers/7921870986.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:37:16.846Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/clt/d/proberta-estate-sale-yard-sale-pickers/7921870986.html",
+	"url": "https://chico.craigslist.org/clt/d/proberta-estate-sale-yard-sale-pickers/7921870986.html"
+}

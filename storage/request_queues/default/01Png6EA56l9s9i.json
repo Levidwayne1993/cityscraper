@@ -1,0 +1,9 @@
+{
+	"id": "01Png6EA56l9s9i",
+	"json": "{\"id\":\"01Png6EA56l9s9i\",\"url\":\"https://rochester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://rochester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523312,
+	"retryCount": 0,
+	"uniqueKey": "https://rochester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://rochester.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

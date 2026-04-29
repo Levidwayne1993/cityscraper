@@ -1,0 +1,9 @@
+{
+	"id": "wwvPgqMM0vfs8pT",
+	"json": "{\"id\":\"wwvPgqMM0vfs8pT\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-estate-sale/7928274585.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-estate-sale/7928274585.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/milpitas-estate-sale/7928274585.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:03.846Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/milpitas-estate-sale/7928274585.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/milpitas-estate-sale/7928274585.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "hIK8g10cIOD8RWU",
+	"json": "{\"id\":\"hIK8g10cIOD8RWU\",\"url\":\"https://orangecounty.craigslist.org/gms/d/los-alamitos-garage-sale/7928422274.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/los-alamitos-garage-sale/7928422274.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/los-alamitos-garage-sale/7928422274.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:17:06.248Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/los-alamitos-garage-sale/7928422274.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/los-alamitos-garage-sale/7928422274.html"
+}

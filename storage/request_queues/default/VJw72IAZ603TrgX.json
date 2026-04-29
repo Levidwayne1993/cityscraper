@@ -1,0 +1,9 @@
+{
+	"id": "VJw72IAZ603TrgX",
+	"json": "{\"id\":\"VJw72IAZ603TrgX\",\"url\":\"https://flagstaff.craigslist.org/gms/d/sedona-moving-sale-sedona/7928940394.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/sedona-moving-sale-sedona/7928940394.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/sedona-moving-sale-sedona/7928940394.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:20.653Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/sedona-moving-sale-sedona/7928940394.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/sedona-moving-sale-sedona/7928940394.html"
+}

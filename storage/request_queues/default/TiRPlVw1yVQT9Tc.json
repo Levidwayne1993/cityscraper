@@ -1,0 +1,9 @@
+{
+	"id": "TiRPlVw1yVQT9Tc",
+	"json": "{\"id\":\"TiRPlVw1yVQT9Tc\",\"url\":\"https://waterloo.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://waterloo.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IA\"}}",
+	"method": "GET",
+	"orderNo": 1777186518633,
+	"retryCount": 0,
+	"uniqueKey": "https://waterloo.craigslist.org/search/gms?s=480",
+	"url": "https://waterloo.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "aJJI7coD4emqBZg",
+	"json": "{\"id\":\"aJJI7coD4emqBZg\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/santee-estate-garage-sale/7926734688.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/santee-estate-garage-sale/7926734688.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/santee-estate-garage-sale/7926734688.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:04:26.069Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/santee-estate-garage-sale/7926734688.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/santee-estate-garage-sale/7926734688.html"
+}

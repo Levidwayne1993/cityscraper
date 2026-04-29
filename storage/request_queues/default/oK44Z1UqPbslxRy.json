@@ -1,0 +1,9 @@
+{
+	"id": "oK44Z1UqPbslxRy",
+	"json": "{\"id\":\"oK44Z1UqPbslxRy\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-garage-sale/7929620686.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-garage-sale/7929620686.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-garage-sale/7929620686.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:24:31.520Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-garage-sale/7929620686.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-north-phoenix-garage-sale/7929620686.html"
+}

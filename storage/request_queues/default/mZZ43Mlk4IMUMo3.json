@@ -1,0 +1,9 @@
+{
+	"id": "mZZ43Mlk4IMUMo3",
+	"json": "{\"id\":\"mZZ43Mlk4IMUMo3\",\"url\":\"https://gadsden.craigslist.org/wan/d/gadsden-spring-cleaning-estate-sale-or/7921550821.html\",\"loadedUrl\":\"https://gadsden.craigslist.org/wan/d/gadsden-spring-cleaning-estate-sale-or/7921550821.html\",\"uniqueKey\":\"https://gadsden.craigslist.org/wan/d/gadsden-spring-cleaning-estate-sale-or/7921550821.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:01:28.536Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gadsden.craigslist.org/wan/d/gadsden-spring-cleaning-estate-sale-or/7921550821.html",
+	"url": "https://gadsden.craigslist.org/wan/d/gadsden-spring-cleaning-estate-sale-or/7921550821.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "lUvKUrH0jVZoysf",
+	"json": "{\"id\":\"lUvKUrH0jVZoysf\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-flea-market-sale/7928528054.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-flea-market-sale/7928528054.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/ramona-flea-market-sale/7928528054.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:48.573Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/ramona-flea-market-sale/7928528054.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/ramona-flea-market-sale/7928528054.html"
+}

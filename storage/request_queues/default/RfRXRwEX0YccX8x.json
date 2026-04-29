@@ -1,0 +1,9 @@
+{
+	"id": "RfRXRwEX0YccX8x",
+	"json": "{\"id\":\"RfRXRwEX0YccX8x\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lake-street-summer-sale/7930012861.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lake-street-summer-sale/7930012861.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lake-street-summer-sale/7930012861.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:10.104Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lake-street-summer-sale/7930012861.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-lake-street-summer-sale/7930012861.html"
+}

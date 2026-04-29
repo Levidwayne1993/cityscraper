@@ -1,0 +1,9 @@
+{
+	"id": "xxovnAfOYug7mZ6",
+	"json": "{\"id\":\"xxovnAfOYug7mZ6\",\"url\":\"https://inlandempire.craigslist.org/com/d/homeland-yard-sale/7930113627.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/com/d/homeland-yard-sale/7930113627.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/com/d/homeland-yard-sale/7930113627.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:13:45.924Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/com/d/homeland-yard-sale/7930113627.html",
+	"url": "https://inlandempire.craigslist.org/com/d/homeland-yard-sale/7930113627.html"
+}

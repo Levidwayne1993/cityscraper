@@ -1,0 +1,9 @@
+{
+	"id": "Z88kUBeiVvMYYsu",
+	"json": "{\"id\":\"Z88kUBeiVvMYYsu\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-sale/7923816096.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-sale/7923816096.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-garage-sale/7923816096.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:34.793Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-garage-sale/7923816096.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-garage-sale/7923816096.html"
+}

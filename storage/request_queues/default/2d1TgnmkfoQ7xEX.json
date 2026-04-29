@@ -1,0 +1,9 @@
+{
+	"id": "2d1TgnmkfoQ7xEX",
+	"json": "{\"id\":\"2d1TgnmkfoQ7xEX\",\"url\":\"https://phoenix.craigslist.org/nph/wan/d/phoenix-help-with-cleanout-downsize/7928922073.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/wan/d/phoenix-help-with-cleanout-downsize/7928922073.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/wan/d/phoenix-help-with-cleanout-downsize/7928922073.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:28:07.285Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/wan/d/phoenix-help-with-cleanout-downsize/7928922073.html",
+	"url": "https://phoenix.craigslist.org/nph/wan/d/phoenix-help-with-cleanout-downsize/7928922073.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FkzqRVeKeq8PqZ7",
+	"json": "{\"id\":\"FkzqRVeKeq8PqZ7\",\"url\":\"https://newlondon.craigslist.org/gms/d/mystic-mystic-ct-multi-family-yard-sale/7926790622.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/mystic-mystic-ct-multi-family-yard-sale/7926790622.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/mystic-mystic-ct-multi-family-yard-sale/7926790622.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:03:30.956Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/mystic-mystic-ct-multi-family-yard-sale/7926790622.html",
+	"url": "https://newlondon.craigslist.org/gms/d/mystic-mystic-ct-multi-family-yard-sale/7926790622.html"
+}

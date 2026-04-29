@@ -1,0 +1,9 @@
+{
+	"id": "Rb24GG1ZeWns7aK",
+	"json": "{\"id\":\"Rb24GG1ZeWns7aK\",\"url\":\"https://slo.craigslist.org/gms/d/paso-robles-huge-garage-sale-8am-2pm/7928461384.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/paso-robles-huge-garage-sale-8am-2pm/7928461384.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/paso-robles-huge-garage-sale-8am-2pm/7928461384.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:52.262Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/paso-robles-huge-garage-sale-8am-2pm/7928461384.html",
+	"url": "https://slo.craigslist.org/gms/d/paso-robles-huge-garage-sale-8am-2pm/7928461384.html"
+}

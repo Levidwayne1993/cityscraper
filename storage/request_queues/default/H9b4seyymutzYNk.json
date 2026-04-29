@@ -1,8 +1,8 @@
 {
 	"id": "H9b4seyymutzYNk",
-	"json": "{\"id\":\"H9b4seyymutzYNk\",\"url\":\"https://sfbay.craigslist.org/search/gms\",\"uniqueKey\":\"https://sfbay.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"H9b4seyymutzYNk\",\"url\":\"https://sfbay.craigslist.org/search/gms\",\"loadedUrl\":\"https://sfbay.craigslist.org/search/gms\",\"uniqueKey\":\"https://sfbay.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:12:28.372Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323265,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://sfbay.craigslist.org/search/gms",
 	"url": "https://sfbay.craigslist.org/search/gms"

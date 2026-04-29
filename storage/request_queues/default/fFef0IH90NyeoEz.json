@@ -1,0 +1,9 @@
+{
+	"id": "fFef0IH90NyeoEz",
+	"json": "{\"id\":\"fFef0IH90NyeoEz\",\"url\":\"https://phoenix.craigslist.org/wvl/com/d/phoenix-saturday-yard-sale-bake-sale/7926777866.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/com/d/phoenix-saturday-yard-sale-bake-sale/7926777866.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/com/d/phoenix-saturday-yard-sale-bake-sale/7926777866.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:04.168Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/com/d/phoenix-saturday-yard-sale-bake-sale/7926777866.html",
+	"url": "https://phoenix.craigslist.org/wvl/com/d/phoenix-saturday-yard-sale-bake-sale/7926777866.html"
+}

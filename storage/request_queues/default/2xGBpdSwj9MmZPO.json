@@ -1,0 +1,9 @@
+{
+	"id": "2xGBpdSwj9MmZPO",
+	"json": "{\"id\":\"2xGBpdSwj9MmZPO\",\"url\":\"https://easttexas.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://easttexas.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526222,
+	"retryCount": 0,
+	"uniqueKey": "https://easttexas.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://easttexas.craigslist.org/search/ccc?query=yard+sale"
+}

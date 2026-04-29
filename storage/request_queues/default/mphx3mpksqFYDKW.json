@@ -1,0 +1,9 @@
+{
+	"id": "mphx3mpksqFYDKW",
+	"json": "{\"id\":\"mphx3mpksqFYDKW\",\"url\":\"https://orangecounty.craigslist.org/gms/d/irvine-huge-garage-sale-furniture-games/7928025224.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/irvine-huge-garage-sale-furniture-games/7928025224.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/irvine-huge-garage-sale-furniture-games/7928025224.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:15:40.109Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/irvine-huge-garage-sale-furniture-games/7928025224.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/irvine-huge-garage-sale-furniture-games/7928025224.html"
+}

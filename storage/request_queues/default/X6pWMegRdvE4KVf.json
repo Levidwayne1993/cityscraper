@@ -1,0 +1,9 @@
+{
+	"id": "X6pWMegRdvE4KVf",
+	"json": "{\"id\":\"X6pWMegRdvE4KVf\",\"url\":\"https://nwct.craigslist.org/gms/d/northfield-yard-sale/7929012232.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/northfield-yard-sale/7929012232.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/northfield-yard-sale/7929012232.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:15:48.442Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/northfield-yard-sale/7929012232.html",
+	"url": "https://nwct.craigslist.org/gms/d/northfield-yard-sale/7929012232.html"
+}

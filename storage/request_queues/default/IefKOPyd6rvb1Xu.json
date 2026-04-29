@@ -1,0 +1,9 @@
+{
+	"id": "IefKOPyd6rvb1Xu",
+	"json": "{\"id\":\"IefKOPyd6rvb1Xu\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/lemon-grove-saturday-april-4th-lemon/7925029058.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/lemon-grove-saturday-april-4th-lemon/7925029058.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/lemon-grove-saturday-april-4th-lemon/7925029058.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:59:13.285Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/lemon-grove-saturday-april-4th-lemon/7925029058.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/lemon-grove-saturday-april-4th-lemon/7925029058.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "kOeJIG4AbdjDVQo",
+	"json": "{\"id\":\"kOeJIG4AbdjDVQo\",\"url\":\"https://kansascity.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://kansascity.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521245,
+	"retryCount": 0,
+	"uniqueKey": "https://kansascity.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://kansascity.craigslist.org/search/ccc?query=yard+sale"
+}

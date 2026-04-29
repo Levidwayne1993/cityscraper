@@ -1,0 +1,9 @@
+{
+	"id": "G7mnYY8cBCuZOWy",
+	"json": "{\"id\":\"G7mnYY8cBCuZOWy\",\"url\":\"https://orlando.craigslist.org/hsh/d/sanford-moving-sale/7929912908.html\",\"loadedUrl\":\"https://orlando.craigslist.org/hsh/d/sanford-moving-sale/7929912908.html\",\"uniqueKey\":\"https://orlando.craigslist.org/hsh/d/sanford-moving-sale/7929912908.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:34:49.032Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/hsh/d/sanford-moving-sale/7929912908.html",
+	"url": "https://orlando.craigslist.org/hsh/d/sanford-moving-sale/7929912908.html"
+}

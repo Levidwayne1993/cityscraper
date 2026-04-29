@@ -1,0 +1,9 @@
+{
+	"id": "JvWj7CjiIYIXEZW",
+	"json": "{\"id\":\"JvWj7CjiIYIXEZW\",\"url\":\"https://sierravista.craigslist.org/gms/d/douglas-yard-moving-sale/7920827464.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/douglas-yard-moving-sale/7920827464.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/douglas-yard-moving-sale/7920827464.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:44.674Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/douglas-yard-moving-sale/7920827464.html",
+	"url": "https://sierravista.craigslist.org/gms/d/douglas-yard-moving-sale/7920827464.html"
+}

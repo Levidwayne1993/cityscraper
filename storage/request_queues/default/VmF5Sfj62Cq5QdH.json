@@ -1,0 +1,9 @@
+{
+	"id": "VmF5Sfj62Cq5QdH",
+	"json": "{\"id\":\"VmF5Sfj62Cq5QdH\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/wellington-mine-dads-estate-sale/7923623695.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/wellington-mine-dads-estate-sale/7923623695.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/wellington-mine-dads-estate-sale/7923623695.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:23.443Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/wellington-mine-dads-estate-sale/7923623695.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/wellington-mine-dads-estate-sale/7923623695.html"
+}

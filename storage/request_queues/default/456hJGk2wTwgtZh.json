@@ -1,0 +1,9 @@
+{
+	"id": "456hJGk2wTwgtZh",
+	"json": "{\"id\":\"456hJGk2wTwgtZh\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-sat-12-nw-garage-sale-la-cholla/7927149142.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-sat-12-nw-garage-sale-la-cholla/7927149142.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-sat-12-nw-garage-sale-la-cholla/7927149142.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:00.076Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-sat-12-nw-garage-sale-la-cholla/7927149142.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-sat-12-nw-garage-sale-la-cholla/7927149142.html"
+}

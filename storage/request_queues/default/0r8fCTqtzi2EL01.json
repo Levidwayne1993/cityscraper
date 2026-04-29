@@ -1,0 +1,9 @@
+{
+	"id": "0r8fCTqtzi2EL01",
+	"json": "{\"id\":\"0r8fCTqtzi2EL01\",\"url\":\"https://newhaven.craigslist.org/fuo/d/new-haven-price-adjust-to-sellmoving/7927246623.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/fuo/d/new-haven-price-adjust-to-sellmoving/7927246623.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/fuo/d/new-haven-price-adjust-to-sellmoving/7927246623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:45.468Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/fuo/d/new-haven-price-adjust-to-sellmoving/7927246623.html",
+	"url": "https://newhaven.craigslist.org/fuo/d/new-haven-price-adjust-to-sellmoving/7927246623.html"
+}

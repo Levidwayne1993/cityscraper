@@ -1,0 +1,9 @@
+{
+	"id": "8UGhk2kvGQQYZG7",
+	"json": "{\"id\":\"8UGhk2kvGQQYZG7\",\"url\":\"https://monroe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://monroe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186520123,
+	"retryCount": 0,
+	"uniqueKey": "https://monroe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://monroe.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

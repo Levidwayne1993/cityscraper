@@ -1,0 +1,9 @@
+{
+	"id": "VT3DkRaxhI2ZBz7",
+	"json": "{\"id\":\"VT3DkRaxhI2ZBz7\",\"url\":\"https://sheboygan.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://sheboygan.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186528452,
+	"retryCount": 0,
+	"uniqueKey": "https://sheboygan.craigslist.org/search/gms?s=360",
+	"url": "https://sheboygan.craigslist.org/search/gms?s=360"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "Dt3fi8qRGgrGDDX",
-	"json": "{\"id\":\"Dt3fi8qRGgrGDDX\",\"url\":\"https://gadsden.craigslist.org/search/gms\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Dt3fi8qRGgrGDDX\",\"url\":\"https://gadsden.craigslist.org/search/gms\",\"loadedUrl\":\"https://gadsden.craigslist.org/search/gms\",\"uniqueKey\":\"https://gadsden.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:00:26.237Z\"}",
 	"method": "GET",
-	"orderNo": 1777040329782,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://gadsden.craigslist.org/search/gms",
 	"url": "https://gadsden.craigslist.org/search/gms"

@@ -1,0 +1,9 @@
+{
+	"id": "5RxJAg5CivwGiQb",
+	"json": "{\"id\":\"5RxJAg5CivwGiQb\",\"url\":\"https://orangecounty.craigslist.org/gms/d/irvine-garage-sale-4091-robon-irvine-ca/7926063480.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/irvine-garage-sale-4091-robon-irvine-ca/7926063480.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/irvine-garage-sale-4091-robon-irvine-ca/7926063480.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:20:06.921Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/irvine-garage-sale-4091-robon-irvine-ca/7926063480.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/irvine-garage-sale-4091-robon-irvine-ca/7926063480.html"
+}

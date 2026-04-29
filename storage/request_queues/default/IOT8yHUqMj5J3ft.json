@@ -1,0 +1,9 @@
+{
+	"id": "IOT8yHUqMj5J3ft",
+	"json": "{\"id\":\"IOT8yHUqMj5J3ft\",\"url\":\"https://flagstaff.craigslist.org/gms/d/cornville-plant-garage-sale/7928230924.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/cornville-plant-garage-sale/7928230924.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/cornville-plant-garage-sale/7928230924.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:31.898Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/cornville-plant-garage-sale/7928230924.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/cornville-plant-garage-sale/7928230924.html"
+}

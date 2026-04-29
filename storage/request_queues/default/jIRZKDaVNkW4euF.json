@@ -1,0 +1,9 @@
+{
+	"id": "jIRZKDaVNkW4euF",
+	"json": "{\"id\":\"jIRZKDaVNkW4euF\",\"url\":\"https://mobile.craigslist.org/gms/d/mobile-yard-sale-saturday-506-cheryil/7928527249.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/mobile-yard-sale-saturday-506-cheryil/7928527249.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/mobile-yard-sale-saturday-506-cheryil/7928527249.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:09.199Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/mobile-yard-sale-saturday-506-cheryil/7928527249.html",
+	"url": "https://mobile.craigslist.org/gms/d/mobile-yard-sale-saturday-506-cheryil/7928527249.html"
+}

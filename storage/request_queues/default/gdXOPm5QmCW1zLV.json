@@ -1,8 +1,8 @@
 {
 	"id": "gdXOPm5QmCW1zLV",
-	"json": "{\"id\":\"gdXOPm5QmCW1zLV\",\"url\":\"https://texarkana.craigslist.org/search/gms\",\"uniqueKey\":\"https://texarkana.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"gdXOPm5QmCW1zLV\",\"url\":\"https://texarkana.craigslist.org/search/gms\",\"loadedUrl\":\"https://texarkana.craigslist.org/search/gms\",\"uniqueKey\":\"https://texarkana.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:19:01.379Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323096,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://texarkana.craigslist.org/search/gms",
 	"url": "https://texarkana.craigslist.org/search/gms"

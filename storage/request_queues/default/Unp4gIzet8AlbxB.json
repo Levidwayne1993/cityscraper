@@ -1,0 +1,9 @@
+{
+	"id": "Unp4gIzet8AlbxB",
+	"json": "{\"id\":\"Unp4gIzet8AlbxB\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Birmingham-AL.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Birmingham-AL.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"AL\",\"yssSlug\":\"Birmingham-AL\"}}",
+	"method": "GET",
+	"orderNo": 1777186530305,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Birmingham-AL.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Birmingham-AL.html"
+}

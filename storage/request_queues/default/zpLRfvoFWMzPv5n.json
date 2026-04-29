@@ -1,0 +1,9 @@
+{
+	"id": "zpLRfvoFWMzPv5n",
+	"json": "{\"id\":\"zpLRfvoFWMzPv5n\",\"url\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-garage-sale/7929233195.html\",\"loadedUrl\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-garage-sale/7929233195.html\",\"uniqueKey\":\"https://siskiyou.craigslist.org/gms/d/mount-shasta-garage-sale/7929233195.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:01:15.036Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/gms/d/mount-shasta-garage-sale/7929233195.html",
+	"url": "https://siskiyou.craigslist.org/gms/d/mount-shasta-garage-sale/7929233195.html"
+}

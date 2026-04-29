@@ -1,0 +1,9 @@
+{
+	"id": "jImxNZrSubNS6kl",
+	"json": "{\"id\":\"jImxNZrSubNS6kl\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-yard-sale-the-charlie/7928318806.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-yard-sale-the-charlie/7928318806.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-yard-sale-the-charlie/7928318806.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:37.622Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-yard-sale-the-charlie/7928318806.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-huge-yard-sale-the-charlie/7928318806.html"
+}

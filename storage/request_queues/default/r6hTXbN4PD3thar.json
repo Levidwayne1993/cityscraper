@@ -1,9 +1,0 @@
-{
-	"id": "r6hTXbN4PD3thar",
-	"json": "{\"id\":\"r6hTXbN4PD3thar\",\"url\":\"https://www.estatesales.net/Alabama?page=2\",\"uniqueKey\":\"https://www.estatesales.net/Alabama?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Alabama\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040329866,
-	"retryCount": 0,
-	"uniqueKey": "https://www.estatesales.net/Alabama?page=2",
-	"url": "https://www.estatesales.net/Alabama?page=2"
-}

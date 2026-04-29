@@ -1,0 +1,9 @@
+{
+	"id": "ICpEtLTCLlLrXGW",
+	"json": "{\"id\":\"ICpEtLTCLlLrXGW\",\"url\":\"https://sacramento.craigslist.org/com/d/sacramento-large-yard-sale/7925240742.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/com/d/sacramento-large-yard-sale/7925240742.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/com/d/sacramento-large-yard-sale/7925240742.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:53.297Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/com/d/sacramento-large-yard-sale/7925240742.html",
+	"url": "https://sacramento.craigslist.org/com/d/sacramento-large-yard-sale/7925240742.html"
+}

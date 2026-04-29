@@ -1,0 +1,9 @@
+{
+	"id": "r3xqbysnoLeuj8o",
+	"json": "{\"id\":\"r3xqbysnoLeuj8o\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-rummage-sale-sat-12-only/7929307342.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-rummage-sale-sat-12-only/7929307342.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/mesa-rummage-sale-sat-12-only/7929307342.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:41:47.200Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/mesa-rummage-sale-sat-12-only/7929307342.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/mesa-rummage-sale-sat-12-only/7929307342.html"
+}

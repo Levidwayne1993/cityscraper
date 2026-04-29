@@ -1,0 +1,9 @@
+{
+	"id": "k0b5Td1fvgTZTOa",
+	"json": "{\"id\":\"k0b5Td1fvgTZTOa\",\"url\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:00:15.042Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://florence.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

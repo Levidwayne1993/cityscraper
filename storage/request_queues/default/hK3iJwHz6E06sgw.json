@@ -1,0 +1,9 @@
+{
+	"id": "hK3iJwHz6E06sgw",
+	"json": "{\"id\":\"hK3iJwHz6E06sgw\",\"url\":\"https://martinsburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://martinsburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528133,
+	"retryCount": 0,
+	"uniqueKey": "https://martinsburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://martinsburg.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

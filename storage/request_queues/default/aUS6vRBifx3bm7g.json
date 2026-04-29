@@ -1,0 +1,9 @@
+{
+	"id": "aUS6vRBifx3bm7g",
+	"json": "{\"id\":\"aUS6vRBifx3bm7g\",\"url\":\"https://lewiston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://lewiston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ID\"}}",
+	"method": "GET",
+	"orderNo": 1777186518020,
+	"retryCount": 0,
+	"uniqueKey": "https://lewiston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://lewiston.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

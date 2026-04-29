@@ -1,6 +1,6 @@
 {
 	"id": "psLOqjGjeVyymu7",
-	"json": "{\"id\":\"psLOqjGjeVyymu7\",\"url\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-24T14:19:15.234Z\"}",
+	"json": "{\"id\":\"psLOqjGjeVyymu7\",\"url\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://auburn.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:56:09.195Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

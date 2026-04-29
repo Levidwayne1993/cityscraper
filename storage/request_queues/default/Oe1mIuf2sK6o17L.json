@@ -1,0 +1,9 @@
+{
+	"id": "Oe1mIuf2sK6o17L",
+	"json": "{\"id\":\"Oe1mIuf2sK6o17L\",\"url\":\"https://orangecounty.craigslist.org/gms/d/tustin-2-off-saturday-cowan-hts-estate/7926135616.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/tustin-2-off-saturday-cowan-hts-estate/7926135616.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/tustin-2-off-saturday-cowan-hts-estate/7926135616.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:13:14.987Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/tustin-2-off-saturday-cowan-hts-estate/7926135616.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/tustin-2-off-saturday-cowan-hts-estate/7926135616.html"
+}

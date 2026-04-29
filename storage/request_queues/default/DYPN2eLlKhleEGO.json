@@ -1,0 +1,9 @@
+{
+	"id": "DYPN2eLlKhleEGO",
+	"json": "{\"id\":\"DYPN2eLlKhleEGO\",\"url\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-vintage-furniture-moving/7922761388.html\",\"loadedUrl\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-vintage-furniture-moving/7922761388.html\",\"uniqueKey\":\"https://santabarbara.craigslist.org/gms/d/santa-barbara-vintage-furniture-moving/7922761388.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:54:06.327Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/gms/d/santa-barbara-vintage-furniture-moving/7922761388.html",
+	"url": "https://santabarbara.craigslist.org/gms/d/santa-barbara-vintage-furniture-moving/7922761388.html"
+}

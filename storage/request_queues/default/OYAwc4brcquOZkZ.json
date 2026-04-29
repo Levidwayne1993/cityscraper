@@ -1,0 +1,9 @@
+{
+	"id": "OYAwc4brcquOZkZ",
+	"json": "{\"id\":\"OYAwc4brcquOZkZ\",\"url\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-sale-sale-prom/7930152304.html\",\"loadedUrl\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-sale-sale-prom/7930152304.html\",\"uniqueKey\":\"https://stockton.craigslist.org/com/d/stockton-garage-sale-sale-sale-prom/7930152304.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:48.883Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/com/d/stockton-garage-sale-sale-sale-prom/7930152304.html",
+	"url": "https://stockton.craigslist.org/com/d/stockton-garage-sale-sale-sale-prom/7930152304.html"
+}

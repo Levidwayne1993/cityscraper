@@ -1,0 +1,9 @@
+{
+	"id": "T8fLokd1bsRIg1T",
+	"json": "{\"id\":\"T8fLokd1bsRIg1T\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-bar-q-smoker-grill/7930078838.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-bar-q-smoker-grill/7930078838.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-bar-q-smoker-grill/7930078838.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:05:37.666Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-bar-q-smoker-grill/7930078838.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-bar-q-smoker-grill/7930078838.html"
+}

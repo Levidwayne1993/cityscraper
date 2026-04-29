@@ -1,0 +1,9 @@
+{
+	"id": "qp4V12JEIk1pxh0",
+	"json": "{\"id\":\"qp4V12JEIk1pxh0\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale/7929742906.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale/7929742906.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale/7929742906.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:46:36.011Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale/7929742906.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-valley-yard-sale/7929742906.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TgJOhgozanXUli8",
+	"json": "{\"id\":\"TgJOhgozanXUli8\",\"url\":\"https://www.estatesales.net/estate-sales/Oregon?page=5\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/Oregon?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Oregon\"}}",
+	"method": "GET",
+	"orderNo": 1777186528754,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/Oregon?page=5",
+	"url": "https://www.estatesales.net/estate-sales/Oregon?page=5"
+}

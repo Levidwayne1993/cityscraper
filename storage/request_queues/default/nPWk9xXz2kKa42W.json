@@ -1,0 +1,9 @@
+{
+	"id": "nPWk9xXz2kKa42W",
+	"json": "{\"id\":\"nPWk9xXz2kKa42W\",\"url\":\"https://chico.craigslist.org/hsh/d/chico-moving-sale/7922453531.html\",\"loadedUrl\":\"https://chico.craigslist.org/hsh/d/chico-moving-sale/7922453531.html\",\"uniqueKey\":\"https://chico.craigslist.org/hsh/d/chico-moving-sale/7922453531.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:24.624Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/hsh/d/chico-moving-sale/7922453531.html",
+	"url": "https://chico.craigslist.org/hsh/d/chico-moving-sale/7922453531.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IY0aScG53yuzA5e",
+	"json": "{\"id\":\"IY0aScG53yuzA5e\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/sandy-spring-enormous-yard-sale-raffle/7924852114.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/sandy-spring-enormous-yard-sale-raffle/7924852114.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/sandy-spring-enormous-yard-sale-raffle/7924852114.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:24:47.933Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/sandy-spring-enormous-yard-sale-raffle/7924852114.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/sandy-spring-enormous-yard-sale-raffle/7924852114.html"
+}

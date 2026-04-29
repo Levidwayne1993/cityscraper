@@ -1,0 +1,9 @@
+{
+	"id": "DGdMrYtcyUldvIa",
+	"json": "{\"id\":\"DGdMrYtcyUldvIa\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-dental-lab/7926753977.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-dental-lab/7926753977.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-dental-lab/7926753977.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:51:05.784Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-dental-lab/7926753977.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-garage-sale-dental-lab/7926753977.html"
+}

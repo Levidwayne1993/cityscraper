@@ -1,0 +1,9 @@
+{
+	"id": "RBOvpbg3kktLzjv",
+	"json": "{\"id\":\"RBOvpbg3kktLzjv\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-final-moving-sale-everything/7929986845.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-final-moving-sale-everything/7929986845.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-final-moving-sale-everything/7929986845.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:19.947Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-final-moving-sale-everything/7929986845.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-final-moving-sale-everything/7929986845.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "FjG8XO0Oqtew13i",
+	"json": "{\"id\":\"FjG8XO0Oqtew13i\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-1393-perth/7929782617.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-1393-perth/7929782617.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-1393-perth/7929782617.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:00.941Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-1393-perth/7929782617.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-garage-sale-1393-perth/7929782617.html"
+}

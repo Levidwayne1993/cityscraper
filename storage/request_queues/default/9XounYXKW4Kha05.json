@@ -1,0 +1,9 @@
+{
+	"id": "9XounYXKW4Kha05",
+	"json": "{\"id\":\"9XounYXKW4Kha05\",\"url\":\"https://www.estatesales.net/estate-sales/Minnesota?page=2\",\"uniqueKey\":\"https://www.estatesales.net/estate-sales/Minnesota?page=2\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Minnesota\"}}",
+	"method": "GET",
+	"orderNo": 1777186528673,
+	"retryCount": 0,
+	"uniqueKey": "https://www.estatesales.net/estate-sales/Minnesota?page=2",
+	"url": "https://www.estatesales.net/estate-sales/Minnesota?page=2"
+}

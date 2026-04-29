@@ -1,0 +1,9 @@
+{
+	"id": "e0kJiBiMXwYcgoT",
+	"json": "{\"id\":\"e0kJiBiMXwYcgoT\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-yard-sale/7923587108.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-yard-sale/7923587108.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/fairfield-yard-sale/7923587108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:32.956Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/fairfield-yard-sale/7923587108.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/fairfield-yard-sale/7923587108.html"
+}

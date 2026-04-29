@@ -1,0 +1,9 @@
+{
+	"id": "sdEvOHLBx0o1f2N",
+	"json": "{\"id\":\"sdEvOHLBx0o1f2N\",\"url\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-yard-sale-in-mckinleyville/7924114124.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-yard-sale-in-mckinleyville/7924114124.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/mckinleyville-yard-sale-in-mckinleyville/7924114124.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:56:57.230Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/mckinleyville-yard-sale-in-mckinleyville/7924114124.html",
+	"url": "https://humboldt.craigslist.org/gms/d/mckinleyville-yard-sale-in-mckinleyville/7924114124.html"
+}

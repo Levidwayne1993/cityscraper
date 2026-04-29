@@ -1,0 +1,9 @@
+{
+	"id": "NvZ3EH89bKY7AHR",
+	"json": "{\"id\":\"NvZ3EH89bKY7AHR\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-estate-sale/7925415673.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-estate-sale/7925415673.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/san-mateo-estate-sale/7925415673.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:30:31.377Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-estate-sale/7925415673.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/san-mateo-estate-sale/7925415673.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "1mNn8jES9HCfnNt",
+	"json": "{\"id\":\"1mNn8jES9HCfnNt\",\"url\":\"https://orangecounty.craigslist.org/gms/d/long-beach-long-beach-yard-sale-april/7929991633.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/long-beach-long-beach-yard-sale-april/7929991633.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/long-beach-long-beach-yard-sale-april/7929991633.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:14:53.150Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/long-beach-long-beach-yard-sale-april/7929991633.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/long-beach-long-beach-yard-sale-april/7929991633.html"
+}

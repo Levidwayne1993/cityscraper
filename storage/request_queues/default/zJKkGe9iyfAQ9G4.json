@@ -1,0 +1,9 @@
+{
+	"id": "zJKkGe9iyfAQ9G4",
+	"json": "{\"id\":\"zJKkGe9iyfAQ9G4\",\"url\":\"https://swmi.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://swmi.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520910,
+	"retryCount": 0,
+	"uniqueKey": "https://swmi.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://swmi.craigslist.org/search/ccc?query=garage+sale"
+}

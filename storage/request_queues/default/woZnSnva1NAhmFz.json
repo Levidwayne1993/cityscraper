@@ -1,0 +1,9 @@
+{
+	"id": "woZnSnva1NAhmFz",
+	"json": "{\"id\":\"woZnSnva1NAhmFz\",\"url\":\"https://inlandempire.craigslist.org/clt/d/ontario-moving-sale/7928138011.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/clt/d/ontario-moving-sale/7928138011.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/clt/d/ontario-moving-sale/7928138011.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:15:08.934Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/clt/d/ontario-moving-sale/7928138011.html",
+	"url": "https://inlandempire.craigslist.org/clt/d/ontario-moving-sale/7928138011.html"
+}

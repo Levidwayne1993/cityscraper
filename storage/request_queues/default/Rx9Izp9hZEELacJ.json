@@ -1,0 +1,9 @@
+{
+	"id": "Rx9Izp9hZEELacJ",
+	"json": "{\"id\":\"Rx9Izp9hZEELacJ\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-north-park/7928505216.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-north-park/7928505216.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-north-park/7928505216.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:51.656Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-north-park/7928505216.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-moving-sale-north-park/7928505216.html"
+}

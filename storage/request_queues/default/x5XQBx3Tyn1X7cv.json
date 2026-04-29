@@ -1,0 +1,9 @@
+{
+	"id": "x5XQBx3Tyn1X7cv",
+	"json": "{\"id\":\"x5XQBx3Tyn1X7cv\",\"url\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-flea-market/7922337986.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-flea-market/7922337986.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/fort-lauderdale-flea-market/7922337986.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:44.711Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-flea-market/7922337986.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/fort-lauderdale-flea-market/7922337986.html"
+}

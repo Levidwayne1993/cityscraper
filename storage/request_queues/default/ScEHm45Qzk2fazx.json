@@ -1,0 +1,9 @@
+{
+	"id": "ScEHm45Qzk2fazx",
+	"json": "{\"id\":\"ScEHm45Qzk2fazx\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-yard-sale/7930029061.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-yard-sale/7930029061.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-yard-sale/7930029061.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:04:03.494Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-yard-sale/7930029061.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-yard-sale/7930029061.html"
+}

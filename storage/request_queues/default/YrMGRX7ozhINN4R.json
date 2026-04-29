@@ -1,0 +1,9 @@
+{
+	"id": "YrMGRX7ozhINN4R",
+	"json": "{\"id\":\"YrMGRX7ozhINN4R\",\"url\":\"https://losangeles.craigslist.org/lac/hsh/d/los-angeles-moving-sale-ikea-bookcase/7930206980.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/hsh/d/los-angeles-moving-sale-ikea-bookcase/7930206980.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/hsh/d/los-angeles-moving-sale-ikea-bookcase/7930206980.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:46:43.881Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/hsh/d/los-angeles-moving-sale-ikea-bookcase/7930206980.html",
+	"url": "https://losangeles.craigslist.org/lac/hsh/d/los-angeles-moving-sale-ikea-bookcase/7930206980.html"
+}

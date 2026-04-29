@@ -1,0 +1,9 @@
+{
+	"id": "TiVY1hFdZUX7Ptg",
+	"json": "{\"id\":\"TiVY1hFdZUX7Ptg\",\"url\":\"https://sandiego.craigslist.org/ssd/hsd/d/chula-vista-moving-sale/7929295239.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/hsd/d/chula-vista-moving-sale/7929295239.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/hsd/d/chula-vista-moving-sale/7929295239.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:33.783Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/hsd/d/chula-vista-moving-sale/7929295239.html",
+	"url": "https://sandiego.craigslist.org/ssd/hsd/d/chula-vista-moving-sale/7929295239.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "b93eUvHoKOddKVX",
+	"json": "{\"id\":\"b93eUvHoKOddKVX\",\"url\":\"https://visalia.craigslist.org/gms/d/ivanhoe-yard-sale/7928455389.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/ivanhoe-yard-sale/7928455389.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/ivanhoe-yard-sale/7928455389.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:20:52.945Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/ivanhoe-yard-sale/7928455389.html",
+	"url": "https://visalia.craigslist.org/gms/d/ivanhoe-yard-sale/7928455389.html"
+}

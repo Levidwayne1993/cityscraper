@@ -1,0 +1,9 @@
+{
+	"id": "78bj2Vu80hUIr6D",
+	"json": "{\"id\":\"78bj2Vu80hUIr6D\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Milwaukee-WI.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Milwaukee-WI.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WI\",\"yssSlug\":\"Milwaukee-WI\"}}",
+	"method": "GET",
+	"orderNo": 1777186533131,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Milwaukee-WI.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Milwaukee-WI.html"
+}

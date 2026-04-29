@@ -1,0 +1,9 @@
+{
+	"id": "awItV283K2qDxV1",
+	"json": "{\"id\":\"awItV283K2qDxV1\",\"url\":\"https://orlando.craigslist.org/gms/d/tavares-yard-sale-saturday-april-4th/7923258837.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/tavares-yard-sale-saturday-april-4th/7923258837.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/tavares-yard-sale-saturday-april-4th/7923258837.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:54.126Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/tavares-yard-sale-saturday-april-4th/7923258837.html",
+	"url": "https://orlando.craigslist.org/gms/d/tavares-yard-sale-saturday-april-4th/7923258837.html"
+}

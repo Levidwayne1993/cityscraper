@@ -1,0 +1,9 @@
+{
+	"id": "qUQRL9DN20KcSfY",
+	"json": "{\"id\":\"qUQRL9DN20KcSfY\",\"url\":\"https://columbia.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://columbia.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525856,
+	"retryCount": 0,
+	"uniqueKey": "https://columbia.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://columbia.craigslist.org/search/ccc?query=garage+sale"
+}

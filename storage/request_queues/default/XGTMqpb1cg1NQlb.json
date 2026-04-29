@@ -1,0 +1,9 @@
+{
+	"id": "XGTMqpb1cg1NQlb",
+	"json": "{\"id\":\"XGTMqpb1cg1NQlb\",\"url\":\"https://slo.craigslist.org/gms/d/paso-robles-garage-sale/7928261070.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/paso-robles-garage-sale/7928261070.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/paso-robles-garage-sale/7928261070.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:35.713Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/paso-robles-garage-sale/7928261070.html",
+	"url": "https://slo.craigslist.org/gms/d/paso-robles-garage-sale/7928261070.html"
+}

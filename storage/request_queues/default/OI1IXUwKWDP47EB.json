@@ -1,0 +1,9 @@
+{
+	"id": "OI1IXUwKWDP47EB",
+	"json": "{\"id\":\"OI1IXUwKWDP47EB\",\"url\":\"https://cosprings.craigslist.org/tag/d/colorado-springs-moving-sale-all-toys/7923083939.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/tag/d/colorado-springs-moving-sale-all-toys/7923083939.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/tag/d/colorado-springs-moving-sale-all-toys/7923083939.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:06.895Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/tag/d/colorado-springs-moving-sale-all-toys/7923083939.html",
+	"url": "https://cosprings.craigslist.org/tag/d/colorado-springs-moving-sale-all-toys/7923083939.html"
+}

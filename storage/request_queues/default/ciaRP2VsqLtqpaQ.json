@@ -1,0 +1,9 @@
+{
+	"id": "ciaRP2VsqLtqpaQ",
+	"json": "{\"id\":\"ciaRP2VsqLtqpaQ\",\"url\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale-sunday-and-monday/7928754840.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale-sunday-and-monday/7928754840.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale-sunday-and-monday/7928754840.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:01:12.378Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale-sunday-and-monday/7928754840.html",
+	"url": "https://sandiego.craigslist.org/ssd/gms/d/chula-vista-yard-sale-sunday-and-monday/7928754840.html"
+}

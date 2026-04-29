@@ -1,0 +1,9 @@
+{
+	"id": "LnEVC3waZ9Nsghh",
+	"json": "{\"id\":\"LnEVC3waZ9Nsghh\",\"url\":\"https://juneau.craigslist.org/art/d/auke-bay-estate-sale-of-stained-glass/7918292749.html\",\"loadedUrl\":\"https://juneau.craigslist.org/art/d/auke-bay-estate-sale-of-stained-glass/7918292749.html\",\"uniqueKey\":\"https://juneau.craigslist.org/art/d/auke-bay-estate-sale-of-stained-glass/7918292749.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:15:58.231Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://juneau.craigslist.org/art/d/auke-bay-estate-sale-of-stained-glass/7918292749.html",
+	"url": "https://juneau.craigslist.org/art/d/auke-bay-estate-sale-of-stained-glass/7918292749.html"
+}

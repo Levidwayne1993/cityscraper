@@ -1,0 +1,9 @@
+{
+	"id": "Fxn4O2e5h3uvihI",
+	"json": "{\"id\":\"Fxn4O2e5h3uvihI\",\"url\":\"https://newhaven.craigslist.org/gms/d/seymour-super-huge-estate-sale/7926873513.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/seymour-super-huge-estate-sale/7926873513.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/seymour-super-huge-estate-sale/7926873513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:51.266Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/seymour-super-huge-estate-sale/7926873513.html",
+	"url": "https://newhaven.craigslist.org/gms/d/seymour-super-huge-estate-sale/7926873513.html"
+}

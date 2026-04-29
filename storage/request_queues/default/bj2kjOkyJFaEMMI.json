@@ -1,0 +1,9 @@
+{
+	"id": "bj2kjOkyJFaEMMI",
+	"json": "{\"id\":\"bj2kjOkyJFaEMMI\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-huge-moving-sale-everything/7930004104.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-huge-moving-sale-everything/7930004104.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/union-city-huge-moving-sale-everything/7930004104.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:40:45.222Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/union-city-huge-moving-sale-everything/7930004104.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/union-city-huge-moving-sale-everything/7930004104.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "2eEXEpso3kfFWiD",
+	"json": "{\"id\":\"2eEXEpso3kfFWiD\",\"url\":\"https://phoenix.craigslist.org/wvl/clt/d/avondale-moving-sale-20-off-collector/7926249827.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/clt/d/avondale-moving-sale-20-off-collector/7926249827.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/clt/d/avondale-moving-sale-20-off-collector/7926249827.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:40:56.289Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/clt/d/avondale-moving-sale-20-off-collector/7926249827.html",
+	"url": "https://phoenix.craigslist.org/wvl/clt/d/avondale-moving-sale-20-off-collector/7926249827.html"
+}

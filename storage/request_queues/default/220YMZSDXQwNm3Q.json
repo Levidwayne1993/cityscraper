@@ -1,0 +1,9 @@
+{
+	"id": "220YMZSDXQwNm3Q",
+	"json": "{\"id\":\"220YMZSDXQwNm3Q\",\"url\":\"https://fortlauderdale.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://fortlauderdale.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://fortlauderdale.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:10:56.057Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortlauderdale.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://fortlauderdale.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

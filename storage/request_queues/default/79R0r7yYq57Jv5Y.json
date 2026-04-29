@@ -1,0 +1,9 @@
+{
+	"id": "79R0r7yYq57Jv5Y",
+	"json": "{\"id\":\"79R0r7yYq57Jv5Y\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-estate-yard-sale-east-orlando/7926969865.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-estate-yard-sale-east-orlando/7926969865.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-estate-yard-sale-east-orlando/7926969865.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:25:55.942Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-estate-yard-sale-east-orlando/7926969865.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-estate-yard-sale-east-orlando/7926969865.html"
+}

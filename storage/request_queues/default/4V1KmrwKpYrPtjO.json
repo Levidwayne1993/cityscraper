@@ -1,0 +1,9 @@
+{
+	"id": "4V1KmrwKpYrPtjO",
+	"json": "{\"id\":\"4V1KmrwKpYrPtjO\",\"url\":\"https://muncie.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://muncie.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518338,
+	"retryCount": 0,
+	"uniqueKey": "https://muncie.craigslist.org/search/gms?s=480",
+	"url": "https://muncie.craigslist.org/search/gms?s=480"
+}

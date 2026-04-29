@@ -1,0 +1,9 @@
+{
+	"id": "jeP2H2Hctu5723R",
+	"json": "{\"id\":\"jeP2H2Hctu5723R\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-yard-sale-postponed-to/7929799745.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-yard-sale-postponed-to/7929799745.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-yard-sale-postponed-to/7929799745.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:20:52.201Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-yard-sale-postponed-to/7929799745.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-yard-sale-postponed-to/7929799745.html"
+}

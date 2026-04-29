@@ -1,0 +1,9 @@
+{
+	"id": "iQKhEKTjh4417gO",
+	"json": "{\"id\":\"iQKhEKTjh4417gO\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-yard-sale-sunday-thru-wednesday/7924267203.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-yard-sale-sunday-thru-wednesday/7924267203.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-yard-sale-sunday-thru-wednesday/7924267203.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:58:54.528Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-yard-sale-sunday-thru-wednesday/7924267203.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-yard-sale-sunday-thru-wednesday/7924267203.html"
+}

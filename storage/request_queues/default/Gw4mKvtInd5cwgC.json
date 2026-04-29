@@ -1,0 +1,9 @@
+{
+	"id": "Gw4mKvtInd5cwgC",
+	"json": "{\"id\":\"Gw4mKvtInd5cwgC\",\"url\":\"https://cosprings.craigslist.org/com/d/colorado-springs-yard-sale/7924820327.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/com/d/colorado-springs-yard-sale/7924820327.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/com/d/colorado-springs-yard-sale/7924820327.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:35:15.785Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/com/d/colorado-springs-yard-sale/7924820327.html",
+	"url": "https://cosprings.craigslist.org/com/d/colorado-springs-yard-sale/7924820327.html"
+}

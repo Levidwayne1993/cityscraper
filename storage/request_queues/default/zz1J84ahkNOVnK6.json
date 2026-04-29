@@ -1,0 +1,9 @@
+{
+	"id": "zz1J84ahkNOVnK6",
+	"json": "{\"id\":\"zz1J84ahkNOVnK6\",\"url\":\"https://seattle.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://seattle.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528019,
+	"retryCount": 0,
+	"uniqueKey": "https://seattle.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://seattle.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

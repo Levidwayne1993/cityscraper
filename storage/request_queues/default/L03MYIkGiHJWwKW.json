@@ -1,0 +1,9 @@
+{
+	"id": "L03MYIkGiHJWwKW",
+	"json": "{\"id\":\"L03MYIkGiHJWwKW\",\"url\":\"https://yubasutter.craigslist.org/gms/d/live-oak-garage-sale-in-sutter-6961/7929889329.html\",\"loadedUrl\":\"https://yubasutter.craigslist.org/gms/d/live-oak-garage-sale-in-sutter-6961/7929889329.html\",\"uniqueKey\":\"https://yubasutter.craigslist.org/gms/d/live-oak-garage-sale-in-sutter-6961/7929889329.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:25:43.707Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yubasutter.craigslist.org/gms/d/live-oak-garage-sale-in-sutter-6961/7929889329.html",
+	"url": "https://yubasutter.craigslist.org/gms/d/live-oak-garage-sale-in-sutter-6961/7929889329.html"
+}

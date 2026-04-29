@@ -1,0 +1,9 @@
+{
+	"id": "6ZqGHm2rreLCbAs",
+	"json": "{\"id\":\"6ZqGHm2rreLCbAs\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-liquidation-sale-680/7923159528.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-liquidation-sale-680/7923159528.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-estate-liquidation-sale-680/7923159528.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:31.002Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-estate-liquidation-sale-680/7923159528.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-estate-liquidation-sale-680/7923159528.html"
+}

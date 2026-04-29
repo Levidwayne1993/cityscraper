@@ -1,0 +1,9 @@
+{
+	"id": "9JxcKDvRF4gf49F",
+	"json": "{\"id\":\"9JxcKDvRF4gf49F\",\"url\":\"https://daytona.craigslist.org/gms/d/daytona-beach-neighborhood-yard-sale/7928396738.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/daytona-beach-neighborhood-yard-sale/7928396738.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/daytona-beach-neighborhood-yard-sale/7928396738.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:54:39.238Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/daytona-beach-neighborhood-yard-sale/7928396738.html",
+	"url": "https://daytona.craigslist.org/gms/d/daytona-beach-neighborhood-yard-sale/7928396738.html"
+}

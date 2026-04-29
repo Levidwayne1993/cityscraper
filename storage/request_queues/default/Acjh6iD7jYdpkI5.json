@@ -1,0 +1,9 @@
+{
+	"id": "Acjh6iD7jYdpkI5",
+	"json": "{\"id\":\"Acjh6iD7jYdpkI5\",\"url\":\"https://sacramento.craigslist.org/gms/d/roseville-neighborhood-garage-sale/7929877152.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/roseville-neighborhood-garage-sale/7929877152.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/roseville-neighborhood-garage-sale/7929877152.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:54:01.211Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/roseville-neighborhood-garage-sale/7929877152.html",
+	"url": "https://sacramento.craigslist.org/gms/d/roseville-neighborhood-garage-sale/7929877152.html"
+}

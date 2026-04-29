@@ -1,0 +1,9 @@
+{
+	"id": "BjXon0Tgf5hrgPh",
+	"json": "{\"id\":\"BjXon0Tgf5hrgPh\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-multi-family-moving-sale/7924075978.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-multi-family-moving-sale/7924075978.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-multi-family-moving-sale/7924075978.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:57:27.219Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-multi-family-moving-sale/7924075978.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-multi-family-moving-sale/7924075978.html"
+}

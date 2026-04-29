@@ -1,0 +1,9 @@
+{
+	"id": "pgv4A9cPiyui8S9",
+	"json": "{\"id\":\"pgv4A9cPiyui8S9\",\"url\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-massive-antique-estate/7929806057.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-massive-antique-estate/7929806057.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/huntington-beach-massive-antique-estate/7929806057.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:23:55.762Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/huntington-beach-massive-antique-estate/7929806057.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/huntington-beach-massive-antique-estate/7929806057.html"
+}

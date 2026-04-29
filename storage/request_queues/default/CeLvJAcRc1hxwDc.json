@@ -1,0 +1,9 @@
+{
+	"id": "CeLvJAcRc1hxwDc",
+	"json": "{\"id\":\"CeLvJAcRc1hxwDc\",\"url\":\"https://inlandempire.craigslist.org/gms/d/san-jacinto-yard-sale/7929473319.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/san-jacinto-yard-sale/7929473319.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/san-jacinto-yard-sale/7929473319.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:03:39.882Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/san-jacinto-yard-sale/7929473319.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/san-jacinto-yard-sale/7929473319.html"
+}

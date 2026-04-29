@@ -1,0 +1,9 @@
+{
+	"id": "USUnu2EfgfqHjId",
+	"json": "{\"id\":\"USUnu2EfgfqHjId\",\"url\":\"https://sfbay.craigslist.org/pen/jwl/d/daly-city-necklaces-stones-and-costume/7928864887.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/jwl/d/daly-city-necklaces-stones-and-costume/7928864887.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/jwl/d/daly-city-necklaces-stones-and-costume/7928864887.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:34:34.723Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/jwl/d/daly-city-necklaces-stones-and-costume/7928864887.html",
+	"url": "https://sfbay.craigslist.org/pen/jwl/d/daly-city-necklaces-stones-and-costume/7928864887.html"
+}

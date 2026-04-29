@@ -1,0 +1,9 @@
+{
+	"id": "bEOCOOohaAzQqjf",
+	"json": "{\"id\":\"bEOCOOohaAzQqjf\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/KS/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/KS\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186530026,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/KS",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/KS/"
+}

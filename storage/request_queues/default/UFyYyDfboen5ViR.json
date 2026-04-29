@@ -1,0 +1,9 @@
+{
+	"id": "UFyYyDfboen5ViR",
+	"json": "{\"id\":\"UFyYyDfboen5ViR\",\"url\":\"https://prescott.craigslist.org/gms/d/prescott-huge-garage-sale/7921104748.html\",\"loadedUrl\":\"https://prescott.craigslist.org/gms/d/prescott-huge-garage-sale/7921104748.html\",\"uniqueKey\":\"https://prescott.craigslist.org/gms/d/prescott-huge-garage-sale/7921104748.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:47:01.801Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://prescott.craigslist.org/gms/d/prescott-huge-garage-sale/7921104748.html",
+	"url": "https://prescott.craigslist.org/gms/d/prescott-huge-garage-sale/7921104748.html"
+}

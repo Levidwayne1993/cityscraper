@@ -1,0 +1,9 @@
+{
+	"id": "s4TLZV5A7a9lgeX",
+	"json": "{\"id\":\"s4TLZV5A7a9lgeX\",\"url\":\"https://monterey.craigslist.org/gms/d/carmel-carmel-valley-estate-sale-this/7924974496.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/carmel-carmel-valley-estate-sale-this/7924974496.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/carmel-carmel-valley-estate-sale-this/7924974496.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:07:24.171Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/carmel-carmel-valley-estate-sale-this/7924974496.html",
+	"url": "https://monterey.craigslist.org/gms/d/carmel-carmel-valley-estate-sale-this/7924974496.html"
+}

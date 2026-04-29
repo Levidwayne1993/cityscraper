@@ -1,0 +1,9 @@
+{
+	"id": "G7MrCio9958nZNz",
+	"json": "{\"id\":\"G7MrCio9958nZNz\",\"url\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-50-off-sunday-at-the/7929572114.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-50-off-sunday-at-the/7929572114.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/el-dorado-hills-50-off-sunday-at-the/7929572114.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:42:43.431Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/el-dorado-hills-50-off-sunday-at-the/7929572114.html",
+	"url": "https://sacramento.craigslist.org/gms/d/el-dorado-hills-50-off-sunday-at-the/7929572114.html"
+}

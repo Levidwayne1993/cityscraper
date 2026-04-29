@@ -1,0 +1,9 @@
+{
+	"id": "R7XUWyzZGeWHwBo",
+	"json": "{\"id\":\"R7XUWyzZGeWHwBo\",\"url\":\"https://dayton.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://dayton.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523808,
+	"retryCount": 0,
+	"uniqueKey": "https://dayton.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://dayton.craigslist.org/search/ccc?query=garage+sale"
+}

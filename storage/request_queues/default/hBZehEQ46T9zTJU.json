@@ -1,0 +1,9 @@
+{
+	"id": "hBZehEQ46T9zTJU",
+	"json": "{\"id\":\"hBZehEQ46T9zTJU\",\"url\":\"https://sacramento.craigslist.org/com/d/elk-grove-lakeside-community-garage/7929936466.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/com/d/elk-grove-lakeside-community-garage/7929936466.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/com/d/elk-grove-lakeside-community-garage/7929936466.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:55:19.084Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/com/d/elk-grove-lakeside-community-garage/7929936466.html",
+	"url": "https://sacramento.craigslist.org/com/d/elk-grove-lakeside-community-garage/7929936466.html"
+}

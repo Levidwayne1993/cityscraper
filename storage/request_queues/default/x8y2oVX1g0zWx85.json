@@ -1,6 +1,6 @@
 {
 	"id": "x8y2oVX1g0zWx85",
-	"json": "{\"id\":\"x8y2oVX1g0zWx85\",\"url\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"loadedUrl\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"uniqueKey\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"detail\",\"__crawlee\":{\"crawlDepth\":1,\"state\":4}},\"handledAt\":\"2026-04-24T14:18:55.040Z\"}",
+	"json": "{\"id\":\"x8y2oVX1g0zWx85\",\"url\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"loadedUrl\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"uniqueKey\":\"https://auburn.craigslist.org/gms/d/auburn-yard-sale-in-shelton-mill/7928226654.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:55:44.819Z\"}",
 	"method": "GET",
 	"orderNo": null,
 	"retryCount": 0,

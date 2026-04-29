@@ -1,0 +1,9 @@
+{
+	"id": "uahGMHkvloY8l2P",
+	"json": "{\"id\":\"uahGMHkvloY8l2P\",\"url\":\"https://slo.craigslist.org/gms/d/paso-robles-multi-family-garage-sale/7930061729.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/paso-robles-multi-family-garage-sale/7930061729.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/paso-robles-multi-family-garage-sale/7930061729.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:49:57.247Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/paso-robles-multi-family-garage-sale/7930061729.html",
+	"url": "https://slo.craigslist.org/gms/d/paso-robles-multi-family-garage-sale/7930061729.html"
+}

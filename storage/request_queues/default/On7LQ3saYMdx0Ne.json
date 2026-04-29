@@ -1,0 +1,9 @@
+{
+	"id": "On7LQ3saYMdx0Ne",
+	"json": "{\"id\":\"On7LQ3saYMdx0Ne\",\"url\":\"https://flagstaff.craigslist.org/clt/d/sedona-pre-moving-sale/7901718504.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/clt/d/sedona-pre-moving-sale/7901718504.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/clt/d/sedona-pre-moving-sale/7901718504.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:18:36.868Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/clt/d/sedona-pre-moving-sale/7901718504.html",
+	"url": "https://flagstaff.craigslist.org/clt/d/sedona-pre-moving-sale/7901718504.html"
+}

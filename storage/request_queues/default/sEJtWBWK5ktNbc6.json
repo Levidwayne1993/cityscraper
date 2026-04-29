@@ -1,0 +1,9 @@
+{
+	"id": "sEJtWBWK5ktNbc6",
+	"json": "{\"id\":\"sEJtWBWK5ktNbc6\",\"url\":\"https://newhaven.craigslist.org/ele/d/stratford-86-lg-4k-smart-tv-costco/7929768823.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/ele/d/stratford-86-lg-4k-smart-tv-costco/7929768823.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/ele/d/stratford-86-lg-4k-smart-tv-costco/7929768823.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:08.542Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/ele/d/stratford-86-lg-4k-smart-tv-costco/7929768823.html",
+	"url": "https://newhaven.craigslist.org/ele/d/stratford-86-lg-4k-smart-tv-costco/7929768823.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "mOnofk9TuAppgOH",
+	"json": "{\"id\":\"mOnofk9TuAppgOH\",\"url\":\"https://mohave.craigslist.org/gms/d/bullhead-city-yard-sale/7922337742.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/bullhead-city-yard-sale/7922337742.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/bullhead-city-yard-sale/7922337742.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:48.821Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/bullhead-city-yard-sale/7922337742.html",
+	"url": "https://mohave.craigslist.org/gms/d/bullhead-city-yard-sale/7922337742.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nBjgVTmHHzXYC8o",
+	"json": "{\"id\":\"nBjgVTmHHzXYC8o\",\"url\":\"https://sfbay.craigslist.org/sby/fuo/d/sunnyvale-vazio-26-tv-moving-sale/7930127517.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/fuo/d/sunnyvale-vazio-26-tv-moving-sale/7930127517.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/fuo/d/sunnyvale-vazio-26-tv-moving-sale/7930127517.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:39:35.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/fuo/d/sunnyvale-vazio-26-tv-moving-sale/7930127517.html",
+	"url": "https://sfbay.craigslist.org/sby/fuo/d/sunnyvale-vazio-26-tv-moving-sale/7930127517.html"
+}

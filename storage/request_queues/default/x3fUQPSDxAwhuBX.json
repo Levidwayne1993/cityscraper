@@ -1,0 +1,9 @@
+{
+	"id": "x3fUQPSDxAwhuBX",
+	"json": "{\"id\":\"x3fUQPSDxAwhuBX\",\"url\":\"https://tallahassee.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://tallahassee.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\"}}",
+	"method": "GET",
+	"orderNo": 1777186517288,
+	"retryCount": 0,
+	"uniqueKey": "https://tallahassee.craigslist.org/search/gms?s=360",
+	"url": "https://tallahassee.craigslist.org/search/gms?s=360"
+}

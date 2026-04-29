@@ -1,0 +1,9 @@
+{
+	"id": "OzjndbCM13aUdCC",
+	"json": "{\"id\":\"OzjndbCM13aUdCC\",\"url\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-sat-sun/7929968290.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-sat-sun/7929968290.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/eureka-yard-sale-sat-sun/7929968290.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:55:55.337Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/eureka-yard-sale-sat-sun/7929968290.html",
+	"url": "https://humboldt.craigslist.org/gms/d/eureka-yard-sale-sat-sun/7929968290.html"
+}

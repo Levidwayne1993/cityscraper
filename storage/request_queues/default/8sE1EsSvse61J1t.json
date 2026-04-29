@@ -1,0 +1,9 @@
+{
+	"id": "8sE1EsSvse61J1t",
+	"json": "{\"id\":\"8sE1EsSvse61J1t\",\"url\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-spring-is-in-the-air/7929554364.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-spring-is-in-the-air/7929554364.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/gms/d/los-angeles-spring-is-in-the-air/7929554364.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:19:10.382Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/gms/d/los-angeles-spring-is-in-the-air/7929554364.html",
+	"url": "https://losangeles.craigslist.org/lac/gms/d/los-angeles-spring-is-in-the-air/7929554364.html"
+}

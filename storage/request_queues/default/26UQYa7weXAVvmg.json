@@ -1,0 +1,9 @@
+{
+	"id": "26UQYa7weXAVvmg",
+	"json": "{\"id\":\"26UQYa7weXAVvmg\",\"url\":\"https://redding.craigslist.org/gms/d/palo-cedro-moving-sale/7929802969.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/palo-cedro-moving-sale/7929802969.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/palo-cedro-moving-sale/7929802969.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:33:51.474Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/palo-cedro-moving-sale/7929802969.html",
+	"url": "https://redding.craigslist.org/gms/d/palo-cedro-moving-sale/7929802969.html"
+}

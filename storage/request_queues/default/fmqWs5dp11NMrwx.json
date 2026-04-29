@@ -1,0 +1,9 @@
+{
+	"id": "fmqWs5dp11NMrwx",
+	"json": "{\"id\":\"fmqWs5dp11NMrwx\",\"url\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-silvertree-lane/7930010965.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-silvertree-lane/7930010965.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/trabuco-canyon-silvertree-lane/7930010965.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:21:37.924Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/trabuco-canyon-silvertree-lane/7930010965.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/trabuco-canyon-silvertree-lane/7930010965.html"
+}

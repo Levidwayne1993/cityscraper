@@ -1,0 +1,9 @@
+{
+	"id": "zhbQj7Df34jWu5r",
+	"json": "{\"id\":\"zhbQj7Df34jWu5r\",\"url\":\"https://abilene.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://abilene.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526096,
+	"retryCount": 0,
+	"uniqueKey": "https://abilene.craigslist.org/search/gms?s=360",
+	"url": "https://abilene.craigslist.org/search/gms?s=360"
+}

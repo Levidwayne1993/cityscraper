@@ -1,0 +1,9 @@
+{
+	"id": "Jasqsb92JLdc5NU",
+	"json": "{\"id\":\"Jasqsb92JLdc5NU\",\"url\":\"https://miami.craigslist.org/pbc/atq/d/boca-raton-bocas-raton-estate-sale/7924066990.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/atq/d/boca-raton-bocas-raton-estate-sale/7924066990.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/atq/d/boca-raton-bocas-raton-estate-sale/7924066990.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:45.347Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/atq/d/boca-raton-bocas-raton-estate-sale/7924066990.html",
+	"url": "https://miami.craigslist.org/pbc/atq/d/boca-raton-bocas-raton-estate-sale/7924066990.html"
+}

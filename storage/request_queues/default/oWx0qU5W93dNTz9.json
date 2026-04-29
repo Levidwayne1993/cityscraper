@@ -1,0 +1,9 @@
+{
+	"id": "oWx0qU5W93dNTz9",
+	"json": "{\"id\":\"oWx0qU5W93dNTz9\",\"url\":\"https://sarasota.craigslist.org/gms/d/palmetto-edgestone-south-at-artisan/7929977363.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/palmetto-edgestone-south-at-artisan/7929977363.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/palmetto-edgestone-south-at-artisan/7929977363.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:53:10.089Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/palmetto-edgestone-south-at-artisan/7929977363.html",
+	"url": "https://sarasota.craigslist.org/gms/d/palmetto-edgestone-south-at-artisan/7929977363.html"
+}

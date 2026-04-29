@@ -1,0 +1,9 @@
+{
+	"id": "3m9M5gS2P5uVLNT",
+	"json": "{\"id\":\"3m9M5gS2P5uVLNT\",\"url\":\"https://klamath.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://klamath.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525247,
+	"retryCount": 0,
+	"uniqueKey": "https://klamath.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://klamath.craigslist.org/search/ccc?query=yard+sale"
+}

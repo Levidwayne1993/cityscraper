@@ -1,0 +1,9 @@
+{
+	"id": "xLumInPd1TT3DQp",
+	"json": "{\"id\":\"xLumInPd1TT3DQp\",\"url\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-moving-sale-estate-sale/7929773432.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-moving-sale-estate-sale/7929773432.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/wst/gms/d/santa-monica-moving-sale-estate-sale/7929773432.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:40:41.881Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/wst/gms/d/santa-monica-moving-sale-estate-sale/7929773432.html",
+	"url": "https://losangeles.craigslist.org/wst/gms/d/santa-monica-moving-sale-estate-sale/7929773432.html"
+}

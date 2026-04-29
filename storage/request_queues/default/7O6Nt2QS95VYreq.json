@@ -1,0 +1,9 @@
+{
+	"id": "7O6Nt2QS95VYreq",
+	"json": "{\"id\":\"7O6Nt2QS95VYreq\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale/7922338840.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale/7922338840.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale/7922338840.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:22:14.686Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale/7922338840.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-yard-sale/7922338840.html"
+}

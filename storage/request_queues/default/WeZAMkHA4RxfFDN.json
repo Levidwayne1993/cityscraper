@@ -1,0 +1,9 @@
+{
+	"id": "WeZAMkHA4RxfFDN",
+	"json": "{\"id\":\"WeZAMkHA4RxfFDN\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-saturday-april/7928486931.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-saturday-april/7928486931.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-saturday-april/7928486931.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:16:00.540Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-saturday-april/7928486931.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-garage-sale-saturday-april/7928486931.html"
+}

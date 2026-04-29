@@ -1,0 +1,9 @@
+{
+	"id": "LlT9p4n493CxFyR",
+	"json": "{\"id\":\"LlT9p4n493CxFyR\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-family-garage-sale-park-prince/7930018595.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-family-garage-sale-park-prince/7930018595.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-family-garage-sale-park-prince/7930018595.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:51.922Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-family-garage-sale-park-prince/7930018595.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-family-garage-sale-park-prince/7930018595.html"
+}

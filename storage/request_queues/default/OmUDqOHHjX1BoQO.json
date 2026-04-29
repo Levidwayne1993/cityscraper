@@ -1,0 +1,9 @@
+{
+	"id": "OmUDqOHHjX1BoQO",
+	"json": "{\"id\":\"OmUDqOHHjX1BoQO\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-gaming-setup-ps-vr-arcade/7927557637.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-gaming-setup-ps-vr-arcade/7927557637.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/berkeley-gaming-setup-ps-vr-arcade/7927557637.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:22:04.987Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/berkeley-gaming-setup-ps-vr-arcade/7927557637.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/berkeley-gaming-setup-ps-vr-arcade/7927557637.html"
+}

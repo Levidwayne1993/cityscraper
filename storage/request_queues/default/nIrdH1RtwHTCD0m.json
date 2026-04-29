@@ -1,0 +1,9 @@
+{
+	"id": "nIrdH1RtwHTCD0m",
+	"json": "{\"id\":\"nIrdH1RtwHTCD0m\",\"url\":\"https://orangecounty.craigslist.org/gms/d/buena-park-buena-park-yard-sale/7921121447.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/buena-park-buena-park-yard-sale/7921121447.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/buena-park-buena-park-yard-sale/7921121447.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:11:25.589Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/buena-park-buena-park-yard-sale/7921121447.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/buena-park-buena-park-yard-sale/7921121447.html"
+}

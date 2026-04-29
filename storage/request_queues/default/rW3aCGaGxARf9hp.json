@@ -1,0 +1,9 @@
+{
+	"id": "rW3aCGaGxARf9hp",
+	"json": "{\"id\":\"rW3aCGaGxARf9hp\",\"url\":\"https://mobile.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://mobile.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://mobile.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:07:06.518Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://mobile.craigslist.org/search/ccc?query=garage+sale"
+}

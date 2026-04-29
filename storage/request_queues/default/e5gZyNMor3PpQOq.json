@@ -1,0 +1,9 @@
+{
+	"id": "e5gZyNMor3PpQOq",
+	"json": "{\"id\":\"e5gZyNMor3PpQOq\",\"url\":\"https://swmi.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://swmi.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520905,
+	"retryCount": 0,
+	"uniqueKey": "https://swmi.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://swmi.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SZflsEosdDp8BGe",
+	"json": "{\"id\":\"SZflsEosdDp8BGe\",\"url\":\"https://lakeland.craigslist.org/gms/d/winter-haven-estate-yard-sale/7921946337.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/winter-haven-estate-yard-sale/7921946337.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/winter-haven-estate-yard-sale/7921946337.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:45:53.804Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/winter-haven-estate-yard-sale/7921946337.html",
+	"url": "https://lakeland.craigslist.org/gms/d/winter-haven-estate-yard-sale/7921946337.html"
+}

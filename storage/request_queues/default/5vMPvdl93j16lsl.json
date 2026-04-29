@@ -1,0 +1,9 @@
+{
+	"id": "5vMPvdl93j16lsl",
+	"json": "{\"id\":\"5vMPvdl93j16lsl\",\"url\":\"https://modesto.craigslist.org/gms/d/turlock-awsome-yard-sale/7921178490.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/turlock-awsome-yard-sale/7921178490.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/turlock-awsome-yard-sale/7921178490.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:53:04.363Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/turlock-awsome-yard-sale/7921178490.html",
+	"url": "https://modesto.craigslist.org/gms/d/turlock-awsome-yard-sale/7921178490.html"
+}

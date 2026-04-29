@@ -1,0 +1,9 @@
+{
+	"id": "f6yPFcggoWTxpvo",
+	"json": "{\"id\":\"f6yPFcggoWTxpvo\",\"url\":\"https://jacksonville.craigslist.org/gms/d/penney-farms-estate-sale/7921379825.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/penney-farms-estate-sale/7921379825.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/penney-farms-estate-sale/7921379825.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:22.340Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/penney-farms-estate-sale/7921379825.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/penney-farms-estate-sale/7921379825.html"
+}

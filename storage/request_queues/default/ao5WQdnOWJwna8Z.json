@@ -1,9 +1,0 @@
-{
-	"id": "ao5WQdnOWJwna8Z",
-	"json": "{\"id\":\"ao5WQdnOWJwna8Z\",\"url\":\"https://www.garagesalefinder.com/sale/New-Mexico\",\"uniqueKey\":\"https://www.garagesalefinder.com/sale/New-Mexico\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"New Mexico\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330321,
-	"retryCount": 0,
-	"uniqueKey": "https://www.garagesalefinder.com/sale/New-Mexico",
-	"url": "https://www.garagesalefinder.com/sale/New-Mexico"
-}

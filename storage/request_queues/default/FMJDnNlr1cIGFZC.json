@@ -1,0 +1,9 @@
+{
+	"id": "FMJDnNlr1cIGFZC",
+	"json": "{\"id\":\"FMJDnNlr1cIGFZC\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-huge-baby-sale-twins-gear/7930164683.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-huge-baby-sale-twins-gear/7930164683.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-huge-baby-sale-twins-gear/7930164683.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:07.095Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-huge-baby-sale-twins-gear/7930164683.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-huge-baby-sale-twins-gear/7930164683.html"
+}

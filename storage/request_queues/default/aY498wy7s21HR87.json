@@ -1,0 +1,9 @@
+{
+	"id": "aY498wy7s21HR87",
+	"json": "{\"id\":\"aY498wy7s21HR87\",\"url\":\"https://mohave.craigslist.org/search/gms?s=360\",\"loadedUrl\":\"https://mohave.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://mohave.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:19:22.984Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/search/gms?s=360",
+	"url": "https://mohave.craigslist.org/search/gms?s=360"
+}

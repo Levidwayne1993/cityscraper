@@ -1,0 +1,9 @@
+{
+	"id": "4JgeQv3XB3yuqED",
+	"json": "{\"id\":\"4JgeQv3XB3yuqED\",\"url\":\"https://denver.craigslist.org/gms/d/denver-massive-garage-sale-sw-denver/7929876359.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-massive-garage-sale-sw-denver/7929876359.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-massive-garage-sale-sw-denver/7929876359.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:36:36.806Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-massive-garage-sale-sw-denver/7929876359.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-massive-garage-sale-sw-denver/7929876359.html"
+}

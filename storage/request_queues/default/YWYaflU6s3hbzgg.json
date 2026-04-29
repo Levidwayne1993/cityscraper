@@ -1,0 +1,9 @@
+{
+	"id": "YWYaflU6s3hbzgg",
+	"json": "{\"id\":\"YWYaflU6s3hbzgg\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/walnut-creek-pleasant-hill-neighborhood/7926960130.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/walnut-creek-pleasant-hill-neighborhood/7926960130.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/walnut-creek-pleasant-hill-neighborhood/7926960130.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:25:36.160Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/walnut-creek-pleasant-hill-neighborhood/7926960130.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/walnut-creek-pleasant-hill-neighborhood/7926960130.html"
+}

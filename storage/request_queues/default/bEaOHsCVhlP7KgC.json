@@ -1,0 +1,9 @@
+{
+	"id": "bEaOHsCVhlP7KgC",
+	"json": "{\"id\":\"bEaOHsCVhlP7KgC\",\"url\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale-4153-bridgeport/7924040569.html\",\"loadedUrl\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale-4153-bridgeport/7924040569.html\",\"uniqueKey\":\"https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale-4153-bridgeport/7924040569.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:58:21.440Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale-4153-bridgeport/7924040569.html",
+	"url": "https://santamaria.craigslist.org/gms/d/santa-maria-garage-sale-4153-bridgeport/7924040569.html"
+}

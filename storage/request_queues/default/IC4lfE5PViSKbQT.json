@@ -1,0 +1,9 @@
+{
+	"id": "IC4lfE5PViSKbQT",
+	"json": "{\"id\":\"IC4lfE5PViSKbQT\",\"url\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-estate-sale-by-et/7928857699.html\",\"loadedUrl\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-estate-sale-by-et/7928857699.html\",\"uniqueKey\":\"https://showlow.craigslist.org/gms/d/white-mountain-lake-estate-sale-by-et/7928857699.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:02.979Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/gms/d/white-mountain-lake-estate-sale-by-et/7928857699.html",
+	"url": "https://showlow.craigslist.org/gms/d/white-mountain-lake-estate-sale-by-et/7928857699.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "tUaMXKUMciBzNbV",
+	"json": "{\"id\":\"tUaMXKUMciBzNbV\",\"url\":\"https://orlando.craigslist.org/gms/d/kissimmee-poinciana-yard-sale/7922253841.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/kissimmee-poinciana-yard-sale/7922253841.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/kissimmee-poinciana-yard-sale/7922253841.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:19.433Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/kissimmee-poinciana-yard-sale/7922253841.html",
+	"url": "https://orlando.craigslist.org/gms/d/kissimmee-poinciana-yard-sale/7922253841.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "CRrwHAko3Rtr5w0",
+	"json": "{\"id\":\"CRrwHAko3Rtr5w0\",\"url\":\"https://orlando.craigslist.org/com/d/casselberry-huge-yard-sale-everything/7929911624.html\",\"loadedUrl\":\"https://orlando.craigslist.org/com/d/casselberry-huge-yard-sale-everything/7929911624.html\",\"uniqueKey\":\"https://orlando.craigslist.org/com/d/casselberry-huge-yard-sale-everything/7929911624.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:14.455Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/com/d/casselberry-huge-yard-sale-everything/7929911624.html",
+	"url": "https://orlando.craigslist.org/com/d/casselberry-huge-yard-sale-everything/7929911624.html"
+}

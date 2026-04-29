@@ -1,0 +1,9 @@
+{
+	"id": "U2Ybjga4xVsBuGe",
+	"json": "{\"id\":\"U2Ybjga4xVsBuGe\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-massive-backyard-sale/7928371037.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-massive-backyard-sale/7928371037.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-massive-backyard-sale/7928371037.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:33:14.538Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-massive-backyard-sale/7928371037.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-massive-backyard-sale/7928371037.html"
+}

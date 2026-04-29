@@ -1,0 +1,9 @@
+{
+	"id": "fOcf3gVasfiz2S1",
+	"json": "{\"id\":\"fOcf3gVasfiz2S1\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-unit-garage-sale-self/7923456897.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-unit-garage-sale-self/7923456897.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-unit-garage-sale-self/7923456897.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:43.195Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-unit-garage-sale-self/7923456897.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/phoenix-multi-unit-garage-sale-self/7923456897.html"
+}

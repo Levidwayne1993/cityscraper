@@ -1,0 +1,9 @@
+{
+	"id": "iP4770bGkggogap",
+	"json": "{\"id\":\"iP4770bGkggogap\",\"url\":\"https://chico.craigslist.org/gms/d/chico-help-the-pets-indoor-yard-sale/7927882643.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-help-the-pets-indoor-yard-sale/7927882643.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-help-the-pets-indoor-yard-sale/7927882643.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:33:33.754Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-help-the-pets-indoor-yard-sale/7927882643.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-help-the-pets-indoor-yard-sale/7927882643.html"
+}

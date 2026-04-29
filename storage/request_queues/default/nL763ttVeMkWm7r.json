@@ -1,0 +1,9 @@
+{
+	"id": "nL763ttVeMkWm7r",
+	"json": "{\"id\":\"nL763ttVeMkWm7r\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-moving-sale-everything-must/7928127052.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-moving-sale-everything-must/7928127052.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-moving-sale-everything-must/7928127052.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:13:17.452Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-huge-moving-sale-everything-must/7928127052.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-huge-moving-sale-everything-must/7928127052.html"
+}

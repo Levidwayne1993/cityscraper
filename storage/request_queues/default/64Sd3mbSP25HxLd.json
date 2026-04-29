@@ -1,0 +1,9 @@
+{
+	"id": "64Sd3mbSP25HxLd",
+	"json": "{\"id\":\"64Sd3mbSP25HxLd\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/san-tan-valley-giant-neighborhood/7923840904.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/san-tan-valley-giant-neighborhood/7923840904.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/san-tan-valley-giant-neighborhood/7923840904.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:27:24.864Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/san-tan-valley-giant-neighborhood/7923840904.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/san-tan-valley-giant-neighborhood/7923840904.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "zVF5tFNKcDvUtNz",
+	"json": "{\"id\":\"zVF5tFNKcDvUtNz\",\"url\":\"https://denver.craigslist.org/gms/d/denver-huge-epic-not-yard-sale-sale/7928453276.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-huge-epic-not-yard-sale-sale/7928453276.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-huge-epic-not-yard-sale-sale/7928453276.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:39:49.662Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-huge-epic-not-yard-sale-sale/7928453276.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-huge-epic-not-yard-sale-sale/7928453276.html"
+}

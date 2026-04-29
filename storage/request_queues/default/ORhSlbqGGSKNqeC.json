@@ -1,0 +1,9 @@
+{
+	"id": "ORhSlbqGGSKNqeC",
+	"json": "{\"id\":\"ORhSlbqGGSKNqeC\",\"url\":\"https://humboldt.craigslist.org/gms/d/arcata-garage-sale-arcata-sat-march/7924030047.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/arcata-garage-sale-arcata-sat-march/7924030047.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/arcata-garage-sale-arcata-sat-march/7924030047.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:58:25.921Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/arcata-garage-sale-arcata-sat-march/7924030047.html",
+	"url": "https://humboldt.craigslist.org/gms/d/arcata-garage-sale-arcata-sat-march/7924030047.html"
+}

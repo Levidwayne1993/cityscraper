@@ -1,0 +1,9 @@
+{
+	"id": "2buz66RXu7mUZiV",
+	"json": "{\"id\":\"2buz66RXu7mUZiV\",\"url\":\"https://rochester.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://rochester.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NY\"}}",
+	"method": "GET",
+	"orderNo": 1777186523304,
+	"retryCount": 0,
+	"uniqueKey": "https://rochester.craigslist.org/search/gms?s=480",
+	"url": "https://rochester.craigslist.org/search/gms?s=480"
+}

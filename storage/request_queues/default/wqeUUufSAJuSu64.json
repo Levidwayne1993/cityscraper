@@ -1,0 +1,9 @@
+{
+	"id": "wqeUUufSAJuSu64",
+	"json": "{\"id\":\"wqeUUufSAJuSu64\",\"url\":\"https://newhaven.craigslist.org/gms/d/stratford-first-time-garage-sale-many/7926904198.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/stratford-first-time-garage-sale-many/7926904198.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/stratford-first-time-garage-sale-many/7926904198.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:08.515Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/stratford-first-time-garage-sale-many/7926904198.html",
+	"url": "https://newhaven.craigslist.org/gms/d/stratford-first-time-garage-sale-many/7926904198.html"
+}

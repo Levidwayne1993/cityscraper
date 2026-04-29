@@ -1,0 +1,9 @@
+{
+	"id": "RNP6GD7ld5Jt05w",
+	"json": "{\"id\":\"RNP6GD7ld5Jt05w\",\"url\":\"https://ocala.craigslist.org/gms/d/inverness-garage-sale/7924082920.html\",\"loadedUrl\":\"https://ocala.craigslist.org/gms/d/inverness-garage-sale/7924082920.html\",\"uniqueKey\":\"https://ocala.craigslist.org/gms/d/inverness-garage-sale/7924082920.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:15:37.001Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ocala.craigslist.org/gms/d/inverness-garage-sale/7924082920.html",
+	"url": "https://ocala.craigslist.org/gms/d/inverness-garage-sale/7924082920.html"
+}

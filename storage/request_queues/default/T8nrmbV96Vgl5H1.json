@@ -1,0 +1,9 @@
+{
+	"id": "T8nrmbV96Vgl5H1",
+	"json": "{\"id\":\"T8nrmbV96Vgl5H1\",\"url\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-rummage-sale/7929392738.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-rummage-sale/7929392738.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/citrus-heights-rummage-sale/7929392738.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:40:36.007Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/citrus-heights-rummage-sale/7929392738.html",
+	"url": "https://sacramento.craigslist.org/gms/d/citrus-heights-rummage-sale/7929392738.html"
+}

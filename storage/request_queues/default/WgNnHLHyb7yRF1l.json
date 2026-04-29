@@ -1,0 +1,9 @@
+{
+	"id": "WgNnHLHyb7yRF1l",
+	"json": "{\"id\":\"WgNnHLHyb7yRF1l\",\"url\":\"https://santabarbara.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://santabarbara.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://santabarbara.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:55:35.635Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://santabarbara.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://santabarbara.craigslist.org/search/ccc?query=garage+sale"
+}

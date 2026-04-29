@@ -1,0 +1,9 @@
+{
+	"id": "IPdEhlNB7JQhDLE",
+	"json": "{\"id\":\"IPdEhlNB7JQhDLE\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-saturday-am-huge-garage-sale/7925457154.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-saturday-am-huge-garage-sale/7925457154.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/lake-worth-saturday-am-huge-garage-sale/7925457154.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:11:19.038Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/lake-worth-saturday-am-huge-garage-sale/7925457154.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/lake-worth-saturday-am-huge-garage-sale/7925457154.html"
+}

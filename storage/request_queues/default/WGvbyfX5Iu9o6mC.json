@@ -1,0 +1,9 @@
+{
+	"id": "WGvbyfX5Iu9o6mC",
+	"json": "{\"id\":\"WGvbyfX5Iu9o6mC\",\"url\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-estate-sale-jurassic-park/7912633776.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-estate-sale-jurassic-park/7912633776.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/clt/d/peoria-estate-sale-jurassic-park/7912633776.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:35:16.369Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/clt/d/peoria-estate-sale-jurassic-park/7912633776.html",
+	"url": "https://phoenix.craigslist.org/wvl/clt/d/peoria-estate-sale-jurassic-park/7912633776.html"
+}

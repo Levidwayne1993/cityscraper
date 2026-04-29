@@ -1,0 +1,9 @@
+{
+	"id": "p2I0s7FR2oohlLl",
+	"json": "{\"id\":\"p2I0s7FR2oohlLl\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-three-girls-declutter-sale/7924034551.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-three-girls-declutter-sale/7924034551.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-three-girls-declutter-sale/7924034551.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:42.530Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-three-girls-declutter-sale/7924034551.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-three-girls-declutter-sale/7924034551.html"
+}

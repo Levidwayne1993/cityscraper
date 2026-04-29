@@ -1,0 +1,9 @@
+{
+	"id": "GuSp7xVwaKfq2Ke",
+	"json": "{\"id\":\"GuSp7xVwaKfq2Ke\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/AR/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/AR\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"AR\"}}",
+	"method": "GET",
+	"orderNo": 1777186528845,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/AR",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/AR/"
+}

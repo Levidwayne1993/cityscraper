@@ -1,0 +1,9 @@
+{
+	"id": "PDY3j3EMRBStjEr",
+	"json": "{\"id\":\"PDY3j3EMRBStjEr\",\"url\":\"https://miami.craigslist.org/mdc/hab/d/miami-moving-salego-tape-premium/7926413219.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/hab/d/miami-moving-salego-tape-premium/7926413219.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/hab/d/miami-moving-salego-tape-premium/7926413219.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:11:53.589Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/hab/d/miami-moving-salego-tape-premium/7926413219.html",
+	"url": "https://miami.craigslist.org/mdc/hab/d/miami-moving-salego-tape-premium/7926413219.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "klSb4y4Y7oZEyZH",
+	"json": "{\"id\":\"klSb4y4Y7oZEyZH\",\"url\":\"https://greensboro.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://greensboro.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523463,
+	"retryCount": 0,
+	"uniqueKey": "https://greensboro.craigslist.org/search/gms?s=480",
+	"url": "https://greensboro.craigslist.org/search/gms?s=480"
+}

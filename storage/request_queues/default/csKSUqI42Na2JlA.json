@@ -1,0 +1,9 @@
+{
+	"id": "csKSUqI42Na2JlA",
+	"json": "{\"id\":\"csKSUqI42Na2JlA\",\"url\":\"https://denver.craigslist.org/clt/d/denver-estate-sale/7909825502.html\",\"loadedUrl\":\"https://denver.craigslist.org/clt/d/denver-estate-sale/7909825502.html\",\"uniqueKey\":\"https://denver.craigslist.org/clt/d/denver-estate-sale/7909825502.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:45:14.713Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/clt/d/denver-estate-sale/7909825502.html",
+	"url": "https://denver.craigslist.org/clt/d/denver-estate-sale/7909825502.html"
+}

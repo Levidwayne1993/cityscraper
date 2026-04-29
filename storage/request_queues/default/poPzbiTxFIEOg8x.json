@@ -1,0 +1,9 @@
+{
+	"id": "poPzbiTxFIEOg8x",
+	"json": "{\"id\":\"poPzbiTxFIEOg8x\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/napa-yard-sale-1770-street/7925590540.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/napa-yard-sale-1770-street/7925590540.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/napa-yard-sale-1770-street/7925590540.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:29:43.640Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/napa-yard-sale-1770-street/7925590540.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/napa-yard-sale-1770-street/7925590540.html"
+}

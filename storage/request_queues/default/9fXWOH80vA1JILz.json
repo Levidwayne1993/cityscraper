@@ -1,0 +1,9 @@
+{
+	"id": "9fXWOH80vA1JILz",
+	"json": "{\"id\":\"9fXWOH80vA1JILz\",\"url\":\"https://inlandempire.craigslist.org/gms/d/corona-block-garage-sale-homes-corona/7928479131.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/corona-block-garage-sale-homes-corona/7928479131.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/corona-block-garage-sale-homes-corona/7928479131.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:15:55.990Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/corona-block-garage-sale-homes-corona/7928479131.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/corona-block-garage-sale-homes-corona/7928479131.html"
+}

@@ -1,8 +1,8 @@
 {
 	"id": "g871JPcEFuauk5J",
-	"json": "{\"id\":\"g871JPcEFuauk5J\",\"url\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"g871JPcEFuauk5J\",\"url\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T06:57:57.617Z\"}",
 	"method": "GET",
-	"orderNo": 1777040504800,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://dothan.craigslist.org/search/sss?query=yard+sale+garage+sale"

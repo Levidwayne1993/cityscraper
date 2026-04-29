@@ -1,0 +1,9 @@
+{
+	"id": "8kJhez5vsPi9Y1S",
+	"json": "{\"id\":\"8kJhez5vsPi9Y1S\",\"url\":\"https://newhaven.craigslist.org/gms/d/milford-woodmont-fire-company-two-day/7926038696.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/milford-woodmont-fire-company-two-day/7926038696.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/milford-woodmont-fire-company-two-day/7926038696.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:52.212Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/milford-woodmont-fire-company-two-day/7926038696.html",
+	"url": "https://newhaven.craigslist.org/gms/d/milford-woodmont-fire-company-two-day/7926038696.html"
+}

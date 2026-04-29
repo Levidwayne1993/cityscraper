@@ -1,0 +1,9 @@
+{
+	"id": "dKGJod56U7Db4gZ",
+	"json": "{\"id\":\"dKGJod56U7Db4gZ\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/MA/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/MA?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"MA\"}}",
+	"method": "GET",
+	"orderNo": 1777186530062,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/MA?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/MA/?page=4"
+}

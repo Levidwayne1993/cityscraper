@@ -1,0 +1,9 @@
+{
+	"id": "vhasJixHBDalG5J",
+	"json": "{\"id\":\"vhasJixHBDalG5J\",\"url\":\"https://panamacity.craigslist.org/gms/d/panama-city-new-buildings-with/7930048700.html\",\"loadedUrl\":\"https://panamacity.craigslist.org/gms/d/panama-city-new-buildings-with/7930048700.html\",\"uniqueKey\":\"https://panamacity.craigslist.org/gms/d/panama-city-new-buildings-with/7930048700.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:36:06.700Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://panamacity.craigslist.org/gms/d/panama-city-new-buildings-with/7930048700.html",
+	"url": "https://panamacity.craigslist.org/gms/d/panama-city-new-buildings-with/7930048700.html"
+}

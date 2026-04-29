@@ -1,0 +1,9 @@
+{
+	"id": "BwmEyaSMfwrZyck",
+	"json": "{\"id\":\"BwmEyaSMfwrZyck\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-75-off-final-warehouse-sale/7929739115.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-75-off-final-warehouse-sale/7929739115.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-75-off-final-warehouse-sale/7929739115.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:34.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-75-off-final-warehouse-sale/7929739115.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-75-off-final-warehouse-sale/7929739115.html"
+}

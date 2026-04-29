@@ -1,0 +1,9 @@
+{
+	"id": "wM4qC3kL4VVwsZd",
+	"json": "{\"id\":\"wM4qC3kL4VVwsZd\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-giant-city-wide-yard-sale/7926137004.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-giant-city-wide-yard-sale/7926137004.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-giant-city-wide-yard-sale/7926137004.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:37.630Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-giant-city-wide-yard-sale/7926137004.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-giant-city-wide-yard-sale/7926137004.html"
+}

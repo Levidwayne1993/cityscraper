@@ -1,0 +1,9 @@
+{
+	"id": "cmCamxX6i5OHpC3",
+	"json": "{\"id\":\"cmCamxX6i5OHpC3\",\"url\":\"https://showlow.craigslist.org/search/ccc?query=garage+sale\",\"loadedUrl\":\"https://showlow.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://showlow.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:51:14.450Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://showlow.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://showlow.craigslist.org/search/ccc?query=garage+sale"
+}

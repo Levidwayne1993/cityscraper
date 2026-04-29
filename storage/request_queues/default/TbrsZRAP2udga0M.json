@@ -1,0 +1,9 @@
+{
+	"id": "TbrsZRAP2udga0M",
+	"json": "{\"id\":\"TbrsZRAP2udga0M\",\"url\":\"https://fortsmith.craigslist.org/gms/d/charleston-multi-family-yard-sale/7924076350.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/charleston-multi-family-yard-sale/7924076350.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/charleston-multi-family-yard-sale/7924076350.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:14:55.577Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/charleston-multi-family-yard-sale/7924076350.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/charleston-multi-family-yard-sale/7924076350.html"
+}

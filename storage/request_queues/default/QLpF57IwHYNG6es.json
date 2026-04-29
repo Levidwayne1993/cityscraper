@@ -1,0 +1,9 @@
+{
+	"id": "QLpF57IwHYNG6es",
+	"json": "{\"id\":\"QLpF57IwHYNG6es\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale-great-finds-for-every/7929730859.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale-great-finds-for-every/7929730859.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-estate-sale-great-finds-for-every/7929730859.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:04:28.061Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-estate-sale-great-finds-for-every/7929730859.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-estate-sale-great-finds-for-every/7929730859.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Abc8oEFBqvM45HJ",
+	"json": "{\"id\":\"Abc8oEFBqvM45HJ\",\"url\":\"https://stjoseph.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://stjoseph.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521310,
+	"retryCount": 0,
+	"uniqueKey": "https://stjoseph.craigslist.org/search/gms?s=360",
+	"url": "https://stjoseph.craigslist.org/search/gms?s=360"
+}

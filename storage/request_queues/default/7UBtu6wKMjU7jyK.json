@@ -1,0 +1,9 @@
+{
+	"id": "7UBtu6wKMjU7jyK",
+	"json": "{\"id\":\"7UBtu6wKMjU7jyK\",\"url\":\"https://monterey.craigslist.org/gms/d/salinas-south-salinas-garage-sale/7922581401.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/salinas-south-salinas-garage-sale/7922581401.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/salinas-south-salinas-garage-sale/7922581401.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:05:00.388Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/salinas-south-salinas-garage-sale/7922581401.html",
+	"url": "https://monterey.craigslist.org/gms/d/salinas-south-salinas-garage-sale/7922581401.html"
+}

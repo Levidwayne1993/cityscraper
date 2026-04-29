@@ -1,0 +1,9 @@
+{
+	"id": "A5fhMVBWhq923EV",
+	"json": "{\"id\":\"A5fhMVBWhq923EV\",\"url\":\"https://miami.craigslist.org/mdc/com/d/miami-garage-sale/7926989007.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/com/d/miami-garage-sale/7926989007.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/com/d/miami-garage-sale/7926989007.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:20:10.324Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/com/d/miami-garage-sale/7926989007.html",
+	"url": "https://miami.craigslist.org/mdc/com/d/miami-garage-sale/7926989007.html"
+}

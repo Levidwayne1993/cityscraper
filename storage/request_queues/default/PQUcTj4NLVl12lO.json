@@ -1,0 +1,9 @@
+{
+	"id": "PQUcTj4NLVl12lO",
+	"json": "{\"id\":\"PQUcTj4NLVl12lO\",\"url\":\"https://savannah.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://savannah.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517585,
+	"retryCount": 0,
+	"uniqueKey": "https://savannah.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://savannah.craigslist.org/search/ccc?query=yard+sale"
+}

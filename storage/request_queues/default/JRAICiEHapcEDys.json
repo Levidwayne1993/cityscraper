@@ -1,0 +1,9 @@
+{
+	"id": "JRAICiEHapcEDys",
+	"json": "{\"id\":\"JRAICiEHapcEDys\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-sat-april-11-foothills-yard-sale/7927035632.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-sat-april-11-foothills-yard-sale/7927035632.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-sat-april-11-foothills-yard-sale/7927035632.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:08:57.611Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-sat-april-11-foothills-yard-sale/7927035632.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-sat-april-11-foothills-yard-sale/7927035632.html"
+}

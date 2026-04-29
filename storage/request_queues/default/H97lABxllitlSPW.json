@@ -1,0 +1,9 @@
+{
+	"id": "H97lABxllitlSPW",
+	"json": "{\"id\":\"H97lABxllitlSPW\",\"url\":\"https://slo.craigslist.org/fuo/d/san-luis-obispo-designer-furniture/7929530650.html\",\"loadedUrl\":\"https://slo.craigslist.org/fuo/d/san-luis-obispo-designer-furniture/7929530650.html\",\"uniqueKey\":\"https://slo.craigslist.org/fuo/d/san-luis-obispo-designer-furniture/7929530650.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:49:38.478Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/fuo/d/san-luis-obispo-designer-furniture/7929530650.html",
+	"url": "https://slo.craigslist.org/fuo/d/san-luis-obispo-designer-furniture/7929530650.html"
+}

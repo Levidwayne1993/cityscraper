@@ -1,0 +1,9 @@
+{
+	"id": "AolRUCJ4KYPlAN2",
+	"json": "{\"id\":\"AolRUCJ4KYPlAN2\",\"url\":\"https://denver.craigslist.org/gms/d/broomfield-estate-sale/7927001825.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/broomfield-estate-sale/7927001825.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/broomfield-estate-sale/7927001825.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:44:34.108Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/broomfield-estate-sale/7927001825.html",
+	"url": "https://denver.craigslist.org/gms/d/broomfield-estate-sale/7927001825.html"
+}

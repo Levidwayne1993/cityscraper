@@ -1,0 +1,9 @@
+{
+	"id": "K3CJR4sbVgu0gdd",
+	"json": "{\"id\":\"K3CJR4sbVgu0gdd\",\"url\":\"https://panamacity.craigslist.org/gms/d/chipley-garage-sale-fri-13-to-sat-14/7920934963.html\",\"loadedUrl\":\"https://panamacity.craigslist.org/gms/d/chipley-garage-sale-fri-13-to-sat-14/7920934963.html\",\"uniqueKey\":\"https://panamacity.craigslist.org/gms/d/chipley-garage-sale-fri-13-to-sat-14/7920934963.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:36:51.390Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://panamacity.craigslist.org/gms/d/chipley-garage-sale-fri-13-to-sat-14/7920934963.html",
+	"url": "https://panamacity.craigslist.org/gms/d/chipley-garage-sale-fri-13-to-sat-14/7920934963.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "SfuEe9UbUoqtqcK",
+	"json": "{\"id\":\"SfuEe9UbUoqtqcK\",\"url\":\"https://fayar.craigslist.org/com/d/rogers-inside-garage-sale-with-awsome/7929587680.html\",\"loadedUrl\":\"https://fayar.craigslist.org/com/d/rogers-inside-garage-sale-with-awsome/7929587680.html\",\"uniqueKey\":\"https://fayar.craigslist.org/com/d/rogers-inside-garage-sale-with-awsome/7929587680.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:13:59.657Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/com/d/rogers-inside-garage-sale-with-awsome/7929587680.html",
+	"url": "https://fayar.craigslist.org/com/d/rogers-inside-garage-sale-with-awsome/7929587680.html"
+}

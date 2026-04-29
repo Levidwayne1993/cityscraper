@@ -1,0 +1,9 @@
+{
+	"id": "7TDpkTOlI5yId6z",
+	"json": "{\"id\":\"7TDpkTOlI5yId6z\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-dont-miss-out-garage-sale-18/7928446316.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-dont-miss-out-garage-sale-18/7928446316.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-dont-miss-out-garage-sale-18/7928446316.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:25:23.997Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-dont-miss-out-garage-sale-18/7928446316.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-dont-miss-out-garage-sale-18/7928446316.html"
+}

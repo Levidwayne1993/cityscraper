@@ -1,0 +1,9 @@
+{
+	"id": "5h4nmRcCELgDpCD",
+	"json": "{\"id\":\"5h4nmRcCELgDpCD\",\"url\":\"https://humboldt.craigslist.org/gms/d/cutten-estate-sale-in-cutten-friday-and/7928260628.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/gms/d/cutten-estate-sale-in-cutten-friday-and/7928260628.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/gms/d/cutten-estate-sale-in-cutten-friday-and/7928260628.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:59:27.025Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/gms/d/cutten-estate-sale-in-cutten-friday-and/7928260628.html",
+	"url": "https://humboldt.craigslist.org/gms/d/cutten-estate-sale-in-cutten-friday-and/7928260628.html"
+}

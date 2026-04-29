@@ -1,0 +1,9 @@
+{
+	"id": "uLM7pwM5I1I9P62",
+	"json": "{\"id\":\"uLM7pwM5I1I9P62\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-march-24-25/7929802633.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-march-24-25/7929802633.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-march-24-25/7929802633.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:53:51.659Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-march-24-25/7929802633.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-garage-sale-march-24-25/7929802633.html"
+}

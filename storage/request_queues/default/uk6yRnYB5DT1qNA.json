@@ -1,0 +1,9 @@
+{
+	"id": "uk6yRnYB5DT1qNA",
+	"json": "{\"id\":\"uk6yRnYB5DT1qNA\",\"url\":\"https://monterey.craigslist.org/gms/d/santa-cruz-yard-sale/7928565162.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/santa-cruz-yard-sale/7928565162.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/santa-cruz-yard-sale/7928565162.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:03:44.742Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/santa-cruz-yard-sale/7928565162.html",
+	"url": "https://monterey.craigslist.org/gms/d/santa-cruz-yard-sale/7928565162.html"
+}

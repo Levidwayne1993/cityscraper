@@ -1,0 +1,9 @@
+{
+	"id": "w6qWCs3psnkp51k",
+	"json": "{\"id\":\"w6qWCs3psnkp51k\",\"url\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-garage-sale/7921005169.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-garage-sale/7921005169.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/stockton-multi-family-garage-sale/7921005169.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:05:08.280Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/stockton-multi-family-garage-sale/7921005169.html",
+	"url": "https://stockton.craigslist.org/gms/d/stockton-multi-family-garage-sale/7921005169.html"
+}

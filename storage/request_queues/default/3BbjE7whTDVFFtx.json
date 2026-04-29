@@ -1,0 +1,9 @@
+{
+	"id": "3BbjE7whTDVFFtx",
+	"json": "{\"id\":\"3BbjE7whTDVFFtx\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-garage-sale9-am-pmpittsburg/7930229874.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-garage-sale9-am-pmpittsburg/7930229874.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/pittsburg-garage-sale9-am-pmpittsburg/7930229874.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:24.768Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/pittsburg-garage-sale9-am-pmpittsburg/7930229874.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/pittsburg-garage-sale9-am-pmpittsburg/7930229874.html"
+}

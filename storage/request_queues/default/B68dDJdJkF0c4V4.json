@@ -1,0 +1,9 @@
+{
+	"id": "B68dDJdJkF0c4V4",
+	"json": "{\"id\":\"B68dDJdJkF0c4V4\",\"url\":\"https://redding.craigslist.org/gms/d/redding-epic-multifamily-garage-sale-am/7928261067.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-epic-multifamily-garage-sale-am/7928261067.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-epic-multifamily-garage-sale-am/7928261067.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:39:07.580Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-epic-multifamily-garage-sale-am/7928261067.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-epic-multifamily-garage-sale-am/7928261067.html"
+}

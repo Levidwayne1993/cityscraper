@@ -1,0 +1,9 @@
+{
+	"id": "bSxbu99P2f5b8OK",
+	"json": "{\"id\":\"bSxbu99P2f5b8OK\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/KY/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/KY\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"KY\"}}",
+	"method": "GET",
+	"orderNo": 1777186530031,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/KY",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/KY/"
+}

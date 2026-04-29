@@ -1,0 +1,9 @@
+{
+	"id": "PdeLRBAQXq9IkAs",
+	"json": "{\"id\":\"PdeLRBAQXq9IkAs\",\"url\":\"https://orangecounty.craigslist.org/gms/d/costa-mesa-garage-sale/7929785898.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/costa-mesa-garage-sale/7929785898.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/costa-mesa-garage-sale/7929785898.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:20:19.512Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/costa-mesa-garage-sale/7929785898.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/costa-mesa-garage-sale/7929785898.html"
+}

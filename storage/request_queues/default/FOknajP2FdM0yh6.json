@@ -1,0 +1,9 @@
+{
+	"id": "FOknajP2FdM0yh6",
+	"json": "{\"id\":\"FOknajP2FdM0yh6\",\"url\":\"https://losangeles.craigslist.org/lgb/gms/d/wilmington-garage-sale/7929501978.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lgb/gms/d/wilmington-garage-sale/7929501978.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lgb/gms/d/wilmington-garage-sale/7929501978.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:43:27.579Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lgb/gms/d/wilmington-garage-sale/7929501978.html",
+	"url": "https://losangeles.craigslist.org/lgb/gms/d/wilmington-garage-sale/7929501978.html"
+}

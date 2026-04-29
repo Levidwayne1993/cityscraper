@@ -1,0 +1,9 @@
+{
+	"id": "s09wC2jvv2Ts5yf",
+	"json": "{\"id\":\"s09wC2jvv2Ts5yf\",\"url\":\"https://inlandempire.craigslist.org/gms/d/temecula-estate-sale/7918899829.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/temecula-estate-sale/7918899829.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/temecula-estate-sale/7918899829.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:11:24.477Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/temecula-estate-sale/7918899829.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/temecula-estate-sale/7918899829.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "pVySd1WsCETe8pw",
+	"json": "{\"id\":\"pVySd1WsCETe8pw\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-huge-garage-sale-multi-families/7928140073.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-huge-garage-sale-multi-families/7928140073.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-huge-garage-sale-multi-families/7928140073.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:21.555Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/vista-huge-garage-sale-multi-families/7928140073.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/vista-huge-garage-sale-multi-families/7928140073.html"
+}

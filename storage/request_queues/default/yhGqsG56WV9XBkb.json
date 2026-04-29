@@ -1,0 +1,9 @@
+{
+	"id": "yhGqsG56WV9XBkb",
+	"json": "{\"id\":\"yhGqsG56WV9XBkb\",\"url\":\"https://phoenix.craigslist.org/evl/com/d/chandler-huge-yard-sale/7929871158.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/com/d/chandler-huge-yard-sale/7929871158.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/com/d/chandler-huge-yard-sale/7929871158.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:43:36.145Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/com/d/chandler-huge-yard-sale/7929871158.html",
+	"url": "https://phoenix.craigslist.org/evl/com/d/chandler-huge-yard-sale/7929871158.html"
+}

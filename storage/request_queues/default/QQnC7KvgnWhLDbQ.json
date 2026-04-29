@@ -1,0 +1,9 @@
+{
+	"id": "QQnC7KvgnWhLDbQ",
+	"json": "{\"id\":\"QQnC7KvgnWhLDbQ\",\"url\":\"https://texarkana.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://texarkana.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://texarkana.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:20:13.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://texarkana.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://texarkana.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yfxmM1gtFucBImt",
+	"json": "{\"id\":\"yfxmM1gtFucBImt\",\"url\":\"https://sacramento.craigslist.org/com/d/galt-yard-sale-april-to-100-west-st-galt/7928573531.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/com/d/galt-yard-sale-april-to-100-west-st-galt/7928573531.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/com/d/galt-yard-sale-april-to-100-west-st-galt/7928573531.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:49:55.600Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/com/d/galt-yard-sale-april-to-100-west-st-galt/7928573531.html",
+	"url": "https://sacramento.craigslist.org/com/d/galt-yard-sale-april-to-100-west-st-galt/7928573531.html"
+}

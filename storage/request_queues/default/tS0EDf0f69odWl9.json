@@ -1,0 +1,9 @@
+{
+	"id": "tS0EDf0f69odWl9",
+	"json": "{\"id\":\"tS0EDf0f69odWl9\",\"url\":\"https://york.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://york.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525812,
+	"retryCount": 0,
+	"uniqueKey": "https://york.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://york.craigslist.org/search/ccc?query=yard+sale"
+}

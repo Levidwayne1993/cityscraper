@@ -1,0 +1,9 @@
+{
+	"id": "YnwUXmHFJCZhEVa",
+	"json": "{\"id\":\"YnwUXmHFJCZhEVa\",\"url\":\"https://denver.craigslist.org/gms/d/arvada-huge-estate-liquidation-sale-in/7929830445.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/arvada-huge-estate-liquidation-sale-in/7929830445.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/arvada-huge-estate-liquidation-sale-in/7929830445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:00.404Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/arvada-huge-estate-liquidation-sale-in/7929830445.html",
+	"url": "https://denver.craigslist.org/gms/d/arvada-huge-estate-liquidation-sale-in/7929830445.html"
+}

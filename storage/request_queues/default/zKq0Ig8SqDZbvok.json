@@ -1,0 +1,9 @@
+{
+	"id": "zKq0Ig8SqDZbvok",
+	"json": "{\"id\":\"zKq0Ig8SqDZbvok\",\"url\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-march-28-8am-3pm/7922537773.html\",\"loadedUrl\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-march-28-8am-3pm/7922537773.html\",\"uniqueKey\":\"https://monterey.craigslist.org/gms/d/monterey-garage-sale-march-28-8am-3pm/7922537773.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:04:55.017Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-march-28-8am-3pm/7922537773.html",
+	"url": "https://monterey.craigslist.org/gms/d/monterey-garage-sale-march-28-8am-3pm/7922537773.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KlIM2X347N0YEw4",
+	"json": "{\"id\":\"KlIM2X347N0YEw4\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-sale-358-fairmount-ave-santa/7930031108.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-sale-358-fairmount-ave-santa/7930031108.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-sale-358-fairmount-ave-santa/7930031108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:21:05.818Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-sale-358-fairmount-ave-santa/7930031108.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-sale-358-fairmount-ave-santa/7930031108.html"
+}

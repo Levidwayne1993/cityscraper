@@ -1,0 +1,9 @@
+{
+	"id": "TPyZXHIbOVEp8Vs",
+	"json": "{\"id\":\"TPyZXHIbOVEp8Vs\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Lafayette-LA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Lafayette-LA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"LA\",\"yssSlug\":\"Lafayette-LA\"}}",
+	"method": "GET",
+	"orderNo": 1777186531011,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Lafayette-LA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Lafayette-LA.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "de9TXYUMCTHHPlt",
+	"json": "{\"id\":\"de9TXYUMCTHHPlt\",\"url\":\"https://mobile.craigslist.org/gms/d/foley-south-foley-multi-family-yardsale/7927691157.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/foley-south-foley-multi-family-yardsale/7927691157.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/foley-south-foley-multi-family-yardsale/7927691157.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:05:57.516Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/foley-south-foley-multi-family-yardsale/7927691157.html",
+	"url": "https://mobile.craigslist.org/gms/d/foley-south-foley-multi-family-yardsale/7927691157.html"
+}

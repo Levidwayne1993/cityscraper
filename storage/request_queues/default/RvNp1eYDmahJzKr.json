@@ -1,0 +1,9 @@
+{
+	"id": "RvNp1eYDmahJzKr",
+	"json": "{\"id\":\"RvNp1eYDmahJzKr\",\"url\":\"https://huntington.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://huntington.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528107,
+	"retryCount": 0,
+	"uniqueKey": "https://huntington.craigslist.org/search/gms?s=480",
+	"url": "https://huntington.craigslist.org/search/gms?s=480"
+}

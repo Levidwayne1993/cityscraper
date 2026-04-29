@@ -1,0 +1,9 @@
+{
+	"id": "HjNDoeJJ5y6H5K9",
+	"json": "{\"id\":\"HjNDoeJJ5y6H5K9\",\"url\":\"https://boulder.craigslist.org/gms/d/longmont-huge-astronomical-whale-of/7922381582.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/longmont-huge-astronomical-whale-of/7922381582.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/longmont-huge-astronomical-whale-of/7922381582.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:27:24.047Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/longmont-huge-astronomical-whale-of/7922381582.html",
+	"url": "https://boulder.craigslist.org/gms/d/longmont-huge-astronomical-whale-of/7922381582.html"
+}

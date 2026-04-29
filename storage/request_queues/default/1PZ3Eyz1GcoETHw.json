@@ -1,0 +1,9 @@
+{
+	"id": "1PZ3Eyz1GcoETHw",
+	"json": "{\"id\":\"1PZ3Eyz1GcoETHw\",\"url\":\"https://albanyga.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://albanyga.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517403,
+	"retryCount": 0,
+	"uniqueKey": "https://albanyga.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://albanyga.craigslist.org/search/ccc?query=garage+sale"
+}

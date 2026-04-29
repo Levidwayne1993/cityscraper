@@ -1,0 +1,9 @@
+{
+	"id": "WrVfeswQyyfrL7f",
+	"json": "{\"id\":\"WrVfeswQyyfrL7f\",\"url\":\"https://daytona.craigslist.org/gms/d/daytona-beach-estate-sale-march-26-28th/7923123721.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/daytona-beach-estate-sale-march-26-28th/7923123721.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/daytona-beach-estate-sale-march-26-28th/7923123721.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:58:27.771Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/daytona-beach-estate-sale-march-26-28th/7923123721.html",
+	"url": "https://daytona.craigslist.org/gms/d/daytona-beach-estate-sale-march-26-28th/7923123721.html"
+}

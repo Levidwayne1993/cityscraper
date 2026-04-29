@@ -1,0 +1,9 @@
+{
+	"id": "YJ4xc2zTrssNgU6",
+	"json": "{\"id\":\"YJ4xc2zTrssNgU6\",\"url\":\"https://pueblo.craigslist.org/gms/d/pueblo-gigantic-sale-45-fordham-april/7929751623.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/pueblo-gigantic-sale-45-fordham-april/7929751623.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/pueblo-gigantic-sale-45-fordham-april/7929751623.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:54:53.886Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/pueblo-gigantic-sale-45-fordham-april/7929751623.html",
+	"url": "https://pueblo.craigslist.org/gms/d/pueblo-gigantic-sale-45-fordham-april/7929751623.html"
+}

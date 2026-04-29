@@ -1,0 +1,9 @@
+{
+	"id": "Sfju3q3txYcCN8q",
+	"json": "{\"id\":\"Sfju3q3txYcCN8q\",\"url\":\"https://houston.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://houston.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"TX\"}}",
+	"method": "GET",
+	"orderNo": 1777186526260,
+	"retryCount": 0,
+	"uniqueKey": "https://houston.craigslist.org/search/gms?s=480",
+	"url": "https://houston.craigslist.org/search/gms?s=480"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "14GCbZzgAFx3yJh",
+	"json": "{\"id\":\"14GCbZzgAFx3yJh\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-heights-yard-sale-in-queen/7923442447.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-heights-yard-sale-in-queen/7923442447.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-heights-yard-sale-in-queen/7923442447.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:26:50.233Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-heights-yard-sale-in-queen/7923442447.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-heights-yard-sale-in-queen/7923442447.html"
+}

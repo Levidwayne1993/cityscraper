@@ -1,0 +1,9 @@
+{
+	"id": "E35vMGsXCns64Bl",
+	"json": "{\"id\":\"E35vMGsXCns64Bl\",\"url\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-rummage-sale-fundraiser/7922501071.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-rummage-sale-fundraiser/7922501071.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/gms/d/jacksonville-rummage-sale-fundraiser/7922501071.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:38:52.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/gms/d/jacksonville-rummage-sale-fundraiser/7922501071.html",
+	"url": "https://jacksonville.craigslist.org/gms/d/jacksonville-rummage-sale-fundraiser/7922501071.html"
+}

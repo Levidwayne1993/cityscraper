@@ -1,0 +1,9 @@
+{
+	"id": "cPGN08uWqRurInC",
+	"json": "{\"id\":\"cPGN08uWqRurInC\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-big-garage-yard-sale-1000s-of/7925532091.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-big-garage-yard-sale-1000s-of/7925532091.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/surprise-big-garage-yard-sale-1000s-of/7925532091.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:30:06.682Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/surprise-big-garage-yard-sale-1000s-of/7925532091.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/surprise-big-garage-yard-sale-1000s-of/7925532091.html"
+}

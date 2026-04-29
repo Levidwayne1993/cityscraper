@@ -1,8 +1,8 @@
 {
 	"id": "Mw4eHKnKtowP5ia",
-	"json": "{\"id\":\"Mw4eHKnKtowP5ia\",\"url\":\"https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"Mw4eHKnKtowP5ia\",\"url\":\"https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"loadedUrl\":\"https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:11:02.276Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323455,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120",
 	"url": "https://newhaven.craigslist.org/search/sss?query=yard+sale+garage+sale&s=120"

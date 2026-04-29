@@ -1,0 +1,9 @@
+{
+	"id": "zrRe6T1srSCyNfM",
+	"json": "{\"id\":\"zrRe6T1srSCyNfM\",\"url\":\"https://oregoncoast.craigslist.org/search/gms?s=360\",\"uniqueKey\":\"https://oregoncoast.craigslist.org/search/gms?s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OR\"}}",
+	"method": "GET",
+	"orderNo": 1777186525280,
+	"retryCount": 0,
+	"uniqueKey": "https://oregoncoast.craigslist.org/search/gms?s=360",
+	"url": "https://oregoncoast.craigslist.org/search/gms?s=360"
+}

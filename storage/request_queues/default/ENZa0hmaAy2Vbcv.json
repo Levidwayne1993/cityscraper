@@ -1,0 +1,9 @@
+{
+	"id": "ENZa0hmaAy2Vbcv",
+	"json": "{\"id\":\"ENZa0hmaAy2Vbcv\",\"url\":\"https://pueblo.craigslist.org/gms/d/coal-creek-victors-yard-sale/7924964765.html\",\"loadedUrl\":\"https://pueblo.craigslist.org/gms/d/coal-creek-victors-yard-sale/7924964765.html\",\"uniqueKey\":\"https://pueblo.craigslist.org/gms/d/coal-creek-victors-yard-sale/7924964765.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:56:03.358Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pueblo.craigslist.org/gms/d/coal-creek-victors-yard-sale/7924964765.html",
+	"url": "https://pueblo.craigslist.org/gms/d/coal-creek-victors-yard-sale/7924964765.html"
+}

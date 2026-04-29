@@ -1,0 +1,9 @@
+{
+	"id": "wCCWjEgoKgbZGk8",
+	"json": "{\"id\":\"wCCWjEgoKgbZGk8\",\"url\":\"https://palmsprings.craigslist.org/gms/d/indian-wells-garage-sale/7920862211.html\",\"loadedUrl\":\"https://palmsprings.craigslist.org/gms/d/indian-wells-garage-sale/7920862211.html\",\"uniqueKey\":\"https://palmsprings.craigslist.org/gms/d/indian-wells-garage-sale/7920862211.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:30:52.542Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://palmsprings.craigslist.org/gms/d/indian-wells-garage-sale/7920862211.html",
+	"url": "https://palmsprings.craigslist.org/gms/d/indian-wells-garage-sale/7920862211.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "gP6RVUluVLBljrm",
+	"json": "{\"id\":\"gP6RVUluVLBljrm\",\"url\":\"https://bakersfield.craigslist.org/gms/d/exeter-collectors-estate-sale/7929194244.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/exeter-collectors-estate-sale/7929194244.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/exeter-collectors-estate-sale/7929194244.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:20:49.841Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/exeter-collectors-estate-sale/7929194244.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/exeter-collectors-estate-sale/7929194244.html"
+}

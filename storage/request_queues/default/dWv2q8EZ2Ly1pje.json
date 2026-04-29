@@ -1,0 +1,9 @@
+{
+	"id": "dWv2q8EZ2Ly1pje",
+	"json": "{\"id\":\"dWv2q8EZ2Ly1pje\",\"url\":\"https://visalia.craigslist.org/gms/d/farmersville-price-is-right-estate-sale/7923194314.html\",\"loadedUrl\":\"https://visalia.craigslist.org/gms/d/farmersville-price-is-right-estate-sale/7923194314.html\",\"uniqueKey\":\"https://visalia.craigslist.org/gms/d/farmersville-price-is-right-estate-sale/7923194314.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:22:07.570Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/gms/d/farmersville-price-is-right-estate-sale/7923194314.html",
+	"url": "https://visalia.craigslist.org/gms/d/farmersville-price-is-right-estate-sale/7923194314.html"
+}

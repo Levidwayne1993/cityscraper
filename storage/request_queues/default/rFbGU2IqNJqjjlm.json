@@ -1,0 +1,9 @@
+{
+	"id": "rFbGU2IqNJqjjlm",
+	"json": "{\"id\":\"rFbGU2IqNJqjjlm\",\"url\":\"https://greenville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://greenville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186525884,
+	"retryCount": 0,
+	"uniqueKey": "https://greenville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://greenville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

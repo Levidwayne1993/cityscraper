@@ -1,0 +1,9 @@
+{
+	"id": "qzq5xCtlhwjrqFn",
+	"json": "{\"id\":\"qzq5xCtlhwjrqFn\",\"url\":\"https://topeka.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://topeka.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"KS\"}}",
+	"method": "GET",
+	"orderNo": 1777186519897,
+	"retryCount": 0,
+	"uniqueKey": "https://topeka.craigslist.org/search/gms?s=480",
+	"url": "https://topeka.craigslist.org/search/gms?s=480"
+}

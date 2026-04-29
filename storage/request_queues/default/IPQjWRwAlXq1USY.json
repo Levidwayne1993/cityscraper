@@ -1,0 +1,9 @@
+{
+	"id": "IPQjWRwAlXq1USY",
+	"json": "{\"id\":\"IPQjWRwAlXq1USY\",\"url\":\"https://stockton.craigslist.org/gms/d/woodbridge-tool-and-garage-sale/7924020625.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/woodbridge-tool-and-garage-sale/7924020625.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/woodbridge-tool-and-garage-sale/7924020625.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:04:18.781Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/woodbridge-tool-and-garage-sale/7924020625.html",
+	"url": "https://stockton.craigslist.org/gms/d/woodbridge-tool-and-garage-sale/7924020625.html"
+}

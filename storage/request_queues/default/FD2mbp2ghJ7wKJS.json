@@ -1,0 +1,9 @@
+{
+	"id": "FD2mbp2ghJ7wKJS",
+	"json": "{\"id\":\"FD2mbp2ghJ7wKJS\",\"url\":\"https://sfbay.craigslist.org/sby/fuo/d/san-jose-moving-sale-everything-must-go/7929134410.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/fuo/d/san-jose-moving-sale-everything-must-go/7929134410.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/fuo/d/san-jose-moving-sale-everything-must-go/7929134410.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:36:38.146Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/fuo/d/san-jose-moving-sale-everything-must-go/7929134410.html",
+	"url": "https://sfbay.craigslist.org/sby/fuo/d/san-jose-moving-sale-everything-must-go/7929134410.html"
+}

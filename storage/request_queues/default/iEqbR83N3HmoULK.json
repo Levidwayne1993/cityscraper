@@ -1,8 +1,8 @@
 {
 	"id": "iEqbR83N3HmoULK",
-	"json": "{\"id\":\"iEqbR83N3HmoULK\",\"url\":\"https://inlandempire.craigslist.org/search/gms\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"iEqbR83N3HmoULK\",\"url\":\"https://inlandempire.craigslist.org/search/gms\",\"loadedUrl\":\"https://inlandempire.craigslist.org/search/gms\",\"uniqueKey\":\"https://inlandempire.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:01:59.582Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323170,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://inlandempire.craigslist.org/search/gms",
 	"url": "https://inlandempire.craigslist.org/search/gms"

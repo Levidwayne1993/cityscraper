@@ -1,0 +1,9 @@
+{
+	"id": "HMclT6dqI4xLaEQ",
+	"json": "{\"id\":\"HMclT6dqI4xLaEQ\",\"url\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-estate-and-garage-sale/7930220869.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-estate-and-garage-sale/7930220869.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sfc/gms/d/san-francisco-estate-and-garage-sale/7930220869.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:17:30.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-estate-and-garage-sale/7930220869.html",
+	"url": "https://sfbay.craigslist.org/sfc/gms/d/san-francisco-estate-and-garage-sale/7930220869.html"
+}

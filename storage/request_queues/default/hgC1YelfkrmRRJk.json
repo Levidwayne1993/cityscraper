@@ -1,0 +1,9 @@
+{
+	"id": "hgC1YelfkrmRRJk",
+	"json": "{\"id\":\"hgC1YelfkrmRRJk\",\"url\":\"https://jacksonville.craigslist.org/com/d/ponte-vedra-walden-chase-community-yard/7928114034.html\",\"loadedUrl\":\"https://jacksonville.craigslist.org/com/d/ponte-vedra-walden-chase-community-yard/7928114034.html\",\"uniqueKey\":\"https://jacksonville.craigslist.org/com/d/ponte-vedra-walden-chase-community-yard/7928114034.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:43:59.758Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jacksonville.craigslist.org/com/d/ponte-vedra-walden-chase-community-yard/7928114034.html",
+	"url": "https://jacksonville.craigslist.org/com/d/ponte-vedra-walden-chase-community-yard/7928114034.html"
+}

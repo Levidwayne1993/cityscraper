@@ -1,0 +1,9 @@
+{
+	"id": "9IuBgwGqNVZTs2B",
+	"json": "{\"id\":\"9IuBgwGqNVZTs2B\",\"url\":\"https://modesto.craigslist.org/com/d/modesto-big-yard-sale-lots-of-stuff/7924077770.html\",\"loadedUrl\":\"https://modesto.craigslist.org/com/d/modesto-big-yard-sale-lots-of-stuff/7924077770.html\",\"uniqueKey\":\"https://modesto.craigslist.org/com/d/modesto-big-yard-sale-lots-of-stuff/7924077770.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:01:05.750Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/com/d/modesto-big-yard-sale-lots-of-stuff/7924077770.html",
+	"url": "https://modesto.craigslist.org/com/d/modesto-big-yard-sale-lots-of-stuff/7924077770.html"
+}

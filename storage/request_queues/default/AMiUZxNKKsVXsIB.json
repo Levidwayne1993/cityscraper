@@ -1,0 +1,9 @@
+{
+	"id": "AMiUZxNKKsVXsIB",
+	"json": "{\"id\":\"AMiUZxNKKsVXsIB\",\"url\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-giant-rummage-sale/7928548137.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-giant-rummage-sale/7928548137.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/gms/d/vista-giant-rummage-sale/7928548137.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:58.171Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/gms/d/vista-giant-rummage-sale/7928548137.html",
+	"url": "https://sandiego.craigslist.org/nsd/gms/d/vista-giant-rummage-sale/7928548137.html"
+}

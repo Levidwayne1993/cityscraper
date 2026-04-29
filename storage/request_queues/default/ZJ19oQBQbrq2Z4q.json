@@ -1,0 +1,9 @@
+{
+	"id": "ZJ19oQBQbrq2Z4q",
+	"json": "{\"id\":\"ZJ19oQBQbrq2Z4q\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-something/7925534478.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-something/7925534478.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-something/7925534478.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:45.211Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-something/7925534478.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-something/7925534478.html"
+}

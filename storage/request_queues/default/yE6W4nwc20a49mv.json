@@ -1,0 +1,9 @@
+{
+	"id": "yE6W4nwc20a49mv",
+	"json": "{\"id\":\"yE6W4nwc20a49mv\",\"url\":\"https://redding.craigslist.org/gms/d/millville-yard-sale-moving-sale/7922579120.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/millville-yard-sale-moving-sale/7922579120.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/millville-yard-sale-moving-sale/7922579120.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:35:28.973Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/millville-yard-sale-moving-sale/7922579120.html",
+	"url": "https://redding.craigslist.org/gms/d/millville-yard-sale-moving-sale/7922579120.html"
+}

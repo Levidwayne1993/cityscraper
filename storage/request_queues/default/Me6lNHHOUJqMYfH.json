@@ -1,0 +1,9 @@
+{
+	"id": "Me6lNHHOUJqMYfH",
+	"json": "{\"id\":\"Me6lNHHOUJqMYfH\",\"url\":\"https://bismarck.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://bismarck.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"ND\"}}",
+	"method": "GET",
+	"orderNo": 1777186523594,
+	"retryCount": 0,
+	"uniqueKey": "https://bismarck.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://bismarck.craigslist.org/search/ccc?query=yard+sale"
+}

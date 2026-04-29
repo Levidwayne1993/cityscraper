@@ -1,0 +1,9 @@
+{
+	"id": "iHaqR1PK9KIGl3s",
+	"json": "{\"id\":\"iHaqR1PK9KIGl3s\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-saturday-2-collectors-yard/7928526645.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-saturday-2-collectors-yard/7928526645.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/santa-clara-saturday-2-collectors-yard/7928526645.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:56.334Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-saturday-2-collectors-yard/7928526645.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/santa-clara-saturday-2-collectors-yard/7928526645.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TC1SyWPpWpp7MnO",
+	"json": "{\"id\":\"TC1SyWPpWpp7MnO\",\"url\":\"https://orlando.craigslist.org/gms/d/davenport-28-huge-community-garage-sale/7924029539.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/davenport-28-huge-community-garage-sale/7924029539.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/davenport-28-huge-community-garage-sale/7924029539.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:28:21.089Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/davenport-28-huge-community-garage-sale/7924029539.html",
+	"url": "https://orlando.craigslist.org/gms/d/davenport-28-huge-community-garage-sale/7924029539.html"
+}

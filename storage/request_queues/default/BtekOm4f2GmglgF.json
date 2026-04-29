@@ -1,0 +1,9 @@
+{
+	"id": "BtekOm4f2GmglgF",
+	"json": "{\"id\":\"BtekOm4f2GmglgF\",\"url\":\"https://nwct.craigslist.org/gms/d/new-britain-indoor-year-round-flea/7925106025.html\",\"loadedUrl\":\"https://nwct.craigslist.org/gms/d/new-britain-indoor-year-round-flea/7925106025.html\",\"uniqueKey\":\"https://nwct.craigslist.org/gms/d/new-britain-indoor-year-round-flea/7925106025.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:16:58.273Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://nwct.craigslist.org/gms/d/new-britain-indoor-year-round-flea/7925106025.html",
+	"url": "https://nwct.craigslist.org/gms/d/new-britain-indoor-year-round-flea/7925106025.html"
+}

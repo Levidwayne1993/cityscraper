@@ -1,0 +1,9 @@
+{
+	"id": "usubYSU4MnYTbqU",
+	"json": "{\"id\":\"usubYSU4MnYTbqU\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/oxon-hill-moving-sale/7928841277.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/oxon-hill-moving-sale/7928841277.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/oxon-hill-moving-sale/7928841277.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:29:50.569Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/oxon-hill-moving-sale/7928841277.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/oxon-hill-moving-sale/7928841277.html"
+}

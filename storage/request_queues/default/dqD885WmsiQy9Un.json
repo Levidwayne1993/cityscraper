@@ -1,0 +1,9 @@
+{
+	"id": "dqD885WmsiQy9Un",
+	"json": "{\"id\":\"dqD885WmsiQy9Un\",\"url\":\"https://sd.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://sd.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"SD\"}}",
+	"method": "GET",
+	"orderNo": 1777186525970,
+	"retryCount": 0,
+	"uniqueKey": "https://sd.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://sd.craigslist.org/search/ccc?query=yard+sale"
+}

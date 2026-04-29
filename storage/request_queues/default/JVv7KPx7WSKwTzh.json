@@ -1,0 +1,9 @@
+{
+	"id": "JVv7KPx7WSKwTzh",
+	"json": "{\"id\":\"JVv7KPx7WSKwTzh\",\"url\":\"https://phoenix.craigslist.org/evl/fuo/d/mesa-misc-furniture-home-stuff-moving/7914905188.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/fuo/d/mesa-misc-furniture-home-stuff-moving/7914905188.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/fuo/d/mesa-misc-furniture-home-stuff-moving/7914905188.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:39:08.012Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/fuo/d/mesa-misc-furniture-home-stuff-moving/7914905188.html",
+	"url": "https://phoenix.craigslist.org/evl/fuo/d/mesa-misc-furniture-home-stuff-moving/7914905188.html"
+}

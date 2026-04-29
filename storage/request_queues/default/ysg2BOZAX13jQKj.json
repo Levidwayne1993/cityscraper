@@ -1,0 +1,9 @@
+{
+	"id": "ysg2BOZAX13jQKj",
+	"json": "{\"id\":\"ysg2BOZAX13jQKj\",\"url\":\"https://ventura.craigslist.org/gms/d/westlake-village-semi-annual-lakeshore/7928373198.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/westlake-village-semi-annual-lakeshore/7928373198.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/westlake-village-semi-annual-lakeshore/7928373198.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:52.389Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/westlake-village-semi-annual-lakeshore/7928373198.html",
+	"url": "https://ventura.craigslist.org/gms/d/westlake-village-semi-annual-lakeshore/7928373198.html"
+}

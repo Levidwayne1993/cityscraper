@@ -1,0 +1,9 @@
+{
+	"id": "vD8uq5QUsQf4Z9Z",
+	"json": "{\"id\":\"vD8uq5QUsQf4Z9Z\",\"url\":\"https://farmington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://farmington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186522926,
+	"retryCount": 0,
+	"uniqueKey": "https://farmington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://farmington.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "TK5czF0h9KS8fOQ",
+	"json": "{\"id\":\"TK5czF0h9KS8fOQ\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-multi-family-yard-sale/7923845550.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-multi-family-yard-sale/7923845550.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-huge-multi-family-yard-sale/7923845550.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:22:19.544Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-huge-multi-family-yard-sale/7923845550.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-huge-multi-family-yard-sale/7923845550.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "RQplrhYgj5Y3aBN",
+	"json": "{\"id\":\"RQplrhYgj5Y3aBN\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-huge-yard-sale/7926549776.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-huge-yard-sale/7926549776.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-huge-yard-sale/7926549776.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:42:51.344Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-huge-yard-sale/7926549776.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-huge-yard-sale/7926549776.html"
+}

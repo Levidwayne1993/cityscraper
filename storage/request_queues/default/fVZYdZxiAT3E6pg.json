@@ -1,0 +1,9 @@
+{
+	"id": "fVZYdZxiAT3E6pg",
+	"json": "{\"id\":\"fVZYdZxiAT3E6pg\",\"url\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-acreage-yard-sale/7922343886.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-acreage-yard-sale/7922343886.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/gms/d/west-palm-beach-acreage-yard-sale/7922343886.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:06:49.048Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-acreage-yard-sale/7922343886.html",
+	"url": "https://miami.craigslist.org/pbc/gms/d/west-palm-beach-acreage-yard-sale/7922343886.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Cbw52XfcP3ViZ2w",
+	"json": "{\"id\":\"Cbw52XfcP3ViZ2w\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-1725-marston-way/7929782761.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-1725-marston-way/7929782761.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-garage-sale-1725-marston-way/7929782761.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:59:31.074Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-1725-marston-way/7929782761.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-garage-sale-1725-marston-way/7929782761.html"
+}

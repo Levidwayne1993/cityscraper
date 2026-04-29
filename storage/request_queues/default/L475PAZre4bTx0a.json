@@ -1,0 +1,9 @@
+{
+	"id": "L475PAZre4bTx0a",
+	"json": "{\"id\":\"L475PAZre4bTx0a\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/kensington-rock-creek-hills-community/7928033572.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/kensington-rock-creek-hills-community/7928033572.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/kensington-rock-creek-hills-community/7928033572.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:25:59.495Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/kensington-rock-creek-hills-community/7928033572.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/kensington-rock-creek-hills-community/7928033572.html"
+}

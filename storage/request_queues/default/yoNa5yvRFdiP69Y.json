@@ -1,0 +1,9 @@
+{
+	"id": "yoNa5yvRFdiP69Y",
+	"json": "{\"id\":\"yoNa5yvRFdiP69Y\",\"url\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-joybird-style-deep/7927554934.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-joybird-style-deep/7927554934.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-joybird-style-deep/7927554934.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:08:05.548Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-joybird-style-deep/7927554934.html",
+	"url": "https://sandiego.craigslist.org/nsd/hsh/d/cardiff-by-the-sea-joybird-style-deep/7927554934.html"
+}

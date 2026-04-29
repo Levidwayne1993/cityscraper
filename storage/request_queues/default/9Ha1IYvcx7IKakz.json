@@ -1,0 +1,9 @@
+{
+	"id": "9Ha1IYvcx7IKakz",
+	"json": "{\"id\":\"9Ha1IYvcx7IKakz\",\"url\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-sierra-vista-estate-sales/7923743004.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-sierra-vista-estate-sales/7923743004.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-sierra-vista-estate-sales/7923743004.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:52:40.805Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/sierra-vista-sierra-vista-estate-sales/7923743004.html",
+	"url": "https://sierravista.craigslist.org/gms/d/sierra-vista-sierra-vista-estate-sales/7923743004.html"
+}

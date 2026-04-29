@@ -1,0 +1,9 @@
+{
+	"id": "s29oIlTQmY7No8y",
+	"json": "{\"id\":\"s29oIlTQmY7No8y\",\"url\":\"https://boulder.craigslist.org/gms/d/longmont-estate-sale-county-rd-18/7926544522.html\",\"loadedUrl\":\"https://boulder.craigslist.org/gms/d/longmont-estate-sale-county-rd-18/7926544522.html\",\"uniqueKey\":\"https://boulder.craigslist.org/gms/d/longmont-estate-sale-county-rd-18/7926544522.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:28:44.819Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/gms/d/longmont-estate-sale-county-rd-18/7926544522.html",
+	"url": "https://boulder.craigslist.org/gms/d/longmont-estate-sale-county-rd-18/7926544522.html"
+}

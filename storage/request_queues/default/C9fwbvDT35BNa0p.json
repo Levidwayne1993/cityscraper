@@ -1,0 +1,9 @@
+{
+	"id": "C9fwbvDT35BNa0p",
+	"json": "{\"id\":\"C9fwbvDT35BNa0p\",\"url\":\"https://denver.craigslist.org/gms/d/denver-yard-sale/7922266074.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/denver-yard-sale/7922266074.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/denver-yard-sale/7922266074.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:37:40.175Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/denver-yard-sale/7922266074.html",
+	"url": "https://denver.craigslist.org/gms/d/denver-yard-sale/7922266074.html"
+}

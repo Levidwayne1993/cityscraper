@@ -1,0 +1,9 @@
+{
+	"id": "90EA8PnzMR4E7Zc",
+	"json": "{\"id\":\"90EA8PnzMR4E7Zc\",\"url\":\"https://fayar.craigslist.org/gms/d/bella-vista-garage-sale/7927812928.html\",\"loadedUrl\":\"https://fayar.craigslist.org/gms/d/bella-vista-garage-sale/7927812928.html\",\"uniqueKey\":\"https://fayar.craigslist.org/gms/d/bella-vista-garage-sale/7927812928.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:12:59.203Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fayar.craigslist.org/gms/d/bella-vista-garage-sale/7927812928.html",
+	"url": "https://fayar.craigslist.org/gms/d/bella-vista-garage-sale/7927812928.html"
+}

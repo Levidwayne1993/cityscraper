@@ -1,0 +1,9 @@
+{
+	"id": "KmVPqCoV2AQvtE6",
+	"json": "{\"id\":\"KmVPqCoV2AQvtE6\",\"url\":\"https://mohave.craigslist.org/gms/d/hualapai-garage-sale/7920966309.html\",\"loadedUrl\":\"https://mohave.craigslist.org/gms/d/hualapai-garage-sale/7920966309.html\",\"uniqueKey\":\"https://mohave.craigslist.org/gms/d/hualapai-garage-sale/7920966309.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:27.854Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mohave.craigslist.org/gms/d/hualapai-garage-sale/7920966309.html",
+	"url": "https://mohave.craigslist.org/gms/d/hualapai-garage-sale/7920966309.html"
+}

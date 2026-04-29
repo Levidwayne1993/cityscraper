@@ -1,0 +1,9 @@
+{
+	"id": "P7IV9is5znn2s7i",
+	"json": "{\"id\":\"P7IV9is5znn2s7i\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-moving-sale/7930074132.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-moving-sale/7930074132.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/hayward-big-moving-sale/7930074132.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:44.970Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/hayward-big-moving-sale/7930074132.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/hayward-big-moving-sale/7930074132.html"
+}

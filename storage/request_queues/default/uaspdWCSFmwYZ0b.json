@@ -1,0 +1,9 @@
+{
+	"id": "uaspdWCSFmwYZ0b",
+	"json": "{\"id\":\"uaspdWCSFmwYZ0b\",\"url\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-1081-marcus-street/7924825680.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-1081-marcus-street/7924825680.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-1081-marcus-street/7924825680.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:25:07.700Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-1081-marcus-street/7924825680.html",
+	"url": "https://fortmyers.craigslist.org/chl/gms/d/port-charlotte-1081-marcus-street/7924825680.html"
+}

@@ -1,9 +1,0 @@
-{
-	"id": "5ZWW6vNibTLE8Mj",
-	"json": "{\"id\":\"5ZWW6vNibTLE8Mj\",\"url\":\"https://www.estatesales.net/Pennsylvania?page=4\",\"uniqueKey\":\"https://www.estatesales.net/Pennsylvania?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"estatesales\",\"state\":\"Pennsylvania\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040330102,
-	"retryCount": 0,
-	"uniqueKey": "https://www.estatesales.net/Pennsylvania?page=4",
-	"url": "https://www.estatesales.net/Pennsylvania?page=4"
-}

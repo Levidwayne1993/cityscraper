@@ -1,8 +1,8 @@
 {
 	"id": "XTZQBJkpkTSqssL",
-	"json": "{\"id\":\"XTZQBJkpkTSqssL\",\"url\":\"https://mohave.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://mohave.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"XTZQBJkpkTSqssL\",\"url\":\"https://mohave.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://mohave.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://mohave.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:21:21.572Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322991,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://mohave.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://mohave.craigslist.org/search/sss?query=moving+sale"

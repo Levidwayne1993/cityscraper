@@ -1,0 +1,9 @@
+{
+	"id": "a8J9WmkxquuWGXH",
+	"json": "{\"id\":\"a8J9WmkxquuWGXH\",\"url\":\"https://southbend.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://southbend.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"IN\"}}",
+	"method": "GET",
+	"orderNo": 1777186518384,
+	"retryCount": 0,
+	"uniqueKey": "https://southbend.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://southbend.craigslist.org/search/ccc?query=garage+sale"
+}

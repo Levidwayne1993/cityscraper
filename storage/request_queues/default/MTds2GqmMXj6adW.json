@@ -1,0 +1,9 @@
+{
+	"id": "MTds2GqmMXj6adW",
+	"json": "{\"id\":\"MTds2GqmMXj6adW\",\"url\":\"https://eastnc.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://eastnc.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523431,
+	"retryCount": 0,
+	"uniqueKey": "https://eastnc.craigslist.org/search/gms?s=480",
+	"url": "https://eastnc.craigslist.org/search/gms?s=480"
+}

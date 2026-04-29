@@ -1,0 +1,9 @@
+{
+	"id": "o3Ge8i9e2vclrEX",
+	"json": "{\"id\":\"o3Ge8i9e2vclrEX\",\"url\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-2534-woodrow-ave/7928497319.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-2534-woodrow-ave/7928497319.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-2534-woodrow-ave/7928497319.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:12:13.760Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-2534-woodrow-ave/7928497319.html",
+	"url": "https://ventura.craigslist.org/gms/d/simi-valley-yard-sale-2534-woodrow-ave/7928497319.html"
+}

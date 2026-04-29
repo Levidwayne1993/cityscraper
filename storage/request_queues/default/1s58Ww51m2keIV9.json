@@ -1,0 +1,9 @@
+{
+	"id": "1s58Ww51m2keIV9",
+	"json": "{\"id\":\"1s58Ww51m2keIV9\",\"url\":\"https://pittsburgh.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://pittsburgh.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"PA\"}}",
+	"method": "GET",
+	"orderNo": 1777186525704,
+	"retryCount": 0,
+	"uniqueKey": "https://pittsburgh.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://pittsburgh.craigslist.org/search/ccc?query=yard+sale"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "G702dcSKEpr1aGj",
+	"json": "{\"id\":\"G702dcSKEpr1aGj\",\"url\":\"https://sacramento.craigslist.org/gms/d/folsom-moving-sale-198-orange-blossom/7928027753.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/folsom-moving-sale-198-orange-blossom/7928027753.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/folsom-moving-sale-198-orange-blossom/7928027753.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:23.188Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/folsom-moving-sale-198-orange-blossom/7928027753.html",
+	"url": "https://sacramento.craigslist.org/gms/d/folsom-moving-sale-198-orange-blossom/7928027753.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "effdB8GeCSBRzzN",
+	"json": "{\"id\":\"effdB8GeCSBRzzN\",\"url\":\"https://tulsa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://tulsa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186525128,
+	"retryCount": 0,
+	"uniqueKey": "https://tulsa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://tulsa.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

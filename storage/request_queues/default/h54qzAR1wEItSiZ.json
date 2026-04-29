@@ -1,0 +1,9 @@
+{
+	"id": "h54qzAR1wEItSiZ",
+	"json": "{\"id\":\"h54qzAR1wEItSiZ\",\"url\":\"https://parkersburg.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://parkersburg.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WV\"}}",
+	"method": "GET",
+	"orderNo": 1777186528167,
+	"retryCount": 0,
+	"uniqueKey": "https://parkersburg.craigslist.org/search/gms?s=480",
+	"url": "https://parkersburg.craigslist.org/search/gms?s=480"
+}

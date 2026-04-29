@@ -1,0 +1,9 @@
+{
+	"id": "L1Sf6poqi2lBDuz",
+	"json": "{\"id\":\"L1Sf6poqi2lBDuz\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-multi-family-yard-sale/7927022951.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-multi-family-yard-sale/7927022951.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-huge-multi-family-yard-sale/7927022951.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:08:53.662Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-huge-multi-family-yard-sale/7927022951.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-huge-multi-family-yard-sale/7927022951.html"
+}

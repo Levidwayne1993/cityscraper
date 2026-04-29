@@ -1,0 +1,9 @@
+{
+	"id": "83OgoSPpD5ACtxj",
+	"json": "{\"id\":\"83OgoSPpD5ACtxj\",\"url\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-estate-sale-final-day/7929847108.html\",\"loadedUrl\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-estate-sale-final-day/7929847108.html\",\"uniqueKey\":\"https://bakersfield.craigslist.org/gms/d/bakersfield-estate-sale-final-day/7929847108.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:20:34.838Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://bakersfield.craigslist.org/gms/d/bakersfield-estate-sale-final-day/7929847108.html",
+	"url": "https://bakersfield.craigslist.org/gms/d/bakersfield-estate-sale-final-day/7929847108.html"
+}

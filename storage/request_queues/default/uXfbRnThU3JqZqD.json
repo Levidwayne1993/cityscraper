@@ -1,0 +1,9 @@
+{
+	"id": "uXfbRnThU3JqZqD",
+	"json": "{\"id\":\"uXfbRnThU3JqZqD\",\"url\":\"https://stockton.craigslist.org/fuo/d/lodi-estate-sale-glass-top-dining-room/7899941917.html\",\"loadedUrl\":\"https://stockton.craigslist.org/fuo/d/lodi-estate-sale-glass-top-dining-room/7899941917.html\",\"uniqueKey\":\"https://stockton.craigslist.org/fuo/d/lodi-estate-sale-glass-top-dining-room/7899941917.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:04:38.431Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/fuo/d/lodi-estate-sale-glass-top-dining-room/7899941917.html",
+	"url": "https://stockton.craigslist.org/fuo/d/lodi-estate-sale-glass-top-dining-room/7899941917.html"
+}

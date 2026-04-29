@@ -1,8 +1,8 @@
 {
 	"id": "a0plc4kKbldVWcT",
-	"json": "{\"id\":\"a0plc4kKbldVWcT\",\"url\":\"https://panamacity.craigslist.org/search/gms\",\"uniqueKey\":\"https://panamacity.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"a0plc4kKbldVWcT\",\"url\":\"https://panamacity.craigslist.org/search/gms\",\"loadedUrl\":\"https://panamacity.craigslist.org/search/gms\",\"uniqueKey\":\"https://panamacity.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:35:46.714Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323603,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://panamacity.craigslist.org/search/gms",
 	"url": "https://panamacity.craigslist.org/search/gms"

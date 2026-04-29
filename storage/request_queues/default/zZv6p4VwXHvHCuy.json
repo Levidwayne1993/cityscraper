@@ -1,0 +1,9 @@
+{
+	"id": "zZv6p4VwXHvHCuy",
+	"json": "{\"id\":\"zZv6p4VwXHvHCuy\",\"url\":\"https://inlandempire.craigslist.org/gms/d/patton-garage-yard-sale-saturday/7928083222.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/patton-garage-yard-sale-saturday/7928083222.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/patton-garage-yard-sale-saturday/7928083222.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:09:39.458Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/patton-garage-yard-sale-saturday/7928083222.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/patton-garage-yard-sale-saturday/7928083222.html"
+}

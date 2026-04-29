@@ -1,0 +1,9 @@
+{
+	"id": "lmirV0sNoBr1cqD",
+	"json": "{\"id\":\"lmirV0sNoBr1cqD\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-downsizing-sale-and-clearing-out/7924095363.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-downsizing-sale-and-clearing-out/7924095363.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-downsizing-sale-and-clearing-out/7924095363.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:37:46.794Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-downsizing-sale-and-clearing-out/7924095363.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-downsizing-sale-and-clearing-out/7924095363.html"
+}

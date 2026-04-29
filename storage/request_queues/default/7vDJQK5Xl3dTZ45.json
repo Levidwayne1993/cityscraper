@@ -1,0 +1,9 @@
+{
+	"id": "7vDJQK5Xl3dTZ45",
+	"json": "{\"id\":\"7vDJQK5Xl3dTZ45\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale-mostly-boys-clothing/7920834915.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale-mostly-boys-clothing/7920834915.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale-mostly-boys-clothing/7920834915.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:13.924Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale-mostly-boys-clothing/7920834915.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/chandler-yard-sale-mostly-boys-clothing/7920834915.html"
+}

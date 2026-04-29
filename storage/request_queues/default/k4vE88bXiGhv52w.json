@@ -1,0 +1,9 @@
+{
+	"id": "k4vE88bXiGhv52w",
+	"json": "{\"id\":\"k4vE88bXiGhv52w\",\"url\":\"https://lakeland.craigslist.org/com/d/lakeland-yard-sale-off-reynolds-rd/7929395503.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/com/d/lakeland-yard-sale-off-reynolds-rd/7929395503.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/com/d/lakeland-yard-sale-off-reynolds-rd/7929395503.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:49:08.082Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/com/d/lakeland-yard-sale-off-reynolds-rd/7929395503.html",
+	"url": "https://lakeland.craigslist.org/com/d/lakeland-yard-sale-off-reynolds-rd/7929395503.html"
+}

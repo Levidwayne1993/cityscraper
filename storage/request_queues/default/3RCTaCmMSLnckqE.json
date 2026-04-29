@@ -1,0 +1,9 @@
+{
+	"id": "3RCTaCmMSLnckqE",
+	"json": "{\"id\":\"3RCTaCmMSLnckqE\",\"url\":\"https://sandiego.craigslist.org/nsd/fuo/d/solana-beach-moving-sale-everything/7928564455.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/nsd/fuo/d/solana-beach-moving-sale-everything/7928564455.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/nsd/fuo/d/solana-beach-moving-sale-everything/7928564455.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:07:05.315Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/nsd/fuo/d/solana-beach-moving-sale-everything/7928564455.html",
+	"url": "https://sandiego.craigslist.org/nsd/fuo/d/solana-beach-moving-sale-everything/7928564455.html"
+}

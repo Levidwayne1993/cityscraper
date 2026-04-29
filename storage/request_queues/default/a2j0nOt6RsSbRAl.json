@@ -1,8 +1,8 @@
 {
 	"id": "a2j0nOt6RsSbRAl",
-	"json": "{\"id\":\"a2j0nOt6RsSbRAl\",\"url\":\"https://montgomery.craigslist.org/search/gms\",\"uniqueKey\":\"https://montgomery.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"a2j0nOt6RsSbRAl\",\"url\":\"https://montgomery.craigslist.org/search/gms\",\"loadedUrl\":\"https://montgomery.craigslist.org/search/gms\",\"uniqueKey\":\"https://montgomery.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:07:10.245Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322902,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://montgomery.craigslist.org/search/gms",
 	"url": "https://montgomery.craigslist.org/search/gms"

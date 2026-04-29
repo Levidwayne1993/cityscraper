@@ -1,8 +1,8 @@
 {
 	"id": "LCFCVyc4iuDGqdy",
-	"json": "{\"id\":\"LCFCVyc4iuDGqdy\",\"url\":\"https://juneau.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://juneau.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"LCFCVyc4iuDGqdy\",\"url\":\"https://juneau.craigslist.org/search/sss?query=moving+sale\",\"loadedUrl\":\"https://juneau.craigslist.org/search/sss?query=moving+sale\",\"uniqueKey\":\"https://juneau.craigslist.org/search/sss?query=moving+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:16:18.468Z\"}",
 	"method": "GET",
-	"orderNo": 1777040322971,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://juneau.craigslist.org/search/sss?query=moving+sale",
 	"url": "https://juneau.craigslist.org/search/sss?query=moving+sale"

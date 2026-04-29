@@ -1,0 +1,9 @@
+{
+	"id": "ZCShES6mCMHbnLa",
+	"json": "{\"id\":\"ZCShES6mCMHbnLa\",\"url\":\"https://miami.craigslist.org/brw/gms/d/hallandale-huge-multi-family-sale/7929754003.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/hallandale-huge-multi-family-sale/7929754003.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/hallandale-huge-multi-family-sale/7929754003.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:15:13.663Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/hallandale-huge-multi-family-sale/7929754003.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/hallandale-huge-multi-family-sale/7929754003.html"
+}

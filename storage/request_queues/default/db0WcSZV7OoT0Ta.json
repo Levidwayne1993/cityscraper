@@ -1,0 +1,9 @@
+{
+	"id": "db0WcSZV7OoT0Ta",
+	"json": "{\"id\":\"db0WcSZV7OoT0Ta\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Cheyenne-WY.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Cheyenne-WY.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WY\",\"yssSlug\":\"Cheyenne-WY\"}}",
+	"method": "GET",
+	"orderNo": 1777186533146,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Cheyenne-WY.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Cheyenne-WY.html"
+}

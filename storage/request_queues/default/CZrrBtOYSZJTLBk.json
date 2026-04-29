@@ -1,0 +1,9 @@
+{
+	"id": "CZrrBtOYSZJTLBk",
+	"json": "{\"id\":\"CZrrBtOYSZJTLBk\",\"url\":\"https://cincinnati.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://cincinnati.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186523753,
+	"retryCount": 0,
+	"uniqueKey": "https://cincinnati.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://cincinnati.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

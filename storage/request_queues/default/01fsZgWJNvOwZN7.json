@@ -1,0 +1,9 @@
+{
+	"id": "01fsZgWJNvOwZN7",
+	"json": "{\"id\":\"01fsZgWJNvOwZN7\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-4-yard-sale-8am-old-redwood/7925552096.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-4-yard-sale-8am-old-redwood/7925552096.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-4-yard-sale-8am-old-redwood/7925552096.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:24:09.796Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-4-yard-sale-8am-old-redwood/7925552096.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-4-yard-sale-8am-old-redwood/7925552096.html"
+}

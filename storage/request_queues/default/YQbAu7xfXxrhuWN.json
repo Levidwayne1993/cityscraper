@@ -1,0 +1,9 @@
+{
+	"id": "YQbAu7xfXxrhuWN",
+	"json": "{\"id\":\"YQbAu7xfXxrhuWN\",\"url\":\"https://orlando.craigslist.org/hsh/d/oviedo-must-go-today-queen-velvet-bed/7928526036.html\",\"loadedUrl\":\"https://orlando.craigslist.org/hsh/d/oviedo-must-go-today-queen-velvet-bed/7928526036.html\",\"uniqueKey\":\"https://orlando.craigslist.org/hsh/d/oviedo-must-go-today-queen-velvet-bed/7928526036.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:34:07.430Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/hsh/d/oviedo-must-go-today-queen-velvet-bed/7928526036.html",
+	"url": "https://orlando.craigslist.org/hsh/d/oviedo-must-go-today-queen-velvet-bed/7928526036.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "eCYd95Tth49gIXk",
+	"json": "{\"id\":\"eCYd95Tth49gIXk\",\"url\":\"https://gainesville.craigslist.org/gms/d/gainesville-monthly-flea/7924448825.html\",\"loadedUrl\":\"https://gainesville.craigslist.org/gms/d/gainesville-monthly-flea/7924448825.html\",\"uniqueKey\":\"https://gainesville.craigslist.org/gms/d/gainesville-monthly-flea/7924448825.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:28:57.730Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://gainesville.craigslist.org/gms/d/gainesville-monthly-flea/7924448825.html",
+	"url": "https://gainesville.craigslist.org/gms/d/gainesville-monthly-flea/7924448825.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "vqamdGEejlRrb3Q",
+	"json": "{\"id\":\"vqamdGEejlRrb3Q\",\"url\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-pair-of-antique-quartersawn/7918936316.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-pair-of-antique-quartersawn/7918936316.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lac/fuo/d/los-angeles-pair-of-antique-quartersawn/7918936316.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:37:54.022Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lac/fuo/d/los-angeles-pair-of-antique-quartersawn/7918936316.html",
+	"url": "https://losangeles.craigslist.org/lac/fuo/d/los-angeles-pair-of-antique-quartersawn/7918936316.html"
+}

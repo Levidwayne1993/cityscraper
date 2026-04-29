@@ -1,8 +1,8 @@
 {
 	"id": "8iFi8Gv4h7pd6PS",
-	"json": "{\"id\":\"8iFi8Gv4h7pd6PS\",\"url\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"8iFi8Gv4h7pd6PS\",\"url\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:34:46.112Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323241,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://redding.craigslist.org/search/sss?query=yard+sale+garage+sale"

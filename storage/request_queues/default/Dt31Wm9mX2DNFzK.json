@@ -1,0 +1,9 @@
+{
+	"id": "Dt31Wm9mX2DNFzK",
+	"json": "{\"id\":\"Dt31Wm9mX2DNFzK\",\"url\":\"https://newhaven.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://newhaven.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:10:55.352Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/search/gms?s=480",
+	"url": "https://newhaven.craigslist.org/search/gms?s=480"
+}

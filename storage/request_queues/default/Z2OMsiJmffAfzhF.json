@@ -1,0 +1,9 @@
+{
+	"id": "Z2OMsiJmffAfzhF",
+	"json": "{\"id\":\"Z2OMsiJmffAfzhF\",\"url\":\"https://newhaven.craigslist.org/gms/d/west-haven-indoor-tag-sale-rain-or/7925054358.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/west-haven-indoor-tag-sale-rain-or/7925054358.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/west-haven-indoor-tag-sale-rain-or/7925054358.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:12:13.681Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/west-haven-indoor-tag-sale-rain-or/7925054358.html",
+	"url": "https://newhaven.craigslist.org/gms/d/west-haven-indoor-tag-sale-rain-or/7925054358.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "yS79m0M16coqCK7",
+	"json": "{\"id\":\"yS79m0M16coqCK7\",\"url\":\"https://hartford.craigslist.org/gms/d/west-hartford-huge-tag-sale-on-sunday/7929991474.html\",\"loadedUrl\":\"https://hartford.craigslist.org/gms/d/west-hartford-huge-tag-sale-on-sunday/7929991474.html\",\"uniqueKey\":\"https://hartford.craigslist.org/gms/d/west-hartford-huge-tag-sale-on-sunday/7929991474.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:05:50.841Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hartford.craigslist.org/gms/d/west-hartford-huge-tag-sale-on-sunday/7929991474.html",
+	"url": "https://hartford.craigslist.org/gms/d/west-hartford-huge-tag-sale-on-sunday/7929991474.html"
+}

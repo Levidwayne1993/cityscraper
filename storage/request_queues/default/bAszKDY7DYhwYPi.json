@@ -1,0 +1,9 @@
+{
+	"id": "bAszKDY7DYhwYPi",
+	"json": "{\"id\":\"bAszKDY7DYhwYPi\",\"url\":\"https://redding.craigslist.org/gms/d/anderson-moving-sale/7930230277.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/anderson-moving-sale/7930230277.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/anderson-moving-sale/7930230277.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:33:57.930Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/anderson-moving-sale/7930230277.html",
+	"url": "https://redding.craigslist.org/gms/d/anderson-moving-sale/7930230277.html"
+}

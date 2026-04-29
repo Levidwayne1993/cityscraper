@@ -1,0 +1,9 @@
+{
+	"id": "ha5Bo8d3DBj4e0e",
+	"json": "{\"id\":\"ha5Bo8d3DBj4e0e\",\"url\":\"https://huntsville.craigslist.org/hsh/d/huntsville-garage-yard-sale/7925336970.html\",\"loadedUrl\":\"https://huntsville.craigslist.org/hsh/d/huntsville-garage-yard-sale/7925336970.html\",\"uniqueKey\":\"https://huntsville.craigslist.org/hsh/d/huntsville-garage-yard-sale/7925336970.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:03:11.754Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://huntsville.craigslist.org/hsh/d/huntsville-garage-yard-sale/7925336970.html",
+	"url": "https://huntsville.craigslist.org/hsh/d/huntsville-garage-yard-sale/7925336970.html"
+}

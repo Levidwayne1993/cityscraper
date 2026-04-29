@@ -1,0 +1,9 @@
+{
+	"id": "HphdAkprrh4KsEn",
+	"json": "{\"id\":\"HphdAkprrh4KsEn\",\"url\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-sale-everything-goes/7929929397.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-sale-everything-goes/7929929397.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-sale-everything-goes/7929929397.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:35:07.077Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-sale-everything-goes/7929929397.html",
+	"url": "https://sfbay.craigslist.org/nby/gms/d/santa-rosa-estate-sale-everything-goes/7929929397.html"
+}

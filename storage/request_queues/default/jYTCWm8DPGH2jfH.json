@@ -1,0 +1,9 @@
+{
+	"id": "jYTCWm8DPGH2jfH",
+	"json": "{\"id\":\"jYTCWm8DPGH2jfH\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-estate-sale-orinda-by/7924636000.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-estate-sale-orinda-by/7924636000.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/orinda-estate-sale-orinda-by/7924636000.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:15:04.689Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/orinda-estate-sale-orinda-by/7924636000.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/orinda-estate-sale-orinda-by/7924636000.html"
+}

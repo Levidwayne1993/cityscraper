@@ -1,0 +1,9 @@
+{
+	"id": "EAKlWnCi8vjlGRu",
+	"json": "{\"id\":\"EAKlWnCi8vjlGRu\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-dealers/7924051479.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-dealers/7924051479.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-dealers/7924051479.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:07:54.385Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-dealers/7924051479.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/miami-multi-family-yard-sale-dealers/7924051479.html"
+}

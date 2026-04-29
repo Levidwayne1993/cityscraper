@@ -1,0 +1,9 @@
+{
+	"id": "XdJojDG8EcUGuwk",
+	"json": "{\"id\":\"XdJojDG8EcUGuwk\",\"url\":\"https://asheville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"uniqueKey\":\"https://asheville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523381,
+	"retryCount": 0,
+	"uniqueKey": "https://asheville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360",
+	"url": "https://asheville.craigslist.org/search/sss?query=yard+sale+garage+sale&s=360"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "nMo6bk7nS4RGq09",
+	"json": "{\"id\":\"nMo6bk7nS4RGq09\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/labelle-garage-sale/7928360068.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/labelle-garage-sale/7928360068.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/labelle-garage-sale/7928360068.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:28:26.345Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/labelle-garage-sale/7928360068.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/labelle-garage-sale/7928360068.html"
+}

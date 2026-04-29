@@ -1,0 +1,9 @@
+{
+	"id": "6WR1AxMxYaCBisT",
+	"json": "{\"id\":\"6WR1AxMxYaCBisT\",\"url\":\"https://mobile.craigslist.org/gms/d/mobile-garage-sale-spring-grove/7925254707.html\",\"loadedUrl\":\"https://mobile.craigslist.org/gms/d/mobile-garage-sale-spring-grove/7925254707.html\",\"uniqueKey\":\"https://mobile.craigslist.org/gms/d/mobile-garage-sale-spring-grove/7925254707.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:06:38.033Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://mobile.craigslist.org/gms/d/mobile-garage-sale-spring-grove/7925254707.html",
+	"url": "https://mobile.craigslist.org/gms/d/mobile-garage-sale-spring-grove/7925254707.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "k7R2eZJ4i6Ps4Lk",
+	"json": "{\"id\":\"k7R2eZJ4i6Ps4Lk\",\"url\":\"https://orlando.craigslist.org/gms/d/lake-mary-huge-yard-sale-in-lake-mary/7929565750.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/lake-mary-huge-yard-sale-in-lake-mary/7929565750.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/lake-mary-huge-yard-sale-in-lake-mary/7929565750.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:28:04.124Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/lake-mary-huge-yard-sale-in-lake-mary/7929565750.html",
+	"url": "https://orlando.craigslist.org/gms/d/lake-mary-huge-yard-sale-in-lake-mary/7929565750.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "QRHaCKocUcLMr2r",
+	"json": "{\"id\":\"QRHaCKocUcLMr2r\",\"url\":\"https://richmond.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://richmond.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"VA\"}}",
+	"method": "GET",
+	"orderNo": 1777186527857,
+	"retryCount": 0,
+	"uniqueKey": "https://richmond.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://richmond.craigslist.org/search/ccc?query=garage+sale"
+}

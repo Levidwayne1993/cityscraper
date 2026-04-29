@@ -1,0 +1,9 @@
+{
+	"id": "BQPGDv2Guw5Hf3U",
+	"json": "{\"id\":\"BQPGDv2Guw5Hf3U\",\"url\":\"https://saginaw.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://saginaw.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MI\"}}",
+	"method": "GET",
+	"orderNo": 1777186520893,
+	"retryCount": 0,
+	"uniqueKey": "https://saginaw.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://saginaw.craigslist.org/search/ccc?query=garage+sale"
+}

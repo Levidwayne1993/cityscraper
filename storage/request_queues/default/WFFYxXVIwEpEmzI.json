@@ -1,0 +1,9 @@
+{
+	"id": "WFFYxXVIwEpEmzI",
+	"json": "{\"id\":\"WFFYxXVIwEpEmzI\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-saturday-only/7929955004.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-saturday-only/7929955004.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-saturday-only/7929955004.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:49:02.027Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-saturday-only/7929955004.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-yard-sale-saturday-only/7929955004.html"
+}

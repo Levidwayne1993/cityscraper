@@ -1,0 +1,9 @@
+{
+	"id": "HYliHeWulzpkufH",
+	"json": "{\"id\":\"HYliHeWulzpkufH\",\"url\":\"https://newhaven.craigslist.org/gms/d/guilford-estate-tag-sale-130-north-fair/7926672596.html\",\"loadedUrl\":\"https://newhaven.craigslist.org/gms/d/guilford-estate-tag-sale-130-north-fair/7926672596.html\",\"uniqueKey\":\"https://newhaven.craigslist.org/gms/d/guilford-estate-tag-sale-130-north-fair/7926672596.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:13:47.012Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/gms/d/guilford-estate-tag-sale-130-north-fair/7926672596.html",
+	"url": "https://newhaven.craigslist.org/gms/d/guilford-estate-tag-sale-130-north-fair/7926672596.html"
+}

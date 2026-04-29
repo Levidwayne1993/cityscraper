@@ -1,0 +1,9 @@
+{
+	"id": "W7mIErvI6i0Rw3d",
+	"json": "{\"id\":\"W7mIErvI6i0Rw3d\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Minneapolis-MN.html?page=5\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Minneapolis-MN.html?page=5\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"MN\",\"yssSlug\":\"Minneapolis-MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186531207,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Minneapolis-MN.html?page=5",
+	"url": "https://www.yardsalesearch.com/yard-sales/Minneapolis-MN.html?page=5"
+}

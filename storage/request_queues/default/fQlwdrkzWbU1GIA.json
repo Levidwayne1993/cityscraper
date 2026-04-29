@@ -1,0 +1,9 @@
+{
+	"id": "fQlwdrkzWbU1GIA",
+	"json": "{\"id\":\"fQlwdrkzWbU1GIA\",\"url\":\"https://humboldt.craigslist.org/com/d/eureka-garage-sale/7930194572.html\",\"loadedUrl\":\"https://humboldt.craigslist.org/com/d/eureka-garage-sale/7930194572.html\",\"uniqueKey\":\"https://humboldt.craigslist.org/com/d/eureka-garage-sale/7930194572.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:59:53.241Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://humboldt.craigslist.org/com/d/eureka-garage-sale/7930194572.html",
+	"url": "https://humboldt.craigslist.org/com/d/eureka-garage-sale/7930194572.html"
+}

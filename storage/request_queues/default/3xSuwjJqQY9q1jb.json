@@ -1,0 +1,9 @@
+{
+	"id": "3xSuwjJqQY9q1jb",
+	"json": "{\"id\":\"3xSuwjJqQY9q1jb\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/NC/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/NC\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186530140,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/NC",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/NC/"
+}

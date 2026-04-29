@@ -1,0 +1,9 @@
+{
+	"id": "DKzpGpEsvh56P7n",
+	"json": "{\"id\":\"DKzpGpEsvh56P7n\",\"url\":\"https://sarasota.craigslist.org/gms/d/sarasota-community-garage-sale/7923770096.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/sarasota-community-garage-sale/7923770096.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/sarasota-community-garage-sale/7923770096.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:41.808Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/sarasota-community-garage-sale/7923770096.html",
+	"url": "https://sarasota.craigslist.org/gms/d/sarasota-community-garage-sale/7923770096.html"
+}

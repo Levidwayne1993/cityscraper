@@ -1,0 +1,9 @@
+{
+	"id": "YTJyq18oer2oYea",
+	"json": "{\"id\":\"YTJyq18oer2oYea\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Charleston-SC.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Charleston-SC.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"SC\",\"yssSlug\":\"Charleston-SC\"}}",
+	"method": "GET",
+	"orderNo": 1777186532697,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Charleston-SC.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Charleston-SC.html"
+}

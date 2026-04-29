@@ -1,0 +1,9 @@
+{
+	"id": "xfR7ZL67wcAdWC0",
+	"json": "{\"id\":\"xfR7ZL67wcAdWC0\",\"url\":\"https://phoenix.craigslist.org/nph/hsh/d/glendale-yard-sale/7921159978.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/hsh/d/glendale-yard-sale/7921159978.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/hsh/d/glendale-yard-sale/7921159978.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:25:42.195Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/hsh/d/glendale-yard-sale/7921159978.html",
+	"url": "https://phoenix.craigslist.org/nph/hsh/d/glendale-yard-sale/7921159978.html"
+}

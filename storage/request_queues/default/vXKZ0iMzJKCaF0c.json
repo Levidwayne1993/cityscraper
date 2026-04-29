@@ -1,0 +1,9 @@
+{
+	"id": "vXKZ0iMzJKCaF0c",
+	"json": "{\"id\":\"vXKZ0iMzJKCaF0c\",\"url\":\"https://daytona.craigslist.org/gms/d/ormond-beach-garage-sale/7925844656.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/ormond-beach-garage-sale/7925844656.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/ormond-beach-garage-sale/7925844656.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:01:28.146Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/ormond-beach-garage-sale/7925844656.html",
+	"url": "https://daytona.craigslist.org/gms/d/ormond-beach-garage-sale/7925844656.html"
+}

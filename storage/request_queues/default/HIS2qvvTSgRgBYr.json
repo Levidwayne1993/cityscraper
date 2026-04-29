@@ -1,0 +1,9 @@
+{
+	"id": "HIS2qvvTSgRgBYr",
+	"json": "{\"id\":\"HIS2qvvTSgRgBYr\",\"url\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:27:45.730Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

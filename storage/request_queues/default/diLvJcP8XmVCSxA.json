@@ -1,0 +1,9 @@
+{
+	"id": "diLvJcP8XmVCSxA",
+	"json": "{\"id\":\"diLvJcP8XmVCSxA\",\"url\":\"https://delaware.craigslist.org/gms/d/middletown-giant-moving-sale/7929743219.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/middletown-giant-moving-sale/7929743219.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/middletown-giant-moving-sale/7929743219.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:18:19.467Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/middletown-giant-moving-sale/7929743219.html",
+	"url": "https://delaware.craigslist.org/gms/d/middletown-giant-moving-sale/7929743219.html"
+}

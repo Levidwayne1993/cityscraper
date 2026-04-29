@@ -1,0 +1,9 @@
+{
+	"id": "t7UgLZg2FQeWb56",
+	"json": "{\"id\":\"t7UgLZg2FQeWb56\",\"url\":\"https://fresno.craigslist.org/search/gms?s=480\",\"loadedUrl\":\"https://fresno.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://fresno.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:39:13.819Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/search/gms?s=480",
+	"url": "https://fresno.craigslist.org/search/gms?s=480"
+}

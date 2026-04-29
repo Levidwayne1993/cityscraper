@@ -1,0 +1,9 @@
+{
+	"id": "jKTqc1uo9fN6rRF",
+	"json": "{\"id\":\"jKTqc1uo9fN6rRF\",\"url\":\"https://siskiyou.craigslist.org/gms/d/weed-garage-sale-multi-family/7930021523.html\",\"loadedUrl\":\"https://siskiyou.craigslist.org/gms/d/weed-garage-sale-multi-family/7930021523.html\",\"uniqueKey\":\"https://siskiyou.craigslist.org/gms/d/weed-garage-sale-multi-family/7930021523.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:59:49.354Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://siskiyou.craigslist.org/gms/d/weed-garage-sale-multi-family/7930021523.html",
+	"url": "https://siskiyou.craigslist.org/gms/d/weed-garage-sale-multi-family/7930021523.html"
+}

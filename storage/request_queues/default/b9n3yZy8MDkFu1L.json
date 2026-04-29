@@ -1,0 +1,9 @@
+{
+	"id": "b9n3yZy8MDkFu1L",
+	"json": "{\"id\":\"b9n3yZy8MDkFu1L\",\"url\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-garage-and-yard-moving-sale/7922610312.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-garage-and-yard-moving-sale/7922610312.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/cph/gms/d/phoenix-garage-and-yard-moving-sale/7922610312.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:27:02.712Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/cph/gms/d/phoenix-garage-and-yard-moving-sale/7922610312.html",
+	"url": "https://phoenix.craigslist.org/cph/gms/d/phoenix-garage-and-yard-moving-sale/7922610312.html"
+}

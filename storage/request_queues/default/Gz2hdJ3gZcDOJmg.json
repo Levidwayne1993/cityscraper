@@ -1,0 +1,9 @@
+{
+	"id": "Gz2hdJ3gZcDOJmg",
+	"json": "{\"id\":\"Gz2hdJ3gZcDOJmg\",\"url\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-estate-sale-thursday-19th/7922084677.html\",\"loadedUrl\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-estate-sale-thursday-19th/7922084677.html\",\"uniqueKey\":\"https://fortsmith.craigslist.org/gms/d/fort-smith-estate-sale-thursday-19th/7922084677.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:15:35.041Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortsmith.craigslist.org/gms/d/fort-smith-estate-sale-thursday-19th/7922084677.html",
+	"url": "https://fortsmith.craigslist.org/gms/d/fort-smith-estate-sale-thursday-19th/7922084677.html"
+}

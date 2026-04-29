@@ -1,0 +1,9 @@
+{
+	"id": "X5xNay9AoJnVNyr",
+	"json": "{\"id\":\"X5xNay9AoJnVNyr\",\"url\":\"https://daytona.craigslist.org/gms/d/orange-city-garage-sale-orange-city-am/7923944143.html\",\"loadedUrl\":\"https://daytona.craigslist.org/gms/d/orange-city-garage-sale-orange-city-am/7923944143.html\",\"uniqueKey\":\"https://daytona.craigslist.org/gms/d/orange-city-garage-sale-orange-city-am/7923944143.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:01:15.449Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://daytona.craigslist.org/gms/d/orange-city-garage-sale-orange-city-am/7923944143.html",
+	"url": "https://daytona.craigslist.org/gms/d/orange-city-garage-sale-orange-city-am/7923944143.html"
+}

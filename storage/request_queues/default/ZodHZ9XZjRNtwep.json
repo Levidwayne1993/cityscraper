@@ -1,0 +1,9 @@
+{
+	"id": "ZodHZ9XZjRNtwep",
+	"json": "{\"id\":\"ZodHZ9XZjRNtwep\",\"url\":\"https://orangecounty.craigslist.org/gms/d/orange-clothing-sale-community-yard/7921392786.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/orange-clothing-sale-community-yard/7921392786.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/orange-clothing-sale-community-yard/7921392786.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:11:41.364Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/orange-clothing-sale-community-yard/7921392786.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/orange-clothing-sale-community-yard/7921392786.html"
+}

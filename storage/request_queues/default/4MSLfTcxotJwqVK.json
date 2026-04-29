@@ -1,0 +1,9 @@
+{
+	"id": "4MSLfTcxotJwqVK",
+	"json": "{\"id\":\"4MSLfTcxotJwqVK\",\"url\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-today-and/7924065188.html\",\"loadedUrl\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-today-and/7924065188.html\",\"uniqueKey\":\"https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-today-and/7924065188.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:33.690Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-today-and/7924065188.html",
+	"url": "https://miami.craigslist.org/pbc/clt/d/boca-raton-estate-sale-today-and/7924065188.html"
+}

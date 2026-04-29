@@ -1,8 +1,8 @@
 {
 	"id": "HWWI5aZIgmlLm65",
-	"json": "{\"id\":\"HWWI5aZIgmlLm65\",\"url\":\"https://mendocino.craigslist.org/search/gms\",\"uniqueKey\":\"https://mendocino.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"HWWI5aZIgmlLm65\",\"url\":\"https://mendocino.craigslist.org/search/gms\",\"loadedUrl\":\"https://mendocino.craigslist.org/search/gms\",\"uniqueKey\":\"https://mendocino.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:47:00.054Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323188,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://mendocino.craigslist.org/search/gms",
 	"url": "https://mendocino.craigslist.org/search/gms"

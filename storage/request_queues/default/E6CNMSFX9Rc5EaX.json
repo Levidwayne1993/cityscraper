@@ -1,0 +1,9 @@
+{
+	"id": "E6CNMSFX9Rc5EaX",
+	"json": "{\"id\":\"E6CNMSFX9Rc5EaX\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/concord-estate-garage-sale/7930084699.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/concord-estate-garage-sale/7930084699.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/concord-estate-garage-sale/7930084699.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:16:17.665Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/concord-estate-garage-sale/7930084699.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/concord-estate-garage-sale/7930084699.html"
+}

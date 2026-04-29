@@ -1,0 +1,9 @@
+{
+	"id": "mEVynx45FCPah3S",
+	"json": "{\"id\":\"mEVynx45FCPah3S\",\"url\":\"https://fortcollins.craigslist.org/gms/d/loveland-huge-garage-sale-this-friday/7929385302.html\",\"loadedUrl\":\"https://fortcollins.craigslist.org/gms/d/loveland-huge-garage-sale-this-friday/7929385302.html\",\"uniqueKey\":\"https://fortcollins.craigslist.org/gms/d/loveland-huge-garage-sale-this-friday/7929385302.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:49:53.527Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortcollins.craigslist.org/gms/d/loveland-huge-garage-sale-this-friday/7929385302.html",
+	"url": "https://fortcollins.craigslist.org/gms/d/loveland-huge-garage-sale-this-friday/7929385302.html"
+}

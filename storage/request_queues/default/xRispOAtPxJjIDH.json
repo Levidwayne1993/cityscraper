@@ -1,0 +1,9 @@
+{
+	"id": "xRispOAtPxJjIDH",
+	"json": "{\"id\":\"xRispOAtPxJjIDH\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Newark-NJ.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Newark-NJ.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"NJ\",\"yssSlug\":\"Newark-NJ\"}}",
+	"method": "GET",
+	"orderNo": 1777186532421,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Newark-NJ.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Newark-NJ.html"
+}

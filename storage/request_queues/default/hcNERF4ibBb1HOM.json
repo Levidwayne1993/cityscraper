@@ -1,8 +1,8 @@
 {
 	"id": "hcNERF4ibBb1HOM",
-	"json": "{\"id\":\"hcNERF4ibBb1HOM\",\"url\":\"https://daytona.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://daytona.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"hcNERF4ibBb1HOM\",\"url\":\"https://daytona.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://daytona.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://daytona.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:41:59.738Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323497,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://daytona.craigslist.org/search/gms?s=240",
 	"url": "https://daytona.craigslist.org/search/gms?s=240"

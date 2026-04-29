@@ -1,0 +1,9 @@
+{
+	"id": "pWTDcnv3xIvRZ3Q",
+	"json": "{\"id\":\"pWTDcnv3xIvRZ3Q\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/escondido-huge-garage-sale/7928490312.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/escondido-huge-garage-sale/7928490312.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/escondido-huge-garage-sale/7928490312.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:28.561Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/escondido-huge-garage-sale/7928490312.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/escondido-huge-garage-sale/7928490312.html"
+}

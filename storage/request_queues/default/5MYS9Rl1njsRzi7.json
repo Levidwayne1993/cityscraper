@@ -1,0 +1,9 @@
+{
+	"id": "5MYS9Rl1njsRzi7",
+	"json": "{\"id\":\"5MYS9Rl1njsRzi7\",\"url\":\"https://sacramento.craigslist.org/gms/d/sacramento-friday-16-and-saturday-17/7928035506.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/sacramento-friday-16-and-saturday-17/7928035506.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/sacramento-friday-16-and-saturday-17/7928035506.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:50:25.256Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/sacramento-friday-16-and-saturday-17/7928035506.html",
+	"url": "https://sacramento.craigslist.org/gms/d/sacramento-friday-16-and-saturday-17/7928035506.html"
+}

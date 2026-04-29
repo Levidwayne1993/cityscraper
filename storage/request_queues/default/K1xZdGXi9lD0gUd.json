@@ -1,0 +1,9 @@
+{
+	"id": "K1xZdGXi9lD0gUd",
+	"json": "{\"id\":\"K1xZdGXi9lD0gUd\",\"url\":\"https://tucson.craigslist.org/gms/d/tubac-casa-amigos-estate-sale/7927826945.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tubac-casa-amigos-estate-sale/7927826945.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tubac-casa-amigos-estate-sale/7927826945.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:06:29.584Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tubac-casa-amigos-estate-sale/7927826945.html",
+	"url": "https://tucson.craigslist.org/gms/d/tubac-casa-amigos-estate-sale/7927826945.html"
+}

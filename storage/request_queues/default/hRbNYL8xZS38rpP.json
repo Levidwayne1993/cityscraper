@@ -1,0 +1,9 @@
+{
+	"id": "hRbNYL8xZS38rpP",
+	"json": "{\"id\":\"hRbNYL8xZS38rpP\",\"url\":\"https://washingtondc.craigslist.org/nva/gms/d/alexandria-moving-sale-today-12-noon/7928530445.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/nva/gms/d/alexandria-moving-sale-today-12-noon/7928530445.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/nva/gms/d/alexandria-moving-sale-today-12-noon/7928530445.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:29:45.442Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/nva/gms/d/alexandria-moving-sale-today-12-noon/7928530445.html",
+	"url": "https://washingtondc.craigslist.org/nva/gms/d/alexandria-moving-sale-today-12-noon/7928530445.html"
+}

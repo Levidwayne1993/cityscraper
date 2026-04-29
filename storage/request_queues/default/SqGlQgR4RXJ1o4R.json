@@ -1,0 +1,9 @@
+{
+	"id": "SqGlQgR4RXJ1o4R",
+	"json": "{\"id\":\"SqGlQgR4RXJ1o4R\",\"url\":\"https://inlandempire.craigslist.org/gms/d/upland-yard-sale-upland-ca/7923779900.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/upland-yard-sale-upland-ca/7923779900.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/upland-yard-sale-upland-ca/7923779900.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:05:43.452Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/upland-yard-sale-upland-ca/7923779900.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/upland-yard-sale-upland-ca/7923779900.html"
+}

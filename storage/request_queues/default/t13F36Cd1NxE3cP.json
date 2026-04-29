@@ -1,0 +1,9 @@
+{
+	"id": "t13F36Cd1NxE3cP",
+	"json": "{\"id\":\"t13F36Cd1NxE3cP\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Burlington-VT.html?page=4\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Burlington-VT.html?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"VT\",\"yssSlug\":\"Burlington-VT\"}}",
+	"method": "GET",
+	"orderNo": 1777186532982,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Burlington-VT.html?page=4",
+	"url": "https://www.yardsalesearch.com/yard-sales/Burlington-VT.html?page=4"
+}

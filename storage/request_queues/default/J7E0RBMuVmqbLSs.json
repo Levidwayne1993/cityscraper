@@ -1,0 +1,9 @@
+{
+	"id": "J7E0RBMuVmqbLSs",
+	"json": "{\"id\":\"J7E0RBMuVmqbLSs\",\"url\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-huge-garage-sale-dont-miss-it/7928890403.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-huge-garage-sale-dont-miss-it/7928890403.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/eby/gms/d/oakland-huge-garage-sale-dont-miss-it/7928890403.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:18:34.381Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/eby/gms/d/oakland-huge-garage-sale-dont-miss-it/7928890403.html",
+	"url": "https://sfbay.craigslist.org/eby/gms/d/oakland-huge-garage-sale-dont-miss-it/7928890403.html"
+}

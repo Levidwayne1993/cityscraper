@@ -1,0 +1,9 @@
+{
+	"id": "bsxFw7MHfwgZXbl",
+	"json": "{\"id\":\"bsxFw7MHfwgZXbl\",\"url\":\"https://newjersey.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://newjersey.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\"}}",
+	"method": "GET",
+	"orderNo": 1777186522822,
+	"retryCount": 0,
+	"uniqueKey": "https://newjersey.craigslist.org/search/gms?s=480",
+	"url": "https://newjersey.craigslist.org/search/gms?s=480"
+}

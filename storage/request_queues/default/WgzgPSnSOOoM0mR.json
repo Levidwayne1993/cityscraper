@@ -1,0 +1,9 @@
+{
+	"id": "WgzgPSnSOOoM0mR",
+	"json": "{\"id\":\"WgzgPSnSOOoM0mR\",\"url\":\"https://orlando.craigslist.org/gms/d/winter-garden-alexander-ridge-winter/7923763461.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/winter-garden-alexander-ridge-winter/7923763461.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/winter-garden-alexander-ridge-winter/7923763461.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:59.792Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/winter-garden-alexander-ridge-winter/7923763461.html",
+	"url": "https://orlando.craigslist.org/gms/d/winter-garden-alexander-ridge-winter/7923763461.html"
+}

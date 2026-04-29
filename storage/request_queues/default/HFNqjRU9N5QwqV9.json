@@ -1,0 +1,9 @@
+{
+	"id": "HFNqjRU9N5QwqV9",
+	"json": "{\"id\":\"HFNqjRU9N5QwqV9\",\"url\":\"https://delaware.craigslist.org/gms/d/millsboro-multi-family-yard-sale/7927986006.html\",\"loadedUrl\":\"https://delaware.craigslist.org/gms/d/millsboro-multi-family-yard-sale/7927986006.html\",\"uniqueKey\":\"https://delaware.craigslist.org/gms/d/millsboro-multi-family-yard-sale/7927986006.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DE\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:19:35.372Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://delaware.craigslist.org/gms/d/millsboro-multi-family-yard-sale/7927986006.html",
+	"url": "https://delaware.craigslist.org/gms/d/millsboro-multi-family-yard-sale/7927986006.html"
+}

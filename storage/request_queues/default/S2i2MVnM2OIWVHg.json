@@ -1,0 +1,9 @@
+{
+	"id": "S2i2MVnM2OIWVHg",
+	"json": "{\"id\":\"S2i2MVnM2OIWVHg\",\"url\":\"https://phoenix.craigslist.org/wvl/gms/d/palo-verde-storage-unit-clean-out-sale/7920008022.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/wvl/gms/d/palo-verde-storage-unit-clean-out-sale/7920008022.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/wvl/gms/d/palo-verde-storage-unit-clean-out-sale/7920008022.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:24:36.942Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/wvl/gms/d/palo-verde-storage-unit-clean-out-sale/7920008022.html",
+	"url": "https://phoenix.craigslist.org/wvl/gms/d/palo-verde-storage-unit-clean-out-sale/7920008022.html"
+}

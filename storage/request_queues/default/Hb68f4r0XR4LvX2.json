@@ -1,0 +1,9 @@
+{
+	"id": "Hb68f4r0XR4LvX2",
+	"json": "{\"id\":\"Hb68f4r0XR4LvX2\",\"url\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-estate-sale-friday-only/7927801272.html\",\"loadedUrl\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-estate-sale-friday-only/7927801272.html\",\"uniqueKey\":\"https://slo.craigslist.org/gms/d/san-luis-obispo-estate-sale-friday-only/7927801272.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:46:33.833Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/gms/d/san-luis-obispo-estate-sale-friday-only/7927801272.html",
+	"url": "https://slo.craigslist.org/gms/d/san-luis-obispo-estate-sale-friday-only/7927801272.html"
+}

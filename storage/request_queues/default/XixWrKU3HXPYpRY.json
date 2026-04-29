@@ -1,0 +1,9 @@
+{
+	"id": "XixWrKU3HXPYpRY",
+	"json": "{\"id\":\"XixWrKU3HXPYpRY\",\"url\":\"https://visalia.craigslist.org/pts/d/exeter-project-muscle-cars-for-sale-at/7929644921.html\",\"loadedUrl\":\"https://visalia.craigslist.org/pts/d/exeter-project-muscle-cars-for-sale-at/7929644921.html\",\"uniqueKey\":\"https://visalia.craigslist.org/pts/d/exeter-project-muscle-cars-for-sale-at/7929644921.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:22:43.326Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://visalia.craigslist.org/pts/d/exeter-project-muscle-cars-for-sale-at/7929644921.html",
+	"url": "https://visalia.craigslist.org/pts/d/exeter-project-muscle-cars-for-sale-at/7929644921.html"
+}

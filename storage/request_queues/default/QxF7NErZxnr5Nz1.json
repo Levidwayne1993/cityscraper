@@ -1,0 +1,9 @@
+{
+	"id": "QxF7NErZxnr5Nz1",
+	"json": "{\"id\":\"QxF7NErZxnr5Nz1\",\"url\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale/7928500291.html\",\"loadedUrl\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale/7928500291.html\",\"uniqueKey\":\"https://ventura.craigslist.org/gms/d/camarillo-garage-sale/7928500291.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:15:56.816Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://ventura.craigslist.org/gms/d/camarillo-garage-sale/7928500291.html",
+	"url": "https://ventura.craigslist.org/gms/d/camarillo-garage-sale/7928500291.html"
+}

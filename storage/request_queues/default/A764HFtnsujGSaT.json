@@ -1,0 +1,9 @@
+{
+	"id": "A764HFtnsujGSaT",
+	"json": "{\"id\":\"A764HFtnsujGSaT\",\"url\":\"https://jonesboro.craigslist.org/gms/d/jonesboro-garage-sale-in-jonesboro/7930011931.html\",\"loadedUrl\":\"https://jonesboro.craigslist.org/gms/d/jonesboro-garage-sale-in-jonesboro/7930011931.html\",\"uniqueKey\":\"https://jonesboro.craigslist.org/gms/d/jonesboro-garage-sale-in-jonesboro/7930011931.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AR\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:15:55.652Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://jonesboro.craigslist.org/gms/d/jonesboro-garage-sale-in-jonesboro/7930011931.html",
+	"url": "https://jonesboro.craigslist.org/gms/d/jonesboro-garage-sale-in-jonesboro/7930011931.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "KOvAMKoauoaWcz2",
+	"json": "{\"id\":\"KOvAMKoauoaWcz2\",\"url\":\"https://winstonsalem.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://winstonsalem.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NC\"}}",
+	"method": "GET",
+	"orderNo": 1777186523560,
+	"retryCount": 0,
+	"uniqueKey": "https://winstonsalem.craigslist.org/search/gms?s=480",
+	"url": "https://winstonsalem.craigslist.org/search/gms?s=480"
+}

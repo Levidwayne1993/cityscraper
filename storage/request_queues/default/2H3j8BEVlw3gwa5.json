@@ -1,9 +1,0 @@
-{
-	"id": "2H3j8BEVlw3gwa5",
-	"json": "{\"id\":\"2H3j8BEVlw3gwa5\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Eugene-OR.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Eugene-OR.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"OR\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040332842,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Eugene-OR.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Eugene-OR.html"
-}

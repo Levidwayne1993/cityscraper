@@ -1,0 +1,9 @@
+{
+	"id": "wVqQYTdCakY9QYd",
+	"json": "{\"id\":\"wVqQYTdCakY9QYd\",\"url\":\"https://newlondon.craigslist.org/gms/d/willimantic-spring-waim-flea-market/7922867125.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/gms/d/willimantic-spring-waim-flea-market/7922867125.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/gms/d/willimantic-spring-waim-flea-market/7922867125.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:29.328Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/gms/d/willimantic-spring-waim-flea-market/7922867125.html",
+	"url": "https://newlondon.craigslist.org/gms/d/willimantic-spring-waim-flea-market/7922867125.html"
+}

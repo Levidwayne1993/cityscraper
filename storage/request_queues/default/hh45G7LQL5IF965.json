@@ -1,0 +1,9 @@
+{
+	"id": "hh45G7LQL5IF965",
+	"json": "{\"id\":\"hh45G7LQL5IF965\",\"url\":\"https://sacramento.craigslist.org/gms/d/vacaville-yard-sale-friday-and-saturday/7928269380.html\",\"loadedUrl\":\"https://sacramento.craigslist.org/gms/d/vacaville-yard-sale-friday-and-saturday/7928269380.html\",\"uniqueKey\":\"https://sacramento.craigslist.org/gms/d/vacaville-yard-sale-friday-and-saturday/7928269380.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:45:12.238Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sacramento.craigslist.org/gms/d/vacaville-yard-sale-friday-and-saturday/7928269380.html",
+	"url": "https://sacramento.craigslist.org/gms/d/vacaville-yard-sale-friday-and-saturday/7928269380.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "ucAPrFJTdedTABX",
+	"json": "{\"id\":\"ucAPrFJTdedTABX\",\"url\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-cactus-estate-sales-1801/7928219783.html\",\"loadedUrl\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-cactus-estate-sales-1801/7928219783.html\",\"uniqueKey\":\"https://sierravista.craigslist.org/gms/d/sierra-vista-cactus-estate-sales-1801/7928219783.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:52:50.676Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sierravista.craigslist.org/gms/d/sierra-vista-cactus-estate-sales-1801/7928219783.html",
+	"url": "https://sierravista.craigslist.org/gms/d/sierra-vista-cactus-estate-sales-1801/7928219783.html"
+}

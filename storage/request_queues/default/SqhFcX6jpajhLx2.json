@@ -1,0 +1,9 @@
+{
+	"id": "SqhFcX6jpajhLx2",
+	"json": "{\"id\":\"SqhFcX6jpajhLx2\",\"url\":\"https://joplin.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://joplin.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MO\"}}",
+	"method": "GET",
+	"orderNo": 1777186521231,
+	"retryCount": 0,
+	"uniqueKey": "https://joplin.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://joplin.craigslist.org/search/ccc?query=garage+sale"
+}

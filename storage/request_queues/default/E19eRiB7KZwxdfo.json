@@ -1,0 +1,9 @@
+{
+	"id": "E19eRiB7KZwxdfo",
+	"json": "{\"id\":\"E19eRiB7KZwxdfo\",\"url\":\"https://www.yardsalesearch.com/yard-sales/Tacoma-WA.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/yard-sales/Tacoma-WA.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"WA\",\"yssSlug\":\"Tacoma-WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186533070,
+	"retryCount": 0,
+	"uniqueKey": "https://www.yardsalesearch.com/yard-sales/Tacoma-WA.html",
+	"url": "https://www.yardsalesearch.com/yard-sales/Tacoma-WA.html"
+}

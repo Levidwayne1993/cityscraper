@@ -1,0 +1,9 @@
+{
+	"id": "90EiSTg4Q7wVScu",
+	"json": "{\"id\":\"90EiSTg4Q7wVScu\",\"url\":\"https://pensacola.craigslist.org/gms/d/pensacola-one-day-only-pop-up-yard-sale/7928776267.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/pensacola-one-day-only-pop-up-yard-sale/7928776267.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/pensacola-one-day-only-pop-up-yard-sale/7928776267.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:41:45.670Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/pensacola-one-day-only-pop-up-yard-sale/7928776267.html",
+	"url": "https://pensacola.craigslist.org/gms/d/pensacola-one-day-only-pop-up-yard-sale/7928776267.html"
+}

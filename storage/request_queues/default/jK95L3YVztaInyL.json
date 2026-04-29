@@ -1,0 +1,9 @@
+{
+	"id": "jK95L3YVztaInyL",
+	"json": "{\"id\":\"jK95L3YVztaInyL\",\"url\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-wide-garage-sale/7922157666.html\",\"loadedUrl\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-wide-garage-sale/7922157666.html\",\"uniqueKey\":\"https://orlando.craigslist.org/gms/d/orlando-huge-community-wide-garage-sale/7922157666.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:23:06.033Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orlando.craigslist.org/gms/d/orlando-huge-community-wide-garage-sale/7922157666.html",
+	"url": "https://orlando.craigslist.org/gms/d/orlando-huge-community-wide-garage-sale/7922157666.html"
+}

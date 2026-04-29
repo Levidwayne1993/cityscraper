@@ -1,0 +1,9 @@
+{
+	"id": "P0WpcqbFD6QyKda",
+	"json": "{\"id\":\"P0WpcqbFD6QyKda\",\"url\":\"https://fresno.craigslist.org/gms/d/fresno-community-yard-sale/7928863395.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/fresno-community-yard-sale/7928863395.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/fresno-community-yard-sale/7928863395.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:44:52.604Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/fresno-community-yard-sale/7928863395.html",
+	"url": "https://fresno.craigslist.org/gms/d/fresno-community-yard-sale/7928863395.html"
+}

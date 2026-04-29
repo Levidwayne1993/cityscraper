@@ -1,0 +1,9 @@
+{
+	"id": "EDFrNZKpUM724iA",
+	"json": "{\"id\":\"EDFrNZKpUM724iA\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/OK/?page=4\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/OK?page=4\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"OK\"}}",
+	"method": "GET",
+	"orderNo": 1777186530187,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/OK?page=4",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/OK/?page=4"
+}

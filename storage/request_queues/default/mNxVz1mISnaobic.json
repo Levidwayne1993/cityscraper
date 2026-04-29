@@ -1,0 +1,9 @@
+{
+	"id": "mNxVz1mISnaobic",
+	"json": "{\"id\":\"mNxVz1mISnaobic\",\"url\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-yard-sale/7928250324.html\",\"loadedUrl\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-yard-sale/7928250324.html\",\"uniqueKey\":\"https://miami.craigslist.org/mdc/gms/d/hialeah-yard-sale/7928250324.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:09:12.508Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/mdc/gms/d/hialeah-yard-sale/7928250324.html",
+	"url": "https://miami.craigslist.org/mdc/gms/d/hialeah-yard-sale/7928250324.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "VUGacsPz1gNm3SE",
+	"json": "{\"id\":\"VUGacsPz1gNm3SE\",\"url\":\"https://youngstown.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://youngstown.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"OH\"}}",
+	"method": "GET",
+	"orderNo": 1777186525017,
+	"retryCount": 0,
+	"uniqueKey": "https://youngstown.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://youngstown.craigslist.org/search/ccc?query=garage+sale"
+}

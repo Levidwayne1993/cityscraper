@@ -1,0 +1,9 @@
+{
+	"id": "sSSgD6SzauRXH56",
+	"json": "{\"id\":\"sSSgD6SzauRXH56\",\"url\":\"https://miami.craigslist.org/brw/gms/d/margate-yard-sale-350-sw-12th-ave/7930162658.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/gms/d/margate-yard-sale-350-sw-12th-ave/7930162658.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/gms/d/margate-yard-sale-350-sw-12th-ave/7930162658.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:03:47.449Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/gms/d/margate-yard-sale-350-sw-12th-ave/7930162658.html",
+	"url": "https://miami.craigslist.org/brw/gms/d/margate-yard-sale-350-sw-12th-ave/7930162658.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "qPWQJi0FHtijrwV",
+	"json": "{\"id\":\"qPWQJi0FHtijrwV\",\"url\":\"https://chico.craigslist.org/gms/d/chico-everything-priced-to-move-today/7926058229.html\",\"loadedUrl\":\"https://chico.craigslist.org/gms/d/chico-everything-priced-to-move-today/7926058229.html\",\"uniqueKey\":\"https://chico.craigslist.org/gms/d/chico-everything-priced-to-move-today/7926058229.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:35:34.064Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://chico.craigslist.org/gms/d/chico-everything-priced-to-move-today/7926058229.html",
+	"url": "https://chico.craigslist.org/gms/d/chico-everything-priced-to-move-today/7926058229.html"
+}

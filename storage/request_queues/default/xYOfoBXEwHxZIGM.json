@@ -1,0 +1,9 @@
+{
+	"id": "xYOfoBXEwHxZIGM",
+	"json": "{\"id\":\"xYOfoBXEwHxZIGM\",\"url\":\"https://pensacola.craigslist.org/gms/d/gulf-breeze-yard-sale-today-12/7928521933.html\",\"loadedUrl\":\"https://pensacola.craigslist.org/gms/d/gulf-breeze-yard-sale-today-12/7928521933.html\",\"uniqueKey\":\"https://pensacola.craigslist.org/gms/d/gulf-breeze-yard-sale-today-12/7928521933.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:41:24.374Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://pensacola.craigslist.org/gms/d/gulf-breeze-yard-sale-today-12/7928521933.html",
+	"url": "https://pensacola.craigslist.org/gms/d/gulf-breeze-yard-sale-today-12/7928521933.html"
+}

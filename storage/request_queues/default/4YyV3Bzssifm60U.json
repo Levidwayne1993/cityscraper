@@ -1,0 +1,9 @@
+{
+	"id": "4YyV3Bzssifm60U",
+	"json": "{\"id\":\"4YyV3Bzssifm60U\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/MS/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/MS\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"MS\"}}",
+	"method": "GET",
+	"orderNo": 1777186530077,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/MS",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/MS/"
+}

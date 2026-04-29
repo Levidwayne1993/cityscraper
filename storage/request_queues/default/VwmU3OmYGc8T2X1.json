@@ -1,0 +1,9 @@
+{
+	"id": "VwmU3OmYGc8T2X1",
+	"json": "{\"id\":\"VwmU3OmYGc8T2X1\",\"url\":\"https://www.garagesalefinder.com/yard-sales/by-location/NM/\",\"uniqueKey\":\"https://www.garagesalefinder.com/yard-sales/by-location/NM\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"garagesalefinder\",\"state\":\"NM\"}}",
+	"method": "GET",
+	"orderNo": 1777186530128,
+	"retryCount": 0,
+	"uniqueKey": "https://www.garagesalefinder.com/yard-sales/by-location/NM",
+	"url": "https://www.garagesalefinder.com/yard-sales/by-location/NM/"
+}

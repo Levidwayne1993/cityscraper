@@ -1,0 +1,9 @@
+{
+	"id": "SDSEnbF8T1bIa7K",
+	"json": "{\"id\":\"SDSEnbF8T1bIa7K\",\"url\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-saturday-18-yard-sale/7928585029.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-saturday-18-yard-sale/7928585029.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/scz/gms/d/santa-cruz-saturday-18-yard-sale/7928585029.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:27:06.949Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-saturday-18-yard-sale/7928585029.html",
+	"url": "https://sfbay.craigslist.org/scz/gms/d/santa-cruz-saturday-18-yard-sale/7928585029.html"
+}

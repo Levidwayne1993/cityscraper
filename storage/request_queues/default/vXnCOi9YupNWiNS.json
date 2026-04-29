@@ -1,8 +1,8 @@
 {
 	"id": "vXnCOi9YupNWiNS",
-	"json": "{\"id\":\"vXnCOi9YupNWiNS\",\"url\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"vXnCOi9YupNWiNS\",\"url\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"loadedUrl\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"uniqueKey\":\"https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:27:09.610Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323360,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale",
 	"url": "https://boulder.craigslist.org/search/sss?query=yard+sale+garage+sale"

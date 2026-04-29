@@ -1,0 +1,9 @@
+{
+	"id": "tuyPWuMA3LYyzgB",
+	"json": "{\"id\":\"tuyPWuMA3LYyzgB\",\"url\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale/7924026513.html\",\"loadedUrl\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale/7924026513.html\",\"uniqueKey\":\"https://hanford.craigslist.org/gms/d/hanford-yard-sale/7924026513.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:53:26.527Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://hanford.craigslist.org/gms/d/hanford-yard-sale/7924026513.html",
+	"url": "https://hanford.craigslist.org/gms/d/hanford-yard-sale/7924026513.html"
+}

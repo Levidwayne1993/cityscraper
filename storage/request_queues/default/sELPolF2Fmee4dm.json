@@ -1,0 +1,9 @@
+{
+	"id": "sELPolF2Fmee4dm",
+	"json": "{\"id\":\"sELPolF2Fmee4dm\",\"url\":\"https://washingtondc.craigslist.org/doc/fuo/d/lanham-moving-sale-all-furniture/7917975873.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/doc/fuo/d/lanham-moving-sale-all-furniture/7917975873.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/doc/fuo/d/lanham-moving-sale-all-furniture/7917975873.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:32:16.687Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/doc/fuo/d/lanham-moving-sale-all-furniture/7917975873.html",
+	"url": "https://washingtondc.craigslist.org/doc/fuo/d/lanham-moving-sale-all-furniture/7917975873.html"
+}

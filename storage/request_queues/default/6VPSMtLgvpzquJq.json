@@ -1,0 +1,9 @@
+{
+	"id": "6VPSMtLgvpzquJq",
+	"json": "{\"id\":\"6VPSMtLgvpzquJq\",\"url\":\"https://cosprings.craigslist.org/grd/d/fountain-horse-tack-moving-sale/7929023128.html\",\"loadedUrl\":\"https://cosprings.craigslist.org/grd/d/fountain-horse-tack-moving-sale/7929023128.html\",\"uniqueKey\":\"https://cosprings.craigslist.org/grd/d/fountain-horse-tack-moving-sale/7929023128.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:34:11.128Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/grd/d/fountain-horse-tack-moving-sale/7929023128.html",
+	"url": "https://cosprings.craigslist.org/grd/d/fountain-horse-tack-moving-sale/7929023128.html"
+}

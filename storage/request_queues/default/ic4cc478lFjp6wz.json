@@ -1,0 +1,9 @@
+{
+	"id": "ic4cc478lFjp6wz",
+	"json": "{\"id\":\"ic4cc478lFjp6wz\",\"url\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-tool-sale-in-chandler-az-sunday/7929887110.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-tool-sale-in-chandler-az-sunday/7929887110.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/evl/gms/d/tempe-tool-sale-in-chandler-az-sunday/7929887110.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:22:56.242Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/evl/gms/d/tempe-tool-sale-in-chandler-az-sunday/7929887110.html",
+	"url": "https://phoenix.craigslist.org/evl/gms/d/tempe-tool-sale-in-chandler-az-sunday/7929887110.html"
+}

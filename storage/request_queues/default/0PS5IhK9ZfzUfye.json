@@ -1,9 +1,0 @@
-{
-	"id": "0PS5IhK9ZfzUfye",
-	"json": "{\"id\":\"0PS5IhK9ZfzUfye\",\"url\":\"https://www.yardsalesearch.com/garage-sales-in-Washington-DC.html\",\"uniqueKey\":\"https://www.yardsalesearch.com/garage-sales-in-Washington-DC.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"yardsalesearch\",\"state\":\"DC\",\"pageType\":\"index\"}}",
-	"method": "GET",
-	"orderNo": 1777040331806,
-	"retryCount": 0,
-	"uniqueKey": "https://www.yardsalesearch.com/garage-sales-in-Washington-DC.html",
-	"url": "https://www.yardsalesearch.com/garage-sales-in-Washington-DC.html"
-}

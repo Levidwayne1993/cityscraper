@@ -1,0 +1,9 @@
+{
+	"id": "fX4kpfnV8KzFl1S",
+	"json": "{\"id\":\"fX4kpfnV8KzFl1S\",\"url\":\"https://wenatchee.craigslist.org/search/ccc?query=garage+sale\",\"uniqueKey\":\"https://wenatchee.craigslist.org/search/ccc?query=garage+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"WA\"}}",
+	"method": "GET",
+	"orderNo": 1777186528067,
+	"retryCount": 0,
+	"uniqueKey": "https://wenatchee.craigslist.org/search/ccc?query=garage+sale",
+	"url": "https://wenatchee.craigslist.org/search/ccc?query=garage+sale"
+}

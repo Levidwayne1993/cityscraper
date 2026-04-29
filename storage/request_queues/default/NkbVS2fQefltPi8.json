@@ -1,0 +1,9 @@
+{
+	"id": "NkbVS2fQefltPi8",
+	"json": "{\"id\":\"NkbVS2fQefltPi8\",\"url\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-lakes-at/7929684499.html\",\"loadedUrl\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-lakes-at/7929684499.html\",\"uniqueKey\":\"https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-lakes-at/7929684499.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:05:38.237Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-lakes-at/7929684499.html",
+	"url": "https://tucson.craigslist.org/gms/d/tucson-community-garage-sale-lakes-at/7929684499.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "Vep3E5iIFwBozQO",
+	"json": "{\"id\":\"Vep3E5iIFwBozQO\",\"url\":\"https://phoenix.craigslist.org/nph/gms/d/arizona-city-self-serve-pay-yard-sale/7927577821.html\",\"loadedUrl\":\"https://phoenix.craigslist.org/nph/gms/d/arizona-city-self-serve-pay-yard-sale/7927577821.html\",\"uniqueKey\":\"https://phoenix.craigslist.org/nph/gms/d/arizona-city-self-serve-pay-yard-sale/7927577821.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:24:41.333Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://phoenix.craigslist.org/nph/gms/d/arizona-city-self-serve-pay-yard-sale/7927577821.html",
+	"url": "https://phoenix.craigslist.org/nph/gms/d/arizona-city-self-serve-pay-yard-sale/7927577821.html"
+}

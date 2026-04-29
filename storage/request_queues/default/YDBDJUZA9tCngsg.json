@@ -1,0 +1,9 @@
+{
+	"id": "YDBDJUZA9tCngsg",
+	"json": "{\"id\":\"YDBDJUZA9tCngsg\",\"url\":\"https://lakeland.craigslist.org/gms/d/lakeland-garage-sale-in-lakeland/7926891263.html\",\"loadedUrl\":\"https://lakeland.craigslist.org/gms/d/lakeland-garage-sale-in-lakeland/7926891263.html\",\"uniqueKey\":\"https://lakeland.craigslist.org/gms/d/lakeland-garage-sale-in-lakeland/7926891263.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:48:23.576Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://lakeland.craigslist.org/gms/d/lakeland-garage-sale-in-lakeland/7926891263.html",
+	"url": "https://lakeland.craigslist.org/gms/d/lakeland-garage-sale-in-lakeland/7926891263.html"
+}

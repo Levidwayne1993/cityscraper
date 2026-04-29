@@ -1,0 +1,9 @@
+{
+	"id": "630wKclhNmfy4KA",
+	"json": "{\"id\":\"630wKclhNmfy4KA\",\"url\":\"https://newlondon.craigslist.org/bik/d/ledyard-moving-sale-like-new-bikes-with/7922839209.html\",\"loadedUrl\":\"https://newlondon.craigslist.org/bik/d/ledyard-moving-sale-like-new-bikes-with/7922839209.html\",\"uniqueKey\":\"https://newlondon.craigslist.org/bik/d/ledyard-moving-sale-like-new-bikes-with/7922839209.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:04:52.107Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newlondon.craigslist.org/bik/d/ledyard-moving-sale-like-new-bikes-with/7922839209.html",
+	"url": "https://newlondon.craigslist.org/bik/d/ledyard-moving-sale-like-new-bikes-with/7922839209.html"
+}

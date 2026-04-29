@@ -1,0 +1,9 @@
+{
+	"id": "8vVkDNOs90yvOCI",
+	"json": "{\"id\":\"8vVkDNOs90yvOCI\",\"url\":\"https://fresno.craigslist.org/gms/d/clovis-april-4th-easter-garage-sale/7924875009.html\",\"loadedUrl\":\"https://fresno.craigslist.org/gms/d/clovis-april-4th-easter-garage-sale/7924875009.html\",\"uniqueKey\":\"https://fresno.craigslist.org/gms/d/clovis-april-4th-easter-garage-sale/7924875009.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:48:43.361Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fresno.craigslist.org/gms/d/clovis-april-4th-easter-garage-sale/7924875009.html",
+	"url": "https://fresno.craigslist.org/gms/d/clovis-april-4th-easter-garage-sale/7924875009.html"
+}

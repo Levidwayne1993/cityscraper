@@ -1,0 +1,9 @@
+{
+	"id": "CaUro8cp1fx2Q5X",
+	"json": "{\"id\":\"CaUro8cp1fx2Q5X\",\"url\":\"https://duluth.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://duluth.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"MN\"}}",
+	"method": "GET",
+	"orderNo": 1777186520986,
+	"retryCount": 0,
+	"uniqueKey": "https://duluth.craigslist.org/search/gms?s=480",
+	"url": "https://duluth.craigslist.org/search/gms?s=480"
+}

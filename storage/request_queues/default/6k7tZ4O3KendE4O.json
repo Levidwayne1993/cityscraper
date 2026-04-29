@@ -1,0 +1,9 @@
+{
+	"id": "6k7tZ4O3KendE4O",
+	"json": "{\"id\":\"6k7tZ4O3KendE4O\",\"url\":\"https://inlandempire.craigslist.org/gms/d/apple-valley-yard-sale-kiowa-rd-apple/7922544056.html\",\"loadedUrl\":\"https://inlandempire.craigslist.org/gms/d/apple-valley-yard-sale-kiowa-rd-apple/7922544056.html\",\"uniqueKey\":\"https://inlandempire.craigslist.org/gms/d/apple-valley-yard-sale-kiowa-rd-apple/7922544056.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:05:17.980Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://inlandempire.craigslist.org/gms/d/apple-valley-yard-sale-kiowa-rd-apple/7922544056.html",
+	"url": "https://inlandempire.craigslist.org/gms/d/apple-valley-yard-sale-kiowa-rd-apple/7922544056.html"
+}

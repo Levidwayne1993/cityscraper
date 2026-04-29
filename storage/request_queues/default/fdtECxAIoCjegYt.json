@@ -1,0 +1,9 @@
+{
+	"id": "fdtECxAIoCjegYt",
+	"json": "{\"id\":\"fdtECxAIoCjegYt\",\"url\":\"https://miami.craigslist.org/brw/wan/d/fort-lauderdale-selling-home-downsizing/7921526084.html\",\"loadedUrl\":\"https://miami.craigslist.org/brw/wan/d/fort-lauderdale-selling-home-downsizing/7921526084.html\",\"uniqueKey\":\"https://miami.craigslist.org/brw/wan/d/fort-lauderdale-selling-home-downsizing/7921526084.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:16:18.905Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://miami.craigslist.org/brw/wan/d/fort-lauderdale-selling-home-downsizing/7921526084.html",
+	"url": "https://miami.craigslist.org/brw/wan/d/fort-lauderdale-selling-home-downsizing/7921526084.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "XcYmdFhvVYQ3dpL",
+	"json": "{\"id\":\"XcYmdFhvVYQ3dpL\",\"url\":\"https://denver.craigslist.org/gms/d/aurora-multi-family-garage-sale-one-day/7927997732.html\",\"loadedUrl\":\"https://denver.craigslist.org/gms/d/aurora-multi-family-garage-sale-one-day/7927997732.html\",\"uniqueKey\":\"https://denver.craigslist.org/gms/d/aurora-multi-family-garage-sale-one-day/7927997732.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:42:11.432Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://denver.craigslist.org/gms/d/aurora-multi-family-garage-sale-one-day/7927997732.html",
+	"url": "https://denver.craigslist.org/gms/d/aurora-multi-family-garage-sale-one-day/7927997732.html"
+}

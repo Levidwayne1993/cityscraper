@@ -1,0 +1,9 @@
+{
+	"id": "BT1CsFLspWPaEk9",
+	"json": "{\"id\":\"BT1CsFLspWPaEk9\",\"url\":\"https://losangeles.craigslist.org/lgb/com/d/long-beach-hugh-yard-sale-saturday/7928327418.html\",\"loadedUrl\":\"https://losangeles.craigslist.org/lgb/com/d/long-beach-hugh-yard-sale-saturday/7928327418.html\",\"uniqueKey\":\"https://losangeles.craigslist.org/lgb/com/d/long-beach-hugh-yard-sale-saturday/7928327418.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:42:03.205Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://losangeles.craigslist.org/lgb/com/d/long-beach-hugh-yard-sale-saturday/7928327418.html",
+	"url": "https://losangeles.craigslist.org/lgb/com/d/long-beach-hugh-yard-sale-saturday/7928327418.html"
+}

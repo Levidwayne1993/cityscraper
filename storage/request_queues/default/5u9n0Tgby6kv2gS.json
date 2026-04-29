@@ -1,0 +1,9 @@
+{
+	"id": "5u9n0Tgby6kv2gS",
+	"json": "{\"id\":\"5u9n0Tgby6kv2gS\",\"url\":\"https://stockton.craigslist.org/gms/d/thornton-garage-sale-books-then-can/7911551284.html\",\"loadedUrl\":\"https://stockton.craigslist.org/gms/d/thornton-garage-sale-books-then-can/7911551284.html\",\"uniqueKey\":\"https://stockton.craigslist.org/gms/d/thornton-garage-sale-books-then-can/7911551284.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:06:20.552Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://stockton.craigslist.org/gms/d/thornton-garage-sale-books-then-can/7911551284.html",
+	"url": "https://stockton.craigslist.org/gms/d/thornton-garage-sale-books-then-can/7911551284.html"
+}

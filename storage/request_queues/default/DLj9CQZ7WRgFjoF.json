@@ -1,0 +1,9 @@
+{
+	"id": "DLj9CQZ7WRgFjoF",
+	"json": "{\"id\":\"DLj9CQZ7WRgFjoF\",\"url\":\"https://valdosta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://valdosta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"GA\"}}",
+	"method": "GET",
+	"orderNo": 1777186517964,
+	"retryCount": 0,
+	"uniqueKey": "https://valdosta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://valdosta.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

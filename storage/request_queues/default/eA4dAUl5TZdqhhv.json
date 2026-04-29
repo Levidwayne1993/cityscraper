@@ -1,0 +1,9 @@
+{
+	"id": "eA4dAUl5TZdqhhv",
+	"json": "{\"id\":\"eA4dAUl5TZdqhhv\",\"url\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale/7929653823.html\",\"loadedUrl\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale/7929653823.html\",\"uniqueKey\":\"https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale/7929653823.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:28:16.743Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale/7929653823.html",
+	"url": "https://fortmyers.craigslist.org/lee/gms/d/fort-myers-garage-sale/7929653823.html"
+}

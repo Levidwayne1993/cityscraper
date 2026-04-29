@@ -1,0 +1,9 @@
+{
+	"id": "UT7dE3HHVTU75bx",
+	"json": "{\"id\":\"UT7dE3HHVTU75bx\",\"url\":\"https://okaloosa.craigslist.org/gms/d/shalimar-nautical-yard-sale/7929380827.html\",\"loadedUrl\":\"https://okaloosa.craigslist.org/gms/d/shalimar-nautical-yard-sale/7929380827.html\",\"uniqueKey\":\"https://okaloosa.craigslist.org/gms/d/shalimar-nautical-yard-sale/7929380827.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:16:52.315Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://okaloosa.craigslist.org/gms/d/shalimar-nautical-yard-sale/7929380827.html",
+	"url": "https://okaloosa.craigslist.org/gms/d/shalimar-nautical-yard-sale/7929380827.html"
+}

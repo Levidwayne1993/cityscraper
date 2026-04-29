@@ -1,0 +1,9 @@
+{
+	"id": "311AzrlrSIbhI2q",
+	"json": "{\"id\":\"311AzrlrSIbhI2q\",\"url\":\"https://sarasota.craigslist.org/gms/d/bradenton-estate-sale-friday-and/7923791446.html\",\"loadedUrl\":\"https://sarasota.craigslist.org/gms/d/bradenton-estate-sale-friday-and/7923791446.html\",\"uniqueKey\":\"https://sarasota.craigslist.org/gms/d/bradenton-estate-sale-friday-and/7923791446.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T15:51:50.162Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sarasota.craigslist.org/gms/d/bradenton-estate-sale-friday-and/7923791446.html",
+	"url": "https://sarasota.craigslist.org/gms/d/bradenton-estate-sale-friday-and/7923791446.html"
+}

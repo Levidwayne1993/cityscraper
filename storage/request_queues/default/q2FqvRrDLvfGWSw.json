@@ -1,0 +1,9 @@
+{
+	"id": "q2FqvRrDLvfGWSw",
+	"json": "{\"id\":\"q2FqvRrDLvfGWSw\",\"url\":\"https://orangecounty.craigslist.org/gms/d/rancho-santa-margarita-community-garage/7928232854.html\",\"loadedUrl\":\"https://orangecounty.craigslist.org/gms/d/rancho-santa-margarita-community-garage/7928232854.html\",\"uniqueKey\":\"https://orangecounty.craigslist.org/gms/d/rancho-santa-margarita-community-garage/7928232854.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:16:15.928Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://orangecounty.craigslist.org/gms/d/rancho-santa-margarita-community-garage/7928232854.html",
+	"url": "https://orangecounty.craigslist.org/gms/d/rancho-santa-margarita-community-garage/7928232854.html"
+}

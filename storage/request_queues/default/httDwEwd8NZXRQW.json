@@ -1,0 +1,9 @@
+{
+	"id": "httDwEwd8NZXRQW",
+	"json": "{\"id\":\"httDwEwd8NZXRQW\",\"url\":\"https://anchorage.craigslist.org/gms/d/anchorage-garage-sale-jewel-lake/7930104136.html\",\"loadedUrl\":\"https://anchorage.craigslist.org/gms/d/anchorage-garage-sale-jewel-lake/7930104136.html\",\"uniqueKey\":\"https://anchorage.craigslist.org/gms/d/anchorage-garage-sale-jewel-lake/7930104136.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AK\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:11:49.035Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://anchorage.craigslist.org/gms/d/anchorage-garage-sale-jewel-lake/7930104136.html",
+	"url": "https://anchorage.craigslist.org/gms/d/anchorage-garage-sale-jewel-lake/7930104136.html"
+}

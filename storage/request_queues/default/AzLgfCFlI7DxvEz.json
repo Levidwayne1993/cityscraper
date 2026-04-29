@@ -1,0 +1,9 @@
+{
+	"id": "AzLgfCFlI7DxvEz",
+	"json": "{\"id\":\"AzLgfCFlI7DxvEz\",\"url\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-sunday-event-garage-sale/7928422170.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-sunday-event-garage-sale/7928422170.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/esd/gms/d/la-mesa-sunday-event-garage-sale/7928422170.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:06:05.929Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-sunday-event-garage-sale/7928422170.html",
+	"url": "https://sandiego.craigslist.org/esd/gms/d/la-mesa-sunday-event-garage-sale/7928422170.html"
+}

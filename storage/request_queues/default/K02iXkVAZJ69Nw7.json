@@ -1,0 +1,9 @@
+{
+	"id": "K02iXkVAZJ69Nw7",
+	"json": "{\"id\":\"K02iXkVAZJ69Nw7\",\"url\":\"https://slo.craigslist.org/fuo/d/los-osos-moving-sale/7927952320.html\",\"loadedUrl\":\"https://slo.craigslist.org/fuo/d/los-osos-moving-sale/7927952320.html\",\"uniqueKey\":\"https://slo.craigslist.org/fuo/d/los-osos-moving-sale/7927952320.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:48:26.777Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://slo.craigslist.org/fuo/d/los-osos-moving-sale/7927952320.html",
+	"url": "https://slo.craigslist.org/fuo/d/los-osos-moving-sale/7927952320.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "IQBnvw3lW20Cv5f",
+	"json": "{\"id\":\"IQBnvw3lW20Cv5f\",\"url\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale/7924965181.html\",\"loadedUrl\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale/7924965181.html\",\"uniqueKey\":\"https://modesto.craigslist.org/gms/d/modesto-yard-sale/7924965181.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T09:54:12.545Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://modesto.craigslist.org/gms/d/modesto-yard-sale/7924965181.html",
+	"url": "https://modesto.craigslist.org/gms/d/modesto-yard-sale/7924965181.html"
+}

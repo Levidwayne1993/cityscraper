@@ -1,0 +1,9 @@
+{
+	"id": "p4u0v4EImjjoOsh",
+	"json": "{\"id\":\"p4u0v4EImjjoOsh\",\"url\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-ridgeview-neighborhood-garage/7928037472.html\",\"loadedUrl\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-ridgeview-neighborhood-garage/7928037472.html\",\"uniqueKey\":\"https://sandiego.craigslist.org/csd/gms/d/san-diego-ridgeview-neighborhood-garage/7928037472.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:05:06.193Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sandiego.craigslist.org/csd/gms/d/san-diego-ridgeview-neighborhood-garage/7928037472.html",
+	"url": "https://sandiego.craigslist.org/csd/gms/d/san-diego-ridgeview-neighborhood-garage/7928037472.html"
+}

@@ -1,0 +1,9 @@
+{
+	"id": "uIg0xGA6eaIw8c0",
+	"json": "{\"id\":\"uIg0xGA6eaIw8c0\",\"url\":\"https://newhaven.craigslist.org/search/ccc?query=yard+sale\",\"loadedUrl\":\"https://newhaven.craigslist.org/search/ccc?query=yard+sale\",\"uniqueKey\":\"https://newhaven.craigslist.org/search/ccc?query=yard+sale\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CT\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:14:24.010Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://newhaven.craigslist.org/search/ccc?query=yard+sale",
+	"url": "https://newhaven.craigslist.org/search/ccc?query=yard+sale"
+}

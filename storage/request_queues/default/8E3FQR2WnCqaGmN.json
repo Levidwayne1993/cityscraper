@@ -1,0 +1,9 @@
+{
+	"id": "8E3FQR2WnCqaGmN",
+	"json": "{\"id\":\"8E3FQR2WnCqaGmN\",\"url\":\"https://cosprings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"loadedUrl\":\"https://cosprings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"uniqueKey\":\"https://cosprings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CO\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T12:32:24.178Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://cosprings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480",
+	"url": "https://cosprings.craigslist.org/search/sss?query=yard+sale+garage+sale&s=480"
+}

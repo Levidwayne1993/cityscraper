@@ -1,0 +1,9 @@
+{
+	"id": "FebW8EcBE2S0X4l",
+	"json": "{\"id\":\"FebW8EcBE2S0X4l\",\"url\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-yard-sale-designer-clothes/7928398684.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-yard-sale-designer-clothes/7928398684.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/sby/gms/d/san-jose-yard-sale-designer-clothes/7928398684.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:26:13.916Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/sby/gms/d/san-jose-yard-sale-designer-clothes/7928398684.html",
+	"url": "https://sfbay.craigslist.org/sby/gms/d/san-jose-yard-sale-designer-clothes/7928398684.html"
+}

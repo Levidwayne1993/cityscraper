@@ -1,0 +1,9 @@
+{
+	"id": "3kcYEsTFWiHm31a",
+	"json": "{\"id\":\"3kcYEsTFWiHm31a\",\"url\":\"https://flagstaff.craigslist.org/gms/d/sedona-estate-sale-for-searching/7926277644.html\",\"loadedUrl\":\"https://flagstaff.craigslist.org/gms/d/sedona-estate-sale-for-searching/7926277644.html\",\"uniqueKey\":\"https://flagstaff.craigslist.org/gms/d/sedona-estate-sale-for-searching/7926277644.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:17:25.848Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://flagstaff.craigslist.org/gms/d/sedona-estate-sale-for-searching/7926277644.html",
+	"url": "https://flagstaff.craigslist.org/gms/d/sedona-estate-sale-for-searching/7926277644.html"
+}

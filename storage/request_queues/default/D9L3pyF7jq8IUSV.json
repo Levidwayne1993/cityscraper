@@ -1,0 +1,9 @@
+{
+	"id": "D9L3pyF7jq8IUSV",
+	"json": "{\"id\":\"D9L3pyF7jq8IUSV\",\"url\":\"https://yuma.craigslist.org/gms/d/yuma-huge-garage-sale/7926100230.html\",\"loadedUrl\":\"https://yuma.craigslist.org/gms/d/yuma-huge-garage-sale/7926100230.html\",\"uniqueKey\":\"https://yuma.craigslist.org/gms/d/yuma-huge-garage-sale/7926100230.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T08:10:15.156Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://yuma.craigslist.org/gms/d/yuma-huge-garage-sale/7926100230.html",
+	"url": "https://yuma.craigslist.org/gms/d/yuma-huge-garage-sale/7926100230.html"
+}

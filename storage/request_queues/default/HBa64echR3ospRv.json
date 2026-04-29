@@ -1,8 +1,8 @@
 {
 	"id": "HBa64echR3ospRv",
-	"json": "{\"id\":\"HBa64echR3ospRv\",\"url\":\"https://prescott.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://prescott.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"HBa64echR3ospRv\",\"url\":\"https://prescott.craigslist.org/search/gms?s=240\",\"loadedUrl\":\"https://prescott.craigslist.org/search/gms?s=240\",\"uniqueKey\":\"https://prescott.craigslist.org/search/gms?s=240\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"AZ\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T07:45:27.326Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323008,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://prescott.craigslist.org/search/gms?s=240",
 	"url": "https://prescott.craigslist.org/search/gms?s=240"

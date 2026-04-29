@@ -1,0 +1,9 @@
+{
+	"id": "HHxeA6BJpHWCwQY",
+	"json": "{\"id\":\"HHxeA6BJpHWCwQY\",\"url\":\"https://redding.craigslist.org/gms/d/redding-estate-and-yard-sale-multi/7928216151.html\",\"loadedUrl\":\"https://redding.craigslist.org/gms/d/redding-estate-and-yard-sale-multi/7928216151.html\",\"uniqueKey\":\"https://redding.craigslist.org/gms/d/redding-estate-and-yard-sale-multi/7928216151.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T10:36:31.937Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://redding.craigslist.org/gms/d/redding-estate-and-yard-sale-multi/7928216151.html",
+	"url": "https://redding.craigslist.org/gms/d/redding-estate-and-yard-sale-multi/7928216151.html"
+}

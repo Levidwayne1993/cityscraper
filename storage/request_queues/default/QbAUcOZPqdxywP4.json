@@ -1,0 +1,9 @@
+{
+	"id": "QbAUcOZPqdxywP4",
+	"json": "{\"id\":\"QbAUcOZPqdxywP4\",\"url\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-yard-sale-saturday-sunday/7929303145.html\",\"loadedUrl\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-yard-sale-saturday-sunday/7929303145.html\",\"uniqueKey\":\"https://sfbay.craigslist.org/pen/gms/d/redwood-city-yard-sale-saturday-sunday/7929303145.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"CA\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T11:19:38.282Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-yard-sale-saturday-sunday/7929303145.html",
+	"url": "https://sfbay.craigslist.org/pen/gms/d/redwood-city-yard-sale-saturday-sunday/7929303145.html"
+}

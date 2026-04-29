@@ -1,0 +1,9 @@
+{
+	"id": "EIWF3qfuFxvTKhh",
+	"json": "{\"id\":\"EIWF3qfuFxvTKhh\",\"url\":\"https://washingtondc.craigslist.org/mld/gms/d/gaithersburg-qo-marching-band-yard-sale/7928007966.html\",\"loadedUrl\":\"https://washingtondc.craigslist.org/mld/gms/d/gaithersburg-qo-marching-band-yard-sale/7928007966.html\",\"uniqueKey\":\"https://washingtondc.craigslist.org/mld/gms/d/gaithersburg-qo-marching-band-yard-sale/7928007966.html\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"DC\",\"handler\":\"detail\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T13:25:52.591Z\"}",
+	"method": "GET",
+	"orderNo": null,
+	"retryCount": 0,
+	"uniqueKey": "https://washingtondc.craigslist.org/mld/gms/d/gaithersburg-qo-marching-band-yard-sale/7928007966.html",
+	"url": "https://washingtondc.craigslist.org/mld/gms/d/gaithersburg-qo-marching-band-yard-sale/7928007966.html"
+}

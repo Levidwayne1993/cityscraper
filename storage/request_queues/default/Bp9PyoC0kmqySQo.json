@@ -1,0 +1,9 @@
+{
+	"id": "Bp9PyoC0kmqySQo",
+	"json": "{\"id\":\"Bp9PyoC0kmqySQo\",\"url\":\"https://jerseyshore.craigslist.org/search/gms?s=480\",\"uniqueKey\":\"https://jerseyshore.craigslist.org/search/gms?s=480\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"NJ\"}}",
+	"method": "GET",
+	"orderNo": 1777186522804,
+	"retryCount": 0,
+	"uniqueKey": "https://jerseyshore.craigslist.org/search/gms?s=480",
+	"url": "https://jerseyshore.craigslist.org/search/gms?s=480"
+}

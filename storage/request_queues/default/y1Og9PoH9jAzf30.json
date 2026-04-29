@@ -1,8 +1,8 @@
 {
 	"id": "y1Og9PoH9jAzf30",
-	"json": "{\"id\":\"y1Og9PoH9jAzf30\",\"url\":\"https://lakeland.craigslist.org/search/gms\",\"uniqueKey\":\"https://lakeland.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"pageType\":\"index\"}}",
+	"json": "{\"id\":\"y1Og9PoH9jAzf30\",\"url\":\"https://lakeland.craigslist.org/search/gms\",\"loadedUrl\":\"https://lakeland.craigslist.org/search/gms\",\"uniqueKey\":\"https://lakeland.craigslist.org/search/gms\",\"method\":\"GET\",\"noRetry\":false,\"retryCount\":0,\"errorMessages\":[],\"headers\":{},\"userData\":{\"source\":\"craigslist\",\"state\":\"FL\",\"__crawlee\":{\"state\":4}},\"handledAt\":\"2026-04-26T14:44:08.241Z\"}",
 	"method": "GET",
-	"orderNo": 1777040323554,
+	"orderNo": null,
 	"retryCount": 0,
 	"uniqueKey": "https://lakeland.craigslist.org/search/gms",
 	"url": "https://lakeland.craigslist.org/search/gms"
