@@ -438,6 +438,9 @@ function extractDateFromText(text: string): string | null {
   const now = new Date();
   const currentYear = now.getFullYear();
 
+  // v4.9: Strip ordinal suffixes so "April 11th" → "April 11", "Mar 28th" → "Mar 28"
+  text = text.replace(/(\d{1,2})(st|nd|rd|th)\b/gi, '$1');
+
   // Helper: validate and format a date, returns YYYY-MM-DD or null
   function toDateStr(year: number, month: number, day: number): string | null {
     if (month < 1 || month > 12 || day < 1 || day > 31) return null;
