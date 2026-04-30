@@ -1752,9 +1752,21 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 async function saveBatchToSupabase(sales: ScrapedSale[]): Promise<void> {
   if (sales.length === 0) return;
 
+  // v4.9: Quality gate — reject junk BEFORE it hits the database
+  const quality = sales.filter((s) => {
+    if (!hasValidAddress(s.address)) {
+      log.debug(`[QUALITY GATE] Rejected "${s.title}" — no valid street address`);
+      return false;
+    }
+    return true;
+  });
+  log.info(`[QUALITY GATE] ${sales.length} in → ${quality.length} passed (${sales.length - quality.length} rejected)`);
+  if (quality.length === 0) return;
+
   const chunkSize = 50;
-  for (let i = 0; i < sales.length; i += chunkSize) {
-    const chunk = sales.slice(i, i + chunkSize);
+  for (let i = 0; i < quality.length; i += chunkSize) {
+    const chunk = quality.slice(i, i + chunkSize);
+
     const { error } = await supabase
       .from('yard_sales')
       .upsert(chunk, { onConflict: 'source_url' });
