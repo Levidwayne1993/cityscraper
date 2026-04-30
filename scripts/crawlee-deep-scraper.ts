@@ -117,6 +117,27 @@ const YSS_MAX_PAGES = 5;
 
 // ── SAVE BATCHES ──
 const SAVE_BATCH_SIZE = 25;
+const TARGET_STATES: string[] | null = ['TX'];  // null = all 50 states
+const STATE_NAME_TO_ABBREV: Record<string, string> = {
+  'alabama':'AL','alaska':'AK','arizona':'AZ','arkansas':'AR','california':'CA',
+  'colorado':'CO','connecticut':'CT','delaware':'DE','florida':'FL','georgia':'GA',
+  'hawaii':'HI','idaho':'ID','illinois':'IL','indiana':'IN','iowa':'IA',
+  'kansas':'KS','kentucky':'KY','louisiana':'LA','maine':'ME','maryland':'MD',
+  'massachusetts':'MA','michigan':'MI','minnesota':'MN','mississippi':'MS','missouri':'MO',
+  'montana':'MT','nebraska':'NE','nevada':'NV','new-hampshire':'NH','new-jersey':'NJ',
+  'new-mexico':'NM','new-york':'NY','north-carolina':'NC','north-dakota':'ND','ohio':'OH',
+  'oklahoma':'OK','oregon':'OR','pennsylvania':'PA','rhode-island':'RI','south-carolina':'SC',
+  'south-dakota':'SD','tennessee':'TN','texas':'TX','utah':'UT','vermont':'VT',
+  'virginia':'VA','washington':'WA','west-virginia':'WV','wisconsin':'WI','wyoming':'WY',
+};
+function isTargetState(stateVal: string): boolean {
+  if (!TARGET_STATES) return true;
+  const upper = stateVal.toUpperCase();
+  if (upper.length === 2 && TARGET_STATES.includes(upper)) return true;
+  const abbrev = STATE_NAME_TO_ABBREV[stateVal.toLowerCase()];
+  return abbrev ? TARGET_STATES.includes(abbrev) : false;
+}
+
 
 // ── TYPES ──
 interface ScrapedSale {
@@ -1605,6 +1626,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
   // ── Craigslist: /gms (3 pages) + /sss yard+garage (3 pages) + /sss estate + /sss moving ──
   // = 8 URLs per subdomain × 413 subdomains = 3,304 CL URLs
   for (const [state, subdomains] of Object.entries(CRAIGSLIST_CITIES)) {
+    if (!isTargetState(state)) continue;
     for (const sub of subdomains) {
       // GMS category — page 1
       urls.push({
@@ -1654,6 +1676,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 
   // ── EstateSales.net — 5 pages per state ──
   for (const state of ESTATE_SALES_STATES) {
+    if (!isTargetState(state)) continue;
     urls.push({
       url: `https://www.estatesales.net/estate-sales/${state}`,
       userData: { source: 'estatesales', state },
@@ -1668,6 +1691,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 
   // ── GarageSaleFinder — 5 pages per state ──
   for (const state of GSF_STATES) {
+    if (!isTargetState(state)) continue;
     urls.push({
       url: `https://www.garagesalefinder.com/yard-sales/by-location/${state}/`,
       userData: { source: 'garagesalefinder', state },
@@ -1683,6 +1707,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
   // ── YardSaleSearch — 5 pages per city ── (v4.1: added yssSlug to userData)
   for (const city of YSS_CITIES) {
     const state = city.split('-').pop() || '';
+    if (!isTargetState(state)) continue;
     urls.push({
       url: `https://www.yardsalesearch.com/yard-sales/${city}.html`,
       userData: { source: 'yardsalesearch', state, yssSlug: city },
@@ -1697,6 +1722,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 
   // ── Gsalr — 3 pages per state ──
   for (const state of GSALR_STATES) {
+    if (!isTargetState(state)) continue;
     urls.push({
       url: `https://gsalr.com/${state}/`,
       userData: { source: 'gsalr', state },
@@ -1711,6 +1737,7 @@ function buildStartUrls(): { url: string; userData: Record<string, string> }[] {
 
   // ── v4.5: YardSaleTreasureMap — state directory pages (discover city URLs dynamically) ──
   for (const ystmState of YSTM_STATES) {
+    if (!isTargetState(ystmState)) continue;
     urls.push({
       url: `https://yardsaletreasuremap.com/US/${ystmState}/`,
       userData: { source: 'ystm', state: ystmState },
