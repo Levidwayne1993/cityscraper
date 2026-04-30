@@ -105,6 +105,7 @@ export const ZIP_PATTERN = /\b\d{5}(-\d{4})?\b/;
 export const DATE_PATTERNS: RegExp[] = [
   /\b(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},?\s*\d{4}\b/i,
   /\b\d{1,2}\/\d{1,2}\/\d{2,4}\b/,
+  /\b\d{1,2}\/\d{1,2}(?!\/\d)\b/,          // v4.2: M/D without year — "3/14"
   /\b\d{1,2}-\d{1,2}-\d{2,4}\b/,
   /\b\d{4}-\d{2}-\d{2}\b/,
   /\b(Mon|Tue|Wed|Thu|Fri|Sat|Sun)(day)?\b/i,
@@ -179,6 +180,61 @@ function sanitizeDescription(raw: string): string {
   text = text.trim();
 
   return text;
+}
+
+// ============================================
+// TITLE METADATA STRIPPER v4.2
+// Removes dates, times, and addresses from
+// titles after extraction to dedicated fields.
+// ============================================
+
+function stripTitleMetadata(title: string): string {
+  let t = title;
+
+  // Full time ranges: "7am-12pm", "7:00 AM – 2:00 PM"
+  t = t.replace(
+    /\b\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\s*[-–—~]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi,
+    ''
+  );
+  // Partial range: "8-2pm", "7–12pm"
+  t = t.replace(
+    /\b\d{1,2}(?::\d{2})?\s*[-–—~]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi,
+    ''
+  );
+  // Standalone: "7am", "8:00 AM"
+  t = t.replace(/\b\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi, '');
+  // Bare number range where both sides are 1-12: "9-6"
+  t = t.replace(/\b(\d{1,2})\s*[-–—]\s*(\d{1,2})\b/g, (m, a, b) => {
+    const na = parseInt(a), nb = parseInt(b);
+    return na >= 1 && na <= 12 && nb >= 1 && nb <= 12 ? '' : m;
+  });
+
+  // Date: M/D or M/D/Y
+  t = t.replace(/\b\d{1,2}\/\d{1,2}(?:\/\d{2,4})?\b/g, '');
+  // Date: "March 14, 2026", "Mar 14"
+  t = t.replace(
+    /\b(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{1,2}(?:\s*,?\s*\d{4})?\b/gi,
+    ''
+  );
+  // Day names: "Saturday", "Fri"
+  t = t.replace(
+    /\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\.?\b/gi,
+    ''
+  );
+
+  // Street addresses: "308 Frisco Rd", "1309 East Avery St"
+  t = t.replace(
+    /\b\d{1,5}\s+(?:[A-Za-z]+\.?\s+){0,3}(?:St|Street|Ave|Avenue|Blvd|Boulevard|Dr|Drive|Rd|Road|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Hwy)\.?\b/gi,
+    ''
+  );
+
+  // Cleanup
+  t = t.replace(/^\s*(?:and|&)\s+/gi, '');
+  t = t.replace(/\s+(?:and|&)\s*$/gi, '');
+  t = t.replace(/\s{2,}/g, ' ').trim();
+  t = t.replace(/^[\s\-–—,.:;]+/, '').replace(/[\s\-–—,.:;]+$/, '');
+
+  return t.length >= 5 ? t : title;
 }
 
 // ============================================
@@ -373,6 +429,18 @@ export function parseDate(dateStr: string | undefined): string | null {
     const year = hyphenMatch[3].length === 2 ? `20${hyphenMatch[3]}` : hyphenMatch[3];
     return `${year}-${month}-${day}`;
   }
+    // v4.2: M/D without year → assume current year
+  const mdNoYear = dateStr.match(/^(\d{1,2})\/(\d{1,2})$/);
+  if (mdNoYear) {
+    const month = parseInt(mdNoYear[1]);
+    const day = parseInt(mdNoYear[2]);
+    if (month >= 1 && month <= 12 && day >= 1 && day <= 31) {
+      const year = new Date().getFullYear();
+      const d = new Date(year, month - 1, day);
+      if (!isNaN(d.getTime())) return d.toISOString().split('T')[0];
+    }
+  }
+
 
   const monthMatch = dateStr.match(
     /\b(jan(?:uary)?|feb(?:ruary)?|mar(?:ch)?|apr(?:il)?|may|jun(?:e)?|jul(?:y)?|aug(?:ust)?|sep(?:tember)?|oct(?:ober)?|nov(?:ember)?|dec(?:ember)?)\s+(\d{1,2})(?:\s*,?\s*(\d{4}))?/i
@@ -433,6 +501,17 @@ export function parseTimeRange(
 
     return { start: parseTime(startStr), end: parseTime(endStr) };
   }
+  // v4.2: Bare number range: "9-6" → 9:00 AM – 6:00 PM
+  const bareRange = text.match(/\b(\d{1,2})\s*[-–—]\s*(\d{1,2})\b/);
+  if (bareRange) {
+    const sn = parseInt(bareRange[1]), en = parseInt(bareRange[2]);
+    if (sn >= 1 && sn <= 12 && en >= 1 && en <= 12) {
+      const sp = sn >= 6 && sn <= 11 ? 'AM' : sn === 12 ? 'PM' : 'AM';
+      const ep = en >= 1 && en <= 6 ? 'PM' : 'PM';
+      return { start: parseTime(`${sn}:00 ${sp}`), end: parseTime(`${en}:00 ${ep}`) };
+    }
+  }
+
 
   return { start: null, end: null };
 }
@@ -633,12 +712,15 @@ export function normalizeListing(raw: RawListing): NormalizedSale | null {
   // GATE 0: Must have a title
   if (!raw.title || raw.title.trim().length < 3) return null;
 
-  const title = cleanHtmlEntities(
+  const rawTitle = cleanHtmlEntities(
     raw.title.replace(/\s+/g, ' ').trim().slice(0, 200)
   );
 
   // GATE 1: Junk title filter
-  if (isJunkTitle(title)) return null;
+  if (isJunkTitle(rawTitle)) return null;
+
+  // v4.2: Strip dates, times, addresses from title after extraction uses the raw version
+  const title = stripTitleMetadata(rawTitle);
 
   // v4.1: sanitizeDescription() strips HTML tags, raw URLs, image links
   let description: string | null = null;

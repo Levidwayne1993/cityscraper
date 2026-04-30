@@ -260,6 +260,57 @@ function normalizeTime(t: string): string {
 // 2. NEW: "7am-2pm" without spaces
 // 3. NEW: "7a-2p" shorthand
 // 4. IMPROVED: handles en-dash (–) and em-dash (—) as range separators
+/* ── v4.8 · strip schedule & address data from titles ──────────── */
+function stripTitleMetadata(title: string): string {
+  let t = title;
+
+  // Full time ranges: "7am-12pm", "7:00 AM – 2:00 PM"
+  t = t.replace(
+    /\b\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\s*[-–—~]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi,
+    ''
+  );
+  // Partial range: "8-2pm", "7–12pm"
+  t = t.replace(
+    /\b\d{1,2}(?::\d{2})?\s*[-–—~]+\s*\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi,
+    ''
+  );
+  // Standalone: "7am", "8:00 AM"
+  t = t.replace(/\b\d{1,2}(?::\d{2})?\s*(?:am|pm|a\.m\.|p\.m\.)\.?\b/gi, '');
+  // Bare number range where both sides are 1-12: "9-6"
+  t = t.replace(/\b(\d{1,2})\s*[-–—]\s*(\d{1,2})\b/g, (m, a, b) => {
+    const na = parseInt(a), nb = parseInt(b);
+    return na >= 1 && na <= 12 && nb >= 1 && nb <= 12 ? '' : m;
+  });
+
+  // Date: M/D or M/D/Y — "3/14", "03/14/2026"
+  t = t.replace(/\b\d{1,2}\/\d{1,2}(?:\/\d{2,4})?\b/g, '');
+  // Date: "March 14, 2026", "Mar 14"
+  t = t.replace(
+    /\b(?:January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)\.?\s+\d{1,2}(?:\s*,?\s*\d{4})?\b/gi,
+    ''
+  );
+  // Day names: "Saturday", "Fri"
+  t = t.replace(
+    /\b(?:Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday|Mon|Tue|Wed|Thu|Fri|Sat|Sun)\.?\b/gi,
+    ''
+  );
+
+  // Street addresses: "308 Frisco Rd", "1309 East Avery St"
+  t = t.replace(
+    /\b\d{1,5}\s+(?:[A-Za-z]+\.?\s+){0,3}(?:St|Street|Ave|Avenue|Blvd|Boulevard|Dr|Drive|Rd|Road|Ln|Lane|Way|Ct|Court|Pl|Place|Cir|Circle|Pkwy|Hwy)\.?\b/gi,
+    ''
+  );
+
+  // Cleanup leftover connectors and whitespace
+  t = t.replace(/^\s*(?:and|&)\s+/gi, '');
+  t = t.replace(/\s+(?:and|&)\s*$/gi, '');
+  t = t.replace(/\s{2,}/g, ' ').trim();
+  t = t.replace(/^[\s\-–—,.:;]+/, '').replace(/[\s\-–—,.:;]+$/, '');
+
+  return t.length >= 5 ? t : title;
+}
+
+
 function extractTimes(text: string): { time_start: string | null; time_end: string | null } {
   // Pattern 1: Full range with AM/PM on both sides
   // "8:00 AM - 2:00 PM", "8AM-2PM", "8am – 2pm", "8a-2p"
@@ -1750,9 +1801,13 @@ async function main(): Promise<void> {
           // Also try extracting from locationText (e.g. "Winston-Salem")
           const locationCity = extractCityFromAddress(locationText);
 
+          // v4.8: Extract date/time from raw title before cleaning
+          const clTitleTimes = extractTimes(title);
+          const clTitleDate = extractDateFromText(title);
+
           const sale: ScrapedSale = {
             source_id: fullUrl.split('/').pop()?.replace('.html', '') || '',
-            title: cleanTitle(title),  // v4.2 FIX: clean title
+            title: stripTitleMetadata(cleanTitle(title)),
             description: '',
             address: locationText || '',
             city: locationCity || clCity || '',
@@ -1760,10 +1815,10 @@ async function main(): Promise<void> {
             zip: extractZip(locationText) || '',
             lat: null,
             lng: null,
-            date_start: dateStr ? dateStr.split('T')[0] : null, // v4.3: use CL posting date as fallback — detail handler overrides with real sale date if found
+            date_start: clTitleDate || (dateStr ? dateStr.split('T')[0] : null),
             date_end: null,
-            time_start: null,
-            time_end: null,
+            time_start: clTitleTimes.time_start || null,
+            time_end: clTitleTimes.time_end || null,
             price_range: null,
             categories: guessCategories(title),
             source: 'craigslist',
@@ -1929,12 +1984,13 @@ async function main(): Promise<void> {
               const image = item.image || '';
 
               const sale: ScrapedSale = {
-                source_id: sourceUrl.split('/').pop() || '',
-                title: cleanTitle(title),  // v4.2 FIX: clean title
-                description: item.description || '',
-                address: streetAddress,
-                city,
-                state: stateCode,
+              source_id: sourceUrl.split('/').pop() || '',
+              title: stripTitleMetadata(cleanTitle(title)),
+              description: item.description || '',
+              address: streetAddress,
+              city,
+              state: stateCode,
+
                 zip,
                 lat: lat ? parseFloat(lat) : null,
                 lng: lng ? parseFloat(lng) : null,
@@ -1981,9 +2037,14 @@ async function main(): Promise<void> {
             // v4.1: Extract city from address text instead of leaving blank
             const esCity = extractCityFromAddress(addressText) || '';
 
+                        // v4.8: Extract date/time from raw title
+            const esTitleTimes = extractTimes(title);
+            const esTitleDate = extractDateFromText(title);
+
             const sale: ScrapedSale = {
               source_id: link.split('/').pop() || '',
-              title: cleanTitle(title),  // v4.2 FIX: clean title
+              title: stripTitleMetadata(cleanTitle(title)),
+
               description: '',
               address: extractAddressFromText(addressText) || addressText,
               city: esCity,
@@ -1991,10 +2052,11 @@ async function main(): Promise<void> {
               zip: extractZip(addressText) || '',
               lat: null,
               lng: null,
-              date_start: extractDateFromText(dateText),
+              date_start: extractDateFromText(dateText) || esTitleDate || null,
               date_end: null,
-              time_start: null,
-              time_end: null,
+              time_start: esTitleTimes.time_start || null,
+              time_end: esTitleTimes.time_end || null,
+
               price_range: null,
               categories: guessCategories(title),
               source: 'estatesales',
@@ -2307,10 +2369,11 @@ async function main(): Promise<void> {
           // v4.1: Extract city from yssSlug in userData (e.g. 'Winston-Salem-NC')
           const yssSlug = request.userData.yssSlug || '';
           const yssCity = extractCityFromYSSSlug(yssSlug);
-
+          // v4.8: Extract date/time from raw title
+          const yssTitleTimes = extractTimes(title);
           const sale: ScrapedSale = {
             source_id: link.split('/').pop()?.replace('.html', '') || '',
-            title: cleanTitle(title),  // v4.2 FIX: clean title
+            title: stripTitleMetadata(cleanTitle(title)),
             description: '',
             address: extractAddressFromText(addressText || bodyText) || '',
             city: yssCity || extractCityFromAddress(addressText) || '',
@@ -2318,10 +2381,10 @@ async function main(): Promise<void> {
             zip: extractZip(addressText || bodyText) || '',
             lat: null,
             lng: null,
-            date_start: extractDateFromText(dateText || bodyText),
+            date_start: extractDateFromText(dateText || bodyText) || extractDateFromText(title) || null,
             date_end: null,
-            time_start: null,
-            time_end: null,
+            time_start: yssTitleTimes.time_start || null,
+            time_end: yssTitleTimes.time_end || null,
             price_range: null,
             categories: guessCategories(title),
             source: 'yardsalesearch',
@@ -2473,10 +2536,11 @@ async function main(): Promise<void> {
 
           // v4.1: Extract city from body text or address text
           const gsalrCity = extractCityFromAddress(addressText) || extractCityFromAddress(bodyText) || '';
-
+          // v4.8: Extract date/time from raw title
+          const gsalrTitleTimes = extractTimes(title);
           const sale: ScrapedSale = {
             source_id: link.split('/').pop()?.replace('.html', '') || '',
-            title: cleanTitle(title),  // v4.2 FIX: clean title
+            title: stripTitleMetadata(cleanTitle(title)),
             description: '',
             address: extractAddressFromText(addressText || bodyText) || '',
             city: gsalrCity,
@@ -2484,10 +2548,10 @@ async function main(): Promise<void> {
             zip: extractZip(addressText || bodyText) || '',
             lat: null,
             lng: null,
-            date_start: extractDateFromText(dateText || bodyText),
+            date_start: extractDateFromText(dateText || bodyText) || extractDateFromText(title) || null,
             date_end: null,
-            time_start: null,
-            time_end: null,
+            time_start: gsalrTitleTimes.time_start || null,
+            time_end: gsalrTitleTimes.time_end || null,
             price_range: null,
             categories: guessCategories(title),
             source: 'gsalr',
@@ -2711,7 +2775,7 @@ async function main(): Promise<void> {
 
             const sale: ScrapedSale = {
               source_id: sourceId,
-              title: cleanTitle(title),
+              title: stripTitleMetadata(cleanTitle(title)),
               description: '',
               address: address,
               city: ystmCity,
